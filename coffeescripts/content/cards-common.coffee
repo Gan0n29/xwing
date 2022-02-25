@@ -742,9 +742,8 @@ exportObj.basicCardData = ->
             ]
         "Fang Fighter":
             name: "Fang Fighter"
-            canonical_name: 'Protectorate Starfighter'.canonicalize()
             xws: "Fang Fighter".canonicalize()
-            factions: ["Scum and Villainy"]
+            factions: ["Scum and Villainy", "Rebel Alliance"]
             attack: 3
             agility: 3
             hull: 4
@@ -1258,6 +1257,30 @@ exportObj.basicCardData = ->
             agility: 3
             hull: 3
             shields: 1
+            actions: [
+                "Focus"
+                "F-Evade"
+                "Lock"
+                "Barrel Roll"
+                "Boost"
+            ]
+            maneuvers: [
+                [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+                [ 2, 1, 0, 1, 2, 0, 0, 0, 0, 0]
+                [ 2, 1, 1, 1, 2, 0, 3, 3, 0, 0]
+                [ 0, 2, 1, 2, 0, 0, 0, 0, 0, 0]
+                [ 0, 0, 2, 0, 0, 3, 0, 0, 0, 0]
+                [ 0, 0, 2, 0, 0, 3, 0, 0, 0, 0]
+            ]
+        "Delta-7b Aethersprite":
+            name: "Delta-7b Aethersprite"
+            icon: "delta7aethersprite"
+            xws: "Delta-7b Aethersprite".canonicalize()
+            factions: ["Galactic Republic"]
+            attack: 3
+            agility: 2
+            hull: 3
+            shields: 3
             actions: [
                 "Focus"
                 "F-Evade"
@@ -1790,6 +1813,56 @@ exportObj.basicCardData = ->
                 [ 2, 2, 1, 2, 2, 0, 3, 3, 0, 0 ]
                 [ 0, 0, 2, 0, 0, 0, 0, 0, 0, 0 ]
                 [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+            ]
+        "Gauntlet Fighter":
+            name: "Gauntlet Fighter"
+            xws: "Gauntlet Fighter".canonicalize()
+            factions: ["Rebel Alliance", "Galactic Empire", "Scum and Villainy", "Galactic Republic", "Separatist Alliance"]
+            attack: 3
+            attackb: 2
+            agility: 2
+            hull: 9
+            shields: 2
+            large: true
+            actions: [
+                "Focus"
+                "R-Reinforce"
+                "Lock"
+                "R-Coordinate"
+            ]
+            autoequip: [
+                "Swivel Wing"
+            ]
+            maneuvers: [
+                [ 0, 0, 3, 0, 0, 0, 0, 0, 0, 0 ]
+                [ 0, 1, 0, 1, 0, 0, 0, 0, 0, 0 ]
+                [ 2, 1, 1, 1, 2, 0, 0, 0, 0, 0 ]
+                [ 3, 2, 2, 2, 3, 0, 0, 0, 0, 0 ]
+                [ 0, 0, 2, 0, 0, 0, 0, 0, 0, 0 ]
+                [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+            ]
+        "ST-70 Assault Ship":
+            name: "ST-70 Assault Ship"
+            xws: "ST-70 Assault Ship".canonicalize()
+            factions: ["Scum and Villainy"]
+            attack: 3
+            agility: 2
+            hull: 7
+            shields: 2
+            medium: true
+            actions: [
+                "Focus"
+                "Evade"
+                "Lock"
+                "R-Barrel Roll"
+            ]
+            maneuvers: [
+                [ 0, 0, 3, 0, 0, 0, 0, 0, 0, 0 ]
+                [ 3, 2, 1, 2, 3, 0, 0, 0, 0, 0 ]
+                [ 2, 2, 1, 2, 2, 0, 0, 0, 3, 3 ]
+                [ 3, 2, 1, 2, 3, 0, 0, 0, 0, 0 ]
+                [ 0, 0, 1, 0, 0, 0, 0, 0, 0, 0 ]
+                [ 0, 0, 0, 0, 0, 3, 0, 0, 0, 0 ]
             ]
 
         # Epic Section
@@ -10334,6 +10407,624 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
         }
+        {
+            name: "Bodica Venj"
+            id: 499
+            faction: "Rebel Alliance"
+            unique: true
+            ship: "Fang Fighter"
+            skill: 4
+            points: 52
+            keyword: ["Mandalorian"]
+            slots: [
+                "Talent"
+                "Torpedo"
+                "Modification"
+            ]
+        }
+        {
+            name: "Dirk Ullodin"
+            id: 500
+            faction: "Rebel Alliance"
+            unique: true
+            ship: "Fang Fighter"
+            skill: 3
+            points: 50
+            keyword: ["Mandalorian"]
+            slots: [
+                "Talent"
+                "Torpedo"
+                "Modification"
+            ]
+        }
+        {
+            name: "Fenn Rau (Rebel Fang)"
+            id: 501
+            faction: "Rebel Alliance"
+            canonical_name: 'Fenn Rau'.canonicalize()
+            xws: "fennrau-rebelfangfighter"
+            unique: true
+            ship: "Fang Fighter"
+            skill: 6
+            points: 60
+            keyword: ["Mandalorian"]
+            slots: [
+                "Talent"
+                "Torpedo"
+            ]
+        }
+        {
+            name: "Clan Wren Volunteer"
+            id: 502
+            faction: "Rebel Alliance"
+            ship: "Fang Fighter"
+            skill: 2
+            points: 45
+            max_per_squad: 2
+            keyword: ["Mandalorian"]
+            slots: [
+                "Torpedo"
+                "Modification"
+            ]
+        }
+        {
+            name: "Moff Gideon"
+            id: 503
+            unique: true
+            faction: "Galactic Empire"
+            ship: "TIE Fighter"
+            skill: 2
+            charge: 2
+            recurring: 1
+            points: 39
+            slots: [
+                "Talent"
+                "Illicit"
+                "Modification"
+            ]
+        }
+        {
+            name: "ISB Jingoist"
+            id: 504
+            faction: "Galactic Empire"
+            ship: "TIE Fighter"
+            skill: 4
+            points: 26
+            max_per_squad: 2
+            slots: [
+                "Talent"
+                "Illicit"
+                "Modification"
+            ]
+        }
+        {
+            name: "Mandalorian Royal Guard"
+            id: 505
+            faction: "Scum and Villainy"
+            ship: "Fang Fighter"
+            skill: 4
+            points: 48
+            max_per_squad: 2
+            keyword: ["Mandalorian"]
+            slots: [
+                "Talent"
+                "Torpedo"
+                "Modification"
+            ]
+        }
+        {
+            name: "Bo-Katan Kryze"
+            id: 506
+            skip: true
+        }
+        {
+            name: "Pre Vizsla"
+            id: 507
+            faction: "Separatist Alliance"
+            ship: "Gauntlet Fighter"
+            skill: 3
+            points: 66
+            charge: 2
+            recurring: 1
+            unique: true
+            keyword: ["Mandalorian"]
+            slots: [
+                "Talent"
+                "Crew"
+                "Gunner"
+                "Missile"
+                "Device"
+                "Modification"
+                "Title"
+                "Configuration"
+            ]
+        }
+        {
+            name: "Death Watch Warrior"
+            id: 508
+            faction: "Separatist Alliance"
+            ship: "Gauntlet Fighter"
+            skill: 2
+            points: 60
+            unique: true
+            keyword: ["Mandalorian"]
+            slots: [
+                "Crew"
+                "Gunner"
+                "Missile"
+                "Device"
+                "Modification"
+                "Title"
+                "Configuration"
+            ]
+        }
+        {
+            name: "Bo-Katan Kryze"
+            id: 509
+            faction: "Separatist Alliance"
+            ship: "Gauntlet Fighter"
+            skill: 4
+            points: 64
+            unique: true
+            keyword: ["Mandalorian"]
+            slots: [
+                "Talent"
+                "Crew"
+                "Gunner"
+                "Missile"
+                "Device"
+                "Modification"
+                "Title"
+                "Configuration"
+            ]
+        }
+        {
+            name: "Bo-Katan Kryze (Republic)"
+            canonical_name: 'Bo-Katan Kryze'.canonicalize()
+            id: 510
+            faction: "Galactic Republic"
+            ship: "Gauntlet Fighter"
+            skill: 4
+            points: 58
+            unique: true
+            keyword: ["Mandalorian"]
+            slots: [
+                "Talent"
+                "Crew"
+                "Gunner"
+                "Missile"
+                "Device"
+                "Modification"
+                "Title"
+                "Configuration"
+            ]
+        }
+        {
+            name: "Night Owl Liberator"
+            id: 511
+            faction: "Galactic Republic"
+            ship: "Gauntlet Fighter"
+            skill: 2
+            points: 54
+            unique: true
+            keyword: ["Mandalorian"]
+            slots: [
+                "Crew"
+                "Gunner"
+                "Missile"
+                "Device"
+                "Modification"
+                "Title"
+                "Configuration"
+            ]
+        }
+        {
+            name: "Maul"
+            id: 512
+            faction: "Scum and Villainy"
+            ship: "Gauntlet Fighter"
+            skill: 5
+            points: 72
+            unique: true
+            force: 3
+            keyword: ["Dark Side", "Sith"]
+            slots: [
+                "Force"
+                "Crew"
+                "Gunner"
+                "Missile"
+                "Device"
+                "Modification"
+                "Title"
+                "Configuration"
+            ]
+        }
+        {
+            name: "Shadow Collective Operator"
+            id: 513
+            faction: "Scum and Villainy"
+            ship: "Gauntlet Fighter"
+            skill: 1
+            points: 60
+            slots: [
+                "Crew"
+                "Gunner"
+                "Missile"
+                "Device"
+                "Modification"
+                "Title"
+                "Configuration"
+            ]
+        }
+        {
+            name: "Rook Kast"
+            id: 514
+            faction: "Scum and Villainy"
+            ship: "Gauntlet Fighter"
+            skill: 3
+            points: 65
+            unique: true
+            slots: [
+                "Talent"
+                "Crew"
+                "Gunner"
+                "Missile"
+                "Device"
+                "Modification"
+                "Title"
+                "Configuration"
+            ]
+        }
+        {
+            name: "Captain Hark"
+            id: 515
+            faction: "Galactic Empire"
+            ship: "Gauntlet Fighter"
+            skill: 2
+            points: 65
+            unique: true
+            keyword: ["Mandalorian"]
+            slots: [
+                "Talent"
+                "Crew"
+                "Gunner"
+                "Missile"
+                "Device"
+                "Modification"
+                "Title"
+                "Configuration"
+            ]
+        }
+        {
+            name: "Imperial Super Commando"
+            id: 516
+            faction: "Galactic Empire"
+            ship: "Gauntlet Fighter"
+            skill: 2
+            points: 60
+            unique: true
+            slots: [
+                "Crew"
+                "Gunner"
+                "Missile"
+                "Device"
+                "Modification"
+                "Title"
+                "Configuration"
+            ]
+        }
+        {
+            name: "Gar Saxon"
+            id: 517
+            faction: "Galactic Empire"
+            ship: "Gauntlet Fighter"
+            skill: 3
+            points: 70
+            unique: true
+            slots: [
+                "Talent"
+                "Crew"
+                "Gunner"
+                "Missile"
+                "Device"
+                "Modification"
+                "Title"
+                "Configuration"
+            ]
+        }
+        {
+            name: "Mandalorian Resistance Pilot"
+            id: 518
+            faction: "Rebel Alliance"
+            ship: "Gauntlet Fighter"
+            skill: 2
+            points: 60
+            unique: true
+            slots: [
+                "Crew"
+                "Gunner"
+                "Missile"
+                "Device"
+                "Modification"
+                "Title"
+                "Configuration"
+            ]
+        }
+        {
+            name: "Chopper (Gauntlet Fighter)"
+            canonical_name: 'Chopper'.canonicalize()
+            xws: "chopper-gauntletfighter"
+            id: 519
+            faction: "Rebel Alliance"
+            ship: "Gauntlet Fighter"
+            skill: 2
+            points: 62
+            unique: true
+            slots: [
+                "Crew"
+                "Gunner"
+                "Missile"
+                "Device"
+                "Modification"
+                "Title"
+                "Configuration"
+            ]
+        }
+        {
+            name: "Ezra Bridger (Gauntlet Fighter)"
+            canonical_name: 'Ezra Bridger'.canonicalize()
+            xws: "ezrabridger-gauntletfighter"
+            id: 520
+            faction: "Rebel Alliance"
+            ship: "Gauntlet Fighter"
+            skill: 3
+            force: 1
+            points: 67
+            unique: true
+            slots: [
+                "Force"
+                "Crew"
+                "Gunner"
+                "Missile"
+                "Device"
+                "Modification"
+                "Title"
+                "Configuration"
+            ]
+        }
+        {
+            name: "Q9-0"
+            id: 521
+            faction: "Scum and Villainy"
+            ship: "ST-70 Assault Ship"
+            skill: 5
+            points: 56
+            unique: true
+            keyword: ["Droid"]
+            slots: [
+                "Talent"
+                "Crew"
+                "Crew"
+                "Cannon"
+                "Gunner"
+                "Illicit"
+                "Illicit"
+                "Modification"
+                "Title"
+            ]
+        }
+        {
+            name: "The Mandalorian"
+            id: 522
+            faction: "Scum and Villainy"
+            ship: "ST-70 Assault Ship"
+            skill: 5
+            points: 58
+            unique: true
+            keyword: ["Mandalorian"]
+            slots: [
+                "Talent"
+                "Crew"
+                "Crew"
+                "Cannon"
+                "Gunner"
+                "Illicit"
+                "Illicit"
+                "Modification"
+                "Title"
+            ]
+        }
+        {
+            name: "Guild Bounty Hunter"
+            id: 523
+            faction: "Scum and Villainy"
+            ship: "ST-70 Assault Ship"
+            skill: 3
+            points: 53
+            max_per_squad: 2
+            keyword: ["Bounty Hunter"]
+            slots: [
+                "Talent"
+                "Crew"
+                "Crew"
+                "Cannon"
+                "Gunner"
+                "Illicit"
+                "Illicit"
+                "Modification"
+                "Title"
+            ]
+        }
+        {
+            name: "Outer Rim Enforcer"
+            id: 524
+            faction: "Scum and Villainy"
+            ship: "ST-70 Assault Ship"
+            skill: 2
+            points: 50
+            keyword: ["Bounty Hunter", "Mandelorian"]
+            slots: [
+                "Crew"
+                "Crew"
+                "Cannon"
+                "Gunner"
+                "Illicit"
+                "Illicit"
+                "Modification"
+                "Title"
+            ]
+        }
+        {
+            name: "Plo Koon (Delta-7b)"
+            id: 525
+            unique: true
+            faction: "Galactic Republic"
+            ship: "Delta-7b Aethersprite"
+            skill: 5
+            force: 2
+            points: 63
+            keyword: ["Jedi","Light Side"]
+            slots: [
+                "Force"
+                "Astromech"
+                "Modification"
+            ]
+        }
+        {
+            name: "Saesee Tiin (Delta-7b)"
+            canonical_name: 'Saesee Tiin'.canonicalize()
+            id: 526
+            unique: true
+            faction: "Galactic Republic"
+            ship: "Delta-7b Aethersprite"
+            skill: 4
+            force: 2
+            points: 57
+            keyword: ["Jedi","Light Side"]
+            slots: [
+                "Force"
+                "Astromech"
+                "Modification"
+            ]
+        }
+        {
+            name: "Mace Windu (Delta-7b)"
+            canonical_name: 'Mace Windu'.canonicalize()
+            id: 527
+            unique: true
+            faction: "Galactic Republic"
+            ship: "Delta-7b Aethersprite"
+            skill: 4
+            force: 3
+            points: 61
+            keyword: ["Jedi","Light Side"]
+            slots: [
+                "Force"
+                "Astromech"
+                "Modification"
+            ]
+        }
+        {
+            name: "Anakin Skywalker (Delta-7b)"
+            canonical_name: 'Anakin Skywalker'.canonicalize()
+            id: 528
+            unique: true
+            faction: "Galactic Republic"
+            ship: "Delta-7b Aethersprite"
+            skill: 6
+            force: 3
+            points: 83
+            keyword: ["Jedi","Light Side"]
+            slots: [
+                "Force"
+                "Astromech"
+                "Modification"
+            ]
+        }
+        {
+            name: "Luminara Unduli (Delta-7b)"
+            canonical_name: 'Luminara Unduli'.canonicalize()
+            id: 529
+            unique: true
+            faction: "Galactic Republic"
+            ship: "Delta-7b Aethersprite"
+            skill: 4
+            force: 2
+            points: 57
+            keyword: ["Jedi","Light Side"]
+            slots: [
+                "Force"
+                "Astromech"
+                "Modification"
+            ]
+        }
+        {
+            name: "Barriss Offee (Delta-7b)"
+            canonical_name: 'Barriss Offee'.canonicalize()
+            id: 530
+            unique: true
+            faction: "Galactic Republic"
+            ship: "Delta-7b Aethersprite"
+            skill: 4
+            force: 1
+            points: 53
+            keyword: ["Jedi","Light Side"]
+            slots: [
+                "Force"
+                "Astromech"
+                "Modification"
+            ]
+        }
+        {
+            name: "Ahsoka Tano (Delta-7b)"
+            canonical_name: 'Ahsoka Tano'.canonicalize()
+            id: 531
+            unique: true
+            faction: "Galactic Republic"
+            ship: "Delta-7b Aethersprite"
+            skill: 3
+            force: 2
+            points: 55
+            keyword: ["Jedi","Light Side"]
+            slots: [
+                "Force"
+                "Astromech"
+                "Modification"
+            ]
+        }
+        {
+            name: "Jedi Knight (Delta-7b)"
+            canonical_name: 'Jedi Knight'.canonicalize()
+            id: 532
+            faction: "Galactic Republic"
+            ship: "Delta-7b Aethersprite"
+            skill: 3
+            force: 1
+            points: 50
+            keyword: ["Jedi","Light Side"]
+            slots: [
+                "Force"
+                "Astromech"
+                "Modification"
+            ]
+        }
+        {
+            name: "Obi-Wan Kenobi (Delta-7b)"
+            canonical_name: 'Obi-Wan Kenobi'.canonicalize()
+            id: 533
+            unique: true
+            faction: "Galactic Republic"
+            ship: "Delta-7b Aethersprite"
+            skill: 5
+            force: 3
+            points: 67
+            keyword: ["Jedi","Light Side"]
+            slots: [
+                "Force"
+                "Astromech"
+                "Modification"
+            ]
+        }
     ]
 
     upgradesById: [
@@ -14675,6 +15366,476 @@ exportObj.basicCardData = ->
                 ["Action", "Reload"]
             ]
         }
+        {
+            name: "Sabine Wren (Command)"
+            canonical_name: 'Sabine Wren'.canonicalize()
+            id: 422
+            points: 99
+            slot: "Command"
+            unique: true
+            faction: "Rebel Alliance"
+            restrictions: [
+                ["Slot", "Crew"]
+                ["Base", "Standard"]
+            ]
+            validation_func: (ship, upgrade_obj) ->
+                upgrade_obj.occupiesAnUpgradeSlot "Crew"
+            also_occupies_upgrades: [ "Crew" ]
+            modifier_func: (stats) ->
+                stats.actions.push 'R-Coordinate' if 'R-Coordinate' not in stats.actions
+            applies_condition: '''Trials of the Darksaber'''.canonicalize()
+        }
+        {
+            name: "Clan Training"
+            id: 423
+            points: 3
+            slot: "Talent"
+            charge: 1
+            restrictions: [
+                ["Keyword", "Mandalorian"]
+            ]
+        }
+        {
+            name: "Ahsoka Tano (Crew)"
+            canonical_name: 'Ahsoka Tano'.canonicalize()
+            id: 424
+            points: 9
+            force: 1
+            slot: "Crew"
+            unique: true
+            faction: ["Galactic Republic", "Scum and Villainy"]
+            modifier_func: (stats) ->
+                stats.force += 1
+        }
+        {
+            name: "Bo-Katan Kryze (Republic/Separatist)"
+            canonical_name: 'Bo-Katan Kryze'.canonicalize()
+            id: 425
+            points: 8
+            slot: "Crew"
+            unique: true
+            faction: ["Galactic Republic", "Separatist Alliance"]
+        }
+        {
+            name: "Bo-Katan Kryze (Rebel/Scum)"
+            canonical_name: 'Bo-Katan Kryze'.canonicalize()
+            id: 426
+            points: 4
+            slot: "Crew"
+            unique: true
+            faction: ["Rebel Alliance", "Scum and Villainy"]
+        }
+        {
+            name: "Captain Hark"
+            id: 427
+            points: 3
+            charge: 2
+            slot: "Crew"
+            faction: "Galactic Empire"
+            unique: true
+        }
+        {
+            name: "Fenn Rau"
+            id: 428
+            points: 6
+            slot: "Crew"
+            unique: true
+            faction: ["Rebel Alliance", "Scum and Villainy"]
+        }
+        {
+            name: "Gar Saxon"
+            id: 429
+            points: 8
+            slot: "Crew"
+            faction: "Galactic Empire"
+            unique: true
+        }
+        {
+            name: "Korkie Kryze"
+            id: 430
+            points: 5
+            slot: "Crew"
+            faction: "Galactic Republic"
+            unique: true
+        }
+        {
+            name: "Obi-Wan Kenobi"
+            id: 431
+            points: 11
+            force: 1
+            slot: "Crew"
+            unique: true
+            faction: "Galactic Republic"
+            modifier_func: (stats) ->
+                stats.force += 1
+        }
+        {
+            name: "Pre Vizsla"
+            id: 432
+            points: 9
+            slot: "Crew"
+            faction: ["Scum and Villainy", "Separatist Alliance"]
+            unique: true
+            modifier_func: (stats) ->
+                stats.actions.push 'Coordinate' if 'Coordinate' not in stats.actions
+        }
+        {
+            name: "Prime Minister Almec"
+            id: 433
+            points: 9
+            slot: "Crew"
+            unique: true
+            faction: ["Galactic Republic", "Scum and Villainy"]
+        }
+        {
+            name: "Rook Kast"
+            id: 434
+            points: 11
+            slot: "Crew"
+            unique: true
+            faction: "Scum and Villainy"
+            modifier_func: (stats) ->
+                stats.actions.push 'R-Lock' if 'R-Lock' not in stats.actions
+        }
+        {
+            name: "Satine Kryze"
+            id: 435
+            points: 10
+            charge: 2
+            recurring: 1
+            slot: "Crew"
+            unique: true
+            faction: "Galactic Republic"
+        }
+        {
+            name: "Savage Opress"
+            id: 436
+            points: 10
+            force: 1
+            slot: "Crew"
+            unique: true
+            faction: ["Separatist Alliance", "Scum and Villainy"]
+            modifier_func: (stats) ->
+                stats.force += 1
+        }
+        {
+            name: "Tal Merrik"
+            id: 437
+            points: 7
+            slot: "Crew"
+            unique: true
+            faction: "Separatist Alliance"
+            applies_condition: '''False Friend'''.canonicalize()
+        }
+        {
+            name: "Tristan Wren"
+            id: 438
+            points: 2
+            charge: 1
+            recurring: 1
+            slot: "Crew"
+            unique: true
+            faction: ["Rebel Alliance", "Galactic Empire", "Scum and Villainy"]
+            restrictions: [
+                ["orUnique", "Gar Saxon"]
+                ["Faction", "Rebel Alliance"]
+            ]
+        }
+        {
+            name: "Ursa Wren"
+            id: 439
+            points: 6
+            slot: "Crew"
+            unique: true
+            faction: "Rebel Alliance"
+        }
+        {
+            name: "Maul (Mandalore)"
+            canonical_name: 'Maul'.canonicalize()
+            id: 440
+            points: 10
+            slot: "Crew"
+            unique: true
+            force: 1
+            faction: "Scum and Villainy"
+            restrictions: [
+                ["Slot", "Crew"]
+            ]
+            validation_func: (ship, upgrade_obj) ->
+                upgrade_obj.occupiesAnUpgradeSlot "Crew"
+            also_occupies_upgrades: [ "Crew" ]
+            modifier_func: (stats) ->
+                stats.force += 1
+                stats.actions.push 'F-Coordinate' if 'F-Coordinate' not in stats.actions
+            confersAddons: [
+                {
+                    type: exportObj.Upgrade
+                    slot: "Illicit"
+                }
+            ]
+        }
+        {
+            name: "Gar Saxon (Gunner)"
+            canonical_name: 'Gar Saxon'.canonicalize()
+            id: 441
+            points: 9
+            slot: "Gunner"
+            unique: true
+            faction: "Scum and Villainy"
+            restrictions: [
+                ["Base", "Large or Huge"]
+            ]
+        }
+        {
+            name: "Tiber Saxon"
+            id: 442
+            points: 4
+            charge: 2
+            recurring: 1
+            slot: "Gunner"
+            faction: "Galactic Empire"
+            unique: true
+        }
+        {
+            name: "Ursa Wren (Gunner)"
+            canonical_name: 'Ursa Wren'.canonicalize()
+            id: 443
+            points: 6
+            slot: "Gunner"
+            unique: true
+            faction: ["Galactic Republic", "Separatist Alliance"]
+        }
+        {
+            name: "Blazer Bomb"
+            id: 444
+            points: 4
+            charge: 1
+            slot: "Device"
+            unique: true
+            applies_condition: '''Blazer Bomb'''.canonicalize()
+        }
+        {
+            name: "Beskar Reinforced Plating"
+            id: 445
+            points: 6
+            slot: "Modification"
+            charge: 2
+            restrictions: [
+                ["Keyword", "Mandalorian"]
+            ]
+        }
+        {
+            name: "Mandalorian Optics"
+            id: 446
+            points: 5
+            slot: "Modification"
+            charge: 2
+            restrictions: [
+                ["Keyword", "Mandalorian"]
+            ]
+        }
+        {
+            name: "Gauntlet"
+            id: 447
+            points: 3
+            slot: "Title"
+            unique: true
+            charge: 2
+            ship: "Gauntlet Fighter"
+            faction: ["Galactic Republic", "Separatist Alliance"]
+            restrictions: [
+                ["Slot", "Modification"]
+            ]
+            validation_func: (ship, upgrade_obj) ->
+                upgrade_obj.occupiesAnUpgradeSlot "Modification"
+            also_occupies_upgrades: [ "Modification" ]
+            confersAddons: [
+                {
+                    type: exportObj.Upgrade
+                    slot: "Crew"
+                }
+            ]
+        }
+        {
+            name: "Nightbrother"
+            id: 448
+            points: 3
+            slot: "Title"
+            unique: true
+            charge: 2
+            recurring: 1
+            ship: "Gauntlet Fighter"
+            faction: ["Rebel Alliance", "Scum and Villainy"]
+            restrictions: [
+                ["Slot", "Modification"]
+            ]
+            validation_func: (ship, upgrade_obj) ->
+                upgrade_obj.occupiesAnUpgradeSlot "Modification"
+            also_occupies_upgrades: [ "Modification" ]
+            confersAddons: [
+                {
+                    type: exportObj.Upgrade
+                    slot: "Crew"
+                }
+            ]
+        }
+        {
+            name: "Swivel Wing"
+            id: 449
+            points: 0
+            slot: "Configuration"
+            ship: "Gauntlet Fighter"
+        }
+        {
+            name: "Clan Wren Commandos"
+            id: 450
+            points: 7
+            slot: "Crew"
+            unique: true
+            charge: 2
+            faction: "Rebel Alliance"
+            restrictions: [
+                ["Slot", "Crew"]
+                ["Base", "Non-Small"]
+            ]
+            validation_func: (ship, upgrade_obj) ->
+                upgrade_obj.occupiesAnUpgradeSlot "Crew"
+            also_occupies_upgrades: [ "Crew" ]
+        }
+        {
+            name: "Razor Crest"
+            id: 451
+            points: 0
+            unique: true
+            slot: "Title"
+            ship: "ST-70 Assault Ship"
+            modifier_func: (stats) ->
+                stats.actions.push '*Evade'
+                stats.actions.push 'R-> Barrel Roll'
+        }
+        {
+            name: "The Mandalorian"
+            id: 452
+            points: 2
+            unique: true
+            slot: "Crew"
+            faction: "Scum and Villainy"
+            modifier_func: (stats) ->
+                stats.actions.push 'Reinforce'
+        }
+        {
+            name: "The Child"
+            id: 453
+            points: 6
+            unique: true
+            slot: "Crew"
+            force: 2
+            forcerecurring: 0
+            faction: ["Scum and Villainy", "Rebel Alliance", "Galactic Empire"]
+            applies_condition: '''Merciless Pursuit'''.canonicalize()
+            modifier_func: (stats) ->
+                stats.force += 2
+                stats.forcerecurring = 0
+        }
+        {
+            name: "Tracking Fob"
+            id: 454
+            points: 4
+            slot: "Illicit"
+            max_per_squad: 3
+            restrictions: [
+                ["Keyword", "Bounty Hunter"]
+            ]
+            applies_condition: '''Marked for Elimination'''.canonicalize()
+        }
+        {
+            name: "Notorious"
+            id: 455
+            points: 2
+            charge: 2
+            recurring: 1
+            slot: "Talent"
+            unique: true
+            restrictions: [
+                ["Equipped", "Illicit"]
+            ]
+        }
+        {
+            name: "Enduring"
+            id: 456
+            points: 2
+            slot: "Talent"
+        }
+        {
+            name: "IG-11"
+            id: 457
+            points: 6
+            slot: "Crew"
+            unique: true
+            faction: "Scum and Villainy"
+            modifier_func: (stats) ->
+                stats.actions.push 'Calculate'
+        }
+        {
+            name: "Greef Karga"
+            id: 458
+            points: 6
+            slot: "Crew"
+            unique: true
+            faction: "Scum and Villainy"
+            modifier_func: (stats) ->
+                stats.actions.push 'R-Coordinate'
+        }
+        {
+            name: "Kuiil"
+            id: 459
+            points: 4
+            slot: "Crew"
+            unique: true
+            faction: "Scum and Villainy"
+        }
+        {
+            name: "Peli Motto"
+            id: 460
+            points: 3
+            slot: "Crew"
+            unique: true
+            faction: "Scum and Villainy"
+            restrictions: [
+                ["Base", "Medium or Large"]
+            ]
+        }
+        {
+            name: "Migs Mayfeld"
+            id: 461
+            points: 5
+            slot: "Gunner"
+            unique: true
+            faction: ["Scum and Villainy","Galactic Empire"]
+        }
+        {
+            name: "Burnout Thrusters"
+            id: 462
+            points: 6
+            slot: "Modification"
+            faction: ["Scum and Villainy","Resistance"]
+            restrictions: [
+                ["Base", "Small or Medium"]
+            ]
+        }
+        {
+            name: "Hotshot Tail Blaster"
+            id: 463
+            points: 2
+            attackb: 2
+            range: """0-1"""
+            rangebonus: true
+            charge: 2
+            slot: "Illicit"
+            restrictions: [
+                ["Base", "Medium or Large"]
+            ]
+        }
     ]
 
 
@@ -14806,6 +15967,28 @@ exportObj.basicCardData = ->
         {
             name: '''Tracking Torpedoes'''
             id: 29
+        }
+        {
+            name: '''False Friend'''
+            id: 30
+            unique: true
+        }
+        {
+            name: '''Trials of the Darksaber'''
+            id: 31
+            unique: true
+        }
+        {
+            name: '''Blaze Bomb'''
+            id: 32
+        }
+        {
+            name: '''Merciless Pursuit'''
+            id: 33
+        }
+        {
+            name: '''Marked for Elimination'''
+            id: 34
         }
     ]
 
@@ -22471,6 +23654,7 @@ exportObj.fixIcons = (data) ->
             .replace(/%TEAM%/g, '<i class="xwing-miniatures-font xwing-miniatures-font-team"></i>')
             .replace(/%TECH%/g, '<i class="xwing-miniatures-font xwing-miniatures-font-tech"></i>')
             .replace(/%FORCEPOWER%/g, '<i class="xwing-miniatures-font xwing-miniatures-font-forcepower"></i>')
+            .replace(/%RANGEBONUS%/g, '<i class="xwing-miniatures-font xwing-miniatures-font-rangebonusindicator"></i>')
             .replace(/%LARGESHIPONLY%/g, '<span class="card-restriction">Large ship only.</span>')
             .replace(/%SMALLSHIPONLY%/g, '<span class="card-restriction">Small ship only.</span>')
             .replace(/%REBELONLY%/g, '<span class="card-restriction">Rebel only.</span>')
