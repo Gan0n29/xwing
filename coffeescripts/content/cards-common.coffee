@@ -2246,7 +2246,7 @@ exportObj.basicCardData = ->
             ship: "TIE Fighter"
             skill: 3
             points: 26
-            keyword: ["Spectre"]
+            keyword: ["Spectre", "Mandalorian"]
             slots: [
                 "Talent"
                 "Modification"
@@ -10473,7 +10473,7 @@ exportObj.basicCardData = ->
             unique: true
             faction: "Galactic Empire"
             ship: "TIE Fighter"
-            skill: 2
+            skill: 4
             charge: 2
             recurring: 1
             points: 39
@@ -10780,6 +10780,7 @@ exportObj.basicCardData = ->
             skill: 3
             force: 1
             points: 67
+            keyword: ["Light Side","Spectre"]
             unique: true
             slots: [
                 "Force"
@@ -10876,6 +10877,7 @@ exportObj.basicCardData = ->
         }
         {
             name: "Plo Koon (Delta-7b)"
+            xws: "plokoon-delta7baethersprite"
             id: 525
             unique: true
             faction: "Galactic Republic"
@@ -10893,6 +10895,7 @@ exportObj.basicCardData = ->
         {
             name: "Saesee Tiin (Delta-7b)"
             canonical_name: 'Saesee Tiin'.canonicalize()
+            xws: "saeseetiin-delta7baethersprite"
             id: 526
             unique: true
             faction: "Galactic Republic"
@@ -10910,6 +10913,7 @@ exportObj.basicCardData = ->
         {
             name: "Mace Windu (Delta-7b)"
             canonical_name: 'Mace Windu'.canonicalize()
+            xws: "macewindu-delta7baethersprite"
             id: 527
             unique: true
             faction: "Galactic Republic"
@@ -10927,6 +10931,7 @@ exportObj.basicCardData = ->
         {
             name: "Anakin Skywalker (Delta-7b)"
             canonical_name: 'Anakin Skywalker'.canonicalize()
+            xws: "anakinskywalker-delta7baethersprite"
             id: 528
             unique: true
             faction: "Galactic Republic"
@@ -10944,6 +10949,7 @@ exportObj.basicCardData = ->
         {
             name: "Luminara Unduli (Delta-7b)"
             canonical_name: 'Luminara Unduli'.canonicalize()
+            xws: "luminaraunduli-delta7baethersprite"
             id: 529
             unique: true
             faction: "Galactic Republic"
@@ -10961,6 +10967,7 @@ exportObj.basicCardData = ->
         {
             name: "Barriss Offee (Delta-7b)"
             canonical_name: 'Barriss Offee'.canonicalize()
+            xws: "barrissoffee-delta7baethersprite"
             id: 530
             unique: true
             faction: "Galactic Republic"
@@ -15611,8 +15618,7 @@ exportObj.basicCardData = ->
             points: 4
             charge: 1
             slot: "Device"
-            unique: true
-            applies_condition: '''Blazer Bomb'''.canonicalize()
+            applies_condition: '''Blaze Bomb'''.canonicalize()
         }
         {
             name: "Beskar Reinforced Plating"
@@ -15705,7 +15711,7 @@ exportObj.basicCardData = ->
         {
             name: "Razor Crest"
             id: 451
-            points: 0
+            points: 3
             unique: true
             slot: "Title"
             ship: "ST-70 Assault Ship"
@@ -15821,6 +15827,8 @@ exportObj.basicCardData = ->
             faction: ["Scum and Villainy","Resistance"]
             restrictions: [
                 ["Base", "Small or Medium"]
+            modifier_func: (stats) ->
+                stats.actions.push 'Slam'
             ]
         }
         {
