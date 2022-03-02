@@ -10414,7 +10414,7 @@ exportObj.basicCardData = ->
             unique: true
             ship: "Fang Fighter"
             skill: 4
-            points: 52
+            points: 51
             keyword: ["Mandalorian"]
             slots: [
                 "Talent"
@@ -10429,10 +10429,9 @@ exportObj.basicCardData = ->
             unique: true
             ship: "Fang Fighter"
             skill: 3
-            points: 50
+            points: 55
             keyword: ["Mandalorian"]
             slots: [
-                "Talent"
                 "Torpedo"
                 "Modification"
             ]
@@ -10446,11 +10445,12 @@ exportObj.basicCardData = ->
             unique: true
             ship: "Fang Fighter"
             skill: 6
-            points: 60
+            points: 62
             keyword: ["Mandalorian"]
             slots: [
                 "Talent"
                 "Torpedo"
+                "Modification"
             ]
         }
         {
@@ -10459,10 +10459,11 @@ exportObj.basicCardData = ->
             faction: "Rebel Alliance"
             ship: "Fang Fighter"
             skill: 2
-            points: 45
+            points: 49
             max_per_squad: 2
             keyword: ["Mandalorian"]
             slots: [
+                "Talent"
                 "Torpedo"
                 "Modification"
             ]
@@ -10476,10 +10477,10 @@ exportObj.basicCardData = ->
             skill: 4
             charge: 2
             recurring: 1
-            points: 39
+            points: 33
             slots: [
                 "Talent"
-                "Illicit"
+                "Talent"
                 "Modification"
             ]
         }
@@ -10503,7 +10504,7 @@ exportObj.basicCardData = ->
             faction: "Scum and Villainy"
             ship: "Fang Fighter"
             skill: 4
-            points: 48
+            points: 50
             max_per_squad: 2
             keyword: ["Mandalorian"]
             slots: [
@@ -10532,8 +10533,8 @@ exportObj.basicCardData = ->
                 "Talent"
                 "Crew"
                 "Gunner"
-                "Missile"
                 "Device"
+                "Illicit"
                 "Modification"
                 "Title"
                 "Configuration"
@@ -10545,14 +10546,15 @@ exportObj.basicCardData = ->
             faction: "Separatist Alliance"
             ship: "Gauntlet Fighter"
             skill: 2
-            points: 60
+            points: 56
             unique: true
             keyword: ["Mandalorian"]
             slots: [
+                "Talent"
                 "Crew"
                 "Gunner"
-                "Missile"
                 "Device"
+                "Illicit"
                 "Modification"
                 "Title"
                 "Configuration"
@@ -10564,15 +10566,15 @@ exportObj.basicCardData = ->
             faction: "Separatist Alliance"
             ship: "Gauntlet Fighter"
             skill: 4
-            points: 64
+            points: 65
             unique: true
             keyword: ["Mandalorian"]
             slots: [
                 "Talent"
                 "Crew"
                 "Gunner"
-                "Missile"
                 "Device"
+                "Illicit"
                 "Modification"
                 "Title"
                 "Configuration"
@@ -10585,15 +10587,15 @@ exportObj.basicCardData = ->
             faction: "Galactic Republic"
             ship: "Gauntlet Fighter"
             skill: 4
-            points: 58
+            points: 65
             unique: true
             keyword: ["Mandalorian"]
             slots: [
                 "Talent"
                 "Crew"
                 "Gunner"
-                "Missile"
                 "Device"
+                "Illicit"
                 "Modification"
                 "Title"
                 "Configuration"
@@ -10605,14 +10607,15 @@ exportObj.basicCardData = ->
             faction: "Galactic Republic"
             ship: "Gauntlet Fighter"
             skill: 2
-            points: 54
+            points: 56
             unique: true
             keyword: ["Mandalorian"]
             slots: [
+                "Talent"
                 "Crew"
                 "Gunner"
-                "Missile"
                 "Device"
+                "Illicit"
                 "Modification"
                 "Title"
                 "Configuration"
@@ -10632,8 +10635,8 @@ exportObj.basicCardData = ->
                 "Force"
                 "Crew"
                 "Gunner"
-                "Missile"
                 "Device"
+                "Illicit"
                 "Modification"
                 "Title"
                 "Configuration"
@@ -10645,12 +10648,13 @@ exportObj.basicCardData = ->
             faction: "Scum and Villainy"
             ship: "Gauntlet Fighter"
             skill: 1
-            points: 60
+            points: 57
+            keyword: ["Mandalorian"]
             slots: [
                 "Crew"
                 "Gunner"
-                "Missile"
                 "Device"
+                "Illicit"
                 "Modification"
                 "Title"
                 "Configuration"
@@ -10662,14 +10666,15 @@ exportObj.basicCardData = ->
             faction: "Scum and Villainy"
             ship: "Gauntlet Fighter"
             skill: 3
-            points: 65
+            points: 62
             unique: true
+            keyword: ["Mandalorian"]
             slots: [
                 "Talent"
                 "Crew"
                 "Gunner"
-                "Missile"
                 "Device"
+                "Illicit"
                 "Modification"
                 "Title"
                 "Configuration"
@@ -10681,14 +10686,13 @@ exportObj.basicCardData = ->
             faction: "Galactic Empire"
             ship: "Gauntlet Fighter"
             skill: 2
-            points: 65
+            points: 60
             unique: true
             keyword: ["Mandalorian"]
             slots: [
                 "Talent"
                 "Crew"
                 "Gunner"
-                "Missile"
                 "Device"
                 "Modification"
                 "Title"
@@ -10701,12 +10705,13 @@ exportObj.basicCardData = ->
             faction: "Galactic Empire"
             ship: "Gauntlet Fighter"
             skill: 2
-            points: 60
+            points: 58
             unique: true
+            keyword: ["Mandalorian"]
             slots: [
+                "Talent"
                 "Crew"
                 "Gunner"
-                "Missile"
                 "Device"
                 "Modification"
                 "Title"
@@ -10719,13 +10724,13 @@ exportObj.basicCardData = ->
             faction: "Galactic Empire"
             ship: "Gauntlet Fighter"
             skill: 3
-            points: 70
+            points: 64
             unique: true
+            keyword: ["Mandalorian"]
             slots: [
                 "Talent"
                 "Crew"
                 "Gunner"
-                "Missile"
                 "Device"
                 "Modification"
                 "Title"
@@ -10738,12 +10743,13 @@ exportObj.basicCardData = ->
             faction: "Rebel Alliance"
             ship: "Gauntlet Fighter"
             skill: 2
-            points: 60
+            points: 56
             unique: true
+            keyword: ["Mandalorian"]
             slots: [
+                "Talent"
                 "Crew"
                 "Gunner"
-                "Missile"
                 "Device"
                 "Modification"
                 "Title"
@@ -10758,12 +10764,12 @@ exportObj.basicCardData = ->
             faction: "Rebel Alliance"
             ship: "Gauntlet Fighter"
             skill: 2
-            points: 62
+            points: 58
             unique: true
+            keyword: ["Droid","Spectre"]
             slots: [
                 "Crew"
                 "Gunner"
-                "Missile"
                 "Device"
                 "Modification"
                 "Title"
@@ -10779,14 +10785,13 @@ exportObj.basicCardData = ->
             ship: "Gauntlet Fighter"
             skill: 3
             force: 1
-            points: 67
+            points: 68
             keyword: ["Light Side","Spectre"]
             unique: true
             slots: [
                 "Force"
                 "Crew"
                 "Gunner"
-                "Missile"
                 "Device"
                 "Modification"
                 "Title"
@@ -10806,7 +10811,6 @@ exportObj.basicCardData = ->
                 "Talent"
                 "Crew"
                 "Crew"
-                "Cannon"
                 "Gunner"
                 "Illicit"
                 "Illicit"
@@ -10820,14 +10824,13 @@ exportObj.basicCardData = ->
             faction: "Scum and Villainy"
             ship: "ST-70 Assault Ship"
             skill: 5
-            points: 58
+            points: 57
             unique: true
-            keyword: ["Mandalorian"]
+            keyword: ["Mandalorian","Bounty Hunter"]
             slots: [
                 "Talent"
                 "Crew"
                 "Crew"
-                "Cannon"
                 "Gunner"
                 "Illicit"
                 "Illicit"
@@ -10845,10 +10848,8 @@ exportObj.basicCardData = ->
             max_per_squad: 2
             keyword: ["Bounty Hunter"]
             slots: [
-                "Talent"
                 "Crew"
                 "Crew"
-                "Cannon"
                 "Gunner"
                 "Illicit"
                 "Illicit"
@@ -10862,12 +10863,10 @@ exportObj.basicCardData = ->
             faction: "Scum and Villainy"
             ship: "ST-70 Assault Ship"
             skill: 2
-            points: 50
-            keyword: ["Bounty Hunter", "Mandelorian"]
+            points: 51
             slots: [
                 "Crew"
                 "Crew"
-                "Cannon"
                 "Gunner"
                 "Illicit"
                 "Illicit"
@@ -15435,7 +15434,7 @@ exportObj.basicCardData = ->
         {
             name: "Captain Hark"
             id: 427
-            points: 3
+            points: 5
             charge: 2
             slot: "Crew"
             faction: "Galactic Empire"
