@@ -10414,7 +10414,7 @@ exportObj.basicCardData = ->
             unique: true
             ship: "Fang Fighter"
             skill: 4
-            points: 51
+            points: 55
             keyword: ["Mandalorian"]
             slots: [
                 "Talent"
@@ -10429,7 +10429,7 @@ exportObj.basicCardData = ->
             unique: true
             ship: "Fang Fighter"
             skill: 3
-            points: 55
+            points: 51
             keyword: ["Mandalorian"]
             slots: [
                 "Torpedo"
@@ -10563,6 +10563,7 @@ exportObj.basicCardData = ->
         {
             name: "Bo-Katan Kryze"
             id: 509
+            xws: "bokatan-separatistalliance"
             faction: "Separatist Alliance"
             ship: "Gauntlet Fighter"
             skill: 4
@@ -10583,6 +10584,7 @@ exportObj.basicCardData = ->
         {
             name: "Bo-Katan Kryze (Republic)"
             canonical_name: 'Bo-Katan Kryze'.canonicalize()
+            xws: "bokatan"
             id: 510
             faction: "Galactic Republic"
             ship: "Gauntlet Fighter"
@@ -10602,7 +10604,7 @@ exportObj.basicCardData = ->
             ]
         }
         {
-            name: "Night Owl Liberator"
+            name: "Nite Owl Liberator"
             id: 511
             faction: "Galactic Republic"
             ship: "Gauntlet Fighter"
@@ -10624,6 +10626,7 @@ exportObj.basicCardData = ->
         {
             name: "Maul"
             id: 512
+            xws: "maul-gauntletfighter"
             faction: "Scum and Villainy"
             ship: "Gauntlet Fighter"
             skill: 5
@@ -10757,7 +10760,7 @@ exportObj.basicCardData = ->
             ]
         }
         {
-            name: "Chopper (Gauntlet Fighter)"
+            name: '"Chopper" (Gauntlet Fighter)'
             canonical_name: 'Chopper'.canonicalize()
             xws: "chopper-gauntletfighter"
             id: 519
@@ -15426,7 +15429,7 @@ exportObj.basicCardData = ->
             name: "Bo-Katan Kryze (Rebel/Scum)"
             canonical_name: 'Bo-Katan Kryze'.canonicalize()
             id: 426
-            points: 4
+            points: 6
             slot: "Crew"
             unique: true
             faction: ["Rebel Alliance", "Scum and Villainy"]
@@ -15443,7 +15446,7 @@ exportObj.basicCardData = ->
         {
             name: "Fenn Rau"
             id: 428
-            points: 6
+            points: 8
             slot: "Crew"
             unique: true
             faction: ["Rebel Alliance", "Scum and Villainy"]
@@ -15451,7 +15454,7 @@ exportObj.basicCardData = ->
         {
             name: "Gar Saxon"
             id: 429
-            points: 8
+            points: 6
             slot: "Crew"
             faction: "Galactic Empire"
             unique: true
@@ -15459,7 +15462,7 @@ exportObj.basicCardData = ->
         {
             name: "Korkie Kryze"
             id: 430
-            points: 5
+            points: 7
             slot: "Crew"
             faction: "Galactic Republic"
             unique: true
@@ -15467,7 +15470,7 @@ exportObj.basicCardData = ->
         {
             name: "Obi-Wan Kenobi"
             id: 431
-            points: 11
+            points: 9
             force: 1
             slot: "Crew"
             unique: true
@@ -15496,7 +15499,7 @@ exportObj.basicCardData = ->
         {
             name: "Rook Kast"
             id: 434
-            points: 11
+            points: 9
             slot: "Crew"
             unique: true
             faction: "Scum and Villainy"
@@ -15506,7 +15509,7 @@ exportObj.basicCardData = ->
         {
             name: "Satine Kryze"
             id: 435
-            points: 10
+            points: 8
             charge: 2
             recurring: 1
             slot: "Crew"
@@ -15527,7 +15530,7 @@ exportObj.basicCardData = ->
         {
             name: "Tal Merrik"
             id: 437
-            points: 7
+            points: 6
             slot: "Crew"
             unique: true
             faction: "Separatist Alliance"
@@ -15550,7 +15553,7 @@ exportObj.basicCardData = ->
         {
             name: "Ursa Wren"
             id: 439
-            points: 6
+            points: 5
             slot: "Crew"
             unique: true
             faction: "Rebel Alliance"
@@ -15559,7 +15562,7 @@ exportObj.basicCardData = ->
             name: "Maul (Mandalore)"
             canonical_name: 'Maul'.canonicalize()
             id: 440
-            points: 10
+            points: 8
             slot: "Crew"
             unique: true
             force: 1
@@ -15584,7 +15587,7 @@ exportObj.basicCardData = ->
             name: "Gar Saxon (Gunner)"
             canonical_name: 'Gar Saxon'.canonicalize()
             id: 441
-            points: 9
+            points: 10
             slot: "Gunner"
             unique: true
             faction: "Scum and Villainy"
@@ -15595,7 +15598,7 @@ exportObj.basicCardData = ->
         {
             name: "Tiber Saxon"
             id: 442
-            points: 4
+            points: 5
             charge: 2
             recurring: 1
             slot: "Gunner"
@@ -15606,7 +15609,7 @@ exportObj.basicCardData = ->
             name: "Ursa Wren (Gunner)"
             canonical_name: 'Ursa Wren'.canonicalize()
             id: 443
-            points: 6
+            points: 7
             slot: "Gunner"
             unique: true
             faction: ["Galactic Republic", "Separatist Alliance"]
@@ -15642,7 +15645,7 @@ exportObj.basicCardData = ->
         {
             name: "Gauntlet"
             id: 447
-            points: 3
+            points: 2
             slot: "Title"
             unique: true
             charge: 2
@@ -15694,7 +15697,7 @@ exportObj.basicCardData = ->
         {
             name: "Clan Wren Commandos"
             id: 450
-            points: 7
+            points: 12
             slot: "Crew"
             unique: true
             charge: 2
@@ -15706,11 +15709,12 @@ exportObj.basicCardData = ->
             validation_func: (ship, upgrade_obj) ->
                 upgrade_obj.occupiesAnUpgradeSlot "Crew"
             also_occupies_upgrades: [ "Crew" ]
+            applies_condition: '''Clan Wren Commandos'''.canonicalize()
         }
         {
             name: "Razor Crest"
             id: 451
-            points: 3
+            points: 6
             unique: true
             slot: "Title"
             ship: "ST-70 Assault Ship"
@@ -15784,7 +15788,7 @@ exportObj.basicCardData = ->
         {
             name: "Greef Karga"
             id: 458
-            points: 6
+            points: 8
             slot: "Crew"
             unique: true
             faction: "Scum and Villainy"
@@ -15842,6 +15846,111 @@ exportObj.basicCardData = ->
             restrictions: [
                 ["Base", "Medium or Large"]
             ]
+        }
+        {
+            name: "Combat Boarding Tube"
+            id: 464
+            points: 0
+            slot: "Command"
+            ship: "Gauntlet Fighter"
+            restrictions: [
+                ["Slot", "Configuration"]
+                ["Base", "Standard"]
+            ]
+            validation_func: (ship, upgrade_obj) ->
+                upgrade_obj.occupiesAnUpgradeSlot "Configuration"
+            also_occupies_upgrades: [ "Configuration" ]
+        }
+        {
+            name: "Drop-Seat Bay"
+            id: 465
+            points: 1
+            slot: "Modification"
+            ship: "Gauntlet Fighter"
+            unequips_upgrades: [
+                'Device'
+            ]
+            also_occupies_upgrades: [
+                'Device'
+            ]
+            confersAddons: [
+                {
+                    type: exportObj.Upgrade
+                    slot: "Crew"
+                }
+                {
+                    type: exportObj.Upgrade
+                    slot: "Crew"
+                }
+            ]
+        }
+        {
+            name: "Mandalorian Super Commandos"
+            id: 466
+            points: 12
+            slot: "Crew"
+            unique: true
+            charge: 2
+            faction: "Scum and Villainy"
+            restrictions: [
+                ["Slot", "Crew"]
+                ["Base", "Non-Small"]
+            ]
+            validation_func: (ship, upgrade_obj) ->
+                upgrade_obj.occupiesAnUpgradeSlot "Crew"
+            also_occupies_upgrades: [ "Crew" ]
+            applies_condition: '''Mandalorian Super Commandos'''.canonicalize()
+        }
+        {
+            name: "Imperial Super Commandos"
+            id: 467
+            points: 12
+            slot: "Crew"
+            unique: true
+            charge: 2
+            faction: "Galactic Empire"
+            restrictions: [
+                ["Slot", "Crew"]
+                ["Base", "Non-Small"]
+            ]
+            validation_func: (ship, upgrade_obj) ->
+                upgrade_obj.occupiesAnUpgradeSlot "Crew"
+            also_occupies_upgrades: [ "Crew" ]
+            applies_condition: '''Imperial Super Commandos'''.canonicalize()
+        }
+        {
+            name: "Nite Owl Commandos"
+            id: 468
+            points: 12
+            slot: "Crew"
+            unique: true
+            charge: 2
+            faction: "Galactic Republic"
+            restrictions: [
+                ["Slot", "Crew"]
+                ["Base", "Non-Small"]
+            ]
+            validation_func: (ship, upgrade_obj) ->
+                upgrade_obj.occupiesAnUpgradeSlot "Crew"
+            also_occupies_upgrades: [ "Crew" ]
+            applies_condition: '''Nite Owl Commandos'''.canonicalize()
+        }
+        {
+            name: "Death Watch Commandos"
+            id: 469
+            points: 12
+            slot: "Crew"
+            unique: true
+            charge: 2
+            faction: "Separatist Alliance"
+            restrictions: [
+                ["Slot", "Crew"]
+                ["Base", "Non-Small"]
+            ]
+            validation_func: (ship, upgrade_obj) ->
+                upgrade_obj.occupiesAnUpgradeSlot "Crew"
+            also_occupies_upgrades: [ "Crew" ]
+            applies_condition: '''Death Watch Commandos'''.canonicalize()
         }
     ]
 
@@ -15996,6 +16105,26 @@ exportObj.basicCardData = ->
         {
             name: '''Marked for Elimination'''
             id: 34
+        }
+        {
+            name: '''Clan Wren Commandos'''
+            id: 35
+        }
+        {
+            name: '''Nite Owl Commandos'''
+            id: 36
+        }
+        {
+            name: '''Death Watch Commandos'''
+            id: 37
+        }
+        {
+            name: '''Imperial Super Commandos'''
+            id: 38
+        }
+        {
+            name: '''Mandalorian Super Commandos'''
+            id: 39
         }
     ]
 
