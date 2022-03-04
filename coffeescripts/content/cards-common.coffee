@@ -15827,12 +15827,12 @@ exportObj.basicCardData = ->
             id: 462
             points: 6
             slot: "Modification"
-            faction: ["Scum and Villainy","Resistance"]
+            faction: ["Scum and Villainy"]
             restrictions: [
                 ["Base", "Small or Medium"]
+            ]
             modifier_func: (stats) ->
                 stats.actions.push 'Slam'
-            ]
         }
         {
             name: "Hotshot Tail Blaster"
