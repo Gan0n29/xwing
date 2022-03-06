@@ -4628,6 +4628,14 @@ class Ship
             return true unless upgrade.isOccupied()
         false
 
+    hasFilledSlotLike: (upgrade_obj, upgradeslot) ->
+        for upgrade in @upgrades
+            continue if upgrade == upgrade_obj or not exportObj.slotsMatching(upgrade.slot, upgradeslot)
+            if upgrade.isOccupied()
+                return true
+        false
+        
+        
     restriction_check: (restrictions, upgrade_obj) ->
         effective_stats = @effectiveStats()
         for r in restrictions
@@ -4664,7 +4672,7 @@ class Ship
                 when "Keyword"
                     if not (@checkKeyword(r[1])) then return false
                 when "Equipped"
-                    if not ((@doesSlotExist(r[1]) and not @hasAnotherUnoccupiedSlotLike(upgrade_obj, r[1]))) then return false
+                    if not ((@doesSlotExist(r[1]) and @hasFilledSlotLike(upgrade_obj, r[1]))) then return false
                 when "Slot"
                     if not @hasAnotherUnoccupiedSlotLike(upgrade_obj, r[1]) then return false
                 when "AttackArc"
