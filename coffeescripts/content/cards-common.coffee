@@ -10563,7 +10563,7 @@ exportObj.basicCardData = ->
         {
             name: "Bo-Katan Kryze"
             id: 509
-            xws: "bokatan-separatistalliance"
+            xws: "bokatankryze-separatistalliance"
             faction: "Separatist Alliance"
             ship: "Gauntlet Fighter"
             skill: 4
@@ -10584,7 +10584,7 @@ exportObj.basicCardData = ->
         {
             name: "Bo-Katan Kryze (Republic)"
             canonical_name: 'Bo-Katan Kryze'.canonicalize()
-            xws: "bokatan"
+            xws: "bokatankryze"
             id: 510
             faction: "Galactic Republic"
             ship: "Gauntlet Fighter"
@@ -10728,6 +10728,8 @@ exportObj.basicCardData = ->
             ship: "Gauntlet Fighter"
             skill: 3
             points: 64
+            charge: 2
+            recurring: 1
             unique: true
             keyword: ["Mandalorian"]
             slots: [
@@ -15407,6 +15409,7 @@ exportObj.basicCardData = ->
         {
             name: "Ahsoka Tano (Crew)"
             canonical_name: 'Ahsoka Tano'.canonicalize()
+            xws: "ahsokatano-crew"
             id: 424
             points: 9
             force: 1
@@ -15428,6 +15431,7 @@ exportObj.basicCardData = ->
         {
             name: "Bo-Katan Kryze (Rebel/Scum)"
             canonical_name: 'Bo-Katan Kryze'.canonicalize()
+            xws: "bokatankryze-rebel-scum"
             id: 426
             points: 6
             slot: "Crew"
@@ -15561,6 +15565,7 @@ exportObj.basicCardData = ->
         {
             name: "Maul (Mandalore)"
             canonical_name: 'Maul'.canonicalize()
+            xws: 'maul-crew'
             id: 440
             points: 8
             slot: "Crew"
@@ -15608,6 +15613,7 @@ exportObj.basicCardData = ->
         {
             name: "Ursa Wren (Gunner)"
             canonical_name: 'Ursa Wren'.canonicalize()
+            xws: "ursawren-gunner"
             id: 443
             points: 7
             slot: "Gunner"
@@ -23646,10 +23652,12 @@ exportObj.setupCommonCardData = (basic_cards) ->
         throw new Error("At least one pilot shares an ID with another")
 
     exportObj.pilotsByFactionCanonicalName = {}
+    exportObj.pilotsByKeyword = {}
     # uniqueness can't be enforced just be canonical name, but by the base part
     exportObj.pilotsByUniqueName = {}
     for pilot_name, pilot of exportObj.pilots
         ((exportObj.pilotsByFactionCanonicalName[pilot.faction] ?= {})[pilot.canonical_name] ?= []).push pilot
+        ((exportObj.pilotsByKeyword[pilot.keyword] ?= {})[pilot.canonical_name] ?= []).push pilot
         (exportObj.pilotsByUniqueName[pilot.canonical_name.getXWSBaseName()] ?= []).push pilot
 
     exportObj.pilotsByFactionXWS = {}
