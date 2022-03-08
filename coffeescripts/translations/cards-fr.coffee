@@ -152,6 +152,10 @@ exportObj.translations['Français'] =
         "epic": "épique"
         "Quickbuild": "Quick Build"
         "limited": "limité"
+        "Unnamed Squadron": "Escadron sans nom"
+        "Unsaved Squadron": "Escadron non sauvegardé"
+        "New Squadron": "Nouvel escadron"
+        "Name your squad...": "Nommez votre escadron…"
         "Unreleased content warning": "Cet escadron utilise du contenu inédit !"
         "Broken squad link warning": "Il semble que vous ayez suivi un lien mort. Aucune escouade n\'a pu être chargée !"
         "Collection warning": "Vous ne pouvez pas ajouter cette liste à votre collection !"
@@ -265,6 +269,7 @@ exportObj.translations['Français'] =
         'Card Browser' : 'Base de données'
         'About' : 'À propos'
         'Rules' : 'Règles'
+        "Submit Bug/Feature Request": "Soumettre un Bug"
         # Obstacles
         'Core Asteroid' : 'Core Asteroid'
         'YT2400 Debris' : 'YT2400 Debris'
@@ -3097,185 +3102,183 @@ exportObj.cardLoaders['Français'] = () ->
            display_name: """Leader Vétéran"""
            text: """Vous êtes le <strong>leader</strong>. Vos ailiers doivent être 2, 3, 4 ou 5 autres vaisseaux du même type de vaisseau que le vôtre. %LINEBREAK% Tant que vous défendez, jusqu’à 2 de vos ailiers dans l’arc d’attaque peuvent subir 1 dégât %HIT% ou %CRIT% pour annuler un résultat correspondant."""
         "Dreadnought Hunter":
-           display_name: """Dreadnought Hunter"""
-           text: """While you perform an attack against a huge ship, if the attack deals a faceup damage card to the defender and the defender is in your %BULLSEYEARC%, you may apply the <strong>Precision Shot</strong> effect even if you are not in the specified arc."""
+           display_name: """Chasseur de Cuirassés"""
+           text: """Tant que vous effectuez une attaque contre un vaisseau immense, si l’attaque attribue une carte de dégât face visible au défenseur et que ce dernier est dans votre %BULLSEYEARC%, vous pouvez appliquer l’effet <strong>Tir de Précision</strong> même si vous n’est pas dans l’arc spécifié."""
         "Ion Cannon Battery":
-           display_name: """Ion Cannon Battery"""
-           text: """<strong>Online: </strong> Setup: Equip this side faceup.%LINEBREAK% Bonus Attack: Spend 1 %ENERGY%. If this attack hits, the defender suffers 1 %CRIT% damage, and all %HIT%/%CRIT% results inflict ion tokens instead of damage. %LINEBREAK%<strong>Offline: </strong> %LINEBREAK% After you engage, you may spend 2 %ENERGY% to flip this card."""
+           display_name: """Batterie à Canons ioniques"""
+           text: """<strong>Mise en Place :</strong> à équiper avec cette face visible.%LINEBREAK%<strong>Attaque Bonus :</strong> dépensez 1 %ENERGY%. Si cette attaque touche, le défenseur subit 1 dégât %CRIT% damage, et tous les résultats %HIT%/%CRIT% infligent des marqueurs ioniques à la place des dégâts. %LINEBREAK%<strong>Hors-ligne: </strong> %LINEBREAK% Après que vous vous êtes engagé, vous pouvez dépenser 2 %ENERGY% pour retourner cette carte."""
         "Targeting Battery":
-           display_name: """Targeting Battery"""
-           text: """<strong>Online: </strong> Setup: Equip this side faceup.%LINEBREAK% Bonus Attack: Spend 1 %ENERGY%. After you perform this attack, you may acquire a lock on the defender. %LINEBREAK%<strong>Offline: </strong> %LINEBREAK% After you engage, you may spend 2 %ENERGY% to flip this card."""
+           display_name: """Batterie de Ciblage"""
+           text: """<strong>Mise en Place :</strong> à équiper avec cette face visible. %LINEBREAK%<strong>Attaque Bonus :</strong> dépensez 1 %ENERGY%. Après avoir effectué cette attaque, vous pouvez verrouiller le défenseur. %LINEBREAK%<strong>Hors-ligne: </strong> %LINEBREAK% Après que vous vous êtes engagé, vous pouvez dépenser 2 %ENERGY% pour retourner cette carte."""
         "Ordnance Tubes":
-           display_name: """Ordnance Tubes"""
-           text: """<strong>Online: </strong> Setup: Equip this side faceup. %LINEBREAK% You can perform %TORPEDO% and %MISSILE% attacks only as bonus attacks. You <strong>must</strong> treat the %FRONTARC% requirement of your equipped %TORPEDO% and %MISSILE% upgrades as %FULLFRONTARC%. %LINEBREAK% Bonus Attack: Perform a %TORPEDO% attack. %LINEBREAK% Bonus Attack: Perform a %MISSILE% attack. %LINEBREAK%<strong>Offline: </strong> %LINEBREAK% You must treat the %FRONTARC% requirement of your equipped %TORPEDO% and %MISSILE% upgrades as %BULLSEYEARC%. %LINEBREAK% Action: Spend 2 %ENERGY% to flip this card."""
+           display_name: """Tubes d’Artillerie"""
+           text: """<strong>Mise en Place :</strong> à équiper avec cette face visible. %LINEBREAK% Vous pouvez effectuer des attaques %TORPEDO% et %MISSILE% uniquement en tant qu’attaque bonus. Vous <b>devez</b> considérer le prérequis %FRONTARC% uniquement en tant qu’attaque bonus. Vous devez considérer le prérequis  %TORPEDO% et %MISSILE% équipées comme étant %FULLFRONTARC%. %LINEBREAK%<strong>Attaque Bonus :</strong> effectuez une attaque %TORPEDO%. %LINEBREAK%<strong>Attaque Bonus :</strong> effectuez une attaque %MISSILE%. %LINEBREAK%<strong>Hors-ligne : </strong> %LINEBREAK% Vous devez considérer le prérequis %FRONTARC% de vos améliorations %TORPEDO% et %MISSILE% équipées comme étant %BULLSEYEARC%. %LINEBREAK% <strong>Action:</strong> dépensez 2 %ENERGY% pour retourner cette carte."""
         "Point-Defense Battery":
-           display_name: """Point-Defense Battery"""
-           text: """<strong>Online: </strong> Setup: Equip this side faceup. %LINEBREAK% Bonus Attack: Spend 1 %ENERGY%. %LINEBREAK% Bonus Attack: Spend 1 %ENERGY%. %LINEBREAK% Bonus Attack: Spend 1 %ENERGY%. %LINEBREAK% Bonus Attack: Spend 1 %ENERGY%. %LINEBREAK%<strong>Offline: </strong> %LINEBREAK% After you engage, you may spend 2 %ENERGY% to flip this card."""
+           display_name: """Batterie Défensive"""
+           text: """<strong>Mise en Place : </strong> à équiper avec cette face visible. %LINEBREAK%<strong>Attaque Bonus :</strong> dépensez 1 %ENERGY%. %LINEBREAK%<strong>Attaque Bonus :</strong> dépensez 1 %ENERGY%. %LINEBREAK%<strong>Attaque Bonus :</strong> dépensez 1 %ENERGY%. %LINEBREAK%<strong>Attaque Bonus :</strong> dépensez 1 %ENERGY%. %LINEBREAK%<strong>Hors-ligne :</strong> %LINEBREAK% Après que vous vous êtes engagé, vous pouvez dépenser 2 %ENERGY% pour retourner cette carte."""
         "Turbolaser Battery":
-           display_name: """Turbolaser Battery"""
-           text: """<strong>Online: </strong> Setup: Equip this side faceup.%LINEBREAK% Bonus Attack (%LOCK%): Spend 3 %ENERGY%. If this attack hits, add 3 %HIT% results. %LINEBREAK% <strong>Offline: </strong> %LINEBREAK% After you engage, you may spend 2 %ENERGY% to flip this card."""
+           display_name: """Batterie Turbolaser"""
+           text: """<strong>Mise en Place : </strong> à équiper avec cette face visible. %LINEBREAK%<strong>Bonus Attack (%LOCK%):</strong> dépensez 3 %ENERGY%. Si cette attaque touche, ajoutez 3 résultats %HIT%. %LINEBREAK%<strong>Hors-ligne :</strong> %LINEBREAK% Après que vous vous êtes engagé, vous pouvez dépenser 2 %ENERGY% pour retourner cette carte."""
         "Bombardment Specialists":
-           display_name: """Bombardment Specialists"""
-           text: """While you perform an attack, you may spend 1 calculate token to increase or decrease the range requirement by 1, to a limit of 0-5."""
+           display_name: """Spécialistes du Bombardement"""
+           text: """Tant que vous effectuez une attaque, vous pouvez dépenser 1 marqueur de calcul pour augmenter ou diminuer de 1 le prérequis de portée, pour une limite de 0–5."""
         "Comms Team":
-           display_name: """Comms Team"""
-           text: """After you perform a %COORDINATE% action, you may spend up to 2 %ENERGY% to coordinate that many additional ships at range 0-1 of the ship you coordinated."""
+           display_name: """Équipe de Communication"""
+           text: """Après avoir effectué une action %COORDINATE%, vous pouvez dépenser jusqu’à 2 %ENERGY% pour coordonner autant de vaisseaux supplémentaires à portée 0–1 du vaisseau que vous avez coordonné."""
         "IG-RM Droids":
-           display_name: """IG-RM Droids"""
-           text: """While you perform an attack, if you are calculating, you may change 1 %HIT% result to a %CRIT% result."""
+           display_name: """Droïdes IG-RM"""
+           text: """Tant que vous effectuez une attaque, si vous êtes calculateur, vous pouvez changer 1 résultat %HIT% en un résultat %CRIT%."""
         "Gunnery Specialists":
-           display_name: """Gunnery Specialists"""
-           text: """While you perform a primary or %HARDPOINT% attack, you may spend 1 or more %ENERGY% to reroll that many attack dice."""
+           display_name: """Spécialistes en Artillerie"""
+           text: """Tant que vous effectuez une attaque principale ou %HARDPOINT% , vous pouvez dépenser 1 ou plusieurs %ENERGY% pour relancer autant de dés d’attaque."""
         "Damage Control Team":
-           display_name: """Damage Control Team"""
-           text: """Before you engage, you may spend 1 or more %ENERGY% to flip that many of your <strong>Offline</strong> upgrade cards.%LINEBREAK% Action: Spend 1 or more %ENERGY% to repair that many of your faceup <strong>Ship</strong> damage cards."""
+           display_name: """Équipe de Contrôle des Dégâts"""
+           text: """Avant de vous engager, vous pouvez dépenser 1 ou plusieurs %ENERGY% pour retourner autant de vos cartes d’amélioration <b>Hors-ligne</b>. %LINEBREAK%<strong>Action :</strong> dépensez 1 ou plusieurs %ENERGY% pour réparer autant de vos cartes de dégât <b>Vaisseau</b> face visible."""
         "Ordnance Team":
-           display_name: """Ordnance Team"""
-           text: """While you perform a %RELOAD% action, you may spend up to 3 %ENERGY% to reload that many additional %CHARGE% on your equipped %MISSILE%/%TORPEDO% upgrades. %LINEBREAK% After you perform a %RELOAD% action, you may spend 1 %ENERGY% to remove 1 disarm token."""
+           display_name: """Équipe d’Artificiers"""
+           text: """Tant que vous effectuez une action %RELOAD%, vous pouvez dépenser jusqu’à 3 %ENERGY% pour recharger autant de %CHARGE% supplémentaires de vos améliorations %MISSILE%/%TORPEDO% équipées. %LINEBREAK% Après avoir effectué une action %RELOAD%, vous pouvez dépenser 1 %ENERGY% pour retirer 1 marqueur de désarmement."""
         "Sensor Experts":
-           display_name: """Sensor Experts"""
-           text: """You can maintain up to 3 locks on different objects. %LINEBREAK% After you perform a %LOCK% action, you may spend up to 2 %ENERGY% to acquire a lock on that many other objects at range 0-1 of the object you locked, ignoring range restrictions."""
+           display_name: """Experts des Senseurs"""
+           text: """Vous pouvez maintenir jusqu’à 3 verrouillages sur différents objets. %LINEBREAK%Après avoir effectué une action %LOCK%, vous pouvez dépenser jusqu’à 2 %ENERGY% pour verrouiller autant d’autres objets à portée 0–1 de l’objet que vous avez verrouillé, en ignorant les restrictions de portée."""
         "Quick-Release Locks":
-           display_name: """Quick-Release Locks"""
-           text: """During the System Phase, you may spend 1 %CHARGE% to place 1 cargo crate drift in your %REARARC% at range 0. It cannot overlap a ship this way.%LINEBREAK% This card's %CHARGE% cannot be recovered."""
+           display_name: """Verrous à Libération Rapide"""
+           text: """Pendant la phase de système, vous pouvez dépenser 1 %CHARGE% pour placer 1 dérive de cargaison dans votre %REARARC% à portée 0. Le marqueur de dérive de cargaison ne peut pas chevaucher de vaisseau de cette manière. %LINEBREAK%Les %CHARGE% de cette carte ne peuvent pas être récupérées."""
         "Saboteur's Map":
-           display_name: """Saboteur's Map"""
-           text: """At the end of Setup, you may spend up to 1 %CHARGE% from each of your equipped <strong>Mine</strong> upgrades to place the corresponding device in the play area beyond range 2 of any enemy ship, strategic marker, or other device."""
+           display_name: """Carte du Saboteur"""
+           text: """À la fin de la Mise en place, vous pouvez dépenser jusqu’à 1 %CHARGE% de chacune de vos améliorations <b>Mine</b> équipées pour placer l’engin correspondant dans la zone de jeu au-delà de la portée 2 de tout vaisseau ennemi ou autre engin."""
         "Scanner Baffler":
-           display_name: """Scanner Baffler"""
-           text: """At the end of Setup, you may choose any number of other friendly, non-huge ships in your deployment area at range 0-1. If you do, place those ships anywhere in the same deployment area."""
+           display_name: """Scanner Cloisonné"""
+           text: """À la fin de la Mise en place, vous pouvez choisir jusqu’à 6 autres vaisseaux standards alliés dans votre zone de déploiement à portée 0–1. Dans ce cas, placez ces vaisseaux n’importe où à portée 0–1."""
         "Adaptive Shields":
-           display_name: """Adaptive Shields"""
-           text: """While another friendly ship at range 0-1 defends, if it is a smaller size than you, you may spend 1 shield or 2 %ENERGY% to cancel 1 %HIT% or %CRIT% result."""
+           display_name: """Boucliers Adaptables"""
+           text: """Tant qu’un autre vaisseau allié à portée 0–1 défend, s’il est d’une taille plus petite que vous, vous pouvez dépenser 1 bouclier ou 2 %ENERGY% pour annuler 1 résultat %HIT% ou %CRIT%."""
         "Boosted Scanners":
-           display_name: """Boosted Scanners"""
-           text: """While you lock, coordinate, or jam, you may spend up to 3 %ENERGY% to increase the range at which you can choose an object by 1 per %ENERGY% spent this way, to a maximum of range 5."""
+           display_name: """Scanners Amplifiés"""
+           text: """Tant que vous verrouillez, coordonnez ou brouillez, vous pouvez dépenser jusqu’à 3 %ENERGY% pour augmenter la portée à laquelle vous pouvez choisir un objet de 1 par %ENERGY% dépensée de cette manière, pour une portée maximale de 5."""
         "Optimized Power Core":
-           display_name: """Optimized Power Core"""
-           text: """After you execute a blue maneuver, recover 1 %ENERGY%."""
+           display_name: """Noyau d’Énergie Optimisé"""
+           text: """Après avoir exécuté une manoeuvre bleue, récupérez 1 %ENERGY%."""
         "Tibanna Reserves":
-           display_name: """Tibanna Reserves"""
-           text: """Action: Spend 1 %CHARGE% to recover 2 %ENERGY%."""
+           display_name: """Réserves de Tibanna"""
+           text: """<strong>Action :</strong> dépensez 1 %CHARGE% pour récupérer 2 %ENERGY%."""
         "Toryn Farr":
            display_name: """Toryn Farr"""
-           text: """After you coordinate a friendly ship, it may acquire a lock on a ship you are locking, ignoring range restrictions."""
+           text: """Après avoir coordonné un vaisseau allié, ce dernier peut verrouiller un vaisseau que vous verrouillez déjà, en ignorant les restrictions de portée."""
         "Dodonna's Pride":
            display_name: """Dodonna's Pride"""
            text: """ """
         "Jaina's Light":
            display_name: """Jaina's Light"""
-           text: """While a friendly ship at range 0-2 defends, if the attack is obstructed by an obstacle, you may spend 1 %ENERGY%. If you do, the defender rolls 1 additional defense die."""
+           text: """Tant qu’un vaisseau allié à portée 0–2 défend, si l’attaque est gênée par un obstacle, vous pouvez dépenser 1 %ENERGY%. Dans ce cas, le défenseur lance 1 dé de défense supplémentaire."""
         "Liberator":
            display_name: """Liberator"""
-           text: """You can dock up to 2 small ships. %LINEBREAK% After a ship deploys from you, it may perform a %FOCUS% or %BARRELROLL% action."""
+           text: """Vous pouvez arrimer jusqu’à 2 petits vaisseaux. %LINEBREAK%Après qu’un vaisseau s’est déployé depuis vous, il peut effectuer une action %FOCUS% ou %BARRELROLL%."""
         "Tantive IV":
            display_name: """Tantive IV"""
-           text: """While you defend, if the attacker is in your %REARARC%, you may roll 1 additional defense die."""
+           text: """Tant que vous défendez, si l’attaquant est dans votre %REARARC%, vous pouvez lancer 1 dé de défense supplémentaire."""
         "Thunderstrike":
            display_name: """Thunderstrike"""
-           text: """While you perform a bonus attack, if you have not attacked the defender this round, you may reroll 1 attack die."""
+           text: """Tant que vous effectuez une attaque bonus, si vous n’avez pas attaqué le défenseur à ce round, vous pouvez relancer 1 dé d’attaque."""
         "Bright Hope":
            display_name: """Bright Hope"""
-           text: """You can reinforce only your %FULLFRONTARC%. %LINEBREAK% While you defend, if you are reinforced and the attacker is in your %FULLFRONTARC%, you may roll 1 additional defense die."""
+           text: """Vous ne pouvez renforcer que votre %FULLFRONTARC%. %LINEBREAK% Tant que vous défendez, si vous êtes renforcé et que l’attaquant est dans votre %FULLFRONTARC%, vous pouvez lancer 1 dé de défense supplémentaire."""
         "Luminous":
            display_name: """Luminous"""
-           text: """Setup: You are placed in reserve. %LINEBREAK% At the end of setup, you are placed in the play area at range 0-2 of a friendly ship."""
+           text: """<strong>Mise en Place :</strong> débutez en réserve. %LINEBREAK%À la fin de la Mise en place, placez-vous dans la zone de jeu à portée 0–2 d’un vaisseau allié."""
         "Quantum Storm":
            display_name: """Quantum Storm"""
-           text: """After you fully execute a white maneuver, recover 1 %ENERGY%."""
+           text: """Après avoir entièrement exécuté une manoeuvre blanche, récupérez 1 %ENERGY%."""
         "Assailer":
            display_name: """Assailer"""
-           text: """While you defend, if the attack range is 1, you may roll 1 additional defense die."""
+           text: """Tant que vous défendez, si la portée d’attaque est 1, vous pouvez lancer 1 dé de défense supplémentaire."""
         "Corvus":
            display_name: """Corvus"""
-           text: """You can dock up to 2 small ships. %LINEBREAK% After you perform a %CALCULATE% action, gain 1 calculate token."""
+           text: """Vous pouvez arrimer jusqu’à 2 petits vaisseaux. %LINEBREAK%Après avoir effectué une action %CALCULATE%, gagnez 1 marqueur de calcul."""
         "Impetuous":
            display_name: """Impetuous"""
-           text: """After you perform an attack, if the defender was destroyed, you may perform a %FOCUS% or %LOCK% action."""
+           text: """Après que vous avez effectué une attaque, si le défenseur a été détruit, vous pouvez effectuer une action %FOCUS% ou %LOCK%."""
         "Instigator":
            display_name: """Instigator"""
-           text: """While you perform an attack, if the defender has an orange or red token, you may reroll up to 2 attack dice."""
+           text: """Tant que vous effectuez une attaque, si le défenseur a un marqueur orange ou rouge, vous pouvez relancer jusqu’à 2 dés d’attaque."""
         "Blood Crow":
            display_name: """Blood Crow"""
-           text: """While you perform an attack at attack range 1-2, you may add 1 %FOCUS% result."""
+           text: """Tant que vous effectuez une attaque à portée d’attaque 1–2, vous pouvez ajouter 1 résultat %FOCUS%."""
         "Requiem":
            display_name: """Requiem"""
-           text: """After a ship deploys from you, it may acquire a lock on one ship you are locking, ignoring range restrictions."""
+           text: """Après qu’un vaisseau s’est déployé depuis vous, il peut verrouiller un vaisseau que vous verrouillez déjà, en ignorant les restrictions de portée."""
         "Suppressor":
            display_name: """Suppressor"""
-           text: """After you coordinate a friendly ship, you may spend 1 %ENERGY% to jam an enemy ship at range 0-2 of that ship, ignoring range restrictions."""
+           text: """Après avoir coordonné un vaisseau allié, vous pouvez dépenser 1 %ENERGY% pour brouiller un vaisseau ennemi à portée 0–2 de ce vaisseau, en ignorant les restrictions de portée."""
         "Vector":
            display_name: """Vector"""
-           text: """After a ship deploys from you, it may perform a %EVADE% or %BOOST% action."""
+           text: """Après qu’un vaisseau s’est déployé depuis vous, il peut effectuer une action %EVADE% ou %BOOST%."""
         "Broken Horn":
            display_name: """Broken Horn"""
-           text: """If you are damaged, reduce the difficulty of your speed 3-5 maneuvers."""
+           text: """Si vous êtes endommagé, diminuez la difficulté de vos manoeuvres ayant une vitesse 3–5."""
         "Merchant One":
            display_name: """Merchant One"""
-           text: """Bonus Attack: Perform a %TURRET% attack."""
+           text: """<strong>Attaque Bonus :</strong> effectuez une attaque %TURRET%."""
         "Insatiable Worrt":
            display_name: """Insatiable Worrt"""
-           text: """During the End Phase, you may recover 1 additional shield or 1 additional %ENERGY%."""
+           text: """Pendant la phase de dénouement, vous pouvez récupérer 1 %SHIELD% ou %ENERGY% supplémentaire."""
         "Corsair Refit":
-           display_name: """Corsair Refit"""
-           text: """Bonus Attack: Spend 1 %ENERGY% to perform a %CANNON%, %TURRET%, or %MISSILE% attack."""
+           display_name: """Reconversion Corsaire"""
+           text: """<strong>Attaque Bonus :</strong> dépensez 1 %ENERGY% pour effectuer une attaque %CANNON%, %TURRET%, or %MISSILE%."""
         "Enhanced Propulsion":
-           display_name: """Enhanced Propulsion"""
-           text: """<strong>Setup:</strong> Equip this side faceup.%LINEBREAK% At the start of the End Phase, you may spend 2 %ENERGY% to execute a white [2 %STRAIGHT%], [1 %BANKLEFT%], or [1 %BANKRIGHT%] maneuver. %LINEBREAK% """
+           display_name: """Propulsion Renforcée"""
+           text: """<strong>Mise en Place :</strong> à équiper avec cette face visible. %LINEBREAK%Au début de la phase de dénouement, vous pouvez dépenser 2 %ENERGY% pour exécuter une manœuvre blanche [2 %STRAIGHT%], [1 %BANKLEFT%], ou [1 %BANKRIGHT%]. %LINEBREAK%<strong>Hors-ligne : </strong> %LINEBREAK%<strong>Action:</strong> dépensez 1 %ENERGY% pour retourner cette carte."""
         "Drill Beak":
-           display_name: """Drill Beak"""
-           text: """<strong>Setup:</strong> Equip this side faceup.%LINEBREAK% You can preform this attack at range 0.
-           %LINEBREAK% <strong>Bonus Attack:</strong> Spend 1 %ENERGY%. If the attack range is 0, change all %HIT% results to %CRIT% results."""
+           display_name: """Trépan de Forage"""
+           text: """<strong>Mise en Place :</strong> à équiper avec cette face visible. %LINEBREAK% Vous pouvez effectuer cette attaque à portée 0.
+           %LINEBREAK%<strong>Attaque Bonus :</strong> dépensez 1 %ENERGY%. Si la portée d'attaque est 0, changez tout les résultats %HIT% en résultats %CRIT%. %LINEBREAK%<strong>Hors-ligne : </strong> %LINEBREAK%<strong>Action:</strong> dépensez 1 %ENERGY% pour retourner cette carte."""
         "Tractor Tentacles":
-           display_name: """Tractor Tentacles"""
-           text: """<strong>Setup:</strong> Equip this side faceup.
-           %LINEBREAK% <strong>Bonus Attack</strong> %LINEBREAK% <strong>Bonus Attack:</strong> Spend 1 %ENERGY%. %LINEBREAK% <strong>Bonus Attack:</strong> Spend 1 %ENERGY%. %LINEBREAK% <strong>Bonus Attack:</strong> Spend 1 %ENERGY%."""
+           display_name: """Tentacules Tracteurs"""
+           text: """<strong>Mise en Place :</strong> à équiper avec cette face visible. %LINEBREAK%<strong>Attaque Bonus :</strong> %LINEBREAK%<strong>Attaque Bonus :</strong> dépensez 1 %ENERGY%. %LINEBREAK%<strong>Attaque Bonus :</strong> dépensez 1 %ENERGY%. %LINEBREAK%<strong>Attaque Bonus :</strong> dépensez 1 %ENERGY%."""
         "Tracking Torpedoes":
-           display_name: """Tracking Torpedoes"""
-           text: """During the System Phase, you may spend up to 3 %CHARGE% to launch that many tracking torpedoes using the [%BANKLEFT% 3], [%STRAIGHT% 4], and [%BANKRIGHT% 3] templates. Each device must use a seperate tempalte. Then each device may acquire a lock on an object you have locked, ignoring range restrictions.%LINEBREAK% This card's %CHARGE% cannot be recovered."""
+           display_name: """Torpilles Auto-Guidées"""
+           text: """Pendant la phase de système, vous pouvez dépenser jusqu'à 3 %CHARGE% pour lancer autant de torpilles auto-guidées en utilisant les gabarits [%BANKLEFT% 3], [%STRAIGHT% 4], et [%BANKRIGHT% 3]. Chaque engin doit utiliser un gabarit différent. Puis chaque engin peut verrouiller un objet que vous avez verrouillé, en ignorant les restrictions de portée. %LINEBREAK%Les %CHARGE% de cette carte ne peuvent pas être récupérées."""
         "Proton Cannon Battery":
-           display_name: """Proton Cannon Battery"""
-           text: """<strong>Setup:</strong> Equip this side faceup.
-           %LINEBREAK% <strong>Bonus Attack:</strong> Change 1 %HIT% result to a %CRIT% result. %LINEBREAK% <strong>Bonus Attack:</strong> Spend 1 %ENERGY%. Change 1 %HIT% result to a %CRIT% result."""
+           display_name: """Batterie de Canons à Protons"""
+           text: """<strong>Mise en Place :</strong> à équiper avec cette face visible.%LINEBREAK%<strong>Attaque Bonus :</strong> changez 1 résultat %HIT% en un résultat %CRIT%. %LINEBREAK%<strong>Attaque Bonus :</strong> dépensez 1 %ENERGY%. Changez 1 résultat %HIT% en un résultat %CRIT%."""
         "Tractor Technicians":
-           display_name: """Tractor Technicians"""
-           text: """During the End Phase, each other ship at range 0-1 cannot remove its tractor tokens. %LINEBREAK% Before a tractored enemy ship at range 0-1 reveals its dial, you may spend 1 %ENERGY%. If you do, while that ship executes its maneuver this activation, it reduces the speed of that maneuver by 1, to a minimum of 1."""
+           display_name: """Techniciens Tracteurs"""
+           text: """Pendant la phase de dénouement, chaque autre vaisseau à portée 0-1 de ne peut pas retirer ses marqueurs de rayon tracteur. %LINEBREAK%Avant qu'un vaisseau ennemi tracté situé à portée 0-1 ne révèle son cadran, vous pouvez dépenser 1 %ENERGY%. Dans ce cas, tant que ce vaisseau exécute sa manœuvre lors de cette activation, il diminue de 1 la vitesse de cette manœuvre, pour un minimum de 1."""
         "Asajj Ventress (Command)":
            display_name: """Asajj Ventress"""
-           text: """During the System Phase, you may spend 1 %FORCE%. IF you do, each enemy ship in your %FRONTARC% at range 0-1 gains 1 strain token unless it chooses to gain 1 jam token."""
+           text: """Pendant la phase de système, vous pouvez dépenser 1 %FORCE%. Dans ce cas; chaque vaisseau ennemi dans votre %FRONTARC% à portée 0-1 gagne 1 marqueur de contrainte sauf si il choisit de gagner 1 marqueur de brouillage."""
         "Hondo Ohnaka (Command)":
            display_name: """Hondo Ohnaka"""
-           text: """During the System Phase, you may spend 1 %CHARGE% and choose 1 friendly shiop at range 0-1. Move 1 Victory Token or Objective Token from its ship card to your ship card, or from your ship card to its ship card."""
+           text: """Pendant la phase de système, vous pouvez dépenser 1 %CHARGE% et choisir 1 vaisseau allié à portée 0-1. Déplacez 1 un marqueur de victoire ou d'objectif de la carte de ce vaisseau vers la vôtre ou de votre carte de vaisseau vers la sienne."""
         "Zealous Captain":
-           display_name: """Zealous Captain"""
-           text: """During the Engagement Phase, at initiative 4, you may spend 1 %ENERGY% to perform a bonus %HARDPOINT% attack."""
+           display_name: """Capitaine Zélé"""
+           text: """Pendant la phase d'engagement, à l'initiative 4, vous pouvez dépenser 1 %ENERGY% pour effectuer une attaque %HARDPOINT% bonus."""
         "General Grievous (Command)":
-           display_name: """General Grievous"""
-           text: """During the Engagement Phase, at initiative 4, you may spend 1 %ENERGY% to perform a bonus %HARDPOINT% attack. %LINEBREAK% You can perform attacks against friendly ships. %LINEBREAK% After you perform an attack, if the defender was destroyed, each friendly ship at range 0-2 of it may perform a %CALCULATE% action."""
+           display_name: """Général Grievous"""
+           text: """Pendant la phase d'engagement, vous pouvez dépenser 1 %ENERGY% pour effectuer une attaque %HARDPOINT% bonus. %LINEBREAK%Vous pouvez effectuer des attaques contre des vaisseaux alliés. %LINEBREAK%Après que vous avez effectué une attaque, si le défenseur a été détruit, chaque vaisseau allié à portée 0-2 de lui peut effectuer une acton %CALCULATE%."""
         "Mar Tuuk":
            display_name: """Mar Tuuk"""
-           text: """<strong>Setup:</strong> After placing forces, choose 1 friendly wing of ships with %CALCULATE% on their action bars and place that wing in reserve. %LINEBREAK% During the End Phase, you may place that wing within your deployment area or beyond range 2 of any enemy shp. Then you may choose 1 enemy ship at range 0-1 of you; each ship in that wing acquires a lock on it."""
+           text: """<strong>Mise en Place :</strong> après avoir placé les forces, choisissez 1 patrouille alliée de vaisseaux dotés de %CALCULATE% dans leur barre d'action et placez cette patrouille en réserve. %LINEBREAK% Pendant la phase de dénouement vous pouvez placer cette patrouille dans votre zone de déploiement ou au-delà de la portée 2 de tout vaisseau ennemi. Puis vous vous pouvez choisir 1 vaisseau ennemi situé à portée 0-1 de vous : chaque vaisseau de cette patrouille verrouille ce vaisseau ennemi."""
         "Riff Tamson":
            display_name: """Riff Tamson"""
-           text: """During the Engagement Phase, at initiative 5, you may spend 1 %ENERGY% to perform a bonus %HARDPOINT% attack. %LINEBREAK% After you perform an attack, if the defender was dealt 1 or more faceup damage cards, it gains 2 strain tokens."""
+           text: """Pendant la phase d'engagement, à l'initiative 5, vous pouvez dépenser 1 %ENERGY% pour effectuer une attaque %HARDPOINT% bonus. %LINEBREAK% Après que vous avez effectué une attaque, si le défenseur s'est vu attribuer au moins 1 carte de dégât face visible, il gagne 2 marqueurs de contrainte."""
         "Corsair Crew":
-           display_name: """Corsair Crew"""
-           text: """While you perform an attack against a standard ship, you may spend 1 %HIT% result. If you do, the defender gains 1 deplete token."""
+           display_name: """Équipage Corsaire"""
+           text: """Tant que vous effectuez une attaque contre un vaisseau standard, vous pouvez dépenser 1 résultat %HIT%. Dans ce cas le défenseur gagne 1 marqueur d'épuisement."""
         "Grappler":
            display_name: """Grappler"""
-           text: """While you perform a <b>Drill Beak</b> attack, at range 1, if the defender is tractored, treat it as being range 0 instead."""
+           text: """Tant que vous effectuez une attaque <b>Trépan de Forage</b> à portée d'attaque 1, si le défenseur est tracté, considérez le comme étant à portée 0 à la place."""
         "Nautolan's Revenge":
            display_name: """Nautolan's Revenge"""
-           text: """Before you engage, you may spend up to 2 calculate tokens. If you do, recover that many %ENERGY%."""
+           text: """Avant de vous engager, vous pouvez dépenser jusqu'à 2 marqueurs de calcul. Dans ce cas récupérez autant de %ENERGY%."""
         "Droid Crew":
-           display_name: """Droid Crew"""
-           text: """While you perform a white %FOCUS% action, treat it as red instead. %LINEBREAK% At the start of the End Phase, repair all of your faceup <b>Crew</b> damage cards."""
+           display_name: """Équipage Droïde"""
+           text: """Tant que vous effectuez une action %FOCUS% blanche, considérez-la comme rouge à la place. %LINEBREAK%Au début de la phase de dénouement, réparez toutes vos cartes de dégâts <b>Équipage</b> face visible."""
         "Trident":
            display_name: """Trident"""
-           text: """After you overlap a ship or a ship overlaps you, if it is not tractored, you may spend 1 %ENERGY%. If you do, it gains 3 tractor tokens."""
+           text: """Après avoir chevauché un vaisseau ou qu'un vaisseau vous a chevauché, s'il n'est pas tracté, vous pouvez dépenser 1 %ENERGY%. Dans ce cas, il gagne 3 marqueurs de rayon tracteur."""
         "Neimoidian Grasp":
            display_name: """Neimoidian Grasp"""
-           text: """After you perform an attack, you may perform a red  %EVADE% action. While you defend, if you are evading, you may roll 1 addtional defense die."""
+           text: """Après avoir effectué une attaque, vous pouvez effectuer une action %EVADE% rouge. %LINEBREAK%Tant que vous défendez, si vous êtes esquivant, vous pouvez lancer 1 dé de défense supplémentaire."""
 
 
 
