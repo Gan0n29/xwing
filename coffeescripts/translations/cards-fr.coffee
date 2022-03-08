@@ -3287,10 +3287,12 @@ exportObj.cardLoaders['Français'] = () ->
 
 
     condition_translations =
-        'Suppressive Fire':
-           text: '''Tant que vous effectuez une attaque contre un vaisseau other than <strong>Captain Rex</strong>, roll 1 fewer attack die. %LINEBREAK% After <strong>Captain Rex</strong> defends, retirer this card.  %LINEBREAK% At the end of the Combat Phase, si <strong>Captain Rex</strong> did not perform an attack this phase, retirer this card. %LINEBREAK% After <strong>Captain Rex</strong> is destroyed, retirer this card.'''
-        'Hunted':
-           text: '''After you are destroyed, you must choose another friendly ship et assign this condition to it, si able.'''
+        "Suppressive Fire":
+           display_name: """Tir de Suppression"""
+           text: """Tant que vous effectuez une attaque contre un vaisseau autre que le <b>Capitaine Rex</b>, lancez 1 dé d'attaque an moins. %LINEBREAK%Après que le <b>Capitaine Rex</b> a défendu, retirez cette carte.   %LINEBREAK% A la fin de la phase d’engagement, si le <b>Capitaine Rex</b> n'a pas effectué d'attaque à cette phase, retirez cette carte. %LINEBREAK% Après que le <b>Capitaine Rex</b> a été détruit, retirez cette carte. """
+        "Hunted":
+           display_name: """Traqué"""
+           text: """Après avoir été détruit, vous devez choisir un autre vaisseau allié et lui assigner cet état, si possible."""
         'Listening Device':
            text: '''Pendant la phase de système, si an enemy ship with the <strong>Informant</strong> upgrade is at range 0-2, flip your dial faceup.'''
         'Rattled':
