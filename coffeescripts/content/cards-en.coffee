@@ -2694,6 +2694,8 @@ exportObj.cardLoaders.English = () ->
            text: """While you perform an attack, if the attack is obstructed by an obstacle or the defender is at range 0 of an obstacle, you may spend 1 %FORCE% to add 1 %FOCUS% result."""
         "DT-798":
            text: """At the start of the Engagement Phase, you may choose a friendly ship in your firing arc. If you do, that ship gains 1 strain token. %LINEBREAK% While you perform an attack, you may reroll up to 1 die for each ship in the attack arc with 1 or more non-lock red or orange tokens."""
+        "First Order Ordnance Tech":
+           text: """<i class = flavor_text>The First Order trains its pilots and gunners to be fanatically loyal, prioritizing victory even over survival.</i>"""
         "Feedback Ping":
            text: """After an enemy ship executes a maneuver, if it is at range 0-1 of a friendly device, you may acquire a lock on that ship, ignoring range restrictions."""
         "Electro-Chaff Missiles":
