@@ -23180,7 +23180,7 @@ exportObj.basicCardData = ->
             faction: "Scum and Villainy"
             pilot: "Lawless Pirates"
             ship: "Trident-class Assault Ship"
-            threat: 9
+            threat: 5
             upgrades: [
                 "Zealous Captain"
                 "Tractor Tentacles"
@@ -23196,7 +23196,7 @@ exportObj.basicCardData = ->
             faction: "Scum and Villainy"
             pilot: "Lawless Pirates"
             ship: "Trident-class Assault Ship"
-            threat: 10
+            threat: 6
             upgrades: [
                 "Hondo Ohnaka (Command)"
                 "Tractor Tentacles"
@@ -23213,7 +23213,7 @@ exportObj.basicCardData = ->
             faction: "Separatist Alliance"
             pilot: "Colicoid Destroyer"
             ship: "Trident-class Assault Ship"
-            threat: 8
+            threat: 4
             upgrades: [
                 "Tractor Tentacles"
                 "Drill Beak"
@@ -23225,7 +23225,7 @@ exportObj.basicCardData = ->
             faction: "Separatist Alliance"
             pilot: "Colicoid Destroyer"
             ship: "Trident-class Assault Ship"
-            threat: 9
+            threat: 5
             upgrades: [
                 "Asajj Ventress (Command)" 
                 "Tractor Tentacles"
@@ -23241,7 +23241,7 @@ exportObj.basicCardData = ->
             faction: "Separatist Alliance"
             pilot: "Colicoid Destroyer"
             ship: "Trident-class Assault Ship"
-            threat: 10 
+            threat: 6 
             upgrades: [
                 "Riff Tamson"
                 "Tractor Tentacles"
