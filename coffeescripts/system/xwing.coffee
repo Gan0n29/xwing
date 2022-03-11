@@ -1087,6 +1087,7 @@ class exportObj.SquadBuilder
             <div class="card info-well">
                 <div class="info-image-container" style="display:none;">
                     <img class="info-image" />
+                </div>
                 <div class="info-name"></div>
                 <div class="info-type"></div>
                 <span class="info-collection"></span>
