@@ -1085,6 +1085,8 @@ class exportObj.SquadBuilder
     createInfoContainerUI: ->
         return """
             <div class="card info-well">
+                <div class="info-image-container" style="display:none;">
+                    <img class="info-image" />
                 <div class="info-name"></div>
                 <div class="info-type"></div>
                 <span class="info-collection"></span>
@@ -2310,6 +2312,7 @@ class exportObj.SquadBuilder
                                 
                     possible_inis.sort()
         
+                    container.find('.info-image-container').hide()
                     container.find('.info-type').text type
                     container.find('.info-name').html """#{if data.display_name then data.display_name else data.name}#{if exportObj.isReleased(data) then "" else " (#{@uitranslation('unreleased')})"}"""
                     if @collection?.counts?
@@ -2419,6 +2422,9 @@ class exportObj.SquadBuilder
                     container.find('.info-sources.info-data').text if (sources.length > 1) or (not (exportObj.translate('sources', 'Loose Ships') in sources)) then (if sources.length > 0 then sources.join(', ') else exportObj.translate('ui', 'unreleased')) else @uitranslation("Only available from 1st edition")
                     container.find('.info-sources').show()
                 when 'Pilot'
+                    pilot_img = 'images/pilots/' + data.id + '.jpg'
+                    container.find('.info-image').attr 'src', pilot_img
+                    container.find('.info-image-container').show()
                     container.find('.info-type').text type
                     container.find('.info-sources.info-data').text (exportObj.translate('sources', source) for source in data.sources).sort().join(', ')
                     container.find('.info-sources').show()
@@ -2590,6 +2596,11 @@ class exportObj.SquadBuilder
                     
                     pilot = exportObj.pilots[data.pilot]
                     ship = exportObj.ships[data.ship]
+                    
+                    
+                    pilot_img = 'images/pilots/' + pilot.id + '.jpg'
+                    container.find('.info-image').attr 'src', pilot_img
+                    container.find('.info-image-container').show()
 
                     #logic to determine how many dots to use for uniqueness
                     if pilot.unique?
@@ -2613,6 +2624,8 @@ class exportObj.SquadBuilder
                         container.find('p.info-restrictions').show()
                     else
                         container.find('p.info-restrictions').hide()
+                        
+                    
 
                     container.find('p.info-text').html pilot.text ? ''
                     container.find('p.info-text').show()
@@ -2710,6 +2723,9 @@ class exportObj.SquadBuilder
                     container.find('p.info-maneuvers').show()
                     container.find('p.info-maneuvers').html(@getManeuverTableHTML(ship.maneuvers, ship.maneuvers))
                 when 'Addon'
+                    upgrade_img = 'images/upgrades/' + data.id + '.jpg'
+                    container.find('.info-image').attr 'src', upgrade_img
+                    container.find('.info-image-container').show()
                     container.find('.info-type').text additional_opts.addon_type
                     container.find('.info-sources.info-data').text (exportObj.translate('sources', source) for source in data.sources).sort().join(', ')
                     container.find('.info-sources').show()
