@@ -343,33 +343,35 @@ html
                   page_title: 'Main Page'
                 $('#rebelTab').tab 'show'
 
-          //window.backend = new SquadBuilderBackend
-          //    server: 'https://yasb-backend.herokuapp.com'
-          //    builders: [
-          //      window.rebel_sb
-          //      window.empire_sb
-          //      window.scum_sb
-          //      window.resistance_sb
-          //      window.firstorder_sb
-          //      window.republic_sb
-          //      window.separatist_sb
-          //      window.all_sb
-          //    ]
-          //    login_logout_button: '#login-logout'
-          //    auth_status: '#auth-status'
+###
+          window.backend = new SquadBuilderBackend
+              server: 'https://yasb-backend.herokuapp.com'
+              builders: [
+                window.rebel_sb
+                window.empire_sb
+                window.scum_sb
+                window.resistance_sb
+                window.firstorder_sb
+                window.republic_sb
+                window.separatist_sb
+                window.all_sb
+              ]
+              login_logout_button: '#login-logout'
+              auth_status: '#auth-status'
+###
 
           window.browser = new CardBrowser
               container: '#card-browser'
 
           window.browser = new RulesBrowser
               container: '#rules-browser'
+###
+          window.backend.getSettings (settings) ->
+              window.backend.getLanguagePreference settings, (language, priority) ->
+                $(window).trigger 'xwing:languageChanged', [ language, priority ]
 
-          //window.backend.getSettings (settings) ->
-          //    window.backend.getLanguagePreference settings, (language, priority) ->
-          //      $(window).trigger 'xwing:languageChanged', [ language, priority ]
-
-          //window.setupTranslationUI window.backend
-
+          window.setupTranslationUI window.backend
+###
           if (window.location.href.indexOf('https:') != 0) and ((navigator.userAgent.indexOf('MSIE 8') > -1) or (navigator.userAgent.indexOf('MSIE 9') > -1))
               $('.msie8-hax').html '''
                   Trouble logging in? Try clicking <a href="#">here</a> first.
