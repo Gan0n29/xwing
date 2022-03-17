@@ -9171,7 +9171,7 @@ exportObj.basicCardData = ->
             unique: true
             ship: "Firespray-31"
             points: 80
-            keyword: ["Bounty Hunter"]
+            keyword: ["Bounty Hunter", "Mandalorian"]
             slots: [
                 "Talent"
                 "Cannon"
@@ -15835,8 +15835,9 @@ exportObj.basicCardData = ->
             name: "Burnout Thrusters"
             id: 462
             points: 6
+            charge: 1
             slot: "Modification"
-            faction: ["Scum and Villainy"]
+            faction: "Scum and Villainy"
             restrictions: [
                 ["Base", "Small or Medium"]
             ]
