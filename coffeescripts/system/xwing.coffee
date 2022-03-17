@@ -4672,6 +4672,8 @@ class Ship
                             if not (@data.medium? or @data.large?) then return false
                         when "Large" 
                             if not (@data.large?) then return false
+                        when "Large or Huge" 
+                            if not (@data.large? or @data.huge?) then return false
                         when "Huge" 
                             if not (@data.huge?) then return false
                         when "Standard" 
