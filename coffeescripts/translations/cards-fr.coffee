@@ -598,7 +598,7 @@ exportObj.cardLoaders['Français'] = () ->
            text: """Tant que vous effectuez une attaque contre un vaisseau verrouillé, après avoir lancé vos dés d’attaque, vous pouvez verrouiller le défenseur. %LINEBREAK%<strong>Plein Gaz :</strong> après avoir entièrement exécuté une manœuvre à vitesse 3-5, vous pouvez effectuer une action %EVADE%."""
         "Colossus Station Mechanic":
            display_name: """Mécanicien de la Station Colossus"""
-           text: """<i class = flavor_text>Certains pilotes ambitieux et talentueux commencent leur carrière en tant qu’équipier au sol, travaillant sans relâche pour permettre à des vaisseaux rafistolés de voler dans les cieux de mondes éloignés comme Castilon.</i>%LINEBREAK%<strong>Explosion En Vol :</strong> <strong>Mise en Place :</strong> 1 carte de dégât face cachée vous est attribuée. Après avoir effectué une action <SLAM>, vous pouvez exposer 1 carte de dégât pour retirer 1 marqueur de désarmement."""
+           text: """<i class = flavor_text>Certains pilotes ambitieux et talentueux commencent leur carrière en tant qu’équipier au sol, travaillant sans relâche pour permettre à des vaisseaux rafistolés de voler dans les cieux de mondes éloignés comme Castilon.</i>%LINEBREAK%<strong>Explosion En Vol :</strong> <strong>Mise en Place :</strong> 1 carte de dégât face cachée vous est attribuée. Après avoir effectué une action %SLAM%, vous pouvez exposer 1 carte de dégât pour retirer 1 marqueur de désarmement."""
         "Commander Malarus":
            display_name: """Commander Malarus"""
            text: """Au début de la phase d’engagement, vous pouvez dépenser 1 %CHARGE% et gagner 1 marqueur de stress. Dans ce cas, jusqu’à la fin du round, tant que vous défendez ou effectuez une attaque, vous pouvez changer tous vos résultats %FOCUS% en résultats %EVADE% ou %HIT%"""
@@ -856,7 +856,7 @@ exportObj.cardLoaders['Français'] = () ->
            text: """Tant qu’un vaisseau allié situé dans votre arc de tir effectue une attaque principale, si vous n’êtes pas stressé, vous pouvez gagner 1 marqueur de stress. Dans ce cas, ce vaisseau peut lancer 1 dé d’attaque supplémentaire."""
         "Jarek Yeager":
            display_name: """Jarek Yeager"""
-           text: """Tant que vous avez 2 marqueurs de stress ou moins, si vous êtes endommagé, vous pouvez exécuter des manœuvres basiques rouges, même si vous êtes stressé ; si vous êtes critiquement endommagé, vous pouvez exécuter des manœuvres avancées rouges, même si vous êtes stressé.%LINEBREAK%<strong>Explosion En Vol :</strong> <strong>Mise en Place :</strong> 1 carte de dégât face cachée vous est attribuée. Après avoir effectué une action <SLAM>, vous pouvez exposer 1 carte de dégât pour retirer 1 marqueur de désarmement."""
+           text: """Tant que vous avez 2 marqueurs de stress ou moins, si vous êtes endommagé, vous pouvez exécuter des manœuvres basiques rouges, même si vous êtes stressé ; si vous êtes critiquement endommagé, vous pouvez exécuter des manœuvres avancées rouges, même si vous êtes stressé.%LINEBREAK%<strong>Explosion En Vol :</strong> <strong>Mise en Place :</strong> 1 carte de dégât face cachée vous est attribuée. Après avoir effectué une action %SLAM%, vous pouvez exposer 1 carte de dégât pour retirer 1 marqueur de désarmement."""
         "Jaycris Tubbs":
            display_name: """Jaycris Tubbs"""
            text: """Après avoir entièrement exécuté une manœuvre bleue, vous pouvez choisir un vaisseau allié à portée 0-1. Dans ce cas, ce vaisseau allié retire 1 marqueur de stress.%LINEBREAK%<strong>Emplacement d’Arme :</strong> vous pouvez vous équiper de 1 amélioration %CANNON%, %TORPEDO% ou %MISSILE%."""
@@ -901,7 +901,7 @@ exportObj.cardLoaders['Français'] = () ->
            text: """Tant que vous effectuez une attaque non-%FRONTARC%, lancez 1 dé d’attaque supplémentaire."""
         "Kazuda Xiono":
            display_name: """Kazuda Xiono"""
-           text: """Tant que vous défendez ou effectuez une attaque principale, si l’initiative du vaisseau ennemi est plus élevée que le nombre de cartes de dégât que vous avez, vous pouvez lancer 1 dé supplémentaire.%LINEBREAK%<strong>Explosion En Vol :</strong> <strong>Mise en Place :</strong> 1 carte de dégât face cachée vous est attribuée. Après avoir effectué une action <SLAM>, vous pouvez exposer 1 carte de dégât pour retirer 1 marqueur de désarmement."""
+           text: """Tant que vous défendez ou effectuez une attaque principale, si l’initiative du vaisseau ennemi est plus élevée que le nombre de cartes de dégât que vous avez, vous pouvez lancer 1 dé supplémentaire.%LINEBREAK%<strong>Explosion En Vol :</strong> <strong>Mise en Place :</strong> 1 carte de dégât face cachée vous est attribuée. Après avoir effectué une action %SLAM%, vous pouvez exposer 1 carte de dégât pour retirer 1 marqueur de désarmement."""
         "Ketsu Onyo":
            display_name: """Ketsu Onyo"""
            text: """Au début de la phase d’engagement, vous pouvez choisir 1 vaisseau à portée 0-1 qui est à la fois dans votre %FRONTARC% et dans votre %SINGLETURRETARC%. Dans ce cas, ce vaisseau gagne 1 marqueur de rayon tracteur."""
@@ -1138,7 +1138,7 @@ exportObj.cardLoaders['Français'] = () ->
            text: """Au début de la phase d’engagement, vous pouvez gagner 1 marqueur de désarmement pour récupérer 1 %CHARGE% sur 1 de vos améliorations équipées.%LINEBREAK%<strong>Emplacement d’Arme :</strong> vous pouvez vous équiper de 1 amélioration %CANNON%, %TORPEDO% ou %MISSILE%."""
         "R1-J5":
            display_name: """R1-J5"""
-           text: """Avant d’exposer 1 de vos cartes de dégât, vous pouvez regarder vos cartes de dégât face cachée, en choisir 1 et l’exposer à la place.%LINEBREAK%<strong>Explosion En Vol :</strong> <strong>Mise en Place :</strong> 1 carte de dégât face cachée vous est attribuée. Après avoir effectué une action <SLAM>, vous pouvez exposer 1 carte de dégât pour retirer 1 marqueur de désarmement."""
+           text: """Avant d’exposer 1 de vos cartes de dégât, vous pouvez regarder vos cartes de dégât face cachée, en choisir 1 et l’exposer à la place.%LINEBREAK%<strong>Explosion En Vol :</strong> <strong>Mise en Place :</strong> 1 carte de dégât face cachée vous est attribuée. Après avoir effectué une action %SLAM%, vous pouvez exposer 1 carte de dégât pour retirer 1 marqueur de désarmement."""
         "R2-D2":
            display_name: """R2-D2"""
            text: """Au début de la phase d’engagement, s’il y a un vaisseau ennemi dans votre %REARARC%, gagnez 1 marqueur de calcul.%LINEBREAK%<strong>Coque Blindée :</strong> tant que vous défendez, si vous n’êtes pas critiquement endommagé, changez 1 résultat %CRIT% en un résultat %HIT%."""
@@ -2120,7 +2120,7 @@ exportObj.cardLoaders['Français'] = () ->
            text: """<strong>Attaque (%LOCK%) :</strong> dépensez 1 %CHARGE%. Après cette attaque, vous pouvez effectuer cette attaque en tant qu’attaque bonus contre une cible différente à portée 0-1 du défenseur, en ignorant le prérequis %LOCK%."""
         "Coaxium Hyperfuel":
            display_name: """Hypercarburant Coaxium"""
-           text: """Vous pouvez effectuer l’action <SLAM>, même si vous êtes stressé. Dans ce cas, vous subissez 1 dégât %CRIT% à moins que vous n’exposiez 1 de vos cartes de dégât.%LINEBREAK%Après avoir partiellement exécuté une manœuvre, vous pouvez exposer 1 de vos cartes de dégât ou subir 1 dégât %CRIT% pour effectuer une action <SLAM>."""
+           text: """Vous pouvez effectuer l’action %SLAM%, même si vous êtes stressé. Dans ce cas, vous subissez 1 dégât %CRIT% à moins que vous n’exposiez 1 de vos cartes de dégât.%LINEBREAK%Après avoir partiellement exécuté une manœuvre, vous pouvez exposer 1 de vos cartes de dégât ou subir 1 dégât %CRIT% pour effectuer une action %SLAM%."""
         "Collision Detector":
            display_name: """Détecteur Anti-Collision"""
            text: """Tant que vous accélérez ou que vous effectuez un tonneau, vous pouvez vous déplacer à travers ou chevaucher les obstacles. %LINEBREAK%Après vous être déplacé à travers ou avoir chevauché un obstacle, vous pouvez dépenser 1 %CHARGE% pour ignorer ses effets jusqu’à la fin du round."""
@@ -3386,8 +3386,8 @@ exportObj.cardLoaders['Français'] = () ->
         """Trials of the Darksaber""":
            display_name: """Trials of the Darksaber"""
            text: """Tant que vous effectuez une attaque at attack range 0-2, vous pouvez dépenser 1 %CRIT% result. Dans ce cas, si the defending ship's player has scored more %POINT% than you, they lose 1 scored %POINT%. Place thatt %POINT% on this card. %LINEBREAK% After you defend, si you are destroyed by an enemy ship at attack range 0-2, assign the <b>Trials of the Darksaber</b> condition to the attacker (all %POINT% remain on this card). %LINEBREAK%. At the end of the game, this ship scores all %POINT% on this card."""
-        """Blaze Bomb""":
-           display_name: """Blaze Bomb"""
+        """Blazer Bomb""":
+           display_name: """Blazer Bomb"""
            text: """<strong>Types :</strong> Engin, Bombe %LINEBREAK%At the end of the Activation Phase, this device detonates. %LINEBREAK% When this device detonates, each ship et remote à portée 0–1 rolls 1 attack die. Each ship ou remote suffers 1 %HIT% damage for each %HIT%/%CRIT% result. %LINEBREAK% After this devices detonates, place a Blace by aligning the Blaze's guides to the device's tab. %LINEBREAK% A Blaze is an obstacle. After this obstacle is placed, place a fues marker on it. %LINEBREAK% During the End Phase, retirer each Blaze with no fuse markers, then retirer 1 fuse marker from each Blaze."""
         """Clan Wren Commandos""":
            display_name: """Clan Wren Commandos"""
