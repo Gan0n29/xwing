@@ -2088,7 +2088,7 @@ class exportObj.SquadBuilder
                     added_dials[ship.data.name] = (added_dials[ship.data.name] ? []).concat [maneuvers_modified.toString()] # save maneuver as string, as that is easier to compare than arrays (if e.g. two ships of same type, one with and one without R4 are in a squad, we add 2 dials)
                     dialHTML += '<div class="fancy-dial">' + 
                                 """<h4 class="ship-name-dial">#{if ship.data.display_name? then ship.data.display_name else ship.data.name}""" +
-                                """#{if maneuvers_modified.toString() != maneuvers_unmodified.toString() then " (" + @uitranslation(modified) + ")" else ""}</h4>""" +
+                                """#{if maneuvers_modified.toString() != maneuvers_unmodified.toString() then " (" + @uitranslation("modified") + ")" else ""}</h4>""" +
                                 @getManeuverTableHTML(maneuvers_modified, maneuvers_unmodified) + '</div>'
 
         return """
@@ -3549,22 +3549,24 @@ class Ship
         #console.log "Attempt to copy #{other?.pilot?.name}"
         return unless other.pilot? and other.data?
         #console.log "Setting pilot to ID=#{other.pilot.id}"
-        if @builder.isQuickbuild        
-            if not (other.pilot.unique or (other.pilot.max_per_squad? and @builder.countPilots(other.pilot.canonical_name) >= other.pilot.max_per_squad))
-                # check if any upgrades are unique. In that case the whole ship may not be copied
-                no_uniques_involved = true
+        if @builder.isQuickbuild
+            # check if pilot is unique. In that case the whole ship may not be copied, but the cheapest alternative will be selected
+            no_uniques_involved = not (other.pilot.unique or (other.pilot.max_per_squad? and @builder.countPilots(other.pilot.canonical_name) >= other.pilot.max_per_squad))
+            if no_uniques_involved
+                # also check all upgrades
                 for upgrade in other.upgrades
                     if (upgrade.data?.unique? and upgrade.data.unique) or (upgrade.data?.max_per_squad? and @builder.countUpgrades(upgrade.data.canonical_name) >= upgrade.data.max_per_squad) or upgrade.data?.solitary?
-                        no_uniques_involved = false
-                        # select cheapest generic like above
-                        available_pilots = (pilot_data for pilot_data in @builder.getAvailablePilotsForShipIncluding(other.data.name) when not pilot_data.disabled)
-                        if available_pilots.length > 0
-                            @setPilotById available_pilots[0].id, true
-                            break
-                        else
-                            return
-                if no_uniques_involved
-                    @setPilotById other.quickbuildId
+                        no_uniques_involved = false                
+            if no_uniques_involved
+                # still no uniques, so we can copy that ship as is
+                @setPilotById other.quickbuildId
+            else
+                # try to select another pilot for the same ship instead
+                available_pilots = (pilot_data for pilot_data in @builder.getAvailablePilotsForShipIncluding(other.data.name) when not pilot_data.disabled)
+                if available_pilots.length > 0
+                    @setPilotById available_pilots[0].id, true
+                else
+                    return
         else 
             if other.pilot.unique or (other.pilot.max_per_squad? and @builder.countPilots(other.pilot.canonical_name) >= other.pilot.max_per_squad)
                 # Look for cheapest generic or available unique, otherwise do nothing
@@ -3676,6 +3678,7 @@ class Ship
                                 @linkedShip = ship
                                 @primary = false
                                 @builder.isUpdatingPoints = false
+                                @row.removeClass('unsortable')
                                 @builder.container.trigger 'xwing:pointsUpdated'
                                 @builder.container.trigger 'xwing-backend:squadDirtinessChanged'
                                 return # we are done.
@@ -4218,9 +4221,9 @@ class Ship
                     ++count
             else
                 recurringicon += '<sup><i class="fas fa-caret-up"></i></sup>'
-        forceHTML = if (@pilot.force?) then $.trim """
+        forceHTML = if (effective_stats.force?) then $.trim """
             <i class="xwing-miniatures-font header-force xwing-miniatures-font-forcecharge"></i>
-            <span class="info-data info-force">#{statAndEffectiveStat((@pilot.ship_override?.force ? @pilot.force), effective_stats, 'force')}#{recurringicon}</span>
+            <span class="info-data info-force">#{statAndEffectiveStat((@pilot.ship_override?.force ? @pilot.force ? 0), effective_stats, 'force')}#{recurringicon}</span>
         """ else ''
 
         if @pilot.charge?
@@ -5125,10 +5128,18 @@ class GenericAddon
             else chargeHTML = $.trim ''
 
             if (@data.force?)
+                forcerecurring = 1
+                if @data.forcerecurring?
+                    forcerecurring = @data.forcerecurring
+                count = 0
+                recurringicon = ''
+                while count < forcerecurring
+                    recurringicon += '<sup><i class="fas fa-caret-up"></i></sup>'
+                    ++count
                 forceHTML = $.trim """
                     <div class="upgrade-force">
                         <span class="info-data info-force">#{@data.force}</span>
-                        <i class="xwing-miniatures-font xwing-miniatures-font-forcecharge"></i><sup><i class="fas fa-caret-up"></i></sup>
+                        <i class="xwing-miniatures-font xwing-miniatures-font-forcecharge"></i>#{recurringicon}
                     </div>
                     """
             else forceHTML = $.trim ''
