@@ -3178,6 +3178,7 @@ exportObj.basicCardData = ->
             name: "Fenn Rau (Sheathipede)"
             id: 69
             unique: true
+            canonical_name: 'Fenn Rau'.canonicalize()
             xws: "fennrau-sheathipedeclassshuttle"
             faction: "Rebel Alliance"
             ship: "Sheathipede-Class Shuttle"
