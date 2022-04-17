@@ -2759,9 +2759,6 @@ exportObj.cardLoaders.English = () ->
         "Ursa Wren (Gunner)":
            display_name: """Ursa Wren"""
            text: """After you acquire a lock on an enemy unit beyond range 2, if there are no friendly units at range 0-1 of the locked unit, gain 1 calculate token."""
-        "Sabine Wren (Command)":
-           display_name: """Sabine Wren"""
-           text: """<strong>Setup:</strong> Before placing forces, assign the <b>Trials of the Darksaber</b> condition to yourself. %LINEBREAK% While you perform a %COORDINATE% action, you may coordinate 1 additional friendly ship."""
         "Prime Minister Almec":
            display_name: """Prime Minister Almec"""
            text: """<strong>Setup:</strong> Equip this side faceup. %LINEBREAK% After a friendly ship at range 0-2 reveals a white maneuver, if it has no green tokens, it may gain 1 stress token to gain 1 calculate token. %LINEBREAK% During the End Phase, iif you have 2 or more stress tokens, flip this card. %LINEBREAK% <strong>Almec, Maul's Puppet</strong> %LINEBREAK% After a friendly ship at range 0-2 fully executes a red maneuver, that ship may perform a %CALCULATE% or %FOCUS% action on its action bar, even while stressed."""
@@ -3034,6 +3031,10 @@ exportObj.cardLoaders.English = () ->
         "Neimoidian Grasp":
            display_name: """Neimoidian Grasp"""
            text: """After you perform an attack, you may perform a red  %EVADE% action. While you defend, if you are evading, you may roll 1 addtional defense die."""
+        "Sabine Wren (Command)":
+           display_name: """Sabine Wren"""
+           text: """<strong>Setup:</strong> Before placing forces, assign the <b>Trials of the Darksaber</b> condition to yourself. %LINEBREAK% While you perform a %COORDINATE% action, you may coordinate 1 additional friendly ship."""
+        
 
     condition_translations =
         'Suppressive Fire':
