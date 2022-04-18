@@ -24056,6 +24056,7 @@ exportObj.fixIcons = (data) ->
             .replace(/%CONFIGURATION%/g, '<i class="xwing-miniatures-font xwing-miniatures-font-config"></i>')
             .replace(/%AGILITY%/g, '<i class="xwing-miniatures-font xwing-miniatures-font-agility"></i>')
             .replace(/%HULL%/g, '<i class="xwing-miniatures-font xwing-miniatures-font-hull"></i>')
+            .replace(/%POINT%/g, '<i class="xwing-miniatures-font xwing-miniatures-font-token-point-1"></i>')
             .replace(/%LINEBREAK%/g, '<br /><br />')
 
 exportObj.canonicalizeShipNames = (card_data) ->
