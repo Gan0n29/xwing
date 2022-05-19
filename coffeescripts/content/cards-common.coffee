@@ -10569,6 +10569,8 @@ exportObj.basicCardData = ->
             ship: "Gauntlet Fighter"
             skill: 4
             points: 65
+            charge: 1
+            recurring: 1
             unique: true
             keyword: ["Mandalorian"]
             slots: [
@@ -10627,7 +10629,7 @@ exportObj.basicCardData = ->
         {
             name: "Maul"
             id: 512
-            xws: "maul-gauntletfighter"
+            xws: "maul"
             faction: "Scum and Villainy"
             ship: "Gauntlet Fighter"
             skill: 5
@@ -10689,7 +10691,7 @@ exportObj.basicCardData = ->
             id: 515
             faction: "Galactic Empire"
             ship: "Gauntlet Fighter"
-            skill: 2
+            skill: 3
             points: 60
             unique: true
             keyword: ["Mandalorian"]
@@ -14732,6 +14734,7 @@ exportObj.basicCardData = ->
             ship: "Droid Tri-Fighter"
             faction: "Separatist Alliance"
             charge: 3
+            recurring: -1
             modifier_func: (stats) ->
                 stats.actions.push 'Slam'
                 stats.actions.push 'R-> Lock'
