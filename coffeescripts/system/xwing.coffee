@@ -26,9 +26,16 @@ exportObj.toTTS = (txt) ->
 
 exportObj.slotsMatching = (slota, slotb) ->
     return true if slota == slotb
-    return false if slota != 'HardpointShip' and slotb != 'HardpointShip'
-    return true if slota == 'Torpedo' or slota == 'Cannon' or slota == 'Missile'
-    return true if slotb == 'Torpedo' or slotb == 'Cannon' or slotb == 'Missile'
+    switch slota
+        when 'HardpointShip'
+            return true if slotb == 'Torpedo' or slotb == 'Cannon' or slotb == 'Missile'
+        when 'VersitileShip'
+            return true if slotb == 'Torpedo' or slotb == 'Missile'
+    switch slotb
+        when 'HardpointShip'
+            return true if slota == 'Torpedo' or slota == 'Cannon' or slota == 'Missile'
+        when 'VersitileShip'
+            return true if slota == 'Torpedo' or slota == 'Missile'
     return false
 
 $.isMobile = ->
@@ -4221,7 +4228,7 @@ class Ship
                     ++count
             else
                 recurringicon += '<sup><i class="fas fa-caret-up"></i></sup>'
-        forceHTML = if (effective_stats.force?) then $.trim """
+        forceHTML = if (effective_stats.force? and effective_stats.force > 0) then $.trim """
             <i class="xwing-miniatures-font header-force xwing-miniatures-font-forcecharge"></i>
             <span class="info-data info-force">#{statAndEffectiveStat((@pilot.ship_override?.force ? @pilot.force ? 0), effective_stats, 'force')}#{recurringicon}</span>
         """ else ''
@@ -4734,7 +4741,7 @@ class Ship
 
     doesSlotExist: (slot) ->
         for upgrade in @upgrades
-            if slot == upgrade.slot
+            if exportObj.slotsMatching(upgrade.slot, slot)
                 return true
         false
     
