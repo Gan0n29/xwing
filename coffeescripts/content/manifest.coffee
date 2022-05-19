@@ -4930,6 +4930,11 @@ exportObj.manifestByExpansion =
             count: 1
         }
         {
+            name: 'Ion Torpedoes'
+            type: 'upgrade'
+            count: 1
+        }
+        {
             name: 'Adv. Proton Torpedoes'
             type: 'upgrade'
             count: 1
@@ -4966,6 +4971,11 @@ exportObj.manifestByExpansion =
         }
         {
             name: 'Chancellor Palpatine'
+            type: 'upgrade'
+            count: 1
+        }
+        {
+            name: 'Novice Technician'
             type: 'upgrade'
             count: 1
         }
@@ -10189,6 +10199,11 @@ exportObj.manifestByExpansion =
         }
         {
             name: 'Enduring'
+            type: 'upgrade'
+            count: 1
+        }
+        {
+            name: 'Shattering Shot'
             type: 'upgrade'
             count: 1
         }
