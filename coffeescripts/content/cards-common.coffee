@@ -14745,6 +14745,7 @@ exportObj.basicCardData = ->
             points: 0
             standardized: true
             slot: "Modification"
+            faction: "Separatist Alliance"
             restrictions: [
                 ["Keyword", "Networked Calculations"]
             ]
@@ -14784,6 +14785,7 @@ exportObj.basicCardData = ->
             id: 371
             points: 0
             slot: "Configuration"
+            faction: "Rebel Alliance"
             standardized: true
             restrictions: [
                 ["Keyword", "Vectored Thrusters"]
@@ -14827,6 +14829,7 @@ exportObj.basicCardData = ->
             id: 374
             points: 0
             slot: "Configuration"
+            faction: ["Galactic Empire", "First Order"]
             standardized: true
             restrictions: [
                 ["Keyword", "Autothrusters"]
