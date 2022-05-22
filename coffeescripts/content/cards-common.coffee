@@ -10415,7 +10415,7 @@ exportObj.basicCardData = ->
             unique: true
             ship: "Fang Fighter"
             skill: 4
-            points: 55
+            points: 56
             keyword: ["Mandalorian"]
             slots: [
                 "Talent"
@@ -10430,7 +10430,7 @@ exportObj.basicCardData = ->
             unique: true
             ship: "Fang Fighter"
             skill: 3
-            points: 51
+            points: 47
             keyword: ["Mandalorian"]
             slots: [
                 "Torpedo"
@@ -10446,7 +10446,7 @@ exportObj.basicCardData = ->
             unique: true
             ship: "Fang Fighter"
             skill: 6
-            points: 62
+            points: 56
             keyword: ["Mandalorian"]
             slots: [
                 "Talent"
@@ -10460,7 +10460,7 @@ exportObj.basicCardData = ->
             faction: "Rebel Alliance"
             ship: "Fang Fighter"
             skill: 3
-            points: 49
+            points: 45
             max_per_squad: 2
             keyword: ["Mandalorian"]
             slots: [
@@ -10478,7 +10478,7 @@ exportObj.basicCardData = ->
             skill: 4
             charge: 2
             recurring: 1
-            points: 33
+            points: 32
             slots: [
                 "Talent"
                 "Talent"
@@ -10505,7 +10505,7 @@ exportObj.basicCardData = ->
             faction: "Scum and Villainy"
             ship: "Fang Fighter"
             skill: 4
-            points: 50
+            points: 51
             max_per_squad: 2
             keyword: ["Mandalorian"]
             slots: [
@@ -10525,7 +10525,7 @@ exportObj.basicCardData = ->
             faction: "Separatist Alliance"
             ship: "Gauntlet Fighter"
             skill: 3
-            points: 66
+            points: 59
             charge: 2
             recurring: 1
             unique: true
@@ -10547,7 +10547,7 @@ exportObj.basicCardData = ->
             faction: "Separatist Alliance"
             ship: "Gauntlet Fighter"
             skill: 2
-            points: 56
+            points: 52
             unique: true
             keyword: ["Mandalorian"]
             slots: [
@@ -10568,7 +10568,7 @@ exportObj.basicCardData = ->
             faction: "Separatist Alliance"
             ship: "Gauntlet Fighter"
             skill: 4
-            points: 65
+            points: 56
             charge: 1
             recurring: 1
             unique: true
@@ -10592,7 +10592,7 @@ exportObj.basicCardData = ->
             faction: "Galactic Republic"
             ship: "Gauntlet Fighter"
             skill: 4
-            points: 65
+            points: 58
             unique: true
             keyword: ["Mandalorian"]
             slots: [
@@ -10612,7 +10612,7 @@ exportObj.basicCardData = ->
             faction: "Galactic Republic"
             ship: "Gauntlet Fighter"
             skill: 2
-            points: 56
+            points: 52
             unique: true
             keyword: ["Mandalorian"]
             slots: [
@@ -10633,7 +10633,7 @@ exportObj.basicCardData = ->
             faction: "Scum and Villainy"
             ship: "Gauntlet Fighter"
             skill: 5
-            points: 72
+            points: 70
             unique: true
             force: 3
             keyword: ["Dark Side", "Sith"]
@@ -10654,7 +10654,7 @@ exportObj.basicCardData = ->
             faction: "Scum and Villainy"
             ship: "Gauntlet Fighter"
             skill: 1
-            points: 57
+            points: 53
             keyword: ["Mandalorian"]
             slots: [
                 "Crew"
@@ -10692,7 +10692,7 @@ exportObj.basicCardData = ->
             faction: "Galactic Empire"
             ship: "Gauntlet Fighter"
             skill: 3
-            points: 60
+            points: 53
             unique: true
             keyword: ["Mandalorian"]
             slots: [
@@ -10711,7 +10711,7 @@ exportObj.basicCardData = ->
             faction: "Galactic Empire"
             ship: "Gauntlet Fighter"
             skill: 2
-            points: 58
+            points: 51
             unique: true
             keyword: ["Mandalorian"]
             slots: [
@@ -10730,7 +10730,7 @@ exportObj.basicCardData = ->
             faction: "Galactic Empire"
             ship: "Gauntlet Fighter"
             skill: 3
-            points: 64
+            points: 60
             charge: 2
             recurring: 1
             unique: true
@@ -10751,7 +10751,7 @@ exportObj.basicCardData = ->
             faction: "Rebel Alliance"
             ship: "Gauntlet Fighter"
             skill: 2
-            points: 56
+            points: 53
             unique: true
             keyword: ["Mandalorian"]
             slots: [
@@ -10772,7 +10772,7 @@ exportObj.basicCardData = ->
             faction: "Rebel Alliance"
             ship: "Gauntlet Fighter"
             skill: 2
-            points: 58
+            points: 52
             unique: true
             keyword: ["Droid","Spectre"]
             slots: [
@@ -10793,7 +10793,7 @@ exportObj.basicCardData = ->
             ship: "Gauntlet Fighter"
             skill: 3
             force: 1
-            points: 68
+            points: 65
             keyword: ["Light Side","Spectre"]
             unique: true
             slots: [
@@ -10812,7 +10812,7 @@ exportObj.basicCardData = ->
             faction: "Scum and Villainy"
             ship: "ST-70 Assault Ship"
             skill: 5
-            points: 56
+            points: 53
             unique: true
             keyword: ["Droid"]
             slots: [
@@ -10832,7 +10832,7 @@ exportObj.basicCardData = ->
             faction: "Scum and Villainy"
             ship: "ST-70 Assault Ship"
             skill: 5
-            points: 57
+            points: 58
             unique: true
             keyword: ["Mandalorian","Bounty Hunter"]
             slots: [
@@ -10852,7 +10852,7 @@ exportObj.basicCardData = ->
             faction: "Scum and Villainy"
             ship: "ST-70 Assault Ship"
             skill: 3
-            points: 53
+            points: 51
             max_per_squad: 2
             keyword: ["Bounty Hunter"]
             slots: [
@@ -10871,7 +10871,7 @@ exportObj.basicCardData = ->
             faction: "Scum and Villainy"
             ship: "ST-70 Assault Ship"
             skill: 2
-            points: 51
+            points: 48
             slots: [
                 "Crew"
                 "Crew"
@@ -15421,7 +15421,7 @@ exportObj.basicCardData = ->
             canonical_name: 'Ahsoka Tano'.canonicalize()
             xws: "ahsokatano-crew"
             id: 424
-            points: 9
+            points: 10
             force: 1
             slot: "Crew"
             unique: true
@@ -15433,7 +15433,7 @@ exportObj.basicCardData = ->
             name: "Bo-Katan Kryze (Republic/Separatist)"
             canonical_name: 'Bo-Katan Kryze'.canonicalize()
             id: 425
-            points: 8
+            points: 5
             slot: "Crew"
             unique: true
             faction: ["Galactic Republic", "Separatist Alliance"]
@@ -15443,7 +15443,7 @@ exportObj.basicCardData = ->
             canonical_name: 'Bo-Katan Kryze'.canonicalize()
             xws: "bokatankryze-rebel-scum"
             id: 426
-            points: 6
+            points: 2
             slot: "Crew"
             unique: true
             faction: ["Rebel Alliance", "Scum and Villainy"]
@@ -15523,7 +15523,7 @@ exportObj.basicCardData = ->
         {
             name: "Satine Kryze"
             id: 435
-            points: 8
+            points: 10
             charge: 2
             recurring: 1
             slot: "Crew"
@@ -15533,7 +15533,7 @@ exportObj.basicCardData = ->
         {
             name: "Savage Opress"
             id: 436
-            points: 10
+            points: 12
             force: 1
             slot: "Crew"
             unique: true
@@ -15544,7 +15544,7 @@ exportObj.basicCardData = ->
         {
             name: "Tal Merrik"
             id: 437
-            points: 6
+            points: 8
             slot: "Crew"
             unique: true
             faction: "Separatist Alliance"
@@ -15567,7 +15567,7 @@ exportObj.basicCardData = ->
         {
             name: "Ursa Wren"
             id: 439
-            points: 5
+            points: 8
             slot: "Crew"
             unique: true
             faction: "Rebel Alliance"
@@ -15577,7 +15577,7 @@ exportObj.basicCardData = ->
             canonical_name: 'Maul'.canonicalize()
             xws: 'maul-crew'
             id: 440
-            points: 8
+            points: 9
             slot: "Crew"
             unique: true
             force: 1
@@ -15661,7 +15661,7 @@ exportObj.basicCardData = ->
         {
             name: "Gauntlet"
             id: 447
-            points: 2
+            points: 3
             slot: "Title"
             unique: true
             charge: 2
@@ -15741,7 +15741,7 @@ exportObj.basicCardData = ->
         {
             name: "The Mandalorian"
             id: 452
-            points: 2
+            points: 4
             unique: true
             slot: "Crew"
             faction: "Scum and Villainy"
@@ -15776,7 +15776,7 @@ exportObj.basicCardData = ->
         {
             name: "Notorious"
             id: 455
-            points: 2
+            points: 3
             charge: 2
             recurring: 1
             slot: "Talent"
@@ -15814,7 +15814,7 @@ exportObj.basicCardData = ->
         {
             name: "Kuiil"
             id: 459
-            points: 4
+            points: 6
             slot: "Crew"
             unique: true
             faction: "Scum and Villainy"
