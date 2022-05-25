@@ -1272,30 +1272,6 @@ exportObj.basicCardData = ->
                 [ 0, 0, 2, 0, 0, 3, 0, 0, 0, 0]
                 [ 0, 0, 2, 0, 0, 3, 0, 0, 0, 0]
             ]
-        "Delta-7b Aethersprite":
-            name: "Delta-7b Aethersprite"
-            icon: "delta7aethersprite"
-            xws: "Delta-7b Aethersprite".canonicalize()
-            factions: ["Galactic Republic"]
-            attack: 3
-            agility: 2
-            hull: 3
-            shields: 3
-            actions: [
-                "Focus"
-                "F-Evade"
-                "Lock"
-                "Barrel Roll"
-                "Boost"
-            ]
-            maneuvers: [
-                [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
-                [ 2, 1, 0, 1, 2, 0, 0, 0, 0, 0]
-                [ 2, 1, 1, 1, 2, 0, 3, 3, 0, 0]
-                [ 0, 2, 1, 2, 0, 0, 0, 0, 0, 0]
-                [ 0, 0, 2, 0, 0, 3, 0, 0, 0, 0]
-                [ 0, 0, 2, 0, 0, 3, 0, 0, 0, 0]
-            ]
         "Sith Infiltrator":
             name: "Sith Infiltrator"
             xws: "Sith Infiltrator".canonicalize()
@@ -10886,6 +10862,7 @@ exportObj.basicCardData = ->
             name: "Plo Koon (Delta-7b)"
             xws: "plokoon-delta7baethersprite"
             id: 525
+            skip: true
             unique: true
             faction: "Galactic Republic"
             ship: "Delta-7b Aethersprite"
@@ -10904,6 +10881,7 @@ exportObj.basicCardData = ->
             canonical_name: 'Saesee Tiin'.canonicalize()
             xws: "saeseetiin-delta7baethersprite"
             id: 526
+            skip: true
             unique: true
             faction: "Galactic Republic"
             ship: "Delta-7b Aethersprite"
@@ -10922,6 +10900,7 @@ exportObj.basicCardData = ->
             canonical_name: 'Mace Windu'.canonicalize()
             xws: "macewindu-delta7baethersprite"
             id: 527
+            skip: true
             unique: true
             faction: "Galactic Republic"
             ship: "Delta-7b Aethersprite"
@@ -10940,6 +10919,7 @@ exportObj.basicCardData = ->
             canonical_name: 'Anakin Skywalker'.canonicalize()
             xws: "anakinskywalker-delta7baethersprite"
             id: 528
+            skip: true
             unique: true
             faction: "Galactic Republic"
             ship: "Delta-7b Aethersprite"
@@ -10958,6 +10938,7 @@ exportObj.basicCardData = ->
             canonical_name: 'Luminara Unduli'.canonicalize()
             xws: "luminaraunduli-delta7baethersprite"
             id: 529
+            skip: true
             unique: true
             faction: "Galactic Republic"
             ship: "Delta-7b Aethersprite"
@@ -10976,6 +10957,7 @@ exportObj.basicCardData = ->
             canonical_name: 'Barriss Offee'.canonicalize()
             xws: "barrissoffee-delta7baethersprite"
             id: 530
+            skip: true
             unique: true
             faction: "Galactic Republic"
             ship: "Delta-7b Aethersprite"
@@ -10994,6 +10976,7 @@ exportObj.basicCardData = ->
             canonical_name: 'Ahsoka Tano'.canonicalize()
             xws: "ahsokatano-delta7baethersprite"
             id: 531
+            skip: true
             unique: true
             faction: "Galactic Republic"
             ship: "Delta-7b Aethersprite"
@@ -11012,6 +10995,7 @@ exportObj.basicCardData = ->
             canonical_name: 'Jedi Knight'.canonicalize()
             xws: "jediknight-delta7baethersprite"
             id: 532
+            skip: true
             faction: "Galactic Republic"
             ship: "Delta-7b Aethersprite"
             skill: 3
@@ -11029,6 +11013,7 @@ exportObj.basicCardData = ->
             canonical_name: 'Obi-Wan Kenobi'.canonicalize()
             xws: "obiwankenobi-delta7baethersprite"
             id: 533
+            skip: true
             unique: true
             faction: "Galactic Republic"
             ship: "Delta-7b Aethersprite"
