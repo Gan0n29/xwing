@@ -322,7 +322,6 @@ exportObj.cardLoaders['Français'] = () ->
     exportObj.renameShip """C-ROC Cruiser""", """Croiseur C-ROC"""
     exportObj.renameShip """Gozanti-class Cruiser""", """Croiseur de Classe Gozanti"""
     exportObj.renameShip """Delta-7 Aethersprite""", """Aethersprite Delta-7"""
-    exportObj.renameShip """Delta-7b Aethersprite""", """Aethersprite Delta-7b"""
     exportObj.renameShip """VT-49 Decimator""", """Décimateur VT-49"""
     exportObj.renameShip """E-Wing""", """E-wing"""
     exportObj.renameShip """Eta-2 Actis""", """Actis Eta-2"""
