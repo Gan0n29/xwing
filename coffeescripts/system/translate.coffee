@@ -32,8 +32,6 @@ try
     if exportObj.languagePriority > 3
         return
     exportObj.currentLanguage = DFL_LANGUAGE
-    if exportObj.languagePriority == -1
-        return
     # some browses just provide a single navigator.language, some provide an array navigator.languages 
     languageCodes = [navigator.language].concat(navigator.languages)
     for langc in languageCodes
@@ -115,8 +113,7 @@ exportObj.setupTranslationSupport = ->
 
     # do we need to load dfl as well? Not sure...
     exportObj.loadCards DFL_LANGUAGE
-    if DFL_LANGUAGE != exportObj.currentLanguage
-        exportObj.loadCards exportObj.currentLanguage 
+    exportObj.loadCards exportObj.currentLanguage 
     $(exportObj).trigger 'xwing:languageChanged', [exportObj.currentLanguage, 'reload']
 
 exportObj.translateUIElements = (context=undefined) ->
