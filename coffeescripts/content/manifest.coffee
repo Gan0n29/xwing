@@ -10933,7 +10933,7 @@ class exportObj.Collection
                     <div class="col">
                         <label>
                             <input class="singleton-count" type="number" size="3" value="#{count}" />
-                            <span class="pilot-name">#{if exportObj.pilots[pilot].display_name then exportObj.pilots[pilot].display_name else pilot}</span>
+                            <span class="pilot-name"><i class="xwing-miniatures-ship xwing-miniatures-ship-#{if exportObj.ships[exportObj.pilots[pilot].ship].icon then exportObj.ships[exportObj.pilots[pilot].ship].icon else exportObj.ships[exportObj.pilots[pilot].ship].xws}"></i> #{if exportObj.pilots[pilot].display_name then exportObj.pilots[pilot].display_name else pilot}</span>
                         </label>
                     </div>
                 </div>
@@ -10953,7 +10953,8 @@ class exportObj.Collection
                     <div class="col">
                         <label>
                             <input class="singleton-count" type="number" size="3" value="#{count}" />
-                            <span class="upgrade-name">#{if exportObj.upgrades[upgrade].display_name then exportObj.upgrades[upgrade].display_name else upgrade}</span>
+                            <span class="upgrade-name">#{if exportObj.upgrades[upgrade].slot then exportObj.translate('sloticon', exportObj.upgrades[upgrade].slot)} #{if exportObj.upgrades[upgrade].display_name then exportObj.upgrades[upgrade].display_name else upgrade} 
+                            #{if exportObj.upgrades[upgrade].faction then "(#{exportObj.upgrades[upgrade].faction})" else ''}</span>
                         </label>
                     </div>
                 </div>
