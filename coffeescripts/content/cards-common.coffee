@@ -1840,6 +1840,52 @@ exportObj.basicCardData = ->
                 [ 0, 0, 1, 0, 0, 0, 0, 0, 0, 0 ]
                 [ 0, 0, 0, 0, 0, 3, 0, 0, 0, 0 ]
             ]
+        "Clone Z-95 Headhunter":
+            name: "Clone Z-95 Headhunter"
+            xws: "Clone Z-95 Headhunter".canonicalize()
+            factions: [ "Galactic Republic" ]
+            attack: 2
+            agility: 2
+            hull: 2
+            shields: 2
+            actions: [
+                "Focus"
+                "Lock"
+                "R-Barrel Roll"
+            ]
+            maneuvers: [
+                [ 0, 0, 0, 0, 0, 0]
+                [ 0, 2, 1, 2, 0, 0]
+                [ 2, 1, 1, 1, 2, 0]
+                [ 2, 2, 1, 2, 2, 3]
+                [ 0, 0, 2, 0, 0, 3]
+            ]
+        "Rogue-class Starfighter":
+            name: "Rogue-class Starfighter"
+            xws: "Rogue-class Starfighter".canonicalize()
+            factions: [ "Separatist Alliance", "Scum and Villainy" ]
+            attack: 2
+            agility: 2
+            hull: 5
+            shields: 2
+            actions: [
+                "Focus"
+                "R-> Boost"
+                "Focus"
+                "R-> Barrel Roll"
+                "Evade"
+                "R-> Barrel Roll"
+                "Lock"
+                "R-Boost"
+            ]
+            maneuvers: [
+                [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+                [ 2, 1, 0, 1, 2, 0, 0, 0, 0, 0 ]
+                [ 2, 1, 1, 1, 2, 0, 0, 0, 3, 3 ]
+                [ 3, 2, 1, 2, 3, 0, 0, 0, 0, 0 ]
+                [ 0, 0, 1, 0, 0, 0, 0, 0, 0, 0 ]
+                [ 0, 0, 2, 0, 0, 3, 0, 0, 0, 0 ]
+            ]
 
         # Epic Section
         "CR90 Corellian Corvette":
@@ -11027,6 +11073,343 @@ exportObj.basicCardData = ->
                 "Modification"
             ]
         }
+        {
+            name: "Cad Bane"
+            id: 534
+            unique: true
+            faction: "Scum and Villainy"
+            ship: "Rogue-class Starfighter"
+            skill: 4
+            charge: 2
+            recurring: 1
+            points: 40
+            keyword: ["Bounty Hunter"]
+            slots: [
+                "Talent"
+                "Cannon"
+                "Cannon"
+                "Illicit"
+                "Modification"
+                "Title"
+            ]
+        }
+        {
+            name: "Viktor Hel (Rogue)"
+            canonical_name: 'Viktor Hel'.canonicalize()
+            xws: "viktorhel-rogueclassstarfighter"
+            id: 535
+            unique: true
+            faction: "Scum and Villainy"
+            ship: "Rogue-class Starfighter"
+            skill: 4
+            points: 39
+            keyword: ["Bounty Hunter"]
+            slots: [
+                "Talent"
+                "Cannon"
+                "Cannon"
+                "Illicit"
+                "Modification"
+                "Title"
+            ]
+        }
+        {
+            name: "Nom Lumb (Rogue)"
+            canonical_name: 'Nom Lumb'.canonicalize()
+            xws: "nomlumb-rogueclassstarfighter"
+            id: 536
+            unique: true
+            faction: "Scum and Villainy"
+            ship: "Rogue-class Starfighter"
+            skill: 1
+            points: 35
+            keyword: ["Bounty Hunter"]
+            slots: [
+                "Talent"
+                "Cannon"
+                "Cannon"
+                "Illicit"
+                "Modification"
+                "Title"
+            ]
+        }
+        {
+            name: "Outer Rim Hunter"
+            id: 537
+            faction: "Scum and Villainy"
+            ship: "Rogue-class Starfighter"
+            skill: 3
+            points: 35
+            slots: [
+                "Cannon"
+                "Cannon"
+                "Illicit"
+                "Modification"
+                "Title"
+            ]
+        }
+        {
+            name: "Cad Bane (Separatist)"
+            canonical_name: 'Cad Bane'.canonicalize()
+            xws: "cadbane-separatistalliance"
+            id: 538
+            unique: true
+            faction: "Separatist Alliance"
+            ship: "Rogue-class Starfighter"
+            skill: 4
+            charge: 1
+            recurring: 1
+            points: 44
+            keyword: ["Bounty Hunter"]
+            slots: [
+                "Talent"
+                "Cannon"
+                "Cannon"
+                "Illicit"
+                "Modification"
+                "Title"
+            ]
+        }
+        {
+            name: "IG-101"
+            id: 539
+            unique: true
+            faction: "Separatist Alliance"
+            ship: "Rogue-class Starfighter"
+            skill: 4
+            points: 39
+            keyword: ["Droid", "Networked Calculations"]
+            slots: [
+                "Talent"
+                "Cannon"
+                "Cannon"
+                "Modification"
+                "Title"
+            ]
+        }
+        {
+            name: "IG-102"
+            id: 540
+            unique: true
+            faction: "Separatist Alliance"
+            ship: "Rogue-class Starfighter"
+            skill: 4
+            points: 40
+            keyword: ["Droid", "Networked Calculations"]
+            slots: [
+                "Talent"
+                "Cannon"
+                "Cannon"
+                "Modification"
+                "Title"
+            ]
+        }
+        {
+            name: "IG-111"
+            id: 541
+            unique: true
+            faction: "Separatist Alliance"
+            ship: "Rogue-class Starfighter"
+            skill: 1
+            points: 38
+            keyword: ["Droid", "Networked Calculations"]
+            slots: [
+                "Talent"
+                "Cannon"
+                "Cannon"
+                "Modification"
+                "Title"
+            ]
+        }
+        {
+            name: "MagnaGuard Protector"
+            id: 542
+            max_per_squad: 2
+            faction: "Separatist Alliance"
+            ship: "Rogue-class Starfighter"
+            skill: 4
+            points: 40
+            keyword: ["Droid", "Networked Calculations"]
+            slots: [
+                "Talent"
+                "Cannon"
+                "Cannon"
+                "Modification"
+                "Title"
+            ]
+            applies_condition: 'Guarded'.canonicalize()
+        }
+        {
+            name: "MagnaGuard Executioner"
+            id: 543
+            faction: "Separatist Alliance"
+            ship: "Rogue-class Starfighter"
+            skill: 3
+            points: 37
+            keyword: ["Droid", "Networked Calculations"]
+            slots: [
+                "Talent"
+                "Cannon"
+                "Cannon"
+                "Modification"
+                "Title"
+            ]
+        }
+        {
+            name: '"Knack"'
+            id: 544
+            unique: true
+            faction: "Galactic Republic"
+            ship: "Clone Z-95 Headhunter"
+            skill: 5
+            points: 26
+            keyword: ["Clone"]
+            slots: [
+                "Talent"
+                "Talent"
+                "Modification"
+                "VersatileShip"
+            ]
+        }
+        {
+            name: '"Slider"'
+            id: 545
+            unique: true
+            faction: "Galactic Republic"
+            ship: "Clone Z-95 Headhunter"
+            skill: 4
+            charge: 2
+            recurring: 1
+            points: 28
+            keyword: ["Clone"]
+            slots: [
+                "Talent"
+                "Modification"
+                "VersatileShip"
+            ]
+        }
+        {
+            name: '"Hawk (Z-95)"'
+            canonical_name: '"Hawk"'.canonicalize()
+            xws: "hawk-clonez95headhunter"
+            id: 546
+            unique: true
+            faction: "Galactic Republic"
+            ship: "Clone Z-95 Headhunter"
+            skill: 4
+            points: 25
+            keyword: ["Clone"]
+            slots: [
+                "Talent"
+                "Talent"
+                "Modification"
+                "VersatileShip"
+            ]
+        }
+        {
+            name: '"Warthog (Z-95)"'
+            canonical_name: '"Warthog"'.canonicalize()
+            xws: "warthog-clonez95headhunter"
+            id: 547
+            unique: true
+            faction: "Galactic Republic"
+            ship: "Clone Z-95 Headhunter"
+            skill: 3
+            points: 31
+            keyword: ["Clone"]
+            slots: [
+                "Talent"
+                "Modification"
+                "VersatileShip"
+            ]
+        }
+        {
+            name: '"Boost"'
+            id: 548
+            unique: true
+            faction: "Galactic Republic"
+            ship: "Clone Z-95 Headhunter"
+            skill: 3
+            points: 25
+            keyword: ["Clone"]
+            slots: [
+                "Talent"
+                "Modification"
+                "VersatileShip"
+            ]
+        }
+        {
+            name: '"Drift"'
+            id: 549
+            unique: true
+            faction: "Galactic Republic"
+            ship: "Clone Z-95 Headhunter"
+            skill: 3
+            points: 31
+            keyword: ["Clone"]
+            slots: [
+                "Talent"
+                "Modification"
+                "VersatileShip"
+            ]
+        }
+        {
+            name: '"Stub"'
+            id: 550
+            unique: true
+            faction: "Galactic Republic"
+            ship: "Clone Z-95 Headhunter"
+            skill: 3
+            points: 31
+            keyword: ["Clone"]
+            slots: [
+                "Talent"
+                "Modification"
+                "VersatileShip"
+            ]
+        }
+        {
+            name: '"Killer"'
+            id: 551
+            unique: true
+            faction: "Galactic Republic"
+            ship: "Clone Z-95 Headhunter"
+            skill: 2
+            points: 25
+            keyword: ["Clone"]
+            slots: [
+                "Modification"
+                "VersatileShip"
+            ]
+        }
+        {
+            name: "Reaper Squadron Scout"
+            id: 552
+            faction: "Galactic Republic"
+            ship: "Clone Z-95 Headhunter"
+            skill: 3
+            points: 24
+            keyword: ["Clone"]
+            slots: [
+                "Talent"
+                "Sensor"
+                "Modification"
+                "VersatileShip"
+            ]
+        }
+        {
+            name: "7th Sky Corps Pilot"
+            id: 553
+            faction: "Galactic Republic"
+            ship: "Clone Z-95 Headhunter"
+            skill: 3
+            points: 23
+            keyword: ["Clone"]
+            slots: [
+                "Modification"
+                "VersatileShip"
+            ]
+        }
     ]
 
     upgradesById: [
@@ -15954,6 +16337,53 @@ exportObj.basicCardData = ->
             also_occupies_upgrades: [ "Crew" ]
             applies_condition: '''Death Watch Commandos'''.canonicalize()
         }
+        {
+            name: "Proton Cannons"
+            id: 470
+            slot: "Cannon"
+            points: 4
+            attackbull: 4
+            range: """2-3"""
+            rangebonus: true
+            charge: 2
+            recurring: 1
+            restrictions: [
+                ["Slot", "Cannon"]
+            ]
+            validation_func: (ship, upgrade_obj) ->
+                upgrade_obj.occupiesAnUpgradeSlot "Cannon"
+            also_occupies_upgrades: [ "Cannon" ]
+        }
+        {
+            name: "Homing Torpedoes"
+            id: 471
+            slot: "Torpedo"
+            points: 5
+            attack: 4
+            range: """1-2"""
+            rangebonus: true
+            charge: 2
+        }
+        {
+            name: "Xanadu Blood"
+            id: 472
+            slot: "Title"
+            unique: true
+            points: 2
+            ship: ["Rogue-class Starfighter"]
+            modifier_func: (stats) ->
+                stats.actions.push 'Cloak' if 'Cloak' not in stats.actions
+            confersAddons: [
+                {
+                    type: exportObj.Upgrade
+                    slot: "Crew"
+                }
+                {
+                    type: exportObj.Upgrade
+                    slot: "Device"
+                }
+            ]
+        }
     ]
 
 
@@ -16127,6 +16557,10 @@ exportObj.basicCardData = ->
         {
             name: '''Mandalorian Super Commandos'''
             id: 39
+        }
+        {
+            name: '''Guarded'''
+            id: 40
         }
     ]
 
