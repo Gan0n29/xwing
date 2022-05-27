@@ -27,6 +27,7 @@ exportObj.translations.English =
         "Cargo": '<i class="xwing-miniatures-font xwing-miniatures-font-cargo"></i>'
         "Command": '<i class="xwing-miniatures-font xwing-miniatures-font-command"></i>'
         "HardpointShip": '<i class="xwing-miniatures-font xwing-miniatures-font-hardpoint"></i>'
+        "VersatileShip": '<i class="xwing-miniatures-font xwing-miniatures-font-hardpoint"></i>'
         "Tactical Relay": '<i class="xwing-miniatures-font xwing-miniatures-font-tacticalrelay"></i>'
 
     restrictions:
@@ -57,7 +58,8 @@ exportObj.translations.English =
         "Sensor": "Sensor"
         "Torpedo": "Torpedo"
         "Turret": "Turret"
-        "HardpointShip": "Hardpoint"
+        "HardpointShip": "Weapon Hardpoint"
+        "VersatileShip": "Versatile Frame"
         "Hardpoint": "Hardpoint"
         "Illicit": "Illicit"
         "Configuration": "Configuration"
