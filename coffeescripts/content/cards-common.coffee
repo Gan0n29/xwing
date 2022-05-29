@@ -11402,8 +11402,8 @@ exportObj.basicCardData = ->
             id: 553
             faction: "Galactic Republic"
             ship: "Clone Z-95 Headhunter"
-            skill: 3
-            points: 23
+            skill: 2
+            points: 22
             keyword: ["Clone"]
             slots: [
                 "Modification"
