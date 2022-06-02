@@ -4685,6 +4685,8 @@ class Ship
                     switch r[1]
                         when "Small"
                             if @data.medium? or @data.large? or @data.huge? then return false
+                        when "Non-Small"
+                            if not (@data.medium? or @data.large? or @data.huge?) then return false
                         when "Small or Medium"
                             if @data.large? or @data.huge? then return false
                         when "Medium" 
