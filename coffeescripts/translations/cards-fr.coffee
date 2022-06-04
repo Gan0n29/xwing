@@ -382,6 +382,8 @@ exportObj.cardLoaders['Français'] = () ->
     exportObj.renameShip """Scavenged YT-1300""", """YT-1300 Récupéré"""
     exportObj.renameShip """YT-2400""", """Cargo Léger YT-2400"""
     exportObj.renameShip """YV-666""", """Cargo Léger YV-666"""
+    exportObj.renameShip """Clone Z-95 Headhunter""", """Chasseur de Têtes Z-95 Clone"""
+    exportObj.renameShip """Rogue-class Starfighter""", """Chasseur de Classe Rogue"""
 
 
     pilot_translations =
@@ -527,16 +529,16 @@ exportObj.cardLoaders['Français'] = () ->
            display_name: """Braylen Stramm"""
            text: """Tant que vous défendez ou effectuez une attaque, si vous êtes stressé, vous pouvez relancer jusqu’à 2 de vos dés."""
         "Captain Cardinal":
-           display_name: """Captain Cardinal"""
+           display_name: """Capitaine Cardinal"""
            text: """Tant qu’un vaisseau allié à portée 1-2 avec une initiative inférieure à la vôtre défend ou effectue une attaque, si vous avez au moins 1 %CHARGE%, ce vaisseau allié peut relancer 1 résultat %FOCUS%.%LINEBREAK%Après qu’un vaisseau ennemi à portée 0-3 a été détruit, perdez 1 %CHARGE%.%LINEBREAK%<strong>Batteries Jumelées:</strong> tant que vous effectuez une attaque %CANNON%, lancez 1 dé supplémentaire."""
         "Captain Feroph":
            display_name: """Capitaine Feroph"""
            text: """Tant que vous défendez, si l’attaquant n’a aucun marqueur vert, vous pouvez changer 1 de vos résultats Vierge ou %FOCUS% en un résultat %EVADE%.%LINEBREAK%<strong>Ailerons Adaptables :</strong> avant de révéler votre cadran, si vous n’êtes pas stressé, vous <b>devez</b> exécuter une manœuvre blanche [1 %BANKLEFT%], [1 %STRAIGHT%], ou [1 %BANKRIGHT%]."""
         "Captain Jonus":
-           display_name: """Captain Jonus"""
+           display_name: """Capitaine Jonus"""
            text: """Tant qu’un vaisseau allié à portée 0-1 effectue une attaque %TORPEDO% ou %MISSILE%, il peut relancer jusqu’à 2 dés d’attaque. %LINEBREAK%<strong>Bombardier Agile :</strong> si vous devez utiliser un gabarit %STRAIGHT% pour larguer un engin, vous pouvez utiliser un gabarit %BANKLEFT% ou %BANKRIGHT% de même vitesse à la place."""
         "Captain Jostero":
-           display_name: """Captain Jostero"""
+           display_name: """Capitaine Jostero"""
            text: """Après qu’un vaisseau ennemi a subi des dégâts, s’il n’est pas en train de défendre, vous pouvez effectuer une attaque bonus contre ce vaisseau."""
         "Captain Kagi":
            display_name: """Capitaine Kagi"""
@@ -915,7 +917,7 @@ exportObj.cardLoaders['Français'] = () ->
            text: """Vous pouvez effectuer des attaques spéciales %FRONTARC% depuis votre %REARARC%.%LINEBREAK%Tant que vous effectuez une attaque spéciale, vous pouvez relancer 1 dé d’attaque."""
         "Kullbee Sperado":
            display_name: """Kullbee Sperado"""
-           text: """Après avoir effectué une action %BARRELROLL% ou %BOOST%, vous pouvez retourner votre carte d’amélioration %CONFIG% équipée."""
+           text: """Après avoir effectué une action %BARRELROLL% ou %BOOST%, vous pouvez retourner votre carte d’amélioration %CONFIGURATION% équipée."""
         "Kyle Katarn":
            display_name: """Kyle Katarn"""
            text: """Au début de la phase d’engagement, vous pouvez transférer 1 de vos marqueurs de concentration à un vaisseau allié situé dans votre arc de tir."""
@@ -1653,6 +1655,7 @@ exportObj.cardLoaders['Français'] = () ->
            text: """Après que vous avez défendu à portée d’attaque 1, si l’attaquant a modifié ses dés, il gagne un marqueur d’épuisement.%LINEBREAK%<strong>Gyrostabilisateurs Perfectionnés :</strong> vous pouvez pivoter votre indicateur %SINGLETURRETARC% uniquement vers votre %FRONTARC% ou %REARARC%. Après avoir effectué une action, vous pouvez effectuer une action %BOOST% rouge ou %ROTATEARC% rouge."""
         "First Order Courier":
            display_name: """Messager du Premier Ordre"""
+           text: """<i class = flavor_text>Le Premier Ordre se terre dans des bases dissimulées dans des secteurs discrets de la galaxie, répandant lentement son influence pernicieuse.</i>"""
         "Agent Terex":
            display_name: """Agent Terex"""
            text: """<strong>Mise en Place :</strong> après avoir placé les forces, choisissez n’importe quel nombre de vos améliorations %ILLICIT% équipées et équipez-les à des chasseurs TIE/fo ou TIE/sf alliés. Chaque vaisseau ne peut se voir assigner que 1 seule amélioration %ILLICIT% par ce biais.%LINEBREAK%<strong>Fin de Partie :</strong> remettez toutes les améliorations %ILLICIT% sur leurs vaisseaux d’origine."""
@@ -1686,6 +1689,9 @@ exportObj.cardLoaders['Français'] = () ->
         "Zam Wesell":
            display_name: """Zam Wesell"""
            text: """<strong>Mise en Place :</strong> Perdez 2 %CHARGE%. %LINEBREAK% Pendant la phase de système, vous pouvez vous assigner, face cachée, 1 de vos états secrets :<strong> %LINEBREAK%Vous Devriez me Remercier %LINEBREAK%Vous Devriez Faire des Affaires </strong>"""
+        "Separatist Racketeer":
+           display_name: """Maître-Chanteur Séparatiste"""
+           text: """<i class = flavor_text>Poussés par les nombreuses impasses causées par les Sièges de la Bordure Extérieure, des groupes de mercenaires saisissent à travers la galaxie l’opportunité de faire des bénéfices grâce à la guerre en cours.</i>"""
         "Hera Syndulla (B-Wing)":
            display_name: """Hera Syndulla"""
            text: """Tant qu'un autre vaisseau allié à portée 1-2 défendu ou effectue une attaque, lors d’une étape « Modifier les dés », vous pouvez transférer 1 de vos marqueurs de concentration, d'évasion ou de verrouillage à ce vaisseau. %LINEBREAK% <i>Errata (RR: 1.2.0 [06/14/2021]): ajout de : lors d'une étape « Modifier les dés de défense »</i>"""
@@ -1714,7 +1720,7 @@ exportObj.cardLoaders['Français'] = () ->
            display_name: """Dark Vador"""
            text: """Vous ne pouvez pas dépenser de %FORCE% sauf lorsque vous attaquez. %LINEBREAK% Tant que vous effectuez une attaque, vous pouvez dépenser 1 %FORCE% pour changer 1 résultat vierge en un résultat %HIT%. %LINEBREAK%<strong>Plein Gaz :</strong> après avoir entièrement exécuté une manœuvre à vitesse 3-5, vous pouvez effectuer une action %EVADE%."""
         "Captain Dobbs":
-           display_name: """Captain Dobbs"""
+           display_name: """Capitaine Dobbs"""
            text: """Tant qu’un autre vaisseau allié à portée 0–1 défend, avant l’étape « Neutraliser les résultats », si vous êtes dans l’arc d’attaque et n’êtes pas ionisé, vous pouvez gagner 1 marqueur ionique pour annuler 1 résultat %HIT%. %LINEBREAK%<strong>Plein Gaz :</strong> après avoir entièrement exécuté une manœuvre à vitesse 3-5, vous pouvez effectuer une action %EVADE%."""
         "Vult Skerris":
            display_name: """Vult Skerris"""
@@ -1749,6 +1755,12 @@ exportObj.cardLoaders['Français'] = () ->
         "Arliz Hadrassian":
            display_name: """Arliz Hadrassian"""
            text: """Tant que vous effectuez une attaque %FRONTARC%, si vous êtes endommagé, vous pouvez changer 1 de vos résultats %FOCUS% en un résultat %CRIT%. %LINEBREAK% Tant que vous défendez, si vous êtes endommagé, avant l’étape « Modifier les dés de défense », vous <b>devez</b> changer 1 de vos résultats %FOCUS% en un résultat vierge. %LINEBREAK% <i>Errata (RR: 1.2.0 [06/14/2021]): ajout de : avant l’étape « Modifier les dés de défense »</</i>"""
+        "Jinata Security Officer":
+           display_name: """Officier de la Sécurité Jinata"""
+           text: """<i class = flavor_text>Basé dans l’ancien bastion Impérial de Vardos, la Sécurité Jinata poursuit ses efforts de reconstruction sur la planète dévastée, tout en collaborant avec le programme de réarmement du Premier Ordre.</i>"""
+        "Amaxine Warrior":
+           display_name: """Guerrier Amaxine"""
+           text: """<i class = flavor_text>Des décennies après la Bataille d’Endor, d’anciens Impériaux demeurent en activité au sein de la Nouvelle République. Beaucoup ont rejoint des organisations paramilitaires, comme celle des Guerriers Amaxines, qui s’approprient les traditions et cultures martiales pour répandre l’idéologie haineuse du Premier Ordre parmi les individus les plus influençables.</i>"""
         "Leema Kai":
            display_name: """Leema Kai"""
            text: """Avant de vous engager, si vous êtes dans aucun %FRONTARC% de vaisseaux ennemis, vous pouvez verrouiller un vaisseau ennemi dans votre %FULLFRONTARC%."""
@@ -1817,70 +1829,147 @@ exportObj.cardLoaders['Français'] = () ->
            text: """Après que vous avez rechargé, chaque vaisseau dans votre %BULLSEYEARC% gagne 1 marqueur d'épuisement. %LINEBREAK%<strong>Propulseurs de Poursuite :</strong> pendant la Phase de Système, vous pouvez effectuer une action %BOOST%."""
         '"Scorch" (TIE/Se Bomber)':
            display_name: """“Scorch”"""
-           text: """While a friendly ship at range 0-1 performs a primary attack, it may spend 1 %HIT% result. If it does, after defending, the defender gains 1 strain token. %LINEBREAK%<strong>Propulseurs de Poursuite :</strong> pendant la Phase de Système, vous pouvez effectuer une action %BOOST%."""
+           text: """Tant qu'un vaisseau allié à portée 0-1 effectue une attaque principale, il peut dépenser 1 résultat %HIT%. Dans ce cas, après avoir défendu, le défenseur gagne 1 marqueur de contrainte. %LINEBREAK%<strong>Propulseurs de Poursuite :</strong> pendant la Phase de Système, vous pouvez effectuer une action %BOOST%."""
         '"Breach"':
            display_name: """“Breach”"""
            text: """Après avoir entièrement exécuté une manœuvre ou effectué une action %BOOST%, si vous vous êtes déplacé à travers un vaisseau ennemi, vous pouvez le verrouiller. %LINEBREAK%<strong>Propulseurs de Poursuite :</strong> pendant la Phase de Système, vous pouvez effectuer une action %BOOST%."""
         "Fenn Rau (Rebel Fang)":
            display_name: """Fenn Rau"""
-           text: """Before a friendly ship at range 1-2 engages, if there is an enemy ship in its %FRONTARC% at range 1, that friendly ship may remove 1 non-lock red token. %LINEBREAK%<strong>Concordia Faceoff:</strong> While you defend, if the attack range is 1 and you are in the attacker's %FRONTARC%, change 1 result to an %EVADE% result."""
+           text: """Avant qu'un vaisseau allié à portée 1-2 s'engage, s'il y a un vaisseau ennemi dans son %FRONTARC% à portée 1, ce vaisseau allié peut retirer 1 marqueur rouge non verrouillage. %LINEBREAK%<strong>Opposition Concordia :</strong> tant que vous défendez, si la portée d’attaque est 1 et que vous êtes dans l’%FRONTARC% de l’attaquant, changez 1 résultat en un résultat %EVADE%."""
         "Bodica Venj":
            display_name: """Bodica Venj"""
-           text: """After another friendly ship defends, if you are not depleted, you may perform a bonus primary attack against the attacker. If you do, after performing that attack, gain 1 deplete token. %LINEBREAK%<strong>Concordia Faceoff:</strong> While you defend, if the attack range is 1 and you are in the attacker's %FRONTARC%, change 1 result to an %EVADE% result."""
+           text: """Après qu'un autre vaisseau allié a défendu, si vous n'êtes pas épuisé, vous pouvez effectuer une attaque principale bonus contre l'attaquant. Dans ce cas après avoir effectué cette attaque, gagnez 1 marqueur d'épuisement. %LINEBREAK%<strong>Opposition Concordia :</strong> tant que vous défendez, si la portée d’attaque est 1 et que vous êtes dans l’%FRONTARC% de l’attaquant, changez 1 résultat en un résultat %EVADE%."""
         "Dirk Ullodin":
            display_name: """Dirk Ullodin"""
-           text: """After you fully execute a red maneuver or perform a red action, you may acquire a lock on an enemy ship in your %FRONTARC% at range 1. %LINEBREAK%<strong>Concordia Faceoff:</strong> While you defend, if the attack range is 1 and you are in the attacker's %FRONTARC%, change 1 result to an %EVADE% result."""
+           text: """Après avoir entièrement exécuté une manœuvre rouge ou effectué une action rouge, vous pouvez verrouiller un vaisseau ennemi situé dans votre %FRONTARC% à portée 1. %LINEBREAK%<strong>Opposition Concordia :</strong> tant que vous défendez, si la portée d’attaque est 1 et que vous êtes dans l’%FRONTARC% de l’attaquant, changez 1 résultat en un résultat %EVADE%."""
         "Clan Wren Volunteer":
-           display_name: """Clan Wren Volunteer"""
-           text: """While you perform an attack at range 1, if the speed of your maneuver matches that of a friendly ship at range 1, you may reroll 1 attack die. %LINEBREAK%<strong>Concordia Faceoff:</strong> While you defend, if the attack range is 1 and you are in the attacker's %FRONTARC%, change 1 result to an %EVADE% result."""
+           display_name: """Volontaire du Clan Wren"""
+           text: """Tant que vous effectuez une attaque à portée 1, si la vitesse de votre manœuvre révélée correspond à celle d'un vaisseau allie a portée 1, vous pouvez relancer 1 dé d'attaque. %LINEBREAK%<strong>Opposition Concordia :</strong> tant que vous défendez, si la portée d’attaque est 1 et que vous êtes dans l’%FRONTARC% de l’attaquant, changez 1 résultat en un résultat %EVADE%."""
         "Mandalorian Royal Guard":
-           display_name: """Mandalorian Royal Guard"""
-           text: """While a friendly non-small ship defends, if you are in the attack arc, you may gain 1 deplete and 1 strain token. If you do, the defender may change 1 result to an %EVADE% result. %LINEBREAK%<strong>Concordia Faceoff:</strong> While you defend, if the attack range is 1 and you are in the attacker's %FRONTARC%, change 1 result to an %EVADE% result."""
+           display_name: """Garde Royal Mandalorien"""
+           text: """Tant qu'un vaisseau allié non-petit défend, si vous êtes dans l'arc d'attaque, vous pouvez gagner 1 marqueur d'épuisement et 1 marqueur de contrainte. Dans ce cas, le défenseur peut changer 1 résultat en un résultat %EVADE%. %LINEBREAK%<strong>Opposition Concordia :</strong> tant que vous défendez, si la portée d’attaque est 1 et que vous êtes dans l’%FRONTARC% de l’attaquant, changez 1 résultat en un résultat %EVADE%."""
         "ISB Jingoist":
-           display_name: """ISB Jingoist"""
-           text: """Before you engage, you may choose 1 enemy ship in your %FRONTARC% at range 0-1. If you do, that ship gains 1 deplete or strain token of your choice unless it chooses to remove 1 green token."""
+           display_name: """Va-t-en-guerre du BSI"""
+           text: """Avant de vous engager, vous pouvez choisir 1 vaisseau ennemi dans votre %FRONTARC% à portée 0-1. Dans ce cas, il gagne 1 marqueur d'épuisement ou de contrainte (vous choisissez) à moins qu'il ne choisisse de retirer 1 marqueur vert."""
         "Moff Gideon":
            display_name: """Moff Gideon"""
-           text: """While an enemy ship at range 1-3 defends, before attack dice are rolled, you may spend 1 %CHARGE% and choose a friendly ship at range 0-1 of the defender. If you do, defense dice cannot be modified during this attack and the chosen friendly ship gains 1 strain token."""
+           text: """Tant qu'un vaisseau ennemi à portée 1-3 défend, avant de lancer les dés d'attaque vous pouvez dépenser 1 %CHARGE% et choisir un vaisseau allié à portée 0-1 du défenseur. Dans ce cas, les dés de défense ne peuvent pas être modifiés lors de cette attaque et le vaisseau allié choisi gagne 1 marqueur de contrainte."""
         "Maul":
            display_name: """Maul"""
-           text: """While you perform a %COORDINATE% action, if you choose a ship with an initiative lower than yours, you may spend 1 %FORCE%. If you do, treat the action as white and you may coordinate 1 additional friendly ship with an initiative lower than yours; each friendly ship you coordinate this way gains 1 strain token."""
+           text: """Tant que vous effectuez une action %COORDINATE% si vous choisissez un vaisseau ayant une initiative plus faible que la vôtre, vous pouvez dépenser 1 %FORCE%. Dans ce cas, considérez cette action comme blanche et vous pouvez coordonner 1 vaisseau allié supplémentaire ayant une initiative plus faible que la vôtre ; chaque vaisseau allié que vous coordonnez ainsi gagne 1 marqueur de contrainte."""
         "Bo-Katan Kryze":
            display_name: """Bo-Katan Kryze"""
-           text: """Before a friendly ship at range 0-2 activates, you may spend 1 %CHARGE%. If you do, that ship may gain 1 strain token to remove 1 non-stress red or orange token."""
+           text: """Avant qu'un vaisseau allié à portée 0-2 ne s'active, vous pouvez dépenser 1 %CHARGE%. Dans ce cas. Il peut gagner 1 marqueur de contrainte pour retirer 1 marqueur rouge non-stress ou 1 marqueur orange."""
         "Bo-Katan Kryze (Republic)":
            display_name: """Bo-Katan Kryze"""
-           text: """After you fully execute a maneuver, you may gain 1 deplete token to choose an object in your %FRONTARC% at range 1-2. If you do, another friendly ship may perform a %LOCK% action to lock that object."""
+           text: """Après avoir entièrement exécuté une manœuvre, vous pouvez gagne 1 marqueur d'épuisement pour choisir un objet dans votre %FRONTARC% à portée 1-2. Dans ce cas un autre vaisseau allié peut effectuer une action %LOCK% pour verrouiller cet objet."""
         "Captain Hark":
-           display_name: """Captain Hark"""
-           text: """After you reveal a [0 %STOP%] maneuver, if you are equipped with <b>Swivel Wings (Down)</b>, you <b>must</b> execute a [1 %BANKLEFT%] or [1 %BANKRIGHT%] sideslip maneuver of the same difficulty instead. After you execute that maneuver, you <b>must</b> flip <b>Swivel Wings (Down)</b>."""
+           display_name: """Capitaine Hark"""
+           text: """Après avoir révélé une manœuvre [0 %STOP%], si vous êtes équipé d'une <b>Aile Basculante (Baissée)</b>, vous <b>devez</b> exécuter une manœuvre de dérapage [1 %BANKLEFT%] ou [1 %BANKRIGHT%]de même difficulté à la place. Après avoir exécuté cette manœuvre, vous <b>devez</b> retourner la carte <b>Aile Basculante (Baissée)</b>."""
         "Gar Saxon":
            display_name: """Gar Saxon"""
-           text: """While a friendly unit at range 0-2 performs a primary attack, if the attacker is in the defender's %REARARC%, you may spend 1 %CHARGE%. If you do, the attacker rolls 1 additional die."""
+           text: """Tant qu'une unité alliée à portée 0-2 effectue une attaque principale, si l'attaquant est dans le %REARARC% du défenseur, vous pouvez dépenser 1 %CHARGE%. Dans ce cas, l'attaquant lance 1 dé supplémentaire."""
         "Pre Vizsla":
            display_name: """Pre Vizsla"""
-           text: """While you perform an attack, if the defender's initiative is equal to or greater than yours, you may spend 2 %CHARGE% to roll 1 additional die."""
-        "Pre Vizsla":
-           display_name: """Pre Vizsla"""
-           text: """While you perform an attack, if the defender's initiative is equal to or greater than yours, you may spend 2 %CHARGE% to roll 1 additional die."""
+           text: """Tant que vous effectuez une attaque, si l'initiative du défenseur est supérieure ou égale à la vôtre, vous pouvez dépenser 2 %CHARGE% pour lancer 1 dé supplémentaire."""
         "Rook Kast":
            display_name: """Rook Kast"""
-           text: """Before you engage, you may gain 1 strain token. While you perform a primary attack, if you are strained, you may change 1 of your blank or %FOCUS% results to a %HIT% result."""
+           text: """Avant de vous engager, vous pouvez gagner 1 marqueur de contrainte. Tant que vous effectuez une attaque principale, si vous êtes contraint. vous pouvez changer 1 de vos résultats vierges ou %FOCUS% en un résultat %HIT%."""
         "Ezra Bridger (Gauntlet Fighter)":
            display_name: """Ezra Bridger"""
-           text: """While you defend or perform an attack, if you are stressed, you may spend 1 %FORCE% to change up to 2 of your %FOCUS% results to %EVADE% or %HIT% results."""
+           text: """Tant que vous défendez ou effectuez une attaque, si vous êtes stressé, vous pouvez dépenser 1 %FORCE% pour changer jusqu'à 2 de vos résultats %FOCUS% en résultats %EVADE% ou %HIT%."""
         '"Chopper" (Gauntlet Fighter)':
            display_name: """Chopper"""
-           text: """At the start of the Engagement Phase, each enemy ship at range 0 gains 2 jam tokens."""
+           text: """Au début de la phase d’engagement, chaque vaisseau ennemi à portée 0 gagne 2 marqueurs de brouillage."""
+        "Death Watch Warrior":
+           display_name: """Guerrier de la Death Watch"""
+           text: """<i class = flavor_text>Malgré le soutien incertain des Séparatistes, la Death Watch envisage de restaurer le passé guerrier et les traditions de Mandalore. Extrêmement manœuvrable et équipé d'une baie de largage, le Chasseur Gauntlet est une excellente plateforme pour déployer ces fiers commandos au combat.</i>"""
+        "Nite Owl Liberator":
+           display_name: """Libérateur Nite Owl """
+           text: """<i class = flavor_text>Suivant Bo-Katan Kryze, d'anciens membres de la Death Watch ont rejeté la gouvernance de Maul sur Mandalore et ont créé une alliance réfractaire avec la République. Les Chasseurs Gauntlet conservés par les Nite Owl sont essentiels pour mener la lutte qui libèrera leur monde.</i>"""
+        "Shadow Collective Operator":
+           display_name: """Opérateur du Collectif des Ombres"""
+           text: """<i class = flavor_text>Les anciens soldats de la Death Watch qui ont juré fidélité au Seigneur Maul continuent d'opérer à bord de Chasseurs Gauntlet, les utilisant parfois comme bombardiers lors d'attaques planifiées par Maul.</i>"""
+        "Imperial Super Commando":
+           display_name: """Super Commando Impérial"""
+           text: """<i class = flavor_text>Sous le commandement du Vice-Roi Gar Saxon, les impitoyables guerriers qui servaient autrefois le Seigneur Maul ont été transformés en homme de main du nouvel ordre. Le Chasseur Gauntlet Mandalorien continue d'être utilisé en tant que transport de combat pour ces Super Commandos Impériaux.</i>"""
+        "Mandalorian Resistance Pilot":
+           display_name: """Pilote de la Résistance Mandalorienne"""
+           text: """<i class = flavor_text>Certains guerriers Mandaloriens, comme ceux du Clan Kryze, n'ont jamais plié et continuent le combat contre l'ordre collaborationniste du Clan Saxon et ses maîtres Impériaux. Le Chasseur Gauntlet allie la puissance de feu et la vitesse, ce qui en fait l'appareil idéal pour mener des raids.</i>"""
         "The Mandalorian":
-           display_name: """The Mandalorian"""
-           text: """While you defend or perform an attack, if you are in the %FRONTARC% at range 1-2 of 2 or more enemy ships, you may change 1 of your blank results to a %FOCUS% result."""
+           display_name: """Le Mandalorien"""
+           text: """Tant que vous défendez ou effectuez une attaque si vous êtes dans le %FRONTARC% à portée 1-2 d'au moins 2 vaisseaux ennemis, vous pouvez changer 1 de vos résultats vierges en un résultat %FOCUS%."""
         "Q9-0":
            display_name: """Q9-0"""
-           text: """After you fully execute an advanced maneuver, you may perform a %CALCULATE% or %BARRELROLL% action, even while stressed. If you do, gain 1 strain token."""
+           text: """Après avoir entièrement exécuté une manœuvre avancée, vous pouvez effectuer une action %CALCULATE% ou %BARRELROLL%, même si vous êtes stressé. Dans ce cas gagnez 1 marqueur de contrainte."""
         "Guild Bounty Hunter":
-           display_name: """Guild Bounty Hunter"""
-           text: """While you perform an attack at attack range 1-2, you may spend 1 non-recurring %CHARGE% from 1 of your equipped %ILLICIT% upgrades to change 1 %FOCUS% result to a %CRIT% result."""
+           display_name: """Chasseur de Primes de la Guilde"""
+           text: """Tant, que vous effectuez une attaque à portée d'attaque 1-2, vous pouvez dépenser 1 %CHARGE% non-récurrente d'une de vos améliorations %ILLICIT% équipées pour changer 1 résultat %FOCUS% en un résultat %CRIT%."""
+        "Outer Rim Enforcer":
+           display_name: """Homme de Main de la Bordure Extérieure"""
+           text: """<i class = flavor_text>Conçu comme un appareil militaire, le Vaisseau d'Assaut ST-70 est très résistant et polyvalent. Pour ceux qui parcourent la Bordure Extérieure, le vaisseau peut servir de transport, d'appareil de combat et de simple habitat, le tout en même temps.</i>"""
+        "Cad Bane":
+           display_name: """Cad Bane"""
+           text: """After you perform an attack that hits, you may spend 2 %CHARGE% to transfer 1 of your non-lock red or orange tokens to the defender. %LINEBREAK% <strong>Dead to Rights:</strong> While you perform an attack, if the defender is in your %BULLSEYEARC%, defense dice cannot be modified using green tokens."""
+        "Cad Bane (Separatist)":
+           display_name: """Cad Bane"""
+           text: """During the Engagement Phase, after another ship at range 0-3 is destroyed, you may spend 1 %CHARGE% to perform an action, even while stressed. %LINEBREAK% <strong>Dead to Rights:</strong> While you perform an attack, if the defender is in your %BULLSEYEARC%, defense dice cannot be modified using green tokens."""
+        "Viktor Hel (Rogue)":
+           display_name: """Viktor Hel"""
+           text: """After you defend, if you did not roll exactly 2 defense dice, the attacker gains 1 stress token. %LINEBREAK% <strong>Dead to Rights:</strong> While you perform an attack, if the defender is in your %BULLSEYEARC%, defense dice cannot be modified using green tokens."""
+        "Nom Lumb (Rogue)":
+           display_name: """Nom Lumb"""
+           text: """At the start of the Engagement Phase, you may choose 1 enemy ship in your %FRONTARC%. If you do, treat your initiative as equal to that ship's until the end of the round. %LINEBREAK% <strong>Dead to Rights:</strong> While you perform an attack, if the defender is in your %BULLSEYEARC%, defense dice cannot be modified using green tokens."""
+        "Outer Rim Hunter":
+           display_name: """Outer Rim Hunter"""
+           text: """%LINEBREAK% <strong>Dead to Rights:</strong> While you perform an attack, if the defender is in your %BULLSEYEARC%, defense dice cannot be modified using green tokens."""
+        "IG-101":
+           display_name: """IG-101"""
+           text: """At the start of the System Phase, you may repair 1 faceup damage card. %LINEBREAK%<strong>Networked Calculations:</strong> While you defend or perform an attack, you may spend 1 calculate token from a friendly ship at range 0-1 to change 1 %FOCUS% result to an %EVADE% or %HIT% result."""
+        "IG-102":
+           display_name: """IG-102"""
+           text: """While you defend, if the attacker's initiative is equal to or greater than yours, you may change 1 blank result to a %FOCUS% result. %LINEBREAK%<strong>Networked Calculations:</strong> While you defend or perform an attack, you may spend 1 calculate token from a friendly ship at range 0-1 to change 1 %FOCUS% result to an %EVADE% or %HIT% result."""
+        "IG-111":
+           display_name: """IG-111"""
+           text: """After you perform an attack that missed, you may choose 1 enemy ship in your %BULLSEYEARC% and gain 1 deplete token. If you do, that ship suffers 1 %HIT% damage. %LINEBREAK%<strong>Networked Calculations:</strong> While you defend or perform an attack, you may spend 1 calculate token from a friendly ship at range 0-1 to change 1 %FOCUS% result to an %EVADE% or %HIT% result."""
+        "MagnaGuard Executioner":
+           display_name: """MagnaGuard Executioner"""
+           text: """%LINEBREAK%<strong>Networked Calculations:</strong> While you defend or perform an attack, you may spend 1 calculate token from a friendly ship at range 0-1 to change 1 %FOCUS% result to an %EVADE% or %HIT% result."""
+        "MagnaGuard Protector":
+           display_name: """MagnaGuard Protector"""
+           text: """<strong>Setup:</strong> After placing forces, assign the <b>Guarded</b> condition to 1 friendly ship other than the <b>MagnaGuard Protector</b> %LINEBREAK%<strong>Networked Calculations:</strong> While you defend or perform an attack, you may spend 1 calculate token from a friendly ship at range 0-1 to change 1 %FOCUS% result to an %EVADE% or %HIT% result."""
+        '"Killer"':
+           display_name: """“Killer”"""
+           text: """While you perform an attack, if the defender has 2 or fewer hull remaining, you may roll 1 additional attack die. If you do, gain 1 deplete token after rolling attack dice. %LINEBREAK%<strong>Versatile Frame:</strong> You can equip 1 %TORPEDO% or %MISSILE% upgrade. While your revealed maneuver is blue, add white %BOOST% to your action bar."""
+        '"Drift"':
+           display_name: """“Drift”"""
+           text: """While a friendly ship at range 0-1 performs an attack, if you have exactly 1 non-lock red token or exactly 1 orange token, that ship may reroll 1 attack die. %LINEBREAK%<strong>Versatile Frame:</strong> You can equip 1 %TORPEDO% or %MISSILE% upgrade. While your revealed maneuver is blue, add white %BOOST% to your action bar."""
+        '"Boost"':
+           display_name: """“Boost”"""
+           text: """At the start of the Engagement Phase, if there is a friendly ship at range 0-1 whose revealed maneuver is blue, you may perform a %BOOST% action.%LINEBREAK%<strong>Versatile Frame:</strong> You can equip 1 %TORPEDO% or %MISSILE% upgrade. While your revealed maneuver is blue, add white %BOOST% to your action bar."""
+        '"Stub"':
+           display_name: """“Stub”"""
+           text: """While you defend, if the speed of your revealed maneuver is even, roll 1 additional defende die. While you perform a primary attack, if the speed of your revealed maneuver is odd, roll 1 additional attack die. %LINEBREAK%<strong>Versatile Frame:</strong> You can equip 1 %TORPEDO% or %MISSILE% upgrade. While your revealed maneuver is blue, add white %BOOST% to your action bar."""
+        '"Hawk (Z-95)"':
+           display_name: """“Hawk”"""
+           text: """At the start of the End Phase, each friendly ship at range 0-1 that has a revealed maneuver of speed 3-5 may gain 1 strain token to perform a %BARRELROLL% or %BOOST% action.  %LINEBREAK%<strong>Versatile Frame:</strong> You can equip 1 %TORPEDO% or %MISSILE% upgrade. While your revealed maneuver is blue, add white %BOOST% to your action bar."""
+        '"Slider"':
+           display_name: """“Slider”"""
+           text: """When you reveal a [2 %BANKLEFT%] or [2 %BANKRIGHT%] maneuver, you may spend 2 %CHARGE% to execute it as a sideslip. %LINEBREAK%<strong>Versatile Frame:</strong> You can equip 1 %TORPEDO% or %MISSILE% upgrade. While your revealed maneuver is blue, add white %BOOST% to your action bar."""
+        '"Warthog (Z-95)"':
+           display_name: """“Warthog”"""
+           text: """After you or a friendly non-limited ship at range 0-2 are destroyed during the Engagement Phase, that ship is not removed until the end of that phase. %LINEBREAK%<strong>Versatile Frame:</strong> You can equip 1 %TORPEDO% or %MISSILE% upgrade. While your revealed maneuver is blue, add white %BOOST% to your action bar."""
+        '"Knack"':
+           display_name: """“Knack”"""
+           text: """After you are destroyed, you may choose a friendly non-limited ship at range 0-2 and assign 1 of your equipped %TALENT% upgrades to it. %LINEBREAK% <strong>End of Game:</strong> Return all %TALENT% upgrades to their original ships. %LINEBREAK%<strong>Versatile Frame:</strong> You can equip 1 %TORPEDO% or %MISSILE% upgrade. While your revealed maneuver is blue, add white %BOOST% to your action bar."""
+        "Reaper Squadron Scout":
+           display_name: """Reaper Squadron Scout"""
+           text: """%LINEBREAK%<strong>Versatile Frame:</strong> You can equip 1 %TORPEDO% or %MISSILE% upgrade. While your revealed maneuver is blue, add white %BOOST% to your action bar."""
+        "Temp":
+           display_name: """temp"""
+           text: """<i class = flavor_text>texte</i>"""
+            
+
 
         # Epic Ships
         "Republic Judiciary":
@@ -2953,122 +3042,154 @@ exportObj.cardLoaders['Français'] = () ->
            text: """Avant que vous ne gagniez un marqueur rouge ou orange qui ne soit pas un verrouillage, vous pouvez dépenser 1 %CHARGE% pour le placer sur cette carte à la place. %LINEBREAK%Pendant la phase de système, s'il y a au moins 1 marqueur sur cette carte vous <b>devez</b> dépenser 1 %CHARGE%. Si vous ne pouvez pas, retirez les marqueurs de cette carte, et gagnez les marqueurs correspondants."""
         "Ahsoka Tano (Crew)":
            display_name: """Ahsoka Tano"""
-           text: """After you fully execute a maneuver, you may spend 1 %FORCE% to choose 1 friendly ship in your %FULLREARARC% at range 1-2. If you do, that ship may perform a red %FOCUS% action, even while stressed."""
+           text: """Après avoir entièrement exécuté une manœuvre, vous pouvez dépenser 1 %FORCE% pour choisir 1 vaisseau allié dans votre %FULLREARARC% à portée 1-2. Dans ce cas, le vaisseau choisi peut effectuer une action %FOCUS% rouge, même s'il est stressé."""
         "Bo-Katan Kryze (Republic/Separatist)":
-           display_name: """Bo-Katan Kryze (République/Séparatiste)"""
-           text: """While you perform an attack, if you are at range 0-1 of the defender, you may reroll 1 attack die."""
+           display_name: """Bo-Katan Kryze"""
+           text: """Tant que vous effectuez une attaque, si vous êtes à portée 0-1 du défenseur, vous pouvez relancer 1 dé d'attaque."""
         "Bo-Katan Kryze (Rebel/Scum)":
-           display_name: """Bo-Katan Kryze (Rebelle/Racaille)"""
-           text: """After you perform an attack, if the defender was destroyed, each friendly ship at range 0-2 may remove 1 red or orange token."""
+           display_name: """Bo-Katan Kryze"""
+           text: """Après que vous avez effectué une attaque, si le défenseur a été détruit, chaque vaisseau allié à portée 0–2 peut retirer 1 marqueur rouge ou orange."""
         "Fenn Rau":
            display_name: """Fenn Rau"""
-           text: """Before a friendly ship at range 0-2 engages, if its revealed maneuver is 1 speed or higher and there is an enemy ship in its %FRONTARC% at range 1, that friendly ship may remove 1 non-lock red token."""
+           text: """Avant qu'un vaisseau allié à portée 0-2 s'engage, si sa manœuvre révélée a une vitesse supérieure ou égale à 1 et qu'il y a un vaisseau ennemi dans son %FRONTARC% à portée 1, ce vaisseau allié peut retirer 1 marqueur rouge non-verrouillage."""
         "Captain Hark":
-           display_name: """Captain Hark"""
-           text: """After you fully execute a red maneuver, if you are not focused, you may spend 1 %CHARGE% to gain 1 focus token."""
+           display_name: """Capitaine Hark"""
+           text: """Après avoir entièrement exécuté une manœuvre rouge, si vous n'êtes pas concentré, vous pouvez dépenser 1 %CHARGE% pour gagner 1 marqueur de concentration."""
         "Gar Saxon":
            display_name: """Gar Saxon"""
-           text: """While a friendly ship at range 1-3 with an initiative of 4 or lower performs an attack against a defender you have locked, the attacker may change 1 %FOCUS% result to a %HIT% result."""
+           text: """Tant qu'une unité alliée à portée 1-3 avec une initiative inférieure ou égale à 4 effectue une attaque contre un défenseur que vous avez verrouillé, l'attaquant peut changer 1 résultat %FOCUS% en un résultat %HIT%."""
         "Gar Saxon (Gunner)":
            display_name: """Gar Saxon"""
-           text: """While you perform the %LOCK% action, you can only choose an object in your %FRONTARC% or %REARARC%. %LINEBREAK% While you perform a primary attack, if the defender is in your %FRONTARC% or %REARARC%, you may remove 1 orange or red token from the defender to roll 1 additional die, to a maximum of 4."""
+           text: """Tant que vous effectuez l'action %LOCK%, vous pouvez choisr uniquement un objet dans votre %FRONTARC% ou votre %REARARC%. %LINEBREAK%Tant que vous effectuez une attaque principale, si le défenseur est dans votre %FRONTARC% ou votre %REARARC%, vous pouvez retirer 1 marqueur rouge ou orange du défenseur pour lancer 1 de supplémentaire, pour un maximum de 4."""
         "Korkie Kryze":
            display_name: """Korkie Kryze"""
-           text: """After a friendly ship in your %FULLFRONTARC% at range 1-2 becomes the defender, you may transfer 1 green token to it. %LINEBREAK% While a friendly ship in your %FULLFRONTARC% at range 1-2 defends, if you obstruct the attack, the defender rolls 1 additional defense die."""
+           text: """Apres qu un vaisseau allié dans votre %FULLFRONTARC% à portée 1-2 est devenu le défenseur, vous pouvez lui transférer 1 marqueur vert. %LINEBREAK%Tant qu'un vaisseau allié dans votre %FULLFRONTARC% à portée 1-2 défend, si vous gênez l'attaque, le défenseur lance 1 dé de défense supplémentaire."""
         "Obi-Wan Kenobi":
            display_name: """Obi-Wan Kenobi"""
-           text: """After a friendly ship at range 0-2 spends a focus or evade token, you may spend 1 %FORCE%. If you do, that ship gains 1 focus token."""
+           text: """Après qu'un vaisseau allié à portée 0-2 a dépensé un marqueur de concentration ou d'évasion, vous pouvez dépenser 1 %FORCE%. Dans ce cas, ce vaisseau allié gagne 1 marqueur de concentration."""
         "Pre Vizsla":
            display_name: """Pre Vizsla"""
-           text: """While you perform a %COORDINATE% action, you can choose a friendly %CREW% remote instead of another friendly ship. Instead of performing an action, that remote relocations forward using a [1 %TURNLEFT%], [1 %TURNRIGHT%], or [2 %STRAIGHT%] template."""
-        "Obi-Wan Kenobi":
-           display_name: """Obi-Wan Kenobi"""
-           text: """After a friendly ship at range 0-2 spends a focus or evade token, you may spend 1 %FORCE%. If you do, that ship gains 1 focus token."""
+           text: """Tant que vous effectuez une action %COORDINATE%, vous pouvez choisir un engin distant %CREW% allié à la place d un autre vaisseau allié. Au lieu d'effectuer une action, cet engin distant se repositionne en avant en utilisant un gabarit [1 %TURNLEFT%], [1 %TURNRIGHT%] ou [2 %STRAIGHT%]."""
         "Rook Kast":
            display_name: """Rook Kast"""
-           text: """After you perform a red action, you may gain 1 strain token. %LINEBREAK% While you perform an attack, if you are strained, you may change 1 of your blank or %FOCUS% results to a %HIT% result."""
+           text: """Après avoir effectué une action rouge, vous pouvez gagner 1 marqueur de contrainte. %LINEBREAK%Tant que vous effectuez une attaque, si vous êtes contraint vous pouvez changer 1 de vos résultats vierges ou %FOCUS% en un résultat %HIT%."""
         "Satine Kryze":
            display_name: """Satine Kryze"""
-           text: """At the start of the Engagement Phase, you may spend 2 %CHARGE%. If you do, each friendly ship may choose to gain 1 deplete token and 1 focus tokken or to gain 1 disarm token and 1 evade token."""
+           text: """Au début de la phase d'engagement, vous pouvez dépenser 2 %CHARGE%. Dans ce cas, chaque vaisseau allié peut choisir de gagner 1 marqueur d'épuisement et 1 marqueur de concentration ou de gagner 1 marqueur de désarmement et 1 marqueur d'évasion."""
         "Savage Opress":
            display_name: """Savage Opress"""
-           text: """After a friendly ship in your %FRONTARC% at range 1-2 gains a stress or strain token, you may spend 1 %FORCE%. If you do, that ship gains 1 focus token."""
+           text: """Après qu'un vaisseau allié dans votre %FRONTARC% à portée 1-2 a gagné un marqueur de stress ou de contrainte, vous pouvez dépenser 1 %FORCE%. Dans ce cas, ce vaisseau allié gagne 1 marqueur de concentration."""
         "Tal Merrik":
            display_name: """Tal Merrik"""
-           text: """<strong>Setup:</strong> Before placing forcse, choose 1 enemy ship and assign the <b>False Friend</b> condition to it. %LINEBREAK% <strong>Action:</strong> If the <b>False Friend</b> condition is not assigned to an enemy ship, assign it to an enemy ship in your %FRONTARC% at range 0-2."""
+           text: """<strong>Mise en Place :</strong> avant de placer les forces, choisissez 1 vaisseau ennemi et assignez-lui l'état <b>Faux Frère</b> %LINEBREAK%<strong>Action :</strong> si l'état <b>Faux Frère</b> n'est pas assigné à un vaisseau ennemi, assignez-le à un vaisseau ennemi dans votre %FRONTARC% à portée 0-2."""
         "Tiber Saxon":
            display_name: """Tiber Saxon"""
-           text: """After you perform an attack at attack range 1-2 that hits, if the defender has no faceup damage cards, you may spend 1 or more %CHARGE%. For each %CHARGE% you spend, the defender gains 1 strain token."""
+           text: """Après que vous avez effectué une attaque à portée d'attaque 1-2 qui a touché, si le défenseur n'a pas de carte de dégât face visible, vous pouvez dépenser 1 ou plusieurs %CHARGE%. Pour chaque %CHARGE% dépensée, le défenseur gagne 1 marqueur de contrainte."""
         "Tristan Wren":
            display_name: """Tristan Wren"""
-           text: """While a friendy unit at range 0-3 performs a %RANGEBONUS% attack, you may spend 1 %CHARGE%. If you do, the attacker may change 1 %HIT% result to a %CRIT% result."""
+           text: """Tant qu'une unité alliée à portée 0-3 effectue une attaque %RANGEBONUS%, vous pouvez dépenser 1 %CHARGE%. Dans ce cas, l'attaquant peut changer 1 résultat %HIT% en un résultat %CRIT%."""
         "Ursa Wren":
            display_name: """Ursa Wren"""
-           text: """You can maintain up to 2 locks. Each lock must be on a different object. %LINEBREAK% After a friendly ship at range 0-3 is locked, you may acquire a lock on an enemy ship."""
+           text: """Vous pouvez maintenir jusqu'à 2 verrouillages. Chaque verrouillage doit être sur un objet différent. %LINEBREAK%Après qu'un vaisseau allié à portée 0-3 a été verrouillé, vous pouvez verrouiller un vaisseau ennemi."""
         "Ursa Wren (Gunner)":
            display_name: """Ursa Wren"""
-           text: """After you acquire a lock on an enemy unit beyond range 2, if there are no friendly units at range 0-1 of the locked unit, gain 1 calculate token."""
+           text: """Après que vous avez verrouillé une unité ennemie au-delà de la portée 2, s'il n'y a pas d'unité alliée à portée 0-1 de l'unité verrouillée, gagnez 1 marqueur de calcul."""
         "Sabine Wren (Command)":
            display_name: """Sabine Wren"""
-           text: """<strong>Setup:</strong> Before placing forces, assign the <b>Trials of the Darksaber</b> condition to yourself. %LINEBREAK% While you perform a %COORDINATE% action, you may coordinate 1 additional friendly ship."""
+           text: """<strong>Mise en Place :</strong> avant de placer les forces, assignez-vous l'état <b>Épreuves du Sabre Noir</b>.%LINEBREAK%Tant que vous effectuez une action %COORDINATE%, vous pouvez coordonner 1 vaisseau allié supplémentaire."""
         "Prime Minister Almec":
-           display_name: """Prime Minister Almec"""
-           text: """<strong>Setup:</strong> Equip this side faceup. %LINEBREAK% After a friendly ship at range 0-2 reveals a white maneuver, if it has no green tokens, it may gain 1 stress token to gain 1 calculate token. %LINEBREAK% During the End Phase, iif you have 2 or more stress tokens, flip this card. %LINEBREAK% <strong>Almec, Maul's Puppet</strong> %LINEBREAK% After a friendly ship at range 0-2 fully executes a red maneuver, that ship may perform a %CALCULATE% or %FOCUS% action on its action bar, even while stressed."""
+           display_name: """Premier Ministre Almec"""
+           text: """<strong>Mise en Place :</strong> à équiper avec cette face visible. %LINEBREAK%Après qu'un vaisseau allié à portée 0-2 a révélé une manœuvre blanche, s'il n'a pas de marqueur vert, il peut gagner 1 marqueur de stress pour gagner 1 marqueur de calcul. %LINEBREAK%Pendant la phase de dénouement si vous avez au moins 2 marqueurs de stress, retournez cette carte. %LINEBREAK%<strong>Almec, Marionette de Maul</strong> %LINEBREAK% Après qu'un vaisseau allié à portée 0-2 a entièrement exécuté une manœuvre rouge. Il peut effectuer une action %CALCULATE% ou %FOCUS% de sa barre d'action, même s'il est stressé."""
         "Beskar Reinforced Plating":
-           text: """While you defend, if the attacker is in your %FRONTARC%, before you would be dealt a faceup damage card, you may spend 1 %CHARGE% to be dealt that card facedown instead, or spend 2 %CHARGE% to discard it instead."""
+           display_name: """Blindage Renforcé en Beskar"""
+           text: """Tant que vous défendez si l'attaquant est dans votre %FRONTARC%, avant qu'une carte de dégât ne vous soit attribuée face visible, vous pouvez depenser 1 %CHARGE% pour redevoir cette carte face cachée à la place ou dépenser 2 %CHARGE% pour la défausser."""
         "Blazer Bomb":
-           text: """<strong>Bomb</strong>%LINEBREAK% During the System Phase, you may spend 1 %CHARGE% tto drop a Blazer Bomb using the [1 %STRAIGHT%] template."""
+           display_name: """Bombe Incendiaire"""
+           text: """<strong>Bombe</strong>%LINEBREAK% Pendant la phase de système, vous pouvez dépenser 1 %CHARGE% pour larguer une Bombe Incendiaire en utilisant le gabarit [1 %STRAIGHT%]."""
         "Mandalorian Optics":
-           text: """During the System Phase, you may spend 1 %CHARGE% to acquire a lock on an object in your %FRONTARC%. %LINEBREAK% While you perform a primary attack, if you have a lock on the defender, ignore obstacles beyond range 0 obstructing the attack."""
+           display_name: """Optiques Mandaloriennes"""
+           text: """Pendant la phase de système, vous pouvez dépenser 1 %CHARGE% pour verrouiller un objet dans votre %FRONTARC%. %LINEBREAK%Tant que vous effectuez une attaque principale, si vous avez un verrouillage sur le défenseur, ignorez les obstacles au-delà de la portée O qui gênent cette attaque."""
         "Clan Training":
-           text: """Before you engage, iif you are not focused and there is an enemy ship in your %FRONTARC% at range 1, you may spend 1 %CHARGE% to perform a red %FOCUS% action. %LINEBREAK% After you perform an attack, if the defender is destroyed, recover 1 %CHARGE%."""
+           display_name: """Entraînement Clanique"""
+           text: """Avant de vous engager, si vous n'êtes pas concentré et qu'il y a un vaisseau ennemi dans votre %FRONTARC% à portée 1, vous pouvez dépenser 1 %CHARGE% pour effectuer une action rouge.%LINEBREAK%Après que vous avez effectué une attaque. Si le défenseur est détruit, récupérez 1 %CHARGE%"""
         "Gauntlet":
-           text: """During the System Phase, you may spend 1 %CHARGE% to repair 1 faceup <b>Ship</b> damage card."""
+           display_name: """Gauntlet"""
+           text: """Pendant la phase de système, vous pouvez dépenser 1 %CHARGE% pour réparer 1 carte de dégât <b>Vaisseau</b> face visible."""
         "Nightbrother":
-           text: """After you reveal a non-blue maneuver, if you are stressed, you may spend 2 %CHARGE% to gain 1 focus or evade token."""
+           display_name: """Ursa Wren"""
+           text: """Après avoir révélé une manœuvre non-bleue, si vous êtes stressé, vous pouvez dépenser 2 %CHARGE% pour gagner 1 marqueur de concentration ou d'évasion."""
         "Swivel Wing":
-           text: """<strong>Swivel Wing (Down)</strong> %LINEBREAK% After you execute a [0 %STOP%] maneuver, you may rotate your ship 90º or 180º. If you do, you <b>must</b> flip this card. %LINEBREAK% <strong>Swivel Wing (Up)</strong> %LINEBREAK% While you defend, roll 1 fewer defense die. %LINEBREAK% After you fully execute a non-stationary [%STOP%] maneuver, you may flip this card."""
+           display_name: """Aile Basculante"""
+           text: """<strong>Aile Basculante (Baissée)</strong> %LINEBREAK%Apres avoir exécuté une manœuvre [0 %STOP%], vous pouvez pivoter votre vaisseau de 90° ou 180°. Dans ce cas vous <b>devez</b> retourner cette carte.%LINEBREAK% <strong>Aile Basculante (Levée)</strong> %LINEBREAK%Tant que vous défendez, lancez 1 dé de défense en moins.%LINEBREAK%Après avoir entièrement exécuté une manœuvre non-stationnaire [%STOP%] vous pouvez retourner cette carte."""
         "Clan Wren Commandos":
-           text: """During the System Phase, you may spend 1 %CHARGE% to drop a Commando Team remote using the [1 %STRAIGHT%] template. You can place that device using the front or rear guides. %LINEBREAK% This card's %CHARGE% cannot be recovered."""
+           display_name: """Commandos du Clan Wren"""
+           text: """Pendant la phase de système, vous pouvez dépenser 1 %CHARGE% pour larguer un engin distant Équipe Commandos en utilisant le gabarit [1 %STRAIGHT%]. Vous pouvez placer cet engin en utilisant ses glissières avant ou arrière. %LINEBREAK%Les %CHARGE% de cette carte ne peuvent pas être récupérées."""
         "Death Watch Commandos":
-           text: """During the System Phase, you may spend 1 %CHARGE% to drop a Commando Team remote using the [1 %STRAIGHT%] template. You can place that device using the front or rear guides. %LINEBREAK% This card's %CHARGE% cannot be recovered."""
+           display_name: """Commandos de la Death Watch"""
+           text: """Pendant la phase de système, vous pouvez dépenser 1 %CHARGE% pour larguer un engin distant Équipe Commandos en utilisant le gabarit [1 %STRAIGHT%]. Vous pouvez placer cet engin en utilisant ses glissières avant ou arrière. %LINEBREAK%Les %CHARGE% de cette carte ne peuvent pas être récupérées."""
         "Nite Owl Commandos":
-           text: """During the System Phase, you may spend 1 %CHARGE% to drop a Commando Team remote using the [1 %STRAIGHT%] template. You can place that device using the front or rear guides. %LINEBREAK% This card's %CHARGE% cannot be recovered."""
+           display_name: """Commandos des Nite Owl"""
+           text: """Pendant la phase de système, vous pouvez dépenser 1 %CHARGE% pour larguer un engin distant Équipe Commandos en utilisant le gabarit [1 %STRAIGHT%]. Vous pouvez placer cet engin en utilisant ses glissières avant ou arrière. %LINEBREAK%Les %CHARGE% de cette carte ne peuvent pas être récupérées."""
         "Imperial Super Commandos":
-           text: """During the System Phase, you may spend 1 %CHARGE% to drop a Commando Team remote using the [1 %STRAIGHT%] template. You can place that device using the front or rear guides. %LINEBREAK% This card's %CHARGE% cannot be recovered."""
+           display_name: """Super Commandos Imperiaux"""
+           text: """Pendant la phase de système, vous pouvez dépenser 1 %CHARGE% pour larguer un engin distant Équipe Commandos en utilisant le gabarit [1 %STRAIGHT%]. Vous pouvez placer cet engin en utilisant ses glissières avant ou arrière. %LINEBREAK%Les %CHARGE% de cette carte ne peuvent pas être récupérées."""
         "Mandalorian Super Commandos":
-           text: """During the System Phase, you may spend 1 %CHARGE% to drop a Commando Team remote using the [1 %STRAIGHT%] template. You can place that device using the front or rear guides. %LINEBREAK% This card's %CHARGE% cannot be recovered."""
+           display_name: """Super Commandos Mandaloriens"""
+           text: """Pendant la phase de système, vous pouvez dépenser 1 %CHARGE% pour larguer un engin distant Équipe Commandos en utilisant le gabarit [1 %STRAIGHT%]. Vous pouvez placer cet engin en utilisant ses glissières avant ou arrière. %LINEBREAK%Les %CHARGE% de cette carte ne peuvent pas être récupérées."""
         "Razor Crest":
-           text: """<strong>Setup:</strong> Place 1 non-limited %ILLICIT% upgrade facedown under this card. %LINEBREAK% During the System Phase, you may reveal that %ILLICIT% upgrade and equip it as if it were equipped at Setup (without paying its points cost)."""
+           display_name: """Razor Crest"""
+           text: """<strong>Mise en Place :</strong> placez 1 amélioration %ILLICIT% non-limitée face cachée sous cette carte. %LINEBREAK% Pendant la phase de système vous pouvez révéler cette amélioration %ILLICIT% et l'équiper comme si elle avait été équipée lors de la Mise en Place (sans payer son coût en points)."""
         "The Mandalorian":
-           text: """During the End Phase, if you did not defend this round, recover 1 non-recurring %FORCE%, if able."""
+           display_name: """Le Mandalorien"""
+           text: """Pendant la phase de dénouement, si vous n'avez pas défendu à ce round, récupérez 1 %FORCE% non-récurrente, si possible."""
         "The Child":
-           text: """<strong>Setup:</strong> After placing forces, choose an opponent; they assign the <b>Merciless Pursuit</b> condition to two of their ships. %LINEBREAK% Your %FORCE% lose the recurring icon. After you defend, if you suffered damage during that attack, recover 1 %FORCE%."""
+           display_name: """L'Enfant"""
+           text: """<strong>Mise en Place :</strong> après avoir placé les forces, choisissez un adversaire : il assigne l'état <b>Poursuite Impitoyable</b> à 2 de ses vaisseaux. %LINEBREAK%Votre %FORCE% perd l'icône récurrente. Après avoir défendu, si vous avez subi au moins 1 dégât lors de cette attaque, récupérez 1 %FORCE%."""
         "Tracking Fob":
-           text: """<strong>Setup:</strong> After placing forces, choose an opponent; they assign the <b>Marked for Elimination</b> condition to 1 of their ships. They must assign it to a limited ship, if able. %LINEBREAK% You ignore range restrictions while acquireing locks on the ship with the <b>Marked for Elimination</b> condition."""
+           display_name: """Capteur de Positionnement"""
+           text: """<strong>Mise en Place :</strong> avant de placer les forces, choisissez un adversaire ; il assigne l'état <b>Désigné pour Mourir</b> à 1 de ses vaisseaux. Il doit l'assigner à un vaisseau limité si possible. %LINEBREAK%Vous ignorez les restrictions de portée lorsque vous verrouillez le vaisseau qui a l'état <b>Désigné pour Mourir</b>."""
         "Notorious":
-           text: """After you defend, if the attacker is in your firing arc, you may spend 1 %CHARGE%. If you do, the attacker gains 1 strain token. %LINEBREAK% While you perform an attack, if the defender is strained, you may reroll 1 blank result."""
+           display_name: """Célèbre"""
+           text: """Après que vous avez défendu, si l'attaquant est dans votre arc de tir, vous pouvez dépenser 1 %CHARGE%. Dans ce cas, l'attaquant gagne 1 marqueur de contrainte. %LINEBREAK%Tant que vous effectuez une attaque, si le défenseur est contraint, vous pouvez relancer 1 résultat vierge."""
         "Enduring":
-           text: """While you defend, if you are not in the attacker's %BULLSEYEARC%, %CRIT% results are neutralized before %HIT% results. %LINEBREAK% After you suffer %CRIT% damage, you may perform a %CALCULATE% or %FOCUS% action on your action bar, even while stressed, treating that action as red."""
+           display_name: """Endurant"""
+           text: """Tant que vous défendez, si vous n'êtes pas dans le %BULLSEYEARC% de l'attaquant, les résultats %CRIT% sont neutralisés avant les résultats %LINEBREAK%Après avoir subi 1 ou plusieurs dégâts %CRIT% vous pouvez effectuer une action %CALCULATE% ou %FOCUS% de votre barre d'action, même si vous êtes stressé, en considérant cette action comme rouge."""
         "IG-11":
-           text: """<strong>Setup:</strong> Equip this side faceup. %LINEBREAK% Before you would be dealt a faceup damage card, you <b>must</b> place 1 fuse marker on this card and gain 1 calculate token instead. Then if there are 2 fuse markers on this card, flip it. %LINEBREAK% <strong>IG-11 (Anti-Capture Protocol)</strong> %LINEBREAK% During the End Phase, remove 1 fuse marker from this card. Then, if this card has no fuse markers on it, you are destroyed and each other ship at range 0-1 suffers 1 %CRIT% damage. %LINEBREAK% <strong>Action:</strong> Place 1 fuse marker on this card."""
+           display_name: """IG-11"""
+           text: """<strong>Mise en Place :</strong> à équiper avec cette face visible.%LINEBREAK%Avant qu'une carte de dégat ne vous soit attribuéé face visible, vous <b>devez</b> placer 1 marqueur d'amorce sur cette amelioration et gagnez 1 marqueur de calcul à la place. Puis s'il y a 2 marqueurs d'amorce sur cette amélioration, retournez-la. %LINEBREAK% <strong>IG-11 (Protocole Anti-Capture)</strong> %LINEBREAK%Pendant la phase de dénouement, retirez 1 marqueur d'amorce de cette carte. Puis, si cette carte n'a plus de marqueur d'amorce, vous etes détruit et chaque autre vaisseau à portée 0-1 subit 1 dégât %CRIT%. %LINEBREAK% <strong>Action :</strong> placez 1 marqueur d'amorce sur cette carte."""
         "Greef Karga":
-           text: """You can coordinate allied ships as if they were friendly ships. %LINEBREAK% After you coordinate a ship, it may acquire a lock on an object you have locked."""
+           display_name: """Greef Karga"""
+           text: """Vous pouvez coordonner des vaisseaux amicaux comme s'ils étaient des vaisseaux alliés. %LINEBREAK%Après que vous avez coordonné un vaisseau, il peut verrouiller un objet que vous avez verrouillé."""
         "Kuiil":
-           text: """<strong>Action:</strong> Roll 1 attack die for each damage card you have. For each %HIT% result, repair 1 faceup <b>Ship</b> damage card, then for each %CRIT% result, repair 1 facedown damage card. For each blank result, remove 1 orange token, then for each %FOCUS% result, gain 1 focus token."""
+           display_name: """Kuiil"""
+           text: """<strong>Action :</strong> lancez 1 dé d'attaque pour chaque chaque carte de dégât que vous avez. Pour chaque résultat %HIT% , réparez 1 carte de dégât <b>Vaisseau</b> face visible, puis pour chaque résultat %CRIT%, réparez 1 carte de dégât face cachée. Pour chaque résultat vierge, retirez 1 marqueur orange, puis pour chaque résultat %FOCUS% gagnez 1 marqueur de concentration."""
         "Peli Motto":
-           text: """During the System Phase, you may perform an action on 1 of your damage cards, even while stressed. %LINEBREAK% After you repair a faceup <b>Ship</b> damage card, you may roll 1 attack die. On a %HIT% result, repair another faceup <b>Ship</b> damage card. On a %CRIT% result, expose 1 damage card."""
+           display_name: """Peli Motto"""
+           text: """Pendant la phase de système, vous pouvez effectuer une action d'une de vos cartes de dégâts même si vous êtes stressé. %LINEBREAK%Après avoir réparé une carte de dégât <b>Vaisseau</b> face visible vous pouvez lancer 1 dé d'attaque. Sur un résultat %HIT%, réparez une autre carte de dégât <b>Vaisseau</b> face visible. Sur un résultat %CRIT%, exposez 1 carte de dégât."""
         "Migs Mayfeld":
-           text: """After you perform a %FRONTARC% attack, you may perform a %REARARC% or %SINGLETURRETARC% attack as a bonus attack against a different target with 1 or more red or orange tokens."""
+           display_name: """Migs Mayfeld"""
+           text: """Après avoir effectué une attaque %FRONTARC% vous pouvez effectuer une attaque %REARARC% ou %SINGLETURRETARC% en tant qu'attaque bonus contre une cible différente qui a au moins 1 marqueur rouge ou orange."""
         "Burnout Thrusters":
-           text: """After you perform a %SLAM% action, lose 1 %CHARGE%. Then you may gain 1 deplete token to remove 1 disarm token. %LINEBREAK% If your %CHARGE% is inactive, you cannot perform the %SLAM% action."""
+           display_name: """Épuisement des Propulseurs"""
+           text: """Apres avoir effectué une action %SLAM% perdez 1 %CHARGE%. Puis vous pouvez gagner 1 marqueur d'épuisement pour retirer 1 marqueur de desarmement. %LINEBREAK% Si votre %CHARGE% est inactive vous ne pouvez pas effectuer d'action %SLAM%."""
         "Hotshot Tail Blaster":
-           text: """This attack can be performed at range 0. %LINEBREAK% <strong>Action:</strong> Spend 1 %CHARGE%."""
+           display_name: """Super Blaster de Poupe"""
+           text: """Cette attaque peut être effectuée à portée 0. %LINEBREAK% <strong>Attaque :</strong> dépensez 1 %CHARGE%."""
         "Drop-Seat Bay":
-           text: """If you would drop a %CREW% remote using a [%STRAIGHT%] template, you may use a bank [%BANKLEFT% or %BANKRIGHT%] tempalte of the same speed instead and can alighn that template's middle line with the hashmark on your ship's left or right side instead of your rear guides."""
+           display_name: """Baie de Largage"""
+           text: """Si vous êtes censé larguer un engin distant %CREW% en utilisant un gabarit [%STRAIGHT%], vous pouvez utiliser un gabarit de virage sur l'aile [%BANKLEFT% ou %BANKRIGHT%] de même vitesse à la place et vous pouvez aligner la ligne centrale de ce gabarit avec les pointillés du côté gauche ou du côté droit de votre vaisseau au lieu de vos glissières arrière."""
         "Combat Boarding Tube":
-           text: """During the System Phase, if you would drop a %CREW% remote and there is an enemy medium, large, or huge ship at range 0-1 in your %REARARC%, you may place that device in the play area in your %REARARC% at range 0-1 so that it is at range 0 of that enemy ship instead. Then, that enemy ship gains 1 deplete, strain, or stress token of your choice."""
-
+           display_name: """Tube d'Abordage"""
+           text: """Pendant la phase de système, si vous êtes censé larguer un engin distan %CREW% et qu'il y a un vaisseau ennemi moyen, grand ou immense à portée O-1 dans votre %REARARC%, vous pouvez placer cet engin dans la zone de jeu dans votre %REARARC% à portée O-1, de telle façon qu'il soit à portée 0 du vaisseau ennemi à la place. Puis, ce vaisseau ennemi gagne 1 marqueur d'épuisement, de contrainte ou de stress (vous choisissez)."""
+        "Proton Cannons":
+           display_name: """Canons à Protons"""
+           text: """<strong>Attaque :</strong> Dépensez 2 %CHARGE%. Changez 1 résultat %FOCUS% ou %HIT% en un résultat %CRIT%."""
+        "Homing Torpedoes":
+           display_name: """Torpilles à Tête Chercheuse"""
+           text: """<strong>Attaque (%LOCK%):</strong> Dépensez 1 %CHARGE%. Après que vous avez déclaré le défenseur, il peut choisir de subir un dégât %CRIT%. Dans ce cas sautez les étapes « Dès d'attaque » et « Dès de défense » et considérez que l'attaque a touché."""
+        "Xanadu Blood":
+           display_name: """Xanadu Blood"""
+           text: ""
 
         # Epic upgrades
         "Admiral Ozzel":
@@ -3374,34 +3495,37 @@ exportObj.cardLoaders['Français'] = () ->
            display_name: """Vous Devriez Faire des Affaires"""
            text: """Cet état est assigné face cachée. Révélez le après avoir défendu. %LINEBREAK% Après avoir défendu, vous pouvez dépenser 2 %CHARGE% de <b>Zam Wesell</b>. Dans ce cas, effectuez une attaque bonus contre l'attaquant.  %LINEBREAK%À la fin de la phase d’engagement, si cette carte est face cachée et si vous êtes dans un arc de tir d'un vaisseau ennemi, vous pouvez révéler cette carte. Dans ce cas <b>Zam Wesell</b> récupère 2 %CHARGE%. %LINEBREAK%Au début de la phase de système, retirez cet état."""
         "Merciless Pursuit":
-           display_name: """Merciless Pursuit"""
-           text: """After you perform an attack, si le défenseur is equipped with <b>The Child</b>, you may acquire a lock on le défenseur."""
+           display_name: """Poursuite Impitoyable"""
+           text: """Après que vous avez effectué une attaque, si le défenseur est équipé avec <b>L'Enfant</b>, vous pouvez verrouiller le défenseur. """
         """Marked for Elimination""":
-           display_name: """Marked for Elimination"""
-           text: """While you defend, si the attacker is equipped with <b>Tracking Fob</b> et has a lock on you, you cannot dépenser green tokens."""
+           display_name: """Désigné pour Mourir"""
+           text: """Tant que vous défendez, si l'attaquant est équipé d'un <b>Capteur de Positionnement</b> et a un verrouillage sur vous, vous ne pouvez pas dépenser de marqueurs verts. """
         """False Friend""":
-           display_name: """False Friend"""
-           text: """Pendant la phase de système, si an enemy ship with the <b>Tal Merrik</b> upgrade is at range 0-2 ou an enemy remote is at range 0-2, flip your dial faceup. %LINEBREAK% <strong>Action:</strong> Gain 1 marqueur d’épuisement et stress token to discard this condition."""
+           display_name: """Faux Frère"""
+           text: """Pendant la phase de système, si un vaisseau ennemi ayant l'amélioration <b>Tal Merrik</b> est à portée 0-2 ou si un engin distant ennemi est à portée 0-2, retournez face visible votre cadran.%LINEBREAK% <strong>Action:</strong> gagnez 1 marqueur d'épuisement et 1 marqueur de stress pour défausser cet état."""
         """Trials of the Darksaber""":
-           display_name: """Trials of the Darksaber"""
-           text: """Tant que vous effectuez une attaque at attack range 0-2, vous pouvez dépenser 1 %CRIT% result. Dans ce cas, si the defending ship's player has scored more %POINT% than you, they lose 1 scored %POINT%. Place thatt %POINT% on this card. %LINEBREAK% After you defend, si you are destroyed by an enemy ship at attack range 0-2, assign the <b>Trials of the Darksaber</b> condition to the attacker (all %POINT% remain on this card). %LINEBREAK%. At the end of the game, this ship scores all %POINT% on this card."""
+           display_name: """Épreuves du Sabre Noir"""
+           text: """Tant que vous effectuez une attaque à portée d'attaque 0-2, vous pouvez dépenser 1 résultat %CRIT% result. Dans ce cas, si le joueur du vaisseau défenseur a plus de %POINT% marqué que vous, il perd 1 %POINT%. marqué. Placez ce %POINT% sur cette carte.%LINEBREAK% Après avoir défendu, si vous êtes détruit par un vaisseau ennemi à portée d'attaque O-2, assignez à l'attaquant l'état <b>Épreuves du Sabre Noir</b> (tous les %POINT% restent sur cette carte). """
         """Blazer Bomb""":
-           display_name: """Blazer Bomb"""
-           text: """<strong>Types :</strong> Engin, Bombe %LINEBREAK%At the end of the Activation Phase, this device detonates. %LINEBREAK% When this device detonates, each ship et remote à portée 0–1 rolls 1 attack die. Each ship ou remote suffers 1 %HIT% damage for each %HIT%/%CRIT% result. %LINEBREAK% After this devices detonates, place a Blace by aligning the Blaze's guides to the device's tab. %LINEBREAK% A Blaze is an obstacle. After this obstacle is placed, place a fues marker on it. %LINEBREAK% During the End Phase, retirer each Blaze with no fuse markers, then retirer 1 fuse marker from each Blaze."""
+           display_name: """Bombe Incendiaire"""
+           text: """<strong>Types :</strong> Engin, Bombe %LINEBREAK%À la fin de la phase d'activation, cet engin explose. %LINEBREAK%Lorsque cet engin explose, chaque vaisseau et engin distant à portée O-1 lance 1 dé d'attaque. Chaque vaisseau ou engin distant subit 1 dégât %HIT% pour chaque résultat %HIT%/%CRIT% obtenu. %LINEBREAK%Après que cet engin a explosé, placez un Brasier en calant ses glissières contre la languette de l'engin distant. %LINEBREAK%Un Brasier est un obstacle. Après le placement de cet obstacle, posez un marqueur d'amorce dessus.%LINEBREAK%Pendant la phase de dénouement, retirez chaque Brasier sans marqueur d'amorce dessus, puis retirez un marqueur d'amorce de chaque Brasier."""
         """Clan Wren Commandos""":
-           display_name: """Clan Wren Commandos"""
-           text: """INIT: 2 <br> %FRONTARC%: 2 %RANGEBONUS%, RANGE: 1-2 <br>%AGILITY%: 2, %HULL%: 2, %CHARGE%: 2 %LINEBREAK% <strong>Types:</strong> Device, Remote %LINEBREAK% <strong>Activation Phase:</strong> At the start of this phase, you may relocate forward using a [1 %TURNLEFT%], [2 %STRAIGHT%], ou [1 %TURNRIGHT%] template.%LINEBREAK% <strong>Engagement Phase:</strong> You cannot attack si there are enemy ships at range 0. To perform an attack, you must dépenser 1 %CHARGE%. Tant que vous effectuez une attaque, you may change 1 résultat %FOCUS% to a %HIT% result."""
+           display_name: """Commandos du Clan Wren"""
+           text: """INIT: 2 <br> %FRONTARC%: 2 %RANGEBONUS%, RANGE: 1-2 <br>%AGILITY%: 2, %HULL%: 2, %CHARGE%: 2 %LINEBREAK% <strong>Types:</strong> Engin, Distant %LINEBREAK%Après qu'un vaisseau ennemi vous a chevauché, il gagne 1 marqueur de contrainte.%LINEBREAK%<strong>Phase d'Activation :</strong> au début de cette phase, vous pouvez vous repositionner en avant en utilisant un gabarit [1 %TURNLEFT%], [2 %STRAIGHT%] ou [1 %TURNRIGHT%].%LINEBREAK% <strong>Phase d'Engagement :</strong> vous ne pouvez pas attaquer q'il y a des vaisseaux ennemis à portée 0. Pour effectuer une attaque vous devez dépenser 1 %CHARGE%. Tant que vous effectuez une attaque, vous pouvez changer 1 résultat %FOCUS% en un résultat %HIT%."""
         """Death Watch Commandos""":
-           display_name: """Death Watch Commandos"""
-           text: """INIT: 2 <br> %FRONTARC%: 2 %RANGEBONUS%, RANGE: 1-2 <br>%AGILITY%: 2, %HULL%: 2, %CHARGE%: 2 %LINEBREAK% <strong>Types:</strong> Device, Remote %LINEBREAK% <strong>Activation Phase:</strong> At the start of this phase, you may relocate forward using a [1 %TURNLEFT%], [2 %STRAIGHT%], ou [1 %TURNRIGHT%] template.%LINEBREAK% <strong>Engagement Phase:</strong> You cannot attack si there are enemy ships at range 0. To perform an attack, you must dépenser 1 %CHARGE%. Tant que vous effectuez une attaque, you may change 1 résultat %FOCUS% to a %HIT% result."""
+           display_name: """Commandos de la Death Watch"""
+           text: """INIT: 2 <br> %FRONTARC%: 2 %RANGEBONUS%, RANGE: 1-2 <br>%AGILITY%: 2, %HULL%: 2, %CHARGE%: 2 %LINEBREAK% <strong>Types:</strong> Engin, Distant %LINEBREAK%Après qu'un vaisseau ennemi vous a chevauché, il gagne 1 marqueur de contrainte.%LINEBREAK%<strong>Phase d'Activation :</strong> au début de cette phase, vous pouvez vous repositionner en avant en utilisant un gabarit [1 %TURNLEFT%], [2 %STRAIGHT%] ou [1 %TURNRIGHT%].%LINEBREAK% <strong>Phase d'Engagement :</strong> vous ne pouvez pas attaquer q'il y a des vaisseaux ennemis à portée 0. Pour effectuer une attaque vous devez dépenser 1 %CHARGE%. Tant que vous effectuez une attaque, vous pouvez changer 1 résultat %FOCUS% en un résultat %HIT%."""
         """Nite Owl Commandos""":
-           display_name: """Nite Owl Commandos"""
-           text: """INIT: 2 <br> %FRONTARC%: 2 %RANGEBONUS%, RANGE: 1-2 <br>%AGILITY%: 2, %HULL%: 2, %CHARGE%: 2 %LINEBREAK% <strong>Types:</strong> Device, Remote %LINEBREAK% <strong>Activation Phase:</strong> At the start of this phase, you may relocate forward using a [1 %TURNLEFT%], [2 %STRAIGHT%], ou [1 %TURNRIGHT%] template.%LINEBREAK% <strong>Engagement Phase:</strong> You cannot attack si there are enemy ships at range 0. To perform an attack, you must dépenser 1 %CHARGE%. Tant que vous effectuez une attaque, you may change 1 résultat %FOCUS% to a %HIT% result."""
+           display_name: """Commandos des Nite Owl"""
+           text: """INIT: 2 <br> %FRONTARC%: 2 %RANGEBONUS%, RANGE: 1-2 <br>%AGILITY%: 2, %HULL%: 2, %CHARGE%: 2 %LINEBREAK% <strong>Types:</strong> Engin, Distant %LINEBREAK%Après qu'un vaisseau ennemi vous a chevauché, il gagne 1 marqueur de contrainte.%LINEBREAK%<strong>Phase d'Activation :</strong> au début de cette phase, vous pouvez vous repositionner en avant en utilisant un gabarit [1 %TURNLEFT%], [2 %STRAIGHT%] ou [1 %TURNRIGHT%].%LINEBREAK% <strong>Phase d'Engagement :</strong> vous ne pouvez pas attaquer q'il y a des vaisseaux ennemis à portée 0. Pour effectuer une attaque vous devez dépenser 1 %CHARGE%. Tant que vous effectuez une attaque, vous pouvez changer 1 résultat %FOCUS% en un résultat %HIT%."""
         """Imperial Super Commandos""":
-           display_name: """Imperial Super Commandos"""
-           text: """INIT: 2 <br> %FRONTARC%: 2 %RANGEBONUS%, RANGE: 1-2 <br>%AGILITY%: 2, %HULL%: 2, %CHARGE%: 2 %LINEBREAK% <strong>Types:</strong> Device, Remote %LINEBREAK% <strong>Activation Phase:</strong> At the start of this phase, you may relocate forward using a [1 %TURNLEFT%], [2 %STRAIGHT%], ou [1 %TURNRIGHT%] template.%LINEBREAK% <strong>Engagement Phase:</strong> You cannot attack si there are enemy ships at range 0. To perform an attack, you must dépenser 1 %CHARGE%. Tant que vous effectuez une attaque, you may change 1 résultat %FOCUS% to a %HIT% result."""
+           display_name: """Super Commandos Impériaux"""
+           text: """INIT: 2 <br> %FRONTARC%: 2 %RANGEBONUS%, RANGE: 1-2 <br>%AGILITY%: 2, %HULL%: 2, %CHARGE%: 2 %LINEBREAK% <strong>Types:</strong> Engin, Distant %LINEBREAK%Après qu'un vaisseau ennemi vous a chevauché, il gagne 1 marqueur de contrainte.%LINEBREAK%<strong>Phase d'Activation :</strong> au début de cette phase, vous pouvez vous repositionner en avant en utilisant un gabarit [1 %TURNLEFT%], [2 %STRAIGHT%] ou [1 %TURNRIGHT%].%LINEBREAK% <strong>Phase d'Engagement :</strong> vous ne pouvez pas attaquer q'il y a des vaisseaux ennemis à portée 0. Pour effectuer une attaque vous devez dépenser 1 %CHARGE%. Tant que vous effectuez une attaque, vous pouvez changer 1 résultat %FOCUS% en un résultat %HIT%."""
         """Mandalorian Super Commandos""":
-           display_name: """Mandalorian Super Commandos"""
-           text: """INIT: 2 <br> %FRONTARC%: 2 %RANGEBONUS%, RANGE: 1-2 <br>%AGILITY%: 2, %HULL%: 2, %CHARGE%: 2 %LINEBREAK% <strong>Types:</strong> Device, Remote %LINEBREAK% <strong>Activation Phase:</strong> At the start of this phase, you may relocate forward using a [1 %TURNLEFT%], [2 %STRAIGHT%], ou [1 %TURNRIGHT%] template.%LINEBREAK% <strong>Engagement Phase:</strong> You cannot attack si there are enemy ships at range 0. To perform an attack, you must dépenser 1 %CHARGE%. Tant que vous effectuez une attaque, you may change 1 résultat %FOCUS% to a %HIT% result."""
+           display_name: """Super Commandos Mandaloriens"""
+           text: """INIT: 2 <br> %FRONTARC%: 2 %RANGEBONUS%, RANGE: 1-2 <br>%AGILITY%: 2, %HULL%: 2, %CHARGE%: 2 %LINEBREAK% <strong>Types:</strong> Engin, Distant %LINEBREAK%Après qu'un vaisseau ennemi vous a chevauché, il gagne 1 marqueur de contrainte.%LINEBREAK%<strong>Phase d'Activation :</strong> au début de cette phase, vous pouvez vous repositionner en avant en utilisant un gabarit [1 %TURNLEFT%], [2 %STRAIGHT%] ou [1 %TURNRIGHT%].%LINEBREAK% <strong>Phase d'Engagement :</strong> vous ne pouvez pas attaquer q'il y a des vaisseaux ennemis à portée 0. Pour effectuer une attaque vous devez dépenser 1 %CHARGE%. Tant que vous effectuez une attaque, vous pouvez changer 1 résultat %FOCUS% en un résultat %HIT%."""
+        """Guarded""":
+           display_name: """Sous Protection"""
+           text: """Tant que vous défendez, si vous n'êtes pas dans le %BULLSEYEARC% de l'attaquant, lancez 1 dé de défense supplémentaire pour chaque allié <b>Protecteur Magna Garde</b> calculateur ou esquivant situé dans l'arc d'attaque."""
 
     exportObj.setupTranslationCardData pilot_translations, upgrade_translations, condition_translations
