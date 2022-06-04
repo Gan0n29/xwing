@@ -1950,24 +1950,24 @@ exportObj.cardLoaders['Français'] = () ->
         '"Stub"':
            display_name: """“Stub”"""
            text: """While you defend, if the speed of your revealed maneuver is even, roll 1 additional defende die. While you perform a primary attack, if the speed of your revealed maneuver is odd, roll 1 additional attack die. %LINEBREAK%<strong>Versatile Frame:</strong> You can equip 1 %TORPEDO% or %MISSILE% upgrade. While your revealed maneuver is blue, add white %BOOST% to your action bar."""
-        '"Hawk (Z-95)"':
+        '"Hawk" (Z-95)':
            display_name: """“Hawk”"""
            text: """At the start of the End Phase, each friendly ship at range 0-1 that has a revealed maneuver of speed 3-5 may gain 1 strain token to perform a %BARRELROLL% or %BOOST% action.  %LINEBREAK%<strong>Versatile Frame:</strong> You can equip 1 %TORPEDO% or %MISSILE% upgrade. While your revealed maneuver is blue, add white %BOOST% to your action bar."""
         '"Slider"':
            display_name: """“Slider”"""
            text: """When you reveal a [2 %BANKLEFT%] or [2 %BANKRIGHT%] maneuver, you may spend 2 %CHARGE% to execute it as a sideslip. %LINEBREAK%<strong>Versatile Frame:</strong> You can equip 1 %TORPEDO% or %MISSILE% upgrade. While your revealed maneuver is blue, add white %BOOST% to your action bar."""
-        '"Warthog (Z-95)"':
+        '"Warthog" (Z-95)':
            display_name: """“Warthog”"""
            text: """After you or a friendly non-limited ship at range 0-2 are destroyed during the Engagement Phase, that ship is not removed until the end of that phase. %LINEBREAK%<strong>Versatile Frame:</strong> You can equip 1 %TORPEDO% or %MISSILE% upgrade. While your revealed maneuver is blue, add white %BOOST% to your action bar."""
         '"Knack"':
            display_name: """“Knack”"""
            text: """After you are destroyed, you may choose a friendly non-limited ship at range 0-2 and assign 1 of your equipped %TALENT% upgrades to it. %LINEBREAK% <strong>End of Game:</strong> Return all %TALENT% upgrades to their original ships. %LINEBREAK%<strong>Versatile Frame:</strong> You can equip 1 %TORPEDO% or %MISSILE% upgrade. While your revealed maneuver is blue, add white %BOOST% to your action bar."""
         "Reaper Squadron Scout":
-           display_name: """Reaper Squadron Scout"""
-           text: """%LINEBREAK%<strong>Versatile Frame:</strong> You can equip 1 %TORPEDO% or %MISSILE% upgrade. While your revealed maneuver is blue, add white %BOOST% to your action bar."""
-        "Temp":
-           display_name: """temp"""
-           text: """<i class = flavor_text>texte</i>"""
+           display_name: """Éclaireur de l'escadron Reaper"""
+           text: """<i class = flavor_text>En dépit de la réputation peu flatteuse du Z-95 Clone, l'Escadron Reaper est devenu légendaire grâce aux talents de ses pilotes à manierr habilement ce chasseur lors d'engagements variés comme l'escarmouche au dessus de Castilon.</i>%LINEBREAK%<strong>Châssis Polyvalent :</strong> vous pouvez vous équiper de 1 amélioration %TORPEDO% ou %MISSILE%. Tant que votre manœuvre révélée est bleue, ajoutez l'action blanche %BOOST% à votre barre d'action."""
+        "7th Sky Corps Pilot":
+           display_name: """Pilote du 7ème Corps Céleste"""
+           text: """<i class = flavor_text>Le chasseur Z-95 a gagné le respect des pilotes grâce à son adaptabilité et sa robustesse. La version des soldats clones de la république est conçue pour s'adapter aux compétences uniques de ses pilotes.</i>%LINEBREAK%<strong>Châssis Polyvalent :</strong> vous pouvez vous équiper de 1 amélioration %TORPEDO% ou %MISSILE%. Tant que votre manœuvre révélée est bleue, ajoutez l'action blanche %BOOST% à votre barre d'action."""
             
 
 
