@@ -284,6 +284,8 @@ exportObj.cardLoaders.English = () ->
     exportObj.renameShip """Xi-class Light Shuttle""", """Xi-class Light Shuttle"""
     exportObj.renameShip """BTL-B Y-Wing""", """BTL-B Y-Wing"""
     exportObj.renameShip """BTA-NR2 Y-Wing""", """BTA-NR2 Y-Wing"""
+    exportObj.renameShip """Clone Z-95 Headhunter""", """Clone Z-95 Headhunter"""
+    exportObj.renameShip """Rogue-class Starfighter""", """Rogue-class Starfighter"""
 
 
     pilot_translations =
@@ -1736,7 +1738,10 @@ exportObj.cardLoaders.English = () ->
         "Reaper Squadron Scout":
            display_name: """Reaper Squadron Scout"""
            text: """%LINEBREAK%<strong>Versatile Frame:</strong> You can equip 1 %TORPEDO% or %MISSILE% upgrade. While your revealed maneuver is blue, add white %BOOST% to your action bar."""
-            
+        "7th Sky Corps Pilot":
+           display_name: """7th Sky Corps Pilot"""
+           text: """%LINEBREAK%<strong>Versatile Frame:</strong> You can equip 1 %TORPEDO% or %MISSILE% upgrade. While your revealed maneuver is blue, add white %BOOST% to your action bar."""
+           
         # Epic Ships
         "Republic Judiciary":
            display_name: """Republic Judiciary"""
