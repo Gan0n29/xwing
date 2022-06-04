@@ -3116,7 +3116,7 @@ exportObj.cardLoaders['Français'] = () ->
            display_name: """Gauntlet"""
            text: """Pendant la phase de système, vous pouvez dépenser 1 %CHARGE% pour réparer 1 carte de dégât <b>Vaisseau</b> face visible."""
         "Nightbrother":
-           display_name: """Ursa Wren"""
+           display_name: """Nightbrother"""
            text: """Après avoir révélé une manœuvre non-bleue, si vous êtes stressé, vous pouvez dépenser 2 %CHARGE% pour gagner 1 marqueur de concentration ou d'évasion."""
         "Swivel Wing":
            display_name: """Aile Basculante"""
