@@ -10464,7 +10464,7 @@ exportObj.basicCardData = ->
             id: 501
             faction: "Rebel Alliance"
             canonical_name: 'Fenn Rau'.canonicalize()
-            xws: "fennrau-rebelfangfighter"
+            xws: "fennrau-rebel-fang"
             unique: true
             ship: "Fang Fighter"
             skill: 6
@@ -15969,6 +15969,7 @@ exportObj.basicCardData = ->
         {
             name: "Gar Saxon (Gunner)"
             canonical_name: 'Gar Saxon'.canonicalize()
+            xws: 'garsaxon-gunner'
             id: 441
             points: 10
             slot: "Gunner"
