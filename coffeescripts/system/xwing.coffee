@@ -373,6 +373,10 @@ class exportObj.SquadBuilder
                     <span class="translated" defaultText="Copy below markdown"></span>
                     <textarea></textarea><button class="btn btn-modal btn-copy translated" defaultText="Copy"></button>
                 </div>
+                <div class="discord-list">
+                    <span class="translated" defaultText="Copy below markdown"></span>
+                    <textarea></textarea><button class="btn btn-modal btn-copy translated" defaultText="Copy"></button>
+                </div>
                 <div class="tts-list">
                     <span class="translated" defaultText="Copy below TTS"></span>
                     <textarea></textarea><button class="btn btn-modal btn-copy translated" defaultText="Copy"></button>
@@ -427,6 +431,7 @@ class exportObj.SquadBuilder
                     <button class="btn btn-modal select-simplecopy-view translated" defaultText="Text"></button>
                     <button class="btn btn-modal select-tts-view translated" defaultText="TTS"></button>
                     <button class="btn btn-modal select-reddit-view translated" defaultText="Reddit"></button>
+                    <button class="btn btn-modal select-discord-view translated" defaultText="Discord"></button>
                     <button class="btn btn-modal select-bbcode-view translated" defaultText="BBCode"></button>
                     <button class="btn btn-modal select-html-view translated" defaultText="HTML"></button>
                     <button class="btn btn-modal select-xws-view translated" defaultText="XWS"></button>
@@ -442,6 +447,9 @@ class exportObj.SquadBuilder
         @reddit_container = $ @list_modal.find('div.modal-body .reddit-list')
         @reddit_textarea = $ @reddit_container.find('textarea')
         @reddit_textarea.attr 'readonly', 'readonly'
+        @discord_container = $ @list_modal.find('div.modal-body .discord-list')
+        @discord_textarea = $ @discord_container.find('textarea')
+        @discord_textarea.attr 'readonly', 'readonly'
         @simplecopy_container = $ @list_modal.find('div.modal-body .simplecopy-list')
         @simplecopy_textarea = $ @simplecopy_container.find('textarea')
         @simplecopy_textarea.attr 'readonly', 'readonly'
@@ -487,6 +495,7 @@ class exportObj.SquadBuilder
                 @fancy_container.hide()
                 @simplecopy_container.hide()
                 @reddit_container.hide()
+                @discord_container.hide()
                 @tts_container.hide()
                 @xws_container.hide()
                 @bbcode_container.hide()
@@ -511,6 +520,7 @@ class exportObj.SquadBuilder
                 @simple_container.hide()
                 @simplecopy_container.hide()
                 @reddit_container.hide()
+                @discord_container.hide()
                 @tts_container.hide()
                 @bbcode_container.hide()
                 @htmlview_container.hide()
@@ -541,6 +551,7 @@ class exportObj.SquadBuilder
                 @fancy_container.hide()
                 @reddit_textarea.select()
                 @reddit_textarea.focus()
+                @discord_container.hide()
                 @toggle_vertical_space_container.hide()
                 @toggle_color_print_container.hide()
                 @toggle_color_skip_text.hide()
@@ -550,6 +561,33 @@ class exportObj.SquadBuilder
                 @toggle_obstacle_container.hide()
                 @btn_print_list.disabled = true;
 
+        @select_discord_view_button = $ @list_modal.find('.select-discord-view')
+        @select_discord_view_button.click (e) =>
+            @select_discord_view_button.blur()
+            unless @list_display_mode == 'discord'
+                @list_modal.find('.list-display-mode .btn').removeClass 'btn-inverse'
+                @select_discord_view_button.addClass 'btn-inverse'
+                @list_display_mode = 'discord'
+                @discord_container.show()
+                @simplecopy_container.hide()
+                @bbcode_container.hide()
+                @tts_container.hide()
+                @htmlview_container.hide()
+                @xws_container.hide()
+                @simple_container.hide()
+                @fancy_container.hide()
+                @reddit_container.hide()
+                @discord_textarea.select()
+                @discord_textarea.focus()
+                @toggle_vertical_space_container.hide()
+                @toggle_color_print_container.hide()
+                @toggle_color_skip_text.hide()
+                @toggle_maneuver_dial_container.hide()
+                @toggle_expanded_shield_hull_container.hide()
+                @toggle_qrcode_container.hide()
+                @toggle_obstacle_container.hide()
+                @btn_print_list.disabled = true;
+                
         @select_simplecopy_view_button = $ @list_modal.find('.select-simplecopy-view')
         @select_simplecopy_view_button.click (e) =>
             @select_simplecopy_view_button.blur()
@@ -558,6 +596,7 @@ class exportObj.SquadBuilder
                 @select_simplecopy_view_button.addClass 'btn-inverse'
                 @list_display_mode = 'simplecopy'
                 @reddit_container.hide()
+                @discord_container.hide()
                 @simplecopy_container.show()
                 @bbcode_container.hide()
                 @tts_container.hide()
@@ -591,6 +630,7 @@ class exportObj.SquadBuilder
                 @simple_container.hide()
                 @simplecopy_container.hide()
                 @reddit_container.hide()
+                @discord_container.hide()
                 @fancy_container.hide()
                 @tts_textarea.select()
                 @tts_textarea.focus()
@@ -613,6 +653,7 @@ class exportObj.SquadBuilder
                 @bbcode_container.show()
                 @simplecopy_container.hide()
                 @reddit_container.hide()
+                @discord_container.hide()
                 @tts_container.hide()
                 @htmlview_container.hide()
                 @xws_container.hide()
@@ -637,6 +678,7 @@ class exportObj.SquadBuilder
                 @select_html_view_button.addClass 'btn-inverse'
                 @list_display_mode = 'html'
                 @reddit_container.hide()
+                @discord_container.hide()
                 @simplecopy_container.hide()
                 @tts_container.hide()
                 @bbcode_container.hide()
@@ -1613,6 +1655,7 @@ class exportObj.SquadBuilder
         @simple_container.html '<table class="simple-table"></table>'
         simplecopy_ships = []
         reddit_ships = []
+        discord_ships = []
         tts_ships = []
         bbcode_ships = []
         htmlview_ships = []
@@ -1626,6 +1669,7 @@ class exportObj.SquadBuilder
                 @simple_container.find('table').append ship.toTableRow()
                 simplecopy_ships.push ship.toSimpleCopy()
                 reddit_ships.push ship.toRedditText()
+                discord_ships.push ship.toDiscordText()
                 tts_ships.push ship.toTTSText()
                 bbcode_ships.push ship.toBBCode()
                 htmlview_ships.push ship.toSimpleHTML()
@@ -1637,6 +1681,7 @@ class exportObj.SquadBuilder
         """
 
         @reddit_container.find('textarea').val $.trim """#{reddit_ships.join "    \n"}    \n**#{@uitranslation('Total')}:** *#{@total_points}*    \n    \n[#{@uitranslation('View in YASB')}](#{@getPermaLink()})"""
+        @discord_container.find('textarea').val $.trim """#{discord_ships.join "    \n"}    \n**#{@uitranslation('Total')}:** *#{@total_points}*    \n#{@getPermaLink()}"""
         @simplecopy_container.find('textarea').val $.trim """#{simplecopy_ships.join ""}    \n#{@uitranslation('Total')}: #{@total_points}    \n    \n#{@uitranslation('View in YASB')}: #{@getPermaLink()}"""
         
 
@@ -1797,6 +1842,7 @@ class exportObj.SquadBuilder
             @simple_container.hide()
             @simplecopy_container.hide()
             @reddit_container.hide()
+            @discord_container.hide()
             @fancy_container.hide()
             @tts_container.hide()
             @xws_textarea.select()
@@ -4399,6 +4445,22 @@ class Ship
 
         reddit
 
+    toDiscordText: ->
+        discord = """**#{@pilot.name} (#{if @quickbuildId != -1 then (if @primary then exportObj.quickbuildsById[@quickbuildId].threat else 0) else @pilot.points})**    \n"""
+        slotted_upgrades = (upgrade for upgrade in @upgrades when upgrade.data?)
+        if slotted_upgrades.length > 0
+            discord +="\n"
+            discord_upgrades= []
+            for upgrade in slotted_upgrades
+                points = upgrade.getPoints()
+                upgrade_discord = upgrade.toDiscordText points
+                discord_upgrades.push upgrade_discord if upgrade_discord?
+            discord += discord_upgrades.join "\n"
+            discord += """*#{@uitranslation("Ship total")}: (#{@getPoints()})*\n"""
+
+        discord
+
+        
     toTTSText: ->
         tts = """#{exportObj.toTTS(@pilot.name)}"""
         slotted_upgrades = (upgrade for upgrade in @upgrades when upgrade.data?)
@@ -5196,6 +5258,12 @@ class GenericAddon
             """*&nbsp;#{@data.name} (#{points})*    \n"""
         else
             null
+    
+     toDiscordText: (points) ->
+        if @data?
+            """*&nbsp;#{@data.name} (#{points})*    \n"""
+        else
+            null    
 
     toTTSText: () ->
         if @data?
