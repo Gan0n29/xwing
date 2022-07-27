@@ -1681,7 +1681,7 @@ class exportObj.SquadBuilder
         """
 
         @reddit_container.find('textarea').val $.trim """#{reddit_ships.join "    \n"}    \n**#{@uitranslation('Total')}:** *#{@total_points}*    \n    \n[#{@uitranslation('View in YASB')}](#{@getPermaLink()})"""
-        @discord_container.find('textarea').val $.trim """#{discord_ships.join "    \n"}    \n**#{@uitranslation('Total')}:** *#{@total_points}*    \n#{@getPermaLink()}"""
+        @discord_container.find('textarea').val $.trim """#{discord_ships.join "\n\n"}\n**#{@uitranslation('Total')}:** *#{@total_points}*\n\n#{@getPermaLink()}"""
         @simplecopy_container.find('textarea').val $.trim """#{simplecopy_ships.join ""}    \n#{@uitranslation('Total')}: #{@total_points}    \n    \n#{@uitranslation('View in YASB')}: #{@getPermaLink()}"""
         
 
@@ -4456,7 +4456,7 @@ class Ship
                 upgrade_discord = upgrade.toDiscordText points
                 discord_upgrades.push upgrade_discord if upgrade_discord?
             discord += discord_upgrades.join "\n"
-            discord += """*#{@uitranslation("Ship total")}: (#{@getPoints()})*\n"""
+            discord += """\n*#{@uitranslation("Ship total")}: (#{@getPoints()})*\n"""
 
         discord
 
@@ -5261,7 +5261,7 @@ class GenericAddon
     
      toDiscordText: (points) ->
         if @data?
-            """*&nbsp;#{@data.name} (#{points})*    \n"""
+            """*#{if @data.display_name then @data.display_name else @data.name} (#{points})*"""
         else
             null    
 
