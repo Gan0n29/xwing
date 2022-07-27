@@ -10723,7 +10723,6 @@ exportObj.basicCardData = ->
                 "Gunner"
                 "Device"
                 "Modification"
-                "Title"
                 "Configuration"
             ]
         }
@@ -10742,7 +10741,6 @@ exportObj.basicCardData = ->
                 "Gunner"
                 "Device"
                 "Modification"
-                "Title"
                 "Configuration"
             ]
         }
@@ -10763,7 +10761,6 @@ exportObj.basicCardData = ->
                 "Gunner"
                 "Device"
                 "Modification"
-                "Title"
                 "Configuration"
             ]
         }
@@ -14375,9 +14372,6 @@ exportObj.basicCardData = ->
             ship: "Gozanti-class Cruiser"
             faction: "Galactic Empire"
             points: 7
-            modifier_func: (stats) ->
-                stats.hull -= 1
-                stats.energy += 1
         }
         {
             name: "Suppressor"
@@ -16345,7 +16339,6 @@ exportObj.basicCardData = ->
             points: 4
             attackbull: 4
             range: """2-3"""
-            rangebonus: true
             charge: 2
             recurring: 1
             restrictions: [
