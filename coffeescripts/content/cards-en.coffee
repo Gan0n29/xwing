@@ -1801,68 +1801,6 @@ exportObj.cardLoaders.English = () ->
            display_name: """“Mauler” Mithel (BoY)"""
            text: """While you perform a primary attack, if a friendly Darth Vader or "Backstabber" is in your %LEFTARC% or %RIGHTARC% at range 0-1, roll 1 additional attack die."""
 
-        # Siege of Coruscant Pilots
-        "Anakin Skywalker (SoC)":
-           display_name: """Anakin Skywalker (SoC)"""
-           text: """After you or a friendly <b>Obi-Wan Kenobi</b> ship at range 0-3 fully executes a maneuver, if there are more enemy ships than other friendly ships at range 0-1 of that ship, you may spend 1 %FORCE%. If you do, that ship may perform a %BARRELROLL% action."""
-        "Obi-Wan Kenobi (SoC)":
-           display_name: """Obi-Wan Kenobi (SoC)"""
-           text: """ """
-        "Shaak Ti (SoC)":
-           display_name: """Shaak Ti (SoC)"""
-           text: """At the start of the End Phase, you may perfrom a purple %COORDINATE% action, even while stressed %LINEBREAK% After you perform a %COORDINATE% action, if the chosen ship has the <b>Born for This</b> ship ability, you may coordinate 1 additional ship."""
-        '"Odd Ball" (SoC)':
-           display_name: """“Odd Ball” (SoC)"""
-           text: """  """
-        '"Wolffe" (SoC)':
-           display_name: """“Wolffe” (SoC)"""
-           text: """  """
-        '"Jag" (SoC)':
-           display_name: """“Jag” (SoC)"""
-           text: """  """
-        '"Contrail" (SoC)':
-           display_name: """“Contrail” (SoC)"""
-           text: """  """
-        '"Klick" (SoC)':
-           display_name: """“Klick” (SoC)"""
-           text: """  """
-        '"Kickback" (SoC)':
-           display_name: """“Kickback” (SoC)"""
-           text: """  """
-        '"Axe" (SoC)':
-           display_name: """“Axe” (SoC)"""
-           text: """After you perform an attack, you may choose another friendly ship with the <b>Born for This</b> ability at range 0-2 in your %LEFTARC% or %RIGHTARC%. The chosen ship gains a lock on the defender."""
-        "Count Dooku (SoC)":
-           display_name: """Count Dooku (SoC)"""
-           text: """During an attack, before a ship at range 0-2 rolls attack or defense dice, if all of your %FORCE% are active, you may spend 1 %FORCE% and name a result. If the roll does not contain the named result, the ship must change 1 die to that result."""
-        "DBS-32C (SoC)":
-           display_name: """DBS-32C (SoC)"""
-           text: """After you perform a %CALCULATE% action, you may spend 1 %CHARGE% to perform a %JAM% action."""
-        "DBS-404 (SoC)":
-           display_name: """DBS-404 (SoC)"""
-           text: """  """
-        "Baktoid Prototype (SoC)":
-           display_name: """Baktoid Prototype (SoC)"""
-           text: """  """
-        "DIS-347 (SoC)":
-           display_name: """DIS-347 (SoC)"""
-           text: """  """
-        "DIS-T81 (SoC)":
-           display_name: """DIS-T81 (SoC)"""
-           text: """While you defend or perform an attack, you may reroll any number of your dice. Then if you were defending, gain 1 strain token for each die that was rerolled. If you were attacking, gain 1 deplete token for each die that was rerolled instead."""
-        "Phlac-Arphocc Prototype (SoC)":
-           display_name: """Phlac-Arphocc Prototype (SoC)"""
-           text: """  """
-        "DFS-081 (SoC)":
-           display_name: """DFS-081 (SoC)"""
-           text: """  """
-        "DFS-311 (SoC)":
-           display_name: """DFS-311 (SoC)"""
-           text: """  """
-        "Haor Chall Prototype (SoC)":
-           display_name: """Haor Chall Prototype (SoC)"""
-           text: """  """
-
             
         # Epic Ships
         "Republic Judiciary":
