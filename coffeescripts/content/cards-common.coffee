@@ -11407,6 +11407,479 @@ exportObj.basicCardData = ->
                 "VersatileShip"
             ]
         }
+        {
+            name: "Garven Dreis (BoY)"
+            canonical_name: 'Garven Dreis'.canonicalize()
+            xws: "garvendreis-battleofyavin"
+            unique: true
+            id: 554
+            faction: "Rebel Alliance"
+            ship: "T-65 X-wing"
+            skill: 4
+            points: 20
+            keyword: ["Hope"]
+        }
+        {
+            name: "Luke Skywalker (BoY)"
+            canonical_name: 'Luke Skywalker'.canonicalize()
+            xws: "lukeskywalker-battleofyavin"
+            unique: true
+            id: 555
+            faction: "Rebel Alliance"
+            ship: "T-65 X-wing"
+            skill: 5
+            points: 20
+            keyword: ["Hope"]
+        }
+        {
+            name: "Jek Porkins (BoY)"
+            canonical_name: 'Jek Porkins'.canonicalize()
+            xws: "jekporkins-battleofyavin"
+            unique: true
+            id: 556
+            faction: "Rebel Alliance"
+            ship: "T-65 X-wing"
+            skill: 4
+            points: 20
+            keyword: ["Hope"]
+        }
+        {
+            name: "Biggs Darklighter (BoY)"
+            canonical_name: 'Biggs Darklighter'.canonicalize()
+            xws: "biggsdarklighter-battleofyavin"
+            unique: true
+            id: 557
+            faction: "Rebel Alliance"
+            ship: "T-65 X-wing"
+            skill: 3
+            points: 20
+            keyword: ["Hope"]
+        }
+        {
+            name: "Wedge Antilles (BoY)"
+            canonical_name: 'Wedge Antilles'.canonicalize()
+            xws: "wedgeantilles-battleofyavin"
+            unique: true
+            id: 558
+            faction: "Rebel Alliance"
+            ship: "T-65 X-wing"
+            skill: 5
+            points: 20
+            keyword: ["Hope"]
+        }
+        {
+            name: "Han Solo (BoY)"
+            canonical_name: 'Han Solo'.canonicalize()
+            xws: "hansolo-battleofyavin"
+            unique: true
+            id: 559
+            faction: "Rebel Alliance"
+            ship: "Modified YT-1300 Light Freighter"
+            skill: 6
+            points: 20
+            charge: 4
+        }
+        {
+            name: 'Jon "Dutch" Vander (BoY)'
+            canonical_name: '"Dutch" Vander'.canonicalize()
+            xws: "jondutchvader-battleofyavin"
+            unique: true
+            id: 560
+            faction: "Rebel Alliance"
+            ship: "BTL-A4 Y-wing"
+            skill: 4
+            points: 20
+            keyword: ["Hope"]
+        }
+        {
+            name: "Dex Tiree (BoY)"
+            unique: true
+            id: 561
+            faction: "Rebel Alliance"
+            ship: "BTL-A4 Y-wing"
+            skill: 2
+            points: 20
+            keyword: ["Hope"]
+        }
+        {
+            name: '"Pops" Krail (BoY)'
+            unique: true
+            id: 562
+            faction: "Rebel Alliance"
+            ship: "BTL-A4 Y-wing"
+            skill: 4
+            points: 20
+            keyword: ["Hope"]
+        }
+        {
+            name: "Hol Okland (BoY)"
+            unique: true
+            id: 563
+            faction: "Rebel Alliance"
+            ship: "BTL-A4 Y-wing"
+            skill: 4
+            points: 20
+            keyword: ["Hope"]
+        }
+        {
+            name: "Darth Vader (BoY)"
+            canonical_name: 'Darth Vader'.canonicalize()
+            xws: "darthvader-battleofyavin"
+            unique: true
+            id: 564
+            faction: "Galactic Empire"
+            ship: "TIE Advanced x1"
+            skill: 6
+            points: 20
+            force: 3
+            keyword: ["Dark Side", "Sith"]
+            ship_override:
+                shields: 3
+        }
+        {
+            name: '"Backstabber" (BoY)'
+            unique: true
+            id: 565
+            faction: "Galactic Empire"
+            ship: "TIE/ln Fighter"
+            skill: 5
+            points: 20
+            ship_override:
+                hull: 4
+        }
+        {
+            name: '"Mauler" Mithel (BoY)'
+            canonical_name: '"Mauler" Mithel'.canonicalize()
+            xws: "maulermithel-battleofyavin"
+            unique: true
+            id: 566
+            faction: "Galactic Empire"
+            ship: "TIE/ln Fighter"
+            skill: 5
+            points: 20
+            ship_override:
+                hull: 4
+        }
+        {
+            name: '"Dark Curse" (BoY)'
+            unique: true
+            id: 567
+            faction: "Galactic Empire"
+            ship: "TIE/ln Fighter"
+            skill: 6
+            points: 20
+            ship_override:
+                hull: 4
+        }
+        {
+            name: '"Wampa" (BoY)'
+            canonical_name: '"Wampa"'.canonicalize()
+            xws: "wampa-battleofyavin"
+            unique: true
+            id: 568
+            faction: "Galactic Empire"
+            ship: "TIE/ln Fighter"
+            skill: 1
+            charge: 1
+            recurring: 1
+            points: 20
+            ship_override:
+                hull: 4
+        }
+        {
+            name: "Iden Versio (BoY)"
+            canonical_name: 'Iden Versio'.canonicalize()
+            xws: "idenversio-battleofyavin"
+            unique: true
+            id: 569
+            faction: "Galactic Empire"
+            ship: "TIE/in Interceptor"
+            skill: 4
+            points: 20
+            charge: 2
+            recurring: 1
+            keyword: ["Sensitive Controls"]
+            ship_override:
+                shields: 1
+        }
+        {
+            name: "Sigma 4 (BoY)"
+            unique: true
+            id: 570
+            faction: "Galactic Empire"
+            ship: "TIE/in Interceptor"
+            skill: 4
+            points: 20
+            charge: 2
+            keyword: ["Sensitive Controls"]
+            ship_override:
+                hull: 4
+        }
+        {
+            name: "Sigma 5 (BoY)"
+            unique: true
+            id: 571
+            faction: "Galactic Empire"
+            ship: "TIE/in Interceptor"
+            skill: 4
+            points: 20
+            charge: 2
+            keyword: ["Sensitive Controls"]
+            ship_override:
+                hull: 4
+        }
+        {
+            name: "Sigma 6 (BoY)"
+            unique: true
+            id: 572
+            faction: "Galactic Empire"
+            ship: "TIE/in Interceptor"
+            skill: 4
+            points: 20
+            charge: 2
+            keyword: ["Sensitive Controls"]
+            ship_override:
+                hull: 4
+        }
+        {
+            name: "Sigma 7 (BoY)"
+            unique: true
+            id: 573
+            faction: "Galactic Empire"
+            ship: "TIE/in Interceptor"
+            skill: 4
+            points: 20
+            charge: 2
+            keyword: ["Sensitive Controls"]
+            ship_override:
+                hull: 4
+                actions: [
+                    "Focus"
+                    "Evade"
+                    "Barrel Roll"
+                    "Boost"
+                    "Lock"
+                ]
+        }
+        {
+            name: "Anakin Skywalker (SoC)"
+            unique: true
+            id: 574
+            skip: true
+            faction: "Galactic Republic"
+            ship: "Eta-2 Actis"
+            skill: 6
+            points: 20
+            force: 3
+            chassis: "Intuitive Controls"
+            keyword: ["Dark Side"]
+        }
+        {
+            name: "Obi-Wan Kenobi (SoC)"
+            unique: true
+            id: 575
+            skip: true
+            faction: "Galactic Republic"
+            ship: "Eta-2 Actis"
+            skill: 5
+            points: 20
+            force: 3
+        }
+        {
+            name: "Shaak Ti (SoC)"
+            unique: true
+            id: 576
+            skip: true
+            faction: "Galactic Republic"
+            ship: "Eta-2 Actis"
+            skill: 4
+            points: 20
+            force: 2
+        }
+        {
+            name: '"Odd Ball" (SoC)'
+            unique: true
+            id: 577
+            skip: true
+            faction: "Galactic Republic"
+            ship: "ARC-170 Starfighter"
+            skill: 5
+            points: 20
+            keyword: ["Born for This"]
+        }
+        {
+            name: '"Wolffe" (SoC)'
+            unique: true
+            id: 578
+            skip: true
+            faction: "Galactic Republic"
+            ship: "ARC-170 Starfighter"
+            skill: 4
+            points: 20
+            keyword: ["Born for This"]
+        }
+        {
+            name: '"Jag" (SoC)'
+            unique: true
+            id: 579
+            skip: true
+            faction: "Galactic Republic"
+            ship: "ARC-170 Starfighter"
+            skill: 3
+            points: 20
+            keyword: ["Born for This"]
+        }
+        {
+            name: '"Contrail" (SoC)'
+            unique: true
+            id: 580
+            skip: true
+            faction: "Galactic Republic"
+            ship: "Nimbus-class V-wing"
+            skill: 5
+            points: 20
+            keyword: ["Born for This"]
+        }
+        {
+            name: '"Klick" (SoC)'
+            unique: true
+            id: 581
+            skip: true
+            faction: "Galactic Republic"
+            ship: "Nimbus-class V-wing"
+            skill: 4
+            points: 20
+            keyword: ["Born for This"]
+        }
+        {
+            name: '"Kickback" (SoC)'
+            unique: true
+            id: 582
+            skip: true
+            faction: "Galactic Republic"
+            ship: "V-19 Torrent Starfighter"
+            skill: 4
+            points: 20
+            keyword: ["Born for This"]
+        }
+        {
+            name: '"Axe" (SoC)'
+            unique: true
+            id: 583
+            skip: true
+            faction: "Galactic Republic"
+            ship: "V-19 Torrent Starfighter"
+            skill: 3
+            points: 20
+            keyword: ["Born for This"]
+        }
+        {
+            name: "Count Dooku (SoC)"
+            unique: true
+            id: 584
+            skip: true
+            faction: "Separatist Alliance"
+            ship: "Sith Infiltrator"
+            skill: 3
+            points: 20
+            force: 3
+            keyword: ["Dark Side"]
+        }
+        {
+            name: "DBS-32C (SoC)"
+            unique: true
+            id: 585
+            skip: true
+            faction: "Separatist Alliance"
+            ship: "Hyena-class Droid Bomber"
+            skill: 3
+            points: 20
+            ship_override:
+                actions: [
+                    "Calculate"
+                    "Lock"
+                    "Barrel Roll"
+                    "R-> Lock"
+                    "R-Jam"
+                ]
+        }
+        {
+            name: "DBS-404 (SoC)"
+            unique: true
+            id: 586
+            skip: true
+            faction: "Separatist Alliance"
+            ship: "Hyena-class Droid Bomber"
+            skill: 4
+            points: 20
+        }
+        {
+            name: "Baktoid Prototype (SoC)"
+            id: 587
+            skip: true
+            faction: "Separatist Alliance"
+            ship: "Hyena-class Droid Bomber"
+            skill: 1
+            points: 20
+        }
+        {
+            name: "DIS-347 (SoC)"
+            unique: true
+            id: 588
+            skip: true
+            faction: "Separatist Alliance"
+            ship: "Droid Tri-fighter"
+            skill: 3
+            points: 20
+        }
+        {
+            name: "DIS-T81 (SoC)"
+            unique: true
+            id: 589
+            skip: true
+            faction: "Separatist Alliance"
+            ship: "Droid Tri-fighter"
+            skill: 4
+            points: 20
+        }
+        {
+            name: "Phlac-Arphocc Prototype (SoC)"
+            id: 590
+            skip: true
+            faction: "Separatist Alliance"
+            ship: "Droid Tri-fighter"
+            skill: 1
+            points: 20
+        }
+        {
+            name: "DFS-081 (SoC)"
+            unique: true
+            id: 591
+            skip: true
+            faction: "Separatist Alliance"
+            ship: "Vulture-class Droid Fighter"
+            skill: 3
+            points: 20
+        }
+        {
+            name: "DFS-311 (SoC)"
+            unique: true
+            id: 592
+            skip: true
+            faction: "Separatist Alliance"
+            ship: "Vulture-class Droid Fighter"
+            skill: 1
+            points: 20
+        }
+        {
+            name: "Haor Chall Prototype (SoC)"
+            id: 593
+            skip: true
+            faction: "Separatist Alliance"
+            ship: "Vulture-class Droid Fighter"
+            skill: 1
+            points: 20
+        }
     ]
 
     upgradesById: [
@@ -15194,6 +15667,7 @@ exportObj.basicCardData = ->
             faction: ["Galactic Empire", "First Order"]
             standardized: true
             restrictions: [
+                ["noKeyword", "Sensitive Controls"]
                 ["Keyword", "Autothrusters"]
             ]
         }
@@ -15241,6 +15715,9 @@ exportObj.basicCardData = ->
             points: 1
             slot: "Talent"
             faction: "Rebel Alliance"
+            restrictions: [
+                ["noKeyword", "Hope"]
+            ]
         }
         {
             name: "Sabine Wren (Gunner)"
