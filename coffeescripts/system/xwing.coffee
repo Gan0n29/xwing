@@ -3275,6 +3275,8 @@ class exportObj.SquadBuilder
                         text += comma + exportObj.translate('restrictions', "Extra") + " %#{r[1].toUpperCase().replace(/[^a-z0-9]/gi, '')}%"
                     when "Keyword"
                         text += comma + exportObj.translate('restrictions', "#{r[1]}")
+                    when "noKeyword"
+                        text += comma + exportObj.translate('restrictions', "#{r[1]}")
                     when "AttackArc"
                         text += comma + "%REARARC%"
                     when "ShieldsGreaterThan"
@@ -4775,6 +4777,8 @@ class Ship
                         if check is false then return false
                 when "Keyword"
                     if not (@checkKeyword(r[1])) then return false
+                when "noKeyword"
+                    if (@checkKeyword(r[1])) then return false
                 when "Equipped"
                     if not ((@doesSlotExist(r[1]) and @hasFilledSlotLike(upgrade_obj, r[1]))) then return false
                 when "Slot"
