@@ -11414,7 +11414,7 @@ exportObj.basicCardData = ->
             unique: true
             id: 554
             faction: "Rebel Alliance"
-            ship: "T-65 X-wing"
+            ship: "X-Wing"
             skill: 4
             points: 20
             keyword: ["Hope"]
@@ -11426,7 +11426,7 @@ exportObj.basicCardData = ->
             unique: true
             id: 555
             faction: "Rebel Alliance"
-            ship: "T-65 X-wing"
+            ship: "X-Wing"
             skill: 5
             points: 20
             keyword: ["Hope"]
@@ -11438,7 +11438,7 @@ exportObj.basicCardData = ->
             unique: true
             id: 556
             faction: "Rebel Alliance"
-            ship: "T-65 X-wing"
+            ship: "X-Wing"
             skill: 4
             points: 20
             keyword: ["Hope"]
@@ -11450,7 +11450,7 @@ exportObj.basicCardData = ->
             unique: true
             id: 557
             faction: "Rebel Alliance"
-            ship: "T-65 X-wing"
+            ship: "X-Wing"
             skill: 3
             points: 20
             keyword: ["Hope"]
@@ -11462,7 +11462,7 @@ exportObj.basicCardData = ->
             unique: true
             id: 558
             faction: "Rebel Alliance"
-            ship: "T-65 X-wing"
+            ship: "X-Wing"
             skill: 5
             points: 20
             keyword: ["Hope"]
@@ -11474,7 +11474,7 @@ exportObj.basicCardData = ->
             unique: true
             id: 559
             faction: "Rebel Alliance"
-            ship: "Modified YT-1300 Light Freighter"
+            ship: "YT-1300"
             skill: 6
             points: 20
             charge: 4
@@ -11486,7 +11486,7 @@ exportObj.basicCardData = ->
             unique: true
             id: 560
             faction: "Rebel Alliance"
-            ship: "BTL-A4 Y-wing"
+            ship: "Y-wing"
             skill: 4
             points: 20
             keyword: ["Hope"]
@@ -11496,7 +11496,7 @@ exportObj.basicCardData = ->
             unique: true
             id: 561
             faction: "Rebel Alliance"
-            ship: "BTL-A4 Y-wing"
+            ship: "Y-wing"
             skill: 2
             points: 20
             keyword: ["Hope"]
@@ -11506,7 +11506,7 @@ exportObj.basicCardData = ->
             unique: true
             id: 562
             faction: "Rebel Alliance"
-            ship: "BTL-A4 Y-wing"
+            ship: "Y-wing"
             skill: 4
             points: 20
             keyword: ["Hope"]
@@ -11516,7 +11516,7 @@ exportObj.basicCardData = ->
             unique: true
             id: 563
             faction: "Rebel Alliance"
-            ship: "BTL-A4 Y-wing"
+            ship: "Y-wing"
             skill: 4
             points: 20
             keyword: ["Hope"]
@@ -11528,7 +11528,7 @@ exportObj.basicCardData = ->
             unique: true
             id: 564
             faction: "Galactic Empire"
-            ship: "TIE Advanced x1"
+            ship: "TIE Advanced"
             skill: 6
             points: 20
             force: 3
@@ -11541,7 +11541,7 @@ exportObj.basicCardData = ->
             unique: true
             id: 565
             faction: "Galactic Empire"
-            ship: "TIE/ln Fighter"
+            ship: "TIE Fighter"
             skill: 5
             points: 20
             ship_override:
@@ -11554,7 +11554,7 @@ exportObj.basicCardData = ->
             unique: true
             id: 566
             faction: "Galactic Empire"
-            ship: "TIE/ln Fighter"
+            ship: "TIE Fighter"
             skill: 5
             points: 20
             ship_override:
@@ -11565,7 +11565,7 @@ exportObj.basicCardData = ->
             unique: true
             id: 567
             faction: "Galactic Empire"
-            ship: "TIE/ln Fighter"
+            ship: "TIE Fighter"
             skill: 6
             points: 20
             ship_override:
@@ -11578,7 +11578,7 @@ exportObj.basicCardData = ->
             unique: true
             id: 568
             faction: "Galactic Empire"
-            ship: "TIE/ln Fighter"
+            ship: "TIE Fighter"
             skill: 1
             charge: 1
             recurring: 1
@@ -11593,7 +11593,7 @@ exportObj.basicCardData = ->
             unique: true
             id: 569
             faction: "Galactic Empire"
-            ship: "TIE/in Interceptor"
+            ship: "TIE Interceptor"
             skill: 4
             points: 20
             charge: 2
@@ -11607,7 +11607,7 @@ exportObj.basicCardData = ->
             unique: true
             id: 570
             faction: "Galactic Empire"
-            ship: "TIE/in Interceptor"
+            ship: "TIE Interceptor"
             skill: 4
             points: 20
             charge: 2
@@ -11620,7 +11620,7 @@ exportObj.basicCardData = ->
             unique: true
             id: 571
             faction: "Galactic Empire"
-            ship: "TIE/in Interceptor"
+            ship: "TIE Interceptor"
             skill: 4
             points: 20
             charge: 2
@@ -11633,7 +11633,7 @@ exportObj.basicCardData = ->
             unique: true
             id: 572
             faction: "Galactic Empire"
-            ship: "TIE/in Interceptor"
+            ship: "TIE Interceptor"
             skill: 4
             points: 20
             charge: 2
@@ -11646,7 +11646,7 @@ exportObj.basicCardData = ->
             unique: true
             id: 573
             faction: "Galactic Empire"
-            ship: "TIE/in Interceptor"
+            ship: "TIE Interceptor"
             skill: 4
             points: 20
             charge: 2
