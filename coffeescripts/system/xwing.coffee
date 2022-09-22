@@ -3276,7 +3276,7 @@ class exportObj.SquadBuilder
                     when "Keyword"
                         text += comma + exportObj.translate('restrictions', "#{r[1]}")
                     when "noKeyword"
-                        text += comma + exportObj.translate('restrictions', "#{r[1]}")
+                        text += comma + exportObj.translate('restrictions', "No") + " " + exportObj.translate('restrictions', "#{r[1]}")
                     when "AttackArc"
                         text += comma + "%REARARC%"
                     when "ShieldsGreaterThan"
