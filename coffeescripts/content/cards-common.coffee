@@ -11416,8 +11416,15 @@ exportObj.basicCardData = ->
             faction: "Rebel Alliance"
             ship: "X-Wing"
             skill: 4
-            points: 20
+            points: 200
             keyword: ["Hope"]
+            slots: [
+                "Talent"
+                "Torpedo"
+                "Astromech"
+                "Modification"
+                "Configuration"
+            ]
         }
         {
             name: "Luke Skywalker (BoY)"
@@ -11428,8 +11435,15 @@ exportObj.basicCardData = ->
             faction: "Rebel Alliance"
             ship: "X-Wing"
             skill: 5
-            points: 20
+            points: 200
             keyword: ["Hope"]
+            slots: [
+                "Force"
+                "Torpedo"
+                "Astromech"
+                "Modification"
+                "Configuration"
+            ]
         }
         {
             name: "Jek Porkins (BoY)"
@@ -11440,8 +11454,15 @@ exportObj.basicCardData = ->
             faction: "Rebel Alliance"
             ship: "X-Wing"
             skill: 4
-            points: 20
+            points: 200
             keyword: ["Hope"]
+            slots: [
+                "Talent"
+                "Torpedo"
+                "Astromech"
+                "Modification"
+                "Configuration"
+            ]
         }
         {
             name: "Biggs Darklighter (BoY)"
@@ -11452,8 +11473,15 @@ exportObj.basicCardData = ->
             faction: "Rebel Alliance"
             ship: "X-Wing"
             skill: 3
-            points: 20
+            points: 200
             keyword: ["Hope"]
+            slots: [
+                "Talent"
+                "Torpedo"
+                "Astromech"
+                "Modification"
+                "Configuration"
+            ]
         }
         {
             name: "Wedge Antilles (BoY)"
@@ -11464,8 +11492,15 @@ exportObj.basicCardData = ->
             faction: "Rebel Alliance"
             ship: "X-Wing"
             skill: 5
-            points: 20
+            points: 200
             keyword: ["Hope"]
+            slots: [
+                "Talent"
+                "Torpedo"
+                "Astromech"
+                "Modification"
+                "Configuration"
+            ]
         }
         {
             name: "Han Solo (BoY)"
@@ -11476,8 +11511,18 @@ exportObj.basicCardData = ->
             faction: "Rebel Alliance"
             ship: "YT-1300"
             skill: 6
-            points: 20
+            points: 200
             charge: 4
+            slots: [
+                "Talent"
+                "Missile"
+                "Gunner"
+                "Crew"
+                "Crew"
+                "Modification"
+                "Modification"
+                "Title"
+            ]
         }
         {
             name: 'Jon "Dutch" Vander (BoY)'
@@ -11486,40 +11531,76 @@ exportObj.basicCardData = ->
             unique: true
             id: 560
             faction: "Rebel Alliance"
-            ship: "Y-wing"
+            ship: "Y-Wing"
             skill: 4
-            points: 20
+            points: 200
             keyword: ["Hope"]
+            slots: [
+                "Talent"
+                "Turret"
+                "Torpedo"
+                "Missile"
+                "Astromech"
+                "Modification"
+                "Device"
+            ]
         }
         {
             name: "Dex Tiree (BoY)"
             unique: true
             id: 561
             faction: "Rebel Alliance"
-            ship: "Y-wing"
+            ship: "Y-Wing"
             skill: 2
-            points: 20
+            points: 200
             keyword: ["Hope"]
+            slots: [
+                "Talent"
+                "Turret"
+                "Torpedo"
+                "Missile"
+                "Astromech"
+                "Modification"
+                "Device"
+            ]
         }
         {
             name: '"Pops" Krail (BoY)'
             unique: true
             id: 562
             faction: "Rebel Alliance"
-            ship: "Y-wing"
+            ship: "Y-Wing"
             skill: 4
-            points: 20
+            points: 200
             keyword: ["Hope"]
+            slots: [
+                "Talent"
+                "Turret"
+                "Torpedo"
+                "Missile"
+                "Astromech"
+                "Modification"
+                "Device"
+            ]
         }
         {
             name: "Hol Okland (BoY)"
             unique: true
             id: 563
             faction: "Rebel Alliance"
-            ship: "Y-wing"
+            ship: "Y-Wing"
             skill: 4
-            points: 20
+            points: 200
             keyword: ["Hope"]
+            slots: [
+                "Talent"
+                "Turret"
+                "Torpedo"
+                "Missile"
+                "Astromech"
+                "Modification"
+                "Device"
+            ]
         }
         {
             name: "Darth Vader (BoY)"
@@ -11530,11 +11611,17 @@ exportObj.basicCardData = ->
             faction: "Galactic Empire"
             ship: "TIE Advanced"
             skill: 6
-            points: 20
+            points: 200
             force: 3
             keyword: ["Dark Side", "Sith"]
             ship_override:
                 shields: 3
+            slots: [
+                "Force"
+                "Sensor"
+                "Missile"
+                "Modification"
+            ]
         }
         {
             name: '"Backstabber" (BoY)'
@@ -11543,9 +11630,13 @@ exportObj.basicCardData = ->
             faction: "Galactic Empire"
             ship: "TIE Fighter"
             skill: 5
-            points: 20
+            points: 200
             ship_override:
                 hull: 4
+            slots: [
+                "Talent"
+                "Modification"
+            ]
         }
         {
             name: '"Mauler" Mithel (BoY)'
@@ -11556,9 +11647,13 @@ exportObj.basicCardData = ->
             faction: "Galactic Empire"
             ship: "TIE Fighter"
             skill: 5
-            points: 20
+            points: 200
             ship_override:
                 hull: 4
+            slots: [
+                "Talent"
+                "Modification"
+            ]
         }
         {
             name: '"Dark Curse" (BoY)'
@@ -11567,9 +11662,13 @@ exportObj.basicCardData = ->
             faction: "Galactic Empire"
             ship: "TIE Fighter"
             skill: 6
-            points: 20
+            points: 200
             ship_override:
                 hull: 4
+            slots: [
+                "Talent"
+                "Modification"
+            ]
         }
         {
             name: '"Wampa" (BoY)'
@@ -11582,9 +11681,13 @@ exportObj.basicCardData = ->
             skill: 1
             charge: 1
             recurring: 1
-            points: 20
+            points: 200
             ship_override:
                 hull: 4
+            slots: [
+                "Talent"
+                "Modification"
+            ]
         }
         {
             name: "Iden Versio (BoY)"
@@ -11595,12 +11698,18 @@ exportObj.basicCardData = ->
             faction: "Galactic Empire"
             ship: "TIE Interceptor"
             skill: 4
-            points: 20
+            points: 200
             charge: 2
             recurring: 1
             keyword: ["Sensitive Controls"]
             ship_override:
                 shields: 1
+            slots: [
+                "Talent"
+                "Modification"
+                "Modification"
+                "Configuration"
+            ]
         }
         {
             name: "Sigma 4 (BoY)"
@@ -11609,11 +11718,17 @@ exportObj.basicCardData = ->
             faction: "Galactic Empire"
             ship: "TIE Interceptor"
             skill: 4
-            points: 20
+            points: 200
             charge: 2
             keyword: ["Sensitive Controls"]
             ship_override:
                 hull: 4
+            slots: [
+                "Talent"
+                "Modification"
+                "Modification"
+                "Configuration"
+            ]
         }
         {
             name: "Sigma 5 (BoY)"
@@ -11622,11 +11737,17 @@ exportObj.basicCardData = ->
             faction: "Galactic Empire"
             ship: "TIE Interceptor"
             skill: 4
-            points: 20
+            points: 200
             charge: 2
             keyword: ["Sensitive Controls"]
             ship_override:
                 hull: 4
+            slots: [
+                "Talent"
+                "Modification"
+                "Modification"
+                "Configuration"
+            ]
         }
         {
             name: "Sigma 6 (BoY)"
@@ -11635,11 +11756,17 @@ exportObj.basicCardData = ->
             faction: "Galactic Empire"
             ship: "TIE Interceptor"
             skill: 4
-            points: 20
+            points: 200
             charge: 2
             keyword: ["Sensitive Controls"]
             ship_override:
                 hull: 4
+            slots: [
+                "Talent"
+                "Modification"
+                "Modification"
+                "Configuration"
+            ]
         }
         {
             name: "Sigma 7 (BoY)"
@@ -11648,7 +11775,7 @@ exportObj.basicCardData = ->
             faction: "Galactic Empire"
             ship: "TIE Interceptor"
             skill: 4
-            points: 20
+            points: 200
             charge: 2
             keyword: ["Sensitive Controls"]
             ship_override:
@@ -11660,6 +11787,12 @@ exportObj.basicCardData = ->
                     "Boost"
                     "Lock"
                 ]
+            slots: [
+                "Talent"
+                "Modification"
+                "Modification"
+                "Configuration"
+            ]
         }
         {
             name: "Anakin Skywalker (SoC)"
