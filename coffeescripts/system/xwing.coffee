@@ -2487,9 +2487,16 @@ class exportObj.SquadBuilder
                     container.find('.info-sources.info-data').text if (sources.length > 1) or (not (exportObj.translate('sources', 'Loose Ships') in sources)) then (if sources.length > 0 then sources.join(', ') else exportObj.translate('ui', 'unreleased')) else @uitranslation("Only available from 1st edition")
                     container.find('.info-sources').show()
                 when 'Pilot'
-                    pilot_img = 'images/pilots/' + data.id + '.jpg'
+
+                    #image display
+                    if data.image_id?
+                        img_id = data.image_id
+                    else
+                        img_id = data.id
+                    pilot_img = 'images/pilots/' + img_id + '.jpg'
                     container.find('.info-image').attr 'src', pilot_img
                     container.find('.info-image-container').show()
+                    #
                     container.find('.info-type').text type
                     container.find('.info-sources.info-data').text (exportObj.translate('sources', source) for source in data.sources).sort().join(', ')
                     container.find('.info-sources').show()
@@ -2662,8 +2669,11 @@ class exportObj.SquadBuilder
                     pilot = exportObj.pilots[data.pilot]
                     ship = exportObj.ships[data.ship]
                     
-                    
-                    pilot_img = 'images/pilots/' + pilot.id + '.jpg'
+                    if pilot.image_id?
+                        img_id = pilot.image_id
+                    else
+                        img_id = pilot.id
+                    pilot_img = 'images/pilots/' + img_id + '.jpg'
                     container.find('.info-image').attr 'src', pilot_img
                     container.find('.info-image-container').show()
 
@@ -2788,9 +2798,15 @@ class exportObj.SquadBuilder
                     container.find('p.info-maneuvers').show()
                     container.find('p.info-maneuvers').html(@getManeuverTableHTML(ship.maneuvers, ship.maneuvers))
                 when 'Addon'
-                    upgrade_img = 'images/upgrades/' + data.id + '.jpg'
+                    
+                    if data.image_id?
+                        img_id = data.image_id
+                    else
+                        img_id = data.id
+                    upgrade_img = 'images/upgrades/' + img_id + '.jpg'
                     container.find('.info-image').attr 'src', upgrade_img
                     container.find('.info-image-container').show()
+                    
                     container.find('.info-type').text additional_opts.addon_type
                     container.find('.info-sources.info-data').text (exportObj.translate('sources', source) for source in data.sources).sort().join(', ')
                     container.find('.info-sources').show()
