@@ -803,7 +803,7 @@ exportObj.cardLoaders.English = () ->
            text: """While you perform a primary attack, if there is at least 1 other friendly ship at range 0-1 of the defender, you may roll 1 additional attack die."""
         "Lieutenant Dormitz":
            display_name: """Lieutenant Dormitz"""
-           text: """<strong>Setup</strong>: After you are placed, other friendly small ships can be placed anywhere in the play area at range 0-2 of you.%LINEBREAK%<strong>Linked Battery:</strong> While you perform a %CANNON% attack, roll 1 additional die. %LINEBREAK% <i>Errata (since rules reference 1.3.0): Replaced "other friendly ship" with "friendly small ships"</i>"""
+           text: """<strong>Setup</strong>: After you are placed, other friendly TIE/fo Fighters and TIE/sf Fighters can be placed anywhere in the play area at range 0-2 of you.%LINEBREAK%<strong>Linked Battery:</strong> While you perform a %CANNON% attack, roll 1 additional die. %LINEBREAK%<i>Errata [09/26/2022]: Replaced "other friendly ships" with "other friendly TIE/fo Fighters and TIE/sf Fighters"</i>"""
         "Lieutenant Karsabi":
            display_name: """Lieutenant Karsabi"""
            text: """After you gain a disarm token, if you are not stressed, you may gain 1 stress token to remove 1 disarm token."""
@@ -1352,23 +1352,25 @@ exportObj.cardLoaders.English = () ->
         '"Matchstick"':
            text: """While you perform a primary or %SINGLETURRETARC% attack, you may reroll 1 attack die for each red token you have. %LINEBREAK%<strong>Plated Hull:</strong> While you defend, if you are not critically damaged, change 1 %CRIT% to a %HIT% result."""
         '"Odd Ball" (Y-Wing)':
+           display_name: """Odd Ball"""
            text: """After you execute a red maneuver or perform a red action, if there is an enemy ship in your %BULLSEYEARC%, you may acquire a lock on that ship. %LINEBREAK%<strong>Plated Hull:</strong> While you defend, if you are not critically damaged, change 1 %CRIT% to a %HIT% result."""
         "R2-D2":
            text: """At the start of the Engagement Phase, if there is an enemy ship in your %REARARC%, gain 1 calculate token.%LINEBREAK%<strong>Plated Hull:</strong> While you defend, if you are not critically damaged, change 1 %CRIT% to a %HIT% result."""
         "Anakin Skywalker (Y-Wing)":
+           display_name: """Anakin Skywalker"""
            text: """After you fully execute a maneuver, if there is an enemy ship in your %FRONTARC% at range 0-1 or in your %BULLSEYEARC%, you may spend 1 %FORCE% to remove 1 stress token.%LINEBREAK%<strong>Plated Hull:</strong> While you defend, if you are not critically damaged, change 1 %CRIT% to a %HIT% result."""
         "Sun Fac":
-           text: """While you perform a primary attack, if the defender is tractored, roll 1 additional attack die. %LINEBREAK% <strong>Pinpoint Tractor Array:</strong> You cannot rotate your %SINGLETURRETARC% to your %REARARC%. After you execute a maneuver, you may gain 1 tractor token to perform a %ROTATEARC% action."""
+           text: """While you perform a primary attack, if the defender is tractored, roll 1 additional attack die. %LINEBREAK% <strong>Pinpoint Tractor Array:</strong> You cannot rotate your %SINGLETURRETARC% to your %REARARC%. After you fully execute a maneuver, you may gain 1 tractor token to perform a %ROTATEARC% action.%LINEBREAK%<i>Errata [09/26/2022]: Added "fully"</i>"""
         "Stalgasin Hive Guard":
-           text: """<strong>Pinpoint Tractor Array:</strong> You cannot rotate your %SINGLETURRETARC% to your %REARARC%. After you execute a maneuver, you may gain 1 tractor token to perform a %ROTATEARC% action."""
+           text: """<strong>Pinpoint Tractor Array:</strong> You cannot rotate your %SINGLETURRETARC% to your %REARARC%. After you fully execute a maneuver, you may gain 1 tractor token to perform a %ROTATEARC% action.%LINEBREAK%<i>Errata [09/26/2022]: Added "fully"</i>"""
         "Petranaki Arena Ace":
-           text: """<strong>Pinpoint Tractor Array:</strong> You cannot rotate your %SINGLETURRETARC% to your %REARARC%. After you execute a maneuver, you may gain 1 tractor token to perform a %ROTATEARC% action."""
+           text: """<strong>Pinpoint Tractor Array:</strong> You cannot rotate your %SINGLETURRETARC% to your %REARARC%. After you fully execute a maneuver, you may gain 1 tractor token to perform a %ROTATEARC% action.%LINEBREAK%<i>Errata [09/26/2022]: Added "fully"</i>"""
         "Berwer Kret":
-           text: """After you perform an attack that hits, each friendly ship with %CALCULATE% on its action bar and a lock on the defender may perform a red %CALCULATE% action. %LINEBREAK%<strong>Pinpoint Tractor Array:</strong> You cannot rotate your %SINGLETURRETARC% to your %REARARC%. After you execute a maneuver, you may gain 1 tractor token to perform a %ROTATEARC% action."""
+           text: """After you perform an attack that hits, each friendly ship with %CALCULATE% on its action bar and a lock on the defender may perform a red %CALCULATE% action.%LINEBREAK%<strong>Pinpoint Tractor Array:</strong> You cannot rotate your %SINGLETURRETARC% to your %REARARC%. After you fully execute a maneuver, you may gain 1 tractor token to perform a %ROTATEARC% action.%LINEBREAK%<i>Errata [09/26/2022]: Added "fully"</i>"""
         "Chertek":
-           text: """While you perform a primary attack, if the defender is tractored, you may reroll up to 2 attack dice. %LINEBREAK%<strong>Pinpoint Tractor Array:</strong> You cannot rotate your %SINGLETURRETARC% to your %REARARC%. After you execute a maneuver, you may gain 1 tractor token to perform a %ROTATEARC% action."""
+           text: """While you perform a primary attack, if the defender is tractored, you may reroll up to 2 attack dice. %LINEBREAK%<strong>Pinpoint Tractor Array:</strong> You cannot rotate your %SINGLETURRETARC% to your %REARARC%. After you fully execute a maneuver, you may gain 1 tractor token to perform a %ROTATEARC% action.%LINEBREAK%<i>Errata [09/26/2022]: Added "fully"</i>"""
         "Gorgol":
-           text: """During the System Phase, you may gain 1 disarm token and choose a friendly ship at range 1-2. If you do, it gains 1 tractor token, then repairs 1 of its faceup <strong>Ship</strong> trait damage cards. %LINEBREAK%<strong>Pinpoint Tractor Array:</strong> You cannot rotate your %SINGLETURRETARC% to your %REARARC%. After you execute a maneuver, you may gain 1 tractor token to perform a %ROTATEARC% action."""
+           text: """During the System Phase, you may gain 1 disarm token and choose a friendly ship at range 1-2. If you do, it gains 1 tractor token, then repairs 1 of its faceup <strong>Ship</strong> trait damage cards. %LINEBREAK%<strong>Pinpoint Tractor Array:</strong> You cannot rotate your %SINGLETURRETARC% to your %REARARC%. After you fully execute a maneuver, you may gain 1 tractor token to perform a %ROTATEARC% action.%LINEBREAK%<i>Errata [09/26/2022]: Added "fully"</i>"""
         "Kazuda Xiono":
            text: """While you defend or perform a primary attack, if the enemy ship's initiative is higher than the number of damage cards you have, you may roll 1 additional die. %LINEBREAK%<strong>Explosion with Wings:</strong> You are dealt 1 facedown damage card. After you perform a %SLAM% action, you may expose 1 damage card to remove 1 disarm token."""
         "Major Vonreg":
@@ -1557,7 +1559,7 @@ exportObj.cardLoaders.English = () ->
            display_name: """Gideon Hask"""
            text: """While you perform an attack against a damaged defender, roll 1 additional attack die.%LINEBREAK%<strong>Autothrusters:</strong> After you perform an action, you may perform a red %BARRELROLL% or red %BOOST% action."""
         "Commandant Goran":
-           text: """After a friendly ship at range 0-3 with a lower initiative than yours partially executes a maneuver, it may perform a red %FOCUS% action. %LINEBREAK%<strong>Autothrusters:</strong> After you perform an action, you may perform a red %BARRELROLL% or red %BOOST% action."""
+           text: """After a friendly ship at range 0-3 with a lower initiative than yours partially executes a revealed maneuver, it may perform a red %FOCUS% action. %LINEBREAK%<strong>Autothrusters:</strong> After you perform an action, you may perform a red %BARRELROLL% or red %BOOST% action.%LINEBREAK%<i>Errata [09/26/2022]: Added "revealed"</i>"""
         "Nash Windrider":
            text: """During the Engagement Phase, after a friendly small ship at range 0-3 is destroyed, if that ship has not engaged this phase, you may spend 1 %CHARGE%. If you do, that ship engages at the current initiative. %LINEBREAK%<strong>Autothrusters:</strong> After you perform an action, you may perform a red %BARRELROLL% or red %BOOST% action."""
         "Ciena Ree":
@@ -1778,25 +1780,25 @@ exportObj.cardLoaders.English = () ->
            text: """While you defend, the attacker's dice cannot be modified."""
         "Darth Vader (BoY)":
            display_name: """Darth Vader (BoY)"""
-           text: """While you perform an attack, you may spend 1 %FORCE% to change 1 blank result to a %HIT% result."""
+           text: """While you perform an attack, you may spend 1 %FORCE% to change 1 blank result to a %HIT% result.%LINEBREAK%<strong>Advanced Targeting Computer:</strong> While you perform a primary attack against a defender you have locked, roll 1 additional attack die and change 1&nbsp;%HIT% result to a %CRIT% result."""
         "Iden Versio (BoY)": 
            display_name: """Iden Versio (BoY)"""
-           text: """Before a friendly TIE at range 0-1 would suffer damage, you may spend 2 %CHARGE%. If you do, prevent 1 %HIT% or %CRIT%. """
+           text: """Before a friendly TIE at range 0-1 would suffer damage, you may spend 2 %CHARGE%. If you do, prevent 1 %HIT% or %CRIT%.%LINEBREAK%<strong>Sensitive Controls:</strong> During the System Phase, you may perform a red %BARRELROLL% or red %BOOST% action."""
         '"Backstabber" (BoY)': 
            display_name: """“Backstabber” (BoY)"""
            text: """While you perform a primary attack, if a friendly Darth Vader or "Mauler" Mithel is in your %LEFTARC% or %RIGHTARC% at range 0-1, roll 1 additional attack die."""
         "Sigma 4 (BoY)":
            display_name: """Sigma 4 (BoY)"""
-           text: """After you perform a %BARRELROLL% action, you may spend 1 %CHARGE% to perform a %BOOST% action."""
+           text: """After you perform a %BARRELROLL% action, you may spend 1 %CHARGE% to perform a %BOOST% action.%LINEBREAK%<strong>Sensitive Controls:</strong> During the System Phase, you may perform a red %BARRELROLL% or red %BOOST% action."""
         "Sigma 5 (BoY)":
            display_name: """Sigma 5 (BoY)"""
-           text: """After you perform an attack that hits, you may spend 1 %CHARGE% to perform an %EVADE% action."""
+           text: """After you perform an attack that hits, you may spend 1 %CHARGE% to perform an %EVADE% action.%LINEBREAK%<strong>Sensitive Controls:</strong> During the System Phase, you may perform a red %BARRELROLL% or red %BOOST% action."""
         "Sigma 6 (BoY)":
            display_name: """Sigma 6 (BoY)"""
-           text: """After you fully execute a speed 3-5 maneuver, you may spend 1 %CHARGE% to perform a %SLAM% action."""
+           text: """After you fully execute a speed 3-5 maneuver, you may spend 1 %CHARGE% to perform a %SLAM% action.%LINEBREAK%<strong>Sensitive Controls:</strong> During the System Phase, you may perform a red %BARRELROLL% or red %BOOST% action."""
         "Sigma 7 (BoY)":
            display_name: """Sigma 7 (BoY)"""
-           text: """During the System Phase, you may spend 1 %CHARGE% to acquire a lock on an enemy ship at range 0-1."""
+           text: """During the System Phase, you may spend 1 %CHARGE% to acquire a lock on an enemy ship at range 0-1.%LINEBREAK%<strong>Sensitive Controls:</strong> During the System Phase, you may perform a red %BARRELROLL% or red %BOOST% action."""
         '"Mauler" Mithel (BoY)':
            display_name: """“Mauler” Mithel (BoY)"""
            text: """While you perform a primary attack, if a friendly Darth Vader or "Backstabber" is in your %LEFTARC% or %RIGHTARC% at range 0-1, roll 1 additional attack die."""
@@ -2845,7 +2847,7 @@ exportObj.cardLoaders.English = () ->
            text: """While a friendy unit at range 0-3 performs a %RANGEBONUS% attack, you may spend 1 %CHARGE%. If you do, the attacker may change 1 %HIT% result to a %CRIT% result."""
         "Ursa Wren":
            display_name: """Ursa Wren"""
-           text: """You can maintain up to 2 locks. Each lock must be on a different object. %LINEBREAK% After a friendly ship at range 0-3 is locked, you may acquire a lock on an enemy ship."""
+           text: """You can maintain up to 2 locks. Each lock must be on a different object. %LINEBREAK% After a friendly ship at range 0-3 is locked by an enemy ship, you may acquire a lock on an enemy ship.%LINEBREAK% <i>Errata [09/26/2022]: Updated text to work as intended.</i>"""
         "Ursa Wren (Gunner)":
            display_name: """Ursa Wren"""
            text: """After you acquire a lock on an enemy unit beyond range 2, if there are no friendly units at range 0-1 of the locked unit, gain 1 calculate token."""
