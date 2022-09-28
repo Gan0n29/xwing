@@ -459,7 +459,7 @@ exportObj.cardLoaders['Français'] = () ->
            text: """Après avoir effectué une action %FOCUS%, vous pouvez transférer 1 de vos marqueurs de concentration à un vaisseau allié à portée 1-2."""
         "Berwer Kret":
            display_name: """Berwer Kret"""
-           text: """Après que vous avez effectué une attaque qui touche, chaque vaisseau allié avec %CALCULATE% dans sa barre d’action et un verrouillage sur le défenseur peut effectuer une action %CALCULATE% rouge.%LINEBREAK%<strong>Dispositif Tracteur de Précision :</strong> vous ne pouvez pas faire pivoter votre %SINGLETURRETARC% vers votre %REARARC%. Après avoir exécuté une manœuvre, vous pouvez gagner 1 marqueur de rayon tracteur pour effectuer une action %ROTATEARC%."""
+           text: """Après que vous avez effectué une attaque qui touche, chaque vaisseau allié avec %CALCULATE% dans sa barre d’action et un verrouillage sur le défenseur peut effectuer une action %CALCULATE% rouge.%LINEBREAK%<strong>Dispositif Tracteur de Précision :</strong> vous ne pouvez pas faire pivoter votre %SINGLETURRETARC% vers votre %REARARC%. Après avoir entièrement exécuté une manœuvre, vous pouvez gagner 1 marqueur de rayon tracteur pour effectuer une action %ROTATEARC%.%LINEBREAK%<i>Errata [09/26/2022]: Ajout de "entièrement"</i>"""
         "Biggs Darklighter":
            display_name: """Biggs Darklighter"""
            text: """Tant qu’un autre vaisseau allié à portée 0-1 défend, avant l’étape « Neutraliser les résultats », si vous êtes dans l’arc de l’attaque, vous pouvez subir 1 dégât %HIT% ou %CRIT% pour annuler 1 dégât correspondant."""
@@ -582,7 +582,7 @@ exportObj.cardLoaders['Français'] = () ->
            text: """<i class = flavor_text>Contrairement à la plupart des cellules Rebelles, les Partisans de Saw Gerrera utilisèrent des méthodes jugées trop radicales pour lutter contre l’Empire Galactique, au cours des sanglants combats qui ravagèrent Géonosis et Jedha.</i>"""
         "Chertek":
            display_name: """Chertek"""
-           text: """Tant que vous effectuez une attaque principale, si le défenseur est tracté, vous pouvez relancer jusqu’à 2 dés d’attaque.%LINEBREAK%<strong>Dispositif Tracteur de Précision :</strong> vous ne pouvez pas faire pivoter votre %SINGLETURRETARC% vers votre %REARARC%. Après avoir exécuté une manœuvre, vous pouvez gagner 1 marqueur de rayon tracteur pour effectuer une action %ROTATEARC%."""
+           text: """Tant que vous effectuez une attaque principale, si le défenseur est tracté, vous pouvez relancer jusqu’à 2 dés d’attaque.%LINEBREAK%<strong>Dispositif Tracteur de Précision :</strong> vous ne pouvez pas faire pivoter votre %SINGLETURRETARC% vers votre %REARARC%. Après avoir entièrement exécuté une manœuvre, vous pouvez gagner 1 marqueur de rayon tracteur pour effectuer une action %ROTATEARC%.%LINEBREAK%<i>Errata [09/26/2022]: Ajout de "entièrement"</i>"""
         "Chewbacca":
            display_name: """Chewbacca"""
            text: """Avant qu’une carte de dégât ne vous soit attribuée face visible, vous pouvez dépenser 1 %CHARGE% pour qu’elle vous soit attribuée face cachée à la place."""
@@ -774,7 +774,7 @@ exportObj.cardLoaders['Français'] = () ->
            text: """<i class = flavor_text>Sous le commandement de Jon «Dutch» Vander, l’Escadron Or a joué un rôle déterminant au cours des Batailles de Scarif et de Yavin.</i>"""
         "Gorgol":
            display_name: """Gorgol"""
-           text: """Pendant la phase de système, vous pouvez gagner 1 marqueur de désarmement et choisir un vaisseau allié à porté 1-2. Dans ce cas, il gagne 1 marqueur de rayon tracteur, puis il répare 1 de ses cartes de dégât face visible <strong> Vaisseau</strong>.%LINEBREAK%<strong>Dispositif Tracteur de Précision :</strong> vous ne pouvez pas faire pivoter votre %SINGLETURRETARC% vers votre %REARARC%. Après avoir exécuté une manœuvre, vous pouvez gagner 1 marqueur de rayon tracteur pour effectuer une action %ROTATEARC%."""
+           text: """Pendant la phase de système, vous pouvez gagner 1 marqueur de désarmement et choisir un vaisseau allié à porté 1-2. Dans ce cas, il gagne 1 marqueur de rayon tracteur, puis il répare 1 de ses cartes de dégât face visible <strong> Vaisseau</strong>.%LINEBREAK%<strong>Dispositif Tracteur de Précision :</strong> vous ne pouvez pas faire pivoter votre %SINGLETURRETARC% vers votre %REARARC%. Après avoir entièrement exécuté une manœuvre, vous pouvez gagner 1 marqueur de rayon tracteur pour effectuer une action %ROTATEARC%.%LINEBREAK%<i>Errata [09/26/2022]: Ajout de "entièrement"</i>"""
         "Grand Inquisitor":
            display_name: """Grand Inquisiteur"""
            text: """Tant que vous défendez à portée d’attaque 1, vous pouvez dépenser 1 %FORCE% pour prévenir le bonus de portée 1. %LINEBREAK%Tant que vous effectuez une attaque contre un défenseur à portée d’attaque 2-3, vous pouvez dépenser 1 %FORCE% pour appliquer le bonus de portée 1."""
@@ -960,7 +960,7 @@ exportObj.cardLoaders['Français'] = () ->
            text: """Tant que vous effectuez une attaque principale, si au moins 1 autre vaisseau allié est à portée 0-1 du défenseur, vous pouvez lancer 1 dé d’attaque supplémentaire."""
         "Lieutenant Dormitz":
            display_name: """Lieutenant Dormitz"""
-           text: """<strong>Setup</strong>: après vous être placé, les autres vaisseaux alliés peuvent être placés n’importe où dans la zone de jeu à portée 0-2 de vous..%LINEBREAK%<strong>Batteries Jumelées:</strong> tant que vous effectuez une attaque %CANNON%, lancez 1 dé supplémentaire."""
+           text: """<strong>Setup</strong>: après vous être placé, les autres chasseurs TIE/fo et chasseurs TIE/sf peuvent être placés n’importe où dans la zone de jeu à portée 0-2 de vous..%LINEBREAK%<strong>Batteries Jumelées:</strong> tant que vous effectuez une attaque %CANNON%, lancez 1 dé supplémentaire.%LINEBREAK%<i>Errata [09/26/2022]: Remplacement de "autres vaisseaux alliés" par "autres chasseurs TIE/fo et chasseurs TIE/sf"</i>"""
         "Lieutenant Karsabi":
            display_name: """Lieutenant Karsabi"""
            text: """Après avoir gagné un marqueur de désarmement, si vous n’êtes pas stressé, vous pouvez gagner 1 marqueur de stress pour retirer 1 marqueur de désarmement."""
@@ -1116,7 +1116,7 @@ exportObj.cardLoaders['Français'] = () ->
            text: """<i class = flavor_text>Recevoir le commandement d’un Décimateur VT-49 est une promotion de taille pour un officier moyen de la Marine Impériale.</i>"""
         "Petranaki Arena Ace":
            display_name: """As de l’Arène Petranaki"""
-           text: """<i class = flavor_text>L’Arène de Petranaki est un gigantesque édifice de Géonosis qui a été le lieu principal de la première bataille de la Guerre des Clones.</i>%LINEBREAK%<strong>Dispositif Tracteur de Précision :</strong> vous ne pouvez pas faire pivoter votre %SINGLETURRETARC% vers votre %REARARC%. Après avoir exécuté une manœuvre, vous pouvez gagner 1 marqueur de rayon tracteur pour effectuer une action %ROTATEARC%."""
+           text: """<i class = flavor_text>L’Arène de Petranaki est un gigantesque édifice de Géonosis qui a été le lieu principal de la première bataille de la Guerre des Clones.</i>%LINEBREAK%<strong>Dispositif Tracteur de Précision :</strong> vous ne pouvez pas faire pivoter votre %SINGLETURRETARC% vers votre %REARARC%. Après avoir entièrement exécuté une manœuvre, vous pouvez gagner 1 marqueur de rayon tracteur pour effectuer une action %ROTATEARC%.%LINEBREAK%<i>Errata [09/26/2022]: Ajout de "entièrement"</i>"""
         "Petty Officer Thanisson":
            display_name: """Petty Officer Thanisson"""
            text: """Pendant la phase d’activation ou d’engagement, après qu’un vaisseau dans votre %FRONTARC% à portée 0-2 a gagné 1 marqueur de stress, vous pouvez dépenser 1 %CHARGE%. Dans ce cas, ce vaisseau gagne 1 marqueur de rayon tracteur..%LINEBREAK%<strong>Batteries Jumelées:</strong> tant que vous effectuez une attaque %CANNON%, lancez 1 dé supplémentaire."""
@@ -1266,7 +1266,7 @@ exportObj.cardLoaders['Français'] = () ->
            text: """<i class = flavor_text>Le Vol Clone Sept en tant qu’unité de la flotte Open Circle a servi auprès de généraux Jedi légendaires comme Plo Koon ou Obi-Wan Kenobi et a obtenu ses titres de gloire au cours des batailles de Coruscant et de Cato Neimoidia.</i>"""
         "Stalgasin Hive Guard":
            display_name: """Garde de la Ruche Stalgasin"""
-           text: """<i class = flavor_text>Conçu pour la physiologie spécifique des pilotes Géonosiens, les chasseurs de classe Nantex sont capables de manœuvres qui briseraient la plupart des vaisseaux et des pilotes.</i>%LINEBREAK%<strong>Dispositif Tracteur de Précision :</strong> vous ne pouvez pas faire pivoter votre %SINGLETURRETARC% vers votre %REARARC%. Après avoir exécuté une manœuvre, vous pouvez gagner 1 marqueur de rayon tracteur pour effectuer une action %ROTATEARC%."""
+           text: """<i class = flavor_text>Conçu pour la physiologie spécifique des pilotes Géonosiens, les chasseurs de classe Nantex sont capables de manœuvres qui briseraient la plupart des vaisseaux et des pilotes.</i>%LINEBREAK%<strong>Dispositif Tracteur de Précision :</strong> vous ne pouvez pas faire pivoter votre %SINGLETURRETARC% vers votre %REARARC%. Après avoir entièrement exécuté une manœuvre, vous pouvez gagner 1 marqueur de rayon tracteur pour effectuer une action %ROTATEARC%.%LINEBREAK%<i>Errata [09/26/2022]: Ajout de "entièrement"</i>"""
         "Starkiller Base Pilot":
            display_name: """Pilote de la Base Starkiller"""
            text: """<i class = flavor_text>La navette de commandement de classe <unitalic>Upsilon</unitalic> sert de base d’opérations pour de nombreux agents et officiers d’élite du Premier Ordre. Ils peuvent facilement semer l’effroi à travers la galaxie grâce à ses équipements de communication et senseurs avancés..</i>%LINEBREAK%<strong>Batteries Jumelées:</strong> tant que vous effectuez une attaque %CANNON%, lancez 1 dé supplémentaire."""
@@ -1275,7 +1275,7 @@ exportObj.cardLoaders['Français'] = () ->
            text: """<i class = flavor_text>Le Tie Advanced x1 a été produit en quantités limitées, mais les ingénieurs de Sienar incorporèrent la plus grande partie de ses innovations dans leur nouveau modèle de TIE : l’Intercepteur TIE.</i>%LINEBREAK%<strong>Ordinateur de Visée Avancé :</strong> tant que vous effectuez une attaque principale contre un défenseur que vous avez verrouillé, lancez 1 dé d’attaque supplémentaire et changez 1 résultat %HIT% en un résultat %CRIT%."""
         "Sun Fac":
            display_name: """Sun Fac"""
-           text: """Tant que vous effectuez une attaque principale, si le défenseur est tracté, lancez 1 dé d’attaque supplémentaire.%LINEBREAK%<strong>Dispositif Tracteur de Précision :</strong> vous ne pouvez pas faire pivoter votre %SINGLETURRETARC% vers votre %REARARC%. Après avoir exécuté une manœuvre, vous pouvez gagner 1 marqueur de rayon tracteur pour effectuer une action %ROTATEARC%."""
+           text: """Tant que vous effectuez une attaque principale, si le défenseur est tracté, lancez 1 dé d’attaque supplémentaire.%LINEBREAK%<strong>Dispositif Tracteur de Précision :</strong> vous ne pouvez pas faire pivoter votre %SINGLETURRETARC% vers votre %REARARC%. Après avoir entièrement exécuté une manœuvre, vous pouvez gagner 1 marqueur de rayon tracteur pour effectuer une action %ROTATEARC%.%LINEBREAK%<i>Errata [09/26/2022]: Ajout de "entièrement"</i>"""
         "Sunny Bounder":
            display_name: """Sunny Bounder"""
            text: """Tant que vous défendez ou effectuez une attaque, après avoir lancé ou relancé vos dés, si vous obtenez le même résultat sur chacun de vos dés, vous pouvez ajouter 1 résultat correspondant. %LINEBREAK%<strong>Emplacement d’Arme :</strong> vous pouvez vous équiper de 1 amélioration %CANNON%, %TORPEDO% ou %MISSILE%."""
@@ -1472,7 +1472,7 @@ exportObj.cardLoaders['Français'] = () ->
            display_name: """“Odd Ball”"""
            text: """Après avoir entièrement exécuté une manœuvre rouge ou effectué une action rouge, s'il y a un vaisseau ennemi dans votre %BULLSEYEARC%, vous pouvez verrouiller ce vaisseau."""
         '"Odd Ball" (Y-Wing)':
-           display_name: """“Oddball”"""
+           display_name: """“Odd Ball”"""
            text: """Après avoir entièrement exécuté une manœuvre rouge ou effectué une action rouge, s’il y a un vaisseau ennemi dans votre %BULLSEYEARC%, vous pouvez verrouiller ce vaisseau.%LINEBREAK%<strong>Coque Blindée :</strong> tant que vous défendez, si vous n’êtes pas critiquement endommagé, changez 1 résultat %CRIT% en un résultat %HIT%."""
         '"Pure Sabacc"':
            display_name: """“Pure Sabacc”"""
@@ -1734,7 +1734,7 @@ exportObj.cardLoaders['Français'] = () ->
            text: """Tant que vous effectuez une attaque contre un défenseur endommagé, lancez 1 dé d’attaque supplémentaire. %LINEBREAK%<strong>Autopropulseurs :</strong> après avoir effectué une action, vous pouvez effectuer une action %BARRELROLL% rouge ou %BOOST% rouge."""
         "Commandant Goran":
            display_name: """Commandant Goran"""
-           text: """Au début de la Phase d'Engagement, choisissez un vaisseau allié à portée 0–3 avec une initiative plus faible que la vôtre. Le vaisseau choisi gagne 1 marqueur d'évasion et supprime 1 marqueur rouge non-stress. %LINEBREAK%<strong>Autopropulseurs :</strong> après avoir effectué une action, vous pouvez effectuer une action %BARRELROLL% rouge ou %BOOST% rouge."""
+           text: """Après qu’un vaisseau allié à portée 0–3 avec une initiative plus faible que la vôtre a partiellement exécuté une manœuvre révélée, il peut effectuer une action %FOCUS% rouge.%LINEBREAK%<strong>Autopropulseurs :</strong> après avoir effectué une action, vous pouvez effectuer une action %BARRELROLL% rouge ou %BOOST% rouge.%LINEBREAK%<i>Errata [09/26/2022]: Ajout de "révélée"</i>"""
         "Nash Windrider":
            display_name: """Nash Windrider"""
            text: """Pendant la phase d’engagement, après qu’un petit vaisseau allié à portée 0–3 a été détruit, s’il ne s’était pas déjà engagé à cette phase, vous pouvez dépenser 1 %CHARGE%. Dans ce cas, il s’engage à l’initiative actuelle. %LINEBREAK%<strong>Autopropulseurs :</strong> après avoir effectué une action, vous pouvez effectuer une action %BARRELROLL% rouge ou %BOOST% rouge."""
@@ -3091,7 +3091,7 @@ exportObj.cardLoaders['Français'] = () ->
            text: """Tant qu'une unité alliée à portée 0-3 effectue une attaque %RANGEBONUS%, vous pouvez dépenser 1 %CHARGE%. Dans ce cas, l'attaquant peut changer 1 résultat %HIT% en un résultat %CRIT%."""
         "Ursa Wren":
            display_name: """Ursa Wren"""
-           text: """Vous pouvez maintenir jusqu'à 2 verrouillages. Chaque verrouillage doit être sur un objet différent. %LINEBREAK%Après qu'un vaisseau allié à portée 0-3 a été verrouillé, vous pouvez verrouiller un vaisseau ennemi."""
+           text: """Vous pouvez maintenir jusqu'à 2 verrouillages. Chaque verrouillage doit être sur un objet différent. %LINEBREAK%Après qu'un vaisseau allié à portée 0-3 a été verrouillé par un vaisseau ennemi, vous pouvez verrouiller un vaisseau ennemi.%LINEBREAK% <i>Errata [09/26/2022]: Ajout de "par un vaisseau ennemi"</i>"""
         "Ursa Wren (Gunner)":
            display_name: """Ursa Wren"""
            text: """Après que vous avez verrouillé une unité ennemie au-delà de la portée 2, s'il n'y a pas d'unité alliée à portée 0-1 de l'unité verrouillée, gagnez 1 marqueur de calcul."""
