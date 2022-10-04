@@ -8089,7 +8089,7 @@ exportObj.basicCardData = ->
             ship: "CR90 Corellian Corvette"
             skill: 8
             engagement: 0
-            points: 131
+            points: 125
             slots: [
                 "Command"
                 "Hardpoint"
@@ -8109,7 +8109,7 @@ exportObj.basicCardData = ->
             ship: "CR90 Corellian Corvette"
             skill: 8
             engagement: 0
-            points: 134
+            points: 128
             slots: [
                 "Command"
                 "Hardpoint"
@@ -8173,7 +8173,7 @@ exportObj.basicCardData = ->
             ship: "GR-75 Medium Transport"
             skill: 7
             engagement: 1
-            points: 65
+            points: 62
             slots: [
                 "Command"
                 "Hardpoint"
@@ -8193,7 +8193,7 @@ exportObj.basicCardData = ->
             ship: "GR-75 Medium Transport"
             skill: 7
             engagement: 1
-            points: 65
+            points: 62
             slots: [
                 "Command"
                 "Hardpoint"
@@ -8212,7 +8212,7 @@ exportObj.basicCardData = ->
             ship: "Gozanti-class Cruiser"
             skill: 7
             engagement: 1
-            points: 67
+            points: 66
             slots: [
                 "Command"
                 "Hardpoint"
@@ -8232,7 +8232,7 @@ exportObj.basicCardData = ->
             ship: "Gozanti-class Cruiser"
             skill: 7
             engagement: 1
-            points: 67
+            points: 66
             slots: [
                 "Command"
                 "Hardpoint"
@@ -8795,7 +8795,7 @@ exportObj.basicCardData = ->
             faction: "Galactic Republic"
             skill: "*"
             ship: "Syliure-class Hyperspace Ring"
-            points: 4
+            points: 0
             slots: [
                 "Hyperdrive"
             ]
@@ -14088,7 +14088,7 @@ exportObj.basicCardData = ->
             slot: "Crew"
             faction: ["Galactic Republic", "Separatist Alliance"]
             force: 1
-            points: 14
+            points: 15
             modifier_func: (stats) ->
                 stats.force += 1
                 stats.actions.push 'F-Coordinate' if 'F-Coordinate' not in stats.actions
@@ -14615,7 +14615,7 @@ exportObj.basicCardData = ->
             id: 267
             unique: true
             slot: "Command"
-            points: 6
+            points: 10
             restrictions: [
                 ["Slot", "Crew"]
                 ["Base", "Huge"]
@@ -14643,7 +14643,7 @@ exportObj.basicCardData = ->
             name: "Ion Cannon Battery"
             id: 269
             slot: "Hardpoint"
-            points: 5
+            points: 6
             attackt: 4
             range: """2-4"""
             modifier_func: (stats) ->
@@ -14669,7 +14669,7 @@ exportObj.basicCardData = ->
             name: "Point-Defense Battery"
             id: 272
             slot: "Hardpoint"
-            points: 9
+            points: 8
             attackdt: 2
             range: """1-2"""
             modifier_func: (stats) ->
@@ -14706,7 +14706,7 @@ exportObj.basicCardData = ->
             name: "Bombardment Specialists"
             id: 275
             slot: "Team"
-            points: 6
+            points: 8
             modifier_func: (stats) ->
                 stats.actions.push '*Lock'
                 stats.actions.push '> Calculate'
@@ -14715,7 +14715,7 @@ exportObj.basicCardData = ->
             name: "Comms Team"
             id: 276
             slot: "Team"
-            points: 7
+            points: 6
             modifier_func: (stats) ->
                 stats.actions.push '*Coordinate'
                 stats.actions.push '> Calculate'
@@ -14735,7 +14735,7 @@ exportObj.basicCardData = ->
             name: "Gunnery Specialists"
             id: 278
             slot: "Team"
-            points: 5
+            points: 4
             modifier_func: (stats) ->
                 stats.actions.push '*Rotate Arc'
                 stats.actions.push '> Calculate'
@@ -14771,13 +14771,13 @@ exportObj.basicCardData = ->
             name: "Adaptive Shields"
             id: 282
             slot: "Cargo"
-            points: 5
+            points: 4
         }
         {
             name: "Boosted Scanners"
             id: 283
             slot: "Cargo"
-            points: 7
+            points: 6
         }
         {
             id: 284
@@ -14794,14 +14794,14 @@ exportObj.basicCardData = ->
             name: "Optimized Power Core"
             id: 286
             slot: "Cargo"
-            points: 6
+            points: 7
         }
         {
             name: "Quick-Release Locks"
             id: 287
             slot: "Illicit"
             charge: 2
-            points: 5
+            points: 4
             restrictions: [
                 ["Base", "Huge"]
             ]
@@ -14810,7 +14810,7 @@ exportObj.basicCardData = ->
             name: "Saboteur's Map"
             id: 288
             slot: "Illicit"
-            points: 3
+            points: 2
             unique: true
             restrictions: [
                 ["Base", "Huge"]
@@ -14820,7 +14820,7 @@ exportObj.basicCardData = ->
             name: "Scanner Baffler"
             id: 289
             slot: "Illicit"
-            points: 8
+            points: 7
             restrictions: [
                 ["Base", "Huge"]
             ]
@@ -16039,7 +16039,7 @@ exportObj.basicCardData = ->
             id: 392
             unique: true
             slot: "Command"
-            points: 7
+            points: 6
             charge: 2
             restrictions: [
                 ["Slot", "Crew"]
@@ -16113,7 +16113,7 @@ exportObj.basicCardData = ->
             name: "Drill Beak"
             id: 397
             slot: "Hardpoint"
-            points: 4
+            points: 2
             attackb: 3
             range: """0-1"""
             rangebonus: true
@@ -16130,7 +16130,7 @@ exportObj.basicCardData = ->
             name: "Enhanced Propulsion"
             id: 398
             slot: "Hardpoint"
-            points: 6
+            points: 2
             ship: "Trident-class Assault Ship"
             restrictions: [
                 ["Slot", "Cargo"]
@@ -16169,13 +16169,13 @@ exportObj.basicCardData = ->
             name: "Tractor Technicians"
             id: 401
             slot: "Team"
-            points: 2
+            points: 1
         }
         {
             name: "Corsair Crew"
             id: 402
             slot: "Team"
-            points: 5
+            points: 2
             faction: "Scum and Villainy"
             restrictions: [
                 ["Slot", "Gunner"]
