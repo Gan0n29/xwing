@@ -11822,23 +11822,15 @@ exportObj.basicCardData = ->
             faction: "Galactic Empire"
             ship: "TIE Interceptor"
             skill: 4
-            points: 200
+            points: 45
             charge: 2
-            keyword: ["Sensitive Controls"]
-            ship_override:
-                hull: 4
-                actions: [
-                    "Focus"
-                    "Evade"
-                    "Barrel Roll"
-                    "Boost"
-                    "Lock"
-                ]
+            upgrades: [
+                "Hull Upgrade"
+                "Targeting Computer"
+                "Sensitive Controls"
+            ]
             slots: [
                 "Talent"
-                "Modification"
-                "Modification"
-                "Configuration"
             ]
         }
         {
