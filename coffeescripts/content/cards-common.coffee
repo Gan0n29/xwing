@@ -11717,12 +11717,18 @@ exportObj.basicCardData = ->
             skill: 1
             charge: 1
             recurring: 1
-            points: 200
+            points: 31
             ship_override:
                 hull: 4
+                actions: [
+                    "Focus"
+                    "Evade"
+                    "Barrel Roll"
+                    "Boost"
+                    "Lock"
+                ]
             slots: [
                 "Talent"
-                "Modification"
             ]
         }
         {
