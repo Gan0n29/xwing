@@ -11724,7 +11724,7 @@ exportObj.basicCardData = ->
             points: 64
             charge: 2
             recurring: 1
-            keyword: ["Sensitive Controls", "AlreadyShielded", "NoStandardized"]
+            keyword: ["Sensitive Controls", "AlreadyShieldUpgrade", "NoStandardized"]
             ship_override:
                 shields: 1
             slots: [
@@ -11742,7 +11742,7 @@ exportObj.basicCardData = ->
             skill: 4
             points: 42
             charge: 2
-            keyword: ["Sensitive Controls", "NoStandardized"]
+            keyword: ["Sensitive Controls", "AlreadyHullUpgrade", "NoStandardized"]
             ship_override:
                 hull: 4
             slots: [
@@ -11760,7 +11760,7 @@ exportObj.basicCardData = ->
             skill: 4
             points: 43
             charge: 2
-            keyword: ["Sensitive Controls", "NoStandardized"]
+            keyword: ["Sensitive Controls", "AlreadyHullUpgrade", "NoStandardized"]
             ship_override:
                 hull: 4
             slots: [
@@ -11778,7 +11778,7 @@ exportObj.basicCardData = ->
             skill: 4
             points: 43
             charge: 2
-            keyword: ["Sensitive Controls", "NoStandardized"]
+            keyword: ["Sensitive Controls", "AlreadyHullUpgrade", "NoStandardized"]
             ship_override:
                 hull: 4
             slots: [
@@ -11796,7 +11796,7 @@ exportObj.basicCardData = ->
             skill: 4
             points: 45
             charge: 2
-            keyword: ["Sensitive Controls", "NoStandardized"]
+            keyword: ["Sensitive Controls", "AlreadyHullUpgrade", "NoStandardized"]
             ship_override:
                 hull: 4
                 actions: [
@@ -13583,6 +13583,9 @@ exportObj.basicCardData = ->
             slot: "Modification"
             pointsarray: [2,3,5,7]
             variableagility: true
+            restrictions: [
+                ["noKeyword", "AlreadyHullUpgrade"]
+            ]
             modifier_func: (stats) ->
                 stats.hull += 1
         }
@@ -13593,7 +13596,7 @@ exportObj.basicCardData = ->
             pointsarray: [3,4,6,8]
             variableagility: true
             restrictions: [
-                ["noKeyword", "AlreadyShielded"]
+                ["noKeyword", "AlreadyShieldUpgrade"]
             ]
             modifier_func: (stats) ->
                 stats.shields += 1
