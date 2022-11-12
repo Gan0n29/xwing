@@ -11438,10 +11438,9 @@ exportObj.basicCardData = ->
             faction: "Rebel Alliance"
             ship: "X-Wing"
             skill: 4
-            points: 200
+            points: 47
             keyword: ["Hope"]
             slots: [
-                "Talent"
                 "Torpedo"
                 "Astromech"
                 "Modification"
@@ -11458,7 +11457,7 @@ exportObj.basicCardData = ->
             faction: "Rebel Alliance"
             ship: "X-Wing"
             skill: 5
-            points: 200
+            points: 62
             keyword: ["Hope"]
             slots: [
                 "Force"
@@ -11478,10 +11477,9 @@ exportObj.basicCardData = ->
             faction: "Rebel Alliance"
             ship: "X-Wing"
             skill: 4
-            points: 200
+            points: 44
             keyword: ["Hope"]
             slots: [
-                "Talent"
                 "Torpedo"
                 "Astromech"
                 "Modification"
@@ -11498,10 +11496,9 @@ exportObj.basicCardData = ->
             faction: "Rebel Alliance"
             ship: "X-Wing"
             skill: 3
-            points: 200
+            points: 44
             keyword: ["Hope"]
             slots: [
-                "Talent"
                 "Torpedo"
                 "Astromech"
                 "Modification"
@@ -11518,10 +11515,9 @@ exportObj.basicCardData = ->
             faction: "Rebel Alliance"
             ship: "X-Wing"
             skill: 5
-            points: 200
+            points: 48
             keyword: ["Hope"]
             slots: [
-                "Talent"
                 "Torpedo"
                 "Astromech"
                 "Modification"
@@ -11534,11 +11530,10 @@ exportObj.basicCardData = ->
             xws: "hansolo-battleofyavin"
             unique: true
             id: 559
-            image_id: 999
             faction: "Rebel Alliance"
             ship: "YT-1300"
             skill: 6
-            points: 200
+            points: 84
             charge: 4
             slots: [
                 "Talent"
@@ -11552,7 +11547,7 @@ exportObj.basicCardData = ->
             ]
         }
         {
-            name: 'Jon "Dutch" Vander (BoY)'
+            name: '"Dutch" Vander (BoY)'
             canonical_name: '"Dutch" Vander'.canonicalize()
             xws: "jondutchvader-battleofyavin"
             unique: true
@@ -11561,10 +11556,9 @@ exportObj.basicCardData = ->
             faction: "Rebel Alliance"
             ship: "Y-Wing"
             skill: 4
-            points: 200
+            points: 44
             keyword: ["Hope"]
             slots: [
-                "Talent"
                 "Turret"
                 "Torpedo"
                 "Missile"
@@ -11577,14 +11571,12 @@ exportObj.basicCardData = ->
             name: "Dex Tiree (BoY)"
             unique: true
             id: 561
-            image_id: 999
             faction: "Rebel Alliance"
             ship: "Y-Wing"
             skill: 2
-            points: 200
+            points: 34
             keyword: ["Hope"]
             slots: [
-                "Talent"
                 "Turret"
                 "Torpedo"
                 "Missile"
@@ -11597,14 +11589,12 @@ exportObj.basicCardData = ->
             name: '"Pops" Krail (BoY)'
             unique: true
             id: 562
-            image_id: 999
             faction: "Rebel Alliance"
             ship: "Y-Wing"
             skill: 4
-            points: 200
+            points: 36
             keyword: ["Hope"]
             slots: [
-                "Talent"
                 "Turret"
                 "Torpedo"
                 "Missile"
@@ -11617,14 +11607,12 @@ exportObj.basicCardData = ->
             name: "Hol Okland (BoY)"
             unique: true
             id: 563
-            image_id: 999
             faction: "Rebel Alliance"
             ship: "Y-Wing"
             skill: 4
-            points: 200
+            points: 36
             keyword: ["Hope"]
             slots: [
-                "Talent"
                 "Turret"
                 "Torpedo"
                 "Missile"
@@ -11643,7 +11631,7 @@ exportObj.basicCardData = ->
             faction: "Galactic Empire"
             ship: "TIE Advanced"
             skill: 6
-            points: 200
+            points: 73
             force: 3
             keyword: ["Dark Side", "Sith"]
             ship_override:
@@ -11652,23 +11640,20 @@ exportObj.basicCardData = ->
                 "Force"
                 "Sensor"
                 "Missile"
-                "Modification"
             ]
         }
         {
             name: '"Backstabber" (BoY)'
             unique: true
             id: 565
-            image_id: 999
             faction: "Galactic Empire"
             ship: "TIE Fighter"
             skill: 5
-            points: 200
+            points: 30
             ship_override:
                 hull: 4
             slots: [
                 "Talent"
-                "Modification"
             ]
         }
         {
@@ -11681,28 +11666,25 @@ exportObj.basicCardData = ->
             faction: "Galactic Empire"
             ship: "TIE Fighter"
             skill: 5
-            points: 200
+            points: 30
             ship_override:
                 hull: 4
             slots: [
                 "Talent"
-                "Modification"
             ]
         }
         {
             name: '"Dark Curse" (BoY)'
             unique: true
             id: 567
-            image_id: 999
             faction: "Galactic Empire"
             ship: "TIE Fighter"
             skill: 6
-            points: 200
+            points: 35
             ship_override:
                 hull: 4
             slots: [
                 "Talent"
-                "Modification"
             ]
         }
         {
@@ -11711,13 +11693,110 @@ exportObj.basicCardData = ->
             xws: "wampa-battleofyavin"
             unique: true
             id: 568
-            image_id: 999
+            image_id: 221
             faction: "Galactic Empire"
             ship: "TIE Fighter"
             skill: 1
             charge: 1
             recurring: 1
-            points: 31
+            points: 30
+            ship_override:
+                hull: 4
+                actions: [
+                    "Focus"
+                    "Evade"
+                    "Barrel Roll"
+                    "Boost"
+                    "Lock"
+                ]
+            slots: [
+            ]
+        }
+        {
+            name: "Iden Versio (BoY)"
+            canonical_name: 'Iden Versio'.canonicalize()
+            xws: "idenversio-battleofyavin"
+            unique: true
+            id: 569
+            faction: "Galactic Empire"
+            ship: "TIE Interceptor"
+            skill: 4
+            points: 64
+            charge: 2
+            recurring: 1
+            keyword: ["Sensitive Controls", "AlreadyShielded", "NoStandardized"]
+            ship_override:
+                shields: 1
+            slots: [
+                "Talent"
+                "Modification"
+                "Configuration"
+            ]
+        }
+        {
+            name: "Sigma 4 (BoY)"
+            unique: true
+            id: 570
+            faction: "Galactic Empire"
+            ship: "TIE Interceptor"
+            skill: 4
+            points: 42
+            charge: 2
+            keyword: ["Sensitive Controls", "NoStandardized"]
+            ship_override:
+                hull: 4
+            slots: [
+                "Talent"
+                "Modification"
+                "Configuration"
+            ]
+        }
+        {
+            name: "Sigma 5 (BoY)"
+            unique: true
+            id: 571
+            faction: "Galactic Empire"
+            ship: "TIE Interceptor"
+            skill: 4
+            points: 43
+            charge: 2
+            keyword: ["Sensitive Controls", "NoStandardized"]
+            ship_override:
+                hull: 4
+            slots: [
+                "Talent"
+                "Modification"
+                "Configuration"
+            ]
+        }
+        {
+            name: "Sigma 6 (BoY)"
+            unique: true
+            id: 572
+            faction: "Galactic Empire"
+            ship: "TIE Interceptor"
+            skill: 4
+            points: 43
+            charge: 2
+            keyword: ["Sensitive Controls", "NoStandardized"]
+            ship_override:
+                hull: 4
+            slots: [
+                "Talent"
+                "Modification"
+                "Configuration"
+            ]
+        }
+        {
+            name: "Sigma 7 (BoY)"
+            unique: true
+            id: 573
+            faction: "Galactic Empire"
+            ship: "TIE Interceptor"
+            skill: 4
+            points: 45
+            charge: 2
+            keyword: ["Sensitive Controls", "NoStandardized"]
             ship_override:
                 hull: 4
                 actions: [
@@ -11729,108 +11808,7 @@ exportObj.basicCardData = ->
                 ]
             slots: [
                 "Talent"
-            ]
-        }
-        {
-            name: "Iden Versio (BoY)"
-            canonical_name: 'Iden Versio'.canonicalize()
-            xws: "idenversio-battleofyavin"
-            unique: true
-            id: 569
-            image_id: 999
-            faction: "Galactic Empire"
-            ship: "TIE Interceptor"
-            skill: 4
-            points: 200
-            charge: 2
-            recurring: 1
-            keyword: ["Sensitive Controls"]
-            ship_override:
-                shields: 1
-            slots: [
-                "Talent"
-                "Modification"
-                "Modification"
                 "Configuration"
-            ]
-        }
-        {
-            name: "Sigma 4 (BoY)"
-            unique: true
-            id: 570
-            image_id: 999
-            faction: "Galactic Empire"
-            ship: "TIE Interceptor"
-            skill: 4
-            points: 200
-            charge: 2
-            keyword: ["Sensitive Controls"]
-            ship_override:
-                hull: 4
-            slots: [
-                "Talent"
-                "Modification"
-                "Modification"
-                "Configuration"
-            ]
-        }
-        {
-            name: "Sigma 5 (BoY)"
-            unique: true
-            id: 571
-            image_id: 999
-            faction: "Galactic Empire"
-            ship: "TIE Interceptor"
-            skill: 4
-            points: 200
-            charge: 2
-            keyword: ["Sensitive Controls"]
-            ship_override:
-                hull: 4
-            slots: [
-                "Talent"
-                "Modification"
-                "Modification"
-                "Configuration"
-            ]
-        }
-        {
-            name: "Sigma 6 (BoY)"
-            unique: true
-            id: 572
-            image_id: 999
-            faction: "Galactic Empire"
-            ship: "TIE Interceptor"
-            skill: 4
-            points: 200
-            charge: 2
-            keyword: ["Sensitive Controls"]
-            ship_override:
-                hull: 4
-            slots: [
-                "Talent"
-                "Modification"
-                "Modification"
-                "Configuration"
-            ]
-        }
-        {
-            name: "Sigma 7 (BoY)"
-            unique: true
-            id: 573
-            image_id: 999
-            faction: "Galactic Empire"
-            ship: "TIE Interceptor"
-            skill: 4
-            points: 45
-            charge: 2
-            upgrades: [
-                "Hull Upgrade"
-                "Targeting Computer"
-                "Sensitive Controls"
-            ]
-            slots: [
-                "Talent"
             ]
         }
         {
@@ -24864,6 +24842,132 @@ exportObj.basicCardData = ->
                 "Veteran Tail Gunner"
                 "Concussion Bombs"
                 "Hull Upgrade"
+            ]
+        }
+        {
+            id: 621
+            faction: "Scum and Villainy"
+            pilot: "Cad Bane"
+            ship: "Rogue-class Starfighter"
+            threat: 3
+            upgrades: [
+                "Notorious"
+                "Synced Laser Cannons"
+                "Freelance Slicer"
+                "Blazer Bomb"
+                "Overtuned Modulators"
+                "Shield Upgrade"
+                "Xanadu Blood"
+            ]
+        }
+        {
+            id: 622
+            faction: "Scum and Villainy"
+            pilot: "Viktor Hel (Rogue)"
+            ship: "Rogue-class Starfighter"
+            threat: 3
+            upgrades: [
+                "Outmaneuver"
+                "Synced Laser Cannons"
+                "Tracking Fob"
+                "Blazer Bomb"
+                "Afterburners"
+            ]
+        }
+        {
+            id: 623
+            faction: "Scum and Villainy"
+            pilot: "Nom Lumb (Rogue)"
+            ship: "Rogue-class Starfighter"
+            threat: 2
+            upgrades: [
+                "Predator"
+                "Proton Cannon"
+                "Shield Upgrade"
+            ]
+        }
+        {
+            id: 624
+            faction: "Scum and Villainy"
+            pilot: "Outer Rim Hunter"
+            ship: "Rogue-class Starfighter"
+            threat: 2
+            upgrades: [
+                "Notorious"
+                "Proton Cannon"
+                "Tracking Fob"
+            ]
+        }
+        {
+            id: 625
+            faction: "Separatist Alliance"
+            pilot: "Cad Bane (Separatist)"
+            ship: "Rogue-class Starfighter"
+            threat: 3
+            upgrades: [
+                "Outmaneuver"
+                "Synced Laser Cannons"
+                "Freelance Slicer"
+                "Afterburners"
+                "Xanadu Blood"
+            ]
+        }
+        {
+            id: 626
+            faction: "Separatist Alliance"
+            pilot: "IG-101"
+            ship: "Rogue-class Starfighter"
+            threat: 2
+            upgrades: [
+                "Enduring"
+                "Proton Cannon"
+                "Hull Upgrade"
+            ]
+        }
+        {
+            id: 627
+            faction: "Separatist Alliance"
+            pilot: "IG-102"
+            ship: "Rogue-class Starfighter"
+            threat: 2
+            upgrades: [
+                "Elusive"
+                "Synced Laser Cannons"
+            ]
+        }
+        {
+            id: 628
+            faction: "Separatist Alliance"
+            pilot: "IG-111"
+            ship: "Rogue-class Starfighter"
+            threat: 2
+            upgrades: [
+                "Predator"
+                "Proton Cannon"
+                "Shield Upgrade"
+            ]
+        }
+        {
+            id: 629
+            faction: "Separatist Alliance"
+            pilot: "MagnaGuard Protector"
+            ship: "Rogue-class Starfighter"
+            threat: 2
+            upgrades: [
+                "Enduring"
+                "Proton Cannon"
+                "Independent Calculations"
+            ]
+        }
+        {
+            id: 630
+            faction: "Separatist Alliance"
+            pilot: "MagnaGuard Executioner"
+            ship: "Rogue-class Starfighter"
+            threat: 2
+            upgrades: [
+                "Outmaneuver"
+                "Proton Cannon"
             ]
         }
     ]
