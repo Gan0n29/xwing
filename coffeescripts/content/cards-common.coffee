@@ -13592,6 +13592,9 @@ exportObj.basicCardData = ->
             slot: "Modification"
             pointsarray: [3,4,6,8]
             variableagility: true
+            restrictions: [
+                ["noKeyword", "AlreadyShielded"]
+            ]
             modifier_func: (stats) ->
                 stats.shields += 1
         }
@@ -15818,7 +15821,6 @@ exportObj.basicCardData = ->
             faction: ["Galactic Empire", "First Order"]
             standardized: true
             restrictions: [
-                ["noKeyword", "Sensitive Controls"]
                 ["Keyword", "Autothrusters"]
             ]
         }
@@ -15866,9 +15868,6 @@ exportObj.basicCardData = ->
             points: 1
             slot: "Talent"
             faction: "Rebel Alliance"
-            restrictions: [
-                ["noKeyword", "Hope"]
-            ]
         }
         {
             name: "Sabine Wren (Gunner)"
