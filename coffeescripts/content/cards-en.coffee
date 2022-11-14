@@ -1747,34 +1747,34 @@ exportObj.cardLoaders.English = () ->
         # Battle of Yavin Pilots
         "Garven Dreis (BoY)":
            display_name: """Garven Dreis (BoY)"""
-           text: """After you spend a focus token, you may choose 1 friendly ship at range 1-3. That ship gains 1 focus token.%LINEBREAK%<strong>Hope:</strong>After another friendly ship at range 0-3 is destroyed, you may perform a %FOCUS% or %BOOST% action."""
+           text: """After you spend a focus token, you may choose 1 friendly ship at range 1-3. That ship gains 1 focus token.%LINEBREAK%<strong>Hope:</strong> After another friendly ship at range 0-3 is destroyed, you may perform a %FOCUS% or %BOOST% action."""
         "Luke Skywalker (BoY)":
            display_name: """Luke Skywalker (BoY)"""
-           text: """After you become the defender (before dice are rolled), you may recover 1 %FORCE%.%LINEBREAK%<strong>Hope:</strong>After another friendly ship at range 0-3 is destroyed, you may perform a %FOCUS% or %BOOST% action."""
+           text: """After you become the defender (before dice are rolled), you may recover 1 %FORCE%.%LINEBREAK%<strong>Hope:</strong> After another friendly ship at range 0-3 is destroyed, you may perform a %FOCUS% or %BOOST% action."""
         "Wedge Antilles (BoY)":
            display_name: """Wedge Antilles (BoY)"""
-           text: """While you perform a primary attack, if there is another friendly ship in the defender's firing arc, the defender rolls 1 lesss defense dice.%LINEBREAK%<strong>Hope:</strong>After another friendly ship at range 0-3 is destroyed, you may perform a %FOCUS% or %BOOST% action."""
+           text: """While you perform a primary attack, if there is another friendly ship in the defender's firing arc, the defender rolls 1 less defense dice.%LINEBREAK%<strong>Hope:</strong> After another friendly ship at range 0-3 is destroyed, you may perform a %FOCUS% or %BOOST% action."""
         "Biggs Darklighter (BoY)":
            display_name: """Biggs Darklighter (BoY)"""
-           text: """During the System Phase, you may choose 1 friendly ship at range 1. If you do, treat your initiative as equal to the chosen ship's initiative until the end of the Activation Phase.%LINEBREAK%<strong>Hope:</strong>After another friendly ship at range 0-3 is destroyed, you may perform a %FOCUS% or %BOOST% action."""
+           text: """During the System Phase, you may choose 1 friendly ship at range 1. If you do, treat your initiative as equal to the chosen ship's initiative until the end of the Activation Phase.%LINEBREAK%<strong>Hope:</strong> After another friendly ship at range 0-3 is destroyed, you may perform a %FOCUS% or %BOOST% action."""
         "Jek Porkins (BoY)":
            display_name: """Jek Porkins (BoY)"""
-           text: """After you receive a stress token, you may roll 1 attack die to remove it. On a %HIT% result, suffer 1 %HIT% damage.%LINEBREAK%<strong>Hope:</strong>After another friendly ship at range 0-3 is destroyed, you may perform a %FOCUS% or %BOOST% action."""
+           text: """After you receive a stress token, you may roll 1 attack die to remove it. On a %HIT% result, suffer 1 %HIT% damage.%LINEBREAK%<strong>Hope:</strong> After another friendly ship at range 0-3 is destroyed, you may perform a %FOCUS% or %BOOST% action."""
         "Hol Okland (BoY)":
            display_name: """Hol Okland (BoY)"""
-           text: """During the System Phasse, if there are no enemy ships at range 1-2, you may recover 1 %CHARGE% on any upgrade.%LINEBREAK%<strong>Hope:</strong>After another friendly ship at range 0-3 is destroyed, you may perform a %FOCUS% or %BOOST% action."""
+           text: """During the System Phasse, if there are no enemy ships at range 1-2, you may recover 1 %CHARGE% on any upgrade.%LINEBREAK%<strong>Hope:</strong> After another friendly ship at range 0-3 is destroyed, you may perform a %FOCUS% or %BOOST% action."""
         '"Pops" Krail (BoY)':
            display_name: """“Pops” Krail (BoY)"""
-           text: """While you perform a %SINGLETURRETARC% attack, you may reroll up to 2 attack dice.%LINEBREAK%<strong>Hope:</strong>After another friendly ship at range 0-3 is destroyed, you may perform a %FOCUS% or %BOOST% action."""
+           text: """While you perform a %SINGLETURRETARC% attack, you may reroll up to 2 attack dice.%LINEBREAK%<strong>Hope:</strong> After another friendly ship at range 0-3 is destroyed, you may perform a %FOCUS% or %BOOST% action."""
         '"Dutch" Vander (BoY)':
            display_name: """“Dutch” Vander (BoY)"""
-           text: """After you spend a lock during an attack, choose a friendly ship at range 1-3. The chosen ship may acquire a lock on the defender.%LINEBREAK%<strong>Hope:</strong>After another friendly ship at range 0-3 is destroyed, you may perform a %FOCUS% or %BOOST% action.%LINEBREAK%<i>Errata (since rules reference 1.4.4): Corrected pilot ability and adjusted initiative value</i>"""
+           text: """After you spend a lock during an attack, choose a friendly ship at range 1-3. The chosen ship may acquire a lock on the defender.%LINEBREAK%<strong>Hope:</strong> After another friendly ship at range 0-3 is destroyed, you may perform a %FOCUS% or %BOOST% action.%LINEBREAK%<i>Errata (since rules reference 1.4.4): Corrected pilot ability and adjusted initiative value</i>"""
         "Dex Tiree (BoY)":
            display_name: """Dex Tiree (BoY)"""
-           text: """While you defend, if there is at least 1 other friendly ship at range 0-1, you may roll 1 additional defense die.%LINEBREAK%<strong>Hope:</strong>After another friendly ship at range 0-3 is destroyed, you may perform a %FOCUS% or %BOOST% action."""
+           text: """While you defend, if there is at least 1 other friendly ship at range 0-1, you may roll 1 additional defense die.%LINEBREAK%<strong>Hope:</strong> After another friendly ship at range 0-3 is destroyed, you may perform a %FOCUS% or %BOOST% action."""
         "Han Solo (BoY)":
            display_name: """Han Solo (BoY)"""
-           text: """After performing an attack that hits, you may spend 1 %CHARGE% to perform a %COORDINATE% action.%LINEBREAK%<strong>Solo:</strong>While you defend or perform an attack, if there are no other friendly ships at range 0-1, you may spend 1 %CHARGE% to reroll 1 of your dice."""
+           text: """After performing an attack that hits, you may spend 1 %CHARGE% to perform a %COORDINATE% action.%LINEBREAK%<strong>Solo:</strong> While you defend or perform an attack, if there are no other friendly ships at range 0-1, you may spend 1 %CHARGE% to reroll 1 of your dice."""
         '"Wampa" (BoY)':
            display_name: """“Wampa” (BoY)"""
            text: """While you perform an attack, you may spend 1 %CHARGE% to roll 1 additional attack die.%LINEBREAK%After defending, lose 1 %CHARGE%."""
@@ -1786,7 +1786,7 @@ exportObj.cardLoaders.English = () ->
            text: """While you perform an attack, you may spend 1 %FORCE% to change 1 blank result to a %HIT% result.%LINEBREAK%<strong>Advanced Targeting Computer:</strong> While you perform a primary attack against a defender you have locked, roll 1 additional attack die and change 1&nbsp;%HIT% result to a %CRIT% result."""
         "Iden Versio (BoY)": 
            display_name: """Iden Versio (BoY)"""
-           text: """Before a friendly TIE at range 0-1 would suffer damage, you may spend 2 %CHARGE%. If you do, prevent 1 damage. <i>Errata (since rules reference 1.4.4): Corrected pilot ability</i>"""
+           text: """Before a friendly TIE at range 0-1 would suffer damage, you may spend 2 %CHARGE%. If you do, prevent 1 damage.%LINEBREAK%<strong>Sensitive Controls:</strong> During the System Phase, you may perform a red %BARRELROLL% or red %BOOST% action. %LINEBREAK%<i>Errata (since rules reference 1.4.4): Corrected pilot ability</i>"""
         '"Backstabber" (BoY)': 
            display_name: """“Backstabber” (BoY)"""
            text: """While you perform a primary attack, if a friendly Darth Vader or "Mauler" Mithel is in your %LEFTARC% or %RIGHTARC% at range 0-1, roll 1 additional attack die."""
