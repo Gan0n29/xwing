@@ -11457,6 +11457,7 @@ exportObj.basicCardData = ->
             faction: "Rebel Alliance"
             ship: "X-Wing"
             skill: 5
+            force: 2
             points: 62
             keyword: ["Hope"]
             slots: [
@@ -11706,7 +11707,6 @@ exportObj.basicCardData = ->
                     "Focus"
                     "Evade"
                     "Barrel Roll"
-                    "Boost"
                     "Lock"
                 ]
             slots: [
@@ -24884,7 +24884,7 @@ exportObj.basicCardData = ->
             threat: 2
             upgrades: [
                 "Predator"
-                "Proton Cannon"
+                "Proton Cannons"
                 "Shield Upgrade"
             ]
         }
@@ -24896,7 +24896,7 @@ exportObj.basicCardData = ->
             threat: 2
             upgrades: [
                 "Notorious"
-                "Proton Cannon"
+                "Proton Cannons"
                 "Tracking Fob"
             ]
         }
@@ -24922,7 +24922,7 @@ exportObj.basicCardData = ->
             threat: 2
             upgrades: [
                 "Enduring"
-                "Proton Cannon"
+                "Proton Cannons"
                 "Hull Upgrade"
             ]
         }
@@ -24945,7 +24945,7 @@ exportObj.basicCardData = ->
             threat: 2
             upgrades: [
                 "Predator"
-                "Proton Cannon"
+                "Proton Cannons"
                 "Shield Upgrade"
             ]
         }
@@ -24957,7 +24957,7 @@ exportObj.basicCardData = ->
             threat: 2
             upgrades: [
                 "Enduring"
-                "Proton Cannon"
+                "Proton Cannons"
                 "Independent Calculations"
             ]
         }
@@ -24969,7 +24969,7 @@ exportObj.basicCardData = ->
             threat: 2
             upgrades: [
                 "Outmaneuver"
-                "Proton Cannon"
+                "Proton Cannons"
             ]
         }
     ]
