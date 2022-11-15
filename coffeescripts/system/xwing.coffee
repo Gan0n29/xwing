@@ -6,7 +6,11 @@
 exportObj = exports ? this
 
 exportObj.sortHelper = (a, b) ->
-    if a.points == b.points
+    if a.standard_loadout? and not b.standard_loadout?
+        1
+    else if not a.standard_loadout? and b.standard_loadout?
+        -1
+    else if a.points == b.points
         a_name = a.text.replace(/[^a-z0-9]/ig, '')
         b_name = b.text.replace(/[^a-z0-9]/ig, '')
         if a_name == b_name
@@ -2007,7 +2011,7 @@ class exportObj.SquadBuilder
             if include_pilot? and include_pilot.unique? and (@matcher(include_pilot.name, term) or (include_pilot.display_name and @matcher(include_pilot.display_name, term)) )
                 eligible_faction_pilots.push include_pilot
 
-            retval = ({ id: pilot.id, text: "#{if exportObj.settings?.initiative_prefix? and exportObj.settings.initiative_prefix then pilot.skill + ' - ' else ''}#{if pilot.display_name then pilot.display_name else pilot.name} (#{pilot.points})", points: pilot.points, ship: pilot.ship, name: pilot.name, display_name: pilot.display_name, disabled: pilot not in eligible_faction_pilots } for pilot in available_faction_pilots)
+            retval = ({ id: pilot.id, text: "#{if exportObj.settings?.initiative_prefix? and exportObj.settings.initiative_prefix then pilot.skill + ' - ' else ''}#{if pilot.display_name then pilot.display_name else pilot.name} (#{pilot.points})", points: pilot.points, ship: pilot.ship, name: pilot.name, display_name: pilot.display_name, standard_loadout: if pilot.standard_loadout? then true else false , disabled: pilot not in eligible_faction_pilots } for pilot in available_faction_pilots)
         else
             # select according to quickbuild cards
             # filter for faction and ship
