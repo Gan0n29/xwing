@@ -11433,6 +11433,7 @@ exportObj.basicCardData = ->
             canonical_name: 'Garven Dreis'.canonicalize()
             xws: "garvendreis-battleofyavin"
             unique: true
+            standard_loadout: true
             id: 554
             image_id: 6
             faction: "Rebel Alliance"
@@ -11452,6 +11453,7 @@ exportObj.basicCardData = ->
             canonical_name: 'Luke Skywalker'.canonicalize()
             xws: "lukeskywalker-battleofyavin"
             unique: true
+            standard_loadout: true
             id: 555
             image_id: 4
             faction: "Rebel Alliance"
@@ -11473,6 +11475,7 @@ exportObj.basicCardData = ->
             canonical_name: 'Jek Porkins'.canonicalize()
             xws: "jekporkins-battleofyavin"
             unique: true
+            standard_loadout: true
             id: 556
             image_id: 3
             faction: "Rebel Alliance"
@@ -11492,6 +11495,7 @@ exportObj.basicCardData = ->
             canonical_name: 'Biggs Darklighter'.canonicalize()
             xws: "biggsdarklighter-battleofyavin"
             unique: true
+            standard_loadout: true
             id: 557
             image_id: 7
             faction: "Rebel Alliance"
@@ -11511,6 +11515,7 @@ exportObj.basicCardData = ->
             canonical_name: 'Wedge Antilles'.canonicalize()
             xws: "wedgeantilles-battleofyavin"
             unique: true
+            standard_loadout: true
             id: 558
             image_id: 5
             faction: "Rebel Alliance"
@@ -11530,6 +11535,7 @@ exportObj.basicCardData = ->
             canonical_name: 'Han Solo'.canonicalize()
             xws: "hansolo-battleofyavin"
             unique: true
+            standard_loadout: true
             id: 559
             faction: "Rebel Alliance"
             ship: "YT-1300"
@@ -11552,6 +11558,7 @@ exportObj.basicCardData = ->
             canonical_name: '"Dutch" Vander'.canonicalize()
             xws: "jondutchvader-battleofyavin"
             unique: true
+            standard_loadout: true
             id: 560
             image_id: 27
             faction: "Rebel Alliance"
@@ -11571,6 +11578,7 @@ exportObj.basicCardData = ->
         {
             name: "Dex Tiree (BoY)"
             unique: true
+            standard_loadout: true
             id: 561
             faction: "Rebel Alliance"
             ship: "Y-Wing"
@@ -11589,6 +11597,7 @@ exportObj.basicCardData = ->
         {
             name: '"Pops" Krail (BoY)'
             unique: true
+            standard_loadout: true
             id: 562
             faction: "Rebel Alliance"
             ship: "Y-Wing"
@@ -11607,6 +11616,7 @@ exportObj.basicCardData = ->
         {
             name: "Hol Okland (BoY)"
             unique: true
+            standard_loadout: true
             id: 563
             faction: "Rebel Alliance"
             ship: "Y-Wing"
@@ -11627,6 +11637,7 @@ exportObj.basicCardData = ->
             canonical_name: 'Darth Vader'.canonicalize()
             xws: "darthvader-battleofyavin"
             unique: true
+            standard_loadout: true
             id: 564
             image_id: 173
             faction: "Galactic Empire"
@@ -11646,6 +11657,7 @@ exportObj.basicCardData = ->
         {
             name: '"Backstabber" (BoY)'
             unique: true
+            standard_loadout: true
             id: 565
             faction: "Galactic Empire"
             ship: "TIE Fighter"
@@ -11662,6 +11674,7 @@ exportObj.basicCardData = ->
             canonical_name: '"Mauler" Mithel'.canonicalize()
             xws: "maulermithel-battleofyavin"
             unique: true
+            standard_loadout: true
             id: 566
             image_id: 219
             faction: "Galactic Empire"
@@ -11677,6 +11690,7 @@ exportObj.basicCardData = ->
         {
             name: '"Dark Curse" (BoY)'
             unique: true
+            standard_loadout: true
             id: 567
             faction: "Galactic Empire"
             ship: "TIE Fighter"
@@ -11693,6 +11707,7 @@ exportObj.basicCardData = ->
             canonical_name: '"Wampa"'.canonicalize()
             xws: "wampa-battleofyavin"
             unique: true
+            standard_loadout: true
             id: 568
             image_id: 221
             faction: "Galactic Empire"
@@ -11717,6 +11732,7 @@ exportObj.basicCardData = ->
             canonical_name: 'Iden Versio'.canonicalize()
             xws: "idenversio-battleofyavin"
             unique: true
+            standard_loadout: true
             id: 569
             faction: "Galactic Empire"
             ship: "TIE Interceptor"
@@ -11736,6 +11752,7 @@ exportObj.basicCardData = ->
         {
             name: "Sigma 4 (BoY)"
             unique: true
+            standard_loadout: true
             id: 570
             faction: "Galactic Empire"
             ship: "TIE Interceptor"
@@ -11754,6 +11771,7 @@ exportObj.basicCardData = ->
         {
             name: "Sigma 5 (BoY)"
             unique: true
+            standard_loadout: true
             id: 571
             faction: "Galactic Empire"
             ship: "TIE Interceptor"
@@ -11772,6 +11790,7 @@ exportObj.basicCardData = ->
         {
             name: "Sigma 6 (BoY)"
             unique: true
+            standard_loadout: true
             id: 572
             faction: "Galactic Empire"
             ship: "TIE Interceptor"
@@ -11790,6 +11809,7 @@ exportObj.basicCardData = ->
         {
             name: "Sigma 7 (BoY)"
             unique: true
+            standard_loadout: true
             id: 573
             faction: "Galactic Empire"
             ship: "TIE Interceptor"
