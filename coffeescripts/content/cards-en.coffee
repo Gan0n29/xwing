@@ -1806,6 +1806,175 @@ exportObj.cardLoaders.English = () ->
            display_name: """“Mauler” Mithel (BoY)"""
            text: """While you perform a primary attack, if a friendly Darth Vader or "Backstabber" is in your %LEFTARC% or %RIGHTARC% at range 0-1, roll 1 additional attack die."""
 
+        # Siege of Coruscant Pilots
+        "Anakin Skywalker (SoC)":
+           display_name: """Anakin Skywalker (SoC)"""
+           text: """After you or a friendly <b>Obi-Wan Kenobi</b> ship at range 0-3 fully executes a maneuver, if there are more enemy ships than other friendly ships at range 0-1 of that ship, you may spend 1 %FORCE%. If you do, that ship may perform a %BARRELROLL% action. %LINEBREAK% <strong>Intuitive Controls:</strong> During the System Phase, you may perform a purple %BARRELROLL% or purple %BOOST% action."""
+        "Obi-Wan Kenobi (SoC)":
+           display_name: """Obi-Wan Kenobi (SoC)"""
+           text: """After you or a friendly <b>Anakin Skywalker</b> at range 0-3 fully executes a maneuver, if there are more enemy ships than other friendly ships at range 0-1 of that ship, you may spend 1 %FORCE%. If you do, that ship may perform a %BOOST% action. %LINEBREAK% <strong>Intuitive Controls:</strong> During the System Phase, you may perform a purple %BARRELROLL% or purple %BOOST% action."""
+        "Shaak Ti (SoC)":
+           display_name: """Shaak Ti (SoC)"""
+           text: """At the start of the End Phase, you may perfrom a purple %COORDINATE% action, even while stressed %LINEBREAK% After you perform a %COORDINATE% action, if the chosen ship has the <b>Born for This</b> ship ability, you may coordinate 1 additional ship. %LINEBREAK% <strong>Intuitive Controls:</strong> During the System Phase, you may perform a purple %BARRELROLL% or purple %BOOST% action."""
+        '"Odd Ball" (SoC)':
+           display_name: """“Odd Ball” (SoC)"""
+           text: """After you fully execute a red maneuver or perform a red action, you camy choose a friendly ship at range 0-3 and an enemy at range 0-1. The chosen frendly ship gains a lock on the enemy ship.%LINEBREAK%<strong>Born for This:</strong> While another friendly ship at range 0-2 defends, if you are not strained, it may spend your focus and evade tokens as if that ship has them. If it does, you gain 1 strain token."""
+        '"Wolffe" (SoC)':
+           display_name: """“Wolffe” (SoC)"""
+           text: """While you perform a primary %FRONTARC% attack, you may spend 1 %CHARGE% to reroll 1 attack die. While you perform a primary %REARARC% attack, you may recover 1 %CHARGE% to roll 1 additional die.%LINEBREAK%<strong>Born for This:</strong> While another friendly ship at range 0-2 defends, if you are not strained, it may spend your focus and evade tokens as if that ship has them. If it does, you gain 1 strain token."""
+        '"Jag" (SoC)':
+           display_name: """“Jag” (SoC)"""
+           text: """After a friendly ship at range 0-2 in your %LEFTARC% or %RIGHTARC% performs an attack, if you are not strained, you may acquire a lock on the defender.%LINEBREAK%<strong>Born for This:</strong> While another friendly ship at range 0-2 defends, if you are not strained, it may spend your focus and evade tokens as if that ship has them. If it does, you gain 1 strain token."""
+        '"Contrail" (SoC)':
+           display_name: """“Contrail” (SoC)"""
+           text: """While you defend or perform an attack, if the bearing of your revealed maneuver is the same as the enemy ship's, you may change 1 of the enemy ship's %FOCUS% results to a blank result. %LINEBREAK%<strong>Born for This:</strong> While another friendly ship at range 0-2 defends, if you are not strained, it may spend your focus and evade tokens as if that ship has them. If it does, you gain 1 strain token."""
+        '"Klick" (SoC)':
+           display_name: """“Klick” (SoC)"""
+           text: """While a ship that you have locked at range 1-3 defends or performs an attack, you may spend 1 %CHARGE% to prevent range bonuses from being applied. %LINEBREAK%<strong>Born for This:</strong> While another friendly ship at range 0-2 defends, if you are not strained, it may spend your focus and evade tokens as if that ship has them. If it does, you gain 1 strain token."""
+        '"Kickback" (SoC)':
+           display_name: """“Kickback” (SoC)"""
+           text: """After you perform a %BARRELROLL% action, you may perform a red %LOCK% action. If you do, before you perfrom the %LOCK% action, you may gain 1 strain to treat it as white.%LINEBREAK%<strong>Born for This:</strong> While another friendly ship at range 0-2 defends, if you are not strained, it may spend your focus and evade tokens as if that ship has them. If it does, you gain 1 strain token."""
+        '"Axe" (SoC)':
+           display_name: """“Axe” (SoC)"""
+           text: """After you perform an attack, you may choose another friendly ship with the <b>Born for This</b> ability at range 0-2 in your %LEFTARC% or %RIGHTARC%. The chosen ship gains a lock on the defender.%LINEBREAK%<strong>Born for This:</strong> While another friendly ship at range 0-2 defends, if you are not strained, it may spend your focus and evade tokens as if that ship has them. If it does, you gain 1 strain token."""
+        "Count Dooku (SoC)":
+           display_name: """Count Dooku (SoC)"""
+           text: """During an attack, before a ship at range 0-2 rolls attack or defense dice, if all of your %FORCE% are active, you may spend 1 %FORCE% and name a result. If the roll does not contain the named result, the ship must change 1 die to that result."""
+        "DBS-32C (SoC)":
+           display_name: """DBS-32C (SoC)"""
+           text: """After you perform a %CALCULATE% action, you may spend 1 %CHARGE% to perform a %JAM% action.%LINEBREAK%<strong>Networked Calculations:</strong> While you defend or perform an attack, you may spend 1 calculate token from a friendly ship at range 0-1 to change 1 %FOCUS% result to an %EVADE% or %HIT% result."""
+        "DBS-404 (SoC)":
+           display_name: """DBS-404 (SoC)"""
+           text: """While you perform an attack at range 1, you <b>must</b> roll 1 additional die. After the attack hits, suffer 1 %CRIT% damage.%LINEBREAK%<strong>Networked Calculations:</strong> While you defend or perform an attack, you may spend 1 calculate token from a friendly ship at range 0-1 to change 1 %FOCUS% result to an %EVADE% or %HIT% result."""
+        "Baktoid Prototype (SoC)":
+           display_name: """Baktoid Prototype (SoC)"""
+           text: """While you perform a special attack, if a friendly ship with the <strong>Networked Calculations</strong> ship ability has a lock on the defender, you may ingore the %FOCUS%, %CALCULATE% or %LOCK% requirement of the attack.%LINEBREAK%<strong>Networked Calculations:</strong> While you defend or perform an attack, you may spend 1 calculate token from a friendly ship at range 0-1 to change 1 %FOCUS% result to an %EVADE% or %HIT% result."""
+        "DIS-347 (SoC)":
+           display_name: """DIS-347 (SoC)"""
+           text: """At the start of the Engagement Phase, you may acquire a lock on an object at range 1-3 that has a friendly lock.%LINEBREAK%<strong>Networked Calculations:</strong> While you defend or perform an attack, you may spend 1 calculate token from a friendly ship at range 0-1 to change 1 %FOCUS% result to an %EVADE% or %HIT% result."""
+        "DIS-T81 (SoC)":
+           display_name: """DIS-T81 (SoC)"""
+           text: """While you defend or perform an attack, you may reroll any number of your dice. Then if you were defending, gain 1 strain token for each die that was rerolled. If you were attacking, gain 1 deplete token for each die that was rerolled instead.%LINEBREAK%<strong>Networked Calculations:</strong> While you defend or perform an attack, you may spend 1 calculate token from a friendly ship at range 0-1 to change 1 %FOCUS% result to an %EVADE% or %HIT% result."""
+        "Phlac-Arphocc Prototype (SoC)":
+           display_name: """Phlac-Arphocc Prototype (SoC)"""
+           text: """At the start of the Engagement Phase, if there is an enemy ship in your %BULLSEYEARC%, gain a calculate token.%LINEBREAK%<strong>Networked Calculations:</strong> While you defend or perform an attack, you may spend 1 calculate token from a friendly ship at range 0-1 to change 1 %FOCUS% result to an %EVADE% or %HIT% result."""
+        "DFS-081 (SoC)":
+           display_name: """DFS-081 (SoC)"""
+           text: """While defending, you may spend 1 %CHARGE% and 1 calculate token to cancel 1 %CRIT% result.%LINEBREAK%<strong>Networked Calculations:</strong> While you defend or perform an attack, you may spend 1 calculate token from a friendly ship at range 0-1 to change 1 %FOCUS% result to an %EVADE% or %HIT% result."""
+        "DFS-311 (SoC)":
+           display_name: """DFS-311 (SoC)"""
+           text: """At the start of the Engagement Phase, you may transfer 1 of your calculate tokens to another friendly ship at range 0-3.%LINEBREAK%<strong>Networked Calculations:</strong> While you defend or perform an attack, you may spend 1 calculate token from a friendly ship at range 0-1 to change 1 %FOCUS% result to an %EVADE% or %HIT% result."""
+        "Haor Chall Prototype (SoC)":
+           display_name: """Haor Chall Prototype (SoC)"""
+           text: """After an enemy ship in your %BULLSEYEARC% declares a scenario feature or another friendly ship as the defender, you may perform a %CALCULATE% or %LOCK% action.%LINEBREAK%<strong>Networked Calculations:</strong> While you defend or perform an attack, you may spend 1 calculate token from a friendly ship at range 0-1 to change 1 %FOCUS% result to an %EVADE% or %HIT% result."""
+
+        # Hotshots and Aces 2
+        "Corran Horn (X-Wing)":
+           display_name: """Corran Horn"""
+           text: """After you declare the defender of an attack, if you have a lock on the defender, a friendly ship may transfer their lock token from you to the defender."""
+        "Wes Janson":
+           display_name: """Wes Janson"""
+           text: """After you perform an attack, you may spend 1 %CHARGE% to assign the defender 1 jam token. %LINEBREAK% After you defend, you may spend 1 %CHARGE% to assign the attacker 1 jam token."""
+        "Tycho Celchu":
+           display_name: """Tycho Celchu"""
+           text: """While you have 2 or fewer stress tokens, you may perform actions, even while stressed.%LINEBREAK%<strong>Vectored Thrusters:</strong> After you perform an action, you may perform a red %BOOST% action."""
+        "Keo Venzee":
+           display_name: """Keo Venzee"""
+           text: """If you have no active %FORCE%, after you reveal a bank [%BANKLEFT% or %BANKRIGHT%] or turn [%TURNLEFT% or %TURNRIGHT%] maneuver, you may increase the difficulty of the maneuver. If yo udo, perform that maneuver as a sideslip and recover 1 %FORCE%.%LINEBREAK%<strong>Vectored Thrusters:</strong> After you perform an action, you may perform a red %BOOST% action."""
+        '"Pops" Krail':
+           display_name: """“Pops” Krail"""
+           text: """After you fully execute a white maneuver, you may choose a friendly ship at range 0-1. If you do, it may perform a %FOCUS% action."""
+        "Flight Leader Ubbel":
+           display_name: """Flight Leader Ubbel"""
+           text: """After a friendly ship at range 0-2 defends, if it was dealt a damage card, you may perform a bonus attack against the attacker.%LINEBREAK% <strong>Rotating Cannons:</strong> You can rotate your %SINGLETURRETARC% indicator only to your %FRONTARC% or %REARARC%. You must treat the %FRONTARC% requirement of your equipped %CANNON% upgrades as %SINGLETURRETARC%."""
+        "Juno Eclipse":
+           display_name: """Juno Eclipse"""
+           text: """After you perform an action, you may perform a red %BOOST% action.%LINEBREAK%<strong>Advanced Targeting Computer:</strong> While you perform a primary attack against a defender you have locked, roll 1 additional attack die and change 1&nbsp;%HIT% result to a %CRIT% result."""
+        "Second Sister":
+           display_name: """Second Sister"""
+           text: """While you perform an attack, after the Neutralize Results step, if the attack hit, you may spend 2 %FORCE%. If you do, change all of your %HIT% results to %CRIT% results.%LINEBREAK%<strong>Autothrusters:</strong> After you perform an action, you may perform a red %BARRELROLL% or red %BOOST% action."""
+        "Magna Tolvan":
+           display_name: """Magna Tolvan"""
+           text: """While you have 2 or fewer stress tokens, you can perform white actions, even while stressed. %LINEBREAK% After you gain a stress token, you may perform a white action, if able."""
+        "Yrica Quell":
+           display_name: """Yrica Quell"""
+           text: """After you fully execute a maneuver, you may acquire a lock on an enemy ship in your %BULLSEYEARC%."""
+        "Poe Dameron (YT-1300)":
+           display_name: """Poe Dameron"""
+           text: """Before you execute a maneuver, you may spend 1 %CHARGE%. If you do, ignore obstacles during that maneuver.%LINEBREAK% After you fully execute a maneuver, you may spend 2 %CHARGE% to perform a white %BOOST% or red %BARRELROLL% action. Then if you performed a red %BARRELROLL% action, expose 1 damage card, if able."""
+        "Lando Calrissian (Resistance)":
+           display_name: """Lando Calrissian"""
+           text: """After you fully execute a red maneuver or perform a red action, you may spend any number of %CHARGE% to choose that many friendly ships at range 0-2. The chosen ships may perform an action, even while stressed."""
+        "Venisa Doza":
+           display_name: """Venisa Doza"""
+           text: """While you perform a %TORPEDO% or %MISSILE% attack, you may treat the %FRONTARC% requirement as %REARARC% for that attack. If you do, treat the range requirement as 1-2.%LINEBREAK%<strong>Weapon Hardpoint:</strong> You can equip 1&nbsp;%CANNON%, %TORPEDO%, or %MISSILE% upgrade."""
+        "Zay Versio":
+           display_name: """Zay Versio"""
+           text: """While you defend, if the attacker is damaged, you may reroll 1 defense die.%LINEBREAK%<strong>Weapon Hardpoint:</strong> You can equip 1&nbsp;%CANNON%, %TORPEDO%, or %MISSILE% upgrade."""
+        "Taka Jamoreesa":
+           display_name: """Taka Jamoreesa"""
+           text: """After you jam, you <b>must</b> assign 1 jam token to another ship at range 0-1 of the jammed ship, if able."""
+        "Hondo Ohnaka":
+           display_name: """Hondo Ohnaka"""
+           text: """<strong>Action:</strong> Choose 2 non-huge ships at range 0-3 of you that are not friendly to each other. Each chosen ship may perform an action that is on your action bar, even while stressed, in the order of your choice. Then, gain 1 calculate token."""
+        "Tor Phun":
+           display_name: """Tor Phun"""
+           text: """After you perform an attack, if the defender was destroyed, you may perform an action, even while stressed. Then you may gain 2 strain tokens to perform a bonus attack.%LINEBREAK%<strong>Concordia Faceoff:</strong> While you defend, if the attack range is 1 and you are in the attacker’s %FRONTARC%, change 1 result to an %EVADE% result."""
+        "Durge":
+           display_name: """Durge"""
+           text: """While you defend, after the Neutralize Results step, if there are more %HIT%/%CRIT% results than your active %SHIELD%, you may change 1 %HIT% result to a %CRIT% and cancel 1 %HIT% result.%LINEBREAK% <strong>Dead to Rights:</strong> While you perform an attack, if the defender is in your %BULLSEYEARC%, defense dice cannot be modified using green tokens."""
+        "Doctor Aphra":
+           display_name: """Doctor Aphra"""
+           text: """Before you engage, you may spend 1 green token and 1 %CHARGE%. If you do, you may choose another ship at range 0-1 that is not stressed. The chosen ship gains 1 stress token."""
+        "Lapin":
+           display_name: """Lapin"""
+           text: """While you defend or perform an attack, if the enemy ship is stressed, that ship's dice cannot be modified.%LINEBREAK%<strong>Notched Stabilizers:</strong> While you move, you ignore asteroids."""
+        "Volan Das":
+           display_name: """Volan Das"""
+           text: """After you fully execute a red maneuver, you may chose an enemy ship at range 1. The chosen ship gains 1 strain token and you may remove 1 stress token.%LINEBREAK%<strong>Modified for Organics:</strong> This ship is not affected by the <strong>Standardized</strong> restriction.%LINEBREAK%Reduce the difficulty of your speed 2 and 3 back [%BANKLEFT% or %BANKRIGHT%] maneuvers. Increase the difficulty of your speed 3 turn [%TURNLEFT or %TURNRIGHT%] maneuvers."""
+        "Aurra Sing":
+           display_name: """Aurra Sing"""
+           text: """Before you engage, you may spend 1 %FORCE% to choose 2 enemy ships at range 0-1. Transfer any number of orange and red tokens between those two ships."""
+        "Durge (Separatist)":
+           display_name: """Durge"""
+           text: """WHen you would be destroyed, you may spend 1 %CHARGE% to reveal all of your facedown damage cards. If you do, discard each <strong>Direct Hit!</strong> and each of your damage cards with the <strong>Pilot</strong> trait, then repair all of your faceup damage cards.%LINEBREAK% <strong>Dead to Rights:</strong> While you perform an attack, if the defender is in your %BULLSEYEARC%, defense dice cannot be modified using green tokens."""
+        "The Iron Assembler":
+           display_name: """The Iron Assembler"""
+           text: """After a friendly ship at range 0-1 skips its execute maneuver step, you may spend 1 %CHARGE%. If you do, if there is an asteroid or debris cloud at range 0 of it, that ship may repair 1 damage.%LINEBREAK%<strong>Networked Calculations:</strong> While you defend or perform an attack, you may spend 1 calculate token from a friendly ship at range 0-1 to change 1 %FOCUS% result to an %EVADE% or %HIT% result."""
+        "Kelrodo-Ai Holdout":
+           display_name: """Kelrodo-Ai Holdout"""
+           text: """After you are destroyed, you may transfer each of your locks and green tokens to another friendly Kelrodo-Ai Holdout at range 0-3.%LINEBREAK%<strong>Modified for Organics:</strong> This ship is not affected by the <strong>Standardized</strong> restriction.%LINEBREAK%Reduce the difficulty of your speed 2 and 3 back [%BANKLEFT% or %BANKRIGHT%] maneuvers. Increase the difficulty of your speed 3 turn [%TURNLEFT or %TURNRIGHT%] maneuvers."""
+        "Lieutenant Galek":
+           display_name: """Lieutenant Galek"""
+           text: """After another friendly ship at range 0-2 is destroyed, you may perform a %COORDINATE% action, even while stressed. While you coordinate, the ship you choose can perform an action only if that action is also on your action bar."""
+        "Jul Jerjerrod":
+           display_name: """Jul Jerjerrod"""
+           text: """After you perform a %BOOST% action, you may spend 1 %CHARGE% to remove 1 non-lock red or orange token.%LINEBREAK%<strong>Pursuit Thrusters:</strong> During the System Phase, you may perform a %BOOST% action."""
+        "DT-798":
+           display_name: """DT-798"""
+           text: """While you perform a primary attack, if you are not strained, you may gain 1 strain token to roll 1 additional die."""
+        "Lin Gaava":
+           display_name: """Lin Gaava"""
+           text: """<strong>Setup:</strong> After placing forces, assign the <strong>Primed for Speed</strong> condition to yourself and up to 2 other friendly TIE/fo or TIE/sf Fighters that have no equipped %MODIFICATION% upgrades."""
+        "Agent Tierny":
+           display_name: """Agent Tierny"""
+           text: """<strong>Setup:</strong> After placing forces, you <b>must</b> assign the <strong>Broken Trust</strong> condition to an enemy ship."""
+        "Adi Gallia":
+           display_name: """Adi Gallia"""
+           text: """While you defend at attack range 1, you may spend 1 %FORCE%. If you do, the attacker cannot apply the range bonus. %LINEBREAK% While you perform an attack against a defender at attack range 3, you may spend 1 %FORCE%, the defender cannot apply the range bonus.%LINEBREAK%<strong>Fine-tuned Controls:</strong> After you fully execute a maneuver, you may spend 1&nbsp;%FORCE% to perform a %BOOST% or %BARRELROLL% action."""
+        '"Sicko"':
+           display_name: """“Sicko”"""
+           text: """After you execute a basic maneuver, you may assign the <strong>Sickening Maneuver</strong> condition to yourself.<strong>Fire Convergence:</strong> While a friendly ship performs a non-%SINGLETURRETARC% attack, if the defender is in your turret arc you may spend 1 charge token, if you do the attacker may reroll up to 2 results."""
+        "Kit Fisto":
+           display_name: """Kit Fisto"""
+           text: """While another friendly ship defends, if the attacker is in its %BULLSEYEARC%, you may spend 1 %FORCE% to change 1 of the defender's blank results to a %FOCUS% result.%LINEBREAK% <strong>Intuitive Controls:</strong> During the System Phase, you may perform a purple %BARRELROLL% or purple %BOOST% action."""
+        '"Slammer"':
+           display_name: """“Slammer”"""
+           text: """After you fully execute a maneuver, you may spend 2 %CHARGE% to peform a %SLAM% action, even while stressed."""
+        "Gavyn Sykes":
+           display_name: """Gavyn Sykes"""
+           text: """While you defend or perfrom an attack, if the speed of your revealed maneuver is greater than the enemy ship's, you may reroll your blank results.%LINEBREAK%<strong>Full Throttle:</strong> After you fully execute a speed 3-5 maneuver, you may perform an %EVADE% action."""
+
             
         # Epic Ships
         "Republic Judiciary":
@@ -3219,6 +3388,13 @@ exportObj.cardLoaders.English = () ->
            text: '''INIT: 2 <br> %FRONTARC%: 2 %RANGEBONUS%, RANGE: 1-2 <br>%AGILITY%: 2, %HULL%: 2, %CHARGE%: 2 %LINEBREAK% <strong>Types:</strong> Device, Remote %LINEBREAK%After an enemy ship overlaps you, it gains 1 strain token. %LINEBREAK%After an enemy ship passes overlaps you, it gains 1 strain token.%LINEBREAK%<strong>Activation Phase:</strong> At the start of this phase, you may relocate forward using a [1 %TURNLEFT%], [2 %STRAIGHT%], or [1 %TURNRIGHT%] template.%LINEBREAK% <strong>Engagement Phase:</strong> You cannot attack if there are enemy ships at range 0. To perform an attack, you must spend 1 %CHARGE%. While you perform an attack, you may change 1 %FOCUS% result to a %HIT% result.'''
         '''Guarded''':
            text: '''While you defend, if you are not in the attacker's %BULLSEYEARC%, roll 1 additional defense die for each friendly calculating or evading <b>MagnaGuard Protector</b> in the attack arc.'''
+        '''Sickening Maneuver''':
+           text: '''You can execute red maneuvers even while stressed. %LINEBREAK% After you reveal a bank [%BANKLEFT% or %BANKRIGHT%] or turn [%TURNLEFT% or %TURNRIGHT%] maneuver, you <b>must</b> gain 1 strain and execute the maneuver as a slideslip.%LINEBREAK% After you reveal a straight [%STRAIGHT%] maneuver, you must execute that maneuver as a red koiogran turn [%KTURN%]. %LINEBREAK% After you execute a maneuver, remove this condition.'''
+        '''Primed For Speed''':
+           text: '''Add a white %SLAM% action to your action bar. %LINEBREAK% After you perform a %SLAM%, you must suffer 1 %HIT% damage to remove 1 disarm token.'''
+        '''Broken Trust''':
+           text: '''Treat friendly ships as allied.%LINEBREAK% Non-enemy ships treat you as allied.%LINEBREAK% While performing an attack, before declaring the defender, each allied ship in the attack arc that is not stressed gains 1 stress token. After you defend or perform an attack, if the defender was dealt at least 1 faceup damage card, or was destroyed, remove this condition.'''
+
             
     # in this file the display_name is often omitted, if it is identical to the name. I am too lazy to add those manually (though running the translation script would automatically do so). As this will pop up with every new card, I add those tags here
     for name, data of pilot_translations
