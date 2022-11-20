@@ -11838,6 +11838,7 @@ exportObj.basicCardData = ->
             unique: true
             standard_loadout: true
             id: 574
+            image_id: 441
             faction: "Galactic Republic"
             ship: "Eta-2 Actis"
             skill: 6
@@ -11858,6 +11859,7 @@ exportObj.basicCardData = ->
             unique: true
             standard_loadout: true
             id: 575
+            image_id: 440
             faction: "Galactic Republic"
             ship: "Eta-2 Actis"
             skill: 5
@@ -11877,6 +11879,7 @@ exportObj.basicCardData = ->
             unique: true
             standard_loadout: true
             id: 576
+            image_id: 438
             faction: "Galactic Republic"
             ship: "Eta-2 Actis"
             skill: 4
@@ -11896,6 +11899,7 @@ exportObj.basicCardData = ->
             unique: true
             standard_loadout: true
             id: 577
+            image_id: 338
             faction: "Galactic Republic"
             ship: "ARC-170"
             skill: 5
@@ -11918,6 +11922,7 @@ exportObj.basicCardData = ->
             unique: true
             standard_loadout: true
             id: 578
+            image_id: 342
             faction: "Galactic Republic"
             ship: "ARC-170"
             skill: 4
@@ -11939,6 +11944,7 @@ exportObj.basicCardData = ->
             unique: true
             standard_loadout: true
             id: 579
+            image_id: 339
             faction: "Galactic Republic"
             ship: "ARC-170"
             skill: 3
@@ -11959,6 +11965,7 @@ exportObj.basicCardData = ->
             unique: true
             standard_loadout: true
             id: 580
+            image_id: 434
             faction: "Galactic Republic"
             ship: "Nimbus-class V-Wing"
             skill: 5
@@ -11977,6 +11984,7 @@ exportObj.basicCardData = ->
             unique: true
             standard_loadout: true
             id: 581
+            image_id: 433
             faction: "Galactic Republic"
             ship: "Nimbus-class V-Wing"
             skill: 4
@@ -11999,6 +12007,7 @@ exportObj.basicCardData = ->
             unique: true
             standard_loadout: true
             id: 582
+            image_id: 315
             faction: "Galactic Republic"
             ship: "V-19 Torrent"
             skill: 5
@@ -12018,6 +12027,7 @@ exportObj.basicCardData = ->
             unique: true
             standard_loadout: true
             id: 583
+            image_id: 318
             faction: "Galactic Republic"
             ship: "V-19 Torrent"
             skill: 3
@@ -12037,6 +12047,7 @@ exportObj.basicCardData = ->
             unique: true
             standard_loadout: true
             id: 584
+            image_id: 334
             faction: "Separatist Alliance"
             ship: "Sith Infiltrator"
             skill: 5
@@ -12062,6 +12073,7 @@ exportObj.basicCardData = ->
             unique: true
             standard_loadout: true
             id: 585
+            image_id: 328
             faction: "Separatist Alliance"
             ship: "Hyena-Class Droid Bomber"
             skill: 3
@@ -12088,6 +12100,7 @@ exportObj.basicCardData = ->
             unique: true
             standard_loadout: true
             id: 586
+            image_id: 326
             faction: "Separatist Alliance"
             ship: "Hyena-Class Droid Bomber"
             skill: 4
@@ -12106,6 +12119,7 @@ exportObj.basicCardData = ->
             xws: "baktoidprototype-siegeofcoruscant"
             standard_loadout: true
             id: 587
+            image_id: 329
             faction: "Separatist Alliance"
             ship: "Hyena-Class Droid Bomber"
             skill: 1
@@ -12126,6 +12140,7 @@ exportObj.basicCardData = ->
             unique: true
             standard_loadout: true
             id: 588
+            image_id: 421
             faction: "Separatist Alliance"
             ship: "Droid Tri-fighter"
             skill: 3
@@ -12145,6 +12160,7 @@ exportObj.basicCardData = ->
             unique: true
             standard_loadout: true
             id: 589
+            image_id: 422
             faction: "Separatist Alliance"
             ship: "Droid Tri-Fighter"
             skill: 4
@@ -12163,6 +12179,7 @@ exportObj.basicCardData = ->
             xws: "phlacarphoccprototype-siegeofcoruscant"
             standard_loadout: true
             id: 590
+            image_id: 423
             faction: "Separatist Alliance"
             ship: "Droid Tri-Fighter"
             skill: 5
@@ -12183,6 +12200,7 @@ exportObj.basicCardData = ->
             unique: true
             standard_loadout: true
             id: 591
+            image_id: 311
             faction: "Separatist Alliance"
             ship: "Vulture-class Droid Fighter"
             skill: 3
@@ -12201,6 +12219,7 @@ exportObj.basicCardData = ->
             unique: true
             standard_loadout: true
             id: 592
+            image_id: 337
             faction: "Separatist Alliance"
             ship: "Vulture-class Droid Fighter"
             skill: 1
@@ -12217,6 +12236,7 @@ exportObj.basicCardData = ->
             xws: "haorchallprototype-siegeofcoruscant"
             standard_loadout: true
             id: 593
+            image_id: 310
             faction: "Separatist Alliance"
             ship: "Vulture-class Droid Fighter"
             skill: 1
@@ -12649,7 +12669,7 @@ exportObj.basicCardData = ->
             name: "Kelrodo-Ai Holdout"
             id: 618
             faction: "Separatist Alliance"
-            ship: "Droid Tri-Fighter"
+            ship: "Vulture-class Droid Fighter"
             skill: 2
             points: 0
             max_per_squad: 3
