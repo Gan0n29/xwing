@@ -11833,137 +11833,239 @@ exportObj.basicCardData = ->
         }
         {
             name: "Anakin Skywalker (SoC)"
+            canonical_name: 'Anakin Skywalker'.canonicalize()
+            xws: "anakinskywalker-siegeofcoruscant"
             unique: true
+            standard_loadout: true
             id: 574
-            skip: true
             faction: "Galactic Republic"
             ship: "Eta-2 Actis"
             skill: 6
-            points: 20
+            points: 0
             force: 3
-            chassis: "Intuitive Controls"
             keyword: ["Dark Side"]
+            slots: [
+                "Force"
+                "Talent"
+                "Astromech"
+                "Modification"
+            ]
         }
         {
             name: "Obi-Wan Kenobi (SoC)"
+            canonical_name: 'Obi-Wan Kenobi'.canonicalize()
+            xws: "obiwankenobi-siegeofcoruscant"
             unique: true
+            standard_loadout: true
             id: 575
-            skip: true
             faction: "Galactic Republic"
             ship: "Eta-2 Actis"
             skill: 5
-            points: 20
+            points: 0
             force: 3
+            slots: [
+                "Force"
+                "Talent"
+                "Astromech"
+                "Modification"
+            ]
         }
         {
             name: "Shaak Ti (SoC)"
+            canonical_name: 'Shaak Ti'.canonicalize()
+            xws: "shaakti-siegeofcoruscant"
             unique: true
+            standard_loadout: true
             id: 576
-            skip: true
             faction: "Galactic Republic"
             ship: "Eta-2 Actis"
             skill: 4
-            points: 20
+            points: 0
             force: 2
+            slots: [
+                "Force"
+                "Talent"
+                "Astromech"
+                "Modification"
+            ]
         }
         {
             name: '"Odd Ball" (SoC)'
+            canonical_name: 'Odd Ball'.canonicalize()
+            xws: "oddball-siegeofcoruscant"
             unique: true
+            standard_loadout: true
             id: 577
-            skip: true
             faction: "Galactic Republic"
             ship: "ARC-170 Starfighter"
             skill: 5
-            points: 20
-            keyword: ["Born for This"]
+            points: 0
+            ship_override:
+                shields: 4
+            slots: [
+                "Talent"
+                "Torpedo"
+                "Crew"
+                "Gunner"
+                "Astromech"
+                "Modification"
+            ]
         }
         {
             name: '"Wolffe" (SoC)'
+            canonical_name: 'Wolffe'.canonicalize()
+            xws: "wolffe-siegeofcoruscant"
             unique: true
+            standard_loadout: true
             id: 578
-            skip: true
             faction: "Galactic Republic"
             ship: "ARC-170 Starfighter"
             skill: 4
-            points: 20
-            keyword: ["Born for This"]
+            charge: 1
+            points: 0
+            slots: [
+                "Talent"
+                "Torpedo"
+                "Crew"
+                "Gunner"
+                "Astromech"
+                "Modification"
+            ]
         }
         {
             name: '"Jag" (SoC)'
+            canonical_name: 'Jag'.canonicalize()
+            xws: "jag-siegeofcoruscant"
             unique: true
+            standard_loadout: true
             id: 579
-            skip: true
             faction: "Galactic Republic"
             ship: "ARC-170 Starfighter"
             skill: 3
-            points: 20
-            keyword: ["Born for This"]
+            points: 0
+            slots: [
+                "Talent"
+                "Torpedo"
+                "Crew"
+                "Gunner"
+                "Astromech"
+                "Modification"
+            ]
         }
         {
             name: '"Contrail" (SoC)'
+            canonical_name: 'Contrail'.canonicalize()
+            xws: "contrail-siegeofcoruscant"
             unique: true
+            standard_loadout: true
             id: 580
-            skip: true
             faction: "Galactic Republic"
             ship: "Nimbus-class V-wing"
             skill: 5
-            points: 20
-            keyword: ["Born for This"]
+            points: 0
+            slots: [
+                "Talent"
+                "Astromech"
+                "Modification"
+                "Configuration"
+            ]
         }
         {
             name: '"Klick" (SoC)'
+            canonical_name: 'Klick'.canonicalize()
+            xws: "klick-siegeofcoruscant"
             unique: true
+            standard_loadout: true
             id: 581
-            skip: true
             faction: "Galactic Republic"
             ship: "Nimbus-class V-wing"
             skill: 4
-            points: 20
-            keyword: ["Born for This"]
+            points: 0
+            charge: 1
+            recurring: 1
+            ship_override:
+                shields: 3
+            slots: [
+                "Talent"
+                "Astromech"
+                "Modification"
+                "Configuration"
+            ]
         }
         {
             name: '"Kickback" (SoC)'
+            canonical_name: 'Kickback'.canonicalize()
+            xws: "kickback-siegeofcoruscant"
             unique: true
+            standard_loadout: true
             id: 582
-            skip: true
             faction: "Galactic Republic"
             ship: "V-19 Torrent Starfighter"
-            skill: 4
-            points: 20
-            keyword: ["Born for This"]
+            skill: 5
+            points: 0
+            ship_override:
+                hull: 6
+            slots: [
+                "Talent"
+                "Missile"
+                "Modification"
+            ]
         }
         {
             name: '"Axe" (SoC)'
+            canonical_name: 'Axe'.canonicalize()
+            xws: "axe-siegeofcoruscant"
             unique: true
+            standard_loadout: true
             id: 583
-            skip: true
             faction: "Galactic Republic"
             ship: "V-19 Torrent Starfighter"
             skill: 3
-            points: 20
-            keyword: ["Born for This"]
+            points: 0
+            ship_override:
+                hull: 6
+            slots: [
+                "Talent"
+                "Missile"
+                "Modification"
+            ]
         }
         {
             name: "Count Dooku (SoC)"
+            canonical_name: 'Count Dooku'.canonicalize()
+            xws: "countdooku-siegeofcoruscant"
             unique: true
+            standard_loadout: true
             id: 584
-            skip: true
             faction: "Separatist Alliance"
             ship: "Sith Infiltrator"
-            skill: 3
-            points: 20
+            skill: 5
+            points: 0
             force: 3
             keyword: ["Dark Side"]
+            slots: [
+                "Force"
+                "Cannon"
+                "Torpedo"
+                "Crew"
+                "Crew"
+                "Device"
+                "Modification"
+                "Title"
+                "Tactical Relay"
+            ]
         }
         {
             name: "DBS-32C (SoC)"
+            canonical_name: 'DBS-32C'.canonicalize()
+            xws: "dbs32c-siegeofcoruscant"
             unique: true
+            standard_loadout: true
             id: 585
-            skip: true
             faction: "Separatist Alliance"
             ship: "Hyena-class Droid Bomber"
             skill: 3
-            points: 20
+            points: 0
             ship_override:
                 actions: [
                     "Calculate"
@@ -11972,83 +12074,784 @@ exportObj.basicCardData = ->
                     "R-> Lock"
                     "R-Jam"
                 ]
+            slots: [
+                "Sensor"
+                "Tactical Relay"
+                "Modification"
+                "Configuration"
+            ]
         }
         {
             name: "DBS-404 (SoC)"
+            canonical_name: 'DBS-404'.canonicalize()
+            xws: "dbs404-siegeofcoruscant"
             unique: true
+            standard_loadout: true
             id: 586
-            skip: true
             faction: "Separatist Alliance"
             ship: "Hyena-class Droid Bomber"
             skill: 4
-            points: 20
+            points: 0
+            slots: [
+                "Torpedo"
+                "Missile"
+                "Device"
+                "Modification"
+                "Configuration"
+            ]
         }
         {
             name: "Baktoid Prototype (SoC)"
+            canonical_name: 'Baktoid Prototype'.canonicalize()
+            xws: "baktoidprototype-siegeofcoruscant"
+            standard_loadout: true
             id: 587
-            skip: true
             faction: "Separatist Alliance"
             ship: "Hyena-class Droid Bomber"
             skill: 1
-            points: 20
+            max_per_squad: 2
+            points: 0
+            slots: [
+                "Sensor"
+                "Missile"
+                "Missile"
+                "Modification"
+                "Configuration"
+            ]
         }
         {
             name: "DIS-347 (SoC)"
+            canonical_name: 'DIS-347'.canonicalize()
+            xws: "dis347-siegeofcoruscant"
             unique: true
+            standard_loadout: true
             id: 588
-            skip: true
             faction: "Separatist Alliance"
             ship: "Droid Tri-fighter"
             skill: 3
-            points: 20
+            points: 0
+            slots: [
+                "Talent"
+                "Sensor"
+                "Missile"
+                "Modification"
+                "Configuration"
+            ]
         }
         {
             name: "DIS-T81 (SoC)"
+            canonical_name: 'DIS-T81'.canonicalize()
+            xws: "dist81-siegeofcoruscant"
             unique: true
+            standard_loadout: true
             id: 589
-            skip: true
             faction: "Separatist Alliance"
             ship: "Droid Tri-fighter"
             skill: 4
-            points: 20
+            points: 0
+            slots: [
+                "Talent"
+                "Sensor"
+                "Missile"
+                "Modification"
+                "Configuration"
+            ]
         }
         {
             name: "Phlac-Arphocc Prototype (SoC)"
+            canonical_name: 'Phlac-Arphocc Prototype'.canonicalize()
+            xws: "phlacarphoccprototype-siegeofcoruscant"
+            standard_loadout: true
             id: 590
-            skip: true
             faction: "Separatist Alliance"
             ship: "Droid Tri-fighter"
-            skill: 1
-            points: 20
+            skill: 5
+            points: 0
+            max_per_squad: 2
+            slots: [
+                "Talent"
+                "Sensor"
+                "Missile"
+                "Modification"
+                "Configuration"
+            ]
         }
         {
             name: "DFS-081 (SoC)"
+            canonical_name: 'DFS-081'.canonicalize()
+            xws: "dfs081-siegeofcoruscant"
             unique: true
+            standard_loadout: true
             id: 591
-            skip: true
             faction: "Separatist Alliance"
             ship: "Vulture-class Droid Fighter"
             skill: 3
-            points: 20
+            charge: 2
+            points: 0
+            slots: [
+                "Missile"
+                "Configuration"
+                "Modification"
+            ]
         }
         {
             name: "DFS-311 (SoC)"
+            canonical_name: 'DFS-311'.canonicalize()
+            xws: "dfs311-siegeofcoruscant"
             unique: true
+            standard_loadout: true
             id: 592
-            skip: true
             faction: "Separatist Alliance"
             ship: "Vulture-class Droid Fighter"
             skill: 1
-            points: 20
+            points: 0
+            slots: [
+                "Missile"
+                "Configuration"
+                "Modification"
+            ]
         }
         {
             name: "Haor Chall Prototype (SoC)"
+            canonical_name: 'Haor Chall Prototype'.canonicalize()
+            xws: "haorchallprototype-siegeofcoruscant"
+            standard_loadout: true
             id: 593
-            skip: true
             faction: "Separatist Alliance"
             ship: "Vulture-class Droid Fighter"
             skill: 1
+            max_per_squad: 2
+            points: 0
+            slots: [
+                "Missile"
+                "Configuration"
+                "Modification"
+            ]
+        }
+        {
+            name: "Corran Horn (X-Wing)"
+            id: 594
+            unique: true
+            xws: "corranhorn-t65xwing"
+            faction: "Rebel Alliance"
+            ship: "X-wing"
+            skill: 5
+            points: 0
+            slots: [
+                "Talent"
+                "Torpedo"
+                "Astromech"
+                "Modification"
+                "Configuration"
+            ]
+        }
+        {
+            name: "Wes Janson"
+            id: 595
+            unique: true
+            faction: "Rebel Alliance"
+            ship: "X-wing"
+            skill: 5
+            charge: 1
+            recurring: 1
+            points: 0
+            slots: [
+                "Talent"
+                "Torpedo"
+                "Astromech"
+                "Modification"
+                "Configuration"
+            ]
+        }
+        {
+            name: "Tycho Celchu"
+            id: 596
+            unique: true
+            faction: "Rebel Alliance"
+            ship: "A-wing"
+            skill: 5
+            points: 0
+            slots: [
+                "Talent"
+                "Talent"
+                "Missile"
+                "Configuration"
+            ]
+        }
+        {
+            name: "Keo Venzee"
+            id: 597
+            unique: true
+            faction: "Rebel Alliance"
+            ship: "A-wing"
+            skill: 3
+            points: 0
+            force: 1
+            forcerecurring: 0
+            slots: [
+                "Force"
+                "Force"
+                "Missile"
+                "Configuration"
+            ]
+        }
+        {
+            name: '"Pops" Krail'
+            id: 598
+            unique: true
+            faction: "Rebel Alliance"
+            ship: "Y-wing"
+            skill: 3
+            points: 0
+            slots: [
+                "Talent"
+                "Turret"
+                "Torpedo"
+                "Missile"
+                "Astromech"
+                "Device"
+                "Illicit"
+                "Modification"
+            ]
+        }
+        {
+            name: "Flight Leader Ubbel"
+            id: 599
+            unique: true
+            faction: "Galactic Empire"
+            ship: "TIE/rb Heavy"
+            skill: 5
+            points: 0
+            slots: [
+                "Cannon"
+                "Cannon"
+                "Modification"
+                "Modification"
+                "Configuration"
+            ]
+        }
+        {
+            name: "Juno Eclipse"
+            id: 600
+            unique: true
+            faction: "Galactic Empire"
+            ship: "TIE Advanced"
+            skill: 5
+            points: 0
+            slots: [
+                "Talent"
+                "Sensor"
+                "Missile"
+                "Modification"
+            ]
+        }
+        {
+            name: "Second Sister"
+            id: 601
+            unique: true
+            faction: "Galactic Empire"
+            ship: "TIE Interceptor"
+            skill: 4
+            force: 2
+            points: 0
+            slots: [
+                "Force"
+                "Modification"
+                "Modification"
+                "Configuration"
+            ]
+        }
+        {
+            name: "Magna Tolvan"
+            id: 602
+            unique: true
+            faction: "Galactic Empire"
+            ship: "TIE Fighter"
+            skill: 3
+            points: 0
+            slots: [
+                "Talent"
+                "Modification"
+            ]
+        }
+        {
+            name: "Yrica Quell"
+            id: 603
+            unique: true
+            faction: "Galactic Empire"
+            ship: "TIE Fighter"
+            skill: 3
+            points: 0
+            slots: [
+                "Talent"
+                "Modification"
+            ]
+        }
+        {
+            name: "Poe Dameron (YT-1300)"
+            canonical_name: 'Poe Dameron'.canonicalize()
+            xws: "poedameron-scavengedyt1300"
+            id: 604
+            unique: true
+            faction: "Resistance"
+            ship: "Scavenged YT-1300"
+            skill: 6
+            charge: 2
+            recurring: 1
+            points: 0
+            slots: [
+                "Talent"
+                "Missile"
+                "Crew"
+                "Crew"
+                "Gunner"
+                "Illicit"
+                "Modification"
+                "Title"
+            ]
+        }
+        {
+            name: "Lando Calrissian (Resistance)"
+            xws: "landocalrissian-scavengedyt1300"
+            id: 605
+            unique: true
+            faction: "Resistance"
+            ship: "Scavenged YT-1300"
+            skill: 5
+            charge: 3
+            recurring: 1
+            points: 0
+            slots: [
+                "Talent"
+                "Missile"
+                "Crew"
+                "Crew"
+                "Gunner"
+                "Illicit"
+                "Modification"
+                "Title"
+            ]
+        }
+        {
+            name: "Venisa Doza"
+            id: 606
+            unique: true
+            faction: "Resistance"
+            ship: "T-70 X-wing"
+            skill: 4
+            points: 0
+            slots: [
+                "Talent"
+                "Astromech"
+                "Tech"
+                "Modification"
+                "Configuration"
+                "Title"
+                "HardpointShip"
+            ]
+        }
+        {
+            name: "Zay Versio"
+            id: 607
+            unique: true
+            faction: "Resistance"
+            ship: "T-70 X-wing"
+            skill: 3
+            points: 0
+            slots: [
+                "Talent"
+                "Astromech"
+                "Tech"
+                "Modification"
+                "Configuration"
+                "Title"
+                "HardpointShip"
+            ]
+        }
+        {
+            name: "Taka Jamoreesa"
+            id: 608
+            unique: true
+            faction: "Resistance"
+            ship: "Resistance Transport"
+            skill: 2
+            points: 0
+            slots: [
+                "Tech"
+                "Cannon"
+                "Cannon"
+                "Torpedo"
+                "Crew"
+                "Crew"
+                "Astromech"
+                "Modification"
+            ]
+        }
+        {
+            name: "Hondo Ohnaka"
+            id: 609
+            unique: true
+            faction: "Scum and Villainy"
+            ship: "Firespray-31"
+            skill: 1
             points: 20
+            loadout: 99
+            slots: [
+                "Modification"
+            ]
+        }
+        {
+            name: "Tor Phun"
+            id: 610
+            unique: true
+            faction: "Scum and Villainy"
+            ship: "Fang Fighter"
+            skill: 3
+            points: 0
+            slots: [
+                "Talent"
+                "Torpedo"
+                "Modification"
+            ]
+        }
+        {
+            name: "Durge"
+            id: 611
+            unique: true
+            faction: "Scum and Villainy"
+            ship: "Rogue-class Starfighter"
+            skill: 5
+            points: 0
+            slots: [
+                "Talent"
+                "Cannon"
+                "Cannon"
+                "Illicit"
+                "Modification"
+                "Title"
+            ]
+        }
+        {
+            name: "Doctor Aphra"
+            id: 612
+            unique: true
+            faction: "Scum and Villainy"
+            ship: "YV-666"
+            skill: 3
+            points: 0
+            charge: 3
+            slots: [
+                "Talent"
+                "Cannon"
+                "Missile"
+                "Crew"
+                "Crew"
+                "Gunner"
+                "Illicit"
+                "Modification"
+                "Title"
+            ]
+        }
+        {
+            name: "Lapin"
+            id: 613
+            unique: true
+            faction: "Scum and Villainy"
+            ship: "Mining Guild TIE Fighter"
+            skill: 2
+            points: 0
+            slots: [
+                "Talent"
+                "Modification"
+            ]
+        }
+        {
+            name: "Volan Das"
+            id: 614
+            unique: true
+            faction: "Separatist Alliance"
+            ship: "Droid Tri-fighter"
+            skill: 5
+            points: 0
+            keyword: ["NoStandardized"]
+            slots: [
+                "Talent"
+                "Sensor"
+                "Missile"
+                "Modification"
+                "Configuration"
+            ]
+            ship_override:
+                actions: [
+                    "Focus"
+                    "Evade"
+                    "Lock"
+                    "Barrel Roll"
+                    "R-> Evade"
+                    "Boost"
+                    "R-> Focus"
+                ]
+        }
+        {
+            name: "Aurra Sing"
+            id: 615
+            unique: true
+            faction: "Separatist Alliance"
+            ship: "Firespray-31"
+            skill: 4
+            force: 1
+            points: 0
+            slots: [
+                "Force"
+                "Cannon"
+                "Missile"
+                "Crew"
+                "Device"
+                "Illicit"
+                "Modification"
+                "Title"
+            ]
+        }
+        {
+            name: "Durge (Separatist)"
+            xws: "durge-separatistalliance"
+            id: 616
+            unique: true
+            faction: "Separatist Alliance"
+            ship: "Rogue-class Starfighter"
+            skill: 1
+            charge: 1
+            points: 0
+            slots: [
+                "Talent"
+                "Cannon"
+                "Cannon"
+                "Illicit"
+                "Modification"
+                "Title"
+            ]
+            ]
+        }
+        {
+            name: "The Iron Assembler"
+            id: 617
+            unique: true
+            faction: "Separatist Alliance"
+            ship: "Vulture-class Droid Fighter"
+            skill: 1
+            charge: 3
+            points: 0
+            slots: [
+                "Missile"
+                "Configuration"
+                "Modification"
+            ]
+        }
+        {
+            name: "Kelrodo-Ai Holdout"
+            id: 618
+            faction: "Separatist Alliance"
+            ship: "Droid Tri-fighter"
+            skill: 2
+            points: 0
+            max_per_squad: 3
+            keyword: ["NoStandardized"]
+            slots: [
+                "Talent"
+                "Sensor"
+                "Missile"
+                "Modification"
+                "Configuration"
+            ]
+            ship_override:
+                actions: [
+                    "Calculate"
+                    "Lock"
+                    "Barrel Roll"
+                    "R-> Focus"
+                ]
+        }
+        {
+            name: "Adi Gallia"
+            id: 619
+            unique: true
+            faction: "Galactic Republic"
+            ship: "Delta-7 Aethersprite"
+            skill: 5
+            points: 0
+            force: 2
+            slots: [
+                "Force"
+                "Astromech"
+                "Configuration"
+                "Modification"
+            ]
+        }
+        {
+            name: "Adi Gallia (Delta-7B)"
+            canonical_name: 'Adi Gallia'.canonicalize()
+            xws: "adigallia-delta7baethersprite"
+            id: 620
+            skip : true
+            unique: true
+            faction: "Galactic Republic"
+            ship: "Delta-7b Aethersprite"
+            skill: 5
+            force: 2
+            points: 20
+            loadout: 99
+            slots: [
+                "Modification"
+            ]
+        }
+        {
+            name: '"Sicko"'
+            id: 621
+            unique: true
+            faction: "Galactic Republic"
+            ship: "LAAT/i Gunship"
+            skill: 2
+            charge: 2
+            recurring: 1
+            points: 0
+            slots: [
+                "Missile"
+                "Missile"
+                "Crew"
+                "Crew"
+                "Gunner"
+                "Gunner"
+                "Modification"
+            ]
+            applies_condition: 'Sickening Maneuver'.canonicalize()
+        }
+        {
+            name: "Kit Fisto"
+            id: 622
+            unique: true
+            faction: "Galactic Republic"
+            ship: "Eta-2 Actis"
+            skill: 4
+            force: 2
+            points: 0
+            slots: [
+                "Force"
+                "Talent"
+                "Astromech"
+                "Modification"
+            ]
+        }
+        {
+            name: '"Slammer"'
+            id: 623
+            unique: true
+            faction: "Galactic Republic"
+            ship: "V-19 Torrent Starfighter"
+            skill: 1
+            charge: 2
+            recurring: 1
+            points: 0
+            slots: [
+                "Talent"
+                "Missile"
+                "Modification"
+            ]
+        }
+        {
+            name: "Gavyn Sykes"
+            id: 624
+            unique: true
+            faction: "Galactic Republic"
+            ship: "Naboo Royal N-1 Starfighter"
+            skill: 3
+            points: 0
+            slots: [
+                "Talent"
+                "Sensor"
+                "Astromech"
+                "Torpedo"
+            ]
+        }
+        {
+            name: "Lieutenant Galek"
+            id: 625
+            unique: true
+            faction: "First Order"
+            ship: "TIE/fo Fighter"
+            skill: 5
+            points: 0
+            slots: [
+                "Talent"
+                "Tech"
+                "Modification"
+            ]
+        }
+        {
+            name: "Jul Jerjerrod"
+            id: 626
+            unique: true
+            faction: "First Order"
+            ship: "TIE/se Bomber"
+            skill: 4
+            charge: 3
+            points: 0
+            slots: [
+                "Talent"
+                "Tech"
+                "Torpedo"
+                "Missile"
+                "Gunner"
+                "Device"
+                "Device"
+                "Modification"
+            ]
+        }
+        {
+            name: "DT-798"
+            id: 627
+            unique: true
+            faction: "First Order"
+            ship: "TIE/fo Fighter"
+            skill: 4
+            points: 0
+            slots: [
+                "Talent"
+                "Tech"
+                "Modification"
+            ]
+        }
+        {
+            name: "Lin Gaava"
+            id: 628
+            unique: true
+            faction: "First Order"
+            ship: "TIE/fo Fighter"
+            skill: 3
+            points: 0
+            slots: [
+                "Talent"
+                "Tech"
+                "Modification"
+            ]
+            applies_condition: '''Primed For Speed'''.canonicalize()
+        }
+        {
+            name: "Agent Tierny"
+            id: 629
+            unique: true
+            faction: "First Order"
+            ship: "Xi-class Light Shuttle"
+            skill: 3
+            points: 0
+            slots: [
+                "Talent"
+                "Tech"
+                "Tech"
+                "Crew"
+                "Crew"
+                "Modification"
+            ]
+            applies_condition: '''Broken Trust'''.canonicalize()
         }
     ]
 
@@ -17205,6 +18008,18 @@ exportObj.basicCardData = ->
         {
             name: '''Guarded'''
             id: 40
+        }
+        {
+            name: '''Sickening Maneuver'''
+            id: 41
+        }
+        {
+            name: '''Primed For Speed'''
+            id: 42
+        }
+        {
+            name: '''Broken Trust'''
+            id: 43
         }
     ]
 
