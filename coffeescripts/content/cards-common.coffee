@@ -11897,7 +11897,7 @@ exportObj.basicCardData = ->
             standard_loadout: true
             id: 577
             faction: "Galactic Republic"
-            ship: "ARC-170 Starfighter"
+            ship: "ARC-170"
             skill: 5
             points: 0
             ship_override:
@@ -11919,7 +11919,7 @@ exportObj.basicCardData = ->
             standard_loadout: true
             id: 578
             faction: "Galactic Republic"
-            ship: "ARC-170 Starfighter"
+            ship: "ARC-170"
             skill: 4
             charge: 1
             points: 0
@@ -11940,7 +11940,7 @@ exportObj.basicCardData = ->
             standard_loadout: true
             id: 579
             faction: "Galactic Republic"
-            ship: "ARC-170 Starfighter"
+            ship: "ARC-170"
             skill: 3
             points: 0
             slots: [
@@ -11960,7 +11960,7 @@ exportObj.basicCardData = ->
             standard_loadout: true
             id: 580
             faction: "Galactic Republic"
-            ship: "Nimbus-class V-wing"
+            ship: "Nimbus-class V-Wing"
             skill: 5
             points: 0
             slots: [
@@ -11978,7 +11978,7 @@ exportObj.basicCardData = ->
             standard_loadout: true
             id: 581
             faction: "Galactic Republic"
-            ship: "Nimbus-class V-wing"
+            ship: "Nimbus-class V-Wing"
             skill: 4
             points: 0
             charge: 1
@@ -12000,7 +12000,7 @@ exportObj.basicCardData = ->
             standard_loadout: true
             id: 582
             faction: "Galactic Republic"
-            ship: "V-19 Torrent Starfighter"
+            ship: "V-19 Torrent"
             skill: 5
             points: 0
             ship_override:
@@ -12019,7 +12019,7 @@ exportObj.basicCardData = ->
             standard_loadout: true
             id: 583
             faction: "Galactic Republic"
-            ship: "V-19 Torrent Starfighter"
+            ship: "V-19 Torrent"
             skill: 3
             points: 0
             ship_override:
@@ -12063,7 +12063,7 @@ exportObj.basicCardData = ->
             standard_loadout: true
             id: 585
             faction: "Separatist Alliance"
-            ship: "Hyena-class Droid Bomber"
+            ship: "Hyena-Class Droid Bomber"
             skill: 3
             points: 0
             ship_override:
@@ -12089,7 +12089,7 @@ exportObj.basicCardData = ->
             standard_loadout: true
             id: 586
             faction: "Separatist Alliance"
-            ship: "Hyena-class Droid Bomber"
+            ship: "Hyena-Class Droid Bomber"
             skill: 4
             points: 0
             slots: [
@@ -12107,7 +12107,7 @@ exportObj.basicCardData = ->
             standard_loadout: true
             id: 587
             faction: "Separatist Alliance"
-            ship: "Hyena-class Droid Bomber"
+            ship: "Hyena-Class Droid Bomber"
             skill: 1
             max_per_squad: 2
             points: 0
@@ -12146,7 +12146,7 @@ exportObj.basicCardData = ->
             standard_loadout: true
             id: 589
             faction: "Separatist Alliance"
-            ship: "Droid Tri-fighter"
+            ship: "Droid Tri-Fighter"
             skill: 4
             points: 0
             slots: [
@@ -12164,7 +12164,7 @@ exportObj.basicCardData = ->
             standard_loadout: true
             id: 590
             faction: "Separatist Alliance"
-            ship: "Droid Tri-fighter"
+            ship: "Droid Tri-Fighter"
             skill: 5
             points: 0
             max_per_squad: 2
@@ -12234,7 +12234,7 @@ exportObj.basicCardData = ->
             unique: true
             xws: "corranhorn-t65xwing"
             faction: "Rebel Alliance"
-            ship: "X-wing"
+            ship: "X-Wing"
             skill: 5
             points: 0
             slots: [
@@ -12250,7 +12250,7 @@ exportObj.basicCardData = ->
             id: 595
             unique: true
             faction: "Rebel Alliance"
-            ship: "X-wing"
+            ship: "X-Wing"
             skill: 5
             charge: 1
             recurring: 1
@@ -12268,7 +12268,7 @@ exportObj.basicCardData = ->
             id: 596
             unique: true
             faction: "Rebel Alliance"
-            ship: "A-wing"
+            ship: "A-Wing"
             skill: 5
             points: 0
             slots: [
@@ -12283,7 +12283,7 @@ exportObj.basicCardData = ->
             id: 597
             unique: true
             faction: "Rebel Alliance"
-            ship: "A-wing"
+            ship: "A-Wing"
             skill: 3
             points: 0
             force: 1
@@ -12300,7 +12300,7 @@ exportObj.basicCardData = ->
             id: 598
             unique: true
             faction: "Rebel Alliance"
-            ship: "Y-wing"
+            ship: "Y-Wing"
             skill: 3
             points: 0
             slots: [
@@ -12437,7 +12437,7 @@ exportObj.basicCardData = ->
             id: 606
             unique: true
             faction: "Resistance"
-            ship: "T-70 X-wing"
+            ship: "T-70 X-Wing"
             skill: 4
             points: 0
             slots: [
@@ -12455,7 +12455,7 @@ exportObj.basicCardData = ->
             id: 607
             unique: true
             faction: "Resistance"
-            ship: "T-70 X-wing"
+            ship: "T-70 X-Wing"
             skill: 3
             points: 0
             slots: [
@@ -12494,8 +12494,7 @@ exportObj.basicCardData = ->
             faction: "Scum and Villainy"
             ship: "Firespray-31"
             skill: 1
-            points: 20
-            loadout: 99
+            points: 0
             slots: [
                 "Modification"
             ]
@@ -12570,7 +12569,7 @@ exportObj.basicCardData = ->
             id: 614
             unique: true
             faction: "Separatist Alliance"
-            ship: "Droid Tri-fighter"
+            ship: "Droid Tri-Fighter"
             skill: 5
             points: 0
             keyword: ["NoStandardized"]
@@ -12630,7 +12629,6 @@ exportObj.basicCardData = ->
                 "Modification"
                 "Title"
             ]
-            ]
         }
         {
             name: "The Iron Assembler"
@@ -12651,7 +12649,7 @@ exportObj.basicCardData = ->
             name: "Kelrodo-Ai Holdout"
             id: 618
             faction: "Separatist Alliance"
-            ship: "Droid Tri-fighter"
+            ship: "Droid Tri-Fighter"
             skill: 2
             points: 0
             max_per_squad: 3
@@ -12746,7 +12744,7 @@ exportObj.basicCardData = ->
             id: 623
             unique: true
             faction: "Galactic Republic"
-            ship: "V-19 Torrent Starfighter"
+            ship: "V-19 Torrent"
             skill: 1
             charge: 2
             recurring: 1
@@ -12777,7 +12775,7 @@ exportObj.basicCardData = ->
             id: 625
             unique: true
             faction: "First Order"
-            ship: "TIE/fo Fighter"
+            ship: "TIE/FO Fighter"
             skill: 5
             points: 0
             slots: [
@@ -12791,7 +12789,7 @@ exportObj.basicCardData = ->
             id: 626
             unique: true
             faction: "First Order"
-            ship: "TIE/se Bomber"
+            ship: "TIE/Se Bomber"
             skill: 4
             charge: 3
             points: 0
@@ -12811,7 +12809,7 @@ exportObj.basicCardData = ->
             id: 627
             unique: true
             faction: "First Order"
-            ship: "TIE/fo Fighter"
+            ship: "TIE/FO Fighter"
             skill: 4
             points: 0
             slots: [
@@ -12825,7 +12823,7 @@ exportObj.basicCardData = ->
             id: 628
             unique: true
             faction: "First Order"
-            ship: "TIE/fo Fighter"
+            ship: "TIE/FO Fighter"
             skill: 3
             points: 0
             slots: [
