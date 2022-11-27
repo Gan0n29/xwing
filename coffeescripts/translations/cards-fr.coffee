@@ -3529,4 +3529,9 @@ exportObj.cardLoaders['Français'] = () ->
            display_name: """Sous Protection"""
            text: """Tant que vous défendez, si vous n'êtes pas dans le %BULLSEYEARC% de l'attaquant, lancez 1 dé de défense supplémentaire pour chaque allié <b>Protecteur Magna Garde</b> calculateur ou esquivant situé dans l'arc d'attaque."""
 
-    exportObj.setupTranslationCardData pilot_translations, upgrade_translations, condition_translations
+    chassis_translations =
+        "Versatile Frame":
+           text: """You can equip 1 %TORPEDO% or %MISSILE% upgrade. While your revealed maneuver is blue, add white %BOOST% to your action bar."""
+
+
+    exportObj.setupTranslationCardData pilot_translations, upgrade_translations, condition_translations, chassis_translations
