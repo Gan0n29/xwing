@@ -2830,4 +2830,9 @@ sie überschneiden."""
            display_name: 'Ich zeige dir die dunkle Seite'
            text: 'Sobald diese Karte zugeordnet wird, falls keine offene Schadenskarte darauf liegt, sucht der Spieler, der sie zugeordnet hat, im Schadensstapel nach 1 <strong>Pilot</strong>-Schadenskarte und platziert sie offen auf dieser Karte. Dann mische den Schadensstapel. %LINEBREAK%Sobald du 1 %CRIT%-Schaden erleiden würdest, wird dir stattdessen die offene Schadenskarte auf dieser Karte zugeteilt. Dann entferne diese Karte. '
 
-    exportObj.setupTranslationCardData pilot_translations, upgrade_translations, condition_translations
+    chassis_translations =
+        "Versatile Frame":
+           text: """You can equip 1 %TORPEDO% or %MISSILE% upgrade. While your revealed maneuver is blue, add white %BOOST% to your action bar."""
+
+
+    exportObj.setupTranslationCardData pilot_translations, upgrade_translations, condition_translations, chassis_translations
