@@ -26222,7 +26222,7 @@ exportObj.setupTranslationCardData = (pilot_translations, upgrade_translations, 
                 console.error "Cannot find translation for attribute #{field} for upgrade #{upgrade_name}. Please report this Issue. "
                 throw e
                 
-        for chassis_name, translations of chassis_translations
+    for chassis_name, translations of chassis_translations
         exportObj.fixIcons translations
         for field, translation of translations
             try
