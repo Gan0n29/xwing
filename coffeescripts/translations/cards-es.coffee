@@ -1424,4 +1424,9 @@ exportObj.cardLoaders['Español'] = () ->
            display_name: """Mina de proximidad"""
            text: '''(Ficha de Mina) - Después de que una nave se solape con este dispositivo o pase a través de él, este dispositivo se detona.%LINEBREAK%Cuando este dispositivo se detona, la nave que provocó su detonación tira 2 dados de ataque. Esa nave sufre a continuación 1 de daño %HIT% además de 1 de daño %HIT%/%CRIT% por cada resultado equivalente obtenido en la tirada.'''
 
-    exportObj.setupTranslationCardData pilot_translations, upgrade_translations, condition_translations, 
+    chassis_translations =
+        "Versatile Frame":
+           text: """You can equip 1 %TORPEDO% or %MISSILE% upgrade. While your revealed maneuver is blue, add white %BOOST% to your action bar."""
+
+
+    exportObj.setupTranslationCardData pilot_translations, upgrade_translations, condition_translations, chassis_translations
