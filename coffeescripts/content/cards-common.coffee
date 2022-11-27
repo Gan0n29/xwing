@@ -185,7 +185,7 @@ exportObj.basicCardData = ->
             agility: 3
             hull: 3
             shields: 0
-            keyword: ["Autothrusters"]
+            chassis: "Autothrusters"
             actions: [
                 "Focus"
                 "Barrel Roll"
@@ -1091,7 +1091,7 @@ exportObj.basicCardData = ->
             agility: 3
             hull: 4
             shields: 2
-            keyword: ["Autothrusters"]
+            chassis: "Autothrusters"
             actions: [
                 "Focus"
                 "Boost"
@@ -11740,7 +11740,8 @@ exportObj.basicCardData = ->
             points: 64
             charge: 2
             recurring: 1
-            keyword: ["Sensitive Controls", "AlreadyShieldUpgrade", "NoStandardized"]
+            keyword: ["AlreadyHasShieldUpgrade"]
+            chassis: "Sensitive Controls"
             ship_override:
                 shields: 1
             slots: [
@@ -11759,7 +11760,8 @@ exportObj.basicCardData = ->
             skill: 4
             points: 42
             charge: 2
-            keyword: ["Sensitive Controls", "AlreadyHullUpgrade", "NoStandardized"]
+            keyword: ["AlreadyHasHullUpgrade"]
+            chassis: "Sensitive Controls"
             ship_override:
                 hull: 4
             slots: [
@@ -11778,7 +11780,8 @@ exportObj.basicCardData = ->
             skill: 4
             points: 43
             charge: 2
-            keyword: ["Sensitive Controls", "AlreadyHullUpgrade", "NoStandardized"]
+            keyword: ["AlreadyHasHullUpgrade"]
+            chassis: "Sensitive Controls"
             ship_override:
                 hull: 4
             slots: [
@@ -11797,7 +11800,8 @@ exportObj.basicCardData = ->
             skill: 4
             points: 43
             charge: 2
-            keyword: ["Sensitive Controls", "AlreadyHullUpgrade", "NoStandardized"]
+            keyword: ["AlreadyHasHullUpgrade"]
+            chassis: "Sensitive Controls"
             ship_override:
                 hull: 4
             slots: [
@@ -11816,7 +11820,8 @@ exportObj.basicCardData = ->
             skill: 4
             points: 45
             charge: 2
-            keyword: ["Sensitive Controls", "AlreadyHullUpgrade", "NoStandardized"]
+            keyword: ["AlreadyHasHullUpgrade"]
+            chassis: "Sensitive Controls"
             ship_override:
                 hull: 4
                 actions: [
@@ -14425,7 +14430,7 @@ exportObj.basicCardData = ->
             pointsarray: [2,3,5,7]
             variableagility: true
             restrictions: [
-                ["noKeyword", "AlreadyHullUpgrade"]
+                ["noKeyword", "AlreadyHasHullUpgrade"]
             ]
             modifier_func: (stats) ->
                 stats.hull += 1
@@ -14437,7 +14442,7 @@ exportObj.basicCardData = ->
             pointsarray: [3,4,6,8]
             variableagility: true
             restrictions: [
-                ["noKeyword", "AlreadyShieldUpgrade"]
+                ["noKeyword", "AlreadyHasShieldUpgrade"]
             ]
             modifier_func: (stats) ->
                 stats.shields += 1
@@ -16667,6 +16672,9 @@ exportObj.basicCardData = ->
             restrictions: [
                 ["Keyword", "Autothrusters"]
             ]
+            modifier_func: (stats) ->
+                stats.chassis = "Sensitive Controls"
+            
         }
         {
             name: "Cutthroat"
@@ -18038,6 +18046,215 @@ exportObj.basicCardData = ->
         {
             name: '''Broken Trust'''
             id: 43
+        }
+    ]
+
+    chassisById: [
+        {
+            name: "Hope"
+            id: 0
+        }
+        {
+            name: "Autothrusters"
+            id: 1
+        }
+        {
+            name: "Microthrusters"
+            id: 2
+        }
+        {
+            name: "Sensor Blindspot"
+            id: 3
+        }
+        {
+            name: "Stygium Array"
+            id: 4
+        }
+        {
+            name: "Experimental Scanners"
+            id: 5
+        }
+        {
+            name: "Full Throttle"
+            id: 6
+        }
+        {
+            name: "Nimble Bomber"
+            id: 7
+        }
+        {
+            name: "Weapon Hardpoint"
+            id: 8
+        }
+        {
+            name: "Advanced Targeting Computer"
+            id: 9
+        }
+        {
+            name: "Vectored Thrusters"
+            id: 10
+        }
+        {
+            name: "Advanced Fire Control"
+            id: 11
+        }
+        {
+            name: "Sensitive Controls"
+            id: 12
+        }
+        {
+            name: "Spacetug Tractor Array"
+            id: 13
+        }
+        {
+            name: "Concordia Faceoff"
+            id: 14
+        }
+        {
+            name: "Locked and Loaded"
+            id: 15
+        }
+        {
+            name: "Tail Gun"
+            id: 16
+        }
+        {
+            name: "Advanced Droid Brain"
+            id: 17
+        }     
+        {
+            name: "Vectored Cannons"
+            id: 18
+        }
+        {
+            name: "Networked Calculations"
+            id: 19
+        }
+        {
+            name: "Independent Calculations"
+            id: 20
+        }
+        {
+            name: "Linked Battery"
+            id: 21
+        }
+        {
+            name: "Heavy Weapon Turret"
+            id: 22
+        }
+        {
+            name: "Refined Gyrostabilizers"
+            id: 23
+        }
+        {
+            name: "Rigged Energy Cells"
+            id: 24
+        }
+        {
+            name: "Co-Pilot"
+            id: 25
+        }
+        {
+            name: "Controlled Ailerons"
+            id: 26
+        }
+        {
+            name: "Comms Shuttle"
+            id: 27
+        }
+        {
+            name: "Dead to Rights"
+            id: 28
+        }
+        {
+            name: "Pursuit Craft"
+            id: 29
+        }
+        {
+            name: "Adaptive Ailerons"
+            id: 30
+        }
+        {
+            name: "Fire Convergence"
+            id: 31
+        }
+        {
+            name: "Networked Aim"
+            id: 32
+        }
+        {
+            name: "Fine-Tuned Thrusters"
+            id: 33
+        }
+        {
+            name: "Explosion with Wings"
+            id: 34
+        }
+        {
+            name: "Plated Hull"
+            id: 35
+        }
+        {
+            name: "Pinpoint Tractor Array"
+            id: 36
+        }
+        {
+            name: "Fine-Tuned Controls"
+            id: 37
+        }
+        {
+            name: "Notched Stabilizers"
+            id: 38
+        }
+        {
+            name: "Rotating Cannons"
+            id: 39
+        }
+        {
+            name: "Twin Ion Engines"
+            id: 40
+        }
+        {
+            name: "Versatile Frame"
+            id: 41
+        }
+        {
+            name: "Pursuit Thrusters"
+            id: 42
+        }
+        {
+            name: "Devastating Barrage"
+            id: 43
+        }
+        {
+            name: "Intuitive Interface"
+            id: 44
+        }
+        {
+            name: "Intuitive Controls"
+            id: 45
+        }
+        {
+            name: "Born for This"
+            id: 46
+        }
+        {
+            name: "Modified for Organics"
+            id: 47
+            modifier_func: (stats) ->
+                if stats.maneuvers[2]?
+                    for turn in [0 ... 5]
+                        if (turn == 1 or turn == 3)
+                            if stats.maneuvers[2][turn] > 1
+                                stats.maneuvers[2][turn]--
+                            if stats.maneuvers[3][turn] > 1
+                                stats.maneuvers[3][turn]--
+                        if (turn == 0 or turn == 4) and stats.maneuvers[3][turn] < 3
+                            stats.maneuvers[3][turn]++
+        }
+        {
+            name: "Solo"
+            id: 48
         }
     ]
 
@@ -25838,6 +26055,9 @@ exportObj.setupCommonCardData = (basic_cards) ->
     for condition_data, i in basic_cards.conditionsById
         if condition_data.id != i
             throw new Error("ID mismatch: condition at index #{i} has ID #{condition_data.id}")
+    for chassis_data, i in basic_cards.chassisById
+        if chassis_data.id != i
+            throw new Error("ID mismatch: chassis at index #{i} has ID #{chassis_data.id}")
     for quickbuild_data, i in basic_cards.quickbuildsById
         if quickbuild_data.id != i
             throw new Error("ID mismatch: quickbuild  at index #{i} has ID #{quickbuild_data.id}")
@@ -25866,6 +26086,12 @@ exportObj.setupCommonCardData = (basic_cards) ->
             condition_data.sources = []
             condition_data.canonical_name = condition_data.name.canonicalize() unless condition_data.canonical_name?
             exportObj.conditions[condition_data.name] = condition_data
+            
+    exportObj.chassis = {}
+    for chassis_data in basic_cards.chassisById
+        unless chassis_data.skip?
+            chassis_data.canonical_name = chassis_data.name.canonicalize() unless chassis_data.canonical_name?
+            exportObj.chassis[chassis_data.name] = chassis_data
 
     exportObj.obstacles = {}
     # we just want to include obstacles in the manifest like we already do for other stuff. No information other than sources will be used
@@ -25967,15 +26193,26 @@ exportObj.setupCommonCardData = (basic_cards) ->
     if Object.keys(exportObj.conditionsById).length != Object.keys(exportObj.conditions).length
         throw new Error("At least one condition shares an ID with another")
 
+    exportObj.chassisById = {}
+    for chassis_name, chassis of exportObj.chassis
+        exportObj.fixIcons chassis
+        exportObj.chassisById[chassis.id] = chassis
+    if Object.keys(exportObj.chassisById).length != Object.keys(exportObj.chassis).length
+        throw new Error("At least one chassis shares an ID with another")
+        
     exportObj.conditionsByCanonicalName = {}
     for condition_name, condition of exportObj.conditions
         (exportObj.conditionsByCanonicalName ?= {})[condition.canonical_name] = condition
 
     exportObj.expansions = Object.keys(exportObj.expansions).sort()
 
+    exportObj.chassisByCanonicalName = {}
+    for chassis_name, chassis of exportObj.chassis
+        (exportObj.chassisByCanonicalName ?= {})[chassis.canonical_name] = chassis
 
 
-exportObj.setupTranslationCardData = (pilot_translations, upgrade_translations, condition_translations) ->
+
+exportObj.setupTranslationCardData = (pilot_translations, upgrade_translations, condition_translations, chassis_translations) ->
     for upgrade_name, translations of upgrade_translations
         exportObj.fixIcons translations
         for field, translation of translations
@@ -25984,6 +26221,17 @@ exportObj.setupTranslationCardData = (pilot_translations, upgrade_translations, 
             catch e
                 console.error "Cannot find translation for attribute #{field} for upgrade #{upgrade_name}. Please report this Issue. "
                 throw e
+                
+        for chassis_name, translations of chassis_translations
+        exportObj.fixIcons translations
+        for field, translation of translations
+            try
+                exportObj.chassis[chassis_name][field] = translation
+            catch e
+                console.error "Cannot find translation for attribute #{field} for chassis #{chassis_name}. Please report this Issue. "
+                throw e
+
+
 
     for condition_name, translations of condition_translations
         exportObj.fixIcons translations
