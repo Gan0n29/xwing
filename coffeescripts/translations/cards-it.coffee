@@ -1478,6 +1478,9 @@ exportObj.cardLoaders.Italiano = () ->
            display_name: """“Zeb” Orrelios"""
            text: """<i>CHANGE MECHANGE ME</i>%LINEBREAK%Puoi effettuare attacchi primari a gittata 0. Le navi nemiche a gittata 0 possono effettuare attacchi primari contro di te."""
  
-    condition_translations = {}
+    chassis_translations =
+        "Versatile Frame":
+           text: """You can equip 1 %TORPEDO% or %MISSILE% upgrade. While your revealed maneuver is blue, add white %BOOST% to your action bar."""
 
-    exportObj.setupTranslationCardData pilot_translations, upgrade_translations, condition_translations
+
+    exportObj.setupTranslationCardData pilot_translations, upgrade_translations, condition_translations, chassis_translations
