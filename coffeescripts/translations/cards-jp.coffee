@@ -3034,5 +3034,10 @@ exportObj.cardLoaders.日本語 = () ->
            text: '''君が攻撃レンジ0-2で攻撃を実行する際、君は%CRIT%の結果を1つ消費しても良い。もし君がそうするなら、もし防御宇宙船のプレイヤーが君よりも%POINT%を獲得しているなら、そのプレイヤーは獲得した%POINT%を1つ失う。その%POINT%をこのカードの上に置く。 %LINEBREAK% 君が防御した後、もし君が敵宇宙船の攻撃レンジ0-2の攻撃で破壊されたなら、攻撃者に<b>Trials of the Darksaber</b>コンディションをつける(このカードの上の全ての%POINT%は残して)。 %LINEBREAK% ゲームの終了時、この宇宙船はこのカードの上の%POINT%を全て獲得する。'''
         '''Blaze Bomb''':
            text: '''<b>タイプ:</b> デバイス, 爆弾 %LINEBREAK% アクティベーション・フェイズの終了時、このデバイスは爆発する。 %LINEBREAK% このデバイスが爆発する時、レンジ0-1の各宇宙船とリモートは攻撃ダイスを1つ振る。各宇宙船とリモートは%HIT%/%CRIT%の結果につき%HIT%ダメージを1つ受ける。 %LINEBREAK% このデバイスが爆発した後、BlaczをBlazeのガイドとデバイスの出っ張りを合わせて置く。 %LINEBREAK% Blazeは障害物である。この障害物が置かれた後、ヒューズ・マーカーをその上に置く。 %LINEBREAK% 終了フェイズの間、ヒューズ・マーカーのないBlazeを取り除き、その後各Blazeからヒューズ・マーカーを1つ取り除く。'''
+ 
+    chassis_translations =
+        "Versatile Frame":
+           text: """You can equip 1 %TORPEDO% or %MISSILE% upgrade. While your revealed maneuver is blue, add white %BOOST% to your action bar."""
 
-    exportObj.setupTranslationCardData pilot_translations, upgrade_translations, condition_translations
+
+    exportObj.setupTranslationCardData pilot_translations, upgrade_translations, condition_translations, chassis_translations
