@@ -4914,9 +4914,6 @@ class Ship
         else 
             if @data.chassis? and @data.chassis == keyword
                 return true
-        else 
-            if @data.chassis? and @data.chassis == keyword
-                return true
         for words in @data.keyword ? []
             if words == keyword
                 return true
