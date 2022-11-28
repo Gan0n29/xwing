@@ -1167,7 +1167,7 @@ exportObj.cardLoaders.English = () ->
            text: """<i>Unhampered by a cumbersome galactic bureaucracy, technologies originally researched by the Empire’s TIE Advanced program are now mass-produced on First Order starfighters. As a result, TIE/fo pilots enjoy higher survival rates than their predecessors in the Galactic Empire.</i>"""
         "Zeta Squadron Survivor":
            display_name: """Zeta Squadron Survivor"""
-           text: """<i>Humiliated by their failure, the remaining pilots from Starkiller Base are eager to prove their worth in pursuit of the Resistance.</i>""
+           text: """<i>Humiliated by their failure, the remaining pilots from Starkiller Base are eager to prove their worth in pursuit of the Resistance.</i>"""
         "Zuckuss":
            display_name: """Zuckuss"""
            text: """While you perform a primary attack, you may roll 1 additional attack die. If you do, the defender rolls 1 additional defense die."""
@@ -1179,7 +1179,7 @@ exportObj.cardLoaders.English = () ->
            text: """After you defend or perform an attack, you may choose a friendly ship at range&nbsp;1-2 in your %LEFTARC%  or %RIGHTARC%. If you do, transfer 1 green token to that ship."""
         '"Backdraft"':
            display_name: """“Backdraft”"""
-           text: """While you perform a %SINGLETURRETARC% primary attack, if the defender is in your %REARARC%, roll 1 additional die.""
+           text: """While you perform a %SINGLETURRETARC% primary attack, if the defender is in your %REARARC%, roll 1 additional die."""
         '"Blackout"':
            display_name: """“Blackout”"""
            text: """While you perform an attack, if the attack is obstructed by an obstacle, the defender rolls 2 fewer defense dice."""
@@ -1248,7 +1248,7 @@ exportObj.cardLoaders.English = () ->
            text: """While you perform an attack, if you have 1 or fewer damage cards, you may roll 1 additional attack die."""
         '"Quickdraw"':
            display_name: """“Quickdraw”"""
-           text: """After you lose a shield, you may spend 1&nbsp;%CHARGE%. If you do, you may perform a bonus primary attack.""
+           text: """After you lose a shield, you may spend 1&nbsp;%CHARGE%. If you do, you may perform a bonus primary attack."""
         '"Recoil"':
            display_name: """“Recoil”"""
            text: """While you are stressed, you may treat enemy ships in your %FRONTARC% at range 0-1 as being in your %BULLSEYEARC%."""
@@ -1382,7 +1382,7 @@ exportObj.cardLoaders.English = () ->
         '"Holo"':
            text: """At the start of the Engagement Phase, you <b>must</b> transfer 1 of your tokens to another friendly ship at range 0-2."""
         "Captain Phasma":
-           text: """While you defend, after the Neutralize Results step, another friendly ship at range 0-1 <b>must</b> suffer 1 %HIT%/%CRIT% damage to cancel 1 matching result. ""
+           text: """While you defend, after the Neutralize Results step, another friendly ship at range 0-1 <b>must</b> suffer 1 %HIT%/%CRIT% damage to cancel 1 matching result. """
         '"Rush"':
            text: """While you are damaged, treat your initiative as 6. """
         "Zizi Tlo":
@@ -1406,7 +1406,7 @@ exportObj.cardLoaders.English = () ->
         "Morna Kee":
            text: """During the End Phase, you may spend 1 %CHARGE% to flip 1 of your reinforce tokens to the other full arc instead of removing it."""
         "Lieutenant LeHuse":
-           text: """While you perform an attack, you may spend another friendly ship's lock on the defender to reroll any number of your results. ""
+           text: """While you perform an attack, you may spend another friendly ship's lock on the defender to reroll any number of your results. """
         "Bossk (Z-95 Headhunter)":
            display_name: """Bossk"""
            text: """While you perform a primary attack, after the Neutralize Results step, you may spend 1 %CRIT% result to add 2 %HIT% results."""
@@ -1602,17 +1602,17 @@ exportObj.cardLoaders.English = () ->
            text: """After a ship at range 1 performs an action during its Perform Action step, if that action is on your action bar, you may spend 1 %CHARGE% to perform that action, treating it as red."""
         "Kylo Ren (TIE Whisper)":
            display_name: """Kylo Ren"""
-           text: """Before an enemy ship in your %BULLSEYEARC% is dealt a facedown damage card, you may spend 1 %FORCE%. If you do, that damage card is dealt face up instead. ""
+           text: """Before an enemy ship in your %BULLSEYEARC% is dealt a facedown damage card, you may spend 1 %FORCE%. If you do, that damage card is dealt face up instead. """
         '"Wrath"':
-           text: """After you perform a %BULLSEYEARC% attack, if you have 1 or more non-lock red or orange tokens, you may perform a bonus attack against a different target. ""
+           text: """After you perform a %BULLSEYEARC% attack, if you have 1 or more non-lock red or orange tokens, you may perform a bonus attack against a different target. """
         '"Nightfall"':
-           text: """After you fully execute a maneuver or perform a %BOOST% action, each ship you moved through gains 2 jam tokens. ""
+           text: """After you fully execute a maneuver or perform a %BOOST% action, each ship you moved through gains 2 jam tokens. """
         '"Whirlwind"':
-           text: """Before you engage, you may remove any number of jam tokens, then you may gain 1 focus token for each enemy ship that has you in its %FRONTARC%. ""
+           text: """Before you engage, you may remove any number of jam tokens, then you may gain 1 focus token for each enemy ship that has you in its %FRONTARC%. """
         "709th Legion Ace":
-           text: """""
+           text: """<i>Commanded by Supreme Leader Kylo Ren, the 709th Legion fights without mercy or remorse to crush the Resistance and bring the galaxy under the First Order's dominion.</i>"""
         "Red Fury Zealot":
-           text: """""
+           text: """<i>Also called Red Fury, the 709th Legion is charged by Supreme Leader Kylo Ren with rooting out dissenters at Black Spire Outpost.</i>"""
         "Sienar-Jaemus Test Pilot":
            text: """<i>Equipped with four laser cannons and advanced systems, the TIE/se bomber is a remarkably maneuverable craft that brings devastating ordnance to bear against any who dare to stand against the First Order.</i>"""
         "First Order Cadet":
