@@ -902,7 +902,7 @@ exportObj.cardLoaders.English = () ->
            text: """<i>Only pilots who have demonstrated both exceptional skill and unwavering dedication are rewarded with coveted positions in the First Order squadrons operating secretly against the New Republic during the Cold War.</i>"""
         "Omega Squadron Expert":
            display_name: """Omega Squadron Expert"""
-           text: """<i>The TIE/sf is a versatile starfighter that carries specialized armament and experimental systems for long-range operations by First Order Special Forces.</i>""
+           text: """<i>The TIE/sf is a versatile starfighter that carries specialized armament and experimental systems for long-range operations by First Order Special Forces.</i>"""
         "Omicron Group Pilot":
            display_name: """Omicron Group Pilot"""
            text: """<i>Noted for its tri-wing design and advanced sensor suite, the Lambda-class shuttle serves a critical role as a light utility craft in the Imperial Navy.</i>"""
