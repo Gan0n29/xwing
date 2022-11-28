@@ -2639,13 +2639,15 @@ class exportObj.SquadBuilder
                     
                     if (effective_stats?.force? and effective_stats.force > 0) or data.force?
                         recurringicon = ''
-                        if effective_stats?.forcerecurring?
-                            count = 0
-                            while count < effective_stats.forcerecurring
-                                recurringicon += '<sup><i class="fas fa-caret-up"></i></sup>'
-                                ++count
-                        else
+                        forcerecurring = 1
+                        if effective_stats?.forcerecurring? 
+                            forcerecurring = effective_stats.forcerecurring
+                        else if data.forcerecurring?
+                            forcerecurring = data.forcerecurring
+                        count = 0
+                        while count < forcerecurring                        
                             recurringicon += '<sup><i class="fas fa-caret-up"></i></sup>'
+                            ++count
                         container.find('tr.info-force td.info-data').html (statAndEffectiveStat((data.ship_override?.force ? data.force), effective_stats, 'force') + recurringicon)
                         container.find('tr.info-force').show()
                     else
@@ -2979,6 +2981,7 @@ class exportObj.SquadBuilder
                             ++count
                         container.find('tr.info-force td.info-data').html (data.force + recurringicon)
                     container.find('tr.info-force').toggle(data.force?)
+                    
                     container.find('tr.info-agility').hide()
                     container.find('tr.info-hull').hide()
                     container.find('tr.info-shields').hide()
