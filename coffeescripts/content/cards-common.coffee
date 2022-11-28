@@ -70,7 +70,7 @@ exportObj.basicCardData = ->
             agility: 3
             hull: 2
             shields: 2
-            keyword: ["Vectored Thrusters"]
+            chassis: "Vectored Thrusters"
             actions: [
                 "Focus"
                 "Evade"
@@ -162,6 +162,7 @@ exportObj.basicCardData = ->
             agility: 3
             hull: 3
             shields: 2
+            chassis: "Advanced Targeting Computer"
             actions: [
                 "Focus"
                 "R-> Barrel Roll"
@@ -302,6 +303,7 @@ exportObj.basicCardData = ->
             agility: 2
             hull: 6
             shields: 0
+            chassis: "Nimble Bomber"
             actions: [
                 "Focus"
                 "Lock"
@@ -345,6 +347,7 @@ exportObj.basicCardData = ->
             agility: 3
             hull: 3
             shields: 4
+            chassis: "Full Throttle"
             actions: [
                 "Focus"
                 "Evade"
@@ -368,6 +371,7 @@ exportObj.basicCardData = ->
             agility: 3
             hull: 3
             shields: 3
+            chassis: "Experimental Scanners"
             actions: [
                 "Focus"
                 "Evade"
@@ -393,6 +397,7 @@ exportObj.basicCardData = ->
             agility: 2
             hull: 3
             shields: 2
+            chassis: "Stygium Array"
             actions: [
                 "Focus"
                 "Evade"
@@ -414,6 +419,7 @@ exportObj.basicCardData = ->
             agility: 2
             hull: 6
             shields: 4
+            chassis: "Sensor Blindspot"
             keyword: ["Freighter"]
             actions: [
                 "Focus"
@@ -460,6 +466,7 @@ exportObj.basicCardData = ->
             agility: 3
             hull: 4
             shields: 1
+            chassis: "Microthrusters"
             actions: [
                 "Focus"
                 "Lock"
@@ -483,6 +490,7 @@ exportObj.basicCardData = ->
             agility: 3
             hull: 3
             shields: 1
+            chassis: "Weapon Hardpoint"
             actions: [
                 "Focus"
                 "Evade"
@@ -505,6 +513,7 @@ exportObj.basicCardData = ->
             agility: 3
             hull: 5
             shields: 3
+            chassis: "Advanced Droid Brain"
             actions: [
                 "Calculate"
                 "Evade"
@@ -614,6 +623,7 @@ exportObj.basicCardData = ->
             agility: 0
             hull: 10
             shields: 4
+            chassis: "Tail Gun"
             large: true
             keyword: ["Freighter"]
             actions: [
@@ -636,6 +646,7 @@ exportObj.basicCardData = ->
             agility: 2
             hull: 3
             shields: 1
+            chassis: "Locked and Loaded"
             actions: [
                 "Focus"
                 "Evade"
@@ -748,6 +759,7 @@ exportObj.basicCardData = ->
             agility: 3
             hull: 4
             shields: 0
+            chassis: "Concordia Faceoff"
             actions: [
                 "Focus"
                 "Lock"
@@ -796,6 +808,7 @@ exportObj.basicCardData = ->
             agility: 2
             hull: 5
             shields: 0
+            chassis: "Spacetug Tractor Array"
             actions: [
                 "Focus"
                 "R-Evade"
@@ -839,6 +852,7 @@ exportObj.basicCardData = ->
             agility: 2
             hull: 4
             shields: 0
+            chassis: "Adaptive Ailerons"
             actions: [
                 "Focus"
                 "Evade"
@@ -942,6 +956,7 @@ exportObj.basicCardData = ->
             hull: 7
             shields: 2
             medium: true
+            chassis: "Dead to Rights"
             actions: [
                 "Focus"
                 "Lock"
@@ -964,6 +979,7 @@ exportObj.basicCardData = ->
             agility: 2
             hull: 4
             shields: 1
+            chassis: "Comms Shuttle"
             actions: [
                 "Focus"
                 "Coordinate"
@@ -984,6 +1000,7 @@ exportObj.basicCardData = ->
             hull: 6
             shields: 2
             medium: true
+            chassis: "Adaptive Ailerons"
             actions: [
                 "Focus"
                 "Evade"
@@ -1004,6 +1021,7 @@ exportObj.basicCardData = ->
             agility: 2
             hull: 2
             shields: 2
+            chassis: "Co-Pilot"
             actions: [
                 "Focus"
                 "Barrel Roll"
@@ -1023,6 +1041,7 @@ exportObj.basicCardData = ->
             agility: 2
             hull: 4
             shields: 3
+            chassis: "Weapon Hardpoint"
             actions: [
                 "Focus"
                 "Lock"
@@ -1046,6 +1065,7 @@ exportObj.basicCardData = ->
             agility: 3
             hull: 2
             shields: 2
+            chassis: "Refined Gyrostabilizers"
             actions: [
                 "Focus"
                 "Evade"
@@ -1115,6 +1135,7 @@ exportObj.basicCardData = ->
             agility: 2
             hull: 3
             shields: 3
+            chassis: "Heavy Weapon Turret"
             actions: [
                 "Focus"
                 "> Rotate Arc"
@@ -1141,6 +1162,7 @@ exportObj.basicCardData = ->
             agility: 1
             hull: 6
             shields: 6
+            chassis: "Linked Battery"
             actions: [
                 "Focus"
                 "Lock"
@@ -1213,6 +1235,7 @@ exportObj.basicCardData = ->
             agility: 3
             hull: 3
             shields: 0
+            chassis: "Notched Stabilizers"
             actions: [
                 "Focus"
                 "Barrel Roll"
@@ -1257,6 +1280,7 @@ exportObj.basicCardData = ->
             agility: 3
             hull: 3
             shields: 1
+            chassis: "Fine-Tuned Controls"
             actions: [
                 "Focus"
                 "F-Evade"
@@ -1302,7 +1326,7 @@ exportObj.basicCardData = ->
             agility: 2
             hull: 3
             shields: 0
-            keyword: ["Networked Calculations"]
+            chassis: "Networked Calculations"
             actions: [
                 "Calculate"
                 "Lock"
@@ -1352,6 +1376,7 @@ exportObj.basicCardData = ->
             agility: 2
             hull: 3
             shields: 2
+            chassis: "Full Throttle"
             actions: [
                 "Focus"
                 "Lock"
@@ -1374,7 +1399,7 @@ exportObj.basicCardData = ->
             agility: 2
             hull: 5
             shields: 0
-            keyword: ["Networked Calculations"]
+            chassis: "Networked Calculations"
             actions: [
                 "Calculate"
                 "Lock"
@@ -1444,6 +1469,7 @@ exportObj.basicCardData = ->
             agility: 3
             hull: 4
             shields: 0
+            chassis: "Pinpoint Tractor Array"
             actions: [
                 "Focus"
                 "Evade"
@@ -1464,6 +1490,7 @@ exportObj.basicCardData = ->
             agility: 1
             hull: 5
             shields: 3
+            chassis: "Plated Hull"
             actions: [
                 "Focus"
                 "Lock"
@@ -1486,6 +1513,7 @@ exportObj.basicCardData = ->
             agility: 2
             hull: 6
             shields: 0
+            chassis: "Explosion with Wings"
             actions: [
                 "Focus"
                 "Evade"
@@ -1508,6 +1536,7 @@ exportObj.basicCardData = ->
             agility: 3
             hull: 2
             shields: 2
+            chassis: "Fine-Tuned Thrusters"
             actions: [
                 "Focus"
                 "Evade"
@@ -1554,6 +1583,7 @@ exportObj.basicCardData = ->
             agility: 1
             hull: 5
             shields: 3
+            chassis: "Networked Aim"
             actions: [
                 "Calculate"
                 "Lock"
@@ -1581,6 +1611,7 @@ exportObj.basicCardData = ->
             hull: 8
             shields: 2
             medium: true
+            chassis: "Fire Convergence"
             actions: [
                 "Focus"
                 "Lock"
@@ -1605,6 +1636,7 @@ exportObj.basicCardData = ->
             hull: 8
             shields: 0
             medium: true
+            chassis: "Rotating Cannons"
             actions: [
                 "Focus"
                 "Reinforce"
@@ -1632,7 +1664,7 @@ exportObj.basicCardData = ->
             agility: 3
             hull: 3
             shields: 0
-            keyword: ["Networked Calculations"]
+            chassis: "Networked Calculations"
             actions: [
                 "Calculate"
                 "Evade"
@@ -1659,6 +1691,7 @@ exportObj.basicCardData = ->
             hull: 2
             shields: 2
             keyword: ["TIE"]
+            chassis: "Twin Ion Engines"
             actions: [
                 "Focus"
                 "Lock"
@@ -1686,6 +1719,7 @@ exportObj.basicCardData = ->
             agility: 3
             hull: 3
             shields: 0
+            chassis: "Intuitive Controls"
             actions: [
                 "Focus"
                 "Evade"
@@ -1721,6 +1755,7 @@ exportObj.basicCardData = ->
             agility: 1
             hull: 4
             shields: 3
+            chassis: "Intuitive Interface"
             actions: [
                 "Focus"
                 "R-Lock"
@@ -1744,6 +1779,7 @@ exportObj.basicCardData = ->
             agility: 2
             hull: 3
             shields: 2
+            chassis: "Heavy Weapon Turret"
             actions: [
                 "Focus"
                 "> Rotate Arc"
@@ -1773,6 +1809,7 @@ exportObj.basicCardData = ->
             agility: 2
             hull: 4
             shields: 2
+            chassis: "Pursuit Thrusters"
             actions: [
                 "Focus"
                 "Lock"
@@ -1848,6 +1885,7 @@ exportObj.basicCardData = ->
             agility: 2
             hull: 2
             shields: 2
+            chassis: "Versatile Frame"
             actions: [
                 "Focus"
                 "Lock"
@@ -1868,6 +1906,7 @@ exportObj.basicCardData = ->
             agility: 2
             hull: 5
             shields: 2
+            chassis: "Dead to Rights"
             actions: [
                 "Focus"
                 "R-> Boost"
@@ -3698,6 +3737,7 @@ exportObj.basicCardData = ->
             charge: 3
             points: 11
             keyword: ["Droid"]
+            chassis: "Rigged Energy Cells"
             slots: [
             ]
         }
@@ -8658,6 +8698,7 @@ exportObj.basicCardData = ->
             ship: "Z-95 Headhunter"
             points: 27
             keyword: ["Bounty Hunter"]
+            chassis: "Pursuit Craft"
             slots: [
                 "Talent"
                 "Missile"
@@ -11187,7 +11228,8 @@ exportObj.basicCardData = ->
             ship: "Rogue-class Starfighter"
             skill: 4
             points: 39
-            keyword: ["Droid", "Networked Calculations"]
+            keyword: ["Droid"]
+            chassis: "Networked Calculations"
             slots: [
                 "Talent"
                 "Cannon"
@@ -11204,7 +11246,8 @@ exportObj.basicCardData = ->
             ship: "Rogue-class Starfighter"
             skill: 4
             points: 39
-            keyword: ["Droid", "Networked Calculations"]
+            keyword: ["Droid"]
+            chassis: "Networked Calculations"
             slots: [
                 "Talent"
                 "Cannon"
@@ -11221,7 +11264,8 @@ exportObj.basicCardData = ->
             ship: "Rogue-class Starfighter"
             skill: 1
             points: 38
-            keyword: ["Droid", "Networked Calculations"]
+            keyword: ["Droid"]
+            chassis: "Networked Calculations"
             slots: [
                 "Talent"
                 "Cannon"
@@ -11238,7 +11282,8 @@ exportObj.basicCardData = ->
             ship: "Rogue-class Starfighter"
             skill: 4
             points: 40
-            keyword: ["Droid", "Networked Calculations"]
+            keyword: ["Droid"]
+            chassis: "Networked Calculations"
             slots: [
                 "Talent"
                 "Cannon"
@@ -11255,7 +11300,8 @@ exportObj.basicCardData = ->
             ship: "Rogue-class Starfighter"
             skill: 3
             points: 37
-            keyword: ["Droid", "Networked Calculations"]
+            keyword: ["Droid"]
+            chassis: "Networked Calculations"
             slots: [
                 "Talent"
                 "Cannon"
@@ -11440,7 +11486,7 @@ exportObj.basicCardData = ->
             ship: "X-Wing"
             skill: 4
             points: 47
-            keyword: ["Hope"]
+            chassis: "Hope"
             slots: [
                 "Torpedo"
                 "Astromech"
@@ -11461,7 +11507,7 @@ exportObj.basicCardData = ->
             skill: 5
             force: 2
             points: 62
-            keyword: ["Hope"]
+            chassis: "Hope"
             slots: [
                 "Force"
                 "Torpedo"
@@ -11482,7 +11528,7 @@ exportObj.basicCardData = ->
             ship: "X-Wing"
             skill: 4
             points: 44
-            keyword: ["Hope"]
+            chassis: "Hope"
             slots: [
                 "Torpedo"
                 "Astromech"
@@ -11502,7 +11548,7 @@ exportObj.basicCardData = ->
             ship: "X-Wing"
             skill: 3
             points: 44
-            keyword: ["Hope"]
+            chassis: "Hope"
             slots: [
                 "Torpedo"
                 "Astromech"
@@ -11522,7 +11568,7 @@ exportObj.basicCardData = ->
             ship: "X-Wing"
             skill: 5
             points: 48
-            keyword: ["Hope"]
+            chassis: "Hope"
             slots: [
                 "Torpedo"
                 "Astromech"
@@ -11542,6 +11588,7 @@ exportObj.basicCardData = ->
             skill: 6
             points: 84
             charge: 4
+            chassis: "Solo"
             slots: [
                 "Talent"
                 "Missile"
@@ -11565,7 +11612,7 @@ exportObj.basicCardData = ->
             ship: "Y-Wing"
             skill: 4
             points: 44
-            keyword: ["Hope"]
+            chassis: "Hope"
             slots: [
                 "Turret"
                 "Torpedo"
@@ -11584,7 +11631,7 @@ exportObj.basicCardData = ->
             ship: "Y-Wing"
             skill: 2
             points: 34
-            keyword: ["Hope"]
+            chassis: "Hope"
             slots: [
                 "Turret"
                 "Torpedo"
@@ -11603,7 +11650,7 @@ exportObj.basicCardData = ->
             ship: "Y-Wing"
             skill: 4
             points: 36
-            keyword: ["Hope"]
+            chassis: "Hope"
             slots: [
                 "Turret"
                 "Torpedo"
@@ -11622,7 +11669,7 @@ exportObj.basicCardData = ->
             ship: "Y-Wing"
             skill: 4
             points: 36
-            keyword: ["Hope"]
+            chassis: "Hope"
             slots: [
                 "Turret"
                 "Torpedo"
@@ -11909,6 +11956,7 @@ exportObj.basicCardData = ->
             ship: "ARC-170"
             skill: 5
             points: 0
+            chassis: "Born for This"
             ship_override:
                 shields: 4
             slots: [
@@ -11933,6 +11981,7 @@ exportObj.basicCardData = ->
             skill: 4
             charge: 1
             points: 0
+            chassis: "Born for This"
             slots: [
                 "Talent"
                 "Torpedo"
@@ -11954,6 +12003,7 @@ exportObj.basicCardData = ->
             ship: "ARC-170"
             skill: 3
             points: 0
+            chassis: "Born for This"
             slots: [
                 "Talent"
                 "Torpedo"
@@ -11975,6 +12025,7 @@ exportObj.basicCardData = ->
             ship: "Nimbus-class V-Wing"
             skill: 5
             points: 0
+            chassis: "Born for This"
             slots: [
                 "Talent"
                 "Astromech"
@@ -11996,6 +12047,7 @@ exportObj.basicCardData = ->
             points: 0
             charge: 1
             recurring: 1
+            chassis: "Born for This"
             ship_override:
                 shields: 3
             slots: [
@@ -12017,6 +12069,7 @@ exportObj.basicCardData = ->
             ship: "V-19 Torrent"
             skill: 5
             points: 0
+            chassis: "Born for This"
             ship_override:
                 hull: 6
             slots: [
@@ -12037,6 +12090,7 @@ exportObj.basicCardData = ->
             ship: "V-19 Torrent"
             skill: 3
             points: 0
+            chassis: "Born for This"
             ship_override:
                 hull: 6
             slots: [
@@ -12597,7 +12651,7 @@ exportObj.basicCardData = ->
             ship: "Droid Tri-Fighter"
             skill: 5
             points: 0
-            keyword: ["NoStandardized"]
+            chassis: "Modified for Organics"
             slots: [
                 "Talent"
                 "Sensor"
@@ -12678,7 +12732,7 @@ exportObj.basicCardData = ->
             skill: 2
             points: 0
             max_per_squad: 3
-            keyword: ["NoStandardized"]
+            chassis: "Modified for Organics"
             slots: [
                 "Talent"
                 "Sensor"
@@ -16584,6 +16638,7 @@ exportObj.basicCardData = ->
             standardized: true
             slot: "Modification"
             faction: "Separatist Alliance"
+            chassis: "Independent Calculations"
             restrictions: [
                 ["Keyword", "Networked Calculations"]
             ]
@@ -16625,9 +16680,13 @@ exportObj.basicCardData = ->
             slot: "Configuration"
             faction: "Rebel Alliance"
             standardized: true
+            chassis: "Vectored Cannons"
             restrictions: [
                 ["Keyword", "Vectored Thrusters"]
             ]
+            modifier_func: (stats) ->
+                stats.attackt = stats.attack
+                stats.attack = 0 
         }
         {
             name: "B6 Blade Wing Prototype"
@@ -16652,6 +16711,7 @@ exportObj.basicCardData = ->
             faction: "Galactic Empire"
             ship: "TIE Defender"
             standardized: true
+            chassis: "Advanced Fire Control"
             modifier_func: (stats) ->
                 if stats.maneuvers[1]?
                     for s in (stats.maneuvers)
@@ -16669,12 +16729,10 @@ exportObj.basicCardData = ->
             slot: "Configuration"
             faction: ["Galactic Empire", "First Order"]
             standardized: true
+            chassis: "Sensitive Controls"
             restrictions: [
                 ["Keyword", "Autothrusters"]
-            ]
-            modifier_func: (stats) ->
-                stats.chassis = "Sensitive Controls"
-            
+            ]            
         }
         {
             name: "Cutthroat"
@@ -17090,6 +17148,7 @@ exportObj.basicCardData = ->
             points: 4
             ship: "BTA-NR2 Y-Wing"
             standardized: true
+            chassis: "Devastating Barrage"
             restrictions: [
                 ["Slot", "Modification"]
             ]
