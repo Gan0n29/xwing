@@ -3464,7 +3464,7 @@ exportObj.cardLoaders.English = () ->
            text: """While you perform a white %CALCULATE% action, you may treat it as red to gain 1 additional calculate token. Other ships cannot spend your calculate tokens using the <strong>Networked Calculations</strong> ship ability."""
         "Adaptive Ailerons":
            display_name: "Adaptive Ailerons"
-           text: """Before you reveal your dial, if you are not stressed, you <b>must</b> boost.  %LINEBREAK% <i>Errata (since rules reference 1.4.2): Changed ship ability</i>"""
+           text: """Before you reveal your dial, if you are not stressed, you <b>must</b> execute a white [1&nbsp;%BANKLEFT%], [1&nbsp;%STRAIGHT%], or [1&nbsp;%BANKRIGHT%] maneuver."""
         "Pursuit Craft":
            display_name: "Pursuit Craft"
            text: """After you deploy, you may acquire a lock on a ship the friendly <strong>Hound's Tooth</strong> has locked."""
@@ -3500,7 +3500,7 @@ exportObj.cardLoaders.English = () ->
            text: """After you fully execute a maneuver, you may spend 1 %FORCE% to perform a %BOOST% or %BARRELROLL% action."""
         "Pinpoint Tractor Array":
            display_name: "Pinpoint Tractor Array"
-           text: """You cannot rotate your %SINGLETURRETARC% to your %REARARC%. After you fully execute a maneuver, you may gain 1 tractor token to perform a %ROTATEARC% action. %LINEBREAK%<i>Errata (since rules reference 1.4): added "fully"</i>"""
+           text: """You cannot rotate your %SINGLETURRETARC% to your %REARARC%. After you fully execute a maneuver, you may gain 1 tractor token to perform a %ROTATEARC% action. %LINEBREAK%<i>Errata (09/26/2022): added "fully"</i>"""
         "Plated Hull":
            display_name: "Plated Hull"
            text: """While you defend, if you are not critically damaged, change 1 %CRIT% to a %HIT% result."""
