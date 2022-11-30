@@ -3788,8 +3788,8 @@ exportObj.cardLoaders['Français'] = () ->
         "Nimble Bomber":
            display_name: "Bombardier Agile"
            text: """Si vous devez utiliser un gabarit %STRAIGHT% pour larguer un engin, vous pouvez utiliser un gabarit %BANKLEFT% ou %BANKRIGHT% de même vitesse à la place."""
-        "Plein Gaz":
-           display_name: "Full Throttle"
+        "Full Throttle":
+           display_name: "Plein Gaz"
            text: """Après avoir entièrement exécuté une manœuvre à vitesse 3-5, vous pouvez effectuer une action %EVADE%."""
         "Experimental Scanners":
            display_name: "Scanners Expérimentaux"
