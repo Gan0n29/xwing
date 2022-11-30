@@ -11661,7 +11661,7 @@ exportObj.basicCardData = ->
             ]
         }
         {
-            name: "Hol Okland (BoY)"
+            name: "Hol Okand (BoY)"
             unique: true
             standard_loadout: true
             id: 563
