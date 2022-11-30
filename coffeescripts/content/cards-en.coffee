@@ -1964,7 +1964,7 @@ exportObj.cardLoaders.English = () ->
            text: """While you defend at attack range 1, you may spend 1 %FORCE%. If you do, the attacker cannot apply the range bonus. %LINEBREAK% While you perform an attack against a defender at attack range 3, you may spend 1 %FORCE%, the defender cannot apply the range bonus."""
         '"Sicko"':
            display_name: """“Sicko”"""
-           text: """After you execute a basic maneuver, you may assign the <strong>Sickening Maneuver</strong> condition to yourself.<strong>Fire Convergence:</strong> While a friendly ship performs a non-%SINGLETURRETARC% attack, if the defender is in your turret arc you may spend 1 charge token, if you do the attacker may reroll up to 2 results."""
+           text: """After you execute a basic maneuver, you may assign the <strong>Sickening Maneuver</strong> condition to yourself."""
         "Kit Fisto":
            display_name: """Kit Fisto"""
            text: """While another friendly ship defends, if the attacker is in its %BULLSEYEARC%, you may spend 1 %FORCE% to change 1 of the defender's blank results to a %FOCUS% result."""
@@ -2909,7 +2909,7 @@ exportObj.cardLoaders.English = () ->
         "TIE Defender Elite":
            text: """Decrease the difficulty of your turn (%TURNLEFT% or %TURNRIGHT%) maneuvers. Increase the difficulty of your Koiogran Turn (%KTURN%) maneuvers. Replace your <strong>Full Throttle</strong> ship ability with the following: %LINEBREAK% <strong>Advanced Fire Control:</strong> After you perform a %CANNON% or %MISSILE% attack, if you have a lock on the defender, you may perform a bonus primary attack against the defender."""
         "Sensitive Controls":
-           text: """Replace your <strong>Autothrusters</strong> ship ability with the following: """
+           text: """Replace your <strong>Autothrusters</strong> ship ability with the following :%LINEBREAK%<strong>Sensitive Controls:</strong> During the System Phase, you may perform a red %BARRELROLL% or red %BOOST% action."""
         "Cutthroat":
            text: """After another friendly ship at range 0-3 is destroyed, if that ship is limited or has the <strong>Cutthroat</strong> upgrade, you may remove 1 of your orange or red tokens, or recover 1 non-recurring %CHARGE% on your ship card or one of your equipped upgrade cards."""
         "Tierfon Belly Run":
