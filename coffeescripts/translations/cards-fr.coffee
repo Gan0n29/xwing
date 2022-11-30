@@ -398,7 +398,7 @@ exportObj.cardLoaders['Français'] = () ->
            text: """Après avoir défendu, vous pouvez dépenser 1 marqueur de calcul pour effectuer une action."""
         "104th Battalion Pilot":
            display_name: """Pilote du 104ème Bataillon"""
-           text: """<i>L’ARC-170 a été conçu en tant que chasseur d’escorte lourd, armé de canons laser à l’avant et à l’arrière, d’artillerie et d’un astromech de navigation. Les escadrons de ces redoutables chasseurs renforcent les forces de la Marine Républicaine au cours des batailles dans lesquelles ils sont déployés.</i>"""
+           text: """<i class="descriptive-text">L’ARC-170 a été conçu en tant que chasseur d’escorte lourd, armé de canons laser à l’avant et à l’arrière, d’artillerie et d’un astromech de navigation. Les escadrons de ces redoutables chasseurs renforcent les forces de la Marine Républicaine au cours des batailles dans lesquelles ils sont déployés.</i>"""
         "4-LOM":
            display_name: """4-LOM"""
            text: """Après avoir entièrement exécuté une manœuvre rouge, gagnez 1 marqueur de calcul.%LINEBREAK%Au début de la phase de dénouement, vous pouvez choisir un vaisseau à portée 0-1. Dans ce cas, transférez 1 de vos marqueurs de stress à ce vaisseau."""
@@ -410,7 +410,7 @@ exportObj.cardLoaders['Français'] = () ->
            text: """Tant que vous coordonnez, si vous choisissez un vaisseau qui a exactement 1 marqueur de stress, il peut effectuer des actions."""
         "Academy Pilot":
            display_name: """Pilote de l’Académie"""
-           text: """<i>Produit en masse, rapide et maniable, le TIE/ln développé par Sienar Fleet Systems est le principal chasseur de l’Empire Galactique.</i>"""
+           text: """<i class="descriptive-text">Produit en masse, rapide et maniable, le TIE/ln développé par Sienar Fleet Systems est le principal chasseur de l’Empire Galactique.</i>"""
         "Ahhav":
            display_name: """Ahhav"""
            text: """Tant que vous défendez ou effectuez une attaque, si le vaisseau ennemi a une taille supérieure à la vôtre, lancez 1 dé supplémentaire."""
@@ -425,7 +425,7 @@ exportObj.cardLoaders['Français'] = () ->
            text: """Tant que vous défendez, si l’attaquant a modifié n’importe quel dé d’attaque, vous pouvez lancer 1 dé de défense supplémentaire."""
         "Alpha Squadron Pilot":
            display_name: """Pilote de l’Escadron Alpha"""
-           text: """<i>Sienar Fleet Systems a doté les ailes de l’intercepteur TIE de quatre canons laser qui lui confèrent une puissance de feu bien supérieure à celle des précédents modèles.</i>"""
+           text: """<i class="descriptive-text">Sienar Fleet Systems a doté les ailes de l’intercepteur TIE de quatre canons laser qui lui confèrent une puissance de feu bien supérieure à celle des précédents modèles.</i>"""
         "Anakin Skywalker":
            display_name: """Anakin Skywalker"""
            text: """Après avoir entièrement exécuté une manœuvre, s'il y a un vaisseau ennemi dans votre %FRONTARC% à portée 0-1 ou dans votre %BULLSEYEARC%, vous pouvez dépenser 1 %FORCE% pour retirer 1 marqueur de stress."""
@@ -443,16 +443,16 @@ exportObj.cardLoaders['Français'] = () ->
            text: """Au début de la phase d’engagement, vous pouvez choisir 1 vaisseau ennemi dans votre %SINGLETURRETARC% à portée 0-2 et dépenser 1 %FORCE%. Dans ce cas, ce vaisseau gagne 1 marqueur de stress sauf s’il retire 1 marqueur vert."""
         "Autopilot Drone":
            display_name: """Drone Automatique"""
-           text: """<i>Il est parfois utile d’ignorer les avertissements de sécurité préconisés par les fabricants…</i>"""
+           text: """<i class="descriptive-text">Il est parfois utile d’ignorer les avertissements de sécurité préconisés par les fabricants…</i>"""
         "BB-8":
            display_name: """BB-8"""
            text: """Pendant la phase de système, vous pouvez effectuer une action %BARRELROLL% rouge ou %BOOST% rouge."""
         "Bandit Squadron Pilot":
            display_name: """Pilote de l’Escadron Bandit"""
-           text: """<i>Le Chasseur de Têtes Z-95 a été la principale source d’inspiration d’Incom Corporation pour la conception du X-wing T-65. Bien que considéré comme obsolète, le Chasseur de Têtes Z-95 reste un appareil léger polyvalent et robuste.</i>"""
+           text: """<i class="descriptive-text">Le Chasseur de Têtes Z-95 a été la principale source d’inspiration d’Incom Corporation pour la conception du X-wing T-65. Bien que considéré comme obsolète, le Chasseur de Têtes Z-95 reste un appareil léger polyvalent et robuste.</i>"""
         "Baron of the Empire":
            display_name: """Baron de l’Empire"""
-           text: """<i>Le TIE Advanced v1 de Sienar Fleet Systems est un chasseur révolutionnaire, pourvu de moteurs améliorés, d’un lance-missiles et d’ailes mobiles.</i>"""
+           text: """<i class="descriptive-text">Le TIE Advanced v1 de Sienar Fleet Systems est un chasseur révolutionnaire, pourvu de moteurs améliorés, d’un lance-missiles et d’ailes mobiles.</i>"""
         "Barriss Offee":
            display_name: """Barriss Offee"""
            text: """Tant qu’un vaisseau allié à portée 0-2 effectue une attaque, si le défenseur est dans son %BULLSEYEARC%, vous pouvez dépenser 1 %FORCE% pour changer 1 résultat %FOCUS% en un résultat %HIT% ou 1 résultat %HIT% en un résultat %CRIT%."""
@@ -470,49 +470,49 @@ exportObj.cardLoaders['Français'] = () ->
            text: """Tant qu’un autre vaisseau allié à portée 0-1 défend, avant l’étape « Neutraliser les résultats », si vous êtes dans l’arc de l’attaque, vous pouvez subir 1 dégât %HIT% ou %CRIT% pour annuler 1 dégât correspondant."""
         "Binayre Pirate":
            display_name: """Pirate Binayre"""
-           text: """<i>Le groupe de contrebandiers et de pirates de Kath Scarlet, qui agit depuis les Mondes Doubles de Talus et Tralus, n’a pas la réputation d’être fiable ni même honorable. Et ce ne sont pas les autres criminels qui diront le contraire…</i>"""
+           text: """<i class="descriptive-text">Le groupe de contrebandiers et de pirates de Kath Scarlet, qui agit depuis les Mondes Doubles de Talus et Tralus, n’a pas la réputation d’être fiable ni même honorable. Et ce ne sont pas les autres criminels qui diront le contraire…</i>"""
         "Black Squadron Ace":
            display_name: """As de l’Escadron Noir"""
-           text: """<i>Au cours de la Bataille de Yavin, les pilotes d’élite des chasseurs TIE/ln de l’Escadron Noir escortèrent Dark Vador lors d’une attaque dévastatrice contre les forces Rebelles.</i>"""
+           text: """<i class="descriptive-text">Au cours de la Bataille de Yavin, les pilotes d’élite des chasseurs TIE/ln de l’Escadron Noir escortèrent Dark Vador lors d’une attaque dévastatrice contre les forces Rebelles.</i>"""
         "Black Squadron Ace (T-70)":
            display_name: """As de l’Escadron Noir"""
-           text: """<i>Lors de la Guerre Froide, l’Escadron Noir de Poe Dameron entreprit d’audacieuses missions secrètes contre le Premier Ordre, sans tenir compte des traités ratifiés par le Sénat de la Nouvelle République.</i>"""
+           text: """<i class="descriptive-text">Lors de la Guerre Froide, l’Escadron Noir de Poe Dameron entreprit d’audacieuses missions secrètes contre le Premier Ordre, sans tenir compte des traités ratifiés par le Sénat de la Nouvelle République.</i>"""
         "Black Squadron Scout":
            display_name: """Éclaireur de l’Escadron Noir"""
-           text: """<i>Ce vaisseau atmosphérique lourdement armé se sert de ses ailes mobiles pour gagner en vitesse et manœuvrabilité.</i>"""
+           text: """<i class="descriptive-text">Ce vaisseau atmosphérique lourdement armé se sert de ses ailes mobiles pour gagner en vitesse et manœuvrabilité.</i>"""
         "Black Sun Ace":
            display_name: """As du Soleil Noir"""
-           text: """<i>Le chasseur d’assaut Kihraxz fut développé expressément pour l’organisation criminelle du Soleil Noir, dont les as, très généreusement payés, exigeaient des appareils agiles et puissants, à la hauteur de leur talent.</i>"""
+           text: """<i class="descriptive-text">Le chasseur d’assaut Kihraxz fut développé expressément pour l’organisation criminelle du Soleil Noir, dont les as, très généreusement payés, exigeaient des appareils agiles et puissants, à la hauteur de leur talent.</i>"""
         "Black Sun Assassin":
            display_name: """Assassin du Soleil Noir"""
-           text: """<i>Abattre sa cible au coin d’une ruelle sombre ou ajouter une goutte de poison à une boisson sont des méthodes courantes d’assassinat, mais une navette en feu s’écrasant au sol fait passer un tout autre message.</i>"""
+           text: """<i class="descriptive-text">Abattre sa cible au coin d’une ruelle sombre ou ajouter une goutte de poison à une boisson sont des méthodes courantes d’assassinat, mais une navette en feu s’écrasant au sol fait passer un tout autre message.</i>"""
         "Black Sun Enforcer":
            display_name: """Homme de Main du Soleil Noir"""
-           text: """<i>Le prince Xizor en personne collabora avec MandalMotors pour concevoir la plateforme d’attaque de classe StarViper, l’un des plus redoutables chasseurs de la galaxie.</i>"""
+           text: """<i class="descriptive-text">Le prince Xizor en personne collabora avec MandalMotors pour concevoir la plateforme d’attaque de classe StarViper, l’un des plus redoutables chasseurs de la galaxie.</i>"""
         "Black Sun Soldier":
            display_name: """Soldat du Soleil Noir"""
-           text: """<i>La vaste et influente organisation criminelle du Soleil Noir a toujours besoin de pilotes de talent, pourvu qu’ils ne soient pas trop regardants sur l’origine de leur paye.</i>"""
+           text: """<i class="descriptive-text">La vaste et influente organisation criminelle du Soleil Noir a toujours besoin de pilotes de talent, pourvu qu’ils ne soient pas trop regardants sur l’origine de leur paye.</i>"""
         "Blade Squadron Veteran":
            display_name: """Vétéran de l’Escadron Blade"""
-           text: """<i>Un système de stabilisation gyroscopique unique enveloppe le cockpit du B-wing et assure la stabilité du pilote.</i>"""
+           text: """<i class="descriptive-text">Un système de stabilisation gyroscopique unique enveloppe le cockpit du B-wing et assure la stabilité du pilote.</i>"""
         "Blue Squadron Escort":
            display_name: """Escorte de l’Escadron Bleu"""
-           text: """<i>Conçu par Incom Corporation, le X-wing T-65 compta rapidement parmi les appareils militaires les plus efficaces de la galaxie et fut d’un réel secours pour la Rébellion.</i>"""
+           text: """<i class="descriptive-text">Conçu par Incom Corporation, le X-wing T-65 compta rapidement parmi les appareils militaires les plus efficaces de la galaxie et fut d’un réel secours pour la Rébellion.</i>"""
         "Blue Squadron Pilot":
            display_name: """Pilote de l’Escadron Bleu"""
-           text: """<i>Grâce à son impressionnant panel d’armes lourdes et à ses boucliers très résistants, le B-wing s’est imposé comme le plus redoutable chasseur d’assaut de l’Alliance Rebelle.</i>"""
+           text: """<i class="descriptive-text">Grâce à son impressionnant panel d’armes lourdes et à ses boucliers très résistants, le B-wing s’est imposé comme le plus redoutable chasseur d’assaut de l’Alliance Rebelle.</i>"""
         "Blue Squadron Protector":
            display_name: """Protecteur de l’Escadron Bleu"""
-           text: """<i>Les pilotes d’élite clones de l’Escadron Bleu sont capables de faire voler leur V-19 conjointement avec les appareils des Jedi et servent le plus souvent de soutien auprès d’illustres commandants comme Anakin Skywalker et Ahsoka Tano.</i>"""
+           text: """<i class="descriptive-text">Les pilotes d’élite clones de l’Escadron Bleu sont capables de faire voler leur V-19 conjointement avec les appareils des Jedi et servent le plus souvent de soutien auprès d’illustres commandants comme Anakin Skywalker et Ahsoka Tano.</i>"""
         "Blue Squadron Recruit":
            display_name: """Recrue de l’Escadron Bleu"""
-           text: """<i>Toute une génération a grandi avec des récits d’exploits héroïques lors de la Guerre Civile Galactique, et nombreux sont ceux qui ont appris à piloter dans les mêmes cockpits qui avaient accueilli leurs parents dans leur combat contre l’Empire.</i>"""
+           text: """<i class="descriptive-text">Toute une génération a grandi avec des récits d’exploits héroïques lors de la Guerre Civile Galactique, et nombreux sont ceux qui ont appris à piloter dans les mêmes cockpits qui avaient accueilli leurs parents dans leur combat contre l’Empire.</i>"""
         "Blue Squadron Rookie":
            display_name: """Pilote débutant de l’Escadron Bleu"""
-           text: """<i>Le X-wing T-70 d’Incom-FreiTek a été conçu pour être plus polyvalent que son prédécesseur, le X-wing T-65. L’emplacement du droïde a été amélioré et permet de recevoir un large éventail d’astromechs, et les points d’emport modulaires permettent au personnel au sol d’adapter l’armement du T-70 en fonction de ses missions.</i>"""
+           text: """<i class="descriptive-text">Le X-wing T-70 d’Incom-FreiTek a été conçu pour être plus polyvalent que son prédécesseur, le X-wing T-65. L’emplacement du droïde a été amélioré et permet de recevoir un large éventail d’astromechs, et les points d’emport modulaires permettent au personnel au sol d’adapter l’armement du T-70 en fonction de ses missions.</i>"""
         "Blue Squadron Scout":
            display_name: """Éclaireur de l’Escadron Bleu"""
-           text: """<i>Utilisé pour déployer des troupes sous couvert de l’obscurité ou sur les théâtres d’opérations les plus dangereux, le U-wing UT-60D rendit de fiers services à l’Alliance Rebelle qui avait désespérément besoin de transports résistants.</i>"""
+           text: """<i class="descriptive-text">Utilisé pour déployer des troupes sous couvert de l’obscurité ou sur les théâtres d’opérations les plus dangereux, le U-wing UT-60D rendit de fiers services à l’Alliance Rebelle qui avait désespérément besoin de transports résistants.</i>"""
         "Boba Fett":
            display_name: """Boba Fett"""
            text: """Tant que vous défendez ou effectuez une attaque, vous pouvez relancer 1 de vos dés pour chaque vaisseau ennemi à portée 0-1."""
@@ -527,10 +527,10 @@ exportObj.cardLoaders['Français'] = () ->
            text: """Tant que vous effectuez une attaque principale, après l’étape « Neutraliser les résultats », vous pouvez dépenser 1 résultat %CRIT% pour ajouter 2 résultats %HIT%."""
         "Bounty Hunter":
            display_name: """Chasseur de Primes"""
-           text: """<i>La sinistre réputation du Patrouilleur de Classe Firespray a pour origine les chasseurs de primes Jango Fett et Boba Fett, qui modifièrent leur appareil avec d’innombrables armes terrifiantes.</i>"""
+           text: """<i class="descriptive-text">La sinistre réputation du Patrouilleur de Classe Firespray a pour origine les chasseurs de primes Jango Fett et Boba Fett, qui modifièrent leur appareil avec d’innombrables armes terrifiantes.</i>"""
         "Bravo Flight Officer":
            display_name: """Officier de l’Escadron Bravo"""
-           text: """<i>Les pilotes volontaires des Forces Royales de Sécurité de Naboo sont déterminés à protéger le peuple et les idéaux de leur monde natal, et font confiance à leur Reine pour les envoyer au combat seulement quand toutes les autres options ont échoué.</i>"""
+           text: """<i class="descriptive-text">Les pilotes volontaires des Forces Royales de Sécurité de Naboo sont déterminés à protéger le peuple et les idéaux de leur monde natal, et font confiance à leur Reine pour les envoyer au combat seulement quand toutes les autres options ont échoué.</i>"""
         "Braylen Stramm":
            display_name: """Braylen Stramm"""
            text: """Tant que vous défendez ou effectuez une attaque, si vous êtes stressé, vous pouvez relancer jusqu’à 2 de vos dés."""
@@ -569,13 +569,13 @@ exportObj.cardLoaders['Français'] = () ->
            text: """Tant que vous défendez ou effectuez une attaque, avant de lancer les dés d’attaque, si vous n’êtes pas dans le %BULLSEYEARC% du vaisseau ennemi, vous pouvez dépenser 1 %CHARGE%. Dans ce cas, le vaisseau ennemi gagne 1 marqueur de brouillage."""
         "Cartel Executioner":
            display_name: """Exécuteur du Cartel"""
-           text: """<i>De nombreux pilotes chevronnés au service des kajidics Hutt et d’autres organisations criminelles utilisent le chasseur M12-L Kimogila à cause de sa puissance de feu et de la peur qu’il inspire.</i>"""
+           text: """<i class="descriptive-text">De nombreux pilotes chevronnés au service des kajidics Hutt et d’autres organisations criminelles utilisent le chasseur M12-L Kimogila à cause de sa puissance de feu et de la peur qu’il inspire.</i>"""
         "Cartel Marauder":
            display_name: """Marauder du Cartel"""
-           text: """<i>Le polyvalent Kihraxz fut inspiré du très populaire chasseur X-wing d’Incom, mais toutes sortes d’options permettaient de le personnaliser à loisir. </i>"""
+           text: """<i class="descriptive-text">Le polyvalent Kihraxz fut inspiré du très populaire chasseur X-wing d’Incom, mais toutes sortes d’options permettaient de le personnaliser à loisir. </i>"""
         "Cartel Spacer":
            display_name: """Astropilote du Cartel"""
-           text: """<i>L’Intercepteur « Scyk » M3-A de MandalMotors est acheté en grande quantité par le Cartel Hutt et les contrebandiers Car’das en raison de son prix bas et de ses nombreuses possibilités de personnalisation.</i>"""
+           text: """<i class="descriptive-text">L’Intercepteur « Scyk » M3-A de MandalMotors est acheté en grande quantité par le Cartel Hutt et les contrebandiers Car’das en raison de son prix bas et de ses nombreuses possibilités de personnalisation.</i>"""
         "Cassian Andor":
            display_name: """Cassian Andor"""
            text: """Au début de la phase d’activation, vous pouvez choisir 1 vaisseau allié à portée 1-3. Dans ce cas, ce vaisseau allié retire 1 marqueur de stress."""
@@ -584,7 +584,7 @@ exportObj.cardLoaders['Français'] = () ->
            text: """Tant que vous effectuez une attaque principale, si le défenseur est à portée 0-1 d’au moins un engin allié, lancez 1 dé supplémentaire."""
         "Cavern Angels Zealot":
            display_name: """Extrémiste Anges des Cavernes"""
-           text: """<i>Contrairement à la plupart des cellules Rebelles, les Partisans de Saw Gerrera utilisèrent des méthodes jugées trop radicales pour lutter contre l’Empire Galactique, au cours des sanglants combats qui ravagèrent Géonosis et Jedha.</i>"""
+           text: """<i class="descriptive-text">Contrairement à la plupart des cellules Rebelles, les Partisans de Saw Gerrera utilisèrent des méthodes jugées trop radicales pour lutter contre l’Empire Galactique, au cours des sanglants combats qui ravagèrent Géonosis et Jedha.</i>"""
         "Chertek":
            display_name: """Chertek"""
            text: """Tant que vous effectuez une attaque principale, si le défenseur est tracté, vous pouvez relancer jusqu’à 2 dés d’attaque."""
@@ -596,7 +596,7 @@ exportObj.cardLoaders['Français'] = () ->
            text: """Après qu’un vaisseau allié à portée 0-3 a été détruit, vous pouvez effectuer une action. Puis vous pouvez effectuer une attaque bonus."""
         "Cobalt Squadron Bomber":
            display_name: """Bombardier de l’Escadron Cobalt"""
-           text: """<i>Peu importe que les silos d’artillerie de leurs forteresses stellaires soient chargés de bombes à protons ou de matériel de première nécessité, les valeureux équipages de l’Escadron Cobalt consacrent leur vie à changer la face de la galaxie..</i>"""
+           text: """<i class="descriptive-text">Peu importe que les silos d’artillerie de leurs forteresses stellaires soient chargés de bombes à protons ou de matériel de première nécessité, les valeureux équipages de l’Escadron Cobalt consacrent leur vie à changer la face de la galaxie..</i>"""
         "Colonel Jendon":
            display_name: """Colonel Jendon"""
            text: """Au début de la phase d’activation, vous pouvez dépenser 1 %CHARGE%. Dans ce cas, lorsqu’un vaisseau allié verrouille une cible à ce round, il doit le faire au-delà de la portée 3 à la place de la portée 0-3."""
@@ -605,7 +605,7 @@ exportObj.cardLoaders['Français'] = () ->
            text: """Tant que vous effectuez une attaque contre un vaisseau verrouillé, après avoir lancé vos dés d’attaque, vous pouvez verrouiller le défenseur. """
         "Colossus Station Mechanic":
            display_name: """Mécanicien de la Station Colossus"""
-           text: """<i>Certains pilotes ambitieux et talentueux commencent leur carrière en tant qu’équipier au sol, travaillant sans relâche pour permettre à des vaisseaux rafistolés de voler dans les cieux de mondes éloignés comme Castilon.</i>"""
+           text: """<i class="descriptive-text">Certains pilotes ambitieux et talentueux commencent leur carrière en tant qu’équipier au sol, travaillant sans relâche pour permettre à des vaisseaux rafistolés de voler dans les cieux de mondes éloignés comme Castilon.</i>"""
         "Commander Malarus":
            display_name: """Commander Malarus"""
            text: """Au début de la phase d’engagement, vous pouvez dépenser 1 %CHARGE% et gagner 1 marqueur de stress. Dans ce cas, jusqu’à la fin du round, tant que vous défendez ou effectuez une attaque, vous pouvez changer tous vos résultats %FOCUS% en résultats %EVADE% ou %HIT%"""
@@ -614,7 +614,7 @@ exportObj.cardLoaders['Français'] = () ->
            text: """Si vous êtes censé larguer un engin, vous pouvez le lancer en utilisant un gabarit [1 %STRAIGHT%] à la place."""
         "Contracted Scout":
            display_name: """Éclaireur Sous Contrat"""
-           text: """<i>Conçu pour les missions de reconnaissance de long cours et le calcul de nouveaux itinéraires hyperspatiaux, le JumpMaster 5000, pourvu d’un armement léger, est souvent réaménagé par ses propriétaires.</i>"""
+           text: """<i class="descriptive-text">Conçu pour les missions de reconnaissance de long cours et le calcul de nouveaux itinéraires hyperspatiaux, le JumpMaster 5000, pourvu d’un armement léger, est souvent réaménagé par ses propriétaires.</i>"""
         "Corran Horn":
            display_name: """Corran Horn"""
            text: """À l’initiative 0, vous pouvez effectuer une attaque principale bonus contre un vaisseau ennemi situé dans votre %BULLSEYEARC%. Dans ce cas, au début de la prochaine phase de préparation, gagnez 1 marqueur de désarmement."""
@@ -629,10 +629,10 @@ exportObj.cardLoaders['Français'] = () ->
            text: """Tant que vous défendez ou effectuez une attaque principale, si votre manœuvre révélée est rouge, lancez 1 dé supplémentaire."""
         "Crymorah Goon":
            display_name: """Sbire du Crymorah"""
-           text: """<i>Bien qu’il ne soit pas toujours très maniable, le Y-wing bénéficie d’une solide coque, de boucliers substantiels et de canons montés sur une tourelle qui en font un excellent appareil de patrouille.</i>"""
+           text: """<i class="descriptive-text">Bien qu’il ne soit pas toujours très maniable, le Y-wing bénéficie d’une solide coque, de boucliers substantiels et de canons montés sur une tourelle qui en font un excellent appareil de patrouille.</i>"""
         "Cutlass Squadron Pilot":
            display_name: """Pilote de l’Escadron Cutlass"""
-           text: """<i>Le TIE Punisher a été conçu après le bombardier TIE, qui connut un grand succès. Il est pourvu de boucliers, d’une seconde trappe de largage et de trois nacelles d’artillerie supplémentaires, toutes équipées de moteurs ioniques jumelés.</i>"""
+           text: """<i class="descriptive-text">Le TIE Punisher a été conçu après le bombardier TIE, qui connut un grand succès. Il est pourvu de boucliers, d’une seconde trappe de largage et de trois nacelles d’artillerie supplémentaires, toutes équipées de moteurs ioniques jumelés.</i>"""
         "DBS-32C":
            display_name: """DBS-32C"""
            text: """Au début de la phase d’engagement, vous pouvez dépenser 1 marqueur de calcul pour effectuer une action %COORDINATE%. Vous ne pouvez pas coordonner des vaisseaux qui n’ont pas la capacité de vaisseau <strong>Calculs en Réseau</strong>."""
@@ -656,7 +656,7 @@ exportObj.cardLoaders['Français'] = () ->
            text: """Au début de la phase d’engagement, vous pouvez choisir 1 vaisseau protégé dans votre %BULLSEYEARC% et dépenser 1 %CHARGE%. Dans ce cas, ce vaisseau perd 1 bouclier et vous récupérez 1 bouclier."""
         "Dark Courier":
            display_name: """Messager Noir"""
-           text: """<i>Le Scimitar est un appareil lourdement modifié, équipé de technologies furtives et de dispositifs de surveillance avancés, afin de mener des missions d’infiltration et d’assassinat.</i>"""
+           text: """<i class="descriptive-text">Le Scimitar est un appareil lourdement modifié, équipé de technologies furtives et de dispositifs de surveillance avancés, afin de mener des missions d’infiltration et d’assassinat.</i>"""
         "Darth Maul":
            display_name: """Dark Maul"""
            text: """Après avoir effectué une attaque, vous pouvez dépenser 2 %FORCE% pour effectuer une attaque principale bonus contre une cible différente. Si votre attaque était ratée, vous pouvez effectuer cette attaque principale bonus contre la même cible à la place."""
@@ -671,7 +671,7 @@ exportObj.cardLoaders['Français'] = () ->
            text: """Tant qu’un vaisseau allié à portée 0-2 défend contre un attaquant endommagé, le défenseur peut relancer 1 dé de défense."""
         "Delta Squadron Pilot":
            display_name: """Pilote de l’Escadron Delta"""
-           text: """<i>En plus de ses six canons laser et de ses lance-missiles, le redoutable défenseur TIE est équipé d’écrans déflecteurs et d’un hyperdrive.</i>"""
+           text: """<i class="descriptive-text">En plus de ses six canons laser et de ses lance-missiles, le redoutable défenseur TIE est équipé d’écrans déflecteurs et d’un hyperdrive.</i>"""
         "Dengar":
            display_name: """Dengar"""
            text: """Après avoir défendu, si l’attaquant est dans votre %FRONTARC%, vous pouvez dépenser 1 %CHARGE% pour effectuer une attaque bonus contre cet attaquant."""
@@ -695,7 +695,7 @@ exportObj.cardLoaders['Français'] = () ->
            text: """Si vous êtes censé larguer un engin en utilisant un gabarit [1 %STRAIGHT%], vous pouvez utiliser le gabarit [3 %TURNLEFT%], [3 %STRAIGHT%] ou [3 %TURNRIGHT%] à la place."""
         "Epsilon Squadron Cadet":
            display_name: """Cadet de l’Escadron Epsilon"""
-           text: """<i>Formés depuis le plus jeune âge au cœur des Star Destroyers de classe Resurgent, de nombreux pilotes de TIE du Premier Ordre n’ont jamais foulé le sol d’une planète.</i>"""
+           text: """<i class="descriptive-text">Formés depuis le plus jeune âge au cœur des Star Destroyers de classe Resurgent, de nombreux pilotes de TIE du Premier Ordre n’ont jamais foulé le sol d’une planète.</i>"""
         "Esege Tuketu":
            display_name: """Esege Tuketu"""
            text: """Tant qu’un vaisseau allié à portée 0-2 défend ou effectue une attaque, il peut dépenser vos marqueurs de concentration comme s’ils étaient à lui."""
@@ -713,7 +713,7 @@ exportObj.cardLoaders['Français'] = () ->
            text: """Tant que vous défendez ou effectuez une attaque, si vous êtes stressé, vous pouvez dépenser 1 %FORCE% pour changer jusqu’à 2 de vos résultats %FOCUS% en résultats %EVADE% ou %HIT%."""
         "Feethan Ottraw Autopilot":
            display_name: """Pilote Automatique Feethan Ottraw"""
-           text: """<i>Contrairement aux chasseurs de conception fragile mais facilement remplaçables construits pour les Séparatistes, Feethan Ottraw Scalable Assemblies a également conçu le Belbullab-22, un appareil qui allie puissance de feu, résistance et vitesse.</i>"""
+           text: """<i class="descriptive-text">Contrairement aux chasseurs de conception fragile mais facilement remplaçables construits pour les Séparatistes, Feethan Ottraw Scalable Assemblies a également conçu le Belbullab-22, un appareil qui allie puissance de feu, résistance et vitesse.</i>"""
         "Fenn Rau (Sheathipede)":
            display_name: """Fenn Rau"""
            text: """Après qu’un vaisseau ennemi situé dans votre arc de tir vous a engagé, si vous n’êtes pas stressé, vous pouvez gagner 1 marqueur de stress. Dans ce cas, ce vaisseau ennemi ne peut pas dépenser de marqueur pour modifier des dés tant qu’il effectue une attaque pendant cette phase."""
@@ -731,25 +731,25 @@ exportObj.cardLoaders['Français'] = () ->
            text: """Tant que vous défendez ou effectuez une attaque, vous pouvez ajouter 1 résultat vierge, ou vous pouvez gagner 1 marqueur de contrainte pour ajouter 1 résultat concentration à la place."""
         "First Order Provocateur":
            display_name: """Provocateur du Premier Ordre"""
-           text: """<i>Les idées du Major Vonreg ont guidé l’amélioration de modèles déjà éprouvés lors de la conception de cet appareil unique en son genre, précis et mortel, par Sienar-Jaemus Fleet Systems.</i>"""
+           text: """<i class="descriptive-text">Les idées du Major Vonreg ont guidé l’amélioration de modèles déjà éprouvés lors de la conception de cet appareil unique en son genre, précis et mortel, par Sienar-Jaemus Fleet Systems.</i>"""
         "First Order Test Pilot":
            display_name: """Pilote d’Essai du Premier Ordre"""
-           text: """<i>Conçu pour la vitesse et particulièrement maniable, le TIE Silencer est un appareil dévastateur entre les mains des pilotes qui savent en tirer tout son potentiel. Des pilotes moins talentueux seraient incapables de maîtriser la vélocité de ce vaisseau.</i>"""
+           text: """<i class="descriptive-text">Conçu pour la vitesse et particulièrement maniable, le TIE Silencer est un appareil dévastateur entre les mains des pilotes qui savent en tirer tout son potentiel. Des pilotes moins talentueux seraient incapables de maîtriser la vélocité de ce vaisseau.</i>"""
         "Foreman Proach":
            display_name: """Contremaître Proach"""
            text: """Avant de vous engager, vous pouvez choisir 1 vaisseau ennemi dans votre %BULLSEYEARC% à portée 1-2 et gagner 1 marqueur de désarmement. Dans ce cas, ce vaisseau ennemi gagne 1 marqueur de rayon tracteur."""
         "Freighter Captain":
            display_name: """Capitaine de Cargo"""
-           text: """<i>De nombreux astropilotes gagnent leur vie en parcourant la Bordure Extérieure, un secteur où la différence entre contrebandier et marchand honnête est souvent ténue. Aux frontières de la civilisation, les clients sont beaucoup moins exigeants sur l’origine des marchandises, tant que les prix sont suffisamment attractifs.</i>"""
+           text: """<i class="descriptive-text">De nombreux astropilotes gagnent leur vie en parcourant la Bordure Extérieure, un secteur où la différence entre contrebandier et marchand honnête est souvent ténue. Aux frontières de la civilisation, les clients sont beaucoup moins exigeants sur l’origine des marchandises, tant que les prix sont suffisamment attractifs.</i>"""
         "G4R-GOR V/M":
            display_name: """G4R-G0R V/M"""
            text: """Après que vous avez défendu, chaque autre vaisseau à portée 0 subit 1 dégât %CRIT%."""
         "Gamma Squadron Ace":
            display_name: """As de l’Escadron Gamma"""
-           text: """<i>Bien qu’il ne soit pas aussi maniable et rapide qu’un TIE/ln, le Bombardier TIE a une puissance de feu suffisante pour détruire à peu près n’importe quelle cible.</i>"""
+           text: """<i class="descriptive-text">Bien qu’il ne soit pas aussi maniable et rapide qu’un TIE/ln, le Bombardier TIE a une puissance de feu suffisante pour détruire à peu près n’importe quelle cible.</i>"""
         "Gand Findsman":
            display_name: """Trouveur Gand"""
-           text: """<i>Les légendaires Trouveurs de Gand vouaient un véritable culte aux brumes qui recouvraient leur planète natale et se servaient de signes, d’augures et de rituels mystiques pour traquer leurs proies.</i>"""
+           text: """<i class="descriptive-text">Les légendaires Trouveurs de Gand vouaient un véritable culte aux brumes qui recouvraient leur planète natale et se servaient de signes, d’augures et de rituels mystiques pour traquer leurs proies.</i>"""
         "Garven Dreis (X-Wing)":
            display_name: """Garven Dreis"""
            text: """Après voir dépensé un marqueur de concentration, vous pouvez choisir 1 vaisseau allié à portée 1-3. Ce vaisseau gagne 1 marqueur de concentration."""
@@ -773,10 +773,10 @@ exportObj.cardLoaders['Français'] = () ->
            text: """Au début de la phase d’engagement, vous <b>devez</b> transférer 1 de vos marqueurs de stress à un autre vaisseau allié à portée 0-2."""
         "Gold Squadron Trooper":
            display_name: """Soldat de l’Escadron Or"""
-           text: """<i>Le chasseur Torrent V-19 a été conçu en tant que vaisseau léger d’escorte afin d’accompagner les intercepteurs Delta-7 pilotés par les chevaliers Jedi et bénéficie d’un profil aérodynamique unique lui permettant d’assurer parfaitement ce rôle.</i>"""
+           text: """<i class="descriptive-text">Le chasseur Torrent V-19 a été conçu en tant que vaisseau léger d’escorte afin d’accompagner les intercepteurs Delta-7 pilotés par les chevaliers Jedi et bénéficie d’un profil aérodynamique unique lui permettant d’assurer parfaitement ce rôle.</i>"""
         "Gold Squadron Veteran":
            display_name: """Vétéran de l’Escadron Or"""
-           text: """<i>Sous le commandement de Jon «Dutch» Vander, l’Escadron Or a joué un rôle déterminant au cours des Batailles de Scarif et de Yavin.</i>"""
+           text: """<i class="descriptive-text">Sous le commandement de Jon «Dutch» Vander, l’Escadron Or a joué un rôle déterminant au cours des Batailles de Scarif et de Yavin.</i>"""
         "Gorgol":
            display_name: """Gorgol"""
            text: """Pendant la phase de système, vous pouvez gagner 1 marqueur de désarmement et choisir un vaisseau allié à porté 1-2. Dans ce cas, il gagne 1 marqueur de rayon tracteur, puis il répare 1 de ses cartes de dégât face visible <strong> Vaisseau</strong>."""
@@ -785,16 +785,16 @@ exportObj.cardLoaders['Français'] = () ->
            text: """Tant que vous défendez à portée d’attaque 1, vous pouvez dépenser 1 %FORCE% pour prévenir le bonus de portée 1. %LINEBREAK%Tant que vous effectuez une attaque contre un défenseur à portée d’attaque 2-3, vous pouvez dépenser 1 %FORCE% pour appliquer le bonus de portée 1."""
         "Gray Squadron Bomber":
            display_name: """Bombardier de l’Escadron Gris"""
-           text: """<i>Grâce à sa vitesse, sa robustesse et son armement lourd, le Y-wing resta un élément essentiel de la flotte Rebelle longtemps après sa mise en retraite par l’Empire Galactique.</i>"""
+           text: """<i class="descriptive-text">Grâce à sa vitesse, sa robustesse et son armement lourd, le Y-wing resta un élément essentiel de la flotte Rebelle longtemps après sa mise en retraite par l’Empire Galactique.</i>"""
         "Graz":
            display_name: """Graz"""
            text: """Tant que vous défendez, si vous êtes derrière l’attaquant, lancez 1 dé de défense supplémentaire. %LINEBREAK%Tant que vous effectuez une attaque, si vous êtes derrière le défenseur, lancez 1 dé d’attaque supplémentaire."""
         "Green Squadron Expert":
            display_name: """Green Squadron Expert"""
-           text: """<i>Le RZ-2 intègre en série les modifications apportées au fil des ans à son prédécesseur. Les pilotes les plus audacieux considèrent que la meilleure fiabilité de ce modèle les autorise à repousser encore plus les limites de l’appareil.</i>"""
+           text: """<i class="descriptive-text">Le RZ-2 intègre en série les modifications apportées au fil des ans à son prédécesseur. Les pilotes les plus audacieux considèrent que la meilleure fiabilité de ce modèle les autorise à repousser encore plus les limites de l’appareil.</i>"""
         "Green Squadron Pilot":
            display_name: """Pilote de l’Escadron Vert"""
-           text: """<i>À cause de ses commandes sensibles et de son extrême manœuvrabilité, seuls les meilleurs pilotes﻿ osent prendre place dans le cockpit d’un A-wing.</i>"""
+           text: """<i class="descriptive-text">À cause de ses commandes sensibles et de son extrême manœuvrabilité, seuls les meilleurs pilotes﻿ osent prendre place dans le cockpit d’un A-wing.</i>"""
         "Greer Sonnel":
            display_name: """Greer Sonnel"""
            text: """Après avoir entièrement exécuté une manœuvre, vous pouvez pivoter votre %SINGLETURRETARC%."""
@@ -821,7 +821,7 @@ exportObj.cardLoaders['Français'] = () ->
            text: """Après avoir révélé une manœuvre bleue ou rouge, vous pouvez régler votre cadran sur une autre manœuvre de même difficulté."""
         "Hired Gun":
            display_name: """ Soudard"""
-           text: """<i>La simple évocation de crédits Impériaux peut attirer toutes sortes d’individus totalement amoraux dans votre camp.</i>"""
+           text: """<i class="descriptive-text">La simple évocation de crédits Impériaux peut attirer toutes sortes d’individus totalement amoraux dans votre camp.</i>"""
         "Horton Salm":
            display_name: """Horton Salm"""
            text: """Tant que vous effectuez une attaque, vous pouvez relancer 1 dé d’attaque pour chaque autre vaisseau allié à portée 0-1 du défenseur."""
@@ -845,19 +845,19 @@ exportObj.cardLoaders['Français'] = () ->
            text: """Avant qu’un chasseur TIE/ln allié à portée 0-1 ne subisse 1 ou plusieurs dégâts, vous pouvez dépenser 1 %CHARGE%. Dans ce cas, prévenez ce dégât."""
         "Imdaar Test Pilot":
            display_name: """Pilote d’Essai Imdaar"""
-           text: """<i>Conçu dans un centre de recherches secret sur Imdaar Alpha, le TIE Fantôme concrétise ce qui semblait impossible : un petit chasseur furtif équipé d’un système d’occultation avancé.</i>"""
+           text: """<i class="descriptive-text">Conçu dans un centre de recherches secret sur Imdaar Alpha, le TIE Fantôme concrétise ce qui semblait impossible : un petit chasseur furtif équipé d’un système d’occultation avancé.</i>"""
         "Inaldra":
            display_name: """Inaldra"""
            text: """Tant que vous défendez ou effectuez une attaque, vous pouvez subir 1 dégât %HIT% pour relancer n’importe quel nombre de vos dés. """
         "Inquisitor":
            display_name: """Inquisiteur"""
-           text: """<i>Les redoutables Inquisiteurs bénéficient d’une grande autonomie et ont accès aux technologies les plus récentes de l’Empire, comme le prototype TIE Advanced v1.</i>"""
+           text: """<i class="descriptive-text">Les redoutables Inquisiteurs bénéficient d’une grande autonomie et ont accès aux technologies les plus récentes de l’Empire, comme le prototype TIE Advanced v1.</i>"""
         "Jake Farrell":
            display_name: """Jake Farrell"""
            text: """Après avoir effectué une action %BARRELROLL% ou %BOOST%, vous pouvez choisir un vaisseau allié à portée 0-1. Ce vaisseau peut effectuer une action %FOCUS%.%LINEBREAK%Propulseurs Vectoriels : après avoir effectué une action, vous pouvez effectuer une action %BOOST% rouge."""
         "Jakku Gunrunner":
            display_name: """Trafiquant d’Armes de Jakku"""
-           text: """<i>Le Remorqueur Spatial de Transfert Quadrimoteur, surnommé « Quad jumper », était aussi manœuvrable sous atmosphère que dans l’espace, ce qui le rendait extrêmement populaire auprès des contrebandiers et des explorateurs. </i>"""
+           text: """<i class="descriptive-text">Le Remorqueur Spatial de Transfert Quadrimoteur, surnommé « Quad jumper », était aussi manœuvrable sous atmosphère que dans l’espace, ce qui le rendait extrêmement populaire auprès des contrebandiers et des explorateurs. </i>"""
         "Jan Ors":
            display_name: """Jan Ors"""
            text: """Tant qu’un vaisseau allié situé dans votre arc de tir effectue une attaque principale, si vous n’êtes pas stressé, vous pouvez gagner 1 marqueur de stress. Dans ce cas, ce vaisseau peut lancer 1 dé d’attaque supplémentaire."""
@@ -869,7 +869,7 @@ exportObj.cardLoaders['Français'] = () ->
            text: """Après avoir entièrement exécuté une manœuvre bleue, vous pouvez choisir un vaisseau allié à portée 0-1. Dans ce cas, ce vaisseau allié retire 1 marqueur de stress."""
         "Jedi Knight":
            display_name: """Chevalier Jedi"""
-           text: """<i>Lorsque la Guerre des Clones débuta, les chevaliers Jedi rallièrent la cause de la sauvegarde de la République, prenant le commandement de légions composées de soldats clones et les menant au combat.</i>"""
+           text: """<i class="descriptive-text">Lorsque la Guerre des Clones débuta, les chevaliers Jedi rallièrent la cause de la sauvegarde de la République, prenant le commandement de légions composées de soldats clones et les menant au combat.</i>"""
         "Jek Porkins":
            display_name: """Jek Porkins"""
            text: """Après avoir reçu un marqueur de stress, vous pouvez lancer 1 dé d’attaque pour le retirer.%LINEBREAK%Sur un résultat %HIT%, subissez 1 dégât %HIT%."""
@@ -899,7 +899,7 @@ exportObj.cardLoaders['Français'] = () ->
            text: """Tant que vous accélérez, vous pouvez utiliser le gabarit [1 %TURNLEFT%] ou [1 %TURNRIGHT%] à la place."""
         "Kashyyyk Defender":
            display_name: """Défenseur de Kashyyyk"""
-           text: """<i>Équipée de trois canons laser jumelés Sureggi longue portée, la canonnière Auzituck donnait du fil à retordre aux esclavagistes dans le système de Kashyyyk.</i>"""
+           text: """<i class="descriptive-text">Équipée de trois canons laser jumelés Sureggi longue portée, la canonnière Auzituck donnait du fil à retordre aux esclavagistes dans le système de Kashyyyk.</i>"""
         "Kath Scarlet":
            display_name: """Kath Scarlet"""
            text: """Tant que vous effectuez une attaque principale, si au moins 1 vaisseau allié non-limité est à portée 0 du défenseur, lancez 1 dé d’attaque supplémentaire."""
@@ -914,7 +914,7 @@ exportObj.cardLoaders['Français'] = () ->
            text: """Au début de la phase d’engagement, vous pouvez choisir 1 vaisseau à portée 0-1 qui est à la fois dans votre %FRONTARC% et dans votre %SINGLETURRETARC%. Dans ce cas, ce vaisseau gagne 1 marqueur de rayon tracteur."""
         "Knave Squadron Escort":
            display_name: """Escorte de l’Escadron Knave"""
-           text: """<i>Conçu pour combiner les meilleurs atouts de l’A-wing et du X-wing, l’E-wing dispose d’une puissance de feu, d’une vitesse et d’une manœuvrabilité supérieures.</i>"""
+           text: """<i class="descriptive-text">Conçu pour combiner les meilleurs atouts de l’A-wing et du X-wing, l’E-wing dispose d’une puissance de feu, d’une vitesse et d’une manœuvrabilité supérieures.</i>"""
         "Koshka Frost":
            display_name: """Koshka Frost"""
            text: """Tant que vous défendez ou effectuez une attaque, si le vaisseau ennemi est stressé, vous pouvez relancer 1 de vos dés."""
@@ -986,13 +986,13 @@ exportObj.cardLoaders['Français'] = () ->
            text: """Après avoir subi des dégâts, vous pouvez dépenser 1 %CHARGE% pour effectuer une action."""
         "Logistics Division Pilot":
            display_name: """Pilote de la Division Logistique"""
-           text: """<i>En l’absence de soutien de la Nouvelle République, les membres de la Résistance ont souvent une double fonction en tant que pilote de transport et mécanicien, mettant à profit leurs compétences et leur savoir technique au service du combat contre le Premier Ordre.</i>"""
+           text: """<i class="descriptive-text">En l’absence de soutien de la Nouvelle République, les membres de la Résistance ont souvent une double fonction en tant que pilote de transport et mécanicien, mettant à profit leurs compétences et leur savoir technique au service du combat contre le Premier Ordre.</i>"""
         "Lok Revenant":
            display_name: """Revenant de Lok"""
-           text: """<i>Le Collectif de Conception Nubien créa le Bombardier Scurrg H-6 en songeant avant tout à sa polyvalence au combat, l’équipant de puissants boucliers et d’un large éventail d’armes destructrices.</i>"""
+           text: """<i class="descriptive-text">Le Collectif de Conception Nubien créa le Bombardier Scurrg H-6 en songeant avant tout à sa polyvalence au combat, l’équipant de puissants boucliers et d’un large éventail d’armes destructrices.</i>"""
         "Lothal Rebel":
            display_name: """Rebelle de Lothal"""
-           text: """<i>Autre réussite commerciale de la Corporation Technique Corellienne, le cargo VCX-100 est plus gros que les légendaires appareils de la série YT, et propose un espace de vie plus volumineux et de meilleures possibilités de personnalisation.</i>"""
+           text: """<i class="descriptive-text">Autre réussite commerciale de la Corporation Technique Corellienne, le cargo VCX-100 est plus gros que les légendaires appareils de la série YT, et propose un espace de vie plus volumineux et de meilleures possibilités de personnalisation.</i>"""
         "Lowhhrick":
            display_name: """Lowhhrick"""
            text: """Après qu’un vaisseau allié à portée 0-1 est devenu le défenseur, vous pouvez dépenser 1 marqueur de renforcement. Dans ce cas, le vaisseau défenseur gagne 1 marqueur d’évasion."""
@@ -1034,10 +1034,10 @@ exportObj.cardLoaders['Français'] = () ->
            text: """Au début de la phase d’engagement, vous pouvez choisir un vaisseau allié à portée 0-1. Dans ce cas, transférez à ce vaisseau tous vos marqueurs verts."""
         "Mining Guild Sentry":
            display_name: """Guetteur de la Guilde Minière"""
-           text: """<i>Dans le cadre de ses accords avec l’Empire, la Guilde Minière a obtenu des chasseurs TIE/ln modifiés pour protéger ses installations. Le retrait de deux panneaux solaires améliore la vision périphérique de l’appareil et l’ajout d’un équipement de survie perfectionné est très prisé des pilotes de la corporation.</i>"""
+           text: """<i class="descriptive-text">Dans le cadre de ses accords avec l’Empire, la Guilde Minière a obtenu des chasseurs TIE/ln modifiés pour protéger ses installations. Le retrait de deux panneaux solaires améliore la vision périphérique de l’appareil et l’ajout d’un équipement de survie perfectionné est très prisé des pilotes de la corporation.</i>"""
         "Mining Guild Surveyor":
            display_name: """Prospecteur de la Guilde Minière"""
-           text: """<i>Les projets impériaux consommant de plus en plus de matières premières, la Guilde Minière exploite avidement les gisements de minerai de doonium récemment mis au jour sur des planètes telles que Batonn, Lothal ou Umbara.</i>"""
+           text: """<i class="descriptive-text">Les projets impériaux consommant de plus en plus de matières premières, la Guilde Minière exploite avidement les gisements de minerai de doonium récemment mis au jour sur des planètes telles que Batonn, Lothal ou Umbara.</i>"""
         "Miranda Doni":
            display_name: """Miranda Doni"""
            text: """Tant que vous effectuez une attaque principale, vous pouvez soit dépenser 1 bouclier pour lancer 1 dé d’attaque supplémentaire, soit, si vous n’êtes pas protégé, vous pouvez lancer 1 dé d’attaque en moins pour récupérer 1 bouclier."""
@@ -1064,7 +1064,7 @@ exportObj.cardLoaders['Français'] = () ->
            text: """Tant que vous défendez, si un vaisseau ennemi est à portée 0-1, vous pouvez ajouter 1 résultat %EVADE% aux résultats de vos dés."""
         "Nu Squadron Pilot":
            display_name: """Pilote de l’Escadron Nu"""
-           text: """<i>D’une conception similaire aux autres vaisseaux développés par Cygnus Spaceworks, le Star Wing de classe Alpha est un appareil polyvalent attribué aux unités spécialisées de la Marine Impériale qui ont besoin d’un chasseur facilement adaptable pour des missions variées.</i>"""
+           text: """<i class="descriptive-text">D’une conception similaire aux autres vaisseaux développés par Cygnus Spaceworks, le Star Wing de classe Alpha est un appareil polyvalent attribué aux unités spécialisées de la Marine Impériale qui ont besoin d’un chasseur facilement adaptable pour des missions variées.</i>"""
         "N'dru Suhlak":
            display_name: """N’dru Suhlak"""
            text: """Tant que vous effectuez une attaque principale, si aucun autre vaisseau allié n’est à portée 0-2, lancez 1 dé d’attaque supplémentaire."""
@@ -1073,31 +1073,31 @@ exportObj.cardLoaders['Français'] = () ->
            text: """Après qu’un vaisseau allié à portée 0-2 a dépensé un marqueur de concentration, vous pouvez dépenser 1 %FORCE%. Dans ce cas, ce vaisseau allié gagne 1 marqueur de concentration."""
         "Obsidian Squadron Pilot":
            display_name: """Pilote de l’Escadron Obsidian"""
-           text: """<i>Le moteur ionique jumelé des chasseurs TIE a été conçu pour la vitesse, ce qui classe ces derniers parmi les vaisseaux les plus maniables jamais produits.</i>"""
+           text: """<i class="descriptive-text">Le moteur ionique jumelé des chasseurs TIE a été conçu pour la vitesse, ce qui classe ces derniers parmi les vaisseaux les plus maniables jamais produits.</i>"""
         "Old Teroch":
            display_name: """Vieux Teroch"""
            text: """Au début de la phase d’engagement, vous pouvez choisir 1 vaisseau ennemi à portée 1. Dans ce cas, si vous êtes dans son %FRONTARC%, il retire tous ses marqueurs verts."""
         "Omega Squadron Ace":
            display_name: """As de l’Escadron Omega"""
-           text: """<i>Seuls les pilotes qui ont fait la démonstration de leur talent et d’un dévouement sans faille peuvent accéder aux postes privilégiés des escadrons du Premier Ordre et mener des missions secrètes contre la Nouvelle République.</i>"""
+           text: """<i class="descriptive-text">Seuls les pilotes qui ont fait la démonstration de leur talent et d’un dévouement sans faille peuvent accéder aux postes privilégiés des escadrons du Premier Ordre et mener des missions secrètes contre la Nouvelle République.</i>"""
         "Omega Squadron Expert":
            display_name: """Expert de l’Escadron Omega"""
-           text: """<i>Le TIE/sf est un appareil polyvalent qui embarque de l’armement spécialisé et des systèmes expérimentaux utilisés lors des opérations à long rayon d’action des Forces spéciales du Premier Ordre.</i>"""
+           text: """<i class="descriptive-text">Le TIE/sf est un appareil polyvalent qui embarque de l’armement spécialisé et des systèmes expérimentaux utilisés lors des opérations à long rayon d’action des Forces spéciales du Premier Ordre.</i>"""
         "Omicron Group Pilot":
            display_name: """Pilote du Groupe Omicron"""
-           text: """<i>Appareil utilitaire léger, la navette de classe Lambda, reconnaissable à sa triple aile caractéristique, joue un rôle de premier plan dans la Marine Impériale, grâce à ses senseurs avancés.</i>"""
+           text: """<i class="descriptive-text">Appareil utilitaire léger, la navette de classe Lambda, reconnaissable à sa triple aile caractéristique, joue un rôle de premier plan dans la Marine Impériale, grâce à ses senseurs avancés.</i>"""
         "Onyx Squadron Ace":
            display_name: """As de l’Escadron Onyx"""
-           text: """<i>L’appareil expérimental qu’est le défenseur TIE surclasse tous les vaisseaux de sa génération, mais sa taille, sa vitesse et son arsenal augmentent considérablement son coût de fabrication.</i>"""
+           text: """<i class="descriptive-text">L’appareil expérimental qu’est le défenseur TIE surclasse tous les vaisseaux de sa génération, mais sa taille, sa vitesse et son arsenal augmentent considérablement son coût de fabrication.</i>"""
         "Onyx Squadron Scout":
            display_name: """Éclaireur de l’Escadron Onyx"""
-           text: """<i>Conçu pour les engagements de longue haleine, le TIE/ag est habituellement confié aux pilotes d’élite entraînés pour tirer le meilleur parti de son armement et de sa manœuvrabilité.</i>"""
+           text: """<i class="descriptive-text">Conçu pour les engagements de longue haleine, le TIE/ag est habituellement confié aux pilotes d’élite entraînés pour tirer le meilleur parti de son armement et de sa manœuvrabilité.</i>"""
         "Outer Rim Pioneer":
            display_name: """Colon de la Bordure Extérieure"""
            text: """Les vaisseaux alliés à portée 0-1 peuvent effectuer des attaques en étant à portée 0 des obstacles."""
         "Outer Rim Smuggler":
            display_name: """Contrebandier de la Bordure Extérieure"""
-           text: """<i>Connu pour sa robustesse et sa conception modulaire, le YT-1300 est l’un des cargos les plus populaires et répandus de la galaxie.</i>"""
+           text: """<i class="descriptive-text">Connu pour sa robustesse et sa conception modulaire, le YT-1300 est l’un des cargos les plus populaires et répandus de la galaxie.</i>"""
         "Overseer Yushyn":
            display_name: """Superviseur Yushyn"""
            text: """Avant qu’un vaisseau allié à portée 1 ne gagne un marqueur de désarmement, si ce vaisseau allié n’est pas stressé, vous pouvez dépenser 1 %CHARGE%. Dans ce cas, le vaisseau allié gagne 1 marqueur de stress à la place."""
@@ -1115,22 +1115,22 @@ exportObj.cardLoaders['Français'] = () ->
            text: """Tant que vous avez 2 marqueurs de stress ou moins, vous pouvez exécuter des manœuvres rouges même si vous êtes stressé."""
         "Partisan Renegade":
            display_name: """Renégat Partisan"""
-           text: """<i>Les Partisans de Saw Gerrera se rassemblèrent d’abord pour combattre les troupes Séparatistes sur Onderon lors de la Guerre des Clones, puis ils continuèrent de lutter contre la tyrannie galactique instaurée par l’Empire.</i>"""
+           text: """<i class="descriptive-text">Les Partisans de Saw Gerrera se rassemblèrent d’abord pour combattre les troupes Séparatistes sur Onderon lors de la Guerre des Clones, puis ils continuèrent de lutter contre la tyrannie galactique instaurée par l’Empire.</i>"""
         "Patrol Leader":
            display_name: """Chef de Patrouille"""
-           text: """<i>Recevoir le commandement d’un Décimateur VT-49 est une promotion de taille pour un officier moyen de la Marine Impériale.</i>"""
+           text: """<i class="descriptive-text">Recevoir le commandement d’un Décimateur VT-49 est une promotion de taille pour un officier moyen de la Marine Impériale.</i>"""
         "Petranaki Arena Ace":
            display_name: """As de l’Arène Petranaki"""
-           text: """<i>L’Arène de Petranaki est un gigantesque édifice de Géonosis qui a été le lieu principal de la première bataille de la Guerre des Clones.</i>"""
+           text: """<i class="descriptive-text">L’Arène de Petranaki est un gigantesque édifice de Géonosis qui a été le lieu principal de la première bataille de la Guerre des Clones.</i>"""
         "Petty Officer Thanisson":
            display_name: """Petty Officer Thanisson"""
            text: """Pendant la phase d’activation ou d’engagement, après qu’un vaisseau dans votre %FRONTARC% à portée 0-2 a gagné 1 marqueur de stress, vous pouvez dépenser 1 %CHARGE%. Dans ce cas, ce vaisseau gagne 1 marqueur de rayon tracteur."""
         "Phoenix Squadron Pilot":
            display_name: """Pilote de l’Escadron Phœnix"""
-           text: """<i>Dirigés par le commandant Jun Sato et malgré leur manque d’expérience, les courageux pilotes de l’Escadron Phœnix firent face à des défis complexes dans leur lutte contre l’Empire Galactique.</i>"""
+           text: """<i class="descriptive-text">Dirigés par le commandant Jun Sato et malgré leur manque d’expérience, les courageux pilotes de l’Escadron Phœnix firent face à des défis complexes dans leur lutte contre l’Empire Galactique.</i>"""
         "Planetary Sentinel":
            display_name: """Sentinelle Planétaire"""
-           text: """<i>Pour protéger ses installations militaires, l’Empire a besoin d’une force de défense rapide et vigilante.</i>"""
+           text: """<i class="descriptive-text">Pour protéger ses installations militaires, l’Empire a besoin d’une force de défense rapide et vigilante.</i>"""
         "Plo Koon":
            display_name: """Plo Koon"""
            text: """Au début de la phase d’engagement, vous pouvez dépenser 1 %FORCE% et choisir un autre vaisseau allié à portée 0-2. Dans ce cas, vous pouvez transférer 1 marqueur vert à ce vaisseau ou transférer 1 marqueur orange de ce vaisseau au vôtre."""
@@ -1154,19 +1154,19 @@ exportObj.cardLoaders['Français'] = () ->
            text: """Tant que vous effectuez une attaque, si vous êtes renforcé et si le défenseur est dans l’arc %FULLFRONTARC% ou %FULLREARARC% correspondant à votre marqueur de renforcement, vous pouvez changer 1 de vos résultats %FOCUS% en un résultat %CRIT%."""
         "Rebel Scout":
            display_name: """Éclaireur Rebelle"""
-           text: """<i>Conçue par la Corporation Technique Corellienne et inspirée d’un oiseau  en vol, la série « hawk » a produit d’excellents cargos légers. Rapide et résistant, le HWK-290 est souvent utilisé par les agents Rebelles en tant que base mobile d’opérations.</i>"""
+           text: """<i class="descriptive-text">Conçue par la Corporation Technique Corellienne et inspirée d’un oiseau  en vol, la série « hawk » a produit d’excellents cargos légers. Rapide et résistant, le HWK-290 est souvent utilisé par les agents Rebelles en tant que base mobile d’opérations.</i>"""
         "Red Squadron Bomber":
            display_name: """Bombardier de l’Escadron Rouge"""
-           text: """<i>Durant la bataille de Géonosis, l’Escadron Rouge a fourni une couverture indispensable aux canonnières TO/BA déployées pour sécuriser la surface.</i>"""
+           text: """<i class="descriptive-text">Durant la bataille de Géonosis, l’Escadron Rouge a fourni une couverture indispensable aux canonnières TO/BA déployées pour sécuriser la surface.</i>"""
         "Red Squadron Expert":
            display_name: """Expert de l’Escadron Rouge"""
-           text: """<i>Le Corps des Chasseurs de la Résistance est en grande partie constitué de jeunes volontaires issus de la Nouvelle République, mais aussi de vétérans de la Guerre Civile Galactique déterminés à terminer ce qu’ils ont commencé quelques décennies plus tôt.</i>"""
+           text: """<i class="descriptive-text">Le Corps des Chasseurs de la Résistance est en grande partie constitué de jeunes volontaires issus de la Nouvelle République, mais aussi de vétérans de la Guerre Civile Galactique déterminés à terminer ce qu’ils ont commencé quelques décennies plus tôt.</i>"""
         "Red Squadron Veteran":
            display_name: """Vétéran de l’Escadron Rouge"""
-           text: """<i>Conçu comme une unité d’élite pour les combats spatiaux, l’Escadron Rouge comprend certains des meilleurs pilotes de l’Alliance Rebelle.</i>"""
+           text: """<i class="descriptive-text">Conçu comme une unité d’élite pour les combats spatiaux, l’Escadron Rouge comprend certains des meilleurs pilotes de l’Alliance Rebelle.</i>"""
         "Resistance Sympathizer":
            display_name: """Sympathisant de la Résistance"""
-           text: """<i>Après avoir assisté au Cataclysme Hosnien, nombreux furent les astropilotes à mettre leurs vaisseaux à la disposition de la Résistance.</i>"""
+           text: """<i class="descriptive-text">Après avoir assisté au Cataclysme Hosnien, nombreux furent les astropilotes à mettre leurs vaisseaux à la disposition de la Résistance.</i>"""
         "Rexler Brath":
            display_name: """Rexler Brath"""
            text: """Après avoir effectué une attaque qui touche, si vous avez un marqueur d’évasion, exposez 1 des cartes de dégât du défenseur."""
@@ -1175,7 +1175,7 @@ exportObj.cardLoaders['Français'] = () ->
            text: """Tant que vous défendez ou effectuez une attaque, si le vaisseau ennemi est dans votre %FRONTARC%, vous pouvez dépenser 1 %FORCE% pour changer 1 de vos résultats vierges en un résultat %EVADE% ou %HIT%."""
         "Rho Squadron Pilot":
            display_name: """Pilote de l’Escadron Rho"""
-           text: """<i>Les pilotes d’élite de l’escadron Rho distillent la peur au sein de la Rébellion, la configuration d’assaut Xg-1 et l’arsenal Os-1 embarqué du Star Wing de classe Alpha ayant des effets dévastateurs.</i>"""
+           text: """<i class="descriptive-text">Les pilotes d’élite de l’escadron Rho distillent la peur au sein de la Rébellion, la configuration d’assaut Xg-1 et l’arsenal Os-1 embarqué du Star Wing de classe Alpha ayant des effets dévastateurs.</i>"""
         "Ric Olié":
            display_name: """Ric Olié"""
            text: """Tant que vous défendez ou effectuez une attaque principale, si la vitesse de votre manœuvre révélée est plus élevée que celle du vaisseau ennemi, lancez 1 dé supplémentaire."""
@@ -1184,7 +1184,7 @@ exportObj.cardLoaders['Français'] = () ->
            text: """Au début de la phase d’engagement, vous pouvez choisir 1 vaisseau situé dans votre arc de tir. Dans ce cas, pendant cette phase, il s’engage à l’initiative 7 au lieu de le faire à sa valeur d’initiative standard."""
         "Rogue Squadron Escort":
            display_name: """Escorte de l’Escadron Rogue"""
-           text: """<i>Les pilotes d’élite de l’Escadron Rogue font partie des meilleurs pilotes de la Rébellion.</i>"""
+           text: """<i class="descriptive-text">Les pilotes d’élite de l’Escadron Rogue font partie des meilleurs pilotes de la Rébellion.</i>"""
         "Ronith Blario":
            display_name: """Ronith Blario"""
            text: """Tant que vous défendez ou effectuez une attaque, si le vaisseau ennemi est dans l’ %SINGLETURRETARC% d’un autre vaisseau allié, vous pouvez dépenser 1 marqueur de concentration de ce vaisseau allié pour changer 1 de vos résultats %FOCUS% en un résultat %EVADE% ou %HIT%."""
@@ -1193,7 +1193,7 @@ exportObj.cardLoaders['Français'] = () ->
            text: """Tant que vous défendez ou effectuez une attaque, vous pouvez relancer jusqu’à 1 de vos dés pour chaque autre vaisseau allié situé dans l’arc d’attaque."""
         "Saber Squadron Ace":
            display_name: """As de l’Escadron Sabre"""
-           text: """<i>Dirigés par le Baron Fel Soontir, les pilotes de l’escadron Sabre sont parmi les meilleurs de l’Empire. Leurs Intercepteurs TIE sont marqués avec des bandes rouges pour désigner les pilotes ayant au moins dix victoires confirmées.</i>"""
+           text: """<i class="descriptive-text">Dirigés par le Baron Fel Soontir, les pilotes de l’escadron Sabre sont parmi les meilleurs de l’Empire. Leurs Intercepteurs TIE sont marqués avec des bandes rouges pour désigner les pilotes ayant au moins dix victoires confirmées.</i>"""
         "Sabine Wren":
            display_name: """Sabine Wren"""
            text: """Avant votre activation, vous pouvez effectuer une action %BARRELROLL% ou %BOOST%."""
@@ -1214,16 +1214,16 @@ exportObj.cardLoaders['Français'] = () ->
            text: """Tant qu’un vaisseau allié endommagé à portée 0-3 effectue une attaque, il peut relancer 1 dé d’attaque."""
         "Scarif Base Pilot":
            display_name: """Pilote de la Base de Scarif"""
-           text: """<i>Le TIE Reaper fut conçu pour déposer des troupes d’élite sur les points chauds des champs de bataille, comme les terrifiants Death Troopers du Directeur Krennic lors de la Bataille de Scarif.</i>"""
+           text: """<i class="descriptive-text">Le TIE Reaper fut conçu pour déposer des troupes d’élite sur les points chauds des champs de bataille, comme les terrifiants Death Troopers du Directeur Krennic lors de la Bataille de Scarif.</i>"""
         "Scimitar Squadron Pilot":
            display_name: """Scimitar Squadron Pilot"""
-           text: """<i>Le TIE/sa est particulièrement précis pour un bombardier, lui permettant des frappes ciblées tout en évitant d’infliger des dommages collatéraux excessifs à la zone environnante.</i>"""
+           text: """<i class="descriptive-text">Le TIE/sa est particulièrement précis pour un bombardier, lui permettant des frappes ciblées tout en évitant d’infliger des dommages collatéraux excessifs à la zone environnante.</i>"""
         "Separatist Bomber":
            display_name: """Bombardier Séparatiste"""
-           text: """<i>Les armées droïdes des Séparatistes sont insensibles à la détresse des civils et ne font aucun effort pour limiter les dommages collatéraux.</i>"""
+           text: """<i class="descriptive-text">Les armées droïdes des Séparatistes sont insensibles à la détresse des civils et ne font aucun effort pour limiter les dommages collatéraux.</i>"""
         "Separatist Drone":
            display_name: """Drone Séparatiste"""
-           text: """<i>Alors que la Guerre des Clones s’intensifie, l’Alliance Séparatiste continue d’améliorer la technologie des chasseurs droïdes, ainsi que les droïdes tactiques qui les dirigent.</i>"""
+           text: """<i class="descriptive-text">Alors que la Guerre des Clones s’intensifie, l’Alliance Séparatiste continue d’améliorer la technologie des chasseurs droïdes, ainsi que les droïdes tactiques qui les dirigent.</i>"""
         "Serissu":
            display_name: """Serissu"""
            text: """Tant qu’un vaisseau allié à portée 0-1 défend, il peut relancer 1 de ses dés."""
@@ -1235,28 +1235,28 @@ exportObj.cardLoaders['Français'] = () ->
            text: """Tant que vous effectuez une attaque, vous pouvez dépenser 1 résultat %CRIT%. Dans ce cas, attribuez 1 carte de dégât face cachée au défenseur, puis annuler vos résultats restants."""
         "Shadow Squadron Veteran":
            display_name: """Vétéran de l’Escadron Shadow"""
-           text: """<i>l’Escadron Shadow, actif depuis les tout premiers jours de la Guerre des Clones, a remporté des victoires prestigieuses à Kadavo et contre le vaisseau amiral de Grievous, le Malveillance.</i>"""
+           text: """<i class="descriptive-text">l’Escadron Shadow, actif depuis les tout premiers jours de la Guerre des Clones, a remporté des victoires prestigieuses à Kadavo et contre le vaisseau amiral de Grievous, le Malveillance.</i>"""
         "Shadowport Hunter":
            display_name: """Chasseur des Ports Fantômes"""
-           text: """<i>Les organisations criminelles confient à leurs agents loyaux des vaisseaux disposant de la meilleure technologie possible, comme le véloce et redoutable Appareil de Poursuite de Classe Lancer, afin de renforcer leurs aptitudes létales.</i>"""
+           text: """<i class="descriptive-text">Les organisations criminelles confient à leurs agents loyaux des vaisseaux disposant de la meilleure technologie possible, comme le véloce et redoutable Appareil de Poursuite de Classe Lancer, afin de renforcer leurs aptitudes létales.</i>"""
         "Shara Bey":
            display_name: """Shara Bey"""
            text: """Tant que vous défendez ou effectuez une attaque principale, vous pouvez dépenser 1 marqueur de verrouillage que vous avez sur le vaisseau ennemi pour ajouter 1 résultat %FOCUS% aux résultats de vos dés."""
         "Sienar Specialist":
            display_name: """Spécialiste Sienar"""
-           text: """<i>Lors du développement du TIE Aggressor, Sienar Fleet Systems accorda d’avantage d’importance aux performances et à la polyvalence qu’à la maîtrise des coûts.</i>"""
+           text: """<i class="descriptive-text">Lors du développement du TIE Aggressor, Sienar Fleet Systems accorda d’avantage d’importance aux performances et à la polyvalence qu’à la maîtrise des coûts.</i>"""
         "Sienar-Jaemus Engineer":
            display_name: """Ingénieur Sienar-Jaemus"""
-           text: """<i>Conçu par Sienar-Jaemus Fleet Systems pour succéder au fameux TIE Defender, le TIE/vn Silencer intègre des technologies de pointe développées par des centres de recherche dissimulés dans les Régions Inconnues.</i>"""
+           text: """<i class="descriptive-text">Conçu par Sienar-Jaemus Fleet Systems pour succéder au fameux TIE Defender, le TIE/vn Silencer intègre des technologies de pointe développées par des centres de recherche dissimulés dans les Régions Inconnues.</i>"""
         "Sigma Squadron Ace":
            display_name: """As de l’Escadron Sigma"""
-           text: """<i>Équipé d’un hyperdrive et de boucliers, le TIE Fantôme dispose également de cinq canons laser qui lui confèrent une puissance de feu inouïe pour un chasseur Impérial.</i>"""
+           text: """<i class="descriptive-text">Équipé d’un hyperdrive et de boucliers, le TIE Fantôme dispose également de cinq canons laser qui lui confèrent une puissance de feu inouïe pour un chasseur Impérial.</i>"""
         "Skakoan Ace":
            display_name: """As Skakoan"""
-           text: """<i>Doté de propulseurs puissants, armé de triples canons laser dévastateurs et modifiable à volonté, le chasseur Belbullab-22 a été adopté par de nombreux pilotes d'élite de l’Alliance Séparatiste, dont le tristement célèbre Général Grievous.</i>"""
+           text: """<i class="descriptive-text">Doté de propulseurs puissants, armé de triples canons laser dévastateurs et modifiable à volonté, le chasseur Belbullab-22 a été adopté par de nombreux pilotes d'élite de l’Alliance Séparatiste, dont le tristement célèbre Général Grievous.</i>"""
         "Skull Squadron Pilot":
            display_name: """Pilote de l’Escadron Skull"""
-           text: """<i>Les as de l’Escadron Skull privilégient une approche agressive, profitant de la technologie d’ailes montées sur pivot de leurs appareils, ce qui leur confère une maniabilité exceptionnelle quand ils poursuivent leurs proies. </i>"""
+           text: """<i class="descriptive-text">Les as de l’Escadron Skull privilégient une approche agressive, profitant de la technologie d’ailes montées sur pivot de leurs appareils, ce qui leur confère une maniabilité exceptionnelle quand ils poursuivent leurs proies. </i>"""
         "Sol Sixxa":
            display_name: """Sol Sixxa"""
            text: """Si vous êtes censé larguer un engin en utilisant un gabarit [1 %STRAIGHT%], vous pouvez le larguer en utilisant n’importe quel autre gabarit de vitess﻿e 1 à la place."""
@@ -1265,19 +1265,19 @@ exportObj.cardLoaders['Français'] = () ->
            text: """Au début de la phase d’engagement, si un vaisseau ennemi est dans votre %BULLSEYEARC%, gagnez 1 marqueur de concentration."""
         "Spice Runner":
            display_name: """Trafiquant d’Épice"""
-           text: """<i>Bien que ses soutes soient plus étroites que celles d’autres cargos légers, le petit mais véloce HWK-290 est un vaisseau de prédilection pour ceux qui se spécialisent dans le transport discret de biens précieux.</i>"""
+           text: """<i class="descriptive-text">Bien que ses soutes soient plus étroites que celles d’autres cargos légers, le petit mais véloce HWK-290 est un vaisseau de prédilection pour ceux qui se spécialisent dans le transport discret de biens précieux.</i>"""
         "Squad Seven Veteran":
            display_name: """Vétéran de l’Escadron Sept"""
-           text: """<i>Le Vol Clone Sept en tant qu’unité de la flotte Open Circle a servi auprès de généraux Jedi légendaires comme Plo Koon ou Obi-Wan Kenobi et a obtenu ses titres de gloire au cours des batailles de Coruscant et de Cato Neimoidia.</i>"""
+           text: """<i class="descriptive-text">Le Vol Clone Sept en tant qu’unité de la flotte Open Circle a servi auprès de généraux Jedi légendaires comme Plo Koon ou Obi-Wan Kenobi et a obtenu ses titres de gloire au cours des batailles de Coruscant et de Cato Neimoidia.</i>"""
         "Stalgasin Hive Guard":
            display_name: """Garde de la Ruche Stalgasin"""
-           text: """<i>Conçu pour la physiologie spécifique des pilotes Géonosiens, les chasseurs de classe Nantex sont capables de manœuvres qui briseraient la plupart des vaisseaux et des pilotes.</i>"""
+           text: """<i class="descriptive-text">Conçu pour la physiologie spécifique des pilotes Géonosiens, les chasseurs de classe Nantex sont capables de manœuvres qui briseraient la plupart des vaisseaux et des pilotes.</i>"""
         "Starkiller Base Pilot":
            display_name: """Pilote de la Base Starkiller"""
-           text: """<i>La navette de commandement de classe <unitalic>Upsilon</unitalic> sert de base d’opérations pour de nombreux agents et officiers d’élite du Premier Ordre. Ils peuvent facilement semer l’effroi à travers la galaxie grâce à ses équipements de communication et senseurs avancés.</i>"""
+           text: """<i class="descriptive-text">La navette de commandement de classe <unitalic>Upsilon</unitalic> sert de base d’opérations pour de nombreux agents et officiers d’élite du Premier Ordre. Ils peuvent facilement semer l’effroi à travers la galaxie grâce à ses équipements de communication et senseurs avancés.</i>"""
         "Storm Squadron Ace":
            display_name: """As de l’Escadron Storm"""
-           text: """<i>Le Tie Advanced x1 a été produit en quantités limitées, mais les ingénieurs de Sienar incorporèrent la plus grande partie de ses innovations dans leur nouveau modèle de TIE : l’Intercepteur TIE.</i>"""
+           text: """<i class="descriptive-text">Le Tie Advanced x1 a été produit en quantités limitées, mais les ingénieurs de Sienar incorporèrent la plus grande partie de ses innovations dans leur nouveau modèle de TIE : l’Intercepteur TIE.</i>"""
         "Sun Fac":
            display_name: """Sun Fac"""
            text: """Tant que vous effectuez une attaque principale, si le défenseur est tracté, lancez 1 dé d’attaque supplémentaire."""
@@ -1289,7 +1289,7 @@ exportObj.cardLoaders['Français'] = () ->
            text: """Tant qu’un autre vaisseau allié effectue une attaque, si vous êtes à portée 0-1 du défenseur, vous pouvez subir 1 dégât %CRIT% pour changer 1 des résultats de l’attaquant en un résultat %CRIT%."""
         "Tala Squadron Pilot":
            display_name: """Pilote de l’Escadron Tala"""
-           text: """<i>L’AF4 est la toute dernière génération du modèle Chasseur de Têtes. Robuste et bon marché, il est très populaire auprès des organisations indépendantes comme la Rébellion.</i>"""
+           text: """<i class="descriptive-text">L’AF4 est la toute dernière génération du modèle Chasseur de Têtes. Robuste et bon marché, il est très populaire auprès des organisations indépendantes comme la Rébellion.</i>"""
         "Tallissan Lintra":
            display_name: """Tallissan Lintra"""
            text: """Tant qu’un vaisseau ennemi dans votre %BULLSEYEARC% effectue une attaque, vous pouvez dépenser 1 %CHARGE%. Dans ce cas, le défenseur lance 1 dé supplémentaire."""
@@ -1298,10 +1298,10 @@ exportObj.cardLoaders['Français'] = () ->
            text: """Tant que vous défendez à portée d’attaque 3 ou effectuez une attaque à portée d’attaque 1, lancez 1 dé supplémentaire."""
         "Tansarii Point Veteran":
            display_name: """Vétéran de Tansarii Point"""
-           text: """<i>La défaite de l’as du Soleil Noir, Talonbane Cobra, abattu par des contrebandiers Car’das, changea le cours de la bataille de la station Tansarii Point. Les survivants de cet affrontement sont respectés dans tout le secteur.</i>"""
+           text: """<i class="descriptive-text">La défaite de l’as du Soleil Noir, Talonbane Cobra, abattu par des contrebandiers Car’das, changea le cours de la bataille de la station Tansarii Point. Les survivants de cet affrontement sont respectés dans tout le secteur.</i>"""
         "Techno Union Bomber":
            display_name: """Bombardier du Techno-Syndicat"""
-           text: """<i>Les Armureries Baktoid ont développé le Hyena comme un vaisseau d’assaut compatible avec les tactiques de nuée des chasseurs Vulture de la Fédération du Commerce.</i>"""
+           text: """<i class="descriptive-text">Les Armureries Baktoid ont développé le Hyena comme un vaisseau d’assaut compatible avec les tactiques de nuée des chasseurs Vulture de la Fédération du Commerce.</i>"""
         "Tel Trevura":
            display_name: """Tel Trevura"""
            text: """Si vous devez être détruit, vous pouvez dépenser 1 %CHARGE%. Dans ce cas, défaussez toutes vos cartes de dégât, subissez 5 dégâts %HIT%, et placez-vous en réserve à la place. Au début de la prochaine phase de préparation, placez-vous intégralement à portée 1 de votre bord Joueur."""
@@ -1310,7 +1310,7 @@ exportObj.cardLoaders['Français'] = () ->
            text: """Après avoir entièrement exécuté une manœuvre à vitesse 2-4, vous pouvez effectuer une action %BOOST%"""
         "Tempest Squadron Pilot":
            display_name: """Pilote de l’Escadron Tempest"""
-           text: """<i>Le TIE Advanced est une version améliorée du célèbre chasseur TIE/ln disposant de boucliers, d’un meilleur système d’armement, de panneaux solaires incurvés et d’un hyperdrive.</i>"""
+           text: """<i class="descriptive-text">Le TIE Advanced est une version améliorée du célèbre chasseur TIE/ln disposant de boucliers, d’un meilleur système d’armement, de panneaux solaires incurvés et d’un hyperdrive.</i>"""
         "Ten Numb":
            display_name: """Ten Numb"""
            text: """Tant que vous défendez ou effectuez une attaque, vous pouvez dépenser 1 marqueur de stress pour changer tous vos résultats %FOCUS% en résultats %EVADE% ou %HIT%."""
@@ -1328,10 +1328,10 @@ exportObj.cardLoaders['Français'] = () ->
            text: """Au début de la phase d’engagement, vous pouvez choisir 1 vaisseau dans votre arc de tir. Dans ce cas, ce vaisseau s’engage à ce round à l’initiative 0 à la place de sa valeur d'initiative standard."""
         "Trade Federation Drone":
            display_name: """Drone de la Fédération du Commerce"""
-           text: """<i>La Fédération du Commerce a déployé d’innombrables droïdes Vulture lors de la Bataille de Naboo, et continue d’utiliser ces chasseurs peu coûteux durant la Guerre des Clones.</i>"""
+           text: """<i class="descriptive-text">La Fédération du Commerce a déployé d’innombrables droïdes Vulture lors de la Bataille de Naboo, et continue d’utiliser ces chasseurs peu coûteux durant la Guerre des Clones.</i>"""
         "Trandoshan Slaver":
            display_name: """Esclavagiste Trandosien"""
-           text: """<i>Le spacieux YV-666 est très populaire auprès des chasseurs de primes et des esclavagistes avec ses trois ponts, dont l’un était souvent aménagé pour le transport de prisonniers.</i>"""
+           text: """<i class="descriptive-text">Le spacieux YV-666 est très populaire auprès des chasseurs de primes et des esclavagistes avec ses trois ponts, dont l’un était souvent aménagé pour le transport de prisonniers.</i>"""
         "Turr Phennir":
            display_name: """Turr Phennir"""
            text: """Après avoir effectué une attaque, vous pouvez effectuer une action %BARRELROLL% ou %BOOST%, même si vous êtes stressé."""
@@ -1355,7 +1355,7 @@ exportObj.cardLoaders['Français'] = () ->
            text: """Après avoir défendu, si vous n’avez pas lancé exactement 2 dés de défense, l’attaquant gagne 1 marqueur de stress."""
         "Warden Squadron Pilot":
            display_name: """Pilote de l’Escadron Warden"""
-           text: """<i>Le K-wing de Koensayr Manufacturing peut s’enorgueillir de son moteur à accélération subluminique avancé et de dix-huit points d’emport, ce qui lui confère une vitesse et une puissance de feu inégalées.</i>"""
+           text: """<i class="descriptive-text">Le K-wing de Koensayr Manufacturing peut s’enorgueillir de son moteur à accélération subluminique avancé et de dix-huit points d’emport, ce qui lui confère une vitesse et une puissance de feu inégalées.</i>"""
         "Wat Tambor":
            display_name: """Wat Tambor"""
            text: """Tant que vous effectuez une attaque principale, vous pouvez relancer 1 dé d’attaque pour chaque vaisseau allié calculateur à portée 1 du défenseur."""
@@ -1364,7 +1364,7 @@ exportObj.cardLoaders['Français'] = () ->
            text: """Tant que vous effectuez une attaque, le défenseur lance 1 dé de défense en moins."""
         "Wild Space Fringer":
            display_name: """Frontalier de l’Espace Sauvage"""
-           text: """<i>Certes, le cargo léger YT-2400 possédait une soute de bonne taille, mais celle-ci était souvent encombrée de systèmes d’armement modifiés et de moteurs énormes.</i>"""
+           text: """<i class="descriptive-text">Certes, le cargo léger YT-2400 possédait une soute de bonne taille, mais celle-ci était souvent encombrée de systèmes d’armement modifiés et de moteurs énormes.</i>"""
         "Wullffwarro":
            display_name: """Wullffwarro"""
            text: """Tant que vous effectuez une attaque principale, si vous êtes endommagé, vous pouvez lancer 1 dé d’attaque supplémentaire."""
@@ -1373,16 +1373,16 @@ exportObj.cardLoaders['Français'] = () ->
            text: """Vous ne sautez pas votre étape « Effectuer une action » après avoir partiellement exécuté une manœuvre."""
         "Zealous Recruit":
            display_name: """Recrue Zélée"""
-           text: """<i>Les pilotes de Chasseur Fang Mandalorien doivent maîtriser la manœuvre dite de l’Opposition Concordia, profitant du profil de leurs appareils pour mener des charges sans concession.</i>"""
+           text: """<i class="descriptive-text">Les pilotes de Chasseur Fang Mandalorien doivent maîtriser la manœuvre dite de l’Opposition Concordia, profitant du profil de leurs appareils pour mener des charges sans concession.</i>"""
         "Zertik Strom":
            display_name: """Zertik Strom"""
            text: """Pendant la phase de dénouement, vous pouvez dépenser un marqueur de verrouillage que vous avez sur un vaisseau ennemi pour exposer 1 carte de dégât de ce dernier."""
         "Zeta Squadron Pilot":
            display_name: """Pilote de l’Escadron Zeta"""
-           text: """<i>Libérées des lourdeurs administratives de la bureaucratie galactique, les technologies qui furent développées par l’Empire pour le programme TIE Advanced peuvent désormais être produites en série sur les chasseurs du Premier Ordre. Les taux de survie des pilotes de TIE/fo sont par conséquent plus élevés que ceux de leurs prédécesseurs de l’Empire Galactique.</i>"""
+           text: """<i class="descriptive-text">Libérées des lourdeurs administratives de la bureaucratie galactique, les technologies qui furent développées par l’Empire pour le programme TIE Advanced peuvent désormais être produites en série sur les chasseurs du Premier Ordre. Les taux de survie des pilotes de TIE/fo sont par conséquent plus élevés que ceux de leurs prédécesseurs de l’Empire Galactique.</i>"""
         "Zeta Squadron Survivor":
            display_name: """Survivant de l’Escadron Zeta"""
-           text: """<i>Humiliés par leur défaite, les pilotes rescapés de la base Starkiller sont impatients de démontrer leur talent face aux combattants de la Résistance.</i>"""
+           text: """<i class="descriptive-text">Humiliés par leur défaite, les pilotes rescapés de la base Starkiller sont impatients de démontrer leur talent face aux combattants de la Résistance.</i>"""
         "Zizi Tlo":
            display_name: """Zizi Tlo"""
            text: """Après avoir défendu ou effectué une attaque, vous pouvez dépenser 1 %CHARGE% pour gagner 1 marqueur de concentration ou d’évasion."""
@@ -1553,7 +1553,7 @@ exportObj.cardLoaders['Français'] = () ->
            text: """Tant que vous effectuez une attaque, si le défenseur est dans votre %BULLSEYEARC%, vous pouvez relancer 1 résultat vierge."""
         "212th Battalion Pilot":
            display_name: """Pilote du 212ème Bataillon"""
-           text: """<i>Capable de participer aussi bien à des combats spatiaux qu’à des batailles atmosphériques, la canonnière TABA/i transporte les troupes de la République sur les champs de bataille des planètes assiégées par les Séparatistes.</i>"""
+           text: """<i class="descriptive-text">Capable de participer aussi bien à des combats spatiaux qu’à des batailles atmosphériques, la canonnière TABA/i transporte les troupes de la République sur les champs de bataille des planètes assiégées par les Séparatistes.</i>"""
         '"Hawk"':
            display_name: """“Hawk”"""
            text: """Au début de la phase de dénouement, chaque vaisseau allié à portée 0–1 dont la manœuvre révélée a une vitesse 3–5 peut gagner 1 marqueur de contrainte pour effectuer une action %BARRELROLL% ou %BOOST%."""
@@ -1565,10 +1565,10 @@ exportObj.cardLoaders['Français'] = () ->
            text: """Après que vous ou un vaisseau allié non-limité à portée 0–2 a été détruit lors de la phase d’engagement, ce vaisseau n’est retiré qu’à la fin de cette phase."""
         "Baktoid Drone":
            display_name: """Drone Baktoid"""
-           text: """<i>Développé tardivement pour la Confédération des Systèmes Indépendants, la canonnière droïde utilise des répulseurs spéciaux pour attaquer avec agilité ses cibles et larguer avec précision des droïdes de combat.</i>"""
+           text: """<i class="descriptive-text">Développé tardivement pour la Confédération des Systèmes Indépendants, la canonnière droïde utilise des répulseurs spéciaux pour attaquer avec agilité ses cibles et larguer avec précision des droïdes de combat.</i>"""
         "Separatist Predator":
            display_name: """Prédateur Séparatiste"""
-           text: """<i>Dotée d’artillerie et protégée par des boucliers, une canonnière droïde peut faire autant de ravages contre les formations d’infanterie que contre les chasseurs de la République.</i>"""
+           text: """<i class="descriptive-text">Dotée d’artillerie et protégée par des boucliers, une canonnière droïde peut faire autant de ravages contre les formations d’infanterie que contre les chasseurs de la République.</i>"""
         "DGS-286":
            display_name: """DGS-286"""
            text: """Avant de vous engager, vous pouvez choisir un autre vaisseau allié à portée 0–1. Ce vaisseau vous transfère 1 marqueur de calcul."""
@@ -1583,7 +1583,7 @@ exportObj.cardLoaders['Français'] = () ->
            text: """Après avoir exécuté un tonneau ou un dérapage, si vous êtes stressé, gagnez 1 marqueur de calcul."""
         "Jedi General":
            display_name: """Général Jedi"""
-           text: """"""
+           text: """<i class="descriptive-text">Alors que la Guerre des Clones fait des ravages dans les rangs de l’Ordre Jedi, ceux qui restent assument de plus grandes responsabilités dans la Grande Armée de la République.</i>"""
         "Yoda":
            display_name: """Yoda"""
            text: """Après qu’un autre vaisseau allié à portée 0–3 a dépensé au moins 1 %FORCE%, vous pouvez dépenser 1 %FORCE%. Dans ce cas, cet autre vaisseau allié récupère 1 %FORCE%."""
@@ -1631,10 +1631,10 @@ exportObj.cardLoaders['Français'] = () ->
            text: """Après avoir exécuté une manœuvre à vitesse 3–4, vous pouvez choisir un vaisseau situé dans votre %SINGLETURRETARC% à portée 0–1. Dans ce cas, ce vaisseau gagne 1 marqueur de contrainte, ou 2 marqueurs de contrainte si vous êtes endommagé."""
         "Onyx Squadron Sentry":
            display_name: """Sentinelle de l’Escadron Onyx"""
-           text: """<i>Le TIE/rb lourd, parfois surnommé la « brute », est conçu pour la polyvalence opérationnelle. Sa coque renforcée et sa capacité à accueillir un copilote droïde MGK-300 en font un excellent appareil de patrouille.</i>"""
+           text: """<i class="descriptive-text">Le TIE/rb lourd, parfois surnommé la « brute », est conçu pour la polyvalence opérationnelle. Sa coque renforcée et sa capacité à accueillir un copilote droïde MGK-300 en font un excellent appareil de patrouille.</i>"""
         "Carida Academy Cadet":
            display_name: """Cadet de l’Académie Carida"""
-           text: """<i>À l’académie militaire de Carida, les cadets de la Marine Impériale sont entraînés à être impitoyables et loyaux, privilégiant la victoire à la survie de leurs propres camarades.</i>"""
+           text: """<i class="descriptive-text">À l’académie militaire de Carida, les cadets de la Marine Impériale sont entraînés à être impitoyables et loyaux, privilégiant la victoire à la survie de leurs propres camarades.</i>"""
         "Poe Dameron (HoH)":
            display_name: """Poe Dameron (HoH)"""
            text: """Après qu’un vaisseau allié à portée 0–2 a effectué une action lors de son activation, vous pouvez dépenser 2 %CHARGE%. Dans ce cas, ce vaisseau allié peut effectuer une action blanche, en la considérant comme rouge."""
@@ -1661,7 +1661,7 @@ exportObj.cardLoaders['Français'] = () ->
            text: """Après que vous avez défendu à portée d’attaque 1, si l’attaquant a modifié ses dés, il gagne un marqueur d’épuisement."""
         "First Order Courier":
            display_name: """Messager du Premier Ordre"""
-           text: """<i>Le Premier Ordre se terre dans des bases dissimulées dans des secteurs discrets de la galaxie, répandant lentement son influence pernicieuse.</i>"""
+           text: """<i class="descriptive-text">Le Premier Ordre se terre dans des bases dissimulées dans des secteurs discrets de la galaxie, répandant lentement son influence pernicieuse.</i>"""
         "Agent Terex":
            display_name: """Agent Terex"""
            text: """<strong>Mise en Place :</strong> après avoir placé les forces, choisissez n’importe quel nombre de vos améliorations %ILLICIT% équipées et équipez-les à des chasseurs TIE/fo ou TIE/sf alliés. Chaque vaisseau ne peut se voir assigner que 1 seule amélioration %ILLICIT% par ce biais.%LINEBREAK%<strong>Fin de Partie :</strong> remettez toutes les améliorations %ILLICIT% sur leurs vaisseaux d’origine."""
@@ -1673,10 +1673,10 @@ exportObj.cardLoaders['Français'] = () ->
            text: """Tant que vous ou un petit vaisseau allié à portée 0–2 effectuez une attaque principale contre un défenseur endommagé, si l’attaquant a lancé 2 dés d’attaque ou moins, il peut gagner 1 marqueur de contrainte pour lancer 1 dé d’attaque supplémentaire."""
         "Loyalist Volunteer":
            display_name: """Volontaire Loyaliste"""
-           text: """<i>Le V-wing Alpha-3 de classe Nimbus assemblé par Kuat Systems Engineering est un vaisseau de choix aussi bien pour les pilotes clones que pour les pilotes non-clones. Les techniques de pointe pour produire en masse ses moteurs ioniques de précision seront plus tard essentielles dans le développement des séries TIE par Sienar Fleet Systems.</i>"""
+           text: """<i class="descriptive-text">Le V-wing Alpha-3 de classe Nimbus assemblé par Kuat Systems Engineering est un vaisseau de choix aussi bien pour les pilotes clones que pour les pilotes non-clones. Les techniques de pointe pour produire en masse ses moteurs ioniques de précision seront plus tard essentielles dans le développement des séries TIE par Sienar Fleet Systems.</i>"""
         "Shadow Squadron Escort":
            display_name: """Escorte de l’Escadron Shadow"""
-           text: """<i>Lors des derniers mois de la Guerre des Clones, les formations des clones d’élite effectuèrent des missions capitales pour l’avenir de la République ; comme assurer la protection de la navette personnelle du Chancelier Suprême Palpatine.</i>"""
+           text: """<i class="descriptive-text">Lors des derniers mois de la Guerre des Clones, les formations des clones d’élite effectuèrent des missions capitales pour l’avenir de la République ; comme assurer la protection de la navette personnelle du Chancelier Suprême Palpatine.</i>"""
         "Wilhuff Tarkin":
            display_name: """Wilhuff Tarkin"""
            text: """Pendant la phase de système, vous pouvez choisir un objet que vous avez verrouillé, situé à portée 1–3. Un autre vaisseau allié à portée 1–3 peut verrouiller cet objet."""
@@ -1697,7 +1697,7 @@ exportObj.cardLoaders['Français'] = () ->
            text: """<strong>Mise en Place :</strong> Perdez 2 %CHARGE%. %LINEBREAK% Pendant la phase de système, vous pouvez vous assigner, face cachée, 1 de vos états secrets :<strong> %LINEBREAK%Vous Devriez me Remercier %LINEBREAK%Vous Devriez Faire des Affaires </strong>"""
         "Separatist Racketeer":
            display_name: """Maître-Chanteur Séparatiste"""
-           text: """<i>Poussés par les nombreuses impasses causées par les Sièges de la Bordure Extérieure, des groupes de mercenaires saisissent à travers la galaxie l’opportunité de faire des bénéfices grâce à la guerre en cours.</i>"""
+           text: """<i class="descriptive-text">Poussés par les nombreuses impasses causées par les Sièges de la Bordure Extérieure, des groupes de mercenaires saisissent à travers la galaxie l’opportunité de faire des bénéfices grâce à la guerre en cours.</i>"""
         "Hera Syndulla (B-Wing)":
            display_name: """Hera Syndulla"""
            text: """Tant qu'un autre vaisseau allié à portée 1-2 défendu ou effectue une attaque, lors d’une étape « Modifier les dés », vous pouvez transférer 1 de vos marqueurs de concentration, d'évasion ou de verrouillage à ce vaisseau. %LINEBREAK% <i>Errata (RR: 1.2.0 [06/14/2021]): ajout de : lors d'une étape « Modifier les dés de défense »</i>"""
@@ -1763,10 +1763,10 @@ exportObj.cardLoaders['Français'] = () ->
            text: """Tant que vous effectuez une attaque %FRONTARC%, si vous êtes endommagé, vous pouvez changer 1 de vos résultats %FOCUS% en un résultat %CRIT%. %LINEBREAK% Tant que vous défendez, si vous êtes endommagé, avant l’étape « Modifier les dés de défense », vous <b>devez</b> changer 1 de vos résultats %FOCUS% en un résultat vierge.%LINEBREAK%<i>Errata (RR: 1.2.0 [06/14/2021]): ajout de : avant l’étape « Modifier les dés de défense »</</i>"""
         "Jinata Security Officer":
            display_name: """Officier de la Sécurité Jinata"""
-           text: """<i>Basé dans l’ancien bastion Impérial de Vardos, la Sécurité Jinata poursuit ses efforts de reconstruction sur la planète dévastée, tout en collaborant avec le programme de réarmement du Premier Ordre.</i>"""
+           text: """<i class="descriptive-text">Basé dans l’ancien bastion Impérial de Vardos, la Sécurité Jinata poursuit ses efforts de reconstruction sur la planète dévastée, tout en collaborant avec le programme de réarmement du Premier Ordre.</i>"""
         "Amaxine Warrior":
            display_name: """Guerrier Amaxine"""
-           text: """<i>Des décennies après la Bataille d’Endor, d’anciens Impériaux demeurent en activité au sein de la Nouvelle République. Beaucoup ont rejoint des organisations paramilitaires, comme celle des Guerriers Amaxines, qui s’approprient les traditions et cultures martiales pour répandre l’idéologie haineuse du Premier Ordre parmi les individus les plus influençables.</i>"""
+           text: """<i class="descriptive-text">Des décennies après la Bataille d’Endor, d’anciens Impériaux demeurent en activité au sein de la Nouvelle République. Beaucoup ont rejoint des organisations paramilitaires, comme celle des Guerriers Amaxines, qui s’approprient les traditions et cultures martiales pour répandre l’idéologie haineuse du Premier Ordre parmi les individus les plus influençables.</i>"""
         "Leema Kai":
            display_name: """Leema Kai"""
            text: """Avant de vous engager, si vous êtes dans aucun %FRONTARC% de vaisseaux ennemis, vous pouvez verrouiller un vaisseau ennemi dans votre %FULLFRONTARC%."""
@@ -1775,10 +1775,10 @@ exportObj.cardLoaders['Français'] = () ->
            text: """Après qu’un engin allié que vous avez verrouillé a explosé, chaque vaisseau ennemi à portée 0–1 de cet engin gagne 1 marqueur de contrainte."""
         "New Republic Patrol":
            display_name: """Patrouille de la Nouvelle République"""
-           text: """<i>Conçu pour être personnalisable, le Y-Wing BTA-NR2 est utilisé par de nombreuses organisations militaires à travers la galaxie pour des tâches très variées, aussi bien comme appareil de maintien de l'ordre que comme bombardier en temps de guerre.</i>"""
+           text: """<i class="descriptive-text">Conçu pour être personnalisable, le Y-Wing BTA-NR2 est utilisé par de nombreuses organisations militaires à travers la galaxie pour des tâches très variées, aussi bien comme appareil de maintien de l'ordre que comme bombardier en temps de guerre.</i>"""
         "Kijimi Spice Runner":
            display_name: """Trafiquant d'Épices de Kijimi"""
-           text: """<i>Menés par Zorii Bliss, les Trafiquants d'Épices de Kijimi ont délaissé leurs pratiques de mercenariat pour prendre part au combat contre le Dernier Ordre lors de la bataille d'Exegol.</i>"""
+           text: """<i class="descriptive-text">Menés par Zorii Bliss, les Trafiquants d'Épices de Kijimi ont délaissé leurs pratiques de mercenariat pour prendre part au combat contre le Dernier Ordre lors de la bataille d'Exegol.</i>"""
         "Corus Kapellim":
            display_name: """Corus Kapellim"""
            text: """Avant de vous engager, vous pouvez choisir 1 vaisseau dans votre arc de tir à portée 0-1. Dans ce cas, transférez 1 marqueur vert de ce vaisseau à vous-même."""
@@ -1817,16 +1817,16 @@ exportObj.cardLoaders['Français'] = () ->
            text: """Avant de vous engager, vous pouvez retirer n'importe quel nombre de marqueurs de brouillage, puis vous pouvez gagner 1 marqueur de concentration pour chaque vaisseau ennemi qui vous a dans son %FRONTARC%."""
         "709th Legion Ace":
            display_name: """As de la 709ème Légion"""
-           text: """<i>Commandée par le Suprême Leader Kylo Ren, la 709ème Légion combat sans pitié et sans remord afin d’écraser la Résistance et placer la galaxie sous la domination du Premier Ordre.</i>"""
+           text: """<i class="descriptive-text">Commandée par le Suprême Leader Kylo Ren, la 709ème Légion combat sans pitié et sans remord afin d’écraser la Résistance et placer la galaxie sous la domination du Premier Ordre.</i>"""
         "Red Fury Zealot":
            display_name: """Extrémiste de la Red Fury"""
-           text: """<i>Également surnommé « Red Fury », la 709ème Légion est chargée par le Suprême Leader Kylo Ren d'éradiquer les dissidents à l'avant poste de Black Spire.</i>"""
+           text: """<i class="descriptive-text">Également surnommé « Red Fury », la 709ème Légion est chargée par le Suprême Leader Kylo Ren d'éradiquer les dissidents à l'avant poste de Black Spire.</i>"""
         "Sienar-Jaemus Test Pilot":
            display_name: """Pilote d'Essai Sienar-Jaemus"""
-           text: """<i>Équipé de quatre canons laser et de systèmes avancés, le bombardier TIE/se est un appareil étonnamment manœuvrable, transportant un arsenal terrifiant capable d'annihiler tous ceux qui osent s'opposer au Premier Ordre.</i>"""
+           text: """<i class="descriptive-text">Équipé de quatre canons laser et de systèmes avancés, le bombardier TIE/se est un appareil étonnamment manœuvrable, transportant un arsenal terrifiant capable d'annihiler tous ceux qui osent s'opposer au Premier Ordre.</i>"""
         "First Order Cadet":
            display_name: """Cadet du Premier Ordre"""
-           text: """<i>Les exercices en conditions réelles du Premier Ordre sont destinées à éliminer les faibles, mettant en avant le dicton que seuls les forts survivent.</i>"""
+           text: """<i class="descriptive-text">Les exercices en conditions réelles du Premier Ordre sont destinées à éliminer les faibles, mettant en avant le dicton que seuls les forts survivent.</i>"""
         '"Grudge"':
            display_name: """“Grudge”"""
            text: """Tant qu'une bombe ou mine alliée à portée 0-2 explose, chaque fois que des dés d'attaque sont lancés pour résoudre son effet, vous pouvez relancer jusqu'à 1 de ces dès."""
@@ -1889,19 +1889,19 @@ exportObj.cardLoaders['Français'] = () ->
            text: """Au début de la phase d’engagement, chaque vaisseau ennemi à portée 0 gagne 2 marqueurs de brouillage."""
         "Death Watch Warrior":
            display_name: """Guerrier de la Death Watch"""
-           text: """<i>Malgré le soutien incertain des Séparatistes, la Death Watch envisage de restaurer le passé guerrier et les traditions de Mandalore. Extrêmement manœuvrable et équipé d'une baie de largage, le Chasseur Gauntlet est une excellente plateforme pour déployer ces fiers commandos au combat.</i>"""
+           text: """<i class="descriptive-text">Malgré le soutien incertain des Séparatistes, la Death Watch envisage de restaurer le passé guerrier et les traditions de Mandalore. Extrêmement manœuvrable et équipé d'une baie de largage, le Chasseur Gauntlet est une excellente plateforme pour déployer ces fiers commandos au combat.</i>"""
         "Nite Owl Liberator":
            display_name: """Libérateur Nite Owl """
-           text: """<i>Suivant Bo-Katan Kryze, d'anciens membres de la Death Watch ont rejeté la gouvernance de Maul sur Mandalore et ont créé une alliance réfractaire avec la République. Les Chasseurs Gauntlet conservés par les Nite Owl sont essentiels pour mener la lutte qui libèrera leur monde.</i>"""
+           text: """<i class="descriptive-text">Suivant Bo-Katan Kryze, d'anciens membres de la Death Watch ont rejeté la gouvernance de Maul sur Mandalore et ont créé une alliance réfractaire avec la République. Les Chasseurs Gauntlet conservés par les Nite Owl sont essentiels pour mener la lutte qui libèrera leur monde.</i>"""
         "Shadow Collective Operator":
            display_name: """Opérateur du Collectif des Ombres"""
-           text: """<i>Les anciens soldats de la Death Watch qui ont juré fidélité au Seigneur Maul continuent d'opérer à bord de Chasseurs Gauntlet, les utilisant parfois comme bombardiers lors d'attaques planifiées par Maul.</i>"""
+           text: """<i class="descriptive-text">Les anciens soldats de la Death Watch qui ont juré fidélité au Seigneur Maul continuent d'opérer à bord de Chasseurs Gauntlet, les utilisant parfois comme bombardiers lors d'attaques planifiées par Maul.</i>"""
         "Imperial Super Commando":
            display_name: """Super Commando Impérial"""
-           text: """<i>Sous le commandement du Vice-Roi Gar Saxon, les impitoyables guerriers qui servaient autrefois le Seigneur Maul ont été transformés en homme de main du nouvel ordre. Le Chasseur Gauntlet Mandalorien continue d'être utilisé en tant que transport de combat pour ces Super Commandos Impériaux.</i>"""
+           text: """<i class="descriptive-text">Sous le commandement du Vice-Roi Gar Saxon, les impitoyables guerriers qui servaient autrefois le Seigneur Maul ont été transformés en homme de main du nouvel ordre. Le Chasseur Gauntlet Mandalorien continue d'être utilisé en tant que transport de combat pour ces Super Commandos Impériaux.</i>"""
         "Mandalorian Resistance Pilot":
            display_name: """Pilote de la Résistance Mandalorienne"""
-           text: """<i>Certains guerriers Mandaloriens, comme ceux du Clan Kryze, n'ont jamais plié et continuent le combat contre l'ordre collaborationniste du Clan Saxon et ses maîtres Impériaux. Le Chasseur Gauntlet allie la puissance de feu et la vitesse, ce qui en fait l'appareil idéal pour mener des raids.</i>"""
+           text: """<i class="descriptive-text">Certains guerriers Mandaloriens, comme ceux du Clan Kryze, n'ont jamais plié et continuent le combat contre l'ordre collaborationniste du Clan Saxon et ses maîtres Impériaux. Le Chasseur Gauntlet allie la puissance de feu et la vitesse, ce qui en fait l'appareil idéal pour mener des raids.</i>"""
         "The Mandalorian":
            display_name: """Le Mandalorien"""
            text: """Tant que vous défendez ou effectuez une attaque si vous êtes dans le %FRONTARC% à portée 1-2 d'au moins 2 vaisseaux ennemis, vous pouvez changer 1 de vos résultats vierges en un résultat %FOCUS%."""
@@ -1913,7 +1913,7 @@ exportObj.cardLoaders['Français'] = () ->
            text: """Tant, que vous effectuez une attaque à portée d'attaque 1-2, vous pouvez dépenser 1 %CHARGE% non-récurrente d'une de vos améliorations %ILLICIT% équipées pour changer 1 résultat %FOCUS% en un résultat %CRIT%."""
         "Outer Rim Enforcer":
            display_name: """Homme de Main de la Bordure Extérieure"""
-           text: """<i>Conçu comme un appareil militaire, le Vaisseau d'Assaut ST-70 est très résistant et polyvalent. Pour ceux qui parcourent la Bordure Extérieure, le vaisseau peut servir de transport, d'appareil de combat et de simple habitat, le tout en même temps.</i>"""
+           text: """<i class="descriptive-text">Conçu comme un appareil militaire, le Vaisseau d'Assaut ST-70 est très résistant et polyvalent. Pour ceux qui parcourent la Bordure Extérieure, le vaisseau peut servir de transport, d'appareil de combat et de simple habitat, le tout en même temps.</i>"""
         "Cad Bane":
            display_name: """Cad Bane"""
            text: """Après avoir effectué une attaque qui a touché, vous pouvez dépenser 2 %CHARGE% pour transférer 1 de vos marqueurs rouges non-verrouillage ou orange au défenseur."""
@@ -1928,7 +1928,7 @@ exportObj.cardLoaders['Français'] = () ->
            text: """Au début de la phase d’engagement, vous pouvez choisir 1 vaisseau ennemi dans votre %FRONTARC%Front Arc. Dans ce cas, considérez votre initiative comme étant égale à celle de ce vaisseau jusqu’à la fin du round."""
         "Outer Rim Hunter":
            display_name: """Chasseur de la Bordure Extérieure"""
-           text: """<i>Cad Bane ayant démontré à quel point le Chasseur de Classe Rogue était efficace, d’autres chasseurs de primes ont rapidement adopté cet appareil, tout particulièrement ceux qui opèrent dans l’anarchique Bordure extérieure.</i>"""
+           text: """<i class="descriptive-text">Cad Bane ayant démontré à quel point le Chasseur de Classe Rogue était efficace, d’autres chasseurs de primes ont rapidement adopté cet appareil, tout particulièrement ceux qui opèrent dans l’anarchique Bordure extérieure.</i>"""
         "IG-101":
            display_name: """IG-101"""
            text: """Au début de la phase de système, vous pouvez réparer 1 carte de dégât face visible."""
@@ -1940,7 +1940,7 @@ exportObj.cardLoaders['Français'] = () ->
            text: """Après avoir effectué une attaque qui a raté, vous pouvez choisir 1 vaisseau ennemi dans votre %BULLSEYEARC% et gagner 1 marqueur d’épuisement. Dans ce cas, le vaisseau choisi subit 1 dégât %HIT%."""
         "MagnaGuard Executioner":
            display_name: """Exécuteur Magna Garde"""
-           text: """<i>En plus de protéger les dirigeants Séparatistes, les droïdes Magna Garde sont parfois déployés dans les véloces Chasseurs de classe Rogue pour éliminer leurs ennemis.</i>"""
+           text: """<i class="descriptive-text">En plus de protéger les dirigeants Séparatistes, les droïdes Magna Garde sont parfois déployés dans les véloces Chasseurs de classe Rogue pour éliminer leurs ennemis.</i>"""
         "MagnaGuard Protector":
            display_name: """Protecteur Magna Garde"""
            text: """<strong>Mise en Place :</strong> Après avoir placé les forces, assignez l'état <b>Sous Protection</b> à 1 vaisseau allié autre que <b>Protecteur Magna Garde</b>."""
@@ -1970,10 +1970,10 @@ exportObj.cardLoaders['Français'] = () ->
            text: """Après avoir été détruit, vous pouvez choisir un vaisseau non-limité à portée 0-2 et lui assigner 1 de vos améliorations %TALENT% équipée.%LINEBREAK%<strong>Fin de Partie :</strong> remettez toutes améliorations %TALENT% sur leurs vaisseaux d'origine."""
         "Reaper Squadron Scout":
            display_name: """Éclaireur de l'escadron Reaper"""
-           text: """<i>En dépit de la réputation peu flatteuse du Z-95 Clone, l'Escadron Reaper est devenu légendaire grâce aux talents de ses pilotes à manier habilement ce chasseur lors d'engagements variés comme l'escarmouche au dessus de Castilon.</i>"""
+           text: """<i class="descriptive-text">En dépit de la réputation peu flatteuse du Z-95 Clone, l'Escadron Reaper est devenu légendaire grâce aux talents de ses pilotes à manier habilement ce chasseur lors d'engagements variés comme l'escarmouche au dessus de Castilon.</i>"""
         "7th Sky Corps Pilot":
            display_name: """Pilote du 7ème Corps Céleste"""
-           text: """<i>Le chasseur Z-95 a gagné le respect des pilotes grâce à son adaptabilité et sa robustesse. La version des soldats clones de la république est conçue pour s'adapter aux compétences uniques de ses pilotes.</i>"""
+           text: """<i class="descriptive-text">Le chasseur Z-95 a gagné le respect des pilotes grâce à son adaptabilité et sa robustesse. La version des soldats clones de la république est conçue pour s'adapter aux compétences uniques de ses pilotes.</i>"""
 
         # Battle of Yavin Pilots
         "Garven Dreis (BoY)":
@@ -1991,15 +1991,15 @@ exportObj.cardLoaders['Français'] = () ->
         "Jek Porkins (BoY)":
            display_name: """Jek Porkins (BoY)"""
            text: """Après avoir reçu un marqueur de stress, vous pouvez lancer 1 dé d’attaque pour le retirer.%LINEBREAK%Sur un résultat %HIT%, subissez 1 dégât %HIT%."""
-        "Hol Okland (BoY)":
-           display_name: """Hol Okland (BoY)"""
+        "Hol Okand (BoY)":
+           display_name: """Hol Okand (BoY)"""
            text: """Pendant la phase de système, s'il n'y a aucun vaisseau ennemi à portée 1-2, vous pouvez récupérer 1 %CHARGE% sur n'importe quelle amélioration."""
         '"Pops" Krail (BoY)':
            display_name: """“Pops” Krail (BoY)"""
            text: """Tant que vous effectuez une attaque %SINGLETURRETARC%, vous pouvez relancer jusqu’à 2 dés d’attaque."""
         '"Dutch" Vander (BoY)':
            display_name: """“Dutch” Vander (BoY)"""
-           text: """Après avoir dépensé un verrouillage durant une attaque, choisissez 1 vaisseau allié à portée 1-3. Le vaisseau choisi peut verrouiller le défenseur.%LINEBREAK%<i>Errata (since rules reference 1.4.4): Corrected pilot ability and adjusted initiative value</i>"""
+           text: """Après avoir dépensé un verrouillage durant une attaque, choisissez 1 vaisseau allié à portée 1-3. Le vaisseau choisi peut verrouiller le défenseur.%LINEBREAK%<i>Errata (depuis le rules reference 1.4.4): Correction de la capacité du pilote et de l'initiative.</i>"""
         "Dex Tiree (BoY)":
            display_name: """Dex Tiree (BoY)"""
            text: """Tant que vous défendez, s’il y a au moins 1 autre vaisseau allié à portée 0–1, vous pouvez lancer 1 dé de défense supplémentaire."""
@@ -2017,7 +2017,7 @@ exportObj.cardLoaders['Français'] = () ->
            text: """Tant que vous effectuez une attaque, vous pouvez dépenser 1 %FORCE% pour changer 1 résultat vierge en un résultat %HIT%."""
         "Iden Versio (BoY)": 
            display_name: """Iden Versio (BoY)"""
-           text: """Avant qu’un chasseur TIE allié à portée 0–1 ne subisse des dégâts, vous pouvez dépenser 2 %CHARGE%. Dans ce cas, prévenez 1 dégât.%LINEBREAK%<i>Errata (since rules reference 1.4.4): Corrected pilot ability</i>"""
+           text: """Avant qu’un chasseur TIE allié à portée 0–1 ne subisse des dégâts, vous pouvez dépenser 2 %CHARGE%. Dans ce cas, prévenez 1 dégât.%LINEBREAK%<i>Errata (depuis le rules reference 1.4.4): Correction de la capacité du pilote.</i>"""
         '"Backstabber" (BoY)': 
            display_name: """“Backstabber” (BoY)"""
            text: """Tant que vous effectuez une attaque principale, si un allié <b>Dark Vador</b> ou <b>"Mauler" Mithel</b> est dans votre arc %LEFTARC% ou %RIGHTARC% à portée 0-1, lancez 1 dé d'attaque supplémentaire."""
@@ -2211,40 +2211,40 @@ exportObj.cardLoaders['Français'] = () ->
         # Epic Ships
         "Republic Judiciary":
            display_name: """République Judiciaire"""
-           text: """<i>La République Galactique utilise de petits vaisseaux de guerre véloces comme la corvette CR90 pour répondre rapidement aux incursions Séparatistes à travers la galaxie.</i> %LINEBREAK% <strong>Batteries Latérales :</strong> vous pouvez verrouiller des cibles et effectuer des attaques principales à portée 1–4."""
+           text: """<i class="descriptive-text">La République Galactique utilise de petits vaisseaux de guerre véloces comme la corvette CR90 pour répondre rapidement aux incursions Séparatistes à travers la galaxie.</i> %LINEBREAK% <strong>Batteries Latérales :</strong> vous pouvez verrouiller des cibles et effectuer des attaques principales à portée 1–4."""
         "Alderaanian Guard":
            display_name: """Garde Alderaanienne"""
-           text: """<i>Mise en service avant la Guerre des Clones, la corvette CR90 est privilégiée par la Maison Royale d’Alderaan pour sa polyvalence.</i> %LINEBREAK% <strong>Batteries Latérales :</strong> vous pouvez verrouiller des cibles et effectuer des attaques principales à portée 1–4."""
+           text: """<i class="descriptive-text">Mise en service avant la Guerre des Clones, la corvette CR90 est privilégiée par la Maison Royale d’Alderaan pour sa polyvalence.</i> %LINEBREAK% <strong>Batteries Latérales :</strong> vous pouvez verrouiller des cibles et effectuer des attaques principales à portée 1–4."""
         "Outer Rim Patrol":
            display_name: """Patrouille de la Bordure Extérieure"""
-           text: """<i>La corvette de classe Raider est l’un des plus petits vaisseaux de guerre de l’Empire, souvent utilisé pour des missions de reconnaissances, des frappes chirurgicales ou l’élimination des chasseurs ennemis grâce à sa puissante artillerie.</i> %LINEBREAK% <strong>Batteries Groupées :</strong> tant que vous effectuez une attaque principale, %TORPEDO%, ou %MISSILE%si le défenseur est dans votre %BULLSEYEARC%, lancez 1 dé d’attaque supplémentaire."""
+           text: """<i class="descriptive-text">La corvette de classe Raider est l’un des plus petits vaisseaux de guerre de l’Empire, souvent utilisé pour des missions de reconnaissances, des frappes chirurgicales ou l’élimination des chasseurs ennemis grâce à sa puissante artillerie.</i> %LINEBREAK% <strong>Batteries Groupées :</strong> tant que vous effectuez une attaque principale, %TORPEDO%, ou %MISSILE%si le défenseur est dans votre %BULLSEYEARC%, lancez 1 dé d’attaque supplémentaire."""
         "First Order Collaborators":
            display_name: """Collaborateurs du Premier Ordre"""
-           text: """<i>Les partisans du Premier Ordre utilisent souvent d'anciens vaisseaux Impériaux, comme la corvette de classe Raider. Bien qu’il ait survécu au régime qui l’a vu naître, cet appareil répand toujours la terreur à travers la galaxie.</i> %LINEBREAK% <strong>Batteries Groupées :</strong> tant que vous effectuez une attaque principale, %TORPEDO%, ou %MISSILE%si le défenseur est dans votre %BULLSEYEARC%, lancez 1 dé d’attaque supplémentaire."""
+           text: """<i class="descriptive-text">Les partisans du Premier Ordre utilisent souvent d'anciens vaisseaux Impériaux, comme la corvette de classe Raider. Bien qu’il ait survécu au régime qui l’a vu naître, cet appareil répand toujours la terreur à travers la galaxie.</i> %LINEBREAK% <strong>Batteries Groupées :</strong> tant que vous effectuez une attaque principale, %TORPEDO%, ou %MISSILE%si le défenseur est dans votre %BULLSEYEARC%, lancez 1 dé d’attaque supplémentaire."""
         "Echo Base Evacuees":
            display_name: """Réfugiés de la Base Echo"""
-           text: """<i>Le transport moyen GR-75 s’adapte parfaitement aux batailles comme celle de l’évacuation de Hoth, durant laquelle plusieurs de ces vaisseaux ont été essentiels à la fuite des forces Rebelles.</i> %LINEBREAK% <strong>Appareil De Ravitaillement :</strong> après qu’un autre vaisseau allié à portée 0–1 a effectué une action, vous pouvez dépenser 1 %ENERGY%. Dans ce cas, il retire 1 marqueur orange ou rouge, ou récupère 1 bouclier."""
+           text: """<i class="descriptive-text">Le transport moyen GR-75 s’adapte parfaitement aux batailles comme celle de l’évacuation de Hoth, durant laquelle plusieurs de ces vaisseaux ont été essentiels à la fuite des forces Rebelles.</i> %LINEBREAK% <strong>Appareil De Ravitaillement :</strong> après qu’un autre vaisseau allié à portée 0–1 a effectué une action, vous pouvez dépenser 1 %ENERGY%. Dans ce cas, il retire 1 marqueur orange ou rouge, ou récupère 1 bouclier."""
         "New Republic Volunteers":
            display_name: """Volontaires de la Nouvelle République"""
-           text: """<i>En service depuis la Guerre Civile Galactique, le transport moyen GR-75 est toujours utilisé par des membres de la Nouvelle République pour des missions d’approvisionnement et d’assistance.</i> %LINEBREAK% <strong>Appareil De Ravitaillement :</strong> après qu’un autre vaisseau allié à portée 0–1 a effectué une action, vous pouvez dépenser 1 %ENERGY%. Dans ce cas, il retire 1 marqueur orange ou rouge, ou récupère 1 bouclier."""
+           text: """<i class="descriptive-text">En service depuis la Guerre Civile Galactique, le transport moyen GR-75 est toujours utilisé par des membres de la Nouvelle République pour des missions d’approvisionnement et d’assistance.</i> %LINEBREAK% <strong>Appareil De Ravitaillement :</strong> après qu’un autre vaisseau allié à portée 0–1 a effectué une action, vous pouvez dépenser 1 %ENERGY%. Dans ce cas, il retire 1 marqueur orange ou rouge, ou récupère 1 bouclier."""
         "Outer Rim Garrison":
            display_name: """Garnison de la Bordure Extérieure"""
-           text: """<i>Capable de transporter 4 chasseurs TIE et d’opérer en autonomie durant de longues périodes, le croiseur de classe Gozanti est régulièrement aperçu dans les cieux des mondes opprimés de la Bordure Extérieure.</i> %LINEBREAK% <strong>Crampons d’Arrimage :</strong> vous pouvez arrimer jusqu’à 4 petits vaisseaux."""
+           text: """<i class="descriptive-text">Capable de transporter 4 chasseurs TIE et d’opérer en autonomie durant de longues périodes, le croiseur de classe Gozanti est régulièrement aperçu dans les cieux des mondes opprimés de la Bordure Extérieure.</i> %LINEBREAK% <strong>Crampons d’Arrimage :</strong> vous pouvez arrimer jusqu’à 4 petits vaisseaux."""
         "First Order Sympathizers":
            display_name: """Sympathisants du Premier Ordre"""
-           text: """<i>La montée rapide au pouvoir du Premier Ordre se base sur une innovation féroce. Cependant, des sympathisants réutilisent régulièrement des concepts Impériaux, comme ce croiseur ancestral de classe Gozanti, pour des opérations de surveillance ou de patrouille.</i> %LINEBREAK% <strong>Crampons d’Arrimage :</strong> vous pouvez arrimer jusqu’à 4 petits vaisseaux."""
+           text: """<i class="descriptive-text">La montée rapide au pouvoir du Premier Ordre se base sur une innovation féroce. Cependant, des sympathisants réutilisent régulièrement des concepts Impériaux, comme ce croiseur ancestral de classe Gozanti, pour des opérations de surveillance ou de patrouille.</i> %LINEBREAK% <strong>Crampons d’Arrimage :</strong> vous pouvez arrimer jusqu’à 4 petits vaisseaux."""
         "Separatist Privateers":
            display_name: """Corsaires Séparatistes"""
-           text: """<i>L’Alliance Séparatiste utilise tous les contacts douteux à sa disposition pour son combat contre la République Galactique, y compris des corsaires et des cartels criminels.</i> %LINEBREAK% <strong>Surcharge Des Réacteurs :</strong> Surcharge Des Réacteurs : tant que vous défendez, si votre manœuvre révélée est de vitesse 3–5, lancez 1 dé de défense supplémentaire."""
+           text: """<i class="descriptive-text">L’Alliance Séparatiste utilise tous les contacts douteux à sa disposition pour son combat contre la République Galactique, y compris des corsaires et des cartels criminels.</i> %LINEBREAK% <strong>Surcharge Des Réacteurs :</strong> Surcharge Des Réacteurs : tant que vous défendez, si votre manœuvre révélée est de vitesse 3–5, lancez 1 dé de défense supplémentaire."""
         "Syndicate Smugglers":
            display_name: """Contrebandiers du Syndicat"""
-           text: """<i>Des vaisseaux comme le croiseur C-ROC facilitent les opérations criminelles à travers la Bordure Extérieure, en déplaçant de grandes quantités de matériels illicites ou en faisant étalage de leur puissance pour forcer les petites colonies à coopérer.</i> %LINEBREAK% <strong>Surcharge Des Réacteurs :</strong> Surcharge Des Réacteurs : tant que vous défendez, si votre manœuvre révélée est de vitesse 3–5, lancez 1 dé de défense supplémentaire."""
+           text: """<i class="descriptive-text">Des vaisseaux comme le croiseur C-ROC facilitent les opérations criminelles à travers la Bordure Extérieure, en déplaçant de grandes quantités de matériels illicites ou en faisant étalage de leur puissance pour forcer les petites colonies à coopérer.</i> %LINEBREAK% <strong>Surcharge Des Réacteurs :</strong> Surcharge Des Réacteurs : tant que vous défendez, si votre manœuvre révélée est de vitesse 3–5, lancez 1 dé de défense supplémentaire."""
         "Colicoid Destroyer":
            display_name: """Destroyer Colicoïde"""
-           text: """<i>Conçu par le Nid de Création Colicoïde et équipé de puissants tentacules et d'une foreuse géante capable de pénétrer n'importe quelle coque, y compris celles des vaisseaux et des bunkers les plus solides, le vaisseau d'Assaut de Classe Trident est une preuve terrifiante de la menace que représente l'Alliance Séparatiste.</i> %LINEBREAK% <strong>Étreinte Tractante :</strong> après que vous avez effectué une attaque <b>Tentacules Tracteurs</b> qui touche, le défenseur gagne 1 marquer de rayon tracteur."""
+           text: """<i class="descriptive-text">Conçu par le Nid de Création Colicoïde et équipé de puissants tentacules et d'une foreuse géante capable de pénétrer n'importe quelle coque, y compris celles des vaisseaux et des bunkers les plus solides, le vaisseau d'Assaut de Classe Trident est une preuve terrifiante de la menace que représente l'Alliance Séparatiste.</i> %LINEBREAK% <strong>Étreinte Tractante :</strong> après que vous avez effectué une attaque <b>Tentacules Tracteurs</b> qui touche, le défenseur gagne 1 marquer de rayon tracteur."""
         "Lawless Pirates":
            display_name: """Pirates sans Foi ni Loi"""
-           text: """<i>L'Alliance Séparatiste a développé de bonnes relations avec certains mercenaires et groupuscules criminels et, alors que la guerre fait rage, ses technologies se retrouvent parfois dans des mains peu recommandables.</i> %LINEBREAK% <strong>Étreinte Tractante :</strong> après que vous avez effectué une attaque <b>Tentacules Tracteurs</b> qui touche, le défenseur gagne 1 marquer de rayon tracteur."""
+           text: """<i class="descriptive-text">L'Alliance Séparatiste a développé de bonnes relations avec certains mercenaires et groupuscules criminels et, alors que la guerre fait rage, ses technologies se retrouvent parfois dans des mains peu recommandables.</i> %LINEBREAK% <strong>Étreinte Tractante :</strong> après que vous avez effectué une attaque <b>Tentacules Tracteurs</b> qui touche, le défenseur gagne 1 marquer de rayon tracteur."""
 
 
     upgrade_translations =
@@ -2280,10 +2280,10 @@ exportObj.cardLoaders['Français'] = () ->
            text: """Tant que vous effectuez une attaque principale %REARARC%, vous pouvez relancer 1 dé d’attaque."""
         "Millennium Falcon":
            display_name: """Faucon Millenium"""
-           text: """<i>Ajoute %EVADE%</i>%LINEBREAK%<i>Alliance Rebelle uniquement</i>%LINEBREAK%Tant que vous défendez, si vous avez un marqueur d’évasion, vous pouvez relancer 1 dé de défense."""
+           text: """<i class="descriptive-text">Ajoute %EVADE%</i>%LINEBREAK%<i>Alliance Rebelle uniquement</i>%LINEBREAK%Tant que vous défendez, si vous avez un marqueur d’évasion, vous pouvez relancer 1 dé de défense."""
         "Mist Hunter":
            display_name: """Mist Hunter"""
-           text: """<i>Ajoute %BARRELROLL%</i>%LINEBREAK%<i>Racailles et Scélérats uniquement</i>%LINEBREAK%Ajoutez un emplacement %CANNON%."""
+           text: """<i class="descriptive-text">Ajoute %BARRELROLL%</i>%LINEBREAK%<i>Racailles et Scélérats uniquement</i>%LINEBREAK%Ajoutez un emplacement %CANNON%."""
         "Moldy Crow":
            display_name: """Moldy Crow"""
            text: """Pendant la phase de dénouement, ne retirez pas jusqu’à 2 marqueurs de concentration."""
@@ -2349,7 +2349,7 @@ exportObj.cardLoaders['Français'] = () ->
            text: """Avant de vous engager, vous pouvez choisir un autre vaisseau allié à portée 1-2. Vous pouvez transférer à ce vaisseau 1 marqueur d’un type qu’il ne possède pas. Il peut vous transférer 1 marqueur d’un type que vous ne possédez pas."""
         "Angled Deflectors":
            display_name: """Déflecteurs Orientables"""
-           text: """<i>Les boucliers des chasseurs bénéficient souvent d’un contrôle manuel qui permet de les réorienter pour augmenter la protection avant ou arrière. Cependant, en agissant ainsi le vaisseau est exposé si la vigilance du pilote faiblit.</i>"""
+           text: """<i class="descriptive-text">Les boucliers des chasseurs bénéficient souvent d’un contrôle manuel qui permet de les réorienter pour augmenter la protection avant ou arrière. Cependant, en agissant ainsi le vaisseau est exposé si la vigilance du pilote faiblit.</i>"""
         "Autoblasters":
            display_name: """Autoblasters"""
            text: """<strong>Attaque :</strong> si le défenseur est dans votre %BULLSEYEARC%, lancez 1 dé supplémentaire. Lors de l’étape « Neutraliser les résultats », si vous n’êtes pas dans le %FRONTARC% du défenseur, les résultats %EVADE% n’annulent pas les résultats %CRIT%."""
@@ -2493,7 +2493,7 @@ exportObj.cardLoaders['Français'] = () ->
            text: """Après avoir largué, lancé ou placé une bombe ou une mine, vous pouvez placer dessus 1 marqueur d’amorce."""
         "Delta-7B":
            display_name: """Delta-7B"""
-           text: """<i>Le Delta-7B a été conçu comme une variante plus large de l’Intercepteur de classe Aethersprite Delta-7, reconnaissable à son emplacement repositionné pour droïde astromech. De nombreux généraux Jedi plébiscitent la puissance de feu et la résistance de cet appareil.</i>"""
+           text: """<i class="descriptive-text">Le Delta-7B a été conçu comme une variante plus large de l’Intercepteur de classe Aethersprite Delta-7, reconnaissable à son emplacement repositionné pour droïde astromech. De nombreux généraux Jedi plébiscitent la puissance de feu et la résistance de cet appareil.</i>"""
         "Dengar":
            display_name: """Dengar"""
            text: """Après avoir défendu, si l’attaquant est dans votre arc de tir, vous pouvez dépenser 1 %CHARGE%. Dans ce cas, lancez 1 dé d’attaque sauf si l’attaquant choisit de retirer 1 marqueur vert. Sur un résultat %HIT% ou %CRIT%, l’attaquant subit 1 dégât %HIT%."""
@@ -2526,13 +2526,13 @@ exportObj.cardLoaders['Français'] = () ->
            text: """<strong>Attaque (%CALCULATE%) :</strong> dépensez 1 %CHARGE%. Tant que vous effectuez cette attaque, vous pouvez dépenser 1 marqueur de calcul pour changer 1 résultat %FOCUS% en un résultat %CRIT%.%LINEBREAK%<strong>Action</strong> : rechargez cette carte."""
         "Engine Upgrade":
            display_name: """Moteurs Améliorés"""
-           text: """<i>Les armées de grande taille comme celles de l’Empire Galactique ont des vaisseaux équipés de moteurs standardisés, mais les pilotes indépendants ou les petites organisations remplacent souvent les accouplements, rajoutent des propulseurs ou utilisent du carburant haute performance afin d’obtenir une poussée plus forte.</i>"""
+           text: """<i class="descriptive-text">Les armées de grande taille comme celles de l’Empire Galactique ont des vaisseaux équipés de moteurs standardisés, mais les pilotes indépendants ou les petites organisations remplacent souvent les accouplements, rajoutent des propulseurs ou utilisent du carburant haute performance afin d’obtenir une poussée plus forte.</i>"""
         "Ensnare":
            display_name: """Enchevêtrement"""
            text: """À la fin de la phase d’activation, si vous êtes tracté, vous pouvez choisir 1 vaisseau situé dans votre arc %SINGLETURRETARC% à portée 0-1. Transférez-lui 1 marqueur de rayon tracteur."""
         "Expert Handling":
            display_name: """As de l’Espace"""
-           text: """<i>Bien que les chasseurs lourds puissent être déportés lors d’un tonneau, les pilotes chevronnés savent comment s’y prendre sans malmener leur vaisseau ou se rendre vulnérable à une attaque.</i>"""
+           text: """<i class="descriptive-text">Bien que les chasseurs lourds puissent être déportés lors d’un tonneau, les pilotes chevronnés savent comment s’y prendre sans malmener leur vaisseau ou se rendre vulnérable à une attaque.</i>"""
         "Ezra Bridger":
            display_name: """Ezra Bridger"""
            text: """Après avoir effectué une attaque principale, vous pouvez dépenser 1 %FORCE% pour effectuer une attaque bonus %SINGLETURRETARC% depuis une %SINGLETURRETARC% avec laquelle vous n’avez pas attaqué à ce round. Dans ce cas et si vous êtes stressé, vous pouvez relancer 1 dé d’attaque."""
@@ -2622,7 +2622,7 @@ exportObj.cardLoaders['Français'] = () ->
            text: """Tant que vous effectuez une attaque %SINGLETURRETARC%, après l’étape « Modifier les dés de défense », le défenseur retire 1 marqueur de concentration ou de calcul."""
         "Hull Upgrade":
            display_name: """Coque Améliorée"""
-           text: """<i>Quand on ne peut pas s’offrir un générateur de boucliers améliorés, souder des plaques de blindage sur la coque du vaisseau peut être un bon substitut.</i>"""
+           text: """<i class="descriptive-text">Quand on ne peut pas s’offrir un générateur de boucliers améliorés, souder des plaques de blindage sur la coque du vaisseau peut être un bon substitut.</i>"""
         "Hyperspace Tracking Data":
            display_name: """Données de Pistage Hyperspatial"""
            text: """<strong>Mise en place :</strong> avant de placer les forces, vous pouvez choisir un nombre entre 0 et 6. Pendant la mise en place, considérez que votre initiative est égale au nombre choisi.%LINEBREAK%Après la Mise en place, assignez 1 marqueur de concentration ou d’évasion à chaque vaisseau allié à portée 0-2."""
@@ -2847,7 +2847,7 @@ exportObj.cardLoaders['Français'] = () ->
            text: """Après avoir révélé votre cadran, vous pouvez dépenser 1 %CHARGE% et gagner 1 marqueur de désarmement pour récupérer 1 bouclier."""
         "R2-HA":
            display_name: """R2-HA"""
-           text: """<i>CHANGE ME uniquement</i>%LINEBREAK%Tant que vous défendez, vous pouvez dépenser votre verrouillage sur l’attaquant pour relancer n’importe quel nombre de vos dés de défense."""
+           text: """Tant que vous défendez, vous pouvez dépenser votre verrouillage sur l’attaquant pour relancer n’importe quel nombre de vos dés de défense."""
         "R3 Astromech":
            display_name: """Astromech R3"""
            text: """Vous pouvez maintenir jusqu’à 2 cibles verrouillées. Chaque verrouillage doit être sur un objet différent. %LINEBREAK%Après avoir effectué une action %LOCK%, vous pouvez verrouiller une cible."""
@@ -2883,7 +2883,7 @@ exportObj.cardLoaders['Français'] = () ->
            text: """Tant que vous défendez ou effectuez une attaque, si le vaisseau ennemi est dans votre %SINGLETURRETARC%, vous pouvez dépenser 1 %FORCE% pour changer 1 de vos résultats vierges en un résultat %EVADE% ou %HIT%."""
         "Rey's Millennium Falcon":
            display_name: """Faucon Millenium de Rey"""
-           text: """Si you have 2 ou fewer stress tokens, you can execute red Segnor’s Loop [%SLOOPLEFT% ou %SLOOPRIGHT%] maneuvers et perform %BOOST% and %ROTATEARC% actions even while stressed."""
+           text: """Si vous avez 2 marqueurs de stress ou moins, vous pouvez exécuter des manœuvres rouges Boucle de Segnor [%SLOOPLEFT% ou %SLOOPRIGHT%] et effectuer des actions %BOOST% et %ROTATEARC% même si vous êtes stressé."""
         "Rigged Cargo Chute":
            display_name: """Largage de Cargaison"""
            text: """<strong>Action :</strong> dépensez 1 %CHARGE%. Larguez 1 cargaison égarée en utilisant le gabarit [1 %STRAIGHT%]."""
@@ -2925,7 +2925,7 @@ exportObj.cardLoaders['Français'] = () ->
            text: """Si un vaisseau ennemi à portée 0-1 est censé gagner un marqueur de stress, vous pouvez dépenser 1 %FORCE% pour qu’il gagne 1 marqueur de brouillage ou de rayon tracteur à la place."""
         "Shield Upgrade":
            display_name: """Boucliers Améliorés"""
-           text: """<i>Les écrans déflecteurs sont la principale protection de la plupart des vaisseaux, à l’exception des chasseurs légers. Améliorer les boucliers d’un vaisseau peut se révéler coûteux, mais seuls les pilotes les plus présomptueux, ou les plus téméraires, songent à se passer de ce type d’investissement.</i>"""
+           text: """<i class="descriptive-text">Les écrans déflecteurs sont la principale protection de la plupart des vaisseaux, à l’exception des chasseurs légers. Améliorer les boucliers d’un vaisseau peut se révéler coûteux, mais seuls les pilotes les plus présomptueux, ou les plus téméraires, songent à se passer de ce type d’investissement.</i>"""
         "Skilled Bombardier":
            display_name: """Bombardier Compétent"""
            text: """Si vous devez larguer ou lancer un engin, vous pouvez utiliser un gabarit de même direction mais avec une vitesse supérieure ou inférieure de 1."""
@@ -2970,13 +2970,13 @@ exportObj.cardLoaders['Français'] = () ->
            text: """Tant qu’un vaisseau allié à portée 0-3 effectue une attaque principale contre un défenseur situé dans son %BULLSEYEARC%, s’il y a 2 dés d’attaque ou moins, il peut dépenser 1 marqueur de calcul pour ajouter 1 résultat %HIT%."""
         "Tactical Officer":
            display_name: """Officier Tactique"""
-           text: """<i>Dans la confusion d’un combat spatial, un simple ordre peut faire la différence entre une victoire et un carnage.</i>"""
+           text: """<i class="descriptive-text">Dans la confusion d’un combat spatial, un simple ordre peut faire la différence entre une victoire et un carnage.</i>"""
         "Tactical Scrambler":
            display_name: """Brouilleur Tactique"""
            text: """Tant que vous gênez l’attaque d’un vaisseau ennemi, le défenseur lance 1 dé de défense supplémentaire."""
         "Targeting Computer":
            display_name: """Ordinateur de Visée"""
-           text: """<i>Les ordinateurs de visée sont des dispositifs standards sur beaucoup de vaisseaux et plus spécifiquement sur ceux conçus pour utiliser de l’artillerie. Certains chasseurs légers et appareils de transport n’ont pas ce genre de guidage d’armes, mais il est toujours possible d’en installer en tant que modification.</i>"""
+           text: """<i class="descriptive-text">Les ordinateurs de visée sont des dispositifs standards sur beaucoup de vaisseaux et plus spécifiquement sur ceux conçus pour utiliser de l’artillerie. Certains chasseurs légers et appareils de transport n’ont pas ce genre de guidage d’armes, mais il est toujours possible d’en installer en tant que modification.</i>"""
         "Targeting Synchronizer":
            display_name: """Synchroniseur Télémétrique"""
            text: """Tant qu’un vaisseau allié à portée 1-2 effectue une attaque contre une cible que vous avez verrouillée, ce vaisseau allié ignore le prérequis d’attaque %LOCK%."""
@@ -3201,7 +3201,7 @@ exportObj.cardLoaders['Français'] = () ->
            text: """ """
         "Phoenix Squadron":
            display_name: """Escadron Phoenix"""
-           text: """<strong>%ise en place :</strong> à équiper avec cette face visible. %LINEBREAK%Vous êtes le <b>leader</b>. Vos ailiers doivent être 2–5 vaisseaux parmi les suivants : %LINEBREAK% - 0–1 Navette d’Attaque %LINEBREAK% - 0–1 Navette de classe Sheathipede %LINEBREAK% - 0–5 A-wings RZ-1 %LINEBREAK% Après avoir été placé, retournez cette carte. %LINEBREAK% <strong>Face jeu :</strong>%LINEBREAK% Au début de la phase de préparation, 1 de vos ailiers qui est arrimé à vous peut rejoindre votre patrouille sans gagner un marqueur de stress. %LINEBREAK% Tant que vous, ou votre ailier Navette d’Attaque ou Navette de classe Sheathipede, défendez, jusqu’à 2 de vos ailiers A-wing RZ-1 dans l’arc d’attaque peuvent chacun subir 1 dégât %HIT%/%CRIT% pour annuler 1 résultat correspondant."""
+           text: """<strong>Mise en place :</strong> à équiper avec cette face visible. %LINEBREAK%Vous êtes le <b>leader</b>. Vos ailiers doivent être 2–5 vaisseaux parmi les suivants : %LINEBREAK% - 0–1 Navette d’Attaque %LINEBREAK% - 0–1 Navette de classe Sheathipede %LINEBREAK% - 0–5 A-wings RZ-1 %LINEBREAK% Après avoir été placé, retournez cette carte. %LINEBREAK% <strong>Face jeu :</strong>%LINEBREAK% Au début de la phase de préparation, 1 de vos ailiers qui est arrimé à vous peut rejoindre votre patrouille sans gagner un marqueur de stress. %LINEBREAK% Tant que vous, ou votre ailier Navette d’Attaque ou Navette de classe Sheathipede, défendez, jusqu’à 2 de vos ailiers A-wing RZ-1 dans l’arc d’attaque peuvent chacun subir 1 dégât %HIT%/%CRIT% pour annuler 1 résultat correspondant."""
         "Hopeful":
            display_name: """Optimiste"""
            text: """Après qu’un autre vaisseau allié à portée 0–3 a été détruit, si ce vaisseau était limité ou qu’il avait l’amélioration <strong>Optimiste</strong>, vous pouvez effectuer une action %FOCUS% ou %BOOST%."""
@@ -3267,7 +3267,7 @@ exportObj.cardLoaders['Français'] = () ->
            text: """Au début de la phase d'engagement, vous pouvez choisir un vaisseau allié dans votre arc de tir. Dans ce cas, il gagne 1 marqueur de contrainte. %LINEBREAK%Tant que vous effectuez une attaque, vous pouvez relancer jusqu'à 1 dé pour chaque vaisseau dans l'arc d'attaque ayant au moins 1 marqueur rouge ou orange qui ne soit pas un verrouillage."""
         "First Order Ordnance Tech":
            display_name: """Technicien en Munitions du Premier Ordre """
-           text: """<i>Le Premier Ordre entraîne ses pilotes et artilleurs à être loyaux jusqu'à la mort, préférant la victoire à leur propre survie.</i>"""
+           text: """<i class="descriptive-text">Le Premier Ordre entraîne ses pilotes et artilleurs à être loyaux jusqu'à la mort, préférant la victoire à leur propre survie.</i>"""
         "Feedback Ping":
            display_name: """Retour de Ping"""
            text: """Après qu'un vaisseau ennemi a exécuté une manœuvre, s'il est à portée 0-1 d'un engin allié, vous pouvez verrouiller ce vaisseau ennemi, en ignorant les restrictions de portée."""
@@ -3922,7 +3922,7 @@ exportObj.cardLoaders['Français'] = () ->
            text: """Tant qu’un autre vaisseau allié à portée 0–2 défend, si vous n’êtes pas contraint, il peut dépenser vos marqueurs de concentration et d'évasion comme s'ils étaient à lui. Dans ce cas, vous gagnez 1 marqueur de contrainte."""
         "Modified for Organics":
            display_name: "Modifié pour les Organiques"
-           text: """ce vaisseau n'est pas affecté par la restriction <strong>Standardisé</strong>. Diminuez la difficulté de vos manœuvres de virage sur l'aile [%BANKLEFT% ou %BANKRIGHT%] à vitesse 2-3. Augmentez la difficulté de vos manœuvres de virage [%TURNLEFT% ou %TURNRIGHT%] à vitesse 3."""
+           text: """Ce vaisseau n'est pas affecté par la restriction <b>Standardisé</b>. Diminuez la difficulté de vos manœuvres de virage sur l'aile [%BANKLEFT% ou %BANKRIGHT%] à vitesse 2-3. Augmentez la difficulté de vos manœuvres de virage [%TURNLEFT% ou %TURNRIGHT%] à vitesse 3."""
 
 
     exportObj.setupTranslationCardData pilot_translations, upgrade_translations, condition_translations, chassis_translations
