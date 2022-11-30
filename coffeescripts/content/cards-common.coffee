@@ -11794,7 +11794,6 @@ exportObj.basicCardData = ->
             slots: [
                 "Talent"
                 "Modification"
-                "Configuration"
             ]
         }
         {
@@ -11814,7 +11813,6 @@ exportObj.basicCardData = ->
             slots: [
                 "Talent"
                 "Modification"
-                "Configuration"
             ]
         }
         {
@@ -11834,7 +11832,6 @@ exportObj.basicCardData = ->
             slots: [
                 "Talent"
                 "Modification"
-                "Configuration"
             ]
         }
         {
@@ -11854,7 +11851,6 @@ exportObj.basicCardData = ->
             slots: [
                 "Talent"
                 "Modification"
-                "Configuration"
             ]
         }
         {
@@ -11880,7 +11876,6 @@ exportObj.basicCardData = ->
                 ]
             slots: [
                 "Talent"
-                "Configuration"
             ]
         }
         {
@@ -12402,6 +12397,7 @@ exportObj.basicCardData = ->
             skill: 5
             points: 0
             slots: [
+                "Talent"
                 "Cannon"
                 "Cannon"
                 "Modification"
@@ -12829,7 +12825,6 @@ exportObj.basicCardData = ->
             recurring: 1
             points: 0
             slots: [
-                "Talent"
                 "Missile"
                 "Modification"
             ]
