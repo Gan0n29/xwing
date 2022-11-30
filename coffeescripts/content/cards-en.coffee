@@ -294,7 +294,7 @@ exportObj.cardLoaders.English = () ->
            text: """After you defend, you may spend 1 calculate token to perform an action."""
         "104th Battalion Pilot":
            display_name: """104th Battalion Pilot"""
-           text: """<i>The ARC-170 was designed as a dominating heavy escort fighter with powerful front and rear lasers, ordnance, and an astromech for navigation. Squadrons of these mighty ships bolster the Republic Navy’s presence at any battle where they are deployed.</i>"""
+           text: """<i class="descriptive-text">The ARC-170 was designed as a dominating heavy escort fighter with powerful front and rear lasers, ordnance, and an astromech for navigation. Squadrons of these mighty ships bolster the Republic Navy’s presence at any battle where they are deployed.</i>"""
         "4-LOM":
            display_name: """4-LOM"""
            text: """After you fully execute a red maneuver, gain 1 calculate token.%LINEBREAK%At the start of the End Phase, you may choose 1 ship at range 0-1. If you do, transfer 1 of your stress tokens to that ship."""
@@ -306,7 +306,7 @@ exportObj.cardLoaders.English = () ->
            text: """While you coordinate, if you chose a ship with exactly 1 stress token, it can perform actions."""
         "Academy Pilot":
            display_name: """Academy Pilot"""
-           text: """<i>The Galactic Empire uses the fast and agile TIE/ln, developed by Sienar Fleet Systems and produced in staggering quantity, as its primary starfighter.</i>"""
+           text: """<i class="descriptive-text">The Galactic Empire uses the fast and agile TIE/ln, developed by Sienar Fleet Systems and produced in staggering quantity, as its primary starfighter.</i>"""
         "Ahhav":
            display_name: """Ahhav"""
            text: """While you defend or perform an attack, if the enemy ship is a larger size than you, roll 1 additional die."""
@@ -318,7 +318,7 @@ exportObj.cardLoaders.English = () ->
            text: """After you perform an attack, you may choose 1 friendly ship at range 1. That ship may perform an action, treating it as red."""
         "Alpha Squadron Pilot":
            display_name: """Alpha Squadron Pilot"""
-           text: """<i>Sienar Fleet Systems designed the TIE interceptor with four wing-mounted laser cannons, a dramatic increase in firepower over its predecessors.</i>"""
+           text: """<i class="descriptive-text">Sienar Fleet Systems designed the TIE interceptor with four wing-mounted laser cannons, a dramatic increase in firepower over its predecessors.</i>"""
         "Anakin Skywalker":
            display_name: """Anakin Skywalker"""
            text: """After you fully execute a maneuver, if there is an enemy ship in your %FRONTARC% at range&nbsp;0-1 or in your %BULLSEYEARC%, you may spend 1 %FORCE% to remove 1&nbsp;stress token."""
@@ -332,16 +332,16 @@ exportObj.cardLoaders.English = () ->
            text: """At the start of the Engagement Phase, you may choose 1 enemy ship in your %SINGLETURRETARC% at range 0-2 and spend 1&nbsp;%FORCE%. If you do, that ship gains 1 stress token unless it removes 1 green token."""
         "Autopilot Drone":
            display_name: """Autopilot Drone"""
-           text: """<i>Sometimes, manufacturer’s warnings are made to be broken.</i>"""
+           text: """<i class="descriptive-text">Sometimes, manufacturer’s warnings are made to be broken.</i>"""
         "Bandit Squadron Pilot":
            display_name: """Bandit Squadron Pilot"""
-           text: """<i>The Z-95 Headhunter was the primary inspiration for Incom Corporation’s exemplary T-65 X-wing starfighter. Though it is considered outdated by modern standards, it remains a versatile and potent snub fighter.</i>"""
+           text: """<i class="descriptive-text">The Z-95 Headhunter was the primary inspiration for Incom Corporation’s exemplary T-65 X-wing starfighter. Though it is considered outdated by modern standards, it remains a versatile and potent snub fighter.</i>"""
         "Baktoid Prototype":
            display_name: """Baktoid Prototype"""
            text: """While you perform a special attack, if a friendly ship with the <strong>Networked Calculations</strong> ship ability has a lock on the defender, you may ignore the %FOCUS%, %CALCULATE% or %LOCK% requirement of that attack."""
         "Baron of the Empire":
            display_name: """Baron of the Empire"""
-           text: """<i>Sienar Fleet System’s TIE Advanced v1 is a groundbreaking starfighter design, featuring upgraded engines, a missile launcher, and folding s-foils.</i>"""
+           text: """<i class="descriptive-text">Sienar Fleet System’s TIE Advanced v1 is a groundbreaking starfighter design, featuring upgraded engines, a missile launcher, and folding s-foils.</i>"""
         "Barriss Offee":
            display_name: """Barriss Offee"""
            text: """While a friendly ship at range&nbsp;0-2 performs an attack, if the defender is in its %BULLSEYEARC%, you may spend 1&nbsp;%FORCE% to change 1&nbsp;%FOCUS% result to a %HIT% result or 1&nbsp;%HIT% result to a %CRIT% result."""
@@ -356,52 +356,52 @@ exportObj.cardLoaders.English = () ->
            text: """While another friendly ship at range 0-1 defends, before the Neutralize Results step, if you are in the attack arc, you may suffer 1&nbsp;%HIT% or %CRIT% to cancel 1 matching result."""
         "Binayre Pirate":
            display_name: """Binayre Pirate"""
-           text: """<i>Operating from the Double Worlds, Talus and Tralus, Kath Scarlet’s gang of smugglers and pirates would never be described as reputable or dependable—even by other criminals.</i>"""
+           text: """<i class="descriptive-text">Operating from the Double Worlds, Talus and Tralus, Kath Scarlet’s gang of smugglers and pirates would never be described as reputable or dependable—even by other criminals.</i>"""
         "Black Squadron Ace":
            display_name: """Black Squadron Ace"""
-           text: """<i>The elite TIE/ln pilots of Black Squadron accompanied Darth Vader on a devastating strike against the Rebel forces at the Battle of Yavin.</i>"""
+           text: """<i class="descriptive-text">The elite TIE/ln pilots of Black Squadron accompanied Darth Vader on a devastating strike against the Rebel forces at the Battle of Yavin.</i>"""
         "Black Squadron Scout":
            display_name: """Black Squadron Scout"""
-           text: """<i>These heavily armed atmospheric craft employ their specialized moveable wings to gain additional speed and maneuverability.</i>"""
+           text: """<i class="descriptive-text">These heavily armed atmospheric craft employ their specialized moveable wings to gain additional speed and maneuverability.</i>"""
         "Black Squadron Ace (T-70)":
            display_name: """Black Squadron Ace"""
-           text: """<i>During the Cold War, Poe Dameron’s Black Squadron conducted daring covert operations against the First Order in defiance of treaties ratified by the New Republic Senate.</i>"""
+           text: """<i class="descriptive-text">During the Cold War, Poe Dameron’s Black Squadron conducted daring covert operations against the First Order in defiance of treaties ratified by the New Republic Senate.</i>"""
         "Black Squadron Scout":
            display_name: """Black Squadron Scout"""
-           text: """<i>These heavily armed atmospheric craft employ their specialized moveable wings to gain additional speed and maneuverability.</i>"""
+           text: """<i class="descriptive-text">These heavily armed atmospheric craft employ their specialized moveable wings to gain additional speed and maneuverability.</i>"""
         "Black Sun Ace":
            display_name: """Black Sun Ace"""
-           text: """<i>The Kihraxz assault fighter was developed specifically for the Black Sun crime syndicate, whose highly paid ace pilots demanded a nimble, powerful ship to match their skills.</i>"""
+           text: """<i class="descriptive-text">The Kihraxz assault fighter was developed specifically for the Black Sun crime syndicate, whose highly paid ace pilots demanded a nimble, powerful ship to match their skills.</i>"""
         "Black Sun Assassin":
            display_name: """Black Sun Assassin"""
-           text: """<i>Although assassinations can be handled with a shot in the dark or a dire substance added to a drink, a flaming shuttle tumbling from the sky sends a special kind of message.</i>"""
+           text: """<i class="descriptive-text">Although assassinations can be handled with a shot in the dark or a dire substance added to a drink, a flaming shuttle tumbling from the sky sends a special kind of message.</i>"""
         "Black Sun Enforcer":
            display_name: """Black Sun Enforcer"""
-           text: """<i>Prince Xizor himself collaborated with MandalMotors to design the StarViper-class attack platform, one of the most formidable starfighters in the galaxy.</i>"""
+           text: """<i class="descriptive-text">Prince Xizor himself collaborated with MandalMotors to design the StarViper-class attack platform, one of the most formidable starfighters in the galaxy.</i>"""
         "Black Sun Soldier":
            display_name: """Black Sun Soldier"""
-           text: """<i>The vast and influential Black Sun crime syndicate can always find a use for talented pilots, provided they aren’t particular about how they earn their credits.</i>"""
+           text: """<i class="descriptive-text">The vast and influential Black Sun crime syndicate can always find a use for talented pilots, provided they aren’t particular about how they earn their credits.</i>"""
         "Blade Squadron Veteran":
            display_name: """Blade Squadron Veteran"""
-           text: """<i>A unique gyrostabilization system surrounds the B-wing’s cockpit, ensuring that the pilot always remains stationary during flight.</i>"""
+           text: """<i class="descriptive-text">A unique gyrostabilization system surrounds the B-wing’s cockpit, ensuring that the pilot always remains stationary during flight.</i>"""
         "Blue Squadron Escort":
            display_name: """Blue Squadron Escort"""
-           text: """<i>Designed by Incom Corporation, the T-65 X-wing quickly proved to be one of the most effective and versatile military vehicles in the galaxy and a boon to the Rebellion.</i>"""
+           text: """<i class="descriptive-text">Designed by Incom Corporation, the T-65 X-wing quickly proved to be one of the most effective and versatile military vehicles in the galaxy and a boon to the Rebellion.</i>"""
         "Blue Squadron Pilot":
            display_name: """Blue Squadron Pilot"""
-           text: """<i>Due to its heavy weapons array and resilient shielding, the B-wing has solidified itself as the Rebel Alliance’s most innovative assault fighter.</i>"""
+           text: """<i class="descriptive-text">Due to its heavy weapons array and resilient shielding, the B-wing has solidified itself as the Rebel Alliance’s most innovative assault fighter.</i>"""
         "Blue Squadron Protector":
            display_name: """Blue Squadron Protector"""
-           text: """<i>Blue Squadron’s elite clone pilots are trained to fly their V-19s in conjunction with Jedi and often support famous commanders such as Anakin Skywalker and Ahsoka Tano.</i>"""
+           text: """<i class="descriptive-text">Blue Squadron’s elite clone pilots are trained to fly their V-19s in conjunction with Jedi and often support famous commanders such as Anakin Skywalker and Ahsoka Tano.</i>"""
         "Blue Squadron Recruit":
            display_name: """Blue Squadron Recruit"""
-           text: """<i>Young beings across the galaxy have grown up on tales of heroism in the Galactic Civil War, and many learned to fly in the same cockpits from which their parents fought the Empire.</i>"""
+           text: """<i class="descriptive-text">Young beings across the galaxy have grown up on tales of heroism in the Galactic Civil War, and many learned to fly in the same cockpits from which their parents fought the Empire.</i>"""
         "Blue Squadron Rookie":
            display_name: """Blue Squadron Rookie"""
-           text: """<i>The Incom-FreiTek T-70 X-Wing was designed to improve upon the tactical flexibility of the venerable T-65. The starfighter’s advanced droid socket is compatible with a wide array of astromechs, and its modular weapons pods allow ground crews to tailor its payload for specific missions.</i>"""
+           text: """<i class="descriptive-text">The Incom-FreiTek T-70 X-Wing was designed to improve upon the tactical flexibility of the venerable T-65. The starfighter’s advanced droid socket is compatible with a wide array of astromechs, and its modular weapons pods allow ground crews to tailor its payload for specific missions.</i>"""
         "Blue Squadron Scout":
            display_name: """Blue Squadron Scout"""
-           text: """<i>Used for deploying troops under the cover of darkness or into the heat of battle, the UT-60D U-wing fulfills the Rebellion’s need for a swift and hardy troop transport.</i>"""
+           text: """<i class="descriptive-text">Used for deploying troops under the cover of darkness or into the heat of battle, the UT-60D U-wing fulfills the Rebellion’s need for a swift and hardy troop transport.</i>"""
         "Boba Fett":
            display_name: """Boba Fett"""
            text: """While you defend or perform an attack, you may reroll 1 of your dice for each enemy ship at range 0-1."""
@@ -413,7 +413,7 @@ exportObj.cardLoaders.English = () ->
            text: """While you perform a primary attack, after the Neutralize Results step, you may spend 1&nbsp;%CRIT% result to add 2&nbsp;%HIT% results."""
         "Bounty Hunter":
            display_name: """Bounty Hunter"""
-           text: """<i>The Firespray-class patrol craft is infamous for its association with the deadly bounty hunters Jango Fett and Boba Fett, who packed their craft with countless deadly armaments.</i>"""
+           text: """<i class="descriptive-text">The Firespray-class patrol craft is infamous for its association with the deadly bounty hunters Jango Fett and Boba Fett, who packed their craft with countless deadly armaments.</i>"""
         "Braylen Stramm":
            display_name: """Braylen Stramm"""
            text: """While you defend or perform an attack, if you are stressed, you may reroll up to 2 of your dice."""
@@ -449,13 +449,13 @@ exportObj.cardLoaders.English = () ->
            text: """While you defend or perform an attack, before attack dice are rolled, if you are not in the enemy ship’s %BULLSEYEARC%, you may spend 1&nbsp;%CHARGE%. If you do, the enemy ship gains 1&nbsp;jam token."""
         "Cartel Executioner":
            display_name: """Cartel Executioner"""
-           text: """<i>Many veteran pilots in the service of the Hutt kajidics and other criminal operations choose the M12-L Kimogila for its firepower and dreaded reputation alike.</i>"""
+           text: """<i class="descriptive-text">Many veteran pilots in the service of the Hutt kajidics and other criminal operations choose the M12-L Kimogila for its firepower and dreaded reputation alike.</i>"""
         "Cartel Marauder":
            display_name: """Cartel Marauder"""
-           text: """<i>The versatile Kihraxz was modeled after Incom’s popular X-wing starfighter, but an array of after-market modification kits ensure a wide variety of designs. </i>"""
+           text: """<i class="descriptive-text">The versatile Kihraxz was modeled after Incom’s popular X-wing starfighter, but an array of after-market modification kits ensure a wide variety of designs. </i>"""
         "Cartel Spacer":
            display_name: """Cartel Spacer"""
-           text: """<i>MandalMotors’ M3-A “Scyk” Interceptor is purchased in large quantities by the Hutt Cartel and the Car’das smugglers due to its low cost and customizability.</i>"""
+           text: """<i class="descriptive-text">MandalMotors’ M3-A “Scyk” Interceptor is purchased in large quantities by the Hutt Cartel and the Car’das smugglers due to its low cost and customizability.</i>"""
         "Cassian Andor":
            display_name: """Cassian Andor"""
            text: """At the start of the Activation Phase, you may choose 1 friendly ship at range 1-3. If you do, that ship removes 1 stress token."""
@@ -464,7 +464,7 @@ exportObj.cardLoaders.English = () ->
            text: """While you perform a primary attack, if the defender is at range 0-1 of at least 1&nbsp;friendly device, roll 1 additional die."""
         "Cavern Angels Zealot":
            display_name: """Cavern Angels Zealot"""
-           text: """<i>Unlike most Rebel cells, Saw Gerrera’s partisans are willing to use extreme methods to undermine the Galactic Empire’s objectives in brutal battles that rage from Geonosis to Jedha.</i>"""
+           text: """<i class="descriptive-text">Unlike most Rebel cells, Saw Gerrera’s partisans are willing to use extreme methods to undermine the Galactic Empire’s objectives in brutal battles that rage from Geonosis to Jedha.</i>"""
         "Chewbacca":
            display_name: """Chewbacca"""
            text: """Before you would be dealt a faceup damage card, you may spend 1&nbsp;%CHARGE% to be dealt the card facedown instead."""
@@ -473,7 +473,7 @@ exportObj.cardLoaders.English = () ->
            text: """After a friendly ship at range 0-3 is destroyed, before that ship is removed, you may perform an action. Then you may perform a bonus attack.%LINEBREAK%<i><strong>Note:</strong>The phrase "before that ship is removed" is not printed on the card, but within the official squad builder.</i>"""
         "Cobalt Squadron Bomber":
            display_name: """Cobalt Squadron Bomber"""
-           text: """<i>Whether the ordnance silos of their StarFortresses are loaded with proton bombs or relief supplies, the heroic crews of Cobalt Squadron dedicate their lives to making a difference in the galaxy.</i>"""
+           text: """<i class="descriptive-text">Whether the ordnance silos of their StarFortresses are loaded with proton bombs or relief supplies, the heroic crews of Cobalt Squadron dedicate their lives to making a difference in the galaxy.</i>"""
         "Colonel Jendon":
            display_name: """Colonel Jendon"""
            text: """At the start of the Activation Phase, you may spend 1&nbsp;%CHARGE%. If you do, while friendly ships acquire locks this round, they must acquire locks beyond range 3 instead of at range 0-3."""
@@ -488,7 +488,7 @@ exportObj.cardLoaders.English = () ->
            text: """If you would drop a device, you may launch it using a [1&nbsp;%STRAIGHT%] template instead."""
         "Contracted Scout":
            display_name: """Contracted Scout"""
-           text: """<i>Built for long-distance reconnaissance and plotting new hyperspace routes, the lightly armed JumpMaster 5000 is often extensively retrofitted with custom upgrades.</i>"""
+           text: """<i class="descriptive-text">Built for long-distance reconnaissance and plotting new hyperspace routes, the lightly armed JumpMaster 5000 is often extensively retrofitted with custom upgrades.</i>"""
         "Corran Horn":
            display_name: """Corran Horn"""
            text: """At initiative 0, you may perform a bonus primary attack against an enemy ship in your %BULLSEYEARC%. If you do, at the start of the next Planning Phase, gain 1 disarm token."""
@@ -500,10 +500,10 @@ exportObj.cardLoaders.English = () ->
            text: """While you would execute a %STRAIGHT% maneuver, you may increase the difficulty of the maneuver. If you do, execute it as a %KTURN% maneuver instead."""
         "Crymorah Goon":
            display_name: """Crymorah Goon"""
-           text: """<i>Though far from nimble, the Y-wing’s heavy hull, substantial shielding, and turret-mounted cannons make it an excellent patrol craft.</i>"""
+           text: """<i class="descriptive-text">Though far from nimble, the Y-wing’s heavy hull, substantial shielding, and turret-mounted cannons make it an excellent patrol craft.</i>"""
         "Cutlass Squadron Pilot":
            display_name: """Cutlass Squadron Pilot"""
-           text: """<i>The TIE punisher’s design builds upon the success of the TIE bomber, adding shielding, a second bomb chute, and three additional ordnance pods, each equipped with a twin ion engine.</i>"""
+           text: """<i class="descriptive-text">The TIE punisher’s design builds upon the success of the TIE bomber, adding shielding, a second bomb chute, and three additional ordnance pods, each equipped with a twin ion engine.</i>"""
         "DBS-32C":
            display_name: """DBS-32C"""
            text: """At the start of the Engagement Phase, you may spend 1 calculate token to perform a %COORDINATE% action. You cannot coordinate ships that do not have the <strong>Networked Calculations</strong> ship ability. """
@@ -527,7 +527,7 @@ exportObj.cardLoaders.English = () ->
            text: """At the start of the Engagement Phase, you may choose 1 shielded ship in your %BULLSEYEARC% and spend 1&nbsp;%CHARGE%. If you do, that ship loses 1 shield and you recover 1 shield."""
         "Dark Courier":
            display_name: """Dark Courier"""
-           text: """<i>The vessel called the Scimitar was heavily modified, equipped with stealth technologies and advanced surveillance devices for infiltration and assassination missions.</i>"""
+           text: """<i class="descriptive-text">The vessel called the Scimitar was heavily modified, equipped with stealth technologies and advanced surveillance devices for infiltration and assassination missions.</i>"""
         "Darth Maul":
            display_name: """Darth Maul"""
            text: """After you perform an attack, you may spend 2 %FORCE% to perform a bonus primary attack against a different target. If your attack missed, you may perform that bonus primary attack against the same target instead."""
@@ -542,7 +542,7 @@ exportObj.cardLoaders.English = () ->
            text: """While a friendly ship at range 0-2 defends against a damaged attacker, the defender may reroll 1 defense die."""
         "Delta Squadron Pilot":
            display_name: """Delta Squadron Pilot"""
-           text: """<i>In addition to its missile launchers and six wingtip laser cannons, the formidable TIE defender is equipped with deflector shields and a hyperdrive.</i>"""
+           text: """<i class="descriptive-text">In addition to its missile launchers and six wingtip laser cannons, the formidable TIE defender is equipped with deflector shields and a hyperdrive.</i>"""
         "Dengar":
            display_name: """Dengar"""
            text: """After you defend, if the attacker is in your %FRONTARC%, you may spend 1&nbsp;%CHARGE% to perform a bonus attack against the attacker."""
@@ -563,7 +563,7 @@ exportObj.cardLoaders.English = () ->
            text: """If you would drop a device using a [1&nbsp;%STRAIGHT%] template, you may use the [3&nbsp;%TURNLEFT%], [3&nbsp;%STRAIGHT%], or [3&nbsp;%TURNRIGHT%] template instead."""
         "Epsilon Squadron Cadet":
            display_name: """Epsilon Squadron Cadet"""
-           text: """<i>Trained from childhood aboard Resurgent-class Star Destroyers in deep space, many First Order TIE pilots have never even set foot on a planet’s surface.</i>"""
+           text: """<i class="descriptive-text">Trained from childhood aboard Resurgent-class Star Destroyers in deep space, many First Order TIE pilots have never even set foot on a planet’s surface.</i>"""
         "Esege Tuketu":
            display_name: """Esege Tuketu"""
            text: """While a friendly ship at range 0-2 defends or performs an attack, it may spend your focus tokens as if that ship has them."""
@@ -581,7 +581,7 @@ exportObj.cardLoaders.English = () ->
            text: """While you defend or perform an attack, if you are stressed, you may spend 1&nbsp;%FORCE% to change up to 2 of your %FOCUS% results to %EVADE% or %HIT% results."""
         "Feethan Ottraw Autopilot":
            display_name: """Feethan Ottraw Autopilot"""
-           text: """<i>Unlike the more disposable fighters it also built for the Separatists, Feethan Ottraw Scalable Assemblies designed the Belbullab-22 with a solid mix of firepower, durability, and speed.</i>"""
+           text: """<i class="descriptive-text">Unlike the more disposable fighters it also built for the Separatists, Feethan Ottraw Scalable Assemblies designed the Belbullab-22 with a solid mix of firepower, durability, and speed.</i>"""
         "Fenn Rau (Sheathipede)":
            display_name: """Fenn Rau"""
            text: """Before an enemy ship in your firing arc engages, if you are not stressed, you may gain 1 stress token. If you do, that ship cannot spend tokens to modify dice while it performs an attack during this phase.%LINEBREAK% <i>Errata (since rules reference 1.1.0): Replaced "After an enemy ship in your firing arc engages")</i>"""
@@ -593,19 +593,19 @@ exportObj.cardLoaders.English = () ->
            text: """Before you would drop a bomb, you may place it in the play area touching you instead."""
         "First Order Test Pilot":
            display_name: """First Order Test Pilot"""
-           text: """<i>Engineered for incredible speed and precise handling, the TIE Silencer is devastating in the hands of those who can unlock its full potential. Any lesser pilot could easily be overwhelmed and lose control of the nimble craft. </i>"""
+           text: """<i class="descriptive-text">Engineered for incredible speed and precise handling, the TIE Silencer is devastating in the hands of those who can unlock its full potential. Any lesser pilot could easily be overwhelmed and lose control of the nimble craft. </i>"""
         "Foreman Proach":
            display_name: """Foreman Proach"""
            text: """Before you engage, you may choose 1&nbsp;enemy ship in your %BULLSEYEARC% at range 1-2 and gain 1 disarm token. If you do, that ship gains 1 tractor token."""
         "Freighter Captain":
            display_name: """Freighter Captain"""
-           text: """<i>Many spacers make a living traveling the Outer Rim, where the difference between smuggler and legitimate merchant is often murky. On the outskirts of civilization, buyers are rarely so discerning to ask where merchandise came from, at least as long as the price is low enough.</i>"""
+           text: """<i class="descriptive-text">Many spacers make a living traveling the Outer Rim, where the difference between smuggler and legitimate merchant is often murky. On the outskirts of civilization, buyers are rarely so discerning to ask where merchandise came from, at least as long as the price is low enough.</i>"""
         "Gamma Squadron Ace":
            display_name: """Gamma Squadron Ace"""
-           text: """<i>Though it sacrifices a degree of speed and maneuverability compared to a TIE/ln, the TIE bomber’s increased payload can carry enough firepower to destroy virtually any enemy target.</i>"""
+           text: """<i class="descriptive-text">Though it sacrifices a degree of speed and maneuverability compared to a TIE/ln, the TIE bomber’s increased payload can carry enough firepower to destroy virtually any enemy target.</i>"""
         "Gand Findsman":
            display_name: """Gand Findsman"""
-           text: """<i>The legendary Findsmen of Gand worship the enshrouding mists of their home planet, using signs, augurs, and mystical rituals to track their quarry.</i>"""
+           text: """<i class="descriptive-text">The legendary Findsmen of Gand worship the enshrouding mists of their home planet, using signs, augurs, and mystical rituals to track their quarry.</i>"""
         "Garven Dreis (X-Wing)":
            display_name: """Garven Dreis"""
            text: """After you spend a focus token, you may choose 1 friendly ship at range 1-3. That ship gains 1 focus token."""
@@ -626,25 +626,25 @@ exportObj.cardLoaders.English = () ->
            text: """While you perform an attack against a damaged defender, roll 1 additional attack die."""
         "Gold Squadron Trooper":
            display_name: """Gold Squadron Trooper"""
-           text: """<i>The V-19 Torrent starfighter was designed to be a light escort to nimble Delta-7 interceptors flown by Jedi Knights, and has a unique flight profile to reflect this role.</i>"""
+           text: """<i class="descriptive-text">The V-19 Torrent starfighter was designed to be a light escort to nimble Delta-7 interceptors flown by Jedi Knights, and has a unique flight profile to reflect this role.</i>"""
         "Gold Squadron Veteran":
            display_name: """Gold Squadron Veteran"""
-           text: """<i>Commanded by Jon “Dutch” Vander, Gold Squadron played an instrumental role in the Battles of Scarif and Yavin.</i>"""
+           text: """<i class="descriptive-text">Commanded by Jon “Dutch” Vander, Gold Squadron played an instrumental role in the Battles of Scarif and Yavin.</i>"""
         "Grand Inquisitor":
            display_name: """Grand Inquisitor"""
            text: """While you defend at attack range 1, you may spend 1&nbsp;%FORCE% to prevent the range 1 bonus. %LINEBREAK%While you perform an attack against a defender at attack range 2-3, you may spend 1&nbsp;%FORCE% to apply the range 1 bonus."""
         "Gray Squadron Bomber":
            display_name: """Gray Squadron Bomber"""
-           text: """<i>Long after the Y-wing was phased out by the Galactic Empire, its durability, dependability, and heavy armament help it remain a staple in the Rebel fleet.</i>"""
+           text: """<i class="descriptive-text">Long after the Y-wing was phased out by the Galactic Empire, its durability, dependability, and heavy armament help it remain a staple in the Rebel fleet.</i>"""
         "Graz":
            display_name: """Graz"""
            text: """While you defend, if you are behind the attacker, roll 1 additional defense die.%LINEBREAK%While you perform an attack, if you are behind the defender, roll 1 additional attack die."""
         "Green Squadron Expert":
            display_name: """Green Squadron Expert"""
-           text: """<i>Years of field-expedient modifications were standardized in the RZ-2 design, but daring pilots see the ship’s improved reliability as a challenge to further push the limits of its performance.</i>"""
+           text: """<i class="descriptive-text">Years of field-expedient modifications were standardized in the RZ-2 design, but daring pilots see the ship’s improved reliability as a challenge to further push the limits of its performance.</i>"""
         "Green Squadron Pilot":
            display_name: """Green Squadron Pilot"""
-           text: """<i>Due to its sensitive controls and high maneuverability, only the most talented pilots belong in an A-wing cockpit.</i>"""
+           text: """<i class="descriptive-text">Due to its sensitive controls and high maneuverability, only the most talented pilots belong in an A-wing cockpit.</i>"""
         "Greer Sonnel":
            display_name: """Greer Sonnel"""
            text: """After you fully execute a maneuver, you may rotate your %SINGLETURRETARC%."""
@@ -671,7 +671,7 @@ exportObj.cardLoaders.English = () ->
            text: """After you reveal a red or blue maneuver, you may set your dial to another maneuver of the same difficulty."""
         "Hired Gun":
            display_name: """Hired Gun"""
-           text: """<i>Just the mention of Imperial credits can bring a host of less-than-trustworthy individuals to your side.</i>"""
+           text: """<i class="descriptive-text">Just the mention of Imperial credits can bring a host of less-than-trustworthy individuals to your side.</i>"""
         "Horton Salm":
            display_name: """Horton Salm"""
            text: """While you perform an attack, you may reroll 1 attack die for each other friendly ship at range 0-1 of the defender."""
@@ -695,19 +695,19 @@ exportObj.cardLoaders.English = () ->
            text: """Before a friendly TIE/ln fighter at range 0-1 would suffer 1 or more damage, you may spend 1&nbsp;%CHARGE%. If you do, prevent that damage."""
         "Imdaar Test Pilot":
            display_name: """Imdaar Test Pilot"""
-           text: """<i>The primary result of a hidden research facility on Imdaar Alpha, the TIE phantom achieves what many thought was impossible: a small starfighter equipped with an advanced cloaking device.</i>"""
+           text: """<i class="descriptive-text">The primary result of a hidden research facility on Imdaar Alpha, the TIE phantom achieves what many thought was impossible: a small starfighter equipped with an advanced cloaking device.</i>"""
         "Inaldra":
            display_name: """Inaldra"""
            text: """While you defend or perform an attack, you may suffer 1&nbsp;%HIT% damage to reroll any number of your dice. """
         "Inquisitor":
            display_name: """Inquisitor"""
-           text: """<i>The fearsome Inquisitors are given a great deal of autonomy and access to the Empire’s latest technology, like the prototype TIE Advanced v1.</i>"""
+           text: """<i class="descriptive-text">The fearsome Inquisitors are given a great deal of autonomy and access to the Empire’s latest technology, like the prototype TIE Advanced v1.</i>"""
         "Jake Farrell":
            display_name: """Jake Farrell"""
            text: """After you perform a %BARRELROLL% or %BOOST% action, you may choose a friendly ship at range 0-1. That ship may perform a %FOCUS% action."""
         "Jakku Gunrunner":
            display_name: """Jakku Gunrunner"""
-           text: """<i>The Quadrijet transfer spacetug, commonly called a "Quadjumper," is nimble in space and atmosphere alike, making it popular among both smugglers and explorers.</i> """
+           text: """<i class="descriptive-text">The Quadrijet transfer spacetug, commonly called a "Quadjumper," is nimble in space and atmosphere alike, making it popular among both smugglers and explorers.</i> """
         "Jan Ors":
            display_name: """Jan Ors"""
            text: """While a friendly ship in your firing arc performs a primary attack, if you are not stressed, you may gain 1 stress token. If you do, that ship may roll 1 additional attack die."""
@@ -716,7 +716,7 @@ exportObj.cardLoaders.English = () ->
            text: """After you fully execute a blue maneuver, you may choose a friendly ship at range&nbsp;0-1. If you do, that ship removes 1&nbsp;stress token."""
         "Jedi Knight":
            display_name: """Jedi Knight"""
-           text: """<i>When the Clone Wars began, the Jedi Knights rallied to the cause of preserving the Republic, assuming command of legions of clone troopers and leading them in battle.</i>"""
+           text: """<i class="descriptive-text">When the Clone Wars began, the Jedi Knights rallied to the cause of preserving the Republic, assuming command of legions of clone troopers and leading them in battle.</i>"""
         "Jek Porkins":
            display_name: """Jek Porkins"""
            text: """After you receive a stress token, you may roll 1 attack die to remove it. On a %HIT% result, suffer 1&nbsp;%HIT% damage."""
@@ -743,7 +743,7 @@ exportObj.cardLoaders.English = () ->
            text: """While you boost, you may use the [1 %TURNLEFT%] or [1 %TURNRIGHT%] template instead."""
         "Kashyyyk Defender":
            display_name: """Kashyyyk Defender"""
-           text: """<i>Equipped with three wide-range Sureggi twin laser cannons, the Auzituck gunship acts as a powerful deterrent to slaver operations in the Kashyyyk system.</i>"""
+           text: """<i class="descriptive-text">Equipped with three wide-range Sureggi twin laser cannons, the Auzituck gunship acts as a powerful deterrent to slaver operations in the Kashyyyk system.</i>"""
         "Kath Scarlet":
            display_name: """Kath Scarlet"""
            text: """While you perform a primary attack, if there is at least 1 friendly non-limited ship at range 0 of the defender, roll 1 additional attack die."""
@@ -755,7 +755,7 @@ exportObj.cardLoaders.English = () ->
            text: """At the start of the Engagement Phase, you may choose 1 ship in both your %FRONTARC% and %SINGLETURRETARC% at range 0-1. If you do, it gains 1 tractor token."""
         "Knave Squadron Escort":
            display_name: """Knave Squadron Escort"""
-           text: """<i>Designed to combine the best features of the X-wing series with the A-wing series, the E-wing boasts superior firepower, speed, and maneuverability.</i>"""
+           text: """<i class="descriptive-text">Designed to combine the best features of the X-wing series with the A-wing series, the E-wing boasts superior firepower, speed, and maneuverability.</i>"""
         "Koshka Frost":
            display_name: """Koshka Frost"""
            text: """While you defend or perform an attack, if the enemy ship is stressed, you may reroll 1 of your dice."""
@@ -821,10 +821,10 @@ exportObj.cardLoaders.English = () ->
            text: """After you suffer damage, you may spend 1&nbsp;%CHARGE% to perform an action."""
         "Lok Revenant":
            display_name: """Lok Revenant"""
-           text: """<i>The Nubian Design Collective crafted the Scurrg H-6 Bomber with combat versatility in mind, arming it with powerful shields and a bristling array of destructive weaponry.</i>"""
+           text: """<i class="descriptive-text">The Nubian Design Collective crafted the Scurrg H-6 Bomber with combat versatility in mind, arming it with powerful shields and a bristling array of destructive weaponry.</i>"""
         "Lothal Rebel":
            display_name: """Lothal Rebel"""
-           text: """<i>Another successful Corellian Engineering Corporation freighter design, the VCX-100 is larger than the ubiquitous YT-series, boasting more living space and customizability.</i>"""
+           text: """<i class="descriptive-text">Another successful Corellian Engineering Corporation freighter design, the VCX-100 is larger than the ubiquitous YT-series, boasting more living space and customizability.</i>"""
         "Lowhhrick":
            display_name: """Lowhhrick"""
            text: """After a friendly ship at range 0-1 becomes the defender, you may spend 1 reinforce token. If you do, that ship gains 1 evade token."""
@@ -863,10 +863,10 @@ exportObj.cardLoaders.English = () ->
            text: """At the start of the Engagement Phase, you may choose a friendly ship at range 0-1. If you do, transfer all green tokens assigned to you to that ship."""
         "Mining Guild Sentry":
            display_name: """Mining Guild Sentry"""
-           text: """<i>As part of its arrangement with the Empire, the Mining Guild receives modified TIE/ln Fighters to protect its operations. These craft have solar panels removed from their stabilizers for improved visibility, and feature more extensive life support systems for the benefit of their corporate pilots.</i>"""
+           text: """<i class="descriptive-text">As part of its arrangement with the Empire, the Mining Guild receives modified TIE/ln Fighters to protect its operations. These craft have solar panels removed from their stabilizers for improved visibility, and feature more extensive life support systems for the benefit of their corporate pilots.</i>"""
         "Mining Guild Surveyor":
            display_name: """Mining Guild Surveyor"""
-           text: """<i>With Imperial construction projects consuming raw materials at an unprecedented rate, the Mining Guild ruthlessly exploits newly discovered deposits of doonium ore on worlds such as Batonn, Lothal, and Umbara.</i>"""
+           text: """<i class="descriptive-text">With Imperial construction projects consuming raw materials at an unprecedented rate, the Mining Guild ruthlessly exploits newly discovered deposits of doonium ore on worlds such as Batonn, Lothal, and Umbara.</i>"""
         "Miranda Doni":
            display_name: """Miranda Doni"""
            text: """While you perform a primary attack, you may either spend 1 shield to roll 1 additional attack die or, if you are not shielded, you may roll 1 fewer attack die to recover 1 shield."""
@@ -884,7 +884,7 @@ exportObj.cardLoaders.English = () ->
            text: """While you defend, if there is an enemy ship at range 0-1, add 1&nbsp;%EVADE% result to your dice results. %LINEBREAK% <i>Errata (since rules reference 1.0.2): Removed “you may”</i>"""
         "Nu Squadron Pilot":
            display_name: """Nu Squadron Pilot"""
-           text: """<i>With a design inspired by other Cygnus Spaceworks vessels, the Alpha-class star wing is a versatile craft assigned to Imperial Navy specialist units that need a starfighter they can outfit for multiple roles.</i>"""
+           text: """<i class="descriptive-text">With a design inspired by other Cygnus Spaceworks vessels, the Alpha-class star wing is a versatile craft assigned to Imperial Navy specialist units that need a starfighter they can outfit for multiple roles.</i>"""
         "N'dru Suhlak":
            display_name: """N’dru Suhlak"""
            text: """While you perform a primary attack, if there are no other friendly ships at range 0-2, roll 1 additional attack die."""
@@ -893,31 +893,31 @@ exportObj.cardLoaders.English = () ->
            text: """After a friendly ship at range&nbsp;0-2 spends a focus token, you may spend 1&nbsp;%FORCE%. If you do, that ship gains 1&nbsp;focus token."""
         "Obsidian Squadron Pilot":
            display_name: """Obsidian Squadron Pilot"""
-           text: """<i>The TIE fighter’s Twin Ion Engine system was designed for speed, making the TIE/ln one of the most maneuverable starships ever mass-produced.</i>"""
+           text: """<i class="descriptive-text">The TIE fighter’s Twin Ion Engine system was designed for speed, making the TIE/ln one of the most maneuverable starships ever mass-produced.</i>"""
         "Old Teroch":
            display_name: """Old Teroch"""
            text: """At the start of the Engagement Phase, you may choose 1 enemy ship at range 1. If you do and you are in its %FRONTARC%, it removes all of its green tokens."""
         "Omega Squadron Ace":
            display_name: """Omega Squadron Ace"""
-           text: """<i>Only pilots who have demonstrated both exceptional skill and unwavering dedication are rewarded with coveted positions in the First Order squadrons operating secretly against the New Republic during the Cold War.</i>"""
+           text: """<i class="descriptive-text">Only pilots who have demonstrated both exceptional skill and unwavering dedication are rewarded with coveted positions in the First Order squadrons operating secretly against the New Republic during the Cold War.</i>"""
         "Omega Squadron Expert":
            display_name: """Omega Squadron Expert"""
-           text: """<i>The TIE/sf is a versatile starfighter that carries specialized armament and experimental systems for long-range operations by First Order Special Forces.</i>"""
+           text: """<i class="descriptive-text">The TIE/sf is a versatile starfighter that carries specialized armament and experimental systems for long-range operations by First Order Special Forces.</i>"""
         "Omicron Group Pilot":
            display_name: """Omicron Group Pilot"""
-           text: """<i>Noted for its tri-wing design and advanced sensor suite, the Lambda-class shuttle serves a critical role as a light utility craft in the Imperial Navy.</i>"""
+           text: """<i class="descriptive-text">Noted for its tri-wing design and advanced sensor suite, the Lambda-class shuttle serves a critical role as a light utility craft in the Imperial Navy.</i>"""
         "Onyx Squadron Ace":
            display_name: """Onyx Squadron Ace"""
-           text: """<i>The experimental TIE defender outclasses all other contemporary starfighters, though its size, speed, and array of weapons come at a tremendous cost in credits.</i>"""
+           text: """<i class="descriptive-text">The experimental TIE defender outclasses all other contemporary starfighters, though its size, speed, and array of weapons come at a tremendous cost in credits.</i>"""
         "Onyx Squadron Scout":
            display_name: """Onyx Squadron Scout"""
-           text: """<i>Designed for extended engagements, the TIE/ag is flown primarily by elite pilots trained to leverage both its unique weapons loadout and its maneuverability to full effect.</i>"""
+           text: """<i class="descriptive-text">Designed for extended engagements, the TIE/ag is flown primarily by elite pilots trained to leverage both its unique weapons loadout and its maneuverability to full effect.</i>"""
         "Outer Rim Pioneer":
            display_name: """Outer Rim Pioneer"""
            text: """Friendly ships at range 0-1 can perform attacks at range 0 of obstacles."""
         "Outer Rim Smuggler":
            display_name: """Outer Rim Smuggler"""
-           text: """<i>Known for its durability and modular design, the YT-1300 is one of the most popular, widely used, and extensively customized freighters in the galaxy.</i>"""
+           text: """<i class="descriptive-text">Known for its durability and modular design, the YT-1300 is one of the most popular, widely used, and extensively customized freighters in the galaxy.</i>"""
         "Overseer Yushyn":
            display_name: """Overseer Yushyn"""
            text: """Before a friendly ship at range 1 would gain a disarm token, if that ship is not stressed, you may spend 1&nbsp;%CHARGE%. If you do, that ship gains 1 stress token instead."""
@@ -931,19 +931,19 @@ exportObj.cardLoaders.English = () ->
            text: """While you have 2 or fewer stress tokens, you may execute red maneuvers even while stressed"""
         "Partisan Renegade":
            display_name: """Partisan Renegade"""
-           text: """<i>Saw Gerrera’s partisans were first established to oppose Separatist forces on Onderon during the Clone Wars, and continued to wage war against galactic tyranny as the Empire rose to power.</i>"""
+           text: """<i class="descriptive-text">Saw Gerrera’s partisans were first established to oppose Separatist forces on Onderon during the Clone Wars, and continued to wage war against galactic tyranny as the Empire rose to power.</i>"""
         "Patrol Leader":
            display_name: """Patrol Leader"""
-           text: """<i>To be granted command of a VT-49 Decimator is seen as a significant promotion for a middling officer of the Imperial Navy.</i>"""
+           text: """<i class="descriptive-text">To be granted command of a VT-49 Decimator is seen as a significant promotion for a middling officer of the Imperial Navy.</i>"""
         "Petty Officer Thanisson":
            display_name: """Petty Officer Thanisson"""
            text: """During the Activation or Engagement Phase, after a ship in your %FRONTARC% at range&nbsp;0-2 gains 1 stress token, you may spend 1&nbsp;%CHARGE%. If you do, that ship gains 1&nbsp;tractor token."""
         "Phoenix Squadron Pilot":
            display_name: """Phoenix Squadron Pilot"""
-           text: """<i>Led by Commander Jun Sato, the brave but inexperienced pilots of Phoenix Squadron face staggering odds in their battle against the Galactic Empire.</i>"""
+           text: """<i class="descriptive-text">Led by Commander Jun Sato, the brave but inexperienced pilots of Phoenix Squadron face staggering odds in their battle against the Galactic Empire.</i>"""
         "Planetary Sentinel":
            display_name: """Planetary Sentinel"""
-           text: """<i>To protect its many military installations, the Empire requires a swift and vigilant defense force.</i>"""
+           text: """<i class="descriptive-text">To protect its many military installations, the Empire requires a swift and vigilant defense force.</i>"""
         "Plo Koon":
            display_name: """Plo Koon"""
            text: """At the start of the Engagement Phase, you may spend 1 %FORCE% and choose another friendly ship at range 0-2. If you do, you may transfer 1 green token to it or transfer one orange token from it to yourself."""
@@ -961,16 +961,16 @@ exportObj.cardLoaders.English = () ->
            text: """While you perform an attack, if you are reinforced and the defender is in the %FULLFRONTARC% or %FULLREARARC% matching your reinforce token, you may change 1 of your %FOCUS% results to a %CRIT% result."""
         "Rebel Scout":
            display_name: """Rebel Scout"""
-           text: """<i>Designed to look like a bird in flight by the Corellian Engineering Corporation, “hawk” series ships are exemplary transport craft. Swift and rugged, the HWK-290 is often employed by Rebel agents as a mobile base of operations.</i>"""
+           text: """<i class="descriptive-text">Designed to look like a bird in flight by the Corellian Engineering Corporation, “hawk” series ships are exemplary transport craft. Swift and rugged, the HWK-290 is often employed by Rebel agents as a mobile base of operations.</i>"""
         "Red Squadron Expert":
            display_name: """Red Squadron Expert"""
-           text: """<i>Although the bulk of the Resistance Starfighter Corps is made up of young volunteers from the New Republic, their ranks are bolstered by veterans of the Galactic Civil War determined to finish what they started decades ago.</i>"""
+           text: """<i class="descriptive-text">Although the bulk of the Resistance Starfighter Corps is made up of young volunteers from the New Republic, their ranks are bolstered by veterans of the Galactic Civil War determined to finish what they started decades ago.</i>"""
         "Red Squadron Veteran":
            display_name: """Red Squadron Veteran"""
-           text: """<i>Created as an elite starfighter squad, Red Squadron includes some of the best pilots in the Rebel Alliance.</i>"""
+           text: """<i class="descriptive-text">Created as an elite starfighter squad, Red Squadron includes some of the best pilots in the Rebel Alliance.</i>"""
         "Resistance Sympathizer":
            display_name: """Resistance Sympathizer"""
-           text: """<i>After witnessing the Hosnian Cataclysm, some spacers willingly aided the Resistance with whatever ships they had.</i>"""
+           text: """<i class="descriptive-text">After witnessing the Hosnian Cataclysm, some spacers willingly aided the Resistance with whatever ships they had.</i>"""
         "Rexler Brath":
            display_name: """Rexler Brath"""
            text: """After you perform an attack that hits, if you are evading, expose 1 of the defender’s damage cards."""
@@ -979,18 +979,18 @@ exportObj.cardLoaders.English = () ->
            text: """While you defend or perform an attack, if the enemy ship is in your %FRONTARC%, you may spend 1&nbsp;%FORCE% to change 1 of your blank results to an %EVADE% or %HIT% result."""
         "Rho Squadron Pilot":
            display_name: """Rho Squadron Pilot"""
-           text: """<i>The elite pilots of Rho Squadron instill terror in the Rebellion, using both the Xg-1 assault configuration and Os-1 arsenal loadout of the Alpha-class star wing to devastating effect.</i>"""
+           text: """<i class="descriptive-text">The elite pilots of Rho Squadron instill terror in the Rebellion, using both the Xg-1 assault configuration and Os-1 arsenal loadout of the Alpha-class star wing to devastating effect.</i>"""
         "Roark Garnet":
            display_name: """Roark Garnet"""
            text: """At the start of the Engagement Phase, you may choose 1 ship in your firing arc. If you do, it engages at initiative 7 instead of its standard initiative value this phase."""
         "Rogue Squadron Escort":
            display_name: """Rogue Squadron Escort"""
-           text: """<i>The elite pilots of Rogue Squadron are among the Rebellion’s very best.</i> """
+           text: """<i class="descriptive-text">The elite pilots of Rogue Squadron are among the Rebellion’s very best.</i> """
         "Rose Tico":
            text: """While you defend or perform an attack, you may reroll up to 1 of your results for each other friendly ship in the attack arc."""
         "Saber Squadron Ace":
            display_name: """Saber Squadron Ace"""
-           text: """<i>Led by Baron Soontir Fel, the pilots of Saber Squadron are among the Empire’s best. Their TIE interceptors are marked with red stripes to designate pilots with at least ten confirmed kills. </i>"""
+           text: """<i class="descriptive-text">Led by Baron Soontir Fel, the pilots of Saber Squadron are among the Empire’s best. Their TIE interceptors are marked with red stripes to designate pilots with at least ten confirmed kills. </i>"""
         "Sabine Wren":
            display_name: """Sabine Wren"""
            text: """Before you activate, you may perform a %BARRELROLL% or %BOOST% action."""
@@ -1011,16 +1011,16 @@ exportObj.cardLoaders.English = () ->
            text: """While a damaged friendly ship at range 0-3 performs an attack, it may reroll 1 attack die."""
         "Scarif Base Pilot":
            display_name: """Scarif Base Pilot"""
-           text: """<i>The TIE reaper was designed to ferry elite troops to flashpoints on the battlefield, notably carrying Director Krennic’s dreaded death troopers at the Battle of Scarif.</i>"""
+           text: """<i class="descriptive-text">The TIE reaper was designed to ferry elite troops to flashpoints on the battlefield, notably carrying Director Krennic’s dreaded death troopers at the Battle of Scarif.</i>"""
         "Scimitar Squadron Pilot":
            display_name: """Scimitar Squadron Pilot"""
-           text: """<i>The TIE/sa is exceptionally nimble for a bomber, allowing it to pinpoint its target while avoiding excessive collateral damage to the surrounding area.</i>"""
+           text: """<i class="descriptive-text">The TIE/sa is exceptionally nimble for a bomber, allowing it to pinpoint its target while avoiding excessive collateral damage to the surrounding area.</i>"""
         "Separatist Bomber":
            display_name: """Separatist Bomber"""
-           text: """<i>The droid armies of the Separatists are callous to the plight of civilians and make no effort to limit collateral damage.</i>"""
+           text: """<i class="descriptive-text">The droid armies of the Separatists are callous to the plight of civilians and make no effort to limit collateral damage.</i>"""
         "Separatist Drone":
            display_name: """Separatist Drone"""
-           text: """<i>As the Clone Wars escalate, the Separatist Alliance continues to develop the technology of droid starfighters, as well as the tactical droids that command them.</i>"""
+           text: """<i class="descriptive-text">As the Clone Wars escalate, the Separatist Alliance continues to develop the technology of droid starfighters, as well as the tactical droids that command them.</i>"""
         "Serissu":
            display_name: """Serissu"""
            text: """While a friendly ship at range 0-1 defends, it may reroll 1 of its dice."""
@@ -1032,25 +1032,25 @@ exportObj.cardLoaders.English = () ->
            text: """While you perform an attack, you may spend 1&nbsp;%CRIT% result. If you do, deal 1 facedown damage card to the defender, then cancel your remaining results."""
         "Shadowport Hunter":
            display_name: """Shadowport Hunter"""
-           text: """<i>Crime syndicates augment the lethal skills of their loyal contractors with the best technology available, like the fast and formidable Lancer-class pursuit craft.</i>"""
+           text: """<i class="descriptive-text">Crime syndicates augment the lethal skills of their loyal contractors with the best technology available, like the fast and formidable Lancer-class pursuit craft.</i>"""
         "Shara Bey":
            display_name: """Shara Bey"""
            text: """While you defend or perform a primary attack, you may spend 1 lock you have on the enemy ship to add 1&nbsp;%FOCUS% result to your dice results."""
         "Sienar Specialist":
            display_name: """Sienar Specialist"""
-           text: """<i>During the development of the TIE aggressor, Sienar Fleet Systems valued performance and versatility over raw cost efficiency.</i>"""
+           text: """<i class="descriptive-text">During the development of the TIE aggressor, Sienar Fleet Systems valued performance and versatility over raw cost efficiency.</i>"""
         "Sienar-Jaemus Engineer":
            display_name: """Sienar-Jaemus Engineer"""
-           text: """<i>Developed by Sienar-Jaemus Fleet Systems as a successor to the vaunted TIE Defender, the TIE/vn Silencer incorporates bleeding-edge technologies developed at research facilities hidden in the Unknown Regions.</i>"""
+           text: """<i class="descriptive-text">Developed by Sienar-Jaemus Fleet Systems as a successor to the vaunted TIE Defender, the TIE/vn Silencer incorporates bleeding-edge technologies developed at research facilities hidden in the Unknown Regions.</i>"""
         "Sigma Squadron Ace":
            display_name: """Sigma Squadron Ace"""
-           text: """<i>Featuring a hyperdrive and shields, the TIE phantom is also equipped with five laser cannons, giving it substantial firepower for an Imperial fighter.</i>"""
+           text: """<i class="descriptive-text">Featuring a hyperdrive and shields, the TIE phantom is also equipped with five laser cannons, giving it substantial firepower for an Imperial fighter.</i>"""
         "Skakoan Ace":
            display_name: """Skakoan Ace"""
-           text: """<i>With its powerful engines, devastating triple laser cannons, and high customizability, the Belbullab-22 is the chosen craft of several elite Separatist Alliance pilots, including the infamous General Grievous.</i>"""
+           text: """<i class="descriptive-text">With its powerful engines, devastating triple laser cannons, and high customizability, the Belbullab-22 is the chosen craft of several elite Separatist Alliance pilots, including the infamous General Grievous.</i>"""
         "Skull Squadron Pilot":
            display_name: """Skull Squadron Pilot"""
-           text: """<i>The aces of Skull Squadron favor an aggressive approach, using their craft’s pivot wing technology to achieve unmatched agility in the pursuit of their quarry.</i>"""
+           text: """<i class="descriptive-text">The aces of Skull Squadron favor an aggressive approach, using their craft’s pivot wing technology to achieve unmatched agility in the pursuit of their quarry.</i>"""
         "Sol Sixxa":
            display_name: """Sol Sixxa"""
            text: """If you would drop a device using a [1&nbsp;%STRAIGHT%] template, you may drop it using any speed 1 template instead."""
@@ -1059,16 +1059,16 @@ exportObj.cardLoaders.English = () ->
            text: """At the start of the Engagement Phase, if there is an enemy ship in your %BULLSEYEARC%, gain 1 focus token."""
         "Spice Runner":
            display_name: """Spice Runner"""
-           text: """<i>Though its cargo space is limited compared to other light freighters, the small, swift HWK-290 is a favorite choice of smugglers who specialize in discreetly transporting precious goods.</i>"""
+           text: """<i class="descriptive-text">Though its cargo space is limited compared to other light freighters, the small, swift HWK-290 is a favorite choice of smugglers who specialize in discreetly transporting precious goods.</i>"""
         "Squad Seven Veteran":
            display_name: """Squad Seven Veteran"""
-           text: """<i>Clone Flight Seven serves as part of the Open Circle Fleet under legendary Jedi Generals such as Plo Koon and Obi-Wan Kenobi, and won glory at the battles of Coruscant and Cato Neimoidia.</i>"""
+           text: """<i class="descriptive-text">Clone Flight Seven serves as part of the Open Circle Fleet under legendary Jedi Generals such as Plo Koon and Obi-Wan Kenobi, and won glory at the battles of Coruscant and Cato Neimoidia.</i>"""
         "Starkiller Base Pilot":
            display_name: """Starkiller Base Pilot"""
-           text: """<i>The Upsilon-class command shuttle serves as a base of operations for many of the First Order's senior officers and agents. Its powerful sensors and communications equipment allow them to orchestrate the spread of terror across the galaxy.</i>"""
+           text: """<i class="descriptive-text">The Upsilon-class command shuttle serves as a base of operations for many of the First Order's senior officers and agents. Its powerful sensors and communications equipment allow them to orchestrate the spread of terror across the galaxy.</i>"""
         "Storm Squadron Ace":
            display_name: """Storm Squadron Ace"""
-           text: """<i>The TIE Advanced x1 was produced in limited quantities, but Sienar engineers incorporated many of its best qualities into their next TIE model: the TIE Interceptor.</i>"""
+           text: """<i class="descriptive-text">The TIE Advanced x1 was produced in limited quantities, but Sienar engineers incorporated many of its best qualities into their next TIE model: the TIE Interceptor.</i>"""
         "Sunny Bounder":
            display_name: """Sunny Bounder"""
            text: """While you defend or perform an attack, after you roll or reroll your dice, if you have the same result on each of your dice, you may add 1 matching result."""
@@ -1077,7 +1077,7 @@ exportObj.cardLoaders.English = () ->
            text: """While another friendly ship performs an attack, if you are at range 0-1 of the defender, you may suffer 1&nbsp;%CRIT% damage to change 1 of the attacker’s results to a %CRIT% result."""
         "Tala Squadron Pilot":
            display_name: """Tala Squadron Pilot"""
-           text: """<i>The AF4 series is the latest in a long line of Headhunter designs. Cheap and relatively durable, it is a favorite among independent outfits like the Rebellion.</i>"""
+           text: """<i class="descriptive-text">The AF4 series is the latest in a long line of Headhunter designs. Cheap and relatively durable, it is a favorite among independent outfits like the Rebellion.</i>"""
         "Tallissan Lintra":
            display_name: """Tallissan Lintra"""
            text: """While an enemy ship in your %BULLSEYEARC% performs an attack, you may spend 1&nbsp;%CHARGE%.  If you do, the defender rolls 1 additional die."""
@@ -1086,10 +1086,10 @@ exportObj.cardLoaders.English = () ->
            text: """While you defend at attack range 3 or perform an attack at attack range 1, roll 1 additional die."""
         "Tansarii Point Veteran":
            display_name: """Tansarii Point Veteran"""
-           text: """<i>The defeat of Black Sun ace Talonbane Cobra by Car’das smugglers turned the tide of the Battle of Tansarii Point Station. Survivors of the clash are respected throughout the sector.</i>"""
+           text: """<i class="descriptive-text">The defeat of Black Sun ace Talonbane Cobra by Car’das smugglers turned the tide of the Battle of Tansarii Point Station. Survivors of the clash are respected throughout the sector.</i>"""
         "Techno Union Bomber":
            display_name: """Techno Union Bomber"""
-           text: """<i>Baktoid Armor Workshop developed the Hyena as a strike craft compatible with Trade Federation Vulture swarm tactics.</i>"""
+           text: """<i class="descriptive-text">Baktoid Armor Workshop developed the Hyena as a strike craft compatible with Trade Federation Vulture swarm tactics.</i>"""
         "Tel Trevura":
            display_name: """Tel Trevura"""
            text: """If you would be destroyed, you may spend 1&nbsp;%CHARGE%. If you do, discard all of your damage cards, suffer 5&nbsp;%HIT% damage, and place yourself in reserves instead. At the start of the next Planning Phase, place yourself within range 1 of your player edge."""
@@ -1098,7 +1098,7 @@ exportObj.cardLoaders.English = () ->
            text: """After you fully execute a speed 2-4 maneuver, you may perform a %BOOST% action."""
         "Tempest Squadron Pilot":
            display_name: """Tempest Squadron Pilot"""
-           text: """<i>The TIE Advanced improved on the popular TIE/ln design by adding shielding, better weapons systems, curved solar panels, and a hyperdrive.</i>"""
+           text: """<i class="descriptive-text">The TIE Advanced improved on the popular TIE/ln design by adding shielding, better weapons systems, curved solar panels, and a hyperdrive.</i>"""
         "Ten Numb":
            display_name: """Ten Numb"""
            text: """While you defend or perform an attack, you may spend 1 stress token to change all of your %FOCUS% results to %EVADE% or %HIT% results."""
@@ -1116,10 +1116,10 @@ exportObj.cardLoaders.English = () ->
            text: """At the start of the Engagement Phase, you may choose 1 ship in your firing arc. If you do, that ship engages at initiative 0 instead of its normal initiative value this round."""
         "Trade Federation Drone":
            display_name: """Trade Federation Drone"""
-           text: """<i>The Trade Federation deployed countless Vulture Droids at the Battle of Naboo, and continues to use these inexpensive starfighters in the Clone Wars.</i>"""
+           text: """<i class="descriptive-text">The Trade Federation deployed countless Vulture Droids at the Battle of Naboo, and continues to use these inexpensive starfighters in the Clone Wars.</i>"""
         "Trandoshan Slaver":
            display_name: """Trandoshan Slaver"""
-           text: """<i>The spacious triple-decker design of the YV-666 makes it popular among bounty hunters and slavers, who often retrofit an entire deck for prisoner transport.</i>"""
+           text: """<i class="descriptive-text">The spacious triple-decker design of the YV-666 makes it popular among bounty hunters and slavers, who often retrofit an entire deck for prisoner transport.</i>"""
         "Turr Phennir":
            display_name: """Turr Phennir"""
            text: """After you perform an attack, you may perform a %BARRELROLL% or %BOOST% action, even if you are stressed."""
@@ -1140,7 +1140,7 @@ exportObj.cardLoaders.English = () ->
            text: """After you defend, if you did not roll exactly 2 defense dice, the attacker gains 1 stress token."""
         "Warden Squadron Pilot":
            display_name: """Warden Squadron Pilot"""
-           text: """<i>Koensayr Manufacturing’s K-wing boasts an advanced SubLight Acceleration Motor and an unprecedented 18 hard points, granting it unrivaled speed and firepower.</i>"""
+           text: """<i class="descriptive-text">Koensayr Manufacturing’s K-wing boasts an advanced SubLight Acceleration Motor and an unprecedented 18 hard points, granting it unrivaled speed and firepower.</i>"""
         "Wat Tambor":
            display_name: """Wat Tambor"""
            text: """While you perform a primary attack, you may reroll 1 attack die for each calculating friendly ship at range&nbsp;1 of the defender."""
@@ -1149,7 +1149,7 @@ exportObj.cardLoaders.English = () ->
            text: """While you perform an attack, the defender rolls 1 fewer defense die."""
         "Wild Space Fringer":
            display_name: """Wild Space Fringer"""
-           text: """<i>Although stock YT-2400 light freighters have plenty of room for cargo, that space is often annexed to support modified weapon systems and oversized engines.</i>"""
+           text: """<i class="descriptive-text">Although stock YT-2400 light freighters have plenty of room for cargo, that space is often annexed to support modified weapon systems and oversized engines.</i>"""
         "Wullffwarro":
            display_name: """Wullffwarro"""
            text: """While you perform a primary attack, if you are damaged, you may roll 1 additional attack die."""
@@ -1158,16 +1158,16 @@ exportObj.cardLoaders.English = () ->
            text: """You do not skip your Perform Action step after you partially execute a maneuver."""
         "Zealous Recruit":
            display_name: """Zealous Recruit"""
-           text: """<i>Mandalorian Fang fighter pilots must master the Concordia Faceoff maneuver, leveraging their ships’ narrow attack profile to execute deadly head-on charges.</i>"""
+           text: """<i class="descriptive-text">Mandalorian Fang fighter pilots must master the Concordia Faceoff maneuver, leveraging their ships’ narrow attack profile to execute deadly head-on charges.</i>"""
         "Zertik Strom":
            display_name: """Zertik Strom"""
            text: """During the End Phase, you may spend a lock you have on an enemy ship to expose 1 of that ship’s damage cards."""
         "Zeta Squadron Pilot":
            display_name: """Zeta Squadron Pilot"""
-           text: """<i>Unhampered by a cumbersome galactic bureaucracy, technologies originally researched by the Empire’s TIE Advanced program are now mass-produced on First Order starfighters. As a result, TIE/fo pilots enjoy higher survival rates than their predecessors in the Galactic Empire.</i>"""
+           text: """<i class="descriptive-text">Unhampered by a cumbersome galactic bureaucracy, technologies originally researched by the Empire’s TIE Advanced program are now mass-produced on First Order starfighters. As a result, TIE/fo pilots enjoy higher survival rates than their predecessors in the Galactic Empire.</i>"""
         "Zeta Squadron Survivor":
            display_name: """Zeta Squadron Survivor"""
-           text: """<i>Humiliated by their failure, the remaining pilots from Starkiller Base are eager to prove their worth in pursuit of the Resistance.</i>"""
+           text: """<i class="descriptive-text">Humiliated by their failure, the remaining pilots from Starkiller Base are eager to prove their worth in pursuit of the Resistance.</i>"""
         "Zuckuss":
            display_name: """Zuckuss"""
            text: """While you perform a primary attack, you may roll 1 additional attack die. If you do, the defender rolls 1 additional defense die."""
@@ -1325,7 +1325,7 @@ exportObj.cardLoaders.English = () ->
            text: """<strong>Setup:</strong> After placing forces, assign the <strong>Decoyed</strong> condition to 1 friendly ship other than <strong>Naboo Handmaiden</strong>. """
         "Bravo Flight Officer":
            display_name: """Bravo Flight Officer"""
-           text: """<i>The volunteer pilots of the Royal Naboo Security Force are dedicated to protecting the people and ideals of their homeworld, and trust their Queen to send them into battle only when all other options have failed.</i>"""
+           text: """<i class="descriptive-text">The volunteer pilots of the Royal Naboo Security Force are dedicated to protecting the people and ideals of their homeworld, and trust their Queen to send them into battle only when all other options have failed.</i>"""
         "BB-8":
            display_name: """BB-8"""
            text: """During the System Phase, you may perform a red %BARRELROLL% or %BOOST% action."""
@@ -1342,9 +1342,9 @@ exportObj.cardLoaders.English = () ->
            display_name: """Vi Moradi"""
            text: """<strong>Setup:</strong> After placing forces, assign the <strong>Compromising Intel</strong> condition to 1 enemy ship."""
         "Shadow Squadron Veteran":
-           text: """<i>Shadow Squadron has served since the early days of the Clone Wars, winning victories at Kadavo and against the flagship of Grievous, Malevolence.</i>"""
+           text: """<i class="descriptive-text">Shadow Squadron has served since the early days of the Clone Wars, winning victories at Kadavo and against the flagship of Grievous, Malevolence.</i>"""
         "Red Squadron Bomber":
-           text: """<i>At the battle of Geonosis, Red Squadron provided vital cover to the LAAT gunships deployed to secure the surface.</i>"""
+           text: """<i class="descriptive-text">At the battle of Geonosis, Red Squadron provided vital cover to the LAAT gunships deployed to secure the surface.</i>"""
         '"Goji"':
            text: """While a friendly ship at range 0-3 defends, it may roll 1 additional defense die for each friendly bomb at 0-1 of it.%LINEBREAK% <i>Errata (since rules reference 1.1.0): Removed "or mine"</i>"""
         '"Broadside"':
@@ -1362,9 +1362,9 @@ exportObj.cardLoaders.English = () ->
         "Sun Fac":
            text: """While you perform a primary attack, if the defender is tractored, roll 1 additional attack die.</i>"""
         "Stalgasin Hive Guard":
-           text: """<i>Designed for the unique physiology of Geonosian pilots, Nantex-class starfighters are capable of maneuvers that would rip most ships - and pilots - apart.</i>"""
+           text: """<i class="descriptive-text">Designed for the unique physiology of Geonosian pilots, Nantex-class starfighters are capable of maneuvers that would rip most ships - and pilots - apart.</i>"""
         "Petranaki Arena Ace":
-           text: """<i>The Petranaki Arena is a massive edifice on Geonosis that was a key site in the first battle of the Clone Wars.</i>"""
+           text: """<i class="descriptive-text">The Petranaki Arena is a massive edifice on Geonosis that was a key site in the first battle of the Clone Wars.</i>"""
         "Berwer Kret":
            text: """After you perform an attack that hits, each friendly ship with %CALCULATE% on its action bar and a lock on the defender may perform a red %CALCULATE% action.</i>"""
         "Chertek":
@@ -1376,7 +1376,7 @@ exportObj.cardLoaders.English = () ->
         "Major Vonreg":
            text: """During the System Phase, you may choose 1 enemy ship in your %BULLSEYEARC%. That ship gains 1 deplete or strain token of your choice."""
         "First Order Provocateur":
-           text: """<i>Major Vonreg's vision guided the enhancement of proven designs while engineering this one-of-a-kind precise and lethal craft from Sienar-Jaemus Fleet Systems.</i>"""
+           text: """<i class="descriptive-text">Major Vonreg's vision guided the enhancement of proven designs while engineering this one-of-a-kind precise and lethal craft from Sienar-Jaemus Fleet Systems.</i>"""
         '"Ember"':
            text: """While you perform an attack, if there is a damaged ship friendly to the defender at range 0-1 of the defender, the defender cannot spend focus or calculate tokens."""
         '"Holo"':
@@ -1419,9 +1419,9 @@ exportObj.cardLoaders.English = () ->
         "R1-J5":
            text: """Before you expose 1 of your damage cards, you may look at your facedown damage cards, choose 1 and expose that card instead."""
         "Colossus Station Mechanic":
-           text: """<i>Some ambitious and talented pilots begin their racing careers as ground crew, working around the clock to keep cobbled-together ships in the sky on far-flung worlds like Castilon.</i>"""
+           text: """<i class="descriptive-text">Some ambitious and talented pilots begin their racing careers as ground crew, working around the clock to keep cobbled-together ships in the sky on far-flung worlds like Castilon.</i>"""
         "212th Battalion Pilot":
-           text: """<i>Capable of functioning in space assaults and atmospheric battles alike, the LAAT/i gunship transports Republic troops to battlefronts on planets besieged by the Separatists.</i>"""
+           text: """<i class="descriptive-text">Capable of functioning in space assaults and atmospheric battles alike, the LAAT/i gunship transports Republic troops to battlefronts on planets besieged by the Separatists.</i>"""
         '"Hawk"':
            text: """At the start of the End Phase, each friendly ship at range 0-1 that has a revealed maneuver of speed 3-5 may gain 1 strain token to perform a %BARRELROLL% or %BOOST% action."""
         '"Hound"':
@@ -1429,9 +1429,9 @@ exportObj.cardLoaders.English = () ->
         '"Warthog"':
            text: """After you or a friendly non-limited ship at range 0-2 are destroyed during the Engagement Phase, that ship is not removed until the end of that phase."""
         "Baktoid Drone":
-           text: """<i>A late-war development for the Confederacy of Independent Systems, the droid gunship uses specialized repulsors to nimbly strafe targets and precisely drop battle droids.</i>"""
+           text: """<i class="descriptive-text">A late-war development for the Confederacy of Independent Systems, the droid gunship uses specialized repulsors to nimbly strafe targets and precisely drop battle droids.</i>"""
         "Separatist Predator":
-           text: """<i>Armed with ordnance and protected by ray shields, a droid gunship can devastate Republic infantry formations and starfighters with equal proficiency.</i>"""
+           text: """<i class="descriptive-text">Armed with ordnance and protected by ray shields, a droid gunship can devastate Republic infantry formations and starfighters with equal proficiency.</i>"""
         "DGS-286":
            text: """Before you engage, you may choose another friendly ship at range 0-1. That ship transfers 1 calculate token to you. """
         "DGS-047":
@@ -1441,7 +1441,7 @@ exportObj.cardLoaders.English = () ->
         "Onderon Oppressor":
            text: """After you barrel roll or sideslip, if you are stressed. Gain 1 calculate token. """
         "Jedi General":
-           text: """<i>As the Clone Wars takes its toll on the ranks of the Jedi Order, those that remain must assume even greater responsibilities in the Grand Army of the Republic.</i>"""
+           text: """<i class="descriptive-text">As the Clone Wars takes its toll on the ranks of the Jedi Order, those that remain must assume even greater responsibilities in the Grand Army of the Republic.</i>"""
         "Yoda":
            text: """After another friendly ship at range 0-3 spends 1 or more %FORCE%, you may spend 1 %FORCE%. If you do, that ship recovers 1 %FORCE%."""
         "Shaak Ti":
@@ -1459,9 +1459,9 @@ exportObj.cardLoaders.English = () ->
         "Jango Fett":
            text: """While you defend or perform a primary attack, if the difficulty of your revealed maneuver is less than that of the enemy ship's, you may change 1 of the enemy ship's %FOCUS% results to a blank result."""
         "Separatist Interceptor":
-           text: """<i>Deployed late in the Clone Wars, these aggressive starfighters, and the destructive buzz droids they carry, pose a serious threat to even veteran Jedi Pilots.</i>"""
+           text: """<i class="descriptive-text">Deployed late in the Clone Wars, these aggressive starfighters, and the destructive buzz droids they carry, pose a serious threat to even veteran Jedi Pilots.</i>"""
         "Colicoid Interceptor":
-           text: """<i>Designed by the Colicoid Creation Nest and manufactured by Phlac-Arphocc Automata Industries, the heuristic processors of Droid Tri-Fighters allow these deadly ships to analyze and adapt to enemy tactics in-flight.</i>"""
+           text: """<i class="descriptive-text">Designed by the Colicoid Creation Nest and manufactured by Phlac-Arphocc Automata Industries, the heuristic processors of Droid Tri-Fighters allow these deadly ships to analyze and adapt to enemy tactics in-flight.</i>"""
         "Phlac-Arphocc Prototype":
            text: """During the System Phase, you may spend your lock on a ship to look at that ship's dial. """
         "Fearsome Predator":
@@ -1475,9 +1475,9 @@ exportObj.cardLoaders.English = () ->
         '"Rampage"':
            text: """After you execute a speed 3-4 maneuver, you may choose a ship in your %SINGLETURRETARC% at range 0-1. If you do, that ship gains 1 strain token, or 2 strain tokens if you are damaged."""
         "Onyx Squadron Sentry":
-           text: """<i>The TIE/rb heavy. sometimes called the "brute," is designed for operational flexibility. Its heavy armor and capacity to house an integrated MGK-300 droid co-pilot make it an excellent patrol craft.</i>"""
+           text: """<i class="descriptive-text">The TIE/rb heavy. sometimes called the "brute," is designed for operational flexibility. Its heavy armor and capacity to house an integrated MGK-300 droid co-pilot make it an excellent patrol craft.</i>"""
         "Carida Academy Cadet":
-           text: """<i>At Carida Academy, Imperial Navy cadets are taught to be ruthless and loyal, prioritizing victory over the lives of their comrades.</i>"""
+           text: """<i class="descriptive-text">At Carida Academy, Imperial Navy cadets are taught to be ruthless and loyal, prioritizing victory over the lives of their comrades.</i>"""
         "Poe Dameron (HoH)":
            text: """After a friendly ship at range 0-2 performs an action during its activation, you may spend 2 %CHARGE%. If you do, that ship may perform a white action, treating it as red. """
         "Temmin Wexley (HoH)":
@@ -1503,9 +1503,9 @@ exportObj.cardLoaders.English = () ->
            display_name: """Gideon Hask"""
            text: """While you or a friendly small ship at range 0-2 performs a primary attack against a damaged defender, if the attacker rolled 2 or fewer attack dice, it may gain 1 strain token to roll 1 additional attack die."""
         "Loyalist Volunteer":
-           text: """<i>The Kuat Systems Engineering Alpha-3 Nimbus-class V-wing is the vessel of choice for clone and non-clone starfighter pilots alike. The techniques pioneered to mass-produce its precision ion engines will later be crucial in the development of the TIE series by Sienar Fleet Systems.</i>"""
+           text: """<i class="descriptive-text">The Kuat Systems Engineering Alpha-3 Nimbus-class V-wing is the vessel of choice for clone and non-clone starfighter pilots alike. The techniques pioneered to mass-produce its precision ion engines will later be crucial in the development of the TIE series by Sienar Fleet Systems.</i>"""
         "Shadow Squadron Escort":
-           text: """<i>In the waning months of the Clone Wars, elite clone formations carry out missions critical to the future of the Republic; such as the protection of Supreme Chancellor Palpatine's personal shuttle.</i>"""
+           text: """<i class="descriptive-text">In the waning months of the Clone Wars, elite clone formations carry out missions critical to the future of the Republic; such as the protection of Supreme Chancellor Palpatine's personal shuttle.</i>"""
         "Wilhuff Tarkin":
            text: """During the System Phase, you may choose an object that you have locked at range 1-3. Another friendly ship at range 1-3 may acquire a lock on that object."""
         '"Klick"':
@@ -1580,9 +1580,9 @@ exportObj.cardLoaders.English = () ->
         "Padric":
            text: """After a friendly device that you have locked detonates, each enemy ship at range 0-1 of that device gains 1 strain token."""
         "New Republic Patrol":
-           text: """<i>Designed for customization, the BTA-NR2 Y-wing is used by numerous military organizations across the galaxy in a variety of roles, from law enforcement craft to wartime bombers.</i>"""
+           text: """<i class="descriptive-text">Designed for customization, the BTA-NR2 Y-wing is used by numerous military organizations across the galaxy in a variety of roles, from law enforcement craft to wartime bombers.</i>"""
         "Kijimi Spice Runner":
-           text: """<i>Led by Zorii Bliss, the Kijimi Spice Runners set aside their usual mercenary ways to take the fight to the Final order at the Battle of Exogol.</i>"""
+           text: """<i class="descriptive-text">Led by Zorii Bliss, the Kijimi Spice Runners set aside their usual mercenary ways to take the fight to the Final order at the Battle of Exogol.</i>"""
         "Corus Kapellim":
            text: """Before you engage, you may choose 1 ship in your firing arc at range 0-1. If you do, transfer 1 green token from that ship to yourself. """
         "C'ai Threnalli (Y-Wing)":
@@ -1610,13 +1610,13 @@ exportObj.cardLoaders.English = () ->
         '"Whirlwind"':
            text: """Before you engage, you may remove any number of jam tokens, then you may gain 1 focus token for each enemy ship that has you in its %FRONTARC%. """
         "709th Legion Ace":
-           text: """<i>Commanded by Supreme Leader Kylo Ren, the 709th Legion fights without mercy or remorse to crush the Resistance and bring the galaxy under the First Order's dominion.</i>"""
+           text: """<i class="descriptive-text">Commanded by Supreme Leader Kylo Ren, the 709th Legion fights without mercy or remorse to crush the Resistance and bring the galaxy under the First Order's dominion.</i>"""
         "Red Fury Zealot":
-           text: """<i>Also called Red Fury, the 709th Legion is charged by Supreme Leader Kylo Ren with rooting out dissenters at Black Spire Outpost.</i>"""
+           text: """<i class="descriptive-text">Also called Red Fury, the 709th Legion is charged by Supreme Leader Kylo Ren with rooting out dissenters at Black Spire Outpost.</i>"""
         "Sienar-Jaemus Test Pilot":
-           text: """<i>Equipped with four laser cannons and advanced systems, the TIE/se bomber is a remarkably maneuverable craft that brings devastating ordnance to bear against any who dare to stand against the First Order.</i>"""
+           text: """<i class="descriptive-text">Equipped with four laser cannons and advanced systems, the TIE/se bomber is a remarkably maneuverable craft that brings devastating ordnance to bear against any who dare to stand against the First Order.</i>"""
         "First Order Cadet":
-           text: """<i>The live-fire exercises of the First Order are intended to root out the weak, enforcing the maxim that only the strong survive.</i>"""
+           text: """<i class="descriptive-text">The live-fire exercises of the First Order are intended to root out the weak, enforcing the maxim that only the strong survive.</i>"""
         '"Grudge"':
            text: """While a friendly bomb or mine at range 0-2 detonates, each time attack dice are rolled to resolve its effect, you may reroll up to 1 of those dice. """
         '"Dread"':
@@ -1697,7 +1697,7 @@ exportObj.cardLoaders.English = () ->
            text: """At the start of the Engagement Phase, you may choose 1 enemy ship in your %FRONTARC%. If you do, treat your initiative as equal to that ship's until the end of the round. """
         "Outer Rim Hunter":
            display_name: """Outer Rim Hunter"""
-           text: """<i>Due to its association with Cad Bane, the Rogue-class Starfighter has found its way into the hands of other bounty hunters, especially those who operate in the lawless Outer Rim. </i>"""
+           text: """<i class="descriptive-text">Due to its association with Cad Bane, the Rogue-class Starfighter has found its way into the hands of other bounty hunters, especially those who operate in the lawless Outer Rim. </i>"""
         "IG-101":
            display_name: """IG-101"""
            text: """At the start of the System Phase, you may repair 1 faceup damage card."""
@@ -1739,10 +1739,10 @@ exportObj.cardLoaders.English = () ->
            text: """After you are destroyed, you may choose a friendly non-limited ship at range 0-2 and assign 1 of your equipped %TALENT% upgrades to it. %LINEBREAK% <strong>End of Game:</strong> Return all %TALENT% upgrades to their original ships."""
         "Reaper Squadron Scout":
            display_name: """Reaper Squadron Scout"""
-           text: """<i>Despite the Clone Z-95's unglamorous reputation, Reaper Squadron has become legendary for their skill with this fighter in far-thug engagements, such as the skirmish over Castilon</i>"""
+           text: """<i class="descriptive-text">Despite the Clone Z-95's unglamorous reputation, Reaper Squadron has become legendary for their skill with this fighter in far-thug engagements, such as the skirmish over Castilon</i>"""
         "7th Sky Corps Pilot":
            display_name: """7th Sky Corps Pilot"""
-           text: """<i>The Z-95 starfighter has earned respect for adaptability and endurance, and the Republic's clone trooper model is designated to fit its pilots' unique capabilities.</i>"""
+           text: """<i class="descriptive-text">The Z-95 starfighter has earned respect for adaptability and endurance, and the Republic's clone trooper model is designated to fit its pilots' unique capabilities.</i>"""
 
         # Battle of Yavin Pilots
         "Garven Dreis (BoY)":
@@ -1979,40 +1979,40 @@ exportObj.cardLoaders.English = () ->
         # Epic Ships
         "Republic Judiciary":
            display_name: """Republic Judiciary"""
-           text: """<i>The Galactic Republic uses small, swift warships such as the CR90 corvette to respond rapidly to Separatist incursions across the galaxy.</i> %LINEBREAK% <strong>Broadside Batteries:</strong> You can acquire locks and perform primary attacks at range 1-4."""
+           text: """<i class="descriptive-text">The Galactic Republic uses small, swift warships such as the CR90 corvette to respond rapidly to Separatist incursions across the galaxy.</i> %LINEBREAK% <strong>Broadside Batteries:</strong> You can acquire locks and perform primary attacks at range 1-4."""
         "Alderaanian Guard":
            display_name: """Alderaanian Guard"""
-           text: """<i>A craft used since before the Clone Wars, the CR90 corvette is favored by the Royal House of Alderaan for its versatility.</i> %LINEBREAK% <strong>Broadside Batteries:</strong> You can acquire locks and perform primary attacks at range 1-4."""
+           text: """<i class="descriptive-text">A craft used since before the Clone Wars, the CR90 corvette is favored by the Royal House of Alderaan for its versatility.</i> %LINEBREAK% <strong>Broadside Batteries:</strong> You can acquire locks and perform primary attacks at range 1-4."""
         "Outer Rim Patrol":
            display_name: """Outer Rim Patrol"""
-           text: """<i>The <untalic>Raider</untalic>-class corvette is one of the Empire's smallest warships, often used for reconnaissance missions, surgical strikes, or suppressing enemy starfighters with its powerful ordnance.</i> %LINEBREAK% <strong>Concentrated Batteries:</strong> While you perform a primary, %TORPEDO%, or %MISSILE% attack, if the defender is in your %BULLSEYEARC%, roll 1 additional die."""
+           text: """<i class="descriptive-text">The <untalic>Raider</untalic>-class corvette is one of the Empire's smallest warships, often used for reconnaissance missions, surgical strikes, or suppressing enemy starfighters with its powerful ordnance.</i> %LINEBREAK% <strong>Concentrated Batteries:</strong> While you perform a primary, %TORPEDO%, or %MISSILE% attack, if the defender is in your %BULLSEYEARC%, roll 1 additional die."""
         "First Order Collaborators":
            display_name: """First Order Collaborators"""
-           text: """<i>The First Order's supporters make use of former Imperial vessels, such as the <untalic>Raider</untalic>-class corvette. Though it has outlived the regime that created it, this craft still spreads terror across the galaxy.</i> %LINEBREAK% <strong>Concentrated Batteries:</strong> While you perform a primary, %TORPEDO%, or %MISSILE% attack, if the defender is in your %BULLSEYEARC%, roll 1 additional die."""
+           text: """<i class="descriptive-text">The First Order's supporters make use of former Imperial vessels, such as the <untalic>Raider</untalic>-class corvette. Though it has outlived the regime that created it, this craft still spreads terror across the galaxy.</i> %LINEBREAK% <strong>Concentrated Batteries:</strong> While you perform a primary, %TORPEDO%, or %MISSILE% attack, if the defender is in your %BULLSEYEARC%, roll 1 additional die."""
         "Echo Base Evacuees":
            display_name: """Echo Base Evacuees"""
-           text: """<i>The GR-75 medium transport acquitted itself well at battles such as the evacuation of Hoth, where several of these ships were pivotal to the Rebel forces' escape.</i> %LINEBREAK% <strong>Resupply Craft:</strong> After another friendly ship at range 0-1 performs an action, you may spend 1 %ENERGY%. If you do, it removes 1 orange or red token, or recovers 1 shield."""
+           text: """<i class="descriptive-text">The GR-75 medium transport acquitted itself well at battles such as the evacuation of Hoth, where several of these ships were pivotal to the Rebel forces' escape.</i> %LINEBREAK% <strong>Resupply Craft:</strong> After another friendly ship at range 0-1 performs an action, you may spend 1 %ENERGY%. If you do, it removes 1 orange or red token, or recovers 1 shield."""
         "New Republic Volunteers":
            display_name: """New Republic Volunteers"""
-           text: """<i>In use since the Galactic Civil War, groups within the New Republic still utilize the GR-75 medium transport for supply and aid missions.</i> %LINEBREAK% <strong>Resupply Craft:</strong> After another friendly ship at range 0-1 performs an action, you may spend 1 %ENERGY%. If you do, it removes 1 orange or red token, or recovers 1 shield."""
+           text: """<i class="descriptive-text">In use since the Galactic Civil War, groups within the New Republic still utilize the GR-75 medium transport for supply and aid missions.</i> %LINEBREAK% <strong>Resupply Craft:</strong> After another friendly ship at range 0-1 performs an action, you may spend 1 %ENERGY%. If you do, it removes 1 orange or red token, or recovers 1 shield."""
         "Outer Rim Garrison":
            display_name: """Outer Rim Garrison"""
-           text: """<i>Capable of carrying TIE fighters and operating independently for long periods of time, the <untalic>Gozanti</untalic>-class cruiser is a common sight in the skies of downtrodden worlds across the Outer Rim.</i> %LINEBREAK% <strong>Docking Clamps:</strong> You can dock up to 4 small ships."""
+           text: """<i class="descriptive-text">Capable of carrying TIE fighters and operating independently for long periods of time, the <untalic>Gozanti</untalic>-class cruiser is a common sight in the skies of downtrodden worlds across the Outer Rim.</i> %LINEBREAK% <strong>Docking Clamps:</strong> You can dock up to 4 small ships."""
         "First Order Sympathizers":
            display_name: """First Order Sympathizers"""
-           text: """<i>The First Order's swift rise to power rests upon ruthless innovation. However, sympathizers often repurpose Imperial designs, like the venerable <untalic>Gozanti</untalic>-class cruiser, in surveillance and patrol operations.</i> %LINEBREAK% <strong>Docking Clamps:</strong> You can dock up to 4 small ships."""
+           text: """<i class="descriptive-text">The First Order's swift rise to power rests upon ruthless innovation. However, sympathizers often repurpose Imperial designs, like the venerable <untalic>Gozanti</untalic>-class cruiser, in surveillance and patrol operations.</i> %LINEBREAK% <strong>Docking Clamps:</strong> You can dock up to 4 small ships."""
         "Separatist Privateers":
            display_name: """Separatist Privateers"""
-           text: """<i>The Separatist Alliance makes use of all manner of unsavory contacts in its fight against the Galactic Republic, including corsairs and criminal cartels.</i> %LINEBREAK% <strong>Overdrive Burners:</strong> While you defend, if your revealed maneuver is speed 3-5, roll 1 additional defense die."""
+           text: """<i class="descriptive-text">The Separatist Alliance makes use of all manner of unsavory contacts in its fight against the Galactic Republic, including corsairs and criminal cartels.</i> %LINEBREAK% <strong>Overdrive Burners:</strong> While you defend, if your revealed maneuver is speed 3-5, roll 1 additional defense die."""
         "Syndicate Smugglers":
            display_name: """Syndicate Smugglers"""
-           text: """<i>Vessels like the C-ROC Cruiser allow criminal operations across the Outer Rim to move massive amounts of illicit materials, or project power that can bully small colonies into compliance.</i> %LINEBREAK% <strong>Overdrive Burners:</strong> While you defend, if your revealed maneuver is speed 3-5, roll 1 additional defense die."""
+           text: """<i class="descriptive-text">Vessels like the C-ROC Cruiser allow criminal operations across the Outer Rim to move massive amounts of illicit materials, or project power that can bully small colonies into compliance.</i> %LINEBREAK% <strong>Overdrive Burners:</strong> While you defend, if your revealed maneuver is speed 3-5, roll 1 additional defense die."""
         "Colicoid Destroyer":
            display_name: """Colicoid Destroyer"""
-           text: """<i>Designed by the Colicoid Creation Nest and equipped with powerful tentacles and a massive drill to tear through the hull of even the toughest starships and fortifications, the Trident-class Assault Ship is a terrifying testament to the threat posed by the Separatist Alliance.</i> %LINEBREAK% <strong>Tractor Grasp:</strong> After you perform a <b>Tractor Tentacles</b> attack that hits, the defender gains 1 tractor token."""
+           text: """<i class="descriptive-text">Designed by the Colicoid Creation Nest and equipped with powerful tentacles and a massive drill to tear through the hull of even the toughest starships and fortifications, the Trident-class Assault Ship is a terrifying testament to the threat posed by the Separatist Alliance.</i> %LINEBREAK% <strong>Tractor Grasp:</strong> After you perform a <b>Tractor Tentacles</b> attack that hits, the defender gains 1 tractor token."""
         "Lawless Pirates":
            display_name: """Lawless Pirates"""
-           text: """<i>The Separatist Alliance has close ties to certain mercenaries and criminal groups and, as the war rages on, its technology sometimes finds its way into unsavory hands.</i> %LINEBREAK% <strong>Tractor Grasp:</strong> After you perform a <b>Tractor Tentacles</b> attack that hits, the defender gains 1 tractor token."""
+           text: """<i class="descriptive-text">The Separatist Alliance has close ties to certain mercenaries and criminal groups and, as the war rages on, its technology sometimes finds its way into unsavory hands.</i> %LINEBREAK% <strong>Tractor Grasp:</strong> After you perform a <b>Tractor Tentacles</b> attack that hits, the defender gains 1 tractor token."""
 
 
 
@@ -2240,7 +2240,7 @@ exportObj.cardLoaders.English = () ->
            text: """After you drop, launch or place a bomb or mine, you may place 1 fuse marker on that device."""
         "Delta-7B":
            display_name: """Delta-7B"""
-           text: """<i>The Delta-7B was designed as a heavier variant of the Delta-7 Aethersprite-class Interceptor, identifiable by the repositioned astromech slot. Many Jedi Generals favor this craft’s greater firepower and durability.</i>"""
+           text: """<i class="descriptive-text">The Delta-7B was designed as a heavier variant of the Delta-7 Aethersprite-class Interceptor, identifiable by the repositioned astromech slot. Many Jedi Generals favor this craft’s greater firepower and durability.</i>"""
         "Dengar":
            display_name: """Dengar"""
            text: """After you defend, if the attacker is in your firing arc, you may spend 1&nbsp;%CHARGE%. If you do, roll 1 attack die unless the attacker chooses to remove 1 green token. On a %HIT% or %CRIT% result, the attacker suffers 1&nbsp;%HIT% damage."""
@@ -2270,12 +2270,12 @@ exportObj.cardLoaders.English = () ->
            text: """<strong>Attack (%CALCULATE%):</strong> Spend 1&nbsp;%CHARGE%. While you perform this attack, you may spend 1&nbsp;calculate token to change 1&nbsp;%FOCUS% result to a %CRIT% result.%LINEBREAK%<strong>Action</strong>: Reload this card."""
         "Engine Upgrade":
            display_name: """Engine Upgrade"""
-           text: """<i>Large military forces such as the Galactic Empire have standardized engines, but individual pilots and small organizations often replace the power couplings, add thrusters, or use high-performance fuel to get extra push out of their engines.</i>"""
+           text: """<i class="descriptive-text">Large military forces such as the Galactic Empire have standardized engines, but individual pilots and small organizations often replace the power couplings, add thrusters, or use high-performance fuel to get extra push out of their engines.</i>"""
         "Ensnare":
            text: """At the end of the Activation Phase, if you are tractored, you may choose 1 ship in your %SINGLETURRETARC% arc at range 0-1. Transfer 1 tractor token to it."""
         "Expert Handling":
            display_name: """Expert Handling"""
-           text: """<i>While heavy fighters can often be coaxed into a barrel roll, seasoned pilots know how to do it without putting undue stress on their craft or leaving themselves open to attack.</i>"""
+           text: """<i class="descriptive-text">While heavy fighters can often be coaxed into a barrel roll, seasoned pilots know how to do it without putting undue stress on their craft or leaving themselves open to attack.</i>"""
         "Ezra Bridger":
            display_name: """Ezra Bridger"""
            text: """After you perform a primary attack, you may spend 1&nbsp;%FORCE% to perform a bonus %SINGLETURRETARC% attack from a %SINGLETURRETARC% you have not attacked from this round. If you do and you are stressed, you may reroll 1 attack die."""
@@ -2358,7 +2358,7 @@ exportObj.cardLoaders.English = () ->
            text: """While you perform a %SINGLETURRETARC% attack, after the Modify Defense Dice step, the defender removes 1 focus or calculate token."""
         "Hull Upgrade":
            display_name: """Hull Upgrade"""
-           text: """<i>For those who cannot afford an enhanced shield generator, bolting additional plates onto the hull of a ship can serve as an adequate substitute.</i>"""
+           text: """<i class="descriptive-text">For those who cannot afford an enhanced shield generator, bolting additional plates onto the hull of a ship can serve as an adequate substitute.</i>"""
         "Hyperspace Tracking Data":
            display_name: """Hyperspace Tracking Data"""
            text: """<strong>Setup:</strong> Before placing forces, you may choose a number between 0 and 6. Treat your initiative as the chosen value during Setup.%LINEBREAK%After Setup, assign 1 focus or evade token to each friendly ship at range&nbsp;0-2."""
@@ -2626,7 +2626,7 @@ exportObj.cardLoaders.English = () ->
            text: """If an enemy ship at range 0-1 would gain a stress token, you may spend 1&nbsp;%FORCE% to have it gain 1 jam or tractor token instead."""
         "Shield Upgrade":
            display_name: """Shield Upgrade"""
-           text: """<i>Deflector shields are a substantial line of defense on most starships beyond the lightest fighters. While enhancing a ship’s shield capacity can be costly, all but the most confident or reckless pilots see the value in this sort of investment.</i>"""
+           text: """<i class="descriptive-text">Deflector shields are a substantial line of defense on most starships beyond the lightest fighters. While enhancing a ship’s shield capacity can be costly, all but the most confident or reckless pilots see the value in this sort of investment.</i>"""
         "Skilled Bombardier":
            display_name: """Skilled Bombardier"""
            text: """If you would drop or launch a device, you may use a template of the same bearing with a speed 1 higher or lower."""
@@ -2665,7 +2665,7 @@ exportObj.cardLoaders.English = () ->
            text: """While a friendly ship at range&nbsp;0-3 performs a primary attack against a defender in its %BULLSEYEARC%, if there are 2&nbsp;or fewer attack dice, it may spend 1&nbsp;calculate token to add 1&nbsp;%HIT%&nbsp;result."""
         "Tactical Officer":
            display_name: """Tactical Officer"""
-           text: """<i>In the chaos of a starfighter battle, a single order can mean the difference between a victory and a massacre.</i>"""
+           text: """<i class="descriptive-text">In the chaos of a starfighter battle, a single order can mean the difference between a victory and a massacre.</i>"""
         "Tactical Scrambler":
            display_name: """Tactical Scrambler"""
            text: """While you obstruct an enemy ship’s attack, the defender rolls 1 additional defense die."""
@@ -2962,7 +2962,7 @@ exportObj.cardLoaders.English = () ->
         "DT-798":
            text: """At the start of the Engagement Phase, you may choose a friendly ship in your firing arc. If you do, that ship gains 1 strain token. %LINEBREAK% While you perform an attack, you may reroll up to 1 die for each ship in the attack arc with 1 or more non-lock red or orange tokens."""
         "First Order Ordnance Tech":
-           text: """<i>The First Order trains its pilots and gunners to be fanatically loyal, prioritizing victory even over survival.</i>"""
+           text: """<i class="descriptive-text">The First Order trains its pilots and gunners to be fanatically loyal, prioritizing victory even over survival.</i>"""
         "Feedback Ping":
            text: """After an enemy ship executes a maneuver, if it is at range 0-1 of a friendly device, you may acquire a lock on that ship, ignoring range restrictions."""
         "Electro-Chaff Missiles":
