@@ -11102,11 +11102,6 @@ exportObj.manifestByExpansion =
             count: 1
         }
         {
-            name: 'Adi Gallia (Delta-7B)'
-            type: 'pilot'
-            count: 1
-        }
-        {
             name: '"Sicko"'
             type: 'pilot'
             count: 1
