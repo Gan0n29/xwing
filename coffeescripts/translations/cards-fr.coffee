@@ -3782,8 +3782,8 @@ exportObj.cardLoaders['Français'] = () ->
         "Advanced Targeting Computer":
            display_name: "Ordinateur de Visée Avancé"
            text: """Tant que vous effectuez une attaque principale contre un défenseur que vous avez verrouillé, lancez 1 dé d’attaque supplémentaire et changez 1 résultat %HIT% en un résultat %CRIT%."""
-        "Autopropulseurs":
-           display_name: "Autothrusters"
+        "Autothrusters":
+           display_name: "Autopropulseurs"
            text: """Après avoir effectué une action, vous pouvez effectuer une action %BARRELROLL% rouge ou %BOOST% rouge."""
         "Nimble Bomber":
            display_name: "Bombardier Agile"
