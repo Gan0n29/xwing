@@ -8836,7 +8836,7 @@ exportObj.basicCardData = ->
             faction: "Galactic Republic"
             skill: "*"
             ship: "Syliure-class Hyperspace Ring"
-            points: 0
+            points: 4
             slots: [
                 "Hyperdrive"
             ]
@@ -12000,7 +12000,6 @@ exportObj.basicCardData = ->
             points: 0
             chassis: "Born for This"
             slots: [
-                "Talent"
                 "Torpedo"
                 "Crew"
                 "Gunner"
@@ -12363,8 +12362,8 @@ exportObj.basicCardData = ->
             force: 1
             forcerecurring: 0
             slots: [
-                "Force"
-                "Force"
+                "Talent"
+                "Talent"
                 "Missile"
                 "Configuration"
             ]
@@ -12378,14 +12377,12 @@ exportObj.basicCardData = ->
             skill: 3
             points: 0
             slots: [
-                "Talent"
                 "Turret"
                 "Torpedo"
                 "Missile"
                 "Astromech"
-                "Device"
-                "Illicit"
                 "Modification"
+                "Device"
             ]
         }
         {
@@ -12571,7 +12568,13 @@ exportObj.basicCardData = ->
             skill: 1
             points: 0
             slots: [
+                "Cannon"
+                "Missile"
+                "Crew"
+                "Device"
+                "Illicit"
                 "Modification"
+                "Title"
             ]
         }
         {
@@ -12632,10 +12635,9 @@ exportObj.basicCardData = ->
             unique: true
             faction: "Scum and Villainy"
             ship: "Mining Guild TIE Fighter"
-            skill: 2
+            skill: 3
             points: 0
             slots: [
-                "Talent"
                 "Modification"
             ]
         }
@@ -12725,13 +12727,11 @@ exportObj.basicCardData = ->
             id: 618
             faction: "Separatist Alliance"
             ship: "Vulture-class Droid Fighter"
-            skill: 2
+            skill: 1
             points: 0
             max_per_squad: 3
             chassis: "Modified for Organics"
             slots: [
-                "Talent"
-                "Sensor"
                 "Missile"
                 "Modification"
                 "Configuration"
@@ -12923,6 +12923,13 @@ exportObj.basicCardData = ->
                 "Crew"
                 "Modification"
             ]
+            ship_override:
+                actions: [
+                    "Focus"
+                    "Lock"
+                    "R-Coordinate"
+                    "Jam"
+                ]
             applies_condition: '''Broken Trust'''.canonicalize()
         }
     ]
@@ -16707,6 +16714,7 @@ exportObj.basicCardData = ->
             ship: "TIE Defender"
             standardized: true
             chassis: "Advanced Fire Control"
+            restrictions: []
             modifier_func: (stats) ->
                 if stats.maneuvers[1]?
                     for s in (stats.maneuvers)
