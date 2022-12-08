@@ -12195,7 +12195,7 @@ exportObj.basicCardData = ->
             id: 588
             image_id: 421
             faction: "Separatist Alliance"
-            ship: "Droid Tri-fighter"
+            ship: "Droid Tri-Fighter"
             skill: 3
             points: 200
             slots: [
