@@ -12699,7 +12699,7 @@ exportObj.basicCardData = ->
             unique: true
             faction: "Separatist Alliance"
             ship: "Rogue-class Starfighter"
-            skill: 1
+            skill: 5
             charge: 1
             points: 42
             keyword: ["Bounty Hunter"]
