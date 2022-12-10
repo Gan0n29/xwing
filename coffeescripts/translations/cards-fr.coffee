@@ -303,7 +303,7 @@ exportObj.cardLoaders['Français'] = () ->
 
     
     exportObj.renameShip """A-Wing""", """A-wing RZ-1"""
-    exportObj.renameShip """RZ-2 A-Wing""", """A-Wing RZ-2"""
+    exportObj.renameShip """RZ-2 A-Wing""", """A-wing RZ-2"""
     exportObj.renameShip """Lancer-Class Pursuit Craft""", """Appareil de Poursuite de Classe Lancer"""
     exportObj.renameShip """ARC-170""", """Chasseur ARC-170"""
     exportObj.renameShip """Attack Shuttle""", """Navette d’Attaque"""
@@ -354,7 +354,7 @@ exportObj.cardLoaders['Français'] = () ->
     exportObj.renameShip """Resistance Transport Pod""", """Module de Transport de la Résistance"""
     exportObj.renameShip """Sheathipede-Class Shuttle""", """Navette de Classe Sheathipede"""
     exportObj.renameShip """Alpha-Class Star Wing""", """Star Wing de Classe Alpha"""
-    exportObj.renameShip """T-70 X-Wing""", """X-Wing T-70"""
+    exportObj.renameShip """T-70 X-Wing""", """X-wing T-70"""
     exportObj.renameShip """TIE Advanced Prototype""", """TIE Advanced v1"""
     exportObj.renameShip """TIE Advanced""", """TIE Advanced x1"""
     exportObj.renameShip """TIE Aggressor""", """TIE/ag Aggressor"""
@@ -382,7 +382,7 @@ exportObj.cardLoaders['Français'] = () ->
     exportObj.renameShip """Xi-class Light Shuttle""", """Navette Légère de Classe Xi"""
     exportObj.renameShip """Y-Wing""", """Y-wing BTL-A4"""
     exportObj.renameShip """BTL-B Y-Wing""", """Y-wing BTL-B"""
-    exportObj.renameShip """BTA-NR2 Y-Wing""", """Y-Wing BTA-NR2"""
+    exportObj.renameShip """BTA-NR2 Y-Wing""", """Y-wing BTA-NR2"""
     exportObj.renameShip """Customized YT-1300""", """Cargo Léger YT-1300 Personnalisé"""
     exportObj.renameShip """YT-1300""", """Cargo Léger YT-1300 Modifié"""
     exportObj.renameShip """Scavenged YT-1300""", """YT-1300 Récupéré"""
@@ -716,7 +716,7 @@ exportObj.cardLoaders['Français'] = () ->
            text: """<i class="descriptive-text">Contrairement aux chasseurs de conception fragile mais facilement remplaçables construits pour les Séparatistes, Feethan Ottraw Scalable Assemblies a également conçu le Belbullab-22, un appareil qui allie puissance de feu, résistance et vitesse.</i>"""
         "Fenn Rau (Sheathipede)":
            display_name: """Fenn Rau"""
-           text: """Après qu’un vaisseau ennemi situé dans votre arc de tir vous a engagé, si vous n’êtes pas stressé, vous pouvez gagner 1 marqueur de stress. Dans ce cas, ce vaisseau ennemi ne peut pas dépenser de marqueur pour modifier des dés tant qu’il effectue une attaque pendant cette phase."""
+           text: """Avant qu’un vaisseau ennemi situé dans votre arc de tir ne s’engage, si vous n’êtes pas stressé, vous pouvez gagner 1 marqueur de stress. Dans ce cas, ce vaisseau ennemi ne peut pas dépenser de marqueur pour modifier des dés tant qu’il effectue une attaque pendant cette phase."""
         "Fenn Rau":
            display_name: """Fenn Rau"""
            text: """Tant que vous défendez ou effectuez une attaque, si la portée d’attaque est 1, vous pouvez lancer 1 dé supplémentaire."""
@@ -842,7 +842,7 @@ exportObj.cardLoaders['Français'] = () ->
            text: """Après avoir entièrement exécuté une manœuvre, si vous êtes stressé, vous pouvez lancer 1 dé d’attaque. Sur un résultat %HIT% ou %CRIT%, retirez 1 marqueur de stress."""
         "Iden Versio":
            display_name: """Iden Versio"""
-           text: """Avant qu’un chasseur TIE/ln allié à portée 0-1 ne subisse 1 ou plusieurs dégâts, vous pouvez dépenser 1 %CHARGE%. Dans ce cas, prévenez ce dégât."""
+           text: """Avant qu’un chasseur TIE/ln allié à portée 0-1 ne subisse 1 ou plusieurs dégâts, vous pouvez dépenser 1 %CHARGE%. Dans ce cas, prévenez ce(s) dégât(s)."""
         "Imdaar Test Pilot":
            display_name: """Pilote d’Essai Imdaar"""
            text: """<i class="descriptive-text">Conçu dans un centre de recherches secret sur Imdaar Alpha, le TIE Fantôme concrétise ce qui semblait impossible : un petit chasseur furtif équipé d’un système d’occultation avancé.</i>"""
@@ -1058,10 +1058,10 @@ exportObj.cardLoaders['Français'] = () ->
            text: """Après être devenu le défenseur, si l’attaquant n’est pas dans votre %SINGLETURRETARC%, vous <b>devez</b> pivoter votre indicateur %SINGLETURRETARC% vers un arc standard dans lequel se trouve l’attaquant."""
         "Norra Wexley (Y-Wing)":
            display_name: """Norra Wexley"""
-           text: """Tant que vous défendez, si un vaisseau ennemi est à portée 0-1, ajoutez 1 résultat %EVADE% à vos résultats de dés."""
+           text: """Tant que vous défendez, si un vaisseau ennemi est à portée 0-1, ajouter 1 résultat %EVADE% à vos résultats de dés."""
         "Norra Wexley":
            display_name: """Norra Wexley"""
-           text: """Tant que vous défendez, si un vaisseau ennemi est à portée 0-1, vous pouvez ajouter 1 résultat %EVADE% aux résultats de vos dés."""
+           text: """Tant que vous défendez, si un vaisseau ennemi est à portée 0-1, ajouter 1 résultat %EVADE% aux résultats de vos dés."""
         "Nu Squadron Pilot":
            display_name: """Pilote de l’Escadron Nu"""
            text: """<i class="descriptive-text">D’une conception similaire aux autres vaisseaux développés par Cygnus Spaceworks, le Star Wing de classe Alpha est un appareil polyvalent attribué aux unités spécialisées de la Marine Impériale qui ont besoin d’un chasseur facilement adaptable pour des missions variées.</i>"""
@@ -1433,7 +1433,7 @@ exportObj.cardLoaders['Français'] = () ->
            text: """Tant que vous effectuez une attaque, si un vaisseau endommagé, allié du défenseur, est à portée 0-1 de ce dernier, le défenseur ne peut pas dépenser de marqueur de concentration ou de calcul."""
         '"Goji"':
            display_name: """“Goji”"""
-           text: """Tant qu’un vaisseau allié à portée 0-3 défend, il peut lancer 1 dé de défense supplémentaire pour chaque bombe ou mine alliée à portée 0-1 de lui."""
+           text: """Tant qu’un vaisseau allié à portée 0-3 défend, il peut lancer 1 dé de défense supplémentaire pour chaque bombe alliée à portée 0-1 de lui."""
         '"Holo"':
            display_name: """“Holo”"""
            text: """Au début de la phase d’engagement, vous <b>devez</b> transférer 1 de vos marqueurs à un autre vaisseau allié à portée 0-2."""
@@ -1600,17 +1600,17 @@ exportObj.cardLoaders['Français'] = () ->
            display_name: """Anakin Skywalker"""
            text: """Après que vous, ou un vaisseau <b>Obi-Wan Kenobi</b> allié à portée 0–3, avez exécuté une manœuvre, s’il y a plus de vaisseaux ennemis que d’autres vaisseaux alliés à portée 0–1 du vaisseau ayant exécuté la manœuvre, vous pouvez dépenser 1 %FORCE%. Dans ce cas, le vaisseau ayant exécuté la manœuvre retire 1 marqueur rouge de votre choix."""
         "TransGalMeg Control Link":
-           display_name: """Effet de la Carte"""
+           display_name: """Liaison de Contrôle TransGalMeg"""
            text: """<strong>Anneau d’arrimage Hyperspatial :</strong> 1 Aethersprite Delta-7, Actis Eta-2 ou V-wing de classe Nimbus peut s’arrimer avec vous. %LINEBREAK%Tant que vous avez un vaisseau arrimé, vous gagnez l’initiative de ce vaisseau et son cadran vous est assigné. Tant que vous exécutez une manœuvre, réduisez sa vitesse à 1. Avant d’exécuter une manœuvre avancée, exécutez une manœuvre blanche de vol stationnaire(%STOP%)à la place, puis vous pouvez pivoter de 90° ou de 180°.%LINEBREAK%Tant que vous n’avez pas de vaisseau arrimé, aucun cadran de manœuvres ne vous est assigné et vous ne vous activez pas et ne vous engagez pas."""
         "Jango Fett":
            display_name: """Jango Fett"""
            text: """Tant que vous défendez ou effectuez une attaque principale, si la difficulté de votre manœuvre révélée est inférieure à celle du vaisseau ennemi, vous pouvez changer 1 des résultats %FOCUS% du vaisseau ennemi en un résultat vierge."""
         "Separatist Interceptor":
            display_name: """Intercepteur Séparatiste"""
-           text: """<strong>Calculs en Réseau :</strong> Tant que vous défendez ou effectuez une attaque, vous pouvez dépenser 1 marqueur de calcul d’un vaisseau allié à portée 0-1 pour changer 1 résultat %FOCUS% en un résultat %EVADE% ou %HIT%."""
+           text: """<i class="descriptive-text">Déployés tardivement durant la Guerre des Clones, ces chasseurs agressifs, et les nuées de droïdes buzz qu’ils transportent, sont une menace sérieuse même pour les pilotes Jedi vétérans.</i>"""
         "Colicoid Interceptor":
            display_name: """Intercepteur Colicoïde"""
-           text: """<strong>Calculs en Réseau :</strong> Tant que vous défendez ou effectuez une attaque, vous pouvez dépenser 1 marqueur de calcul d’un vaisseau allié à portée 0-1 pour changer 1 résultat %FOCUS% en un résultat %EVADE% ou %HIT%."""
+           text: """<i class="descriptive-text">Conçu par le nid de création colicoïde et assemblé par Phlac-Arphocc Automata Industries, le processeur heuristique des Tri-Chasseurs Droïdes permet à ces redoutables appareils d’analyser et de s’adapter en temps réel aux tactiques de l’adversaire.</i>"""
         "Phlac-Arphocc Prototype":
            display_name: """Prototype Phlac-Arphocc"""
            text: """Pendant la phase de système, vous pouvez dépenser votre verrouillage sur un vaisseau pour regarder son cadran de manœuvres. """
@@ -2289,7 +2289,7 @@ exportObj.cardLoaders['Français'] = () ->
            text: """Pendant la phase de dénouement, ne retirez pas jusqu’à 2 marqueurs de concentration."""
         "Outrider":
            display_name: """Outrider"""
-           text: """Tant que vous effectuez une attaque qui est gênée, le défenseur lance 1 dé de défense en moins.%LINEBREAK%Après avoir entièrement exécuté une manœuvre, si vous avez traversé ou chevauché un obstacle, vous pouvez retirer 1 de vos marqueurs rouges ou orange."""
+           text: """Tant que vous effectuez une attaque qui est gênée par un obstacle, le défenseur lance 1 dé de défense en moins.%LINEBREAK%Après avoir entièrement exécuté une manœuvre, si vous avez traversé ou chevauché un obstacle, vous pouvez retirer 1 de vos marqueurs rouges ou orange."""
         "Phantom":
            display_name: """Phantom"""
            text: """Vous pouvez vous arrimer à portée 0-1."""
@@ -2337,7 +2337,7 @@ exportObj.cardLoaders['Français'] = () ->
            text: """Après avoir entièrement exécuté une manœuvre à vitesse 3-5, vous pouvez dépenser 1 %CHARGE% pour effectuer une action %BOOST%, même tant que vous êtes stressé."""
         "Agent Kallus":
            display_name: """Agent Kallus"""
-           text: """<strong>Mise en Place :</strong> assignez l’état <b>Traqué</b> à 1 vaisseau ennemi.%LINEBREAK%Tant que vous effectuez une attaque contre le vaisseau qui possède l’état <b>Traqué</b>, vous pouvez changer 1 de vos résultats %FOCUS% en un résultat %HIT%."""
+           text: """<strong>Mise en Place :</strong> après avoir placé les forces, assignez l’état <b>Traqué</b> à 1 vaisseau ennemi.%LINEBREAK%Tant que vous effectuez une attaque contre le vaisseau qui possède l’état <b>Traqué</b>, vous pouvez changer 1 de vos résultats %FOCUS% en un résultat %HIT%."""
         "Agile Gunner":
            display_name: """Canonnier Adroit"""
            text: """Pendant la phase de dénouement, vous pouvez faire pivoter votre indicateur %SINGLETURRETARC%."""
@@ -2451,7 +2451,7 @@ exportObj.cardLoaders['Français'] = () ->
            text: """Tant que vous accélérez ou que vous effectuez un tonneau, vous pouvez vous déplacer à travers ou chevaucher les obstacles. %LINEBREAK%Après vous être déplacé à travers ou avoir chevauché un obstacle, vous pouvez dépenser 1 %CHARGE% pour ignorer ses effets jusqu’à la fin du round."""
         "Composure":
            display_name: """Maîtrise de Soi"""
-           text: """Après avoir échoué à une action, si vous n’avez aucun marqueur vert, vous pouvez effectuer une action %FOCUS%."""
+           text: """Après avoir échoué à une action, si vous n’avez aucun marqueur vert, vous pouvez effectuer une action %FOCUS%. Dans ce cas, vous ne pouvez pas effectuer d’actions supplémentaires à ce round."""
         "Concussion Missiles":
            display_name: """Missiles à Concussion"""
            text: """<strong>Attaque (%LOCK%) :</strong> dépensez 1 %CHARGE%. Après que cette attaque a touché, chaque vaisseau à portée 0-1 du défenseur expose 1 de ses cartes de dégât."""
@@ -2718,7 +2718,7 @@ exportObj.cardLoaders['Français'] = () ->
            text: """Après avoir lancé des dés, vous pouvez dépenser 1 marqueur vert pour relancer jusqu’à 2 de vos résultats."""
         "Lando's Millennium Falcon":
            display_name: """Faucon Millenium de Lando"""
-           text: """1 Vaisseau de secours peut s’arrimer à vous.%LINEBREAK%Tant que vous avez un Vaisseau de secours arrimé, vous pouvez dépenser ses boucliers comme s’ils étaient sur votre carte de vaisseau.%LINEBREAK%Tant que vous effectuez une attaque principale contre un vaisseau stressé, lancez 1 dé d’attaque supplémentaire."""
+           text: """1 Vaisseau de secours peut s’arrimer à vous.%LINEBREAK%Tant que vous avez un Vaisseau de secours arrimé, vous pouvez considérer ses boucliers comme s’ils étaient sur votre carte de vaisseau.%LINEBREAK%Tant que vous effectuez une attaque principale contre un vaisseau stressé, lancez 1 dé d’attaque supplémentaire."""
         "Larma D'Acy":
            display_name: """Larma D’Acy"""
            text: """Tant que vous avez 2 marqueurs de stress ou moins, vous pouvez effectuer des actions %REINFORCE%, %COORDINATE% et <jam>, même si vous êtes stressé.%LINEBREAK%Tant que vous effectuez une action blanche %REINFORCE%, %COORDINATE% ou <jam>, si vous êtes stressé, considérez cette action comme rouge."""
@@ -2946,7 +2946,7 @@ exportObj.cardLoaders['Français'] = () ->
            text: """<strong>Repliés :</strong>%LINEBREAK%<i>Ajoute %BARRELROLL% <i class="xwing-miniatures-font xwing-miniatures-font-linked red"></i> <r>%EVADE%</r> ,  <r>%RELOAD%</r></i>%LINEBREAK%Avant de vous activer, si vous n’êtes pas critiquement endommagé, vous pouvez retourner cette carte.%LINEBREAK%<strong>Dépliés :</strong>%LINEBREAK%<i>Ajoute %BARRELROLL% <i class="xwing-miniatures-font xwing-miniatures-font-linked red"></i> <r>%LOCK%</r></i>%LINEBREAK%Après avoir effectué une attaque, vous pouvez dépenser votre verrouillage sur le défenseur pour effectuer une attaque bonus %CANNON% contre ce vaisseau en utilisant une amélioration %CANNON% avec laquelle vous n’avez pas attaqué à ce round.%LINEBREAK%Avant de vous activer, si vous n’êtes pas critiquement endommagé, vous pouvez retourner cette carte."""
         "Static Discharge Vanes":
            display_name: """Ailettes Statiques de Décharge"""
-           text: """Si vous devez gagner un marqueur ionique ou de brouillage, vous pouvez choisir un vaisseau à portée 0-1. Dans ce cas, gagnez 1 marqueur de stress et transférez 1 marqueur ionique ou de brouillage à ce vaisseau."""
+           text: """Avant que vous ne gagniez 1 marqueur ionique ou de brouillage, si vous n’êtes pas stressé, vous pouvez choisir un autre vaisseau à portée 0–1 et gagner 1 marquer de stress. Dans ce cas, le vaisseau choisi gagne ce marqueur ionique ou de brouillage à la place, puis vous subissez 1 dégât %HIT%."""
         "Stealth Device":
            display_name: """Système d’Occultation"""
            text: """Tant que vous défendez, si votre %CHARGE% est active, lancez 1 dé de défense supplémentaire.%LINEBREAK%Après avoir subi des dégâts, perdez 1 %CHARGE%."""
@@ -3063,7 +3063,7 @@ exportObj.cardLoaders['Français'] = () ->
            text: """<strong>Attaque:</strong> Si vous êtes calculateur, le défenseur n’applique pas le bonus de portée."""
         "Concussion Bombs":
            display_name: """Bombes à Concussion"""
-           text: """Pendant la phase de système, si n’importe quelle %CHARGE% de cette carte est inactive, vous <b>devez</b> dépenser 1 %CHARGE% pour larguer 1 bombe à concussion, si possible en utilisant le gabarit [1 %STRAIGHT%]. Sinon, vous pouvez dépenser 1 %CHARGE% pour larguer 1 bombe à concussion.%LINEBREAK% <i>Errata (depuis le guide de référence 1.3.0): Ajout ""en utilisant le gabarit [1 %STRAIGHT%]""</i>"""
+           text: """Pendant la phase de système, si n’importe quelle %CHARGE% de cette carte est inactive, vous <b>devez</b> dépenser 1 %CHARGE% pour, si possible, larguer 1 bombe à concussion, en utilisant le gabarit [1 %STRAIGHT%]. Sinon, vous pouvez dépenser 1 %CHARGE% pour larguer 1 bombe à concussion.%LINEBREAK% <i>Errata (depuis le guide de référence 1.3.0): Ajout ""en utilisant le gabarit [1 %STRAIGHT%]""</i>"""
         "Maneuver-Assist MGK-300":
            display_name: """Aide à la Manœuvre MGK-300"""
            text: """Diminuez la difficulté de vos manœuvres à vitesse 3 en ligne droite (%STRAIGHT%) et virage sur l’aile (%BANKLEFT% ou %BANKRIGHT%)."""
@@ -3658,7 +3658,7 @@ exportObj.cardLoaders['Français'] = () ->
            text: """Après qu'une bombe ou mine à portée 0-1 a explosé, subissez 1 dégât %CRIT%. Puis, retirez cette carte. %LINEBREAK%<strong>Action :</strong> s'il n'y a aucune bombe ou mine à portée 0-1, retirez cette carte."""
         "Optimized Prototype":
            display_name: """Prototype Optimisé"""
-           text: """Tant que vous effectuez une attaque principale %FRONTARC% contre un vaisseau verrouillé par un vaisseau allié qui possède l'amélioration <b>Directeur Krennic</b>, vous pouvez dépenser 1 résultat %HIT%/%CRIT%/%FOCUS%. Dans ce cas, choisissez une des options suivantes : le défenseur perd 1 bouclier ou le défenseur retourne 1 de ses cartes Dégât face cachée."""
+           text: """Tant que vous effectuez une attaque principale %FRONTARC% contre un vaisseau verrouillé par un vaisseau allié qui possède l'amélioration <b>Directeur Krennic</b>, vous pouvez dépenser 1 résultat %HIT%, %CRIT% ou %FOCUS%. Dans ce cas, choisissez une des options suivantes : le défenseur perd 1 bouclier ou le défenseur retourne 1 de ses cartes Dégât face cachée."""
         """I'll Show You the Dark Side""":
            display_name: """Je Vous Montrerai le Côté Obscur"""
            text: """Quand cette carte est assigné, s'il n'y a pas de carte de dégât face visible sur elle, le joueur qui l'a assignée cherche 1 carte de dégât Pilote dans le paquet de dégâts et la place face visible sur cette carte. Puis mélangez le paquet de dégâts. %LINEBREAK%Lorsque vous êtes censé subir 1 dégât %CRIT%, vous vous voyez attribuer la carte dégât face visible qui est sur cette carte à la place. Puis retirez cette carte d'état."""
