@@ -1477,7 +1477,12 @@ exportObj.cardLoaders.Italiano = () ->
         '"Zeb" Orrelios':
            display_name: """“Zeb” Orrelios"""
            text: """<i>CHANGE MECHANGE ME</i>%LINEBREAK%Puoi effettuare attacchi primari a gittata 0. Le navi nemiche a gittata 0 possono effettuare attacchi primari contro di te."""
- 
+
+               
+    condition_translations =
+        "Suppressive Fire":
+           text: """While you perform an attack against a ship other than <strong>Captain Rex</strong>, roll 1 fewer attack die. %LINEBREAK% After <strong>Captain Rex</strong> defends, remove this card.  %LINEBREAK% At the end of the Combat Phase, if <strong>Captain Rex</strong> did not perform an attack this phase, remove this card. %LINEBREAK% After <strong>Captain Rex</strong> is destroyed, remove this card."""
+         
     chassis_translations =
         "Versatile Frame":
            text: """You can equip 1 %TORPEDO% or %MISSILE% upgrade. While your revealed maneuver is blue, add white %BOOST% to your action bar."""
