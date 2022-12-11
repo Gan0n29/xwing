@@ -4698,7 +4698,7 @@ class Ship
             hull: @pilot.ship_override?.hull ? @data.hull
             shields: @pilot.ship_override?.shields ? @data.shields
             force: (@pilot.ship_override?.force ? @pilot.force) ? 0
-            forcerecurring: 1
+            forcerecurring: @pilot.forcerecurring ? 1
             charge: @pilot.ship_override?.charge ? @pilot.charge
             actions: (@pilot.ship_override?.actions ? @data.actions).slice 0
             chassis: @pilot.chassis ? @data.chassis ? ""
