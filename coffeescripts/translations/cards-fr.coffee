@@ -39,6 +39,7 @@ exportObj.translations['Français'] =
         "Command": "Commandement"
         "Tactical Relay": "Relais Tactique"
         "Hardpointship": "Emplacement d'Arme"
+        "Weapon Hardpoint": "Emplacement d'Arme"
         "VersatileShip": "Châssis Polyvalent"
 
     restrictions:
@@ -2036,7 +2037,6 @@ exportObj.cardLoaders['Français'] = () ->
         '"Mauler" Mithel (BoY)':
            display_name: """“Mauler” Mithel (BoY)"""
            text: """Tant que vous effectuez une attaque principale, si un allié <b>Dark Vador</b> ou <b>Backstabber</b> est dans votre arc %LEFTARC% ou %RIGHTARC% à portée 0-1, lancez 1 dé d'attaque supplémentaire."""
-
         # Siege of Coruscant Pilots
         "Anakin Skywalker (SoC)":
            display_name: """Anakin Skywalker (SoC)"""
@@ -2046,58 +2046,58 @@ exportObj.cardLoaders['Français'] = () ->
            text: """Après que vous, ou un vaisseau <b>Anakin Skywalker</b> allié à portée 0–3, avez entièrement exécuté une manœuvre, s’il y a plus de vaisseaux ennemis que d’autres vaisseaux alliés à portée 0–1 du vaisseau ayant exécuté la manœuvre, vous pouvez dépenser 1 %FORCE%. Dans ce cas, le vaisseau ayant exécuté la manœuvre peut exécuter une action %BOOST%."""
         "Shaak Ti (SoC)":
            display_name: """Shaak Ti (SoC)"""
-           text: """At the start of the End Phase, you may perfrom a purple %COORDINATE% action, even while stressed %LINEBREAK% After you perform a %COORDINATE% action, if the chosen ship has the <b>Born for This</b> ship ability, you may coordinate 1 additional ship."""
+           text: """Au début de la phase de dénouement, vous pouvez exécuter une action %COORDINATE% violette, même si vous êtes stressé.%LINEBREAK%Après que vous avez effectué une action %COORDINATE%, si le vaisseau choisi a la capacité <b>Né pour Ça</b>, vous pouvez coordonner un vaisseau supplémentaire."""
         '"Odd Ball" (SoC)':
            display_name: """“Odd Ball” (SoC)"""
-           text: """After you fully execute a red maneuver or perform a red action, you camy choose a friendly ship at range 0-3 and an enemy at range 0-1. The chosen frendly ship gains a lock on the enemy ship."""
+           text: """Après avoir entièrement exécuté une manœuvre rouge ou effectué une action rouge, vous pouvez choisir un vaisseau allié à portée 0–3 et un vaisseau ennemi à portée 0–1. Le vaisseau allié choisi gagne un verrouillage sur le vaisseau ennemi. """
         '"Wolffe" (SoC)':
            display_name: """“Wolffe” (SoC)"""
-           text: """While you perform a primary %FRONTARC% attack, you may spend 1 %CHARGE% to reroll 1 attack die. While you perform a primary %REARARC% attack, you may recover 1 %CHARGE% to roll 1 additional die."""
+           text: """Tant que vous effectuez une attaque principale %FRONTARC%, vous pouvez dépenser 1 %CHARGE% pour relancer 1 dé d’attaque. Tant que vous effectuez une attaque principale %REARARC%, vous pouvez récupérer 1 %CHARGE% pour lancer 1 dé d’attaque supplémentaire."""
         '"Jag" (SoC)':
            display_name: """“Jag” (SoC)"""
-           text: """After a friendly ship at range 0-2 in your %LEFTARC% or %RIGHTARC% performs an attack, if you are not strained, you may acquire a lock on the defender."""
+           text: """Après qu’un vaisseau allié à portée 0–2 situé dans votre %LEFTARC% ou %RIGHTARC% a effectué une attaque, si vous n'êtes pas contraint, vous pouvez verrouiller le défenseur."""
         '"Contrail" (SoC)':
            display_name: """“Contrail” (SoC)"""
-           text: """While you defend or perform an attack, if the bearing of your revealed maneuver is the same as the enemy ship's, you may change 1 of the enemy ship's %FOCUS% results to a blank result. """
+           text: """Tant que vous défendez ou effectuez une attaque, si la direction de votre manœuvre révélée est la même que celle du vaisseau ennemi, vous pouvez changer 1 des résultats %FOCUS% du vaisseau ennemi en un résultat vierge. """
         '"Klick" (SoC)':
            display_name: """“Klick” (SoC)"""
-           text: """While a ship that you have locked at range 1-3 defends or performs an attack, you may spend 1 %CHARGE% to prevent range bonuses from being applied. """
+           text: """Tant qu’un vaisseau que vous avez verrouillé, situé à portée 1–3, défend ou effectue une attaque, vous pouvez dépenser 1 %CHARGE% pour empêcher l’application des bonus de portée."""
         '"Kickback" (SoC)':
            display_name: """“Kickback” (SoC)"""
-           text: """After you perform a %BARRELROLL% action, you may perform a red %LOCK% action. If you do, before you perfrom the %LOCK% action, you may gain 1 strain to treat it as white."""
+           text: """Après avoir effectué une action  %BARRELROLL%, vous pouvez effectuer une action %LOCK% rouge. Dans ce cas, avant que vous n'effectuiez l'action %LOCK%, vous pouvez gagner 1 marqueur de contrainte pour la considérer comme blanche."""
         '"Axe" (SoC)':
            display_name: """“Axe” (SoC)"""
-           text: """After you perform an attack, you may choose another friendly ship with the <b>Born for This</b> ability at range 0-2 in your %LEFTARC% or %RIGHTARC%. The chosen ship gains a lock on the defender."""
+           text: """Après avoir effectué une attaque, vous pouvez choisir un autre vaisseau allié doté de la capacité <b>Né pour Ça</b> situé à portée 0–2 et dans votre %LEFTARC% ou %RIGHTARC%. Le vaisseau choisi gagne un verrouillage sur le défenseur."""
         "Count Dooku (SoC)":
            display_name: """Count Dooku (SoC)"""
-           text: """During an attack, before a ship at range 0-2 rolls attack or defense dice, if all of your %FORCE% are active, you may spend 1 %FORCE% and name a result. If the roll does not contain the named result, the ship must change 1 die to that result."""
+           text: """Lors d'une attaque, avant qu’un vaisseau à portée 0–2 ne lance les dés d’attaque ou de défense, si toutes vos %FORCE% sont actives, vous pouvez dépenser 1 %FORCE% et nommer un résultat. Si le lancer ne contient pas le résultat nommé, le vaisseau doit changer 1 dé pour ce résultat."""
         "DBS-32C (SoC)":
            display_name: """DBS-32C (SoC)"""
-           text: """After you perform a %CALCULATE% action, you may spend 1 %CHARGE% to perform a %JAM% action."""
+           text: """Après avoir effectué une action %CALCULATE%, vous pouvez dépenser 1 %CHARGE% pour effectuer une action %JAM%."""
         "DBS-404 (SoC)":
            display_name: """DBS-404 (SoC)"""
-           text: """While you perform an attack at range 1, you <b>must</b> roll 1 additional die. After the attack hits, suffer 1 %CRIT% damage."""
+           text: """Tant que vous effectuez une attaque à portée d’attaque 1, vous <b>devez</b> lancer 1 dé supplémentaire. Après que l’attaque a touché, subissez 1 dégât %CRIT%."""
         "Baktoid Prototype (SoC)":
            display_name: """Baktoid Prototype (SoC)"""
-           text: """While you perform a special attack, if a friendly ship with the <strong>Networked Calculations</strong> ship ability has a lock on the defender, you may ingore the %FOCUS%, %CALCULATE% or %LOCK% requirement of the attack."""
+           text: """Tant que vous effectuez une attaque spéciale, si un vaisseau allié doté de la capacité de vaisseau <b>Calculs En Réseau</b> a un verrouillage sur le défenseur, vous pouvez ignorer les prérequis %FOCUS%, %CALCULATE% ou %LOCK% de cette attaque. """
         "DIS-347 (SoC)":
            display_name: """DIS-347 (SoC)"""
-           text: """At the start of the Engagement Phase, you may acquire a lock on an object at range 1-3 that has a friendly lock."""
+           text: """Au début de la phase d’engagement, vous pouvez verrouiller un objet à portée 1–3 qui a un verrouillage allié. """
         "DIS-T81 (SoC)":
            display_name: """DIS-T81 (SoC)"""
-           text: """While you defend or perform an attack, you may reroll any number of your dice. Then if you were defending, gain 1 strain token for each die that was rerolled. If you were attacking, gain 1 deplete token for each die that was rerolled instead."""
+           text: """Tant que vous défendez ou effectuez une attaque, vous pouvez relancer n’importe quel nombre de vos dés. Puis, si vous défendez, gagnez 1 marqueur de contrainte pour chaque dé ainsi relancé. Si vous avez attaqué, gagnez 1 marqueur d’épuisement pour chaque dé qui a été relancé à la place."""
         "Phlac-Arphocc Prototype (SoC)":
            display_name: """Phlac-Arphocc Prototype (SoC)"""
-           text: """At the start of the Engagement Phase, if there is an enemy ship in your %BULLSEYEARC%, gain a calculate token."""
+           text: """Au début de la phase d’engagement, s’il y a un vaisseau ennemi dans votre %BULLSEYEARC%, gagnez un marqueurs de calcul."""
         "DFS-081 (SoC)":
            display_name: """DFS-081 (SoC)"""
-           text: """While defending, you may spend 1 %CHARGE% and 1 calculate token to cancel 1 %CRIT% result."""
+           text: """Tant que vous défendez, vous pouvez dépenser 1 %CHARGE% et 1 marqueur de calcul pour annuler un résultats %CRIT%."""
         "DFS-311 (SoC)":
            display_name: """DFS-311 (SoC)"""
-           text: """At the start of the Engagement Phase, you may transfer 1 of your calculate tokens to another friendly ship at range 0-3."""
+           text: """Au début de la phase d’engagement, vous pouvez transférer 1 de vos marqueurs de calcul à un autre vaisseau allié à portée 0–3."""
         "Haor Chall Prototype (SoC)":
            display_name: """Haor Chall Prototype (SoC)"""
-           text: """After an enemy ship in your %BULLSEYEARC% declares a scenario feature or another friendly ship as the defender, you may perform a %CALCULATE% or %LOCK% action."""
+           text: """Après qu’un vaisseau ennemi dans votre %BULLSEYEARC% a déclaré un élément de scénario ou un autre vaisseau allié comme défenseur, vous pouvez effectuer une action %CALCULATE% ou %LOCK%."""
 
         # Hotshots and Aces 2
         "Corran Horn (X-Wing)":
