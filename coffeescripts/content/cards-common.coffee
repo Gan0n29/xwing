@@ -1690,7 +1690,6 @@ exportObj.basicCardData = ->
             agility: 3
             hull: 2
             shields: 2
-            keyword: ["TIE"]
             chassis: "Twin Ion Engines"
             actions: [
                 "Focus"
@@ -9264,6 +9263,7 @@ exportObj.basicCardData = ->
             skill: 2
             ship: "Nimbus-class V-Wing"
             points: 26
+            keyword: ["TIE"]
             slots: [
                 "Astromech"
                 "Modification"
@@ -9277,7 +9277,7 @@ exportObj.basicCardData = ->
             skill: 3
             ship: "Nimbus-class V-Wing"
             points: 28
-            keyword: ["Clone"]
+            keyword: ["Clone", "TIE"]
             slots: [
                 "Talent"
                 "Astromech"
@@ -9293,6 +9293,7 @@ exportObj.basicCardData = ->
             unique: true
             ship: "Nimbus-class V-Wing"
             points: 31
+            keyword: ["TIE"]
             slots: [
                 "Talent"
                 "Astromech"
@@ -9310,7 +9311,7 @@ exportObj.basicCardData = ->
             points: 31
             charge: 1
             recurring: 1
-            keyword: ["Clone"]
+            keyword: ["Clone", "TIE"]
             slots: [
                 "Talent"
                 "Astromech"
@@ -9326,7 +9327,7 @@ exportObj.basicCardData = ->
             unique: true
             ship: "Nimbus-class V-Wing"
             points: 32
-            keyword: ["Clone"]
+            keyword: ["Clone", "TIE"]
             slots: [
                 "Talent"
                 "Astromech"
@@ -9344,7 +9345,7 @@ exportObj.basicCardData = ->
             unique: true
             ship: "Nimbus-class V-Wing"
             points: 31
-            keyword: ["Clone"]
+            keyword: ["Clone", "TIE"]
             slots: [
                 "Talent"
                 "Astromech"
@@ -11889,9 +11890,9 @@ exportObj.basicCardData = ->
             faction: "Galactic Republic"
             ship: "Eta-2 Actis"
             skill: 6
-            points: 200
+            points: 51
             force: 3
-            keyword: ["Dark Side"]
+            keyword: ["Dark Side", "Light Side"]
             slots: [
                 "Force"
                 "Talent"
@@ -11910,8 +11911,9 @@ exportObj.basicCardData = ->
             faction: "Galactic Republic"
             ship: "Eta-2 Actis"
             skill: 5
-            points: 200
+            points: 47
             force: 3
+            keyword: ["Light Side"]
             slots: [
                 "Force"
                 "Talent"
@@ -11930,8 +11932,9 @@ exportObj.basicCardData = ->
             faction: "Galactic Republic"
             ship: "Eta-2 Actis"
             skill: 4
-            points: 200
+            points: 43
             force: 2
+            keyword: ["Light Side"]
             slots: [
                 "Force"
                 "Talent"
@@ -11950,8 +11953,9 @@ exportObj.basicCardData = ->
             faction: "Galactic Republic"
             ship: "ARC-170"
             skill: 5
-            points: 200
+            points: 54
             chassis: "Born for This"
+            keyword: ["Clone"]
             ship_override:
                 shields: 4
             slots: [
@@ -11975,8 +11979,9 @@ exportObj.basicCardData = ->
             ship: "ARC-170"
             skill: 4
             charge: 1
-            points: 200
+            points: 51
             chassis: "Born for This"
+            keyword: ["Clone"]
             slots: [
                 "Talent"
                 "Torpedo"
@@ -11997,8 +12002,9 @@ exportObj.basicCardData = ->
             faction: "Galactic Republic"
             ship: "ARC-170"
             skill: 3
-            points: 200
+            points: 50
             chassis: "Born for This"
+            keyword: ["Clone"]
             slots: [
                 "Torpedo"
                 "Crew"
@@ -12018,8 +12024,9 @@ exportObj.basicCardData = ->
             faction: "Galactic Republic"
             ship: "Nimbus-class V-Wing"
             skill: 5
-            points: 200
+            points: 33
             chassis: "Born for This"
+            keyword: ["Clone"]
             slots: [
                 "Talent"
                 "Astromech"
@@ -12038,16 +12045,16 @@ exportObj.basicCardData = ->
             faction: "Galactic Republic"
             ship: "Nimbus-class V-Wing"
             skill: 4
-            points: 200
+            points: 37
             charge: 1
             recurring: 1
             chassis: "Born for This"
+            keyword: ["Clone"]
             ship_override:
                 shields: 3
             slots: [
                 "Talent"
                 "Astromech"
-                "Modification"
                 "Configuration"
             ]
         }
@@ -12062,14 +12069,14 @@ exportObj.basicCardData = ->
             faction: "Galactic Republic"
             ship: "V-19 Torrent"
             skill: 5
-            points: 200
+            points: 34
             chassis: "Born for This"
+            keyword: ["Clone"]
             ship_override:
                 hull: 6
             slots: [
                 "Talent"
                 "Missile"
-                "Modification"
             ]
         }
         {
@@ -12083,14 +12090,14 @@ exportObj.basicCardData = ->
             faction: "Galactic Republic"
             ship: "V-19 Torrent"
             skill: 3
-            points: 200
+            points: 33
             chassis: "Born for This"
+            keyword: ["Clone"]
             ship_override:
                 hull: 6
             slots: [
                 "Talent"
                 "Missile"
-                "Modification"
             ]
         }
         {
@@ -12104,7 +12111,7 @@ exportObj.basicCardData = ->
             faction: "Separatist Alliance"
             ship: "Sith Infiltrator"
             skill: 5
-            points: 200
+            points: 64
             force: 3
             keyword: ["Dark Side"]
             slots: [
@@ -12116,7 +12123,6 @@ exportObj.basicCardData = ->
                 "Device"
                 "Modification"
                 "Title"
-                "Tactical Relay"
             ]
         }
         {
@@ -12130,7 +12136,7 @@ exportObj.basicCardData = ->
             faction: "Separatist Alliance"
             ship: "Hyena-Class Droid Bomber"
             skill: 3
-            points: 200
+            points: 32
             ship_override:
                 actions: [
                     "Calculate"
@@ -12157,7 +12163,7 @@ exportObj.basicCardData = ->
             faction: "Separatist Alliance"
             ship: "Hyena-Class Droid Bomber"
             skill: 4
-            points: 200
+            points: 31
             slots: [
                 "Torpedo"
                 "Missile"
@@ -12177,7 +12183,7 @@ exportObj.basicCardData = ->
             ship: "Hyena-Class Droid Bomber"
             skill: 1
             max_per_squad: 2
-            points: 200
+            points: 28
             slots: [
                 "Sensor"
                 "Missile"
@@ -12197,7 +12203,7 @@ exportObj.basicCardData = ->
             faction: "Separatist Alliance"
             ship: "Droid Tri-Fighter"
             skill: 3
-            points: 200
+            points: 37
             slots: [
                 "Talent"
                 "Sensor"
@@ -12217,7 +12223,7 @@ exportObj.basicCardData = ->
             faction: "Separatist Alliance"
             ship: "Droid Tri-Fighter"
             skill: 4
-            points: 200
+            points: 39
             slots: [
                 "Talent"
                 "Sensor"
@@ -12236,7 +12242,7 @@ exportObj.basicCardData = ->
             faction: "Separatist Alliance"
             ship: "Droid Tri-Fighter"
             skill: 5
-            points: 200
+            points: 40
             max_per_squad: 2
             slots: [
                 "Talent"
@@ -12258,7 +12264,7 @@ exportObj.basicCardData = ->
             ship: "Vulture-class Droid Fighter"
             skill: 3
             charge: 2
-            points: 200
+            points: 23
             slots: [
                 "Missile"
                 "Configuration"
@@ -12276,7 +12282,7 @@ exportObj.basicCardData = ->
             faction: "Separatist Alliance"
             ship: "Vulture-class Droid Fighter"
             skill: 1
-            points: 200
+            points: 23
             slots: [
                 "Missile"
                 "Configuration"
@@ -12294,7 +12300,7 @@ exportObj.basicCardData = ->
             ship: "Vulture-class Droid Fighter"
             skill: 1
             max_per_squad: 2
-            points: 200
+            points: 22
             slots: [
                 "Missile"
                 "Configuration"
