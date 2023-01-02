@@ -1341,6 +1341,9 @@ exportObj.cardLoaders.English = () ->
         "Vi Moradi":
            display_name: """Vi Moradi"""
            text: """<strong>Setup:</strong> After placing forces, assign the <strong>Compromising Intel</strong> condition to 1 enemy ship."""
+        "Logistics Division Pilot":
+           display_name: """Logistics Division Pilot"""
+           text: """<i class="descriptive-text">Without support of the New Republic, members of the Resistance often pull double duty as transport pilots or mechanics, putting their skills and technical knowledge to use in the fight against the First Order.</i>"""
         "Shadow Squadron Veteran":
            text: """<i class="descriptive-text">Shadow Squadron has served since the early days of the Clone Wars, winning victories at Kadavo and against the flagship of Grievous, Malevolence.</i>"""
         "Red Squadron Bomber":
@@ -1502,6 +1505,9 @@ exportObj.cardLoaders.English = () ->
         "Gideon Hask (Xi Shuttle)":
            display_name: """Gideon Hask"""
            text: """While you or a friendly small ship at range 0-2 performs a primary attack against a damaged defender, if the attacker rolled 2 or fewer attack dice, it may gain 1 strain token to roll 1 additional attack die."""
+        "First Order Courier":
+           display_name: """First Order Courier"""
+           text: """<i class="descriptive-text">The First Order lurks in many bases hidden in shadowy corners of the galaxy, slowly spreading its insidious influence.</i>"""
         "Loyalist Volunteer":
            text: """<i class="descriptive-text">The Kuat Systems Engineering Alpha-3 Nimbus-class V-wing is the vessel of choice for clone and non-clone starfighter pilots alike. The techniques pioneered to mass-produce its precision ion engines will later be crucial in the development of the TIE series by Sienar Fleet Systems.</i>"""
         "Shadow Squadron Escort":
@@ -1522,7 +1528,9 @@ exportObj.cardLoaders.English = () ->
            text: """<strong>Setup:</strong> Lose 2 %CHARGE%. %LINEBREAK% During the System Phase, you may assign 1 of your secret conditions to yourself facedown: <strong> %LINEBREAK% You Should Thank Me %LINEBREAK% You'd Better Mean Business. </strong>"""
         "Jango Fett":
            text: """While you defend or perform a primary attack, if the difficulty of your revealed maneuver is less than that of the enemy ship's, you may change 1 of the enemy ship's %FOCUS% results to a blank result."""
-
+        "Separatist Racketeer":
+           display_name: """Separatist Racketeer"""
+           text: """<i class="descriptive-text">Emboldened by the bitter stalemate of the Outer Rim Sieges, mercenary groups across the galaxy take the opportunity to profit from the ongoing war.</i>"""
         "Hera Syndulla (B-Wing)":
            display_name: """Hera Syndulla"""
            text: """While another friendly ship at range 1-2 defends or performs an attack, during a Modify Dice step, you may transfer 1 of your focus tokens, evade tokens, or locks to that ship. %LINEBREAK% <i>Errata (RR: 1.2.0 [06/14/2021]): Added a specific timing window to prevent players from circumventing the downsides of the Pilot Ability</i>"""
@@ -1579,6 +1587,12 @@ exportObj.cardLoaders.English = () ->
            text: """Before you engage, if you are not in any enemy ship's %FRONTARC%, you may acquire a lock on an enemy ship in your %FULLFRONTARC%."""
         "Padric":
            text: """After a friendly device that you have locked detonates, each enemy ship at range 0-1 of that device gains 1 strain token."""
+        "Jinata Security Officer":
+           display_name: """Jinata Security Officer"""
+           text: """<i class="descriptive-text">Headquartered on the former Imperial stronghold of Vardos, Jinata Security continues its reconstruction efforts on the devastated planet, even while collaborating with the First Order rearmament program.</i>"""
+        "Amaxine Warrior":
+           display_name: """Amaxine Warrior"""
+           text: """<i class="descriptive-text">Decades after the Battle of Endor, former Imperials remain active in the New Republic. many have joined paramilitary organizations, such as the Amaxine Warriors, that appropriate martial traditions and cultures to spread the hateful ideology of the First Order amongst those most vulnerable to it.</i>"""
         "New Republic Patrol":
            text: """<i class="descriptive-text">Designed for customization, the BTA-NR2 Y-wing is used by numerous military organizations across the galaxy in a variety of roles, from law enforcement craft to wartime bombers.</i>"""
         "Kijimi Spice Runner":
@@ -1647,21 +1661,33 @@ exportObj.cardLoaders.English = () ->
         "Moff Gideon":
            display_name: """Moff Gideon"""
            text: """While an enemy ship at range 1-3 defends, before attack dice are rolled, you may spend 1 %CHARGE% and choose a friendly ship at range 0-1 of the defender. If you do, defense dice cannot be modified during this attack and the chosen friendly ship gains 1 strain token."""
+        "Shadow Collective Operator":
+           display_name: """Shadow Collective Operator"""
+           text: """<i class="descriptive-text">The former Death Watch soldiers who have sworn loyalty to Lord Maul continue to operate their versatile Gauntlet Fighters, sometimes using them as bombers in Maul's private battles.</i>"""
         "Maul":
            display_name: """Maul"""
            text: """While you perform a %COORDINATE% action, if you choose a ship with an initiative lower than yours, you may spend 1 %FORCE%. If you do, treat the action as white and you may coordinate 1 additional friendly ship with an initiative lower than yours; each friendly ship you coordinate this way gains 1 strain token."""
         "Bo-Katan Kryze":
            display_name: """Bo-Katan Kryze"""
            text: """Before a friendly ship at range 0-2 activates, you may spend 1 %CHARGE%. If you do, that ship may gain 1 strain token to remove 1 non-stress red or orange token."""
+        "Death Watch Warrior":
+           display_name: """Death Watch Warrior"""
+           text: """<i class="descriptive-text">Despite uncertain Separatist support, the Death Watch plots to restore Mandalore's warrior past and traditions. The Gauntlet Fighter's maneuverability and drop seats make it an excellent platform to deploy these proud commandos into battle.</i>"""
         "Bo-Katan Kryze (Republic)":
            display_name: """Bo-Katan Kryze"""
            text: """After you fully execute a maneuver, you may gain 1 deplete token to choose an object in your %FRONTARC% at range 1-2. If you do, another friendly ship may perform a %LOCK% action to lock that object."""
+        "Nite Owl Liberator":
+           display_name: """Nite Owl Liberator"""
+           text: """<i class="descriptive-text">Following Bo-Katan Kryze, some former members of Death Watch have rejected Maul's claims to rule Mandalore and made a reluctant alliance with the Republic. The Gauntlet Fighters that the Nite Owls retain are central to mounting an invasion to free their world.</i>"""
         "Captain Hark":
            display_name: """Captain Hark"""
            text: """After you reveal a [0 %STOP%] maneuver, if you are equipped with <b>Swivel Wings (Down)</b>, you <b>must</b> execute a [1 %BANKLEFT%] or [1 %BANKRIGHT%] sideslip maneuver of the same difficulty instead. After you execute that maneuver, you <b>must</b> flip <b>Swivel Wings (Down)</b>."""
         "Gar Saxon":
            display_name: """Gar Saxon"""
            text: """While a friendly unit at range 0-2 performs a primary attack, if the attacker is in the defender's %REARARC%, you may spend 1 %CHARGE%. If you do, the attacker rolls 1 additional die."""
+        "Imperial Super Commando":
+           display_name: """Imperial Super Commando"""
+           text: """<i class="descriptive-text">Under the rule of Viceroy Gar Saxon, the ruthless warriors that once served Lord Maul have been transformed into enforcers of the new order. The Mandalorian Gauntlet Fighter continues to serve as the combat transport of choice for these Imperial Super Commandos.</i>"""
         "Pre Vizsla":
            display_name: """Pre Vizsla"""
            text: """While you perform an attack, if the defender's initiative is equal to or greater than yours, you may spend 2 %CHARGE% to roll 1 additional die."""
@@ -1674,15 +1700,21 @@ exportObj.cardLoaders.English = () ->
         '"Chopper" (Gauntlet Fighter)':
            display_name: """Chopper"""
            text: """At the start of the Engagement Phase, each enemy ship at range 0 gains 2 jam tokens."""
-        "The Mandalorian":
-           display_name: """The Mandalorian"""
-           text: """While you defend or perform an attack, if you are in the %FRONTARC% at range 1-2 of 2 or more enemy ships, you may change 1 of your blank results to a %FOCUS% result."""
+        "Ezra Bridger (Gauntlet Fighter)":
+           display_name: """Ezra Bridger"""
+           text: """While you defend or perform an attack, if you are stressed, you may spend 1 %FORCE% to change up to 2 of your %FOCUS% results to %EVADE% or %HIT% results."""
+        "Mandalorian Resistance Pilot":
+           display_name: """Mandalorian Resistance Pilot"""
+           text: """<i class="descriptive-text">Some Mandalorian warriors, such as those of Clan Kryze, remain unbowed and continue to fight the collaborationist rule of Clan Saxon and its Imperial masters. The Gauntlet Fighter's mix of firepower and speed makes it an ideal transport for their raids.</i>"""
         "Q9-0":
            display_name: """Q9-0"""
            text: """After you fully execute an advanced maneuver, you may perform a %CALCULATE% or %BARRELROLL% action, even while stressed. If you do, gain 1 strain token."""
         "Guild Bounty Hunter":
            display_name: """Guild Bounty Hunter"""
            text: """While you perform an attack at attack range 1-2, you may spend 1 non-recurring %CHARGE% from 1 of your equipped %ILLICIT% upgrades to change 1 %FOCUS% result to a %CRIT% result."""
+        "Outer Rim Enforcer":
+           display_name: """Outer Rim Enforcer"""
+           text: """<i class="descriptive-text">Designed as a military craft, the ST-70 Assault Ship is a durable and versatile vessel. For someone traveling in the Outer Rim, this ship can be a transport, combat craft, and home all in one.</i>"""
         "Cad Bane":
            display_name: """Cad Bane"""
            text: """After you perform an attack that hits, you may spend 2 %CHARGE% to transfer 1 of your non-lock red or orange tokens to the defender. """
@@ -1697,7 +1729,7 @@ exportObj.cardLoaders.English = () ->
            text: """At the start of the Engagement Phase, you may choose 1 enemy ship in your %FRONTARC%. If you do, treat your initiative as equal to that ship's until the end of the round. """
         "Outer Rim Hunter":
            display_name: """Outer Rim Hunter"""
-           text: """<i class="descriptive-text">Due to its association with Cad Bane, the Rogue-class Starfighter has found its way into the hands of other bounty hunters, especially those who operate in the lawless Outer Rim. </i>"""
+           text: """<i class="descriptive-text">Due to its association with Cad Bane, the Rogue-class Starfighter has found its way into the hands of other bounty hunters, especially those who operate in the lawless Outer Rim.</i>"""
         "IG-101":
            display_name: """IG-101"""
            text: """At the start of the System Phase, you may repair 1 faceup damage card."""
@@ -1709,7 +1741,7 @@ exportObj.cardLoaders.English = () ->
            text: """After you perform an attack that missed, you may choose 1 enemy ship in your %BULLSEYEARC% and gain 1 deplete token. If you do, that ship suffers 1 %HIT% damage."""
         "MagnaGuard Executioner":
            display_name: """MagnaGuard Executioner"""
-           text: """"""
+           text: """<i class="descriptive-text">In addition to guarding Separatist leaders, MagnaGuard droids are sometimes dispatched in swift Rogue-class Starfighters to eliminate their enemies.</i>"""
         "MagnaGuard Protector":
            display_name: """MagnaGuard Protector"""
            text: """<strong>Setup:</strong> After placing forces, assign the <b>Guarded</b> condition to 1 friendly ship other than the <b>MagnaGuard Protector</b>"""
@@ -1833,7 +1865,7 @@ exportObj.cardLoaders.English = () ->
            text: """While a ship that you have locked at range 1-3 defends or performs an attack, you may spend 1 %CHARGE% to prevent range bonuses from being applied. """
         '"Kickback" (SoC)':
            display_name: """“Kickback” (SoC)"""
-           text: """After you perform a %BARRELROLL% action, you may perform a red %LOCK% action. If you do, before you perfrom the %LOCK% action, you may gain 1 strain to treat it as white."""
+           text: """After you perform a %BARRELROLL% action, you may perform a red %LOCK% action. If you do, before you perform the %LOCK% action, you may gain 1 strain to treat it as white."""
         '"Axe" (SoC)':
            display_name: """“Axe” (SoC)"""
            text: """After you perform an attack, you may choose another friendly ship with the <b>Born for This</b> ability at range 0-2 in your %LEFTARC% or %RIGHTARC%. The chosen ship gains a lock on the defender."""
@@ -1880,7 +1912,7 @@ exportObj.cardLoaders.English = () ->
            text: """While you have 2 or fewer stress tokens, you may perform actions, even while stressed."""
         "Keo Venzee":
            display_name: """Keo Venzee"""
-           text: """If you have no active %FORCE%, after you reveal a bank [%BANKLEFT% or %BANKRIGHT%] or turn [%TURNLEFT% or %TURNRIGHT%] maneuver, you may increase the difficulty of the maneuver. If yo udo, perform that maneuver as a sideslip and recover 1 %FORCE%."""
+           text: """If you have no active %FORCE%, after you reveal a bank [%BANKLEFT% or %BANKRIGHT%] or turn [%TURNLEFT% or %TURNRIGHT%] maneuver, you may increase the difficulty of the maneuver. If you do, perform that maneuver as a sideslip and recover 1 %FORCE%."""
         '"Pops" Krail':
            display_name: """“Pops” Krail"""
            text: """After you fully execute a white maneuver, you may choose a friendly ship at range 0-1. If you do, it may perform a %FOCUS% action."""
@@ -2447,7 +2479,7 @@ exportObj.cardLoaders.English = () ->
            text: """After you roll dice, you may spend 1 green token to reroll up to 2 of your results."""
         "Lando's Millennium Falcon":
            display_name: """Lando’s Millennium Falcon"""
-           text: """1 escape shuttle may dock with you.%LINEBREAK%While you have an escape shuttle docked, you may treat its shields as if they were on your ship card.%LINEBREAK%While you perform a primary attack against a stressed ship, roll 1 additional attack die. %LINEBREAK%<i>Errata (since rules reference 1.1.0): Replaced “spend" with "treat"</i>"""
+           text: """1 Escape Craft may dock with you.%LINEBREAK%While you have an Escape Craft docked, you may treat its shields as if they were on your ship card.%LINEBREAK%While you perform a primary attack against a stressed ship, roll 1 additional attack die. %LINEBREAK%<i>Errata (since rules reference 1.1.0): Replaced “spend" with "treat"</i>"""
         "Latts Razzi":
            display_name: """Latts Razzi"""
            text: """While you defend, if the attacker is stressed, you may remove 1 stress from the attacker to change 1 of your blank/%FOCUS% results to an %EVADE% result."""
