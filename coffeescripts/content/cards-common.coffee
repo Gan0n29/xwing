@@ -26258,10 +26258,12 @@ exportObj.setupCommonCardData = (basic_cards) ->
     exportObj.upgradesBySlotCanonicalName = {}
     exportObj.upgradesBySlotXWSName = {}
     exportObj.upgradesBySlotUniqueName = {}
+    exportObj.upgradesByUniqueName = {}
     for upgrade_name, upgrade of exportObj.upgrades
         (exportObj.upgradesBySlotCanonicalName[upgrade.slot] ?= {})[upgrade.canonical_name] = upgrade
         (exportObj.upgradesBySlotXWSName[upgrade.slot] ?= {})[upgrade.xws] = upgrade
         (exportObj.upgradesBySlotUniqueName[upgrade.slot] ?= {})[upgrade.canonical_name.getXWSBaseName()] = upgrade
+        (exportObj.upgradesByUniqueName[upgrade.canonical_name.getXWSBaseName()] ?= []).push upgrade
 
     exportObj.conditionsById = {}
     for condition_name, condition of exportObj.conditions
@@ -26283,13 +26285,12 @@ exportObj.setupCommonCardData = (basic_cards) ->
     for condition_name, condition of exportObj.conditions
         (exportObj.conditionsByCanonicalName ?= {})[condition.canonical_name] = condition
 
-    exportObj.expansions = Object.keys(exportObj.expansions).sort()
-
     exportObj.chassisByCanonicalName = {}
     for chassis_name, chassis of exportObj.chassis
         (exportObj.chassisByCanonicalName ?= {})[chassis.canonical_name] = chassis
 
-
+        
+    exportObj.expansions = Object.keys(exportObj.expansions).sort()
 
 exportObj.setupTranslationCardData = (pilot_translations, upgrade_translations, condition_translations, chassis_translations) ->
     for upgrade_name, translations of upgrade_translations
