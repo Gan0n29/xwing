@@ -12137,6 +12137,7 @@ exportObj.basicCardData = ->
             ship: "Hyena-Class Droid Bomber"
             skill: 3
             points: 32
+            charge: 2
             ship_override:
                 actions: [
                     "Calculate"
@@ -17350,6 +17351,7 @@ exportObj.basicCardData = ->
         {
             name: "Bo-Katan Kryze (Republic/Separatist)"
             canonical_name: 'Bo-Katan Kryze'.canonicalize()
+            xws: "bokatankryze"
             id: 425
             points: 5
             slot: "Crew"
