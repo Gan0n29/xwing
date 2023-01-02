@@ -38,8 +38,7 @@ exportObj.translations['Français'] =
         "Cargo": "Cargaison"
         "Command": "Commandement"
         "Tactical Relay": "Relais Tactique"
-        "Hardpointship": "Emplacement d'Arme"
-        "Weapon Hardpoint": "Emplacement d'Arme"
+        "HardpointShip": "Emplacement d'Arme"
         "VersatileShip": "Châssis Polyvalent"
 
     restrictions:
@@ -3108,7 +3107,7 @@ exportObj.cardLoaders['Français'] = () ->
            text: """Tant que vous effectuez une action rouge %BOOST%. %BARRELROLL%, ou %SLAM%, vous <b>devez</b> utiliser un gabarit de 1 vitesse supérieure, si possible."""
         "R2-D2 (Resistance)":
            display_name: """R2-D2"""
-           text: """DPendant la phase de dénouement, vous pouvez dépenser 1 %CHARGE% et 1 %SHIELD% pour retirer 1 marqueur rouge.%LINEBREAK% Pendant la phase de dénouement, si vous n’avez aucun %SHIELD%, vous pouvez dépenser 2 %CHARGE% pour récupérer 1 %SHIELD% et gagner 1 marqueur d’épuisement."""
+           text: """Pendant la phase de dénouement, vous pouvez dépenser 1 %CHARGE% et 1 %SHIELD% pour retirer 1 marqueur rouge.%LINEBREAK% Pendant la phase de dénouement, si vous n’avez aucun %SHIELD%, vous pouvez dépenser 2 %CHARGE% pour récupérer 1 %SHIELD% et gagner 1 marqueur d’épuisement."""
         "R6-D8":
            display_name: """R6-D8"""
            text: """Tant que vous effectuez une attaque, vous pouvez relancer un nombre de dés d’attaque inférieur ou égal au nombre de vaisseaux alliés à portée 0–3 qui ont le défenseur dans leur %BULLSEYEARC%."""
@@ -3685,7 +3684,7 @@ exportObj.cardLoaders['Français'] = () ->
            text: """<strong>Types :</strong> Engin, Mine %LINEBREAK%Après qu'un vaisseau a chevauché ou s'est déplacé à travers cet engin, ce dernier explose. %LINEBREAK%Lorsque cet engin explose, le vaisseau lance 2 dés d'attaque. Puis ce vaisseau subit 1 dégât %HIT% plus 1 dégât %HIT%/%CRIT% pour chaque résultat correspondant obtenu."""
         "DRK-1 Probe Droid":
            display_name: """Droïde Sondes DRK-1"""
-           text: """Initiative : 0 <br>Agilité : 3 <br>Coque : 1 %LINEBREAK%<strong>Types :</strong> Engin, Distant %LINEBREAK%<strong>Phase de système :</strong> le joueur qui contrôle le droïde sonde DRK-1 peut choisir un gabarit [2 %BANKLEFT%], [2 %STRAIGHT%] ou [2 %BANKRIGHT%]et le caler contre n’importe quelle série de glissières du DRK-1. Le joueur repositionne ensuite le DRK-1, en le plaçant à l’autre extrémité du gabarit. Il peut être placé en chevauchant un objet. S’il chevauche un vaisseau, utilisez le marqueur de position pour symboliser la position du vaisseau, puis placez le vaisseau sur l’engin distant. %LINEBREAK%<strong>Phase d’activation, d’engagement et de dénouement :</strong> pas d’effet. %LINEBREAK%<strong>Autres règles :</strong> tant qu’un vaisseau verrouille un objet ou brouille un vaisseau ennemi, il peut mesurer la portée à partir d’un droïde sonde DRK-1 allié. %LINEBREAK%Après qu’un vaisseau ennemi a exécuté une manoeuvre et qu’il se retrouve à chevaucher un droïde sonde DRK-1, le contrôleur du vaisseau lance 1 dé d’attaque. Sur un résultat %FOCUS%, le droïde sonde DRK-1 subit 1 dégât %HIT%."""
+           text: """Initiative : 0 <br>Agilité : 3 <br>Coque : 1 %LINEBREAK%<strong>Types :</strong> Engin, Distant %LINEBREAK%<strong>Phase de système :</strong> le joueur qui contrôle le droïde sonde DRK-1 peut choisir un gabarit [2 %BANKLEFT%], [2 %STRAIGHT%] ou [2 %BANKRIGHT%] et le caler contre n’importe quelle série de glissières du DRK-1. Le joueur repositionne ensuite le DRK-1, en le plaçant à l’autre extrémité du gabarit. Il peut être placé en chevauchant un objet. S’il chevauche un vaisseau, utilisez le marqueur de position pour symboliser la position du vaisseau, puis placez le vaisseau sur l’engin distant. %LINEBREAK%<strong>Phase d’activation, d’engagement et de dénouement :</strong> pas d’effet. %LINEBREAK%<strong>Autres règles :</strong> tant qu’un vaisseau verrouille un objet ou brouille un vaisseau ennemi, il peut mesurer la portée à partir d’un droïde sonde DRK-1 allié. %LINEBREAK%Après qu’un vaisseau ennemi a exécuté une manoeuvre et qu’il se retrouve à chevaucher un droïde sonde DRK-1, le contrôleur du vaisseau lance 1 dé d’attaque. Sur un résultat %FOCUS%, le droïde sonde DRK-1 subit 1 dégât %HIT%."""
         "Buzz Droid Swarm":
            display_name: """Nuée De Droïdes Buzz"""
            text: """Initiative : 0 <br>Agilité : 3 <br>Coque : 1 %LINEBREAK%<strong>Types:</strong> Engin, Distant %LINEBREAK%<strong>Phase de système, d’activation et de dénouement :</strong> pas d’effet. %LINEBREAK%<strong>Phase d’engagement :</strong> lorsque vous vous engagez, chaque vaisseau ennemi à portée 0 de la Nuée de Droïde Buzz subit 1 %CRIT%. %LINEBREAK%<strong>Autres règles :</strong> après qu’un vaisseau ennemi a chevauché ou s’est déplacé à travers une nuée de droïdes buzz, le joueur contrôlant la nuée la repositionne en calant sa languette entre les glissières avant ou arrière de ce vaisseau (le vaisseau est à portée 0 de la nuée). %LINEBREAK%La nuée ne peut pas être calée entre une paire de glissières si cela l’amène à chevaucher un objet. Si elle ne peut pas être placée entre les glissières d’un vaisseau, sont contrôleur doit la placer entre la paire de glissières située de l’autre côté du vaisseau. Si elle ne peut pas être placée entre cette autre paire de glissière, la nuée et le vaisseau qui l’a chevauchée ou qui s’est déplacé à travers subissent chacun 1 dégât%HIT%."""
