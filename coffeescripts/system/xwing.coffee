@@ -1872,15 +1872,12 @@ class exportObj.SquadBuilder
                     else
                         throw new Error("Unique #{type} '#{unique.name}' already claimed as pilot")
 
-            # Claim other upgrades with the same canonical name
-            for otherslot, bycanonical of exportObj.upgradesBySlotUniqueName
-                for canonical, other of bycanonical
-                    if canonical.getXWSBaseName() == unique.canonical_name.getXWSBaseName() and unique != other
-                        if @uniqueIndex(other, 'Upgrade') < 0
-                            # console.log "Also claiming unique #{other.canonical_name} (#{otherslot}) in use"
-                            @uniques_in_use['Upgrade'].push other
-                        # else
-                        #     throw new Error("Unique #{type} '#{unique.name}' already claimed as #{otherslot}")
+            for other in (exportObj.upgradesByUniqueName[unique.canonical_name.getXWSBaseName()] or [])
+                if @uniqueIndex(other, 'Upgrade') < 0
+                    # console.log "Also claiming unique pilot #{other.canonical_name} in use"
+                    @uniques_in_use['Upgrade'].push other
+                else
+                    throw new Error("Unique #{type} '#{other.name}' already claimed as pilot")
 
             # Solitary Check
             if unique.solitary?
