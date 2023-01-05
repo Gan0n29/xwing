@@ -11964,7 +11964,6 @@ exportObj.basicCardData = ->
                 "Crew"
                 "Gunner"
                 "Astromech"
-                "Modification"
             ]
         }
         {
