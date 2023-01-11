@@ -1700,12 +1700,12 @@ exportObj.cardLoaders.English = () ->
         '"Chopper" (Gauntlet Fighter)':
            display_name: """Chopper"""
            text: """At the start of the Engagement Phase, each enemy ship at range 0 gains 2 jam tokens."""
-        "Ezra Bridger (Gauntlet Fighter)":
-           display_name: """Ezra Bridger"""
-           text: """While you defend or perform an attack, if you are stressed, you may spend 1 %FORCE% to change up to 2 of your %FOCUS% results to %EVADE% or %HIT% results."""
         "Mandalorian Resistance Pilot":
            display_name: """Mandalorian Resistance Pilot"""
            text: """<i class="descriptive-text">Some Mandalorian warriors, such as those of Clan Kryze, remain unbowed and continue to fight the collaborationist rule of Clan Saxon and its Imperial masters. The Gauntlet Fighter's mix of firepower and speed makes it an ideal transport for their raids.</i>"""
+        "The Mandalorian":
+           display_name: """The Mandalorian"""
+           text: """While you defend or perform an attack, if you are in the %FRONTARC% at range 1-2 of 2 or more enemy ships, you may change 1 of your blank results to a %FOCUS% result."""
         "Q9-0":
            display_name: """Q9-0"""
            text: """After you fully execute an advanced maneuver, you may perform a %CALCULATE% or %BARRELROLL% action, even while stressed. If you do, gain 1 strain token."""
@@ -2998,7 +2998,7 @@ exportObj.cardLoaders.English = () ->
         "Feedback Ping":
            text: """After an enemy ship executes a maneuver, if it is at range 0-1 of a friendly device, you may acquire a lock on that ship, ignoring range restrictions."""
         "Electro-Chaff Missiles":
-           text: """During the System Phase, you may spend 1 %CHARGE% from this card to launch 1 electro-chaff cloud using the [3 %BANKLEFT%], [3 %BANKRIGHT%], or [4 %STRAIGHT%] template. Then place 1 fuse marker on it. %LINEBREAK% This card’s %CHARGE% cannot be recovered.."""
+           text: """During the System Phase, you may spend 1 %CHARGE% from this card to launch 1 electro-chaff cloud using the [3 %BANKLEFT%], [3 %BANKRIGHT%], or [4 %STRAIGHT%] template. Then place 1 fuse marker on it. %LINEBREAK% This card’s %CHARGE% cannot be recovered."""
         "Babu Frik":
            text: """Before you would gain a non-lock red or orange token, you may spend 1 %CHARGE% to place it on this card instead. During the System Phase, if there are 1 or more tokens on this card, you <b>must</b> spend 1 %CHARGE%. If you cannot, remove those tokens and gain matching tokens."""
         "Ahsoka Tano (Crew)":
