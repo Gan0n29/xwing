@@ -12113,6 +12113,14 @@ exportObj.basicCardData = ->
             points: 64
             force: 3
             keyword: ["Dark Side"]
+            ship_override:
+                actions: [
+                    "Focus"
+                    "Lock"
+                    "Jam"
+                    "R-Barrel Roll"
+                    "R-Cloak"
+                ]
             slots: [
                 "Force"
                 "Cannon"
@@ -12121,7 +12129,7 @@ exportObj.basicCardData = ->
                 "Crew"
                 "Device"
                 "Modification"
-                "Title"
+                "Tactical Relay"
             ]
         }
         {
