@@ -147,7 +147,7 @@ exportObj.translations.Deutsch =
         "Epic": "Episch"
         "Quickbuild": "Schnellbau"
         "Hyperspace": "Hyperraum"
-        "Extended": "Extended"
+        "Standard": "Standard"
         "limited": "limitiert"
         "Unnamed Squadron": "Unbenannte Staffel"
         "Unsaved Squadron": "Nicht gespeicherte Staffel"
