@@ -232,7 +232,7 @@ exportObj.translations['Français'] =
             "Enlève : #{translator('ui', data)}"
         "Less upgrades": "Moins d'améliorations"
         # Type selector
-        'Extended': 'Standard'
+        'Standard': 'Standard'
         'Hyperspace': 'Hyperespace'
         'Epic': 'Épique'
         'Quickbuild': 'Quick Build'
