@@ -115,7 +115,7 @@ exportObj.translations.日本語 =
         'Collection warning': 'あなたのコレクションではこのリストを編成できません!'
         'Ship number warning': 'トーナメントリーガルなスコードは2-8機の宇宙船が必要です!'
         # Type selector
-        'Extended': 'エクステンデッド'
+        'Standard': 'エクステンデッド'
         'Hyperspace': 'ハイパースペース'
         'Epic': 'エピック'
         'Quickbuild': 'クイックビルド'
