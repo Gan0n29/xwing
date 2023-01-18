@@ -61,7 +61,7 @@ exportObj.translations['Español'] =
         'Unreleased content warning': 'Esta escuadra usa contenido aún no publicado!'
         'Collection warning': 'No puedes desplegar esta lista con tu colección!'
         # Type selector
-        'Extended': 'Ampliada'
+        'Standard': 'Estandar'
         'Hyperspace': 'Hyperspace'
         'Epic': 'Épico'
         'Quickbuild': 'Quick Build'        
