@@ -253,7 +253,7 @@ class exportObj.SquadBuilder
                     </div>
                     <br />
                     <select class="game-type-selector">
-                        <option value="standard" class="translated" defaultText="Extended" selected="selected">#{@uitranslation("Extended")}</option>
+                        <option value="standard" class="translated" defaultText="Standard" selected="selected">#{@uitranslation("Standard")}</option>
                         <option value="hyperspace" class="translated" defaultText="Hyperspace"></option>
                         <option value="epic" class="translated" defaultText="Epic"></option>
                         <option value="quickbuild" class="translated" defaultText="Quickbuild"></option>
