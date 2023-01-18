@@ -57,7 +57,7 @@ exportObj.translations.Magyar =
         'Collection warning': 'Ez a lista nem vihető pályára a készletedből!'
         'Ship number warning': 'Egy versenylista 2-8 hajót kell tartalmazzon!'
         # Type selector
-        'Extended': 'Kiterjesztett'
+        'Standard': 'Kiterjesztett'
         'Hyperspace': 'Hyperspace'
         'Epic': 'Epic'
         'Quickbuild': 'Quick Build'
