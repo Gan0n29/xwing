@@ -11625,6 +11625,8 @@ exportObj.basicCardData = ->
         }
         {
             name: "Dex Tiree (BoY)"
+            canonical_name: 'Dex Tiree'.canonicalize()
+            xws: "dextiree-battleofyavin"
             unique: true
             standard_loadout: true
             id: 561
@@ -11644,6 +11646,8 @@ exportObj.basicCardData = ->
         }
         {
             name: '"Pops" Krail (BoY)'
+            canonical_name: '"Pops" Krail'.canonicalize()
+            xws: "popskrail-battleofyavin"
             unique: true
             standard_loadout: true
             id: 562
@@ -11663,6 +11667,8 @@ exportObj.basicCardData = ->
         }
         {
             name: "Hol Okand (BoY)"
+            canonical_name: 'Hol Okand'.canonicalize()
+            xws: "holokand-battleofyavin"
             unique: true
             standard_loadout: true
             id: 563
@@ -11704,6 +11710,8 @@ exportObj.basicCardData = ->
         }
         {
             name: '"Backstabber" (BoY)'
+            canonical_name: '"Backstabber"'.canonicalize()
+            xws: "backstabber-battleofyavin"
             unique: true
             standard_loadout: true
             id: 565
@@ -11737,6 +11745,8 @@ exportObj.basicCardData = ->
         }
         {
             name: '"Dark Curse" (BoY)'
+            canonical_name: '"Dark Curse"'.canonicalize()
+            xws: "darkcurse-battleofyavin"
             unique: true
             standard_loadout: true
             id: 567
@@ -11799,6 +11809,8 @@ exportObj.basicCardData = ->
         }
         {
             name: "Sigma 4 (BoY)"
+            canonical_name: 'Sigma 4'.canonicalize()
+            xws: "sigma4-battleofyavin"
             unique: true
             standard_loadout: true
             id: 570
@@ -11818,6 +11830,8 @@ exportObj.basicCardData = ->
         }
         {
             name: "Sigma 5 (BoY)"
+            canonical_name: 'Sigma 5'.canonicalize()
+            xws: "sigma5-battleofyavin"
             unique: true
             standard_loadout: true
             id: 571
@@ -11837,6 +11851,8 @@ exportObj.basicCardData = ->
         }
         {
             name: "Sigma 6 (BoY)"
+            canonical_name: 'Sigma 6'.canonicalize()
+            xws: "sigma6-battleofyavin"
             unique: true
             standard_loadout: true
             id: 572
@@ -11856,6 +11872,8 @@ exportObj.basicCardData = ->
         }
         {
             name: "Sigma 7 (BoY)"
+            canonical_name: 'Sigma 7'.canonicalize()
+            xws: "sigma7-battleofyavin"
             unique: true
             standard_loadout: true
             id: 573
@@ -12499,6 +12517,7 @@ exportObj.basicCardData = ->
         }
         {
             name: "Lando Calrissian (Resistance)"
+            canonical_name: 'Lando Calrissian'.canonicalize()
             xws: "landocalrissian-scavengedyt1300"
             id: 605
             unique: true
