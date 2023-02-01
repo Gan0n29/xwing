@@ -8839,6 +8839,9 @@ exportObj.basicCardData = ->
             slots: [
                 "Hyperdrive"
             ]
+            autoequip: [
+                "Syliure-31 Hyperdrive"
+            ]
         }
         {
             name: "Separatist Predator"
