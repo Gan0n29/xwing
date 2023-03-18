@@ -12977,6 +12977,819 @@ exportObj.basicCardData = ->
                 ]
             applies_condition: '''Broken Trust'''.canonicalize()
         }
+        {
+            name: "Garven Dreis (BoY SL)"
+            canonical_name: 'Garven Dreis'.canonicalize()
+            xws: "garvendreis-battleofyavin"
+            unique: true
+            standard_loadout: true
+            id: 630
+            image_id: 6
+            faction: "Rebel Alliance"
+            ship: "X-Wing"
+            skill: 4
+            points: 50
+            chassis: "Hope"
+            upgrades: [
+                "Adv. Proton Torpedoes"
+                "R5-K6 (BoY)"
+            ]
+        }
+        {
+            name: "Luke Skywalker (BoY SL)"
+            canonical_name: 'Luke Skywalker'.canonicalize()
+            xws: "lukeskywalker-battleofyavin"
+            unique: true
+            standard_loadout: true
+            id: 631
+            image_id: 4
+            faction: "Rebel Alliance"
+            ship: "X-Wing"
+            skill: 5
+            points: 50
+            force: 2
+            chassis: "Hope"
+            upgrades: [
+                "Instinctive Aim"
+                "Attack Speed (BoY)"
+                "Proton Torpedoes"
+                "R2-D2 (BoY)"
+            ]
+        }
+        {
+            name: "Jek Porkins (BoY SL)"
+            canonical_name: 'Jek Porkins'.canonicalize()
+            xws: "jekporkins-battleofyavin"
+            unique: true
+            standard_loadout: true
+            id: 632
+            image_id: 3
+            faction: "Rebel Alliance"
+            ship: "X-Wing"
+            skill: 4
+            points: 50
+            chassis: "Hope"
+            upgrades: [
+                "Adv. Proton Torpedoes"
+                "R5-D8 (BoY)"
+                "Unstable Sublight Engines (BoY)"
+            ]
+        }
+        {
+            name: "Biggs Darklighter (BoY SL)"
+            canonical_name: 'Biggs Darklighter'.canonicalize()
+            xws: "biggsdarklighter-battleofyavin"
+            unique: true
+            standard_loadout: true
+            id: 633
+            image_id: 7
+            faction: "Rebel Alliance"
+            ship: "X-Wing"
+            skill: 3
+            points: 50
+            chassis: "Hope"
+            upgrades: [
+                "Attack Speed (BoY)"
+                "Selfless (BoY)"
+                "Proton Torpedoes"
+                "R2-F2 (BoY)"
+            ]
+        }
+        {
+            name: "Wedge Antilles (BoY SL)"
+            canonical_name: 'Wedge Antilles'.canonicalize()
+            xws: "wedgeantilles-battleofyavin"
+            unique: true
+            standard_loadout: true
+            id: 634
+            image_id: 5
+            faction: "Rebel Alliance"
+            ship: "X-Wing"
+            skill: 5
+            points: 50
+            chassis: "Hope"
+            upgrades: [
+                "Attack Speed (BoY)"
+                "Marksmanship"
+                "Proton Torpedoes"
+                "R2-A3 (BoY)"
+            ]
+        }
+        {
+            name: "Han Solo (BoY SL)"
+            canonical_name: 'Han Solo'.canonicalize()
+            xws: "hansolo-battleofyavin"
+            unique: true
+            standard_loadout: true
+            id: 635
+            image_id: 559
+            faction: "Rebel Alliance"
+            ship: "YT-1300"
+            skill: 6
+            points: 50
+            charge: 4
+            chassis: "Solo"
+            upgrades: [
+                "Chewbacca (BoY)"
+                "Rigged Cargo Chute"
+                "Millennium Falcon"
+                "L3-37's Programming (BoY)"
+            ]
+        }
+        {
+            name: '"Dutch" Vander (BoY SL)'
+            canonical_name: '"Dutch" Vander'.canonicalize()
+            xws: "dutchvander-battleofyavin"
+            unique: true
+            standard_loadout: true
+            id: 636
+            image_id: 27
+            faction: "Rebel Alliance"
+            ship: "Y-Wing"
+            skill: 4
+            points: 50
+            chassis: "Hope"
+            upgrades: [
+                "Ion Cannon Turret"
+                "Adv. Proton Torpedoes"
+                "Targeting Astromech (BoY)"
+            ]
+        }
+        {
+            name: "Dex Tiree (BoY SL)"
+            canonical_name: 'Dex Tiree'.canonicalize()
+            xws: "dextiree-battleofyavin"
+            unique: true
+            standard_loadout: true
+            id: 637
+            image_id: 561
+            faction: "Rebel Alliance"
+            ship: "Y-Wing"
+            skill: 2
+            points: 50
+            chassis: "Hope"
+            upgrades: [
+                "Dorsal Turret"
+                "Adv. Proton Torpedoes"
+                "R4 Astromech"
+            ]
+        }
+        {
+            name: '"Pops" Krail (BoY SL)'
+            canonical_name: '"Pops" Krail'.canonicalize()
+            xws: "popskrail-battleofyavin"
+            unique: true
+            standard_loadout: true
+            id: 638
+            image_id: 562
+            faction: "Rebel Alliance"
+            ship: "Y-Wing"
+            skill: 4
+            points: 50
+            chassis: "Hope"
+            upgrades: [
+                "Ion Cannon Turret"
+                "Adv. Proton Torpedoes"
+                "R4 Astromech"
+            ]
+        }
+        {
+            name: "Hol Okand (BoY SL)"
+            canonical_name: 'Hol Okand'.canonicalize()
+            xws: "holokand-battleofyavin"
+            unique: true
+            standard_loadout: true
+            id: 639
+            image_id: 563
+            faction: "Rebel Alliance"
+            ship: "Y-Wing"
+            skill: 4
+            points: 50
+            chassis: "Hope"
+            upgrades: [
+                "Dorsal Turret"
+                "Adv. Proton Torpedoes"
+                "Precise Astromech (BoY)"
+            ]
+        }
+        {
+            name: "Darth Vader (BoY SL)"
+            canonical_name: 'Darth Vader'.canonicalize()
+            xws: "darthvader-battleofyavin"
+            unique: true
+            standard_loadout: true
+            id: 640
+            image_id: 173
+            faction: "Galactic Empire"
+            ship: "TIE Advanced"
+            skill: 6
+            points: 50
+            force: 3
+            keyword: ["Dark Side", "Sith"]
+            ship_override:
+                shields: 3
+            upgrades: [
+                "Marksmanship"
+                "Hate"
+                "Afterburners"
+            ]
+        }
+        {
+            name: '"Backstabber" (BoY SL)'
+            canonical_name: '"Backstabber"'.canonicalize()
+            xws: "backstabber-battleofyavin"
+            unique: true
+            standard_loadout: true
+            id: 641
+            image_id: 565
+            faction: "Galactic Empire"
+            ship: "TIE Fighter"
+            skill: 5
+            points: 50
+            ship_override:
+                hull: 4
+            upgrades: [
+                "Crack Shot"
+                "Disciplined"
+                "Afterburners"
+            ]
+        }
+        {
+            name: '"Mauler" Mithel (BoY SL)'
+            canonical_name: '"Mauler" Mithel'.canonicalize()
+            xws: "maulermithel-battleofyavin"
+            unique: true
+            standard_loadout: true
+            id: 642
+            image_id: 219
+            faction: "Galactic Empire"
+            ship: "TIE Fighter"
+            skill: 5
+            points: 50
+            ship_override:
+                hull: 4
+            upgrades: [
+                "Predator"
+                "Afterburners"
+            ]
+        }
+        {
+            name: '"Dark Curse" (BoY SL)'
+            xws: "darkcurse-battleofyavin"
+            unique: true
+            standard_loadout: true
+            id: 643
+            image_id: 567
+            faction: "Galactic Empire"
+            ship: "TIE Fighter"
+            skill: 6
+            points: 50
+            ship_override:
+                hull: 4
+            upgrades: [
+                "Ruthless"
+                "Precision Ion Engines"
+            ]
+        }
+        {
+            name: '"Wampa" (BoY SL)'
+            canonical_name: '"Wampa"'.canonicalize()
+            xws: "wampa-battleofyavin"
+            unique: true
+            standard_loadout: true
+            id: 644
+            image_id: 221
+            faction: "Galactic Empire"
+            ship: "TIE Fighter"
+            skill: 1
+            charge: 1
+            recurring: 1
+            points: 50
+            ship_override:
+                hull: 4
+                actions: [
+                    "Focus"
+                    "Lock"
+                    "Evade"
+                    "Barrel Roll"
+                ]
+            upgrades: [
+                "Elusive"
+                "Vengeful (BoY)"
+            ]
+        }
+        {
+            name: "Iden Versio (BoY SL)"
+            canonical_name: 'Iden Versio'.canonicalize()
+            xws: "idenversio-battleofyavin"
+            unique: true
+            standard_loadout: true
+            id: 645
+            image_id: 569
+            faction: "Galactic Empire"
+            ship: "TIE Interceptor"
+            skill: 4
+            points: 50
+            charge: 2
+            recurring: 1
+            chassis: "Sensitive Controls"
+            ship_override:
+                shields: 1
+            upgrades: [
+                "Predator"
+                "Fanatic (BoY)"
+            ]
+        }
+        {
+            name: "Sigma 4 (BoY SL)"
+            canonical_name: 'Sigma 4'.canonicalize()
+            xws: "sigma4-battleofyavin"
+            unique: true
+            standard_loadout: true
+            id: 646
+            image_id: 570
+            faction: "Galactic Empire"
+            ship: "TIE Interceptor"
+            skill: 4
+            points: 50
+            charge: 2
+            chassis: "Sensitive Controls"
+            ship_override:
+                hull: 4
+            upgrades: [
+                "Disciplined"
+                "Primed Thrusters"
+            ]
+        }
+        {
+            name: "Sigma 5 (BoY SL)"
+            canonical_name: 'Sigma 5'.canonicalize()
+            xws: "sigma5-battleofyavin"
+            unique: true
+            standard_loadout: true
+            id: 647
+            image_id: 571
+            faction: "Galactic Empire"
+            ship: "TIE Interceptor"
+            skill: 4
+            points: 50
+            charge: 2
+            chassis: "Sensitive Controls"
+            ship_override:
+                hull: 4
+            upgrades: [
+                "Sensor Jammer (BoY)"
+                "Elusive"
+            ]
+        }
+        {
+            name: "Sigma 6 (BoY SL)"
+            canonical_name: 'Sigma 6'.canonicalize()
+            xws: "sigma6-battleofyavin"
+            unique: true
+            standard_loadout: true
+            id: 648
+            image_id: 572
+            faction: "Galactic Empire"
+            ship: "TIE Interceptor"
+            skill: 4
+            points: 50
+            charge: 2
+            chassis: "Sensitive Controls"
+            ship_override:
+                hull: 4
+            upgrades: [
+                "Daredevil"
+                "Afterburners"
+            ]
+        }
+        {
+            name: "Sigma 7 (BoY SL)"
+            canonical_name: 'Sigma 7'.canonicalize()
+            xws: "sigma7-battleofyavin"
+            unique: true
+            standard_loadout: true
+            id: 649
+            image_id: 573
+            faction: "Galactic Empire"
+            ship: "TIE Interceptor"
+            skill: 4
+            points: 50
+            charge: 2
+            chassis: "Sensitive Controls"
+            ship_override:
+                hull: 4
+                actions: [
+                    "Focus"
+                    "Evade"
+                    "Barrel Roll"
+                    "Boost"
+                    "Lock"
+                ]
+            upgrades: [
+                "Marksmanship"
+                "Fire-Control System"
+            ]
+        }
+        {
+            name: "Anakin Skywalker (SoC SL)"
+            canonical_name: 'Anakin Skywalker'.canonicalize()
+            xws: "anakinskywalker-siegeofcoruscant"
+            unique: true
+            standard_loadout: true
+            id: 650
+            image_id: 441
+            faction: "Galactic Republic"
+            ship: "Eta-2 Actis"
+            skill: 6
+            points: 50
+            force: 3
+            chassis: "Intuitive Controls"
+            keyword: ["Jedi","Light Side","Dark Side"]
+            upgrades: [
+                "Malice"
+                "Ancillary Ion Weapons (SoC)"
+                "R2-D2 (Republic)"
+            ]
+        }
+        {
+            name: "Obi-Wan Kenobi (SoC SL)"
+            canonical_name: 'Obi-Wan Kenobi'.canonicalize()
+            xws: "obiwankenobi-siegeofcoruscant"
+            unique: true
+            standard_loadout: true
+            id: 651
+            image_id: 440
+            faction: "Galactic Republic"
+            ship: "Eta-2 Actis"
+            skill: 5
+            points: 50
+            force: 3
+            chassis: "Intuitive Controls"
+            keyword: ["Jedi","Light Side"]
+            upgrades: [
+                "Patience"
+                "Ancillary Ion Weapons (SoC)"
+                "R4-P17 (SoC)"
+            ]
+        }
+        {
+            name: "Shaak Ti (SoC SL)"
+            canonical_name: 'Shaak Ti'.canonicalize()
+            xws: "shaakti-siegeofcoruscant"
+            unique: true
+            standard_loadout: true
+            id: 652
+            image_id: 438
+            faction: "Galactic Republic"
+            ship: "Eta-2 Actis"
+            skill: 4
+            points: 50
+            force: 2
+            chassis: "Intuitive Controls"
+            keyword: ["Jedi","Light Side"]
+            upgrades: [
+                "Marksmanship"
+                "Brilliant Evasion"
+                "Ancillary Ion Weapons (SoC)"
+                "R4-P Astromech"
+            ]
+        }
+        {
+            name: '"Odd Ball" (SoC SL)'
+            canonical_name: 'Odd Ball'.canonicalize()
+            xws: "oddball-siegeofcoruscant"
+            unique: true
+            standard_loadout: true
+            id: 653
+            image_id: 338
+            faction: "Galactic Republic"
+            ship: "ARC-170"
+            skill: 5
+            points: 50
+            chassis: "Born for This"
+            ship_override:
+                shields: 4
+            upgrades: [
+                "Selfless"
+                "Veteran Tail Gunner"
+                "R4-P Astromech"
+            ]
+        }
+        {
+            name: '"Wolffe" (SoC SL)'
+            canonical_name: 'Wolffe'.canonicalize()
+            xws: "wolffe-siegeofcoruscant"
+            unique: true
+            standard_loadout: true
+            id: 654
+            image_id: 342
+            faction: "Galactic Republic"
+            ship: "ARC-170"
+            skill: 4
+            charge: 1
+            points: 50
+            chassis: "Born for This"
+            upgrades: [
+                "Wolfpack (SoC)"
+                "Veteran Tail Gunner"
+                "Q7 Astromech"
+            ]
+        }
+        {
+            name: '"Jag" (SoC SL)'
+            canonical_name: 'Jag'.canonicalize()
+            xws: "jag-siegeofcoruscant"
+            unique: true
+            standard_loadout: true
+            id: 655
+            image_id: 339
+            faction: "Galactic Republic"
+            ship: "ARC-170"
+            skill: 3
+            points: 50
+            chassis: "Born for This"
+            upgrades: [
+                "Veteran Tail Gunner"
+                "R4-P Astromech"
+                "Synchronized Console"
+            ]
+        }
+        {
+            name: '"Contrail" (SoC SL)'
+            canonical_name: 'Contrail'.canonicalize()
+            xws: "contrail-siegeofcoruscant"
+            unique: true
+            standard_loadout: true
+            id: 656
+            image_id: 434
+            faction: "Galactic Republic"
+            ship: "Nimbus-class V-Wing"
+            skill: 5
+            points: 50
+            chassis: "Born for This"
+            upgrades: [
+                "Ion Limiter Override"
+                "Precise Astromech (BoY)"
+                "Ion Bombs"
+                'Alpha-3B "Besh"'
+            ]
+        }
+        {
+            name: '"Klick" (SoC SL)'
+            canonical_name: 'Klick'.canonicalize()
+            xws: "klick-siegeofcoruscant"
+            unique: true
+            standard_loadout: true
+            id: 657
+            image_id: 433
+            faction: "Galactic Republic"
+            ship: "Nimbus-class V-Wing"
+            skill: 4
+            points: 50
+            charge: 1
+            recurring: 1
+            chassis: "Born for This"
+            ship_override:
+                shields: 3
+            upgrades: [
+                "R3 Astromech"
+                "Precision Ion Engines"
+                'Alpha-3E "Esk"'
+            ]
+        }
+        {
+            name: '"Kickback" (SoC SL)'
+            canonical_name: 'Kickback'.canonicalize()
+            xws: "kickback-siegeofcoruscant"
+            unique: true
+            standard_loadout: true
+            id: 658
+            image_id: 315
+            faction: "Galactic Republic"
+            ship: "V-19 Torrent"
+            skill: 5
+            points: 50
+            chassis: "Born for This"
+            ship_override:
+                hull: 6
+            upgrades: [
+                "Diamond-Boron Missiles"
+                "Munitions Failsafe"
+            ]
+        }
+        {
+            name: '"Axe" (SoC SL)'
+            canonical_name: 'Axe'.canonicalize()
+            xws: "axe-siegeofcoruscant"
+            unique: true
+            standard_loadout: true
+            id: 659
+            image_id: 318
+            faction: "Galactic Republic"
+            ship: "V-19 Torrent"
+            skill: 3
+            points: 50
+            chassis: "Born for This"
+            ship_override:
+                hull: 6
+            upgrades: [
+                "Deadeye Shot"
+                "Barrage Rockets"
+            ]
+        }
+        {
+            name: "Count Dooku (SoC SL)"
+            canonical_name: 'Count Dooku'.canonicalize()
+            xws: "countdooku-siegeofcoruscant"
+            unique: true
+            standard_loadout: true
+            id: 660
+            image_id: 334
+            faction: "Separatist Alliance"
+            ship: "Sith Infiltrator"
+            skill: 5
+            points: 50
+            force: 3
+            keyword: ["Dark Side"]
+            upgrades: [
+                "Malice"
+                "Roiling Anger (SoC)"
+                "Scimitar"
+            ]
+        }
+        {
+            name: "DBS-32C (SoC SL)"
+            canonical_name: 'DBS-32C'.canonicalize()
+            xws: "dbs32c-siegeofcoruscant"
+            unique: true
+            standard_loadout: true
+            id: 661
+            image_id: 328
+            faction: "Separatist Alliance"
+            ship: "Hyena-Class Droid Bomber"
+            skill: 3
+            points: 50
+            charge: 2
+            ship_override:
+                actions: [
+                    "Calculate"
+                    "Lock"
+                    "Barrel Roll"
+                    "R-> Lock"
+                    "R-Jam"
+                ]
+            upgrades: [
+                "Plasma Torpedoes"
+                "Contingency Protocol (SoC)"
+                "Strut-Lock Override (SoC)"
+            ]
+        }
+        {
+            name: "DBS-404 (SoC SL)"
+            canonical_name: 'DBS-404'.canonicalize()
+            xws: "dbs404-siegeofcoruscant"
+            unique: true
+            standard_loadout: true
+            id: 662
+            image_id: 326
+            faction: "Separatist Alliance"
+            ship: "Hyena-Class Droid Bomber"
+            skill: 4
+            points: 3
+            upgrades: [
+                "Adv. Proton Torpedoes"
+                "Contingency Protocol (SoC)"
+                "Strut-Lock Override (SoC)"
+            ]
+        }
+        {
+            name: "Baktoid Prototype (SoC SL)"
+            canonical_name: 'Baktoid Prototype'.canonicalize()
+            xws: "baktoidprototype-siegeofcoruscant"
+            standard_loadout: true
+            id: 663
+            image_id: 329
+            faction: "Separatist Alliance"
+            ship: "Hyena-Class Droid Bomber"
+            skill: 1
+            max_per_squad: 2
+            points: 3
+            upgrades: [
+                "Homing Missiles"
+                "Contingency Protocol (SoC)"
+                "Strut-Lock Override (SoC)"
+            ]
+        }
+        {
+            name: "DIS-347 (SoC SL)"
+            canonical_name: 'DIS-347'.canonicalize()
+            xws: "dis347-siegeofcoruscant"
+            unique: true
+            standard_loadout: true
+            id: 664
+            image_id: 421
+            faction: "Separatist Alliance"
+            ship: "Droid Tri-Fighter"
+            skill: 3
+            points: 4
+            upgrades: [
+                "Marksmanship"
+                "Afterburners"
+                "Contingency Protocol (SoC)"
+            ]
+        }
+        {
+            name: "DIS-T81 (SoC SL)"
+            canonical_name: 'DIS-T81'.canonicalize()
+            xws: "dist81-siegeofcoruscant"
+            unique: true
+            standard_loadout: true
+            id: 665
+            image_id: 422
+            faction: "Separatist Alliance"
+            ship: "Droid Tri-Fighter"
+            skill: 4
+            points: 5
+            upgrades: [
+                "Outmaneuver"
+                "Afterburners"
+                "Contingency Protocol (SoC)"
+            ]
+        }
+        {
+            name: "Phlac-Arphocc Prototype (SoC SL)"
+            canonical_name: 'Phlac-Arphocc Prototype'.canonicalize()
+            xws: "phlacarphoccprototype-siegeofcoruscant"
+            standard_loadout: true
+            id: 666
+            image_id: 423
+            faction: "Separatist Alliance"
+            ship: "Droid Tri-Fighter"
+            skill: 5
+            points: 4
+            max_per_squad: 2
+            upgrades: [
+                "Afterburners"
+                "Contingency Protocol (SoC)"
+                "Evasion Sequence 7 (SoC)"
+            ]
+        }
+        {
+            name: "DFS-081 (SoC SL)"
+            canonical_name: 'DFS-081'.canonicalize()
+            xws: "dfs081-siegeofcoruscant"
+            unique: true
+            standard_loadout: true
+            id: 667
+            image_id: 311
+            faction: "Separatist Alliance"
+            ship: "Vulture-class Droid Fighter"
+            skill: 3
+            charge: 2
+            points: 2
+            upgrades: [
+                "Discord Missiles"
+                "Contingency Protocol (SoC)"
+                "Strut-Lock Override (SoC)"
+            ]
+        }
+        {
+            name: "DFS-311 (SoC SL)"
+            canonical_name: 'DFS-311'.canonicalize()
+            xws: "dfs311-siegeofcoruscant"
+            unique: true
+            standard_loadout: true
+            id: 668
+            image_id: 337
+            faction: "Separatist Alliance"
+            ship: "Vulture-class Droid Fighter"
+            skill: 1
+            points: 3
+            upgrades: [
+                "Discord Missiles"
+                "Contingency Protocol (SoC)"
+                "Strut-Lock Override (SoC)"
+            ]
+        }
+        {
+            name: "Haor Chall Prototype (SoC SL)"
+            canonical_name: 'Haor Chall Prototype'.canonicalize()
+            xws: "haorchallprototype-siegeofcoruscant"
+            standard_loadout: true
+            id: 669
+            image_id: 310
+            faction: "Separatist Alliance"
+            ship: "Vulture-class Droid Fighter"
+            skill: 1
+            max_per_squad: 2
+            points: 2
+            upgrades: [
+                "Ion Missiles"
+                "Contingency Protocol (SoC)"
+                "Strut-Lock Override (SoC)"
+            ]
+        }
     ]
 
     upgradesById: [
@@ -14293,12 +15106,11 @@ exportObj.basicCardData = ->
             ]
         }
         {
-            name: "L3-37's Programming"
+            name: "L3-37's Programming (BoY)"
             id: 145
-            skip: true
-            points: 0
+            standard_loadout: true
+            unique: true
             slot: "Configuration"
-            faction: "Scum and Villainy"
         }
         {
             name: "Andrasta"
@@ -15709,8 +16521,13 @@ exportObj.basicCardData = ->
             points: 6
         }
         {
+            name: "Selfless (BoY)"
+            canonical_name: 'Selfless'.canonicalize()
+            unique: true
             id: 284
-            skip: true
+            image_id: 130
+            slot: "Talent"
+            standard_loadout: true
         }
         {
             name: "Tibanna Reserves"
@@ -16775,7 +17592,7 @@ exportObj.basicCardData = ->
             id: 374
             points: 0
             slot: "Configuration"
-            faction: ["Galactic Empire", "First Order"]
+            ship: ["TIE Interceptor", "TIE/VN Silencer"]
             standardized: true
             chassis: "Sensitive Controls"
             restrictions: [
@@ -17964,6 +18781,183 @@ exportObj.basicCardData = ->
                     slot: "Device"
                 }
             ]
+        }
+        {
+            name: "Fanatic (BoY)"
+            id: 473
+            no_image: true
+            slot: "Talent"
+            standard_loadout: true
+        }
+        {
+            name: "Chewbacca (BoY)"
+            canonical_name: 'Chewbacca'.canonicalize()
+            id: 474
+            image_id: 21
+            slot: "Crew"
+            standard_loadout: true
+            unique: true
+        }
+        {
+            name: "Attack Speed (BoY)"
+            id: 475
+            no_image: true
+            slot: "Talent"
+            standard_loadout: true
+        }
+        {
+            name: "Unstable Sublight Engines (BoY)"
+            id: 476
+            no_image: true
+            slot: "Modification"
+            standard_loadout: true
+        }
+        {
+            name: "R2-D2 (BoY)"
+            canonical_name: 'R2-D2'.canonicalize()
+            id: 477
+            image_id: 3
+            standard_loadout: true
+            unique: true
+            slot: "Astromech"
+            charge: 2
+        }
+        {
+            name: "Dorsal Turret (BoY)"
+            id: 478
+            image_id: 137
+            standard_loadout: true
+            slot: "Turret"
+            attackt: 3
+            range: """1-2"""
+            modifier_func: (stats) ->
+                stats.actions.push 'Rotate Arc' if 'Rotate Arc' not in stats.actions
+        }
+        {
+            name: "R2-F2 (BoY)"
+            canonical_name: 'R2-F2'.canonicalize()
+            id: 479
+            no_image: true
+            standard_loadout: true
+            unique: true
+            slot: "Astromech"
+            charge: 2
+        }
+        {
+            name: "Precise Astromech (BoY)"
+            id: 480
+            no_image: true
+            standard_loadout: true
+            slot: "Astromech"
+            charge: 2
+        }
+        {
+            name: "R2-A3 (BoY)"
+            canonical_name: 'R2-A3'.canonicalize()
+            id: 481
+            no_image: true
+            standard_loadout: true
+            unique: true
+            slot: "Astromech"
+            charge: 2
+        }
+        {
+            name: "Vengeful (BoY)"
+            id: 482
+            no_image: true
+            standard_loadout: true
+            slot: "Talent"
+        }
+        {
+            name: "R5-D8 (BoY)"
+            canonical_name: 'R5-D8'.canonicalize()
+            id: 483
+            image_id: 7
+            standard_loadout: true
+            unique: true
+            slot: "Astromech"
+            charge: 2
+        }
+        {
+            name: "R5-K6 (BoY)"
+            canonical_name: 'R5-K6'.canonicalize()
+            id: 484
+            no_image: true
+            standard_loadout: true
+            unique: true
+            slot: "Astromech"
+            charge: 2
+        }
+        {
+            name: "Sensor Jammer (BoY)"
+            id: 485
+            no_image: true
+            standard_loadout: true
+            slot: "Sensor"
+        }
+        {
+            name: "Ancillary Ion Weapons (SoC)"
+            id: 486
+            no_image: true
+            standard_loadout: true
+            slot: "Cannon"
+            charge: 2
+            recurring: 1
+        }
+        {
+            name: "Roiling Anger (SoC)"
+            id: 487
+            no_image: true
+            standard_loadout: true
+            slot: "Force"
+        }
+        {
+            name: "Contingency Protocol (SoC)"
+            id: 488
+            no_image: true
+            standard_loadout: true
+            slot: "Modification"
+        }
+        {
+            name: "Strut-Lock Override (SoC)"
+            id: 489
+            no_image: true
+            standard_loadout: true
+            charge: 2
+            slot: "Configuration"
+        }
+        {
+            name: "R4-P17 (SoC)"
+            canonical_name: 'R4-P17'.canonicalize()
+            id: 490
+            image_id: 214
+            standard_loadout: true
+            unique: true
+            charge: 2
+            slot: "Astromech"
+        }
+        {
+            name: "Targeting Astromech (BoY)"
+            id: 491
+            no_image: true
+            standard_loadout: true
+            slot: "Astromech"
+        }
+        {
+            name: "Wolfpack (SoC)"
+            canonical_name: 'Wolfpack'.canonicalize()
+            id: 492
+            image_id: 352
+            unique: true
+            standard_loadout: true
+            slot: "Crew"
+        }
+        {
+            name: "Evasion Sequence 7 (SoC)"
+            id: 493
+            no_image: true
+            standard_loadout: true
+            slot: "Modification"
         }
     ]
 
@@ -26150,6 +27144,124 @@ exportObj.basicCardData = ->
                 "Proton Cannons"
             ]
         }
+        {
+            id: 631
+            faction: "Galactic Republic"
+            pilot: '"Knack"'
+            ship: "Rogue-class Starfighter"
+            threat: 2
+            upgrades: [
+                "Outmaneuver"
+                "Predator"
+                "Proton Torpedoes"
+            ]
+        }
+        {
+            id: 632
+            faction: "Galactic Republic"
+            pilot: '"Slider"'
+            ship: "Rogue-class Starfighter"
+            threat: 3
+            upgrades: [
+                "Outmaneuver"
+                "Proton Torpedoes"
+                "Afterburners"
+                "Shield Upgrade"
+            ]
+        }
+        {
+            id: 633
+            faction: "Galactic Republic"
+            pilot: '"Hawk" (Z-95)'
+            ship: "Rogue-class Starfighter"
+            threat: 2
+            upgrades: [
+                "Outmaneuver"
+                "Mag-Pulse Warheads"
+                "Afterburners"
+            ]
+        }
+        {
+            id: 634
+            faction: "Galactic Republic"
+            pilot: '"Warthog" (Z-95)'
+            ship: "Rogue-class Starfighter"
+            threat: 2
+            upgrades: [
+                "Elusive"
+                "Proton Torpedoes"
+            ]
+        }
+        {
+            id: 635
+            faction: "Galactic Republic"
+            pilot: '"Boost"'
+            ship: "Rogue-class Starfighter"
+            threat: 2
+            upgrades: [
+                "Enduring"
+                "Homing Torpedoes"
+                "Hull Upgrade"
+            ]
+        }
+        {
+            id: 636
+            faction: "Galactic Republic"
+            pilot: '"Drift"'
+            ship: "Clone Z-95 Headhunter"
+            threat: 2
+            upgrades: [
+                "Elusive"
+                "Homing Torpedoes"
+                "Afterburners"
+            ]
+        }
+        {
+            id: 637
+            faction: "Galactic Republic"
+            pilot: '"Stub"'
+            ship: "Clone Z-95 Headhunter"
+            threat: 2
+            upgrades: [
+                "Elusive"
+                "Proton Torpedoes"
+                "Afterburners"
+            ]
+        }
+        {
+            id: 638
+            faction: "Galactic Republic"
+            pilot: '"Killer"'
+            ship: "Clone Z-95 Headhunter"
+            threat: 2
+            upgrades: [
+                "Proton Torpedoes"
+                "Afterburners"
+            ]
+        }
+        {
+            id: 639
+            faction: "Galactic Republic"
+            pilot: "Reaper Squadron Scout"
+            ship: "Clone Z-95 Headhunter"
+            threat: 2
+            upgrades: [
+                "Outmaneuver"
+                "Fire-Control System"
+                "Mag-Pulse Warheads"
+                "Shield Upgrade"
+            ]
+        }
+        {
+            id: 640
+            faction: "Galactic Republic"
+            pilot: "7th Sky Corps Pilot"
+            ship: "Clone Z-95 Headhunter"
+            threat: 1
+            upgrades: [
+                "Angled Deflectors"
+            ]
+        }
     ]
 
 exportObj.setupCommonCardData = (basic_cards) ->
@@ -26458,387 +27570,6 @@ exportObj.randomizer = (faction_name, points) ->
         #if Math.random() >= 0.9
         #append.shiplistmaster.pilotsbyid.xws ? shiplistmaster.pilotsbyid.canonical_name ? shiplistmaster.pilotsbyid.name.canonicalize())
 
-exportObj.hyperspaceShipInclusions = [
-    {name: 'X-Wing', faction: 'Rebel Alliance'}
-    {name: 'YT-1300', faction: 'Rebel Alliance'}
-    {name: 'B-Wing', faction: 'Rebel Alliance'}
-    {name: 'A-Wing', faction: 'Rebel Alliance'}
-    {name: 'Y-Wing', faction: 'Rebel Alliance'}
-    {name: 'VCX-100', faction: 'Rebel Alliance'}
-    {name: 'Sheathipede-Class Shuttle', faction: 'Rebel Alliance'}
-    {name: 'TIE Advanced', faction: 'Galactic Empire'}
-    {name: 'TIE Advanced Prototype', faction: 'Galactic Empire'}
-    {name: 'TIE Fighter', faction: 'Galactic Empire'}
-    {name: 'TIE Interceptor', faction: 'Galactic Empire'}
-    {name: 'TIE Reaper', faction: 'Galactic Empire'}
-    {name: 'TIE Defender', faction: 'Galactic Empire'}
-    {name: 'TIE Striker', faction: 'Galactic Empire'}
-    {name: 'TIE/rb Heavy', faction: 'Galactic Empire'}
-    {name: 'VT-49 Decimator', faction: 'Galactic Empire'}
-    {name: 'Firespray-31', faction: 'Scum and Villainy'}
-    {name: 'Y-Wing', faction: 'Scum and Villainy'}
-    {name: 'Mining Guild TIE Fighter', faction: 'Scum and Villainy'}
-    {name: 'Fang Fighter', faction: 'Scum and Villainy'}
-    {name: 'JumpMaster 5000', faction: 'Scum and Villainy'}
-    {name: 'M3-A Interceptor', faction: 'Scum and Villainy'}
-    {name: 'Customized YT-1300', faction: 'Scum and Villainy'}
-    {name: 'Escape Craft', faction: 'Scum and Villainy'}
-    {name: 'YV-666', faction: 'Scum and Villainy'}
-    {name: 'Z-95 Headhunter', faction: 'Scum and Villainy'}
-    {name: 'HWK-290', faction: 'Scum and Villainy'}
-    {name: 'Fireball', faction: 'Resistance'}
-    {name: 'T-70 X-Wing', faction: 'Resistance'}
-    {name: 'RZ-2 A-Wing', faction: 'Resistance'}
-    {name: 'BTA-NR2 Y-Wing', faction: 'Resistance'}
-    {name: 'Resistance Transport', faction: 'Resistance'}
-    {name: 'Resistance Transport Pod', faction: 'Resistance'}
-    {name: 'TIE/Ba Interceptor', faction: 'First Order'}
-    {name: 'TIE/FO Fighter', faction: 'First Order'}
-    {name: 'TIE/VN Silencer', faction: 'First Order'}
-    {name: 'TIE/SF Fighter', faction: 'First Order'}
-    {name: 'TIE/Se Bomber', faction: 'First Order'}
-    {name: 'TIE/WI Whisper', faction: 'First Order'}
-    {name: 'Xi-class Light Shuttle', faction: 'First Order'}
-    {name: 'Delta-7 Aethersprite', faction: 'Galactic Republic'}
-    {name: 'ARC-170', faction: 'Galactic Republic'}
-    {name: 'Naboo Royal N-1 Starfighter', faction: 'Galactic Republic'}
-    {name: 'BTL-B Y-Wing', faction: 'Galactic Republic'}
-    {name: 'V-19 Torrent', faction: 'Galactic Republic'}
-    {name: 'Eta-2 Actis', faction: 'Galactic Republic'}
-    {name: 'Nimbus-class V-Wing', faction: 'Galactic Republic'}
-    {name: 'LAAT/i Gunship', faction: 'Galactic Republic'}
-    {name: 'Vulture-class Droid Fighter', faction: 'Separatist Alliance'}
-    {name: 'Hyena-Class Droid Bomber', faction: 'Separatist Alliance'}
-    {name: 'Droid Tri-Fighter', faction: 'Separatist Alliance'}
-    {name: 'Firespray-31', faction: 'Separatist Alliance'}
-    {name: 'Sith Infiltrator', faction: 'Separatist Alliance'}
-    {name: 'Nantex-Class Starfighter', faction: 'Separatist Alliance'}
-    {name: 'HMP Droid Gunship', faction: 'Separatist Alliance'}
-    {name: 'Belbullab-22 Starfighter', faction: 'Separatist Alliance'}
-]
-
-# Used to exclude pilots from included ships
-exportObj.hyperspacePilotExclusions = [
-
-    # Rebel Alliance
-    'Wedge Antilles'
-    'Biggs Darklighter'
-    'Kullbee Sperado'
-    'Cavern Angels Zealot'
-    'Outer Rim Smuggler'
-    '"Chopper"'
-    'Lothal Rebel'
-    'Fenn Rau (Sheathipede)'
-    'AP-5'
-    'Hera Syndulla (B-Wing)'
-    'Netrem Pollard'
-    'Green Squadron Pilot'
-    'Phoenix Squadron Pilot'
-
-    # Galactic Empire
-    'Black Squadron Ace'
-    'Obsidian Squadron Pilot'
-    'Academy Pilot'
-    'Saber Squadron Ace'
-    'Alpha Squadron Pilot'
-    'Scarif Base Pilot'
-    'Grand Inquisitor'
-    'Fifth Brother'
-    'Seventh Sister'
-    'Scarif Base Pilot'
-    'Darth Vader (TIE Defender)'
-    'Colonel Vessery'
-    'Vult Skerris'
-    'Countess Ryad'
-    'Captain Dobbs'
-    'Rexler Brath'
-    '"Rampage"'
-    'Lyttan Dree'
-    '"Duchess"'
-    '"Countdown"'
-    '"Pure Sabacc"'
-    '"Vagabond"'
-    'Darth Vader'
-    'Maarek Stele'
-    'Ved Foslo'
-    'Zertik Strom'
-    'Rear Admiral Chiraneau'
-    'Morna Kee'
-    'Captain Oicunn'
-
-
-    # Scum and Villainy
-    'Drea Renthal'
-    'Kavil'
-    'Leema Kai'
-    'Arliz Hadrassian'
-    'Padric'
-    'Hired Gun'
-    'Crymorah Goon'
-    'Boba Fett'
-    'Kath Scarlet'
-    'Emon Azzameen' 
-    'Koshka Frost'
-    'Krassis Trelix'
-    'Skull Squadron Pilot'
-    'Zealous Recruit'
-    'Spice Runner'
-    'Contracted Scout'
-    'Tansarii Point Veteran'
-    'Cartel Spacer'
-    'Mining Guild Surveyor'
-    'Mining Guild Sentry'
-    'Freighter Captain'
-    'Trandoshan Slaver'
-    "N'dru Suhlak"
-    'Bossk (Z-95 Headhunter)'
-    "Kaa'to Leeachos"
-    'Nashtah Pup'
-
-
-    # Resistance
-    'Green Squadron Expert'
-    'Blue Squadron Recruit'
-    'Cova Nell'
-    'Pammich Nerro Goode'
-    'Nodin Chavdri'
-    'Kazuda Xiono'
-    'Jarek Yeager'
-    'R1-J5'
-    'Black Squadron Ace (T-70)'
-    'Red Squadron Expert'
-    'Blue Squadron Rookie'
-
-    # FO
-    '"Quickdraw"'
-    '"Backdraft"'
-    'Captain Phasma'
-    'Lieutenant LeHuse'
-    'First Order Test Pilot'
-    'Sienar-Jaemus Engineer'
-    'First Order Provocateur'
-    'Omega Squadron Ace'
-    'Zeta Squadron Pilot'
-    'Epsilon Squadron Cadet'
-    'First Order Courier'
-
-    # Galactic Republic
-    '"Sinker"'
-    '"Wolffe"'
-    '"Odd Ball" (ARC-170)'
-    '"Jag"'
-    'Shadow Squadron Veteran'
-    'Red Squadron Bomber'
-    'Anakin Skywalker'
-    'Obi-Wan Kenobi'
-    'Mace Windu'
-    'Plo Koon'
-    'Ahsoka Tano'
-    'Luminara Unduli'
-    'Saesee Tiin'
-    'Barriss Offee'
-    'Jedi General'
-    '212th Battalion Pilot'
-    'Bravo Flight Officer'
-    'Blue Squadron Protector'
-    'Gold Squadron Trooper'
-    '"Odd Ball" (V-Wing)'
-    'Wilhuff Tarkin'
-    '"Contrail"'
-    '"Klick"'
-
-    # Separatist Alliance
-    'Darth Maul'
-    'Count Dooku'
-    '0-66'
-    'Skakoan Ace'
-    'Feethan Ottraw Autopilot'
-    'Phlac-Arphocc Prototype'
-    'DIS-T81'
-    'Fearsome Predator'
-    'DIS-347'
-    'Separatist Racketeer'
-    'Separatist Predator'
-    'Baktoid Drone'
-    'Separatist Bomber'
-    'Techno Union Bomber'
-    'Petranaki Arena Ace'
-    'Stalgasin Hive Guard'
-
-]
-
-# Upgrades in that are not in Hyperspace
-exportObj.hyperspaceUpgradeExclusions = [
-    # Rebel Alliance
-    'Jyn Erso'
-    'Bistan'
-    'Ezra Bridger'
-    '"Chopper" (Astromech)'
-    'Pivot Wing'
-    '"Chopper" (Crew)'
-    '"Zeb" Orrelios'
-    'Baze Malbus'
-    'Cassian Andor'
-    'Hera Syndulla'
-    'Jyn Erso'
-    'K-2SO'
-    'Kanan Jarrus'
-    'Lando Calrissian'
-    'Leia Organa'
-    'Magva Yarro'
-    'Maul'
-    'R2-D2 (Crew)'
-    'Sabine Wren'
-    'Saw Gerrera'
-    'Bistan'
-    'Ezra Bridger'
-    'Han Solo'
-    'Luke Skywalker'
-    'Outrider'
-
-    # Galactic Empire
-    'Admiral Sloane'
-    'Ciena Ree'
-    'Director Krennic'
-    'Grand Inquisitor'
-    'Grand Moff Tarkin'
-    'Minister Tua'
-    'Moff Jerjerrod'
-    'Seventh Sister'
-    'ISB Slicer'
-    'Fifth Brother'
-    'ST-321'
-
-    # Scum and Villainy
-    '"Genius"'
-    '4-LOM'
-    'Cad Bane'
-    'Cikatro Vizago'
-    'IG-88D'
-    'Chewbacca (Scum)'
-    'Ketsu Onyo'
-    'Lando Calrissian (Scum)'
-    'Maul'
-    'Unkar Plutt'
-    'Zuckuss'
-    'Jabba the Hutt'
-    'Dengar'
-    'Han Solo (Scum)'
-    'Fearless'
-    'Havoc'
-    'Mist Hunter'
-    'Shadow Caster'
-    'Slave I'
-    'Virago'
-    'IG-2000'
-
-    # Resistance
-    'M9-G8'
-    'R2-HA'
-    'R5-X3'
-    'BB Astromech'
-    'Chewbacca (Resistance)'
-    'GA-97'
-    'Han Solo (Resistance)'
-    'Kaydel Connix'
-    'Finn'
-    'Paige Tico'
-    'Rey'
-    'Heroic'
-    "Rey's Millennium Falcon"
-
-    # FO
-    'Captain Phasma'
-    'General Hux'
-    'Kylo Ren'
-    'Petty Officer Thanisson'
-    'Supreme Leader Snoke'
-    'Biohexacrypt Codes'
-    'Hyperspace Tracking Data'
-
-    # Galactic Republic
-    'R2-A6'
-    'R2-C4'
-    'R4-P17'
-    'R4-P Astromech'
-    'C1-10P'
-    'Chancellor Palpatine'
-    'Battle Meditation'
-    'Ahsoka Tano'
-    'Clone Commander Cody'
-    'Seventh Fleet Gunner'
-
-    # Separatist Alliance
-    'Chancellor Palpatine'
-    'General Grievous'
-    'Discord Missiles'
-    'TA-175'
-    'TV-94'
-    'Ensnare'
-
-    # Generic
-    'R5 Astromech'
-    'Autoblasters'
-    'Heavy Laser Cannon'
-    'Jamming Beam'
-    'Informant'
-    'GNK "Gonk" Droid'
-    'Perceptive Copilot'
-    'Tactical Officer'
-    'Brilliant Evasion'
-    'Precognitive Reflexes'
-    'Predictive Shot'
-    'Sense'
-    'Supernatural Reflexes'
-    'Hotshot Gunner'
-    'Veteran Tail Gunner'
-    'Veteran Turret Gunner'
-    'Cloaking Device'
-    'Coaxium Hyperfuel'
-    'Feedback Array'
-    'Inertial Dampeners'
-    'Cluster Missiles'
-    'Cluster Missiles'
-    'Homing Missiles'
-    'Ion Missiles'
-    'Barrage Rockets'
-    'Ablative Plating'
-    'Advanced SLAM'
-    'Afterburners'
-    'Delayed Fuses'
-    'Munitions Failsafe'
-    'Shield Upgrade'
-    'Spare Parts Canisters'
-    'Static Discharge Vanes'
-    'Stealth Device'
-    'Tactical Scrambler'
-    'Targeting Computer'
-    'Ion Bombs'
-    'Proton Bombs'
-    'Proximity Mines'
-    'Seismic Charges'
-    'Electro-Proton Bomb'
-    'Bomblet Generator'
-    'Advanced Sensors'
-    'Collision Detector'
-    'Trajectory Simulator'
-    'Lone Wolf'
-    'Squad Leader'
-    'Composure'
-    'Crack Shot'
-    'Debris Gambit'
-    'Elusive'
-    'Intimidation'
-    'Marksmanship'
-    'Outmaneuver'
-    'Saturation Salvo'
-    'Swarm Tactics'
-    'Trick Shot'
-    'Advanced Optics'
-    'Pattern Analyzer'
-    'Plasma Torpedoes'
-]
-
 exportObj.epicExclusionsList = [
     'CR90 Corellian Corvette'
     'Raider-class Corvette'
@@ -26851,6 +27582,24 @@ exportObj.epicExclusionsList = [
 
 
 exportObj.epicExclusions = (data) ->
+    if data.upgrades?
+        return false
+    else
+        return true
+
+exportObj.standardExclusions = (data) ->
+    if data.ship? and (data.ship in exportObj.epicExclusionsList)
+        return false
+    else if data.slot? and (data.slot == "Command")
+        return false
+    else if data.name? and (data.name in exportObj.epicExclusionsList)
+        return false
+    else if data.upgrades?
+        return false
+    else
+        return true
+
+exportObj.wildspaceExclusions = (data) ->
     if data.ship? and (data.ship in exportObj.epicExclusionsList)
         return false
     else if data.slot? and (data.slot == "Command")
@@ -26859,29 +27608,3 @@ exportObj.epicExclusions = (data) ->
         return false
     else
         return true
-
-# Ships/Pilots excluded unless in the included list (with further excluded pilots list for included ships, i.e u-wing)
-# while upgrades assumed included unless on the excluded list
-exportObj.hyperspaceCheck = (data, faction='', shipCheck=false) ->
-    if (shipCheck)
-        if (data.name in exportObj.hyperspacePilotExclusions)
-            return false
-        for ship in exportObj.hyperspaceShipInclusions
-            if (ship.faction == faction && (data.name == ship.name || data.ship == ship.name || (Array.isArray(data.ship) and ship.name in data.ship)))
-                return true
-        return false
-    else
-        return data.name not in exportObj.hyperspaceUpgradeExclusions
-
-exportObj.hyperspaceCheckBrowser = (data, faction='', type) ->
-    # check ship/pilot first
-    if type == 'Pilot'
-        return data.name not in exportObj.hyperspacePilotExclusions
-    else if type == 'Ship'
-        for ship in exportObj.hyperspaceShipInclusions
-            # checks against name for ship itself or ship name/faction for pilot inclusions
-            if (ship.faction == faction && (data.name == ship.name || data.ship == ship.name || (Array.isArray(data.ship) and ship.name in data.ship)))
-                return true
-        return false
-    else
-        return data.name not in exportObj.hyperspaceUpgradeExclusions
