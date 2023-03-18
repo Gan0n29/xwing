@@ -1,7 +1,6 @@
 ###
     X-Wing Squad Builder 2.0
-    Stephen Kim <raithos@gmail.com>
-    https://raithos.github.io
+    https://xwing-legacy.com
 ###
 exportObj = exports ? this
 
@@ -128,6 +127,8 @@ class exportObj.SquadBuilder
         @faction = $.trim args.faction
         @printable_container = $ args.printable_container
         @tab = $ args.tab
+        
+        @isStandard = true
 
         # internal state
         @ships = []
@@ -155,7 +156,7 @@ class exportObj.SquadBuilder
             fill_zero_pts: false
         @total_points = 0
         # a squad given in the link is loaded on construction of that builder. It will set all gamemodes of already existing builders accordingly, but we did not exists back than. So we copy over the gamemode
-        @isHyperspace = exportObj.builders[0]?.isHyperspace ? false
+        @isWildSpace = exportObj.builders[0]?.isWildSpace ? false
         @isEpic = exportObj.builders[0]?.isEpic ? false
         @isQuickbuild = exportObj.builders[0]?.isQuickbuild ? false
 
@@ -254,7 +255,7 @@ class exportObj.SquadBuilder
                     <br />
                     <select class="game-type-selector">
                         <option value="standard" class="translated" defaultText="Standard" selected="selected">#{@uitranslation("Standard")}</option>
-                        <option value="hyperspace" class="translated" defaultText="Hyperspace"></option>
+                        <option value="wildspace" class="translated" defaultText="Wild Space"></option>
                         <option value="epic" class="translated" defaultText="Epic"></option>
                         <option value="quickbuild" class="translated" defaultText="Quickbuild"></option>
                     </select>
@@ -1396,7 +1397,7 @@ class exportObj.SquadBuilder
                             'first-player-4'
                     @printable_container.find('.squad-faction').html """<i class="xwing-miniatures-font xwing-miniatures-font-#{faction}"></i>"""
             # List type
-            if @isHyperspace
+            if @isWildSpace
                 @printable_container.find('.squad-name').append """ <i class="xwing-miniatures-font xwing-miniatures-font-first-player-1"></i>"""
             if @isEpic
                 @printable_container.find('.squad-name').append """ <i class="xwing-miniatures-font xwing-miniatures-font-energy"></i>""" 
@@ -1509,18 +1510,21 @@ class exportObj.SquadBuilder
             @container.trigger 'xwing-backend:squadDirtinessChanged'
 
     onGameTypeChanged: (gametype, cb=$.noop) =>
-        oldHyperspace = @isHyperspace
+        oldWildSpace = @isWildSpace
         oldEpic = @isEpic
         oldQuickbuild = @isQuickbuild
-        @isHyperspace = false
+        oldStandard = @isStandard
+        @isWildSpace = false
         @isEpic = false
         @isQuickbuild = false
+        @isStandard = false
         switch gametype
             when 'standard'
+                @isStandard = true
                 @desired_points_input.val 200
-            when 'hyperspace'
-                @isHyperspace = true
-                @desired_points_input.val 200
+            when 'wildspace'
+                @isWildSpace = true
+                @desired_points_input.val 250
             when 'epic'
                 @isEpic = true
                 @desired_points_input.val 500
@@ -1748,7 +1752,7 @@ class exportObj.SquadBuilder
         game_type_abbrev = switch @game_type_selector.val()
             when 'standard'
                 's'
-            when 'hyperspace'
+            when 'wildspace'
                 'h'
             when 'epic'
                 'e'
@@ -1801,7 +1805,7 @@ class exportObj.SquadBuilder
                 when 's'
                     @changeGameTypeOnSquadLoad 'standard'
                 when 'h'
-                    @changeGameTypeOnSquadLoad 'hyperspace'
+                    @changeGameTypeOnSquadLoad 'wildspace'
                 when 'e'
                     @changeGameTypeOnSquadLoad 'epic'
                 when 'q'
@@ -1954,9 +1958,11 @@ class exportObj.SquadBuilder
         # this method is not even invoked by most quickbuild stuff to check availability for quickbuild squads, as the method was formerly just telling apart extended/hyperspace
         if @isQuickbuild
             return true
-        else if @isHyperspace
-            return exportObj.hyperspaceCheck(item_data, @faction, shipCheck)
-        else if (not @isEpic)
+        else if @isStandard
+            return exportObj.standardExclusions(item_data)
+        else if @isWildSpace
+            return exportObj.wildspaceExclusions(item_data)
+        else if @isEpic
             return exportObj.epicExclusions(item_data)
         else
             return true
@@ -1998,7 +2004,7 @@ class exportObj.SquadBuilder
             # select available pilots according to ususal pilot selection
             available_faction_pilots = (pilot for pilot_name, pilot of exportObj.pilots when (not ship? or pilot.ship == ship) and @isOurFaction(pilot.faction) and (@matcher(pilot_name, term) or (pilot.display_name and @matcher(pilot.display_name, term)) ) and (@isItemAvailable(pilot, true)))
 
-            eligible_faction_pilots = (pilot for pilot_name, pilot of available_faction_pilots when (not pilot.unique? or pilot not in @uniques_in_use['Pilot'] or pilot.canonical_name.getXWSBaseName() == include_pilot?.canonical_name.getXWSBaseName()) and (not pilot.max_per_squad? or @countPilots(pilot.canonical_name) < pilot.max_per_squad or pilot.canonical_name.getXWSBaseName() == include_pilot?.canonical_name.getXWSBaseName()) and (not pilot.restriction_func? or pilot.restriction_func((builder: @) , pilot)))
+            eligible_faction_pilots = (pilot for pilot_name, pilot of available_faction_pilots when (not pilot.unique? or pilot not in @uniques_in_use['Pilot'] or pilot.canonical_name.getXWSBaseName() == include_pilot?.canonical_name.getXWSBaseName()) and (not pilot.max_per_squad? or @countPilots(pilot.canonical_name) < pilot.max_per_squad or pilot.canonical_name.getXWSBaseName() == include_pilot?.canonical_name.getXWSBaseName()) and (not pilot.upgrades? or @standard_restriction_check(pilot)) and (not pilot.restriction_func? or pilot.restriction_func((builder: @) , pilot)))
 
             # Re-add selected pilot
             if include_pilot? and include_pilot.unique? and (@matcher(include_pilot.name, term) or (include_pilot.display_name and @matcher(include_pilot.display_name, term)) )
@@ -2062,7 +2068,18 @@ class exportObj.SquadBuilder
         if sorted
             retval = retval.sort exportObj.sortHelper
         retval
-
+        
+        
+    standard_restriction_check: (pilot) ->
+        if pilot.upgrades?
+            for upgrade in pilot.upgrades
+                upgrade_data = exportObj.upgrades[upgrade]
+                if upgrade_data.unique == true
+                    for ship in @ships
+                        for shipupgrade in ship.upgrades
+                            if shipupgrade?.data?.canonical_name == upgrade_data.canonical_name
+                                return false
+        return true
 
     dfl_filter_func = ->
         true
@@ -2106,7 +2123,6 @@ class exportObj.SquadBuilder
             available_upgrades = (upgrade for upgrade in available_upgrades when filter_func(upgrade))
 
         eligible_upgrades = (upgrade for upgrade_name, upgrade of available_upgrades when (not upgrade.unique? or upgrade not in @uniques_in_use['Upgrade']) and ship.standardized_check(upgrade) and (not (ship? and upgrade.restrictions?) or ship.restriction_check(upgrade.restrictions, this_upgrade_obj)) and upgrade not in upgrades_in_use and ((not upgrade.max_per_squad?) or ship.builder.countUpgrades(upgrade.canonical_name) < upgrade.max_per_squad) and (not upgrade.solitary? or (upgrade.slot not in @uniques_in_use['Slot'] or include_upgrade?.solitary?)))
-        
         
 
         for equipped_upgrade in (upgrade.data for upgrade in ship.upgrades when upgrade?.data?)
@@ -2343,34 +2359,35 @@ class exportObj.SquadBuilder
                         if not (pilot.skill in possible_inis)
                             possible_inis.push(pilot.skill)
                         possible_costs.push(pilot.points)
-                        for slot, state of slot_types
-                            switch pilot.slots.filter((item) => item == slot).length
-                                when 1
-                                    switch state
-                                        when -1
-                                            slot_types[slot] = 1
-                                        when 0
-                                            slot_types[slot] = 2
-                                        when 3
-                                            slot_types[slot] = 4
-                                when 0
-                                    switch state
-                                        when -1
-                                            slot_types[slot] = 0
-                                        when 1
-                                            slot_types[slot] = 2
-                                        when 3,4
-                                            slot_types[slot] = 5
-                                when 2
-                                    switch state
-                                        when -1
-                                            slot_types[slot] = 3
-                                        when 0,2
-                                            slot_types[slot] = 5
-                                        when 1
-                                            slot_types[slot] = 4
-                                when 3
-                                    slot_types[slot] = 6
+                        if pilot.slots?
+                            for slot, state of slot_types
+                                switch pilot.slots.filter((item) => item == slot).length
+                                    when 1
+                                        switch state
+                                            when -1
+                                                slot_types[slot] = 1
+                                            when 0
+                                                slot_types[slot] = 2
+                                            when 3
+                                                slot_types[slot] = 4
+                                    when 0
+                                        switch state
+                                            when -1
+                                                slot_types[slot] = 0
+                                            when 1
+                                                slot_types[slot] = 2
+                                            when 3,4
+                                                slot_types[slot] = 5
+                                    when 2
+                                        switch state
+                                            when -1
+                                                slot_types[slot] = 3
+                                            when 0,2
+                                                slot_types[slot] = 5
+                                            when 1
+                                                slot_types[slot] = 4
+                                    when 3
+                                        slot_types[slot] = 6
                                 
                     possible_inis.sort()
         
@@ -2490,13 +2507,16 @@ class exportObj.SquadBuilder
                 when 'Pilot'
 
                     #image display
-                    if data.image_id?
-                        img_id = data.image_id
+                    if data.no_image?
+                        container.find('.info-image-container').hide()
                     else
-                        img_id = data.id
-                    pilot_img = 'images/pilots/' + img_id + '.jpg'
-                    container.find('.info-image').attr 'src', pilot_img
-                    container.find('.info-image-container').show()
+                        if data.image_id?
+                            img_id = data.image_id
+                        else
+                            img_id = data.id
+                        pilot_img = 'images/pilots/' + img_id + '.jpg'
+                        container.find('.info-image').attr 'src', pilot_img
+                        container.find('.info-image-container').show()
                     #
                     container.find('.info-type').text type
                     container.find('.info-sources.info-data').text (exportObj.translate('sources', source) for source in data.sources).sort().join(', ')
@@ -2679,7 +2699,7 @@ class exportObj.SquadBuilder
                         container.find('tr.info-upgrades').hide()
                     else
                         container.find('tr.info-upgrades').show()
-                        container.find('tr.info-upgrades td.info-data').html((exportObj.translate('sloticon', slot) for slot in data.slots).join(' ') or 'None')
+                        container.find('tr.info-upgrades td.info-data').html(if data.slots? then (exportObj.translate('sloticon', slot) for slot in data.slots).join(' ') or 'None' else "Standard Loadout")
                     container.find('p.info-maneuvers').show()
                     container.find('p.info-maneuvers').html(@getManeuverTableHTML(effective_stats?.maneuvers ? ship.maneuvers, ship.maneuvers))
                 when 'Quickbuild'
@@ -2690,13 +2710,16 @@ class exportObj.SquadBuilder
                     pilot = exportObj.pilots[data.pilot]
                     ship = exportObj.ships[data.ship]
                     
-                    if pilot.image_id?
-                        img_id = pilot.image_id
+                    if pilot.no_image?
+                        container.find('.info-image-container').hide()
                     else
-                        img_id = pilot.id
-                    pilot_img = 'images/pilots/' + img_id + '.jpg'
-                    container.find('.info-image').attr 'src', pilot_img
-                    container.find('.info-image-container').show()
+                        if pilot.image_id?
+                            img_id = pilot.image_id
+                        else
+                            img_id = pilot.id
+                        pilot_img = 'images/pilots/' + img_id + '.jpg'
+                        container.find('.info-image').attr 'src', pilot_img
+                        container.find('.info-image-container').show()
 
                     #logic to determine how many dots to use for uniqueness
                     if pilot.unique?
@@ -2824,13 +2847,16 @@ class exportObj.SquadBuilder
                     container.find('p.info-maneuvers').html(@getManeuverTableHTML(ship.maneuvers, ship.maneuvers))
                 when 'Addon'
                     
-                    if data.image_id?
-                        img_id = data.image_id
+                    if data.no_image?
+                        container.find('.info-image-container').hide()
                     else
-                        img_id = data.id
-                    upgrade_img = 'images/upgrades/' + img_id + '.jpg'
-                    container.find('.info-image').attr 'src', upgrade_img
-                    container.find('.info-image-container').show()
+                        if data.image_id?
+                            img_id = data.image_id
+                        else
+                            img_id = data.id
+                        upgrade_img = 'images/upgrades/' + img_id + '.jpg'
+                        container.find('.info-image').attr 'src', upgrade_img
+                        container.find('.info-image-container').show()
                     
                     container.find('.info-type').text additional_opts.addon_type
                     container.find('.info-sources.info-data').text (exportObj.translate('sources', source) for source in data.sources).sort().join(', ')
@@ -3421,8 +3447,8 @@ class exportObj.SquadBuilder
                     if upgrade.data?
                         upgrade_is_available = @collection.use('upgrade', upgrade.data.name)
                         # console.log "#{@faction}: Upgrade #{upgrade.data.name} available: #{upgrade_is_available}"
-                        validity = false unless upgrade_is_available
-                        missingStuff.push upgrade.data unless upgrade_is_available
+                        validity = false unless upgrade_is_available or upgrade.data.standard?
+                        missingStuff.push upgrade.data unless upgrade_is_available or upgrade.data.standard?
         [validity, missingStuff]
 
     checkCollection: ->
@@ -3680,7 +3706,7 @@ class Ship
             # filter out upgrades that can be copied
             other_upgrades = {}
             for upgrade in other.upgrades
-                if upgrade?.data? and not upgrade.data.unique and ((not upgrade.data.max_per_squad?) or @builder.countUpgrades(upgrade.data.canonical_name) < upgrade.data.max_per_squad)
+                if upgrade?.data? and not upgrade.data.standardized? and not upgrade.data.unique and not upgrade.data.standard_loadout? and ((not upgrade.data.max_per_squad?) or @builder.countUpgrades(upgrade.data.canonical_name) < upgrade.data.max_per_squad)
                     other_upgrades[upgrade.slot] ?= []
                     other_upgrades[upgrade.slot].push upgrade
             # set them aside any upgrades that don't fill requirements due to additional slots and then attempt to fill them
@@ -3827,6 +3853,8 @@ class Ship
                 @builder.container.trigger 'xwing-backend:squadDirtinessChanged'
 
     addStandardizedUpgrades: ->
+        if @hasFixedUpgrades
+            return # standard ships bypass
         idx = @builder.standard_list['Ship'].indexOf @data?.name
         if idx > -1
             upgrade_to_be_equipped = @builder.standard_list['Upgrade'][idx]
@@ -3849,7 +3877,7 @@ class Ship
             @builder.current_squad.dirty = true
             same_ship = @pilot? and new_pilot?.ship == @pilot.ship
             old_upgrades = {}
-            if same_ship
+            if same_ship and not @pilot.upgrades?
                 # track addons and try to reassign them
                 for upgrade in @upgrades
                     if upgrade?.data?
@@ -3873,7 +3901,7 @@ class Ship
                         for upgrade in @upgrades
                             if exportObj.slotsMatching(upgrade.slot, auto_equip_upgrade.slot)
                                 upgrade.setData auto_equip_upgrade
-                if same_ship
+                if same_ship and not @pilot.upgrades?
                     # two cycles, in case an old upgrade is adding slots that are required for other old upgrades
                     for _ in [1..2]
                         delayed_upgrades = {}
@@ -3901,12 +3929,27 @@ class Ship
 
     setupAddons: ->
         if not @builder.isQuickbuild
-            # Upgrades from pilot
-            for slot in @pilot.slots ? []
-                @upgrades.push new exportObj.Upgrade
-                    ship: this
-                    container: @addon_container
-                    slot: slot
+            if @pilot.upgrades?
+                @hasFixedUpgrades = true
+                for upgrade_name in @pilot.upgrades ? []
+                    upgrade_data = exportObj.upgrades[upgrade_name]
+                    if not upgrade_data?
+                        console.log("Unknown Upgrade: " + upgrade_name)
+                        continue
+                    upgrade = new exportObj.QuickbuildUpgrade
+                        ship: this
+                        container: @addon_container
+                        slot: upgrade_data.slot
+                        upgrade: upgrade_data
+                    upgrade.setData upgrade_data
+                    @upgrades.push upgrade
+            else
+                @hasFixedUpgrades = false
+                for slot in @pilot.slots ? []
+                    @upgrades.push new exportObj.Upgrade
+                        ship: this
+                        container: @addon_container
+                        slot: slot
         else 
             # Upgrades from quickbuild
             for upgrade_name in exportObj.quickbuildsById[@quickbuildId].upgrades ? []
@@ -3921,7 +3964,6 @@ class Ship
                     upgrade: upgrade_data
                 upgrade.setData upgrade_data
                 @upgrades.push upgrade
-
     resetAddons: ->
         await
             for upgrade in @upgrades
@@ -3931,8 +3973,9 @@ class Ship
     getPoints: ->
         if not @builder.isQuickbuild
             points = @pilot?.points ? 0
-            for upgrade in @upgrades
-                points += upgrade.getPoints()
+            if not @pilot?.standard_loadout?
+                for upgrade in @upgrades
+                    points += upgrade.getPoints()
             @points_container.find('span').text points
             if points > 0
                 @points_container.fadeTo 'fast', 1
@@ -4734,7 +4777,7 @@ class Ship
         unchanged = true
         max_checks = 32 # that's a lot of addons
         
-        if @builder.isEpic #Command Epic adding
+        if @builder.isEpic and not @pilot.upgrades? #Command Epic adding
             if not ("Command" in @pilot.slots)
                 addCommand = true
                 for upgrade in @upgrades
@@ -4755,6 +4798,7 @@ class Ship
         for i in [0...max_checks]
             valid = true
             pilot_func = @pilot?.validation_func ? @pilot?.restriction_func ? undefined
+            pilot_upgrades_check = @pilot.upgrades?
             if (pilot_func? and not pilot_func(this, @pilot)) or not (@builder.isItemAvailable(@pilot, true))
                 # we go ahead and happily remove ourself. Of course, when calling a method like validate on an object, you have to expect that it will dissappear, right?
                 @builder.removeShip this 
@@ -4762,15 +4806,18 @@ class Ship
             # everything is limited in X-Wing 2.0, so we need to check if any upgrade is equipped more than once
             equipped_upgrades = []
             for upgrade in @upgrades
-                func = upgrade?.data?.validation_func ? undefined
-                if func?
-                    func_result = upgrade?.data?.validation_func(this, upgrade)
-                else if upgrade?.data?.restrictions
-                    func_result = @restriction_check(upgrade.data.restrictions, upgrade)
-                # check if either a) validation func not met or b) upgrade already equipped (in 2.0 everything is limited) or c) upgrade is not available (e.g. not Hyperspace legal)
-                # ignore those checks if this is a quickbuild squad, as quickbuild does whatever it wants to do...
-                if ((func_result? and not func_result) or (upgrade?.data? and (upgrade.data in equipped_upgrades or (upgrade.data.faction? and not @builder.isOurFaction(upgrade.data.faction,@pilot.faction)) or not @builder.isItemAvailable(upgrade.data)))) and not @builder.isQuickbuild
-                    #console.log "Invalid upgrade: #{upgrade?.data?.name}"
+                meets_restrictions = true
+                if not pilot_upgrades_check
+                    func = upgrade?.data?.validation_func ? undefined
+                    if func?
+                        meets_restrictions = meets_restrictions and upgrade?.data?.validation_func(this, upgrade)
+                    restrictions = upgrade?.data?.restrictions ? undefined
+                    
+                    meets_restrictions = meets_restrictions and @restriction_check(restrictions, upgrade)
+
+                # ignore those checks if this is a pilot with upgrades or quickbuild
+                if (not meets_restrictions or (upgrade?.data? and (upgrade.data in equipped_upgrades or (upgrade.data.faction? and not @builder.isOurFaction(upgrade.data.faction,@pilot.faction)) or not @builder.isItemAvailable(upgrade.data)))) and not pilot_upgrades_check and not @builder.isQuickbuild
+                    console.log "Invalid upgrade: #{upgrade?.data?.name}, check #{@pilot?.upgrades} on pilot #{@pilot?.name}"
                     upgrade.setById null
                     valid = false
                     unchanged = false
@@ -4795,7 +4842,7 @@ class Ship
 
     hasAnotherUnoccupiedSlotLike: (upgrade_obj, upgradeslot) ->
         for upgrade in @upgrades
-            continue if upgrade == upgrade_obj or upgrade.slot != upgradeslot
+            continue if upgrade == upgrade_obj or not exportObj.slotsMatching(upgrade.slot, upgradeslot) or upgrade.slot == "HardpointShip" or upgrade.slot == "VersatileShip"
             return true unless upgrade.isOccupied()
         false
 
@@ -4809,71 +4856,72 @@ class Ship
         
     restriction_check: (restrictions, upgrade_obj) ->
         effective_stats = @effectiveStats()
-        for r in restrictions
-            if r[0] == "orUnique"
-                if @checkListForUnique(r[1].toLowerCase().replace(/[^0-9a-z]/gi, '').replace(/\s+/g, '-'))
-                    return true
-            switch r[0]
-                when "Base"  
-                    switch r[1]
-                        when "Small"
-                            if @data.medium? or @data.large? or @data.huge? then return false
-                        when "Non-Small"
-                            if not (@data.medium? or @data.large? or @data.huge?) then return false
-                        when "Small or Medium"
-                            if @data.large? or @data.huge? then return false
-                        when "Medium" 
-                            if not (@data.medium?) then return false
-                        when "Medium or Large"
-                            if not (@data.medium? or @data.large?) then return false
-                        when "Large" 
-                            if not (@data.large?) then return false
-                        when "Large or Huge" 
-                            if not (@data.large? or @data.huge?) then return false
-                        when "Huge" 
-                            if not (@data.huge?) then return false
-                        when "Standard" 
-                            if @data.huge? then return false
-                when "Action"
-                    if r[1].startsWith("W-")
-                        w = r[1].substring(2)
-                        if w not in effective_stats.actions then return false
-                    else
-                        check = false
-                        for action in effective_stats.actions
-                            if action.includes(r[1]) and not action.includes(">")
-                                check = true
-                        if check is false then return false
-                when "Keyword"
-                    if not (@checkKeyword(r[1])) then return false
-                when "noKeyword"
-                    if (@checkKeyword(r[1])) then return false
-                when "Equipped"
-                    if not ((@doesSlotExist(r[1]) and @hasFilledSlotLike(upgrade_obj, r[1]))) then return false
-                when "Slot"
-                    if not @hasAnotherUnoccupiedSlotLike(upgrade_obj, r[1]) then return false
-                when "AttackArc"
-                    if not @data.attackb? then return false
-                when "ShieldsGreaterThan"
-                    if not (@data.shields > r[1]) then return false
-                when "EnergyGreatterThan"
-                    if not (effective_stats.energy > r[1]) then return false
-                when "InitiativeGreaterThan"
-                    if not (@pilot.skill > r[1]) then return false
-                when "InitiativeLessThan"
-                    if not (@pilot.skill < r[1]) then return false
-                when "AgilityEquals"
-                    if not (effective_stats.agility == r[1]) then return false
-                when "isUnique"
-                    if r[1] != @pilot.unique? then return false
-                when "Format"
-                    switch r[1]
-                        when "Epic"
-                            if not (@data.name in exportObj.epicExclusionsList) then return false
-                        when "Standard"
-                            if @data.name in exportObj.epicExclusionsList then return false
-                when "Faction"
-                    if @pilot.faction != r[1] then return false
+        if restrictions?
+            for r in restrictions
+                if r[0] == "orUnique"
+                    if @checkListForUnique(r[1].toLowerCase().replace(/[^0-9a-z]/gi, '').replace(/\s+/g, '-'))
+                        return true
+                switch r[0]
+                    when "Base"  
+                        switch r[1]
+                            when "Small"
+                                if @data.medium? or @data.large? or @data.huge? then return false
+                            when "Non-Small"
+                                if not (@data.medium? or @data.large? or @data.huge?) then return false
+                            when "Small or Medium"
+                                if @data.large? or @data.huge? then return false
+                            when "Medium" 
+                                if not (@data.medium?) then return false
+                            when "Medium or Large"
+                                if not (@data.medium? or @data.large?) then return false
+                            when "Large" 
+                                if not (@data.large?) then return false
+                            when "Large or Huge" 
+                                if not (@data.large? or @data.huge?) then return false
+                            when "Huge" 
+                                if not (@data.huge?) then return false
+                            when "Standard" 
+                                if @data.huge? then return false
+                    when "Action"
+                        if r[1].startsWith("W-")
+                            w = r[1].substring(2)
+                            if w not in effective_stats.actions then return false
+                        else
+                            check = false
+                            for action in effective_stats.actions
+                                if action.includes(r[1]) and not action.includes(">")
+                                    check = true
+                            if check is false then return false
+                    when "Keyword"
+                        if not (@checkKeyword(r[1])) then return false
+                    when "noKeyword"
+                        if (@checkKeyword(r[1])) then return false
+                    when "Equipped"
+                        if not ((@doesSlotExist(r[1]) and @hasFilledSlotLike(upgrade_obj, r[1]))) then return false
+                    when "Slot"
+                        if (not @hasAnotherUnoccupiedSlotLike(upgrade_obj, r[1]) and not upgrade_obj.occupiesAnUpgradeSlot(r[1])) or  upgrade_obj.slot == "HardpointShip" or  upgrade_obj.slot == "VersatileShip"  then return false
+                    when "AttackArc"
+                        if not @data.attackb? then return false
+                    when "ShieldsGreaterThan"
+                        if not (@data.shields > r[1]) then return false
+                    when "EnergyGreatterThan"
+                        if not (effective_stats.energy > r[1]) then return false
+                    when "InitiativeGreaterThan"
+                        if not (@pilot.skill > r[1]) then return false
+                    when "InitiativeLessThan"
+                        if not (@pilot.skill < r[1]) then return false
+                    when "AgilityEquals"
+                        if not (effective_stats.agility == r[1]) then return false
+                    when "isUnique"
+                        if r[1] != @pilot.unique? then return false
+                    when "Format"
+                        switch r[1]
+                            when "Epic"
+                                if not (@data.name in exportObj.epicExclusionsList) then return false
+                            when "Standard"
+                                if @data.name in exportObj.epicExclusionsList then return false
+                    when "Faction"
+                        if @pilot.faction != r[1] then return false
         return true
 
     standardized_check: (upgrade_data) ->
@@ -4944,9 +4992,10 @@ class Ship
 
         upgrade_obj = {}
 
-        for upgrade in @upgrades
-            if upgrade?.data?
-                upgrade.toXWS upgrade_obj
+        if not @pilot.upgrades
+            for upgrade in @upgrades
+                if upgrade?.data?
+                    upgrade.toXWS upgrade_obj
 
         if Object.keys(upgrade_obj).length > 0
             xws.upgrades = upgrade_obj
@@ -5096,7 +5145,7 @@ class GenericAddon
         if new_data?.id != @data?.id
             if @data?.unique? or @data?.solitary?
                 await @ship.builder.container.trigger 'xwing:releaseUnique', [ @unadjusted_data, @type, defer() ]
-            if @data?.standardized?
+            if @data?.standardized? and not @ship.hasFixedUpgrades
                 @removeStandardized()
             @rescindAddons()
             @deoccupyOtherUpgrades()
@@ -5115,10 +5164,11 @@ class GenericAddon
                     return @setById @data.superseded_by_id
                 if @adjustment_func?
                     @data = @adjustment_func(@data)
-                @unequipOtherUpgrades()
-                @occupyOtherUpgrades()
-                @conferAddons()
-                if @data.standardized?
+                if not @ship.pilot?.upgrades?
+                    @unequipOtherUpgrades()
+                    @occupyOtherUpgrades()
+                    @conferAddons()
+                if @data.standardized? and not @ship.hasFixedUpgrades
                     @addToStandardizedList()
             else
                 @deoccupyOtherUpgrades()
@@ -5147,11 +5197,9 @@ class GenericAddon
                 # now remove all upgrades of the same name
                 nameToRemove = @data.name
                 for ship in @ship.builder.ships
-                    if ship.data?.name == @ship.data.name
+                    if ship.data?.name == @ship.data.name and ship != @ship
                         for upgrade in ship.upgrades
                             if upgrade.data?.name == nameToRemove
-                                # we can (and should) savely call setData to remove the Upgrade, to handle e.g. removal of added slots
-                                # infinite loop recursion is prevented since it's removed from standard_list already
                                 upgrade.setData null
                                 break
 
@@ -5401,7 +5449,7 @@ class GenericAddon
     unequipOtherUpgrades: ->
         for slot in @data?.unequips_upgrades ? []
             for upgrade in @ship.upgrades
-                continue if upgrade.slot != slot or upgrade == this or not upgrade.isOccupied()
+                continue if not exportObj.slotsMatching(upgrade.slot, slot) or upgrade == this or not upgrade.isOccupied()
                 upgrade.setData null
                 break
 
@@ -5411,7 +5459,7 @@ class GenericAddon
     occupyOtherUpgrades: ->
         for slot in @data?.also_occupies_upgrades ? []
             for upgrade in @ship.upgrades
-                continue if upgrade.slot != slot or upgrade == this or upgrade.isOccupied()
+                continue if not exportObj.slotsMatching(upgrade.slot, slot) or upgrade == this or upgrade.isOccupied()
                 @occupy upgrade
                 break
 
@@ -5430,7 +5478,7 @@ class GenericAddon
 
     occupiesAnUpgradeSlot: (upgradeslot) ->
         for upgrade in @ship.upgrades
-            continue if upgrade.slot != upgradeslot or upgrade == this or upgrade.data?
+            continue if not exportObj.slotsMatching(upgrade.slot, upgradeslot) or upgrade == this or upgrade.data?
             if upgrade.occupied_by? and upgrade.occupied_by == this
                 return true
         false
