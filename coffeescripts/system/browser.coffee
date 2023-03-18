@@ -100,9 +100,6 @@ class exportObj.CardBrowser
                                         <label class = "advanced-search-label toggle-non-unique">
                                             <input type="checkbox" class="non-unique-checkbox advanced-search-checkbox" /> <span class="translated" defaultText="Is not unique"></span>
                                         </label>
-                                        <label class = "advanced-search-label toggle-hyperspace">
-                                            <input type="checkbox" class="hyperspace-checkbox advanced-search-checkbox" />  <span class="translated" defaultText="Hyperspace legal"></span>
-                                        </label>
                                     </div>
                                 </div>
                                 <div class = "card search-container ship-search-container">
@@ -341,7 +338,6 @@ class exportObj.CardBrowser
         
         @minimum_point_costs = ($ @container.find('.xwing-card-browser .minimum-point-cost'))[0]
         @maximum_point_costs = ($ @container.find('.xwing-card-browser .maximum-point-cost'))[0]
-        @hyperspace_checkbox = ($ @container.find('.xwing-card-browser .hyperspace-checkbox'))[0]
         @unique_checkbox = ($ @container.find('.xwing-card-browser .unique-checkbox'))[0]
         @non_unique_checkbox = ($ @container.find('.xwing-card-browser .non-unique-checkbox'))[0]
         @base_size_checkboxes = 
@@ -465,7 +461,6 @@ class exportObj.CardBrowser
             checkbox.onclick = => @renderList @sort_selector.val()            
         @minimum_point_costs.oninput = => @renderList @sort_selector.val()
         @maximum_point_costs.oninput = => @renderList @sort_selector.val()
-        @hyperspace_checkbox.onclick = => @renderList @sort_selector.val()
         @unique_checkbox.onclick = => @renderList @sort_selector.val()
         @non_unique_checkbox.onclick = => @renderList @sort_selector.val()
         @slot_available_selection[0].onchange = => @renderList @sort_selector.val()
@@ -711,14 +706,6 @@ class exportObj.CardBrowser
                return false unless faction_matches
         else
             selected_factions = all_factions
-
-        # check if hyperspace only matches
-        if @hyperspace_checkbox.checked
-            # check all factions specified by the card (which might be a single faction or an array of factions), or all selected factions if card does not specify any
-            for faction in (if card.data.faction? then (if Array.isArray(card.data.faction) then card.data.faction else [card.data.faction]) else selected_factions)
-                continue unless faction in selected_factions # e.g. ships should only be displayed if a legal faction is selected
-                hyperspace_legal = hyperspace_legal or exportObj.hyperspaceCheckBrowser(card.data, faction, card.orig_type)
-            return false unless hyperspace_legal
 
         # check for slot requirements
         required_slots = @slot_available_selection.val()
