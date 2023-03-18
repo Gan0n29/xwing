@@ -1780,124 +1780,244 @@ exportObj.cardLoaders.English = () ->
         "Garven Dreis (BoY)":
            display_name: """Garven Dreis (BoY)"""
            text: """After you spend a focus token, you may choose 1 friendly ship at range 1-3. That ship gains 1 focus token."""
+        "Garven Dreis (BoY SL)":
+           display_name: """Garven Dreis (BoY SL)"""
+           text: """After you spend a focus token, you may choose 1 friendly ship at range 1-3. That ship gains 1 focus token."""
         "Luke Skywalker (BoY)":
            display_name: """Luke Skywalker (BoY)"""
+           text: """After you become the defender (before dice are rolled), you may recover 1 %FORCE%."""
+        "Luke Skywalker (BoY SL)":
+           display_name: """Luke Skywalker (BoY SL)"""
            text: """After you become the defender (before dice are rolled), you may recover 1 %FORCE%."""
         "Wedge Antilles (BoY)":
            display_name: """Wedge Antilles (BoY)"""
            text: """While you perform a primary attack, if there is another friendly ship in the defender's firing arc, the defender rolls 1 less defense dice."""
+        "Wedge Antilles (BoY SL)":
+           display_name: """Wedge Antilles (BoY SL)"""
+           text: """While you perform a primary attack, if there is another friendly ship in the defender's firing arc, the defender rolls 1 less defense dice."""
         "Biggs Darklighter (BoY)":
            display_name: """Biggs Darklighter (BoY)"""
+           text: """During the System Phase, you may choose 1 friendly ship at range 1. If you do, treat your initiative as equal to the chosen ship's initiative until the end of the Activation Phase."""
+        "Biggs Darklighter (BoY SL)":
+           display_name: """Biggs Darklighter (BoY SL)"""
            text: """During the System Phase, you may choose 1 friendly ship at range 1. If you do, treat your initiative as equal to the chosen ship's initiative until the end of the Activation Phase."""
         "Jek Porkins (BoY)":
            display_name: """Jek Porkins (BoY)"""
            text: """After you receive a stress token, you may roll 1 attack die to remove it. On a %HIT% result, suffer 1 %HIT% damage."""
+        "Jek Porkins (BoY SL)":
+           display_name: """Jek Porkins (BoY SL)"""
+           text: """After you receive a stress token, you may roll 1 attack die to remove it. On a %HIT% result, suffer 1 %HIT% damage."""
         "Hol Okand (BoY)":
            display_name: """Hol Okand (BoY)"""
+           text: """During the System Phasse, if there are no enemy ships at range 1-2, you may recover 1 %CHARGE% on any upgrade."""
+        "Hol Okand (BoY SL)":
+           display_name: """Hol Okand (BoY SL)"""
            text: """During the System Phasse, if there are no enemy ships at range 1-2, you may recover 1 %CHARGE% on any upgrade."""
         '"Pops" Krail (BoY)':
            display_name: """“Pops” Krail (BoY)"""
            text: """While you perform a %SINGLETURRETARC% attack, you may reroll up to 2 attack dice."""
+        '"Pops" Krail (BoY SL)':
+           display_name: """“Pops” Krail (BoY SL)"""
+           text: """While you perform a %SINGLETURRETARC% attack, you may reroll up to 2 attack dice."""
         '"Dutch" Vander (BoY)':
            display_name: """“Dutch” Vander (BoY)"""
+           text: """After you spend a lock during an attack, choose a friendly ship at range 1-3. The chosen ship may acquire a lock on the defender.%LINEBREAK%<i>Errata (since rules reference 1.4.4): Corrected pilot ability and adjusted initiative value</i>"""
+        '"Dutch" Vander (BoY SL)':
+           display_name: """“Dutch” Vander (BoY SL)"""
            text: """After you spend a lock during an attack, choose a friendly ship at range 1-3. The chosen ship may acquire a lock on the defender.%LINEBREAK%<i>Errata (since rules reference 1.4.4): Corrected pilot ability and adjusted initiative value</i>"""
         "Dex Tiree (BoY)":
            display_name: """Dex Tiree (BoY)"""
            text: """While you defend, if there is at least 1 other friendly ship at range 0-1, you may roll 1 additional defense die."""
+        "Dex Tiree (BoY SL)":
+           display_name: """Dex Tiree (BoY SL)"""
+           text: """While you defend, if there is at least 1 other friendly ship at range 0-1, you may roll 1 additional defense die."""
         "Han Solo (BoY)":
            display_name: """Han Solo (BoY)"""
+           text: """After performing an attack that hits, you may spend 1 %CHARGE% to perform a %COORDINATE% action."""
+        "Han Solo (BoY SL)":
+           display_name: """Han Solo (BoY SL)"""
            text: """After performing an attack that hits, you may spend 1 %CHARGE% to perform a %COORDINATE% action."""
         '"Wampa" (BoY)':
            display_name: """“Wampa” (BoY)"""
            text: """While you perform an attack, you may spend 1 %CHARGE% to roll 1 additional attack die.%LINEBREAK%After defending, lose 1 %CHARGE%."""
+        '"Wampa" (BoY SL)':
+           display_name: """“Wampa” (BoY SL)"""
+           text: """While you perform an attack, you may spend 1 %CHARGE% to roll 1 additional attack die.%LINEBREAK%After defending, lose 1 %CHARGE%."""
         '"Dark Curse" (BoY)':
            display_name: """“Dark Curse (BoY)”"""
+           text: """While you defend, the attacker's dice cannot be modified."""
+        '"Dark Curse" (BoY SL)':
+           display_name: """“Dark Curse (BoY SL)”"""
            text: """While you defend, the attacker's dice cannot be modified."""
         "Darth Vader (BoY)":
            display_name: """Darth Vader (BoY)"""
            text: """While you perform an attack, you may spend 1 %FORCE% to change 1 blank result to a %HIT% result."""
+        "Darth Vader (BoY SL)":
+           display_name: """Darth Vader (BoY SL)"""
+           text: """While you perform an attack, you may spend 1 %FORCE% to change 1 blank result to a %HIT% result."""
         "Iden Versio (BoY)": 
            display_name: """Iden Versio (BoY)"""
+           text: """Before a friendly TIE at range 0-1 would suffer damage, you may spend 2 %CHARGE%. If you do, prevent 1 damage. %LINEBREAK%<i>Errata (since rules reference 1.4.4): Corrected pilot ability</i>"""
+        "Iden Versio (BoY SL)": 
+           display_name: """Iden Versio (BoY SL)"""
            text: """Before a friendly TIE at range 0-1 would suffer damage, you may spend 2 %CHARGE%. If you do, prevent 1 damage. %LINEBREAK%<i>Errata (since rules reference 1.4.4): Corrected pilot ability</i>"""
         '"Backstabber" (BoY)': 
            display_name: """“Backstabber” (BoY)"""
            text: """While you perform a primary attack, if a friendly Darth Vader or "Mauler" Mithel is in your %LEFTARC% or %RIGHTARC% at range 0-1, roll 1 additional attack die."""
+        '"Backstabber" (BoY SL)': 
+           display_name: """“Backstabber” (BoY SL)"""
+           text: """While you perform a primary attack, if a friendly Darth Vader or "Mauler" Mithel is in your %LEFTARC% or %RIGHTARC% at range 0-1, roll 1 additional attack die."""
         "Sigma 4 (BoY)":
            display_name: """Sigma 4 (BoY)"""
+           text: """After you perform a %BARRELROLL% action, you may spend 1 %CHARGE% to perform a %BOOST% action."""
+        "Sigma 4 (BoY SL)":
+           display_name: """Sigma 4 (BoY SL)"""
            text: """After you perform a %BARRELROLL% action, you may spend 1 %CHARGE% to perform a %BOOST% action."""
         "Sigma 5 (BoY)":
            display_name: """Sigma 5 (BoY)"""
            text: """After you perform an attack that hits, you may spend 1 %CHARGE% to perform an %EVADE% action."""
+        "Sigma 5 (BoY SL)":
+           display_name: """Sigma 5 (BoY SL)"""
+           text: """After you perform an attack that hits, you may spend 1 %CHARGE% to perform an %EVADE% action."""
         "Sigma 6 (BoY)":
            display_name: """Sigma 6 (BoY)"""
+           text: """After you fully execute a speed 3-5 maneuver, you may spend 1 %CHARGE% to perform a %SLAM% action."""
+        "Sigma 6 (BoY SL)":
+           display_name: """Sigma 6 (BoY SL)"""
            text: """After you fully execute a speed 3-5 maneuver, you may spend 1 %CHARGE% to perform a %SLAM% action."""
         "Sigma 7 (BoY)":
            display_name: """Sigma 7 (BoY)"""
            text: """During the System Phase, you may spend 1 %CHARGE% to acquire a lock on an enemy ship at range 0-1."""
+        "Sigma 7 (BoY SL)":
+           display_name: """Sigma 7 (BoY SL)"""
+           text: """During the System Phase, you may spend 1 %CHARGE% to acquire a lock on an enemy ship at range 0-1."""
         '"Mauler" Mithel (BoY)':
            display_name: """“Mauler” Mithel (BoY)"""
+           text: """While you perform a primary attack, if a friendly Darth Vader or "Backstabber" is in your %LEFTARC% or %RIGHTARC% at range 0-1, roll 1 additional attack die."""
+        '"Mauler" Mithel (BoY SL)':
+           display_name: """“Mauler” Mithel (BoY SL)"""
            text: """While you perform a primary attack, if a friendly Darth Vader or "Backstabber" is in your %LEFTARC% or %RIGHTARC% at range 0-1, roll 1 additional attack die."""
 
         # Siege of Coruscant Pilots
         "Anakin Skywalker (SoC)":
            display_name: """Anakin Skywalker (SoC)"""
            text: """After you or a friendly <b>Obi-Wan Kenobi</b> ship at range 0-3 fully executes a maneuver, if there are more enemy ships than other friendly ships at range 0-1 of that ship, you may spend 1 %FORCE%. If you do, that ship may perform a %BARRELROLL% action."""
+        "Anakin Skywalker (SoC SL)":
+           display_name: """Anakin Skywalker (SoC SL)"""
+           text: """After you or a friendly <b>Obi-Wan Kenobi</b> ship at range 0-3 fully executes a maneuver, if there are more enemy ships than other friendly ships at range 0-1 of that ship, you may spend 1 %FORCE%. If you do, that ship may perform a %BARRELROLL% action."""
         "Obi-Wan Kenobi (SoC)":
            display_name: """Obi-Wan Kenobi (SoC)"""
+           text: """After you or a friendly <b>Anakin Skywalker</b> at range 0-3 fully executes a maneuver, if there are more enemy ships than other friendly ships at range 0-1 of that ship, you may spend 1 %FORCE%. If you do, that ship may perform a %BOOST% action."""
+        "Obi-Wan Kenobi (SoC SL)":
+           display_name: """Obi-Wan Kenobi (SoC SL)"""
            text: """After you or a friendly <b>Anakin Skywalker</b> at range 0-3 fully executes a maneuver, if there are more enemy ships than other friendly ships at range 0-1 of that ship, you may spend 1 %FORCE%. If you do, that ship may perform a %BOOST% action."""
         "Shaak Ti (SoC)":
            display_name: """Shaak Ti (SoC)"""
            text: """At the start of the End Phase, you may perfrom a purple %COORDINATE% action, even while stressed %LINEBREAK% After you perform a %COORDINATE% action, if the chosen ship has the <b>Born for This</b> ship ability, you may coordinate 1 additional ship."""
+        "Shaak Ti (SoC SL)":
+           display_name: """Shaak Ti (SoC SL)"""
+           text: """At the start of the End Phase, you may perfrom a purple %COORDINATE% action, even while stressed %LINEBREAK% After you perform a %COORDINATE% action, if the chosen ship has the <b>Born for This</b> ship ability, you may coordinate 1 additional ship."""
         '"Odd Ball" (SoC)':
            display_name: """“Odd Ball” (SoC)"""
+           text: """After you fully execute a red maneuver or perform a red action, you camy choose a friendly ship at range 0-3 and an enemy at range 0-1. The chosen frendly ship gains a lock on the enemy ship."""
+        '"Odd Ball" (SoC SL)':
+           display_name: """“Odd Ball” (SoC SL)"""
            text: """After you fully execute a red maneuver or perform a red action, you camy choose a friendly ship at range 0-3 and an enemy at range 0-1. The chosen frendly ship gains a lock on the enemy ship."""
         '"Wolffe" (SoC)':
            display_name: """“Wolffe” (SoC)"""
            text: """While you perform a primary %FRONTARC% attack, you may spend 1 %CHARGE% to reroll 1 attack die. While you perform a primary %REARARC% attack, you may recover 1 %CHARGE% to roll 1 additional die."""
+        '"Wolffe" (SoC SL)':
+           display_name: """“Wolffe” (SoC SL)"""
+           text: """While you perform a primary %FRONTARC% attack, you may spend 1 %CHARGE% to reroll 1 attack die. While you perform a primary %REARARC% attack, you may recover 1 %CHARGE% to roll 1 additional die."""
         '"Jag" (SoC)':
            display_name: """“Jag” (SoC)"""
+           text: """After a friendly ship at range 0-2 in your %LEFTARC% or %RIGHTARC% performs an attack, if you are not strained, you may acquire a lock on the defender."""
+        '"Jag" (SoC SL)':
+           display_name: """“Jag” (SoC SL)"""
            text: """After a friendly ship at range 0-2 in your %LEFTARC% or %RIGHTARC% performs an attack, if you are not strained, you may acquire a lock on the defender."""
         '"Contrail" (SoC)':
            display_name: """“Contrail” (SoC)"""
            text: """While you defend or perform an attack, if the bearing of your revealed maneuver is the same as the enemy ship's, you may change 1 of the enemy ship's %FOCUS% results to a blank result. """
+        '"Contrail" (SoC SL)':
+           display_name: """“Contrail” (SoC SL)"""
+           text: """While you defend or perform an attack, if the bearing of your revealed maneuver is the same as the enemy ship's, you may change 1 of the enemy ship's %FOCUS% results to a blank result. """
         '"Klick" (SoC)':
            display_name: """“Klick” (SoC)"""
+           text: """While a ship that you have locked at range 1-3 defends or performs an attack, you may spend 1 %CHARGE% to prevent range bonuses from being applied. """
+        '"Klick" (SoC SL)':
+           display_name: """“Klick” (SoC SL)"""
            text: """While a ship that you have locked at range 1-3 defends or performs an attack, you may spend 1 %CHARGE% to prevent range bonuses from being applied. """
         '"Kickback" (SoC)':
            display_name: """“Kickback” (SoC)"""
            text: """After you perform a %BARRELROLL% action, you may perform a red %LOCK% action. If you do, before you perform the %LOCK% action, you may gain 1 strain to treat it as white."""
+        '"Kickback" (SoC SL)':
+           display_name: """“Kickback” (SoC SL)"""
+           text: """After you perform a %BARRELROLL% action, you may perform a red %LOCK% action. If you do, before you perform the %LOCK% action, you may gain 1 strain to treat it as white."""
         '"Axe" (SoC)':
            display_name: """“Axe” (SoC)"""
+           text: """After you perform an attack, you may choose another friendly ship with the <b>Born for This</b> ability at range 0-2 in your %LEFTARC% or %RIGHTARC%. The chosen ship gains a lock on the defender."""
+        '"Axe" (SoC SL)':
+           display_name: """“Axe” (SoC SL)"""
            text: """After you perform an attack, you may choose another friendly ship with the <b>Born for This</b> ability at range 0-2 in your %LEFTARC% or %RIGHTARC%. The chosen ship gains a lock on the defender."""
         "Count Dooku (SoC)":
            display_name: """Count Dooku (SoC)"""
            text: """During an attack, before a ship at range 0-2 rolls attack or defense dice, if all of your %FORCE% are active, you may spend 1 %FORCE% and name a result. If the roll does not contain the named result, the ship must change 1 die to that result."""
+        "Count Dooku (SoC SL)":
+           display_name: """Count Dooku (SoC SL)"""
+           text: """During an attack, before a ship at range 0-2 rolls attack or defense dice, if all of your %FORCE% are active, you may spend 1 %FORCE% and name a result. If the roll does not contain the named result, the ship must change 1 die to that result."""
         "DBS-32C (SoC)":
            display_name: """DBS-32C (SoC)"""
+           text: """After you perform a %CALCULATE% action, you may spend 1 %CHARGE% to perform a %JAM% action."""
+        "DBS-32C (SoC SL)":
+           display_name: """DBS-32C (SoC SL)"""
            text: """After you perform a %CALCULATE% action, you may spend 1 %CHARGE% to perform a %JAM% action."""
         "DBS-404 (SoC)":
            display_name: """DBS-404 (SoC)"""
            text: """While you perform an attack at range 1, you <b>must</b> roll 1 additional die. After the attack hits, suffer 1 %CRIT% damage."""
+        "DBS-404 (SoC SL)":
+           display_name: """DBS-404 (SoC SL)"""
+           text: """While you perform an attack at range 1, you <b>must</b> roll 1 additional die. After the attack hits, suffer 1 %CRIT% damage."""
         "Baktoid Prototype (SoC)":
            display_name: """Baktoid Prototype (SoC)"""
+           text: """While you perform a special attack, if a friendly ship with the <strong>Networked Calculations</strong> ship ability has a lock on the defender, you may ingore the %FOCUS%, %CALCULATE% or %LOCK% requirement of the attack."""
+        "Baktoid Prototype (SoC SL)":
+           display_name: """Baktoid Prototype (SoC SL)"""
            text: """While you perform a special attack, if a friendly ship with the <strong>Networked Calculations</strong> ship ability has a lock on the defender, you may ingore the %FOCUS%, %CALCULATE% or %LOCK% requirement of the attack."""
         "DIS-347 (SoC)":
            display_name: """DIS-347 (SoC)"""
            text: """At the start of the Engagement Phase, you may acquire a lock on an object at range 1-3 that has a friendly lock."""
+        "DIS-347 (SoC SL)":
+           display_name: """DIS-347 (SoC SL)"""
+           text: """At the start of the Engagement Phase, you may acquire a lock on an object at range 1-3 that has a friendly lock."""
         "DIS-T81 (SoC)":
            display_name: """DIS-T81 (SoC)"""
+           text: """While you defend or perform an attack, you may reroll any number of your dice. Then if you were defending, gain 1 strain token for each die that was rerolled. If you were attacking, gain 1 deplete token for each die that was rerolled instead."""
+        "DIS-T81 (SoC SL)":
+           display_name: """DIS-T81 (SoC SL)"""
            text: """While you defend or perform an attack, you may reroll any number of your dice. Then if you were defending, gain 1 strain token for each die that was rerolled. If you were attacking, gain 1 deplete token for each die that was rerolled instead."""
         "Phlac-Arphocc Prototype (SoC)":
            display_name: """Phlac-Arphocc Prototype (SoC)"""
            text: """At the start of the Engagement Phase, if there is an enemy ship in your %BULLSEYEARC%, gain a calculate token."""
+        "Phlac-Arphocc Prototype (SoC SL)":
+           display_name: """Phlac-Arphocc Prototype (SoC SL)"""
+           text: """At the start of the Engagement Phase, if there is an enemy ship in your %BULLSEYEARC%, gain a calculate token."""
         "DFS-081 (SoC)":
            display_name: """DFS-081 (SoC)"""
+           text: """While defending, you may spend 1 %CHARGE% and 1 calculate token to cancel 1 %CRIT% result."""
+        "DFS-081 (SoC SL)":
+           display_name: """DFS-081 (SoC SL)"""
            text: """While defending, you may spend 1 %CHARGE% and 1 calculate token to cancel 1 %CRIT% result."""
         "DFS-311 (SoC)":
            display_name: """DFS-311 (SoC)"""
            text: """At the start of the Engagement Phase, you may transfer 1 of your calculate tokens to another friendly ship at range 0-3."""
+        "DFS-311 (SoC SL)":
+           display_name: """DFS-311 (SoC SL)"""
+           text: """At the start of the Engagement Phase, you may transfer 1 of your calculate tokens to another friendly ship at range 0-3."""
         "Haor Chall Prototype (SoC)":
            display_name: """Haor Chall Prototype (SoC)"""
+           text: """After an enemy ship in your %BULLSEYEARC% declares a scenario feature or another friendly ship as the defender, you may perform a %CALCULATE% or %LOCK% action."""
+        "Haor Chall Prototype (SoC SL)":
+           display_name: """Haor Chall Prototype (SoC SL)"""
            text: """After an enemy ship in your %BULLSEYEARC% declares a scenario feature or another friendly ship as the defender, you may perform a %CALCULATE% or %LOCK% action."""
 
         # Hotshots and Aces 2
@@ -3118,6 +3238,74 @@ exportObj.cardLoaders.English = () ->
            text: """<strong>Attack (%LOCK%):</strong> Spend 1 %CHARGE%. After you declare the defender, the defender may choose to suffer 1 %CRIT% damage. If it does, skip the Attack and Defense Dice steps and the attack is treated as hitting."""
         "Xanadu Blood":
            text: """Add %CREW% and %DEVICE% slots."""
+
+        # Standardized upgrades
+        "Fanatic (BoY)":
+           display_name: """Fanatic"""
+           text: """While you perform a primary attack, if you are damaged, you may change 1 %FOCUS% result to a %HIT% result."""
+        "Vengeful (BoY)":
+           display_name: """Vengeful"""
+           text: """After a friendly ship at range 0-3 is destroyed, if that ship is limited, you may remove 1 of your red tokens or recover 1 recurring charge on your ship card."""
+        "Chewbacca (BoY)":
+           display_name: """Chewbacca"""
+           text: """After you perform an %EVADE% action, you may gain 1 focus token."""
+        "L3-37's Programming (BoY)":
+           display_name: """L3-37's Programming"""
+           text: """If you are not shielded, decrease the difficulty of your bank (%BANKLEFT% and %BANKRIGHT%) maneuvers."""
+        "Unstable Sublight Engines (BoY)":
+           display_name: """Unstable Sublight Engines"""
+           text: """After you are destroyed, you <b>must</b> execute a [1 %STRAIGHT%] maneuver, then each other ship at range 0-1 suffers 1 %HIT% damage."""
+        "Attack Speed (BoY)":
+           display_name: """Attack Speed"""
+           text: """After you fully execute a [3 %STRAIGHT%] or [4 %STRAIGHT%] maneuver, you may perform a boost using the [1 %STRAIGHT%] template. (This is not an action)."""
+        "R2-D2 (BoY)":
+           display_name: """R2-D2"""
+           text: """After you reveal your dial, you may spend 1 %CHARGE% and gain 1 disarm token to recover 1 shield."""
+        "R2-F2 (BoY)":
+           display_name: """R2-F2"""
+           text: """After you reveal your dial, you may spend 1 %CHARGE% and gain 1 disarm token to recover 1 shield."""
+        "R2-A3 (BoY)":
+           display_name: """R2-A3"""
+           text: """After you reveal your dial, you may spend 1 %CHARGE% and gain 1 disarm token to recover 1 shield."""
+        "R5-D8 (BoY)":
+           display_name: """R5-D8"""
+           text: """<strong>Action:</strong> Spend 1 %CHARGE% to repair 1 facedown damage card. %LINEBREAK% <strong>Action:</strong> Repair 1 faceup <strong>Ship</strong> damage card."""
+        "R5-K6 (BoY)":
+           display_name: """R5-K6"""
+           text: """<strong>Action:</strong> Spend 1 %CHARGE% to repair 1 facedown damage card. %LINEBREAK% <strong>Action:</strong> Repair 1 faceup <strong>Ship</strong> damage card."""
+        "Precise Astromech (BoY)":
+           display_name: """Precise Astromech"""
+           text: """After you perform an action, you may spend 1 %CHARGE% to perform a red %LOCK% action."""
+        "Targeting Astromech (BoY)":
+           display_name: """Targeting Astromech"""
+           text: """After you perform a %LOCK% action, you may perform a red %ROTATEARC% action."""
+        "Dorsal Turret (BoY)":
+           display_name: """Dorsal Turret"""
+           text: """<strong>Attack</strong>"""
+        "Sensor Jammer (BoY)":
+           display_name: """Sensor Jammer"""
+           text: """While defending, if there is a friendly lock on the attacker, you may change 1 of the attacker's %HIT% results to a %FOCUS% result."""
+        "Ancillary Ion Weapons (SoC)":
+           display_name: """Ancillary Ion Weapons"""
+           text: """While you perform a primary %FRONTARC% attack, before rolling attack dice, you may spend 2 %CHARGE%. If you do, your %CRIT% results deal ion tokens instead of damage."""
+        "Roiling Anger (SoC)":
+           display_name: """Roiling Anger"""
+           text: """At the start of the Engagement Phase, if you are in an enemy ship's %FRONTARC%, you may gain 1 strain to recover 1 %FORCE%."""
+        "Contingency Protocol (SoC)":
+           display_name: """Contingency Protocol"""
+           text: """After this ship is destroyed another friendly ship at range 0-3 with <b>Contingency Protocol</b> may perform an action, even while stressed."""
+        "Evasion Sequence 7 (SoC)":
+           display_name: """Evasion Sequence 7"""
+           text: """While you perform a red %EVADE% action, if there is an obstacle or scenario feature at range 1, treat the action as white, instead."""
+        "Strut-Lock Override (SoC)":
+           display_name: """Strut-Lock Override"""
+           text: """At the start of your activation, you may spend 1 %CHARGE%. If you do, ignore obstacles while you move through them this round."""
+        "R4-P17 (SoC)":
+           display_name: """R4-P17"""
+           text: """When you would be dealt a damage card, if you are not defending, you may spend 1 %CHARGE% and gain 1 strain to discard it instead."""
+        "Wolfpack (SoC)":
+           display_name: """Wolfpack"""
+           text: """While you perform an attack, you may spend a lock belonging to a friendly <b>Plo Koon</b> ship or ship with the <b>Born for This</b> ability that is on the defender to reroll any number of attack dice."""
 
             
         # Epic upgrades
