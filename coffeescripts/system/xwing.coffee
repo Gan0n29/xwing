@@ -2518,7 +2518,7 @@ class exportObj.SquadBuilder
                         container.find('.info-image').attr 'src', pilot_img
                         container.find('.info-image-container').show()
                     #
-                    container.find('.info-type').text (exportObj.translate('types', type)
+                    container.find('.info-type').text type
                     container.find('.info-sources.info-data').text (exportObj.translate('sources', source) for source in data.sources).sort().join(', ')
                     container.find('.info-sources').show()
                     if @collection?.counts?
@@ -2858,7 +2858,7 @@ class exportObj.SquadBuilder
                         container.find('.info-image').attr 'src', upgrade_img
                         container.find('.info-image-container').show()
                     
-                    container.find('.info-type').text (exportObj.translate('types', additional_opts.addon_type)
+                    container.find('.info-type').text additional_opts.addon_type
                     container.find('.info-sources.info-data').text (exportObj.translate('sources', source) for source in data.sources).sort().join(', ')
                     container.find('.info-sources').show()
                     
