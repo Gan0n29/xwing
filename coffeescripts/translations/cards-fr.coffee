@@ -45,16 +45,31 @@ exportObj.translations['Français'] =
         "Restrictions": "Restrictions"
         "Initiative": "Initiative"
         "Agility": "Agilité"
-        "Non-Limited": "Non-limité"
-        " or Squad Including": " ou escadron incluant"
+        "Non-Limited": "Non-Limité"
+        " or Squad Including": " ou Escadron incluant"
         "Ship": "Vaisseau"
         "Extra": "Extra"
+        "Vectored Thrusters": "Propulseurs Vectoriels"
+        "Autothrusters": "Autopropulseurs"
+        "Networked Calculations": "Calculs En Réseau"
+        "X-wing": "X-wing"
+        "Limited": "Limité"
+        "Light Side": "Côté Lumineux"
+        "Dark Side": "Côté Obscur"
+        "Mandalorian": "Mandalorien"
+        "TIE": "TIE"
+        "Bounty Hunter": "Chasseur de Primes"
+        "Clone": "Clone"
+        "A-wing": "A-wing"
+        "Y-wing": "Y-wing"
 
     gameterms:
-        "Small": "Petit"
-        "Medium": "Moyen"
-        "Large": "Grand"
-        "Huge": "Immense"
+        'Small': 'Petit'
+        'Medium': 'Moyen'
+        'Large': 'Grand'
+        'Huge': 'Immense'
+        'Solitary': 'Solitaire'
+        'Standardized': 'Standardisé'
 
     faction:
         "Rebel Alliance": "Alliance Rebelle"
@@ -144,6 +159,7 @@ exportObj.translations['Français'] =
         "Battle of Yavin Battle Pack": "Paquet de Scénarios Bataille de Yavin"
         "Siege of Coruscant Battle Pack": "Paquet de Scénarios Siège de Coruscant"
         "Hotshots and Aces II Reinforcements Pack": "Paquet de Renforts Pilotes Hors Pair II"
+        "Loose Ships": "Vaisseaux en vrac"
 
     ui:
         "shipSelectorPlaceholder": "Choisissez un vaisseau"
@@ -153,135 +169,283 @@ exportObj.translations['Français'] =
         "modificationPlaceholder": "Pas de modification"
         "titlePlaceholder": "Pas de titre"
         upgradeHeader: (translator, slot) ->
-            "Amélioration #{translator 'slot', slot}"
-        "unreleased": "inédit"
+            "Améliorations #{translator 'slot', slot}"
+        "unreleased": "non-publié"
         "epic": "épique"
-        "Quickbuild": "Quick Build"
+        "Quickbuild": "Formation rapide"
         "limited": "limité"
-        "Unnamed Squadron": "Escadron"
-        "Unsaved Squadron": "Escadron non sauvegardé"
-        "New Squadron": "Nouvel escadron"
-        "Name your squad...": "Nommez votre escadron…"
-        "Unreleased content warning": "Cet escadron utilise du contenu inédit !"
-        "Broken squad link warning": "Il semble que vous ayez suivi un lien mort. Aucune escouade n\'a pu être chargée !"
-        "Collection warning": "Vous ne pouvez pas ajouter cette liste à votre collection !"
-        "Ship number warning": "Un escadron légal en tournoi doit contenir 2 à 8 vaisseaux !"
-        "Multi-Faction warning": "Les listes Multi-Faction ne sont pas légales en tournoi !"
-        "XWS Import Dialog": "Importer votre liste via XWS dans YASB.<br><i>XWS est un format permettant de partager les listes entre différentes applications.</i>"
-        "Copy below simple text": "<p>Copier le texte ci-dessous et collez-le ailleurs.</p>"
-        "Copy below markdown": "<p>Copier le texte ci-dessous et collez-le dans reddit.</p><p>Assurez-vous que l'éditeur de texte est en mode Markdown.</p>"
-        "Copy below TTS": "<p>Copier le texte ci-dessous et collez-le dans Tabletop Simulator.</p>"
-        "Copy below BBCode": "<p>Copiez le BBCode ci-dessous et collez-le dans votre post.</p>"
-        "Copy below HTML": "<p>Copier le texte ci-dessous et collez-le ailleurs.</p>"
-        "Copy below XWS":"<p>Copier le texte ci-dessous et collez-le dans une application compatible avec XWS.</p>"
-        "Use INI prefix": "Met INI comme prefixe au début des noms."
-        "Choose obstacles dialog": "Choisir jusqu\'à trois obstacles à inclure dans le lien permanent à utiliser dans des programmes externes."
-        "Mark obstacles": "Sélectionnez les 3 obstacles que vous utilisez."
-        "Scan QR-Code": "Scanner pour ouvrir cette liste dans le builder"
-        "View in YASB": "Vue dans Yet Another Squad Builder 2.0"
-        "YASB advertisment": "YASB 2.0 est un squadbuilder simple, rapide et facile à utiliser pour X-Wing Miniatures par Fantasy Flight Games."
+        "Unreleased content warning": "Cette escadron utilise du contenu non-publié !"
+        "Broken squad link warning": "Lien cassé. Aucun escadron ne peut être chargé !"
+        "Collection warning": "Vous ne pouvez pas constituer cette liste avec votre collection !"
+        "Ship number warning": "Un escadron légal en tournoi doit contenir 3 à 8 vaisseaux !"
+        "Multi-Faction warning": "Les listes multi-factions ne sont JAMAIS légales en tournoi !"
+        "XWS Import Dialog": "Importez votre liste via XWS dans YASB.<br><i>XWS est un format commun pour partager des listes entre applications.</i>"
+        "Copy below simple text": "<p>Copiez le texte ci-dessous et collez-le ailleurs.</p>"
+        "Copy below markdown": "<p>Copiez le texte ci-dessous et collez-le dans votre message reddit.</p><p>Assurez-vous que l'éditeur de message est réglé sur le mode markdown.</p>"
+        "Copy below TTS": "<p>Copiez le texte ci-dessous et collez-le dans Tabletop Simulator.</p>"
+        "Copy below BBCode": "<p>Copiez le BBCode ci-dessous et collez-le dans votre message de forum.</p>"
+        "Copy below HTML": "<p>Copiez le texte ci-dessous et collez-le ailleurs.</p>"
+        "Copy below XWS":"<p>Copiez et collez ceci dans une application compatible avec XWS.</p>"
+        "Use INI prefix": "Mettez INI comme préfixe devant les noms."
+        "Choose obstacles dialog": "Choisissez jusqu'à trois obstacles, à inclure dans le lien permanent à utiliser dans des programmes externes."
+        "Mark obstacles": "Marquez les trois obstacles que vous utilisez."
+        "Scan QR-Code": "Scanner pour ouvrir cette liste dans le constructeur"
+        "View in YASB": "Voir dans YASB 2"
+        "YASB advertisment": "YASB 2 est un constructeur d'escadron simple, rapide et facile pour X-Wing Miniatures de Atomic Mass Games."
         collectionContentShips: (translator, number) ->
-            "Vous avez #{number} #{if number == 1 then 'vaisseau' else 'vaisseaux'} dans votre collection."
+            "Vous avez #{number} #{if number == 1 then 'exemplaire' else 'exemplaires'} de ce vaisseau dans votre collection."
         collectionContentShipsAndPilots: (translator, data) -> # data[0] is ships, data[1] is pilots
-            "Vous avez #{data[0]} #{if data[0] == 1 then 'vaisseau' else 'vaisseaux'} et #{data[1]} #{if data[1] == 1 then 'carte' else 'cartes'} de pilote dans votre collection."
+            "Vous avez #{data[0]} #{if data[0] == 1 then 'exemplaire' else 'exemplaires'} de ce vaisseau et #{data[1]} #{if data[1] == 1 then 'carte' else 'cartes'} de ce pilote dans votre collection."
         collectionContentUpgrades: (translator, number) ->
-            "Vous avez #{number} améliorations dans votre collection."
+            "Vous en avez #{number} dans votre collection."
         varPointCostsPoints: (translator, points) ->
-            "<b>Coût en point :</b> #{points} quand "
+            "<b>Coût :</b> #{points} si "
         varPointCostsConditionAgility: (translator, values) ->
             "l'agilité est #{values}"
         varPointCostsConditionIni: (translator, values) ->
             "l'initiative est #{values}"
         varPointCostsConditionBase: (translator, values) ->
-            "la taille de la base est petit, moyen, grand ou immense"
-        "Missing Item List:": "Pour remplir cet escadron, vous avez besoin des objets suivants :" 
+            "la base est petite, moyenne, grande ou immense"
+        "Missing Item List:": "Pour constituer cet escadron, vous avez besoin des éléments supplémentaires suivants :" 
         pilotFlyingShip: (translator, pilot, ship) ->
-            "Pilote #{pilot} pilotant un #{ship}"
-        "Placeholder Textsearch Browser": "Tapez un nom, texte ou vaisseau"
+            "Le pilote #{pilot} volant avec #{ship}"
+        "Placeholder Textsearch Browser": "Recherche par nom, texte ou vaisseau"
         noXYselected: (translator, xy) ->
-            "Aucun #{translator('ui', xy)} sélectionné"
+            "Pas de #{translator('ui', xy)} sélectionné"
         "Select a card": "Sélectionnez une carte dans la liste à gauche."
         yourXYsquads: (translator, faction) ->
-            "Vos escadrons #{translator('faction', faction)}"
+            "Vos escadrons de #{translator('faction', faction)}"
         reallyDeleteSquadXY: (translator, squadname) -> 
-            "Voulez vous supprimer #{squadname} ?"
-        "No saved squads": "Aucune donnée. Merci d'enregistrer un escadron."
+            "Voulez-vous vraiment supprimer #{squadname} ?"
+        "No saved squads": "Rien ici. Allez sauvegarder un escadron !"
         "name required": "Un nom est requis"
-        "Name in use": "VOus avez déjà un escadron avec ce nom"
-        "select OAuth provider": "Sélectionnez l'un des fournisseurs OAuth ci-dessous pour vous connecter et commencer à enregistrer des escadrons"
+        "Name in use": "Vous avez déjà un escadron avec ce nom"
+        "select OAuth provider": "Sélectionnez l'un des fournisseurs OAuth ci-dessous pour vous connecter et commencer à enregistrer des escadrons."
         "OAuth explanation" : """
                     <p>
-                        <a href="http://en.wikipedia.org/wiki/OAuth" target="_blank">OAuth</a> is an authorization system which lets you prove your identity at a web site without having to create a new account.  Instead, you tell some provider with whom you already have an account (e.g. Google or Facebook) to prove to this web site that you say who you are.  That way, the next time you visit, this site remembers that you're that user from Google.
+                        <a href="http://fr.wikipedia.org/wiki/OAuth" target="_blank">OAuth</a> est un système d'autorisation qui vous permet de prouver votre identité sur un site web sans avoir à créer un nouveau compte. Au lieu de cela, vous demandez à un fournisseur avec lequel vous avez déjà un compte (par exemple Google ou Facebook) de prouver à ce site web qui vous êtes. Ainsi, lors de votre prochaine visite, ce site se souviendra que vous êtes cet utilisateur de Google.
                     </p>
                     <p>
-                        The best part about this is that you don't have to come up with a new username and password to remember.  And don't worry, I'm not collecting any data from the providers about you.  I've tried to set the scope of data to be as small as possible, but some places send a bunch of data at minimum.  I throw it away.  All I look at is a unique identifier (usually some giant number).
-                    </p>
-                    <p>
-                        For more information, check out this <a href="http://hueniverse.com/oauth/guide/intro/" target="_blank">introduction to OAuth</a>.
+                        Le plus intéressant, c'est que vous n'avez pas à créer un nouveau nom d'utilisateur et un nouveau mot de passe à retenir. Et ne vous inquiétez pas, je ne collecte aucune donnée sur vous auprès des fournisseurs. J'ai essayé de définir la portée des données pour qu'elles soient aussi petites que possible, mais certains endroits envoient un tas de données au minimum. Je le jette. Tout ce que je regarde, c'est un identifiant unique (généralement un énorme numéro).
                     </p>
                     """
-        "Continue to OAuth provider": "Cela ouvrira une nouvelle fenêtre pour vous permettre de vous authentifier auprès du fournisseur choisi. Vous devrez peut-être autoriser les pop-ups pour ce site."
-        "iOS requires cross-site control": """En raison d'une nouvelle fonctionnalité dans les systèmes iOS, OAuth ne fonctionnera que si vous activez le "cross-site control"."""
-        "login in progress": "La connexion OAuth est en cours. Veuillez terminer l'autorisation chez le fournisseur spécifié en utilisant la fenêtre qui vient d'être créée."
-        "Squads reloaded": "Toutes les escadrons de cette faction ont été rechargées."
-        "Sure to delete?": "Voulez-vous vraiment supprimer cette escadron ?"
-        "Unsaved Changes Warning": "Vous n'avez pas enregistré les modifications apportées à cette escadron. Voulez-vous revenir en arrière et enregistrer ?"
+        "Continue to OAuth provider": "Cela ouvrira une nouvelle fenêtre qui vous permettra de vous authentifier auprès du fournisseur choisi. Il se peut que vous deviez autoriser les pop ups pour ce site."
+        "iOS requires cross-site control": """En raison d'une nouvelle fonctionnalité des systèmes iOS, OAuth ne fonctionnera pas si vous n'activez pas le "contrôle intersite"."""
+        "login in progress": "La connexion OAuth est en cours. Veuillez terminer l'autorisation auprès du fournisseur spécifié en utilisant la fenêtre qui vient d'être créée."
+        "Squads reloaded": "Tous les escadrons de cette faction ont été rechargés."
+        "Sure to delete?": "Êtes-vous sûr de vouloir supprimer cet escadron ?"
+        "Unsaved Changes Warning": "Vous n'avez pas enregistré les modifications apportées à cet escadron. Voulez-vous revenir en arrière et sauvegarder ?"
         adds: (translator, data) -> # data will most likely be a string of some symbols, but you never know
             "Ajoute : #{translator('ui', data)}"
         removes: (translator, data) -> # data will most likely be a string of some symbols, but you never know
             "Enlève : #{translator('ui', data)}"
         "Less upgrades": "Moins d'améliorations"
-        # Type selector
-        'Standard': 'Standard'
-        'Hyperspace': 'Hyperespace'
-        'Epic': 'Épique'
-        'Quickbuild': 'Quick Build'
-        # Card browser
-        'Name': 'Nom'
-        'Source': 'Source'
-        'Type (by Points)': 'Type (par points)'
-        'Type (by Name)': 'Type (par nom)'
-        'Sort cards by': 'Trier les cartes par'
-        'Sort by': 'Trier par'
-        # Info well
-        'Ship': 'Vaisseau'
-        'Initiative': 'Initiative'
-        'Actions': 'Actions'
-        'Upgrades': 'Améliorations'
-        'Range': 'Portée'
-        'Sources': 'Sources'
-        # Squadron edit buttons
-        'New Squad' : 'Nouvel escadron'
-        'Save' : 'Enregistrer'
-        'Save As...' : 'Enregistrer sous…'
-        'Delete' : 'Supprimer'
-        'Load Squad' : 'Charger un escadron'
-        'Import' : 'Importer'
-        'Print/Export' : 'Imprimer/Exporter'
-        'Your Collection': 'Votre collection'
-        'Check Collection' : 'Vérifiez votre collection'
-        'Randomize!' : 'Aléatoire !'
-        'Randomizer Options' : 'Options…'
-        'Squad Notes:' : 'Notes sur l\'escadron:'
-        'Tag:' : 'Tag:'        
-        # Print/View modal
-        'Copy' : 'Copiez'
-        'Space for Cards' : """Ajouter de l'espace pour les cartes d'amélioration et de dégâts lors de l'impression"""
-        'Print Color' : """Imprimer en couleur"""
-        'Print' : 'Imprimer'
-        # Randomizer options
-        'Roll!' : 'Générer aléatoirement!'
-        # Top tab bar
-        'Card Browser' : 'Base de données'
-        'About' : 'À propos'
-        'Rules' : 'Règles'
-        "Submit Bug/Feature Request": "Soumettre un Bug"
-        # Obstacles
-        "Choose Obstacles": "Choisissez les Obstacles"
-        'Core Asteroid' : 'Core Asteroid'
-        'YT2400 Debris' : 'YT2400 Debris'
-        'VT49 Debris' : 'VT49 Debris'
-        'Force Awakens Asteroid' : 'Force Awakens Asteroid'
+        "Epic": "Épique"
+        "Hyperspace": "Hyperespace"
+        "Extended": "Étendu"
+        "Unnamed Squadron": "Escadron sans nom"
+        "Unsaved Squadron": "Escadron non enregistré"
+        "New Squadron": "Nouvel escadron"
+        "Name your squad...": "Nommez votre escadron..."
+        "Your Collection": "Votre Collection"
+        "Only available from 1st edition": "Disponible uniquement dans la 1ère édition"
+        "Randomize!": "Aléatoire"
+        "Copy": "Copier"
+        "Print": "Imprimer"
+        "Random Squad Builder Options": "Options de création d'escadrons aléatoires"
+        "Miscellaneous Settings": "Paramètres divers"
+        "Card Search": "Recherche de cartes"
+        "from": "de"
+        "to": "à"
+        "Submit Bug/Feature Request": "Soumettre un bug ou une demande de fonctionnalité"
+        "Card Browser": "Navigateur de cartes"
+        "Rules": "Règles"
+        "About": "À propos"
+        "Remove Pilot": "Retirer le pilote"
+        "Clone Pilot": "Dupliquer le pilote"
+        "Wingmates": "Coéquipiers"
+        "Total": "Total"
+        "X-Wing Squadron by YASB 2.0: ": "Escadron X-Wing par YASB 2.0"
+        "Points Destroyed": "Points détruits"
+        "Half Points": "Moitié des points"
+        "Threshold": "Seuil"
+        "Yes, Delete": "Oui, supprimer"
+        "Cancel": "Annuler"
+        "Never Mind": "Annuler"
+        "Really Delete": "Oui, supprimer"
+        "Save": "Enregistrer"
+        "Unsaved Changes": "Modifications non enregistrées"
+        "Name is available": "Nom disponible"
+        "Checking name availability...": "Vérification de la disponibilité du nom..."
+        "Go Back": "Revenir en arrière"
+        "Save Squad As...": "Enregistrer l'escadron en tant que..."
+        "Convert": "Convertir"
+        "Convert to Extended?": "Convertir en Étendu ?"
+        "Recalculate Points": "Recalculer les points"
+        "Archived": "Archivé"
+        "Archive": "Archiver"
+        "QB": "FR"
+        "Hyper": "Hyper"
+        "Ext": "Ét"
+        "All": "Tout"
+        "Delete Selected": "Supprimer la sélection"
+        "Archive Selected": "Archiver la sélection"
+        "Select All": "Sélectionner tout"
+        "Fetching squads...": "Récupération des escadrons..."
+        "Well done!": "Bien joué !"
+        "Log in with OAuth": "Se connecter avec OAuth"
+        "Log In": "Connexion"
+        "Log Out": "Déconnexion"
+        "What's this?": "Qu'est-ce que c'est ?"
+        "Close": "Fermer"
+        "Roll!": "Générer !"
+        "Maximum Seconds to Spend Randomizing": "Nombre maximum de secondes pour le calcul aléatoire"
+        "Always fill 0-point slots": "Toujours remplir les emplacements à 0 point"
+        "Sets and Expansions": "Paquets et extensions"
+        "Limit to collection": "Limiter à la collection"
+        "More upgrades": "Plus d'améliorations"
+        "Maximum Ship Count": "Nombre maximum de vaisseaux"
+        "Upgrades": "Améliorations"
+        "Range": "Portée"
+        "Actions": "Actions"
+        "Sources:": "Sources"
+        "Source": "Source"
+        "Engagement": "Engagement"
+        "Rules search": "Recherche de règles"
+        "Rules Search": "Recherche de règles"
+        "Base": "Base"
+        "Ship": "Vaisseau"
+        "Points": "Points"
+        "Initiative": "Initiative"
+        "Force:": "Force :"
+        "Name": "Nom"
+        "Sort by": "Trier par"
+        "Type (by Points)": "Type (par points)"
+        "Type (by Name)": "Type (par nom)"
+        "Recurring": "Récurrente"
+        "Not recurring": "Non récurrente"
+        "Charges:": "Charges :"
+        "Only upgrades requiring multiple slots": "Uniquement les améliorations nécessitant plusieurs emplacements"
+        "Used double-slot:": "Double emplacement utilisé :"
+        "Used slot:": "Emplacement utilisé :"
+        "Large": "Grand"
+        "Medium": "Moyen"
+        "Small": "Petit"
+        "Huge": "Immense"
+        "Base size:": "Taille :"
+        "Agility:": "Agilité :"
+        "Shields:": "Boucliers :"
+        "Hull:": "Coque :"
+        "Initiative:": "Initiative :"
+        "Linked actions:": "Actions jumelées :"
+        "Actions:": "Actions :"
+        "Actions": "Actions"
+        "actions": "actions"
+        "Slots:": "Emplacements :"
+        "slots": "emplacements"
+        "Ships and Pilots": "Vaisseaux et Pilotes"
+        "General": "Général"
+        "Hyperspace legal": "Légal en Hyperespace"
+        "Is not unique": "Non-limité"
+        "Is unique": "Limité"
+        "Misc:": "Divers :"
+        "Owned copies:": "Quantité possédée :"
+        "Point costs:": "Coût :"
+        "Point cost:": "Coût :"
+        "Loadout cost:": "Chargement :"
+        "Factions:": "Factions :"
+        "Textsearch:": "Recherche :"
+        "Squad Notes:": "Notes d'escadron :"
+        "Tag:": "Étiquette :"
+        "Choose Obstacles": "Choisir les obstacles"
+        "XWS": "XWS"
+        "HTML": "HTML"
+        "TTS": "TTS"
+        "Text": "Texte"
+        "Reddit": "Reddit"
+        "BBCode": "BBCode"
+        "Fancy": "Joli"
+        "Simple": "Simple"
+        "Include QR codes": "Inclure les QR codes"
+        "Include Obstacle Choices": "Inclure les choix d'obstacles"
+        "Print Color": "En couleur"
+        "Expand Shield and Hull": "Étendre les boucliers et coques"
+        "Space for Cards": "Espace pour les cartes"
+        "Include Maneuvers Chart": "Inclure les manœuvres"
+        "Skip Card Text": "Exclure les textes de cartes"
+        "XWS Import": "Import XWS"
+        "New Squad": "Nouvel escadron"
+        "Load Squad": "Charger escadron"
+        "Delete": "Supprimer"
+        "Save As...": "Enregistrer en tant que..."
+        "Misc Settings": "Paramètres divers"
+        "Randomizer Options": "Options d'aléatoire"
+        "Print/Export": "Imprimer/Exporter"
+        "Discard Changes": "Annuler les modifications"
+        "Got it!": "Bien reçu !"
+        "Term:": "Terme"
+        "Version": "Version"
+        "New Squad Name": "Nom du nouvel escadron"
+        "Import": "Importer"
+        "Other Stuff": "Autres"
+        "MultiFaction": "Multi-Faction"
+        "Search for game term or card": "Rechercher un terme de jeu ou de carte"
+        "Core Asteroid 0": "Astéroïde de base 0"
+        "Core Asteroid 1": "Astéroïde de base 1"
+        "Core Asteroid 2": "Astéroïde de base 2"
+        "Core Asteroid 3": "Astéroïde de base 3"
+        "Core Asteroid 4": "Astéroïde de base 4"
+        "Core Asteroid 5": "Astéroïde de base 5"
+        "VT49 Debris 0": "Débris VT49 0"
+        "VT49 Debris 1": "Débris VT49 1"
+        "VT49 Debris 2": "Débris VT49 2"
+        "YT2400 Debris 0": "Débris YT2400 0"
+        "YT2400 Debris 1": "Débris YT2400 1"
+        "YT2400 Debris 2": "Débris YT2400 2"
+        "Force Awakens Asteroid 0": "Astéroïde Réveil de la Force 0"
+        "Force Awakens Asteroid 1": "Astéroïde Réveil de la Force 1"
+        "Force Awakens Asteroid 2": "Astéroïde Réveil de la Force 2"
+        "Force Awakens Asteroid 3": "Astéroïde Réveil de la Force 3"
+        "Force Awakens Asteroid 4": "Astéroïde Réveil de la Force 4"
+        "Force Awakens Asteroid 5": "Astéroïde Réveil de la Force 5"
+        "Gas Cloud 1": "Nuage de gaz 1"
+        "Gas Cloud 2": "Nuage de gaz 2"
+        "Gas Cloud 3": "Nuage de gaz 3"
+        "Gas Cloud 4": "Nuage de gaz 4"
+        "Gas Cloud 5": "Nuage de gaz 5"
+        "Gas Cloud 6": "Nuage de gaz 6"
+        "Pride of Mandalore Debris 1": "Débris Orgueil des Mandaloriens 1"
+        "Pride of Mandalore Debris 2": "Débris Orgueil des Mandaloriens 2"
+        "Pride of Mandalore Debris 3": "Débris Orgueil des Mandaloriens 3"
+        "Pride of Mandalore Rock 1": "Rocher Orgueil des Mandaloriens 1"
+        "Pride of Mandalore Rock 2": "Rocher Orgueil des Mandaloriens 2"
+        "Pride of Mandalore Rock 3": "Rocher Orgueil des Mandaloriens 3"
+        "Undamaged": "Non-endommagé"
+        "Standard": "Standard"
+        "Faction": "Faction"
+        "Loadout": "Chargement"
+        "Standard legal": "Légal en Standard"
+        "Keywords:": "Mots clés :"
+        "Show Points Destroyed": "Afficher les points détruits"
+        "Hide Points Destroyed": "Masquer les points détruits"
+        "This squad was created for an older version of X-Wing.": "Cet escadron a été créé pour une ancienne version de X-Wing."
+        "Damage Threshold": "Seuil de dégât"
+        "X-Wing Squadron by YASB 2: ": "Escadron X-Wing par YASB"
+        "Ship Cost": "Coût du vaisseau"
+        "Paste XWS here": "Collez le XWS ici"
+        "All sets and expansions": "Tous les paquets et extensions"
+        "All factions": "Toutes les factions"
+        "Has multiple of the chosen slots": "A plusieurs des emplacements choisis"
+        "keywords": "mots clés"
+        "Checking auth status...": "Vérification du statut d'authentification"
+        "New squad saved successfully.": "Nouvel escadron sauvegardé."
+        "Squad updated successfully.": "Escadron mis à jour."
+        "Unselect": "Désélectionner"
+        "Sort cards by": "Trier les cartes par"
+        "Saving squad...": "Sauvegarde de l'escadron..."
+        "Notes:": "Notes :"
+        "XWS QR-Code": "QRCode XWS"
+
 
     singular:
         'pilots': 'Pilote'
@@ -291,11 +455,27 @@ exportObj.translations['Français'] =
     types:
         'Pilot': 'Pilote'
         'Modification': 'Modification'
+        'Upgrade': 'Amélioration'
         'Title': 'Titre'
-        'Ship': 'Vaisseaux'
+        'Ship': 'Vaisseau'
+        
     rulestypes:
         'glossary': 'Glossaire'
         'faq': 'FAQ'
+        
+    action:
+        "Barrel Roll": "Tonneau"
+        "Focus": "Concentration"
+        "Boost": "Accélération"
+        "Calculate": "Calcul"
+        "Coordinate": "Coordination"
+        "Evade": "Évasion"
+        "Jam": "Brouillage"
+        "Reinforce": "Renforcement"
+        "Reload": "Rechargement"
+        "Rotate Arc": "Rotation d'arc"
+        "Lock": "Verrouillage"
+        
 
 exportObj.cardLoaders ?= {}
 exportObj.cardLoaders['Français'] = () ->
@@ -2098,6 +2278,131 @@ exportObj.cardLoaders['Français'] = () ->
            display_name: """Haor Chall Prototype (SoC)"""
            text: """Après qu’un vaisseau ennemi dans votre %BULLSEYEARC% a déclaré un élément de scénario ou un autre vaisseau allié comme défenseur, vous pouvez effectuer une action %CALCULATE% ou %LOCK%."""
 
+        # Battle of Yavin Pilots Standard Loadout
+        "Garven Dreis (BoY SL)":
+           display_name: """Garven Dreis (BoY SL)"""
+           text: """Après voir dépensé un marqueur de concentration, vous pouvez choisir 1 vaisseau allié à portée 1–3. Ce vaisseau gagne 1 marqueur de concentration."""
+        "Luke Skywalker (BoY SL)":
+           display_name: """Luke Skywalker (BoY SL)"""
+           text: """Après être devenu le défenseur (avant que les dés ne soient lancés), vous pouvez récupérer 1 %FORCE%."""
+        "Wedge Antilles (BoY SL)":
+           display_name: """Wedge Antilles (BoY SL)"""
+           text: """Tant que vous effectuez une attaque principale, s’il y a un autre vaisseau allié dans l’arc de tir du défenseur, le défenseur lance 1 dé de défense en moins."""
+        "Biggs Darklighter (BoY SL)":
+           display_name: """Biggs Darklighter (BoY SL)"""
+           text: """Pendant la phase de système, vous pouvez choisir 1 vaisseau allié à portée 1. Dans ce cas, considérez votre initiative comme étant égale à celle du vaisseau choisi jusqu'à la fin de la phase d'activation."""
+        "Jek Porkins (BoY SL)":
+           display_name: """Jek Porkins (BoY SL)"""
+           text: """Après avoir reçu un marqueur de stress, vous pouvez lancer 1 dé d’attaque pour le retirer.%LINEBREAK%Sur un résultat %HIT%, subissez 1 dégât %HIT%."""
+        "Hol Okand (BoY SL)":
+           display_name: """Hol Okand (BoY SL)"""
+           text: """Pendant la phase de système, s'il n'y a aucun vaisseau ennemi à portée 1-2, vous pouvez récupérer 1 %CHARGE% sur n'importe quelle amélioration."""
+        '"Pops" Krail (BoY SL)':
+           display_name: """“Pops” Krail (BoY SL)"""
+           text: """Tant que vous effectuez une attaque %SINGLETURRETARC%, vous pouvez relancer jusqu’à 2 dés d’attaque."""
+        '"Dutch" Vander (BoY SL)':
+           display_name: """“Dutch” Vander (BoY SL)"""
+           text: """Après avoir dépensé un verrouillage durant une attaque, choisissez 1 vaisseau allié à portée 1-3. Le vaisseau choisi peut verrouiller le défenseur.%LINEBREAK%<i>Errata (depuis le rules reference 1.4.4): Correction de la capacité du pilote et de l'initiative.</i>"""
+        "Dex Tiree (BoY SL)":
+           display_name: """Dex Tiree (BoY SL)"""
+           text: """Tant que vous défendez, s’il y a au moins 1 autre vaisseau allié à portée 0–1, vous pouvez lancer 1 dé de défense supplémentaire."""
+        "Han Solo (BoY SL)":
+           display_name: """Han Solo (BoY SL)"""
+           text: """Après avoir effectué une attaque qui a touché, vous pouvez dépenser 1 %CHARGE% pour effectuer une action %COORDINATE%."""
+        '"Wampa" (BoY SL)':
+           display_name: """“Wampa” (BoY SL)"""
+           text: """Tant que vous effectuez une attaque, vous pouvez dépenser 1 %CHARGE% pour lancer 1 dé d’attaque supplémentaire%LINEBREAK%Après avoir défendu, perdez 1 %CHARGE%."""
+        '"Dark Curse" (BoY SL)':
+           display_name: """“Dark Curse (BoY SL)”"""
+           text: """Tant que vous défendez, les dés de l’attaquant ne peuvent pas être modifiés. """
+        "Darth Vader (BoY SL)":
+           display_name: """Darth Vader (BoY SL)"""
+           text: """Tant que vous effectuez une attaque, vous pouvez dépenser 1 %FORCE% pour changer 1 résultat vierge en un résultat %HIT%."""
+        "Iden Versio (BoY SL)": 
+           display_name: """Iden Versio (BoY SL)"""
+           text: """Avant qu’un chasseur TIE allié à portée 0–1 ne subisse des dégâts, vous pouvez dépenser 2 %CHARGE%. Dans ce cas, prévenez 1 dégât.%LINEBREAK%<i>Errata (depuis le rules reference 1.4.4): Correction de la capacité du pilote.</i>"""
+        '"Backstabber" (BoY SL)': 
+           display_name: """“Backstabber” (BoY SL)"""
+           text: """Tant que vous effectuez une attaque principale, si un allié <b>Dark Vador</b> ou <b>"Mauler" Mithel</b> est dans votre arc %LEFTARC% ou %RIGHTARC% à portée 0-1, lancez 1 dé d'attaque supplémentaire."""
+        "Sigma 4 (BoY SL)":
+           display_name: """Sigma 4 (BoY SL)"""
+           text: """Après avoir effectué une action %BARRELROLL%, vous pouvez dépenser 1 %CHARGE% pour effectuer une action %BOOST%."""
+        "Sigma 5 (BoY SL)":
+           display_name: """Sigma 5 (BoY SL)"""
+           text: """Après que vous avez effectué une attaque qui a touché, vous pouvez dépenser 1 %CHARGE% pour effectuer une action %EVADE%."""
+        "Sigma 6 (BoY SL)":
+           display_name: """Sigma 6 (BoY SL)"""
+           text: """Après avoir entièrement exécuté une manœuvre à vitesse 3–5, vous pouvez dépenser 1 %CHARGE% pour effectuer une action %SLAM%."""
+        "Sigma 7 (BoY SL)":
+           display_name: """Sigma 7 (BoY SL)"""
+           text: """Pendant la phase de système, vous pouvez dépenser 1 %CHARGE% pour verrouiller un vaisseau ennemi à portée 0–1."""
+        '"Mauler" Mithel (BoY SL)':
+           display_name: """“Mauler” Mithel (BoY SL)"""
+           text: """Tant que vous effectuez une attaque principale, si un allié <b>Dark Vador</b> ou <b>Backstabber</b> est dans votre arc %LEFTARC% ou %RIGHTARC% à portée 0-1, lancez 1 dé d'attaque supplémentaire."""
+        
+        # Siege of Coruscant Pilots Standard Loadout
+        "Anakin Skywalker (SoC SL)":
+           display_name: """Anakin Skywalker (SoC SL)"""
+           text: """Après que vous, ou un vaisseau <b>Obi-Wan Kenobi</b> allié à portée 0–3, avez entièrement exécuté une manœuvre, s’il y a plus de vaisseaux ennemis que d’autres vaisseaux alliés à portée 0–1 du vaisseau ayant exécuté la manœuvre, vous pouvez dépenser 1 %FORCE%. Dans ce cas, le vaisseau ayant exécuté la manœuvre peut exécuter une action %BARRELROLL%."""
+        "Obi-Wan Kenobi (SoC SL)":
+           display_name: """Obi-Wan Kenobi (SoC SL)"""
+           text: """Après que vous, ou un vaisseau <b>Anakin Skywalker</b> allié à portée 0–3, avez entièrement exécuté une manœuvre, s’il y a plus de vaisseaux ennemis que d’autres vaisseaux alliés à portée 0–1 du vaisseau ayant exécuté la manœuvre, vous pouvez dépenser 1 %FORCE%. Dans ce cas, le vaisseau ayant exécuté la manœuvre peut exécuter une action %BOOST%."""
+        "Shaak Ti (SoC SL)":
+           display_name: """Shaak Ti (SoC SL)"""
+           text: """Au début de la phase de dénouement, vous pouvez exécuter une action %COORDINATE% violette, même si vous êtes stressé.%LINEBREAK%Après que vous avez effectué une action %COORDINATE%, si le vaisseau choisi a la capacité <b>Né pour Ça</b>, vous pouvez coordonner un vaisseau supplémentaire."""
+        '"Odd Ball" (SoC SL)':
+           display_name: """“Odd Ball” (SoC SL)"""
+           text: """Après avoir entièrement exécuté une manœuvre rouge ou effectué une action rouge, vous pouvez choisir un vaisseau allié à portée 0–3 et un vaisseau ennemi à portée 0–1. Le vaisseau allié choisi gagne un verrouillage sur le vaisseau ennemi. """
+        '"Wolffe" (SoC SL)':
+           display_name: """“Wolffe” (SoC SL)"""
+           text: """Tant que vous effectuez une attaque principale %FRONTARC%, vous pouvez dépenser 1 %CHARGE% pour relancer 1 dé d’attaque. Tant que vous effectuez une attaque principale %REARARC%, vous pouvez récupérer 1 %CHARGE% pour lancer 1 dé d’attaque supplémentaire."""
+        '"Jag" (SoC SL)':
+           display_name: """“Jag” (SoC SL)"""
+           text: """Après qu’un vaisseau allié à portée 0–2 situé dans votre %LEFTARC% ou %RIGHTARC% a effectué une attaque, si vous n'êtes pas contraint, vous pouvez verrouiller le défenseur."""
+        '"Contrail" (SoC SL)':
+           display_name: """“Contrail” (SoC SL)"""
+           text: """Tant que vous défendez ou effectuez une attaque, si la direction de votre manœuvre révélée est la même que celle du vaisseau ennemi, vous pouvez changer 1 des résultats %FOCUS% du vaisseau ennemi en un résultat vierge. """
+        '"Klick" (SoC SL)':
+           display_name: """“Klick” (SoC SL)"""
+           text: """Tant qu’un vaisseau que vous avez verrouillé, situé à portée 1–3, défend ou effectue une attaque, vous pouvez dépenser 1 %CHARGE% pour empêcher l’application des bonus de portée."""
+        '"Kickback" (SoC SL)':
+           display_name: """“Kickback” (SoC SL)"""
+           text: """Après avoir effectué une action  %BARRELROLL%, vous pouvez effectuer une action %LOCK% rouge. Dans ce cas, avant que vous n'effectuiez l'action %LOCK%, vous pouvez gagner 1 marqueur de contrainte pour la considérer comme blanche."""
+        '"Axe" (SoC SL)':
+           display_name: """“Axe” (SoC SL)"""
+           text: """Après avoir effectué une attaque, vous pouvez choisir un autre vaisseau allié doté de la capacité <b>Né pour Ça</b> situé à portée 0–2 et dans votre %LEFTARC% ou %RIGHTARC%. Le vaisseau choisi gagne un verrouillage sur le défenseur."""
+        "Count Dooku (SoC SL)":
+           display_name: """Count Dooku (SoC SL)"""
+           text: """Lors d'une attaque, avant qu’un vaisseau à portée 0–2 ne lance les dés d’attaque ou de défense, si toutes vos %FORCE% sont actives, vous pouvez dépenser 1 %FORCE% et nommer un résultat. Si le lancer ne contient pas le résultat nommé, le vaisseau doit changer 1 dé pour ce résultat."""
+        "DBS-32C (SoC SL)":
+           display_name: """DBS-32C (SoC SL)"""
+           text: """Après avoir effectué une action %CALCULATE%, vous pouvez dépenser 1 %CHARGE% pour effectuer une action %JAM%."""
+        "DBS-404 (SoC SL)":
+           display_name: """DBS-404 (SoC SL)"""
+           text: """Tant que vous effectuez une attaque à portée d’attaque 1, vous <b>devez</b> lancer 1 dé supplémentaire. Après que l’attaque a touché, subissez 1 dégât %CRIT%."""
+        "Baktoid Prototype (SoC SL)":
+           display_name: """Baktoid Prototype (SoC SL)"""
+           text: """Tant que vous effectuez une attaque spéciale, si un vaisseau allié doté de la capacité de vaisseau <b>Calculs En Réseau</b> a un verrouillage sur le défenseur, vous pouvez ignorer les prérequis %FOCUS%, %CALCULATE% ou %LOCK% de cette attaque. """
+        "DIS-347 (SoC SL)":
+           display_name: """DIS-347 (SoC SL)"""
+           text: """Au début de la phase d’engagement, vous pouvez verrouiller un objet à portée 1–3 qui a un verrouillage allié. """
+        "DIS-T81 (SoC SL)":
+           display_name: """DIS-T81 (SoC SL)"""
+           text: """Tant que vous défendez ou effectuez une attaque, vous pouvez relancer n’importe quel nombre de vos dés. Puis, si vous défendez, gagnez 1 marqueur de contrainte pour chaque dé ainsi relancé. Si vous avez attaqué, gagnez 1 marqueur d’épuisement pour chaque dé qui a été relancé à la place."""
+        "Phlac-Arphocc Prototype (SoC SL)":
+           display_name: """Phlac-Arphocc Prototype (SoC SL)"""
+           text: """Au début de la phase d’engagement, s’il y a un vaisseau ennemi dans votre %BULLSEYEARC%, gagnez un marqueurs de calcul."""
+        "DFS-081 (SoC SL)":
+           display_name: """DFS-081 (SoC SL)"""
+           text: """Tant que vous défendez, vous pouvez dépenser 1 %CHARGE% et 1 marqueur de calcul pour annuler un résultats %CRIT%."""
+        "DFS-311 (SoC SL)":
+           display_name: """DFS-311 (SoC SL)"""
+           text: """Au début de la phase d’engagement, vous pouvez transférer 1 de vos marqueurs de calcul à un autre vaisseau allié à portée 0–3."""
+        "Haor Chall Prototype (SoC SL)":
+           display_name: """Haor Chall Prototype (SoC SL)"""
+           text: """Après qu’un vaisseau ennemi dans votre %BULLSEYEARC% a déclaré un élément de scénario ou un autre vaisseau allié comme défenseur, vous pouvez effectuer une action %CALCULATE% ou %LOCK%."""
+
+            
         # Hotshots and Aces 2
         "Corran Horn (X-Wing)":
            display_name: """Corran Horn"""
@@ -3425,7 +3730,80 @@ exportObj.cardLoaders['Français'] = () ->
            text: """<strong>Attaque (%LOCK%):</strong> Dépensez 1 %CHARGE%. Après que vous avez déclaré le défenseur, il peut choisir de subir un dégât %CRIT%. Dans ce cas sautez les étapes « Dès d'attaque » et « Dès de défense » et considérez que l'attaque a touché."""
         "Xanadu Blood":
            display_name: """Xanadu Blood"""
-           text: ""
+           text: "AJouter un emplacement %CREW% et un emplacement %DEVICE%."
+            
+            
+        # Standardized upgrades
+        "Fanatic (BoY)":
+           display_name: """Fanatisme"""
+           text: """Tant que vous effectuez une attaque principale, si vous êtes endommagé, vous pouvez changer 1 résultat %FOCUS% en un résultat %HIT%."""
+        "Vengeful (BoY)":
+           display_name: """Revanchard"""
+           text: """Après qu’un vaisseau allié à portée 0–3 a été détruit, si ce vaisseau était limité, vous pouvez retirer 1 de vos marqueurs rouges, ou récupérer 1 charge récurrente sur votre carte de vaisseau."""
+        "Chewbacca (BoY)":
+           display_name: """Chewbacca"""
+           text: """Après avoir effectué une action %EVADE%, vous pouvez gagner 1 marqueur de concentration. """
+        "L3-37's Programming (BoY)":
+           display_name: """Programmation par L3-37"""
+           text: """Si vous n’êtes pas protégé, diminuez la difficulté de vos manœuvres de virages sur l’aile (%BANKLEFT% and %BANKRIGHT%)."""
+        "Unstable Sublight Engines (BoY)":
+           display_name: """Moteurs Subluminiques Instables"""
+           text: """Après que vous avez été détruit, vous <b>devez</b> exécuter une manœuvre [1 %STRAIGHT%], puis tous les autres vaisseaux à portée 0–1 subissent 1 dégât %HIT%."""
+        "Attack Speed (BoY)":
+           display_name: """Vitesse d'Attaque"""
+           text: """Après avoir entièrement exécuté une manœuvre [3 %STRAIGHT%] ou [4 %STRAIGHT%], vous pouvez effectuer une accélération en utilisant le gabarit [1 %STRAIGHT%]. (Ce n'est pas une action)."""
+        "R2-D2 (BoY)":
+           display_name: """R2-D2"""
+           text: """Après avoir révélé votre cadran, vous pouvez dépenser 1 %CHARGE% et gagner 1 marqueur de désarmement pour récupérer 1 bouclier."""
+        "R2-F2 (BoY)":
+           display_name: """R2-F2"""
+           text: """Après avoir révélé votre cadran, vous pouvez dépenser 1 %CHARGE% et gagner 1 marqueur de désarmement pour récupérer 1 bouclier."""
+        "R2-A3 (BoY)":
+           display_name: """R2-A3"""
+           text: """Après avoir révélé votre cadran, vous pouvez dépenser 1 %CHARGE% et gagner 1 marqueur de désarmement pour récupérer 1 bouclier. """
+        "R5-D8 (BoY)":
+           display_name: """R5-D8"""
+           text: """<strong>Action :</strong> dépensez 1 %CHARGE% pour réparer 1 carte de dégât face cachée. %LINEBREAK% <strong>Action :</strong> réparez 1 carte de dégât <b>Vaisseau</b> face visible."""
+        "R5-K6 (BoY)":
+           display_name: """R5-K6"""
+           text: """<strong>Action :</strong> dépensez 1 %CHARGE% pour réparer 1 carte de dégât face cachée. %LINEBREAK% <strong>Action :</strong> réparez 1 carte de dégât <b>Vaisseau</b> face visible."""
+        "Precise Astromech (BoY)":
+           display_name: """Astromech Méticuleux"""
+           text: """Après que vous avez effectué une action, vous pouvez dépenser 1 %CHARGE% pour effectuer une action %LOCK%."""
+        "Targeting Astromech (BoY)":
+           display_name: """Astromech de Ciblage"""
+           text: """Après que vous avez exécuté une action %LOCK%, vous pouvez effectuer une action %ROTATEARC% rouge."""
+        "Dorsal Turret (BoY)":
+           display_name: """Tourelle Dorsale"""
+           text: """<strong>Attaque</strong>"""
+        "Sensor Jammer (BoY)":
+           display_name: """Perturbateur des Senseurs"""
+           text: """Tant que vous défendez, s'il y a un verrouillage allié sur l'attaquant, vous pouvez changer 1 résultat %HIT% de l'attaquant en un résultat %FOCUS%."""
+        "Ancillary Ion Weapons (SoC)":
+           display_name: """Armes Ioniques Auxiliaires"""
+           text: """Tant que vous effectuez une attaque principale %FRONTARC%, avant de lancer les dés d’attaque, vous pouvez dépenser 2 %CHARGE%. Dans ce cas, vos résultats %CRIT% infligent des marqueurs ioniques à la place des dégâts."""
+        "Roiling Anger (SoC)":
+           display_name: """Colère Grondante"""
+           text: """Au début de la phase d’engagement, si vous êtes dans le %FRONTARC% d’un vaisseau ennemi, vous pouvez gagner 1 marqueur de contrainte pour récupérer 1 %FORCE%."""
+        "Contingency Protocol (SoC)":
+           display_name: """Protocole d’Urgence"""
+           text: """Après que ce vaisseau a été détruit, un autre vaisseau allié à portée 0–3 doté d’un <b>Protocole d’Urgence</b> peut effectuer une action, même s'il est stressé."""
+        "Strut-Lock Override (SoC)":
+           display_name: """Contournement de Verrou d’Ancrage"""
+           text: """Au début de votre activation, vous pouvez dépenser 1 %CHARGE%. Dans ce cas, ignorez les obstacles lorsque vous vous déplacez à travers eux lors de ce round."""
+        "R4-P17 (SoC)":
+           display_name: """R4-P17"""
+           text: """Quand une carte de dégât devrait vous être attribuée, si vous n’êtes pas en train de défendre, vous pouvez dépenser une %CHARGE% et gagner 1 marqueur de contrainte pour la défausser à la place."""
+        "Targeting Astromech (BoY)":
+           display_name: """Astromech de Ciblage"""
+           text: """Après que vous avez exécuté une action %LOCK%, vous pouvez effectuer une action %ROTATEARC% rouge."""
+        "Wolfpack (SoC)":
+           display_name: """Wolfpack"""
+           text: """Tant que vous effectuez une attaque, vous pouvez dépenser un verrouillage qu’un vaisseau allié <b>Plo Koon</b> ou doté de la capacité <b>Né pour Ça</b> a sur le défenseur pour relancer n’importe quel nombre de dés d’attaque."""
+        "Evasion Sequence 7 (SoC)":
+           display_name: """Séquence d’Évasion 7"""
+           text: """Tant que vous effectuez une action %EVADE% rouge, s’il y a un obstacle ou un élément de scénario à portée 1, considérez cette action comme blanche à la place."""
+
 
         # Epic upgrades
         "Admiral Ozzel":
