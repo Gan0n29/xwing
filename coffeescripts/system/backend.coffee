@@ -546,7 +546,7 @@ class exportObj.SquadBuilderBackend
                 </div>
                 <div class="btn-group squad-display-mode full-row">
                     <button class="btn btn-modal btn-inverse show-all-squads translated" defaultText="All"></button>
-                    <button class="btn btn-modal show-extended-squads"><span class="d-none d-lg-block translated" defaultText="Extended"></span><span class="d-lg-none translated" defaultText="Ext"></span></button>
+                    <button class="btn btn-modal show-extended-squads"><span class="d-none d-lg-block translated" defaultText="Standard"></span><span class="d-lg-none translated" defaultText="Ext"></span></button>
                     <button class="btn btn-modal show-hyperspace-squads"><span class="d-none d-lg-block translated" defaultText="Wild Space"></span><span class="d-lg-none translated" defaultText="Hyper"></span></button>
                     <button class="btn btn-modal show-quickbuild-squads"><span class="d-none d-lg-block translated" defaultText="Quickbuild"></span><span class="d-lg-none translated" defaultText="QB"></span></button>
                     <button class="btn btn-modal show-epic-squads translated" defaultText="Epic"></button>
