@@ -4022,7 +4022,7 @@ class Ship
     getPoints: ->
         if not @builder.isQuickbuild
             points = @pilot?.points ? 0
-            if not @pilot?.standard_loadout?
+            if not @pilot?.upgrades?
                 for upgrade in @upgrades
                     points += upgrade.getPoints()
             @points_container.find('span').text points
