@@ -27148,7 +27148,7 @@ exportObj.basicCardData = ->
             id: 631
             faction: "Galactic Republic"
             pilot: '"Knack"'
-            ship: "Rogue-class Starfighter"
+            ship: "Clone Z-95 Headhunter"
             threat: 2
             upgrades: [
                 "Outmaneuver"
@@ -27160,7 +27160,7 @@ exportObj.basicCardData = ->
             id: 632
             faction: "Galactic Republic"
             pilot: '"Slider"'
-            ship: "Rogue-class Starfighter"
+            ship: "Clone Z-95 Headhunter"
             threat: 3
             upgrades: [
                 "Outmaneuver"
@@ -27173,7 +27173,7 @@ exportObj.basicCardData = ->
             id: 633
             faction: "Galactic Republic"
             pilot: '"Hawk" (Z-95)'
-            ship: "Rogue-class Starfighter"
+            ship: "Clone Z-95 Headhunter"
             threat: 2
             upgrades: [
                 "Outmaneuver"
@@ -27185,7 +27185,7 @@ exportObj.basicCardData = ->
             id: 634
             faction: "Galactic Republic"
             pilot: '"Warthog" (Z-95)'
-            ship: "Rogue-class Starfighter"
+            ship: "Clone Z-95 Headhunter"
             threat: 2
             upgrades: [
                 "Elusive"
@@ -27196,7 +27196,7 @@ exportObj.basicCardData = ->
             id: 635
             faction: "Galactic Republic"
             pilot: '"Boost"'
-            ship: "Rogue-class Starfighter"
+            ship: "Clone Z-95 Headhunter"
             threat: 2
             upgrades: [
                 "Enduring"
@@ -27578,6 +27578,11 @@ exportObj.epicExclusionsList = [
     'C-ROC Cruiser'
     'Syliure-class Hyperspace Ring'
     'Trident-class Assault Ship'
+    'Toryn Farr'
+    'Quick-Release Locks'
+    "Saboteur's Map"
+    'Scanner Baffler'
+    'Tracking Torpedoes'
 ]
 
 
