@@ -10867,6 +10867,106 @@ exportObj.manifestByExpansion =
             type: 'pilot'
             count: 1
         }
+        {
+            name: 'Garven Dreis (BoY SL)'
+            type: 'pilot'
+            count: 1
+        }
+        {
+            name: 'Luke Skywalker (BoY SL)'
+            type: 'pilot'
+            count: 1
+        }
+        {
+            name: 'Jek Porkins (BoY SL)'
+            type: 'pilot'
+            count: 1
+        }
+        {
+            name: 'Biggs Darklighter (BoY SL)'
+            type: 'pilot'
+            count: 1
+        }
+        {
+            name: 'Wedge Antilles (BoY SL)'
+            type: 'pilot'
+            count: 1
+        }
+        {
+            name: 'Han Solo (BoY SL)'
+            type: 'pilot'
+            count: 1
+        }
+        {
+            name: '"Dutch" Vander (BoY SL)'
+            type: 'pilot'
+            count: 1
+        }
+        {
+            name: 'Dex Tiree (BoY SL)'
+            type: 'pilot'
+            count: 1
+        }
+        {
+            name: '"Pops" Krail (BoY SL)'
+            type: 'pilot'
+            count: 1
+        }
+        {
+            name: 'Hol Okand (BoY SL)'
+            type: 'pilot'
+            count: 1
+        }
+        {
+            name: 'Darth Vader (BoY SL)'
+            type: 'pilot'
+            count: 1
+        }
+        {
+            name: '"Backstabber" (BoY SL)'
+            type: 'pilot'
+            count: 1
+        }
+        {
+            name: '"Mauler" Mithel (BoY SL)'
+            type: 'pilot'
+            count: 1
+        }
+        {
+            name: '"Dark Curse" (BoY SL)'
+            type: 'pilot'
+            count: 1
+        }
+        {
+            name: '"Wampa" (BoY SL)'
+            type: 'pilot'
+            count: 1
+        }
+        {
+            name: 'Iden Versio (BoY SL)'
+            type: 'pilot'
+            count: 1
+        }
+        {
+            name: 'Sigma 4 (BoY SL)'
+            type: 'pilot'
+            count: 1
+        }
+        {
+            name: 'Sigma 5 (BoY SL)'
+            type: 'pilot'
+            count: 1
+        }
+        {
+            name: 'Sigma 6 (BoY SL)'
+            type: 'pilot'
+            count: 1
+        }
+        {
+            name: 'Sigma 7 (BoY SL)'
+            type: 'pilot'
+            count: 1
+        }
     ]
     "Siege of Coruscant Battle Pack": [
         {
@@ -10966,6 +11066,106 @@ exportObj.manifestByExpansion =
         }
         {
             name: 'Haor Chall Prototype (SoC)'
+            type: 'pilot'
+            count: 2
+        }
+        {
+            name: 'Anakin Skywalker (SoC SL)'
+            type: 'pilot'
+            count: 1
+        }
+        {
+            name: 'Obi-Wan Kenobi (SoC SL)'
+            type: 'pilot'
+            count: 1
+        }
+        {
+            name: 'Shaak Ti (SoC SL)'
+            type: 'pilot'
+            count: 1
+        }
+        {
+            name: '"Odd Ball" (SoC SL)'
+            type: 'pilot'
+            count: 1
+        }
+        {
+            name: '"Wolffe" (SoC SL)'
+            type: 'pilot'
+            count: 1
+        }
+        {
+            name: '"Jag" (SoC SL)'
+            type: 'pilot'
+            count: 1
+        }
+        {
+            name: '"Contrail" (SoC SL)'
+            type: 'pilot'
+            count: 1
+        }
+        {
+            name: '"Klick" (SoC SL)'
+            type: 'pilot'
+            count: 1
+        }
+        {
+            name: '"Kickback" (SoC SL)'
+            type: 'pilot'
+            count: 1
+        }
+        {
+            name: '"Axe" (SoC SL)'
+            type: 'pilot'
+            count: 1
+        }
+        {
+            name: 'Count Dooku (SoC SL)'
+            type: 'pilot'
+            count: 1
+        }
+        {
+            name: 'DBS-32C (SoC SL)'
+            type: 'pilot'
+            count: 1
+        }
+        {
+            name: 'DBS-404 (SoC SL)'
+            type: 'pilot'
+            count: 1
+        }
+        {
+            name: 'Baktoid Prototype (SoC SL)'
+            type: 'pilot'
+            count: 2
+        }
+        {
+            name: 'DIS-347 (SoC SL)'
+            type: 'pilot'
+            count: 1
+        }
+        {
+            name: 'DIS-T81 (SoC SL)'
+            type: 'pilot'
+            count: 1
+        }
+        {
+            name: 'Phlac-Arphocc Prototype (SoC SL)'
+            type: 'pilot'
+            count: 2
+        }
+        {
+            name: 'DFS-081 (SoC SL)'
+            type: 'pilot'
+            count: 1
+        }
+        {
+            name: 'DFS-311 (SoC SL)'
+            type: 'pilot'
+            count: 1
+        }
+        {
+            name: 'Haor Chall Prototype (SoC SL)'
             type: 'pilot'
             count: 2
         }
