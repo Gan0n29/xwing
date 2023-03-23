@@ -12991,7 +12991,7 @@ exportObj.basicCardData = ->
             faction: "Rebel Alliance"
             ship: "X-Wing"
             skill: 4
-            points: 50
+            points: 53
             chassis: "Hope"
             upgrades: [
                 "Adv. Proton Torpedoes"
@@ -13009,7 +13009,7 @@ exportObj.basicCardData = ->
             faction: "Rebel Alliance"
             ship: "X-Wing"
             skill: 5
-            points: 50
+            points: 79
             force: 2
             chassis: "Hope"
             upgrades: [
@@ -13030,7 +13030,7 @@ exportObj.basicCardData = ->
             faction: "Rebel Alliance"
             ship: "X-Wing"
             skill: 4
-            points: 50
+            points: 54
             chassis: "Hope"
             upgrades: [
                 "Adv. Proton Torpedoes"
@@ -13049,7 +13049,7 @@ exportObj.basicCardData = ->
             faction: "Rebel Alliance"
             ship: "X-Wing"
             skill: 3
-            points: 50
+            points: 56
             chassis: "Hope"
             upgrades: [
                 "Attack Speed (BoY)"
@@ -13069,7 +13069,7 @@ exportObj.basicCardData = ->
             faction: "Rebel Alliance"
             ship: "X-Wing"
             skill: 5
-            points: 50
+            points: 65
             chassis: "Hope"
             upgrades: [
                 "Attack Speed (BoY)"
@@ -13089,7 +13089,7 @@ exportObj.basicCardData = ->
             faction: "Rebel Alliance"
             ship: "YT-1300"
             skill: 6
-            points: 50
+            points: 105
             charge: 4
             chassis: "Solo"
             upgrades: [
@@ -13110,7 +13110,7 @@ exportObj.basicCardData = ->
             faction: "Rebel Alliance"
             ship: "Y-Wing"
             skill: 4
-            points: 50
+            points: 61
             chassis: "Hope"
             upgrades: [
                 "Ion Cannon Turret"
@@ -13129,7 +13129,7 @@ exportObj.basicCardData = ->
             faction: "Rebel Alliance"
             ship: "Y-Wing"
             skill: 2
-            points: 50
+            points: 38
             chassis: "Hope"
             upgrades: [
                 "Dorsal Turret"
@@ -13148,7 +13148,7 @@ exportObj.basicCardData = ->
             faction: "Rebel Alliance"
             ship: "Y-Wing"
             skill: 4
-            points: 50
+            points: 45
             chassis: "Hope"
             upgrades: [
                 "Ion Cannon Turret"
@@ -13167,7 +13167,7 @@ exportObj.basicCardData = ->
             faction: "Rebel Alliance"
             ship: "Y-Wing"
             skill: 4
-            points: 50
+            points: 49
             chassis: "Hope"
             upgrades: [
                 "Dorsal Turret"
@@ -13186,7 +13186,7 @@ exportObj.basicCardData = ->
             faction: "Galactic Empire"
             ship: "TIE Advanced"
             skill: 6
-            points: 50
+            points: 81
             force: 3
             keyword: ["Dark Side", "Sith"]
             ship_override:
@@ -13208,7 +13208,7 @@ exportObj.basicCardData = ->
             faction: "Galactic Empire"
             ship: "TIE Fighter"
             skill: 5
-            points: 50
+            points: 38
             ship_override:
                 hull: 4
             upgrades: [
@@ -13228,7 +13228,7 @@ exportObj.basicCardData = ->
             faction: "Galactic Empire"
             ship: "TIE Fighter"
             skill: 5
-            points: 50
+            points: 37
             ship_override:
                 hull: 4
             upgrades: [
@@ -13246,7 +13246,7 @@ exportObj.basicCardData = ->
             faction: "Galactic Empire"
             ship: "TIE Fighter"
             skill: 6
-            points: 50
+            points: 37
             ship_override:
                 hull: 4
             upgrades: [
@@ -13267,7 +13267,7 @@ exportObj.basicCardData = ->
             skill: 1
             charge: 1
             recurring: 1
-            points: 50
+            points: 39
             ship_override:
                 hull: 4
                 actions: [
@@ -13292,7 +13292,7 @@ exportObj.basicCardData = ->
             faction: "Galactic Empire"
             ship: "TIE Interceptor"
             skill: 4
-            points: 50
+            points: 67
             charge: 2
             recurring: 1
             chassis: "Sensitive Controls"
@@ -13314,7 +13314,7 @@ exportObj.basicCardData = ->
             faction: "Galactic Empire"
             ship: "TIE Interceptor"
             skill: 4
-            points: 50
+            points: 52
             charge: 2
             chassis: "Sensitive Controls"
             ship_override:
@@ -13356,7 +13356,7 @@ exportObj.basicCardData = ->
             faction: "Galactic Empire"
             ship: "TIE Interceptor"
             skill: 4
-            points: 50
+            points: 48
             charge: 2
             chassis: "Sensitive Controls"
             ship_override:
@@ -13377,7 +13377,7 @@ exportObj.basicCardData = ->
             faction: "Galactic Empire"
             ship: "TIE Interceptor"
             skill: 4
-            points: 50
+            points: 48
             charge: 2
             chassis: "Sensitive Controls"
             ship_override:
@@ -13405,7 +13405,7 @@ exportObj.basicCardData = ->
             faction: "Galactic Republic"
             ship: "Eta-2 Actis"
             skill: 6
-            points: 50
+            points: 66
             force: 3
             chassis: "Intuitive Controls"
             keyword: ["Jedi","Light Side","Dark Side"]
@@ -13426,7 +13426,7 @@ exportObj.basicCardData = ->
             faction: "Galactic Republic"
             ship: "Eta-2 Actis"
             skill: 5
-            points: 50
+            points: 52
             force: 3
             chassis: "Intuitive Controls"
             keyword: ["Jedi","Light Side"]
@@ -13447,7 +13447,7 @@ exportObj.basicCardData = ->
             faction: "Galactic Republic"
             ship: "Eta-2 Actis"
             skill: 4
-            points: 50
+            points: 49
             force: 2
             chassis: "Intuitive Controls"
             keyword: ["Jedi","Light Side"]
@@ -13469,7 +13469,7 @@ exportObj.basicCardData = ->
             faction: "Galactic Republic"
             ship: "ARC-170"
             skill: 5
-            points: 50
+            points: 56
             chassis: "Born for This"
             ship_override:
                 shields: 4
@@ -13491,7 +13491,7 @@ exportObj.basicCardData = ->
             ship: "ARC-170"
             skill: 4
             charge: 1
-            points: 50
+            points: 56
             chassis: "Born for This"
             upgrades: [
                 "Wolfpack (SoC)"
@@ -13510,7 +13510,7 @@ exportObj.basicCardData = ->
             faction: "Galactic Republic"
             ship: "ARC-170"
             skill: 3
-            points: 50
+            points: 51
             chassis: "Born for This"
             upgrades: [
                 "Veteran Tail Gunner"
@@ -13529,7 +13529,7 @@ exportObj.basicCardData = ->
             faction: "Galactic Republic"
             ship: "Nimbus-class V-Wing"
             skill: 5
-            points: 50
+            points: 46
             chassis: "Born for This"
             upgrades: [
                 "Ion Limiter Override"
@@ -13549,7 +13549,7 @@ exportObj.basicCardData = ->
             faction: "Galactic Republic"
             ship: "Nimbus-class V-Wing"
             skill: 4
-            points: 50
+            points: 41
             charge: 1
             recurring: 1
             chassis: "Born for This"
@@ -13572,7 +13572,7 @@ exportObj.basicCardData = ->
             faction: "Galactic Republic"
             ship: "V-19 Torrent"
             skill: 5
-            points: 50
+            points: 41
             chassis: "Born for This"
             ship_override:
                 hull: 6
@@ -13592,7 +13592,7 @@ exportObj.basicCardData = ->
             faction: "Galactic Republic"
             ship: "V-19 Torrent"
             skill: 3
-            points: 50
+            points: 40
             chassis: "Born for This"
             ship_override:
                 hull: 6
@@ -13612,7 +13612,7 @@ exportObj.basicCardData = ->
             faction: "Separatist Alliance"
             ship: "Sith Infiltrator"
             skill: 5
-            points: 50
+            points: 75
             force: 3
             keyword: ["Dark Side"]
             upgrades: [
@@ -13632,7 +13632,7 @@ exportObj.basicCardData = ->
             faction: "Separatist Alliance"
             ship: "Hyena-Class Droid Bomber"
             skill: 3
-            points: 50
+            points: 38
             charge: 2
             ship_override:
                 actions: [
@@ -13659,7 +13659,7 @@ exportObj.basicCardData = ->
             faction: "Separatist Alliance"
             ship: "Hyena-Class Droid Bomber"
             skill: 4
-            points: 3
+            points: 36
             upgrades: [
                 "Adv. Proton Torpedoes"
                 "Contingency Protocol (SoC)"
@@ -13677,7 +13677,7 @@ exportObj.basicCardData = ->
             ship: "Hyena-Class Droid Bomber"
             skill: 1
             max_per_squad: 2
-            points: 3
+            points: 34
             upgrades: [
                 "Homing Missiles"
                 "Contingency Protocol (SoC)"
@@ -13695,7 +13695,7 @@ exportObj.basicCardData = ->
             faction: "Separatist Alliance"
             ship: "Droid Tri-Fighter"
             skill: 3
-            points: 4
+            points: 40
             upgrades: [
                 "Marksmanship"
                 "Afterburners"
@@ -13712,7 +13712,7 @@ exportObj.basicCardData = ->
             image_id: 422
             faction: "Separatist Alliance"
             ship: "Droid Tri-Fighter"
-            skill: 4
+            skill: 48
             points: 5
             upgrades: [
                 "Outmaneuver"
@@ -13730,7 +13730,7 @@ exportObj.basicCardData = ->
             faction: "Separatist Alliance"
             ship: "Droid Tri-Fighter"
             skill: 5
-            points: 4
+            points: 50
             max_per_squad: 2
             upgrades: [
                 "Afterburners"
@@ -13750,7 +13750,7 @@ exportObj.basicCardData = ->
             ship: "Vulture-class Droid Fighter"
             skill: 3
             charge: 2
-            points: 2
+            points: 28
             upgrades: [
                 "Discord Missiles"
                 "Contingency Protocol (SoC)"
@@ -13768,7 +13768,7 @@ exportObj.basicCardData = ->
             faction: "Separatist Alliance"
             ship: "Vulture-class Droid Fighter"
             skill: 1
-            points: 3
+            points: 28
             upgrades: [
                 "Discord Missiles"
                 "Contingency Protocol (SoC)"
@@ -13786,7 +13786,7 @@ exportObj.basicCardData = ->
             ship: "Vulture-class Droid Fighter"
             skill: 1
             max_per_squad: 2
-            points: 2
+            points: 25
             upgrades: [
                 "Ion Missiles"
                 "Contingency Protocol (SoC)"
