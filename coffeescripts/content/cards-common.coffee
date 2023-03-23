@@ -11864,7 +11864,7 @@ exportObj.basicCardData = ->
             faction: "Galactic Empire"
             ship: "TIE Interceptor"
             skill: 4
-            points: 42
+            points: 41
             charge: 2
             keyword: ["AlreadyHasHullUpgrade"]
             chassis: "Sensitive Controls"
