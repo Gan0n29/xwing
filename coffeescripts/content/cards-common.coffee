@@ -11196,6 +11196,7 @@ exportObj.basicCardData = ->
             ship: "Rogue-class Starfighter"
             skill: 3
             points: 35
+            keyword: ["Bounty Hunter"]
             slots: [
                 "Cannon"
                 "Cannon"
@@ -12691,6 +12692,7 @@ exportObj.basicCardData = ->
             skill: 5
             points: 40
             chassis: "Modified for Organics"
+            keyword: ["Bounty Hunter"]
             slots: [
                 "Talent"
                 "Sensor"
