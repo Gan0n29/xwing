@@ -13714,8 +13714,8 @@ exportObj.basicCardData = ->
             image_id: 422
             faction: "Separatist Alliance"
             ship: "Droid Tri-Fighter"
-            skill: 48
-            points: 5
+            skill: 4
+            points: 48
             upgrades: [
                 "Outmaneuver"
                 "Afterburners"
