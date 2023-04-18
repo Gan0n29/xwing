@@ -445,6 +445,7 @@ exportObj.translations['Français'] =
         "Saving squad...": "Sauvegarde de l'escadron..."
         "Notes:": "Notes :"
         "XWS QR-Code": "QRCode XWS"
+        "LeftSideLegal warning": "Left-Side legal - Les améliorations présentes sur la carte Arsenal Standard ne sont pas incluses."
 
 
     singular:
