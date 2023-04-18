@@ -2708,7 +2708,7 @@ class exportObj.SquadBuilder
                     
                     if (data.standard_loadout? and not data.upgrades?)
                         container.find('p.info-leftsidelegal').show()
-                        container.find('p.info-leftsidelegal').text exportObj.translate("ui", "LeftSideLegal warning")
+                        container.find('p.info-leftsidelegal').html exportObj.translate("ui", "LeftSideLegal warning")
                     else        
                         container.find('p.info-leftsidelegal').hide()
                         
