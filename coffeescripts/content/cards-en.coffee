@@ -177,6 +177,7 @@ exportObj.translations.English =
         removes: (translator, data) -> # data will most likely be a string of some symbols, but you never know
             "Removes: #{translator('ui', data)}"
         "Less upgrades": "Fewer upgrades"
+        "LeftSideLegal warning": "Left-Side legal - Upgrades included on Standard Loadout pilot card not included."
 
     singular:
         'pilots': 'Pilot'
