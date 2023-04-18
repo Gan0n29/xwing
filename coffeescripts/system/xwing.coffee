@@ -1251,6 +1251,7 @@ class exportObj.SquadBuilder
                 <p class="info-text"></p>
                 <p class="info-chassis"></p>
                 <p class="info-maneuvers"></p>
+                <p class="info-leftsidelegal"></p>
                 <br />
                 <span class="info-header info-sources translated" defaultText="Sources:"></span> 
                 <span class="info-data info-sources"></span>
@@ -2501,6 +2502,8 @@ class exportObj.SquadBuilder
                     container.find('p.info-maneuvers').show()
                     container.find('p.info-maneuvers').html(@getManeuverTableHTML(data.maneuvers, data.maneuvers))
                     
+                    container.find('p.info-leftsidelegal').hide()
+                    
                     sources = (exportObj.translate('sources', source) for source in data.sources).sort()
                     container.find('.info-sources.info-data').text if (sources.length > 1) or (not (exportObj.translate('sources', 'Loose Ships') in sources)) then (if sources.length > 0 then sources.join(', ') else exportObj.translate('ui', 'unreleased')) else @uitranslation("Only available from 1st edition")
                     container.find('.info-sources').show()
@@ -2702,6 +2705,13 @@ class exportObj.SquadBuilder
                         container.find('tr.info-upgrades td.info-data').html(if data.slots? then (exportObj.translate('sloticon', slot) for slot in data.slots).join(' ') or 'None' else "Standard Loadout")
                     container.find('p.info-maneuvers').show()
                     container.find('p.info-maneuvers').html(@getManeuverTableHTML(effective_stats?.maneuvers ? ship.maneuvers, ship.maneuvers))
+                    
+                    if (data.standard_loadout? and not data.upgrades?)
+                        container.find('p.info-leftsidelegal').show()
+                        container.find('p.info-leftsidelegal').text exportObj.translate("ui", "LeftSideLegal warning")
+                    else        
+                        container.find('p.info-leftsidelegal').hide()
+                        
                 when 'Quickbuild'
                     container.find('.info-type').text @uitranslation('Quickbuild')
                     container.find('.info-sources').hide() # there are different sources for the pilot and the upgrade cards, so we won't display any
@@ -2845,6 +2855,9 @@ class exportObj.SquadBuilder
                     container.find('tr.info-upgrades td.info-data').html(((if exportObj.upgrades[upgrade].display_name? then exportObj.upgrades[upgrade].display_name else upgrade) for upgrade in (data.upgrades ? [])).join(', ') or 'None')
                     container.find('p.info-maneuvers').show()
                     container.find('p.info-maneuvers').html(@getManeuverTableHTML(ship.maneuvers, ship.maneuvers))
+                    
+                    container.find('p.info-leftsidelegal').hide()
+                    
                 when 'Addon'
                     
                     if data.no_image?
@@ -3011,6 +3024,9 @@ class exportObj.SquadBuilder
                     container.find('tr.info-actions').hide()
                     container.find('tr.info-upgrades').hide()
                     container.find('p.info-maneuvers').hide()
+                    
+                    container.find('p.info-leftsidelegal').hide()
+                    
                 when 'Rules'
                     container.find('.info-type').hide()
                     container.find('.info-sources').hide()
@@ -3031,6 +3047,7 @@ class exportObj.SquadBuilder
                     container.find('tr.info-actions').hide()
                     container.find('tr.info-upgrades').hide()
                     container.find('p.info-maneuvers').hide()
+                    container.find('p.info-leftsidelegal').hide()
                     container.find('tr.info-energy').hide()
                     container.find('tr.info-attack').hide()
                     container.find('tr.info-attack-turret').hide()
@@ -3073,6 +3090,7 @@ class exportObj.SquadBuilder
                     container.find('tr.info-actions').hide()
                     container.find('tr.info-upgrades').hide()
                     container.find('p.info-maneuvers').hide()
+                    container.find('p.info-leftsidelegal').hide()
                     container.find('tr.info-energy').hide()
                     container.find('tr.info-attack').hide()
                     container.find('tr.info-attack-turret').hide()
