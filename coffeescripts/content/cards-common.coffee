@@ -18457,7 +18457,7 @@ exportObj.basicCardData = ->
         {
             name: "Nightbrother"
             id: 448
-            points: 4
+            points: 3
             slot: "Title"
             unique: true
             charge: 2
