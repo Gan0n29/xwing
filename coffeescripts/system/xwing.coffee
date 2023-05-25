@@ -5212,7 +5212,7 @@ class GenericAddon
         if new_data?.id != @data?.id
             if @data?.unique? or @data?.solitary?
                 await @ship.builder.container.trigger 'xwing:releaseUnique', [ @unadjusted_data, @type, defer() ]
-            if @data?.standardized? and not @ship.hasFixedUpgrades and (@data?.restrictions? and @ship.restriction_check(@data.restrictions,@data))
+            if @data?.standardized? and not @ship.hasFixedUpgrades 
                 @ship.removeStandardizedList(@data)
             @rescindAddons()
             @deoccupyOtherUpgrades()
