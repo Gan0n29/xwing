@@ -3727,7 +3727,7 @@ exportObj.cardLoaders.English = () ->
            text: """While you defend, if you are not critically damaged, change 1 %CRIT% to a %HIT% result."""
         "Explosion with Wings":
            display_name: "Explosion with Wings"
-           text: """You are dealt 1 facedown damage card. After you perform a %SLAM% action, you may expose 1 damage card to remove 1 disarm token."""
+           text: """<strong>Setup:</strong> You are dealt 1 facedown damage card. After you perform a %SLAM% action, you may expose 1 damage card to remove 1 disarm token."""
         "Fine-Tuned Thrusters":
            display_name: "Fine-Tuned Thrusters"
            text: """After you fully execute a maneuver, if you are not depleted or strained, you may gain 1 deplete or strain token to perform a %LOCK% or %BARRELROLL% action."""
