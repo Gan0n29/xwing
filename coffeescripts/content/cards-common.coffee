@@ -14033,7 +14033,7 @@ exportObj.basicCardData = ->
             canonical_name: 'Shara Bey'.canonicalize()
             xws: "sharabey-swz106"
             unique: true
-            id: 682
+            id: 683
             image_id: 462
             standard_loadout: true
             faction: "Rebel Alliance"
