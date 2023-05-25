@@ -13795,6 +13795,256 @@ exportObj.basicCardData = ->
                 "Strut-Lock Override (SoC)"
             ]
         }
+        {
+            name: "Darth Vader (SSP)"
+            canonical_name: 'Darth Vader'.canonicalize()
+            xws: "darthvader-swz105"
+            unique: true
+            id: 670
+            image_id: 173
+            standard_loadout: true
+            faction: "Galactic Empire"
+            ship: "TIE Advanced"
+            skill: 6
+            points: 75
+            force: 3
+            keyword: ["Dark Side", "Sith"]
+            ship_override:
+                shields: 3
+            upgrades: [
+                "Hate"
+                "Ion Missiles"
+                "Afterburners"
+            ]
+        }
+        {
+            name: "Maarek Stele (SSP)"
+            canonical_name: 'Maarek Stele'.canonicalize()
+            xws: "maarekstele-swz105"
+            unique: true
+            id: 671
+            image_id: 174
+            standard_loadout: true
+            faction: "Galactic Empire"
+            ship: "TIE Advanced"
+            skill: 5
+            points: 53
+            upgrades: [
+                "Elusive"
+                "Outmaneuver"
+                "Afterburners"            ]
+        }
+        {
+            name: "Captain Jonus (SSP)"
+            canonical_name: 'Captain Jonus'.canonicalize()
+            xws: "captainjonus-swz105"
+            unique: true
+            id: 672
+            image_id: 203
+            standard_loadout: true
+            faction: "Galactic Empire"
+            ship: "TIE Bomber"
+            skill: 4
+            points: 54
+            upgrades: [
+                "Feedback Ping"
+                "Plasma Torpedoes"
+                "Proton Bombs"
+            ]
+        }
+        {
+            name: "Tomax Bren (SSP)"
+            canonical_name: 'Tomax Bren'.canonicalize()
+            xws: "tomaxbren-swz105"
+            unique: true
+            id: 673
+            image_id: 205
+            standard_loadout: true
+            faction: "Galactic Empire"
+            ship: "TIE Bomber"
+            skill: 5
+            points: 48
+            upgrades: [
+                "Elusive"
+                "Barrage Rockets"
+                "Proximity Mines"
+            ]
+        }
+        {
+            name: "Iden Versio (SSP)"
+            canonical_name: 'Iden Versio'.canonicalize()
+            xws: "idenversio-swz105"
+            unique: true
+            id: 674
+            image_id: 218
+            standard_loadout: true
+            faction: "Galactic Empire"
+            ship: "TIE Fighter"
+            skill: 4
+            points: 45
+            charge: 1
+            upgrades: [
+                "Disciplined"
+                "Elusive"
+            ]
+        }
+        {
+            name: '"Night Beast" (SSP)'
+            canonical_name: '"Night Beast"'.canonicalize()
+            xws: "nightbeast-swz105"
+            unique: true
+            id: 675
+            image_id: 226
+            standard_loadout: true
+            faction: "Galactic Empire"
+            ship: "TIE Fighter"
+            skill: 2
+            points: 26
+            upgrades: [
+                "Disciplined"
+                "Predator"
+            ]
+        }
+        {
+            name: "Valen Rudor (SSP)"
+            canonical_name: 'Valen Rudor'.canonicalize()
+            xws: "valenrudor-swz105"
+            unique: true
+            id: 676
+            image_id: 225
+            standard_loadout: true
+            faction: "Galactic Empire"
+            ship: "TIE Fighter"
+            skill: 3
+            points: 27
+            upgrades: [
+                "Disciplined"
+                "Precision Ion Engines"
+            ]
+        }
+        {
+            name: '"Dutch" Vander (SSP)'
+            canonical_name: '"Dutch" Vander'.canonicalize()
+            xws: "dutchvander-swz106"
+            unique: true
+            id: 677
+            image_id: 27
+            standard_loadout: true
+            faction: "Rebel Alliance"
+            ship: "Y-Wing"
+            skill: 4
+            points: 47
+            upgrades: [
+                "Ion Cannon Turret"
+                "Proton Bombs"
+            ]
+        }
+        {
+            name: "Horton Salm (SSP)"
+            canonical_name: 'Horton Salm'.canonicalize()
+            xws: "hortonsalm-swz106"
+            unique: true
+            id: 678
+            image_id: 26
+            standard_loadout: true
+            faction: "Rebel Alliance"
+            ship: "Y-Wing"
+            skill: 4
+            points: 45
+            upgrades: [
+                "Ion Cannon Turret"
+                "Proximity Mines"
+            ]
+        }
+        {
+            name: "Arvel Crynyd (SSP)"
+            canonical_name: 'Arvel Crynyd'.canonicalize()
+            xws: "arvelcrynyd-swz106"
+            unique: true
+            id: 679
+            image_id: 51
+            standard_loadout: true
+            faction: "Rebel Alliance"
+            ship: "A-Wing"
+            skill: 3
+            points: 37
+            upgrades: [
+                "Predator"
+                "Afterburners"
+            ]
+        }
+        {
+            name: "Jake Farrell (SSP)"
+            canonical_name: 'Jake Farrell'.canonicalize()
+            xws: "jakefarrell-swz106"
+            unique: true
+            id: 680
+            image_id: 50
+            standard_loadout: true
+            faction: "Rebel Alliance"
+            ship: "A-Wing"
+            skill: 4
+            points: 43
+            upgrades: [
+                "Elusive"
+                "Outmaneuver"
+                "Ion Missiles"
+            ]
+        }
+        {
+            name: "Jek Porkins (SSP)"
+            canonical_name: 'Jek Porkins'.canonicalize()
+            xws: "jekporkins-swz106"
+            unique: true
+            id: 681
+            image_id: 3
+            standard_loadout: true
+            faction: "Rebel Alliance"
+            ship: "X-Wing"
+            skill: 4
+            points: 54
+            upgrades: [
+                "Predator"
+                "Proton Torpedoes"
+                "R5-D8"
+            ]
+        }
+        {
+            name: "Luke Skywalker (SSP)"
+            canonical_name: 'Luke Skywalker'.canonicalize()
+            xws: "lukeskywalker-swz106"
+            unique: true
+            id: 682
+            image_id: 4
+            standard_loadout: true
+            faction: "Rebel Alliance"
+            ship: "X-Wing"
+            skill: 5
+            force: 2
+            points: 75
+            upgrades: [
+                "Instinctive Aim"
+                "Proton Torpedoes"
+                "R2-D2"
+            ]
+        }
+        {
+            name: "Shara Bey (SSP)"
+            canonical_name: 'Shara Bey'.canonicalize()
+            xws: "sharabey-swz106"
+            unique: true
+            id: 682
+            image_id: 462
+            standard_loadout: true
+            faction: "Rebel Alliance"
+            ship: "A-Wing"
+            skill: 4
+            points: 36
+            upgrades: [
+                "Hopeful"
+                "Concussion Missiles"
+            ]
+        }
     ]
 
     upgradesById: [
