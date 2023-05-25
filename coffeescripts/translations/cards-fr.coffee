@@ -2512,6 +2512,51 @@ exportObj.cardLoaders['Français'] = () ->
            text: """Tant que vous défendez ou effectuez une attaque, si la vitesse de votre manœuvre révélée est supérieure à celle du vaisseau ennemi, vous pouvez relancer vos résultats vierges."""
 
 
+        # Starter Packs
+        "Darth Vader (SSP)":
+           display_name: """Dark Vador (SSP)"""
+           text: """Après avoir effectué une action, vous pouvez dépenser 1 %FORCE% pour effectuer une action."""
+        "Maarek Stele (SSP)":
+           display_name: """Maarek Stele (SSP)"""
+           text: """Tant que vous effectuez une attaque, si une carte de dégât devrait être attribuée face visible au défenseur, piochez 3 cartes de dégât à la place, choisissez-en 1, et défaussez les autres."""
+        "Captain Jonus (SSP)":
+           display_name: """Capitaine Jonus (SSP)"""
+           text: """Tant qu’un vaisseau allié à portée 0-1 effectue une attaque %TORPEDO% ou %MISSILE%, il peut relancer jusqu’à 2 dés d’attaque."""
+        "Tomax Bren (SSP)":
+           display_name: """Tomax Bren (SSP)"""
+           text: """Après avoir effectué une action %RELOAD%, vous pouvez récupérer 1 marqueur %CHARGE% sur 1 de vos cartes d’amélioration %TALENT% équipée."""
+        '"Night Beast" (SSP)':
+           display_name: """“Night Beast” (SSP)"""
+           text: """Après avoir entièrement exécuté une manœuvre bleue, vous pouvez effectuer une action %FOCUS%."""
+        "Valen Rudor (SSP)":
+           display_name: """Valen Rudor (SSP)"""
+           text: """Après qu’un vaisseau allié à portée 0-1 a défendu (après la résolution des dégâts, s’il y en a), vous pouvez effectuer une action."""
+        "Iden Versio (SSP)":
+           display_name: """Iden Versio (SSP)"""
+           text: """Avant qu’un chasseur TIE/ln allié à portée 0-1 ne subisse 1 ou plusieurs dégâts, vous pouvez dépenser 1 %CHARGE%. Dans ce cas, prévenez ce(s) dégât(s)."""
+        "Luke Skywalker (SSP)":
+           display_name: """Luke Skywalker (SSP)"""
+           text: """Après être devenu le défenseur (avant que les dés ne soient lancés), vous pouvez récupérer 1 %FORCE%."""
+        "Jek Porkins (SSP)":
+           display_name: """Jek Porkins (SSP)"""
+           text: """Après avoir reçu un marqueur de stress, vous pouvez lancer 1 dé d’attaque pour le retirer.%LINEBREAK%Sur un résultat %HIT%, subissez 1 dégât %HIT%."""
+        '"Dutch" Vander (SSP)':
+           display_name: """“Dutch” Vander (SSP)"""
+           text: """Après avoir effectué l’action %LOCK%, vous pouvez choisir 1 vaisseau allié à portée 1-3. Ce vaisseau allié peut verrouiller l’objet que vous avez verrouillé, en ignorant les restrictions de portée."""
+        "Horton Salm (SSP)":
+           display_name: """Horton Salm (SSP)"""
+           text: """Tant que vous effectuez une attaque, vous pouvez relancer 1 dé d’attaque pour chaque autre vaisseau allié à portée 0-1 du défenseur."""
+        "Arvel Crynyd (SSP)":
+           display_name: """Arvel Crynyd (SSP)"""
+           text: """Si vous deviez échouer à une action %BOOST% qui vous amènerait à chevaucher un autre vaisseau, résolvez-la comme si vous exécutiez partiellement une manœuvre à la place."""
+        "Jake Farrell (SSP)":
+           display_name: """Jake Farrell (SSP)"""
+           text: """Après avoir effectué une action %BARRELROLL% ou %BOOST%, vous pouvez choisir un vaisseau allié à portée 0-1. Ce vaisseau peut effectuer une action %FOCUS%.%LINEBREAK%Propulseurs Vectoriels : après avoir effectué une action, vous pouvez effectuer une action %BOOST% rouge."""
+        "Shara Bey (SSP)":
+           display_name: """Shara Bey (SSP)"""
+           text: """Tant que vous défendez ou effectuez une attaque principale, vous pouvez dépenser 1 verrouillage que vous avez sur le vaisseau ennemi pour ajouter 1 résultat %FOCUS% aux résultats de vos dés."""
+
+
 
         # Epic Ships
         "Republic Judiciary":
