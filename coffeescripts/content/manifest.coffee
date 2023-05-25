@@ -11349,17 +11349,17 @@ exportObj.manifestByExpansion =
     ]
     "Galactic Empire Squadron Starter Pack": [
         {
-            name: 'TIE Advanced x1'
+            name: 'TIE Advanced'
             type: 'ship'
             count: 1
         }
         {
-            name: 'TIE/ln Fighter'
+            name: 'TIE Fighter'
             type: 'ship'
             count: 2
         }
         {
-            name: 'TIE/sa Bomber'
+            name: 'TIE Bomber'
             type: 'ship'
             count: 1
         }
@@ -11531,17 +11531,17 @@ exportObj.manifestByExpansion =
     ]
     "Rebel Alliance Squadron Starter Pack": [
         {
-            name: 'T-65 X-wing'
+            name: 'X-Wing'
             type: 'ship'
             count: 1
         }
         {
-            name: 'RZ-1 A-wing'
+            name: 'A-Wing'
             type: 'ship'
             count: 2
         }
         {
-            name: 'BTL-A4 Y-wing'
+            name: 'Y-Wing'
             type: 'ship'
             count: 1
         }
