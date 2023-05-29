@@ -3538,7 +3538,7 @@ exportObj.cardLoaders.English = () ->
            text: """During the System Phase, you may spend 1 %FORCE%. IF you do, each enemy ship in your %FRONTARC% at range 0-1 gains 1 strain token unless it chooses to gain 1 jam token."""
         "Hondo Ohnaka (Command)":
            display_name: """Hondo Ohnaka"""
-           text: """During the System Phase, you may spend 1 %CHARGE% and choose 1 friendly shiop at range 0-1. Move 1 Victory Token or Objective Token from its ship card to your ship card, or from your ship card to its ship card."""
+           text: """During the System Phase, you may spend 1 %CHARGE% and choose 1 friendly ship at range 0-1. Move 1 Victory Token or Objective Token from its ship card to your ship card, or from your ship card to its ship card."""
         "Zealous Captain":
            display_name: """Zealous Captain"""
            text: """During the Engagement Phase, at initiative 4, you may spend 1 %ENERGY% to perform a bonus %HARDPOINT% attack."""
