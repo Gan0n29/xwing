@@ -177,7 +177,7 @@ exportObj.translations['Français'] =
         "Unreleased content warning": "Cette escadron utilise du contenu non-publié !"
         "Broken squad link warning": "Lien cassé. Aucun escadron ne peut être chargé !"
         "Collection warning": "Vous ne pouvez pas constituer cette liste avec votre collection !"
-        "Ship number warning": "Un escadron légal en tournoi doit contenir 3 à 8 vaisseaux !"
+        "Ship number warning": "Un escadron légal en tournoi doit contenir 2 à 8 vaisseaux !"
         "Multi-Faction warning": "Les listes multi-factions ne sont JAMAIS légales en tournoi !"
         "XWS Import Dialog": "Importez votre liste via XWS dans YASB.<br><i>XWS est un format commun pour partager des listes entre applications.</i>"
         "Copy below simple text": "<p>Copiez le texte ci-dessous et collez-le ailleurs.</p>"
