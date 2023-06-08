@@ -1848,7 +1848,7 @@ exportObj.cardLoaders['Français'] = () ->
            text: """<strong>Mise en Place :</strong> après avoir placé les forces, choisissez n’importe quel nombre de vos améliorations %ILLICIT% équipées et équipez-les à des chasseurs TIE/fo ou TIE/sf alliés. Chaque vaisseau ne peut se voir assigner que 1 seule amélioration %ILLICIT% par ce biais.%LINEBREAK%<strong>Fin de Partie :</strong> remettez toutes les améliorations %ILLICIT% sur leurs vaisseaux d’origine."""
         "Commander Malarus (Xi Shuttle)":
            display_name: """Commandant Malarus"""
-           text: """Tant qu’un vaisseau allié à portée 0–2 effectue une attaque principale, avant l’étape « Modifier les dés de défense », s’il a au moins 1 résultat vierge, il <b>doit</b> gagner 1 marqueur de contrainte pour relancer 1 résultat vierge, si possible  %LINEBREAK% <i>Errata (RR: 1.2.0 [06/14/2021]): ajout de : avant l’étape « Modifier les dés de défense »</i>"""
+           text: """Tant qu’un vaisseau allié à portée 0–2 effectue une attaque principale, avant l’étape « Modifier les dés », s’il a au moins 1 résultat vierge, il <b>doit</b> gagner 1 marqueur de contrainte pour relancer 1 résultat vierge, si possible  %LINEBREAK% <i>Errata (RR: 1.2.0 [06/14/2021]): ajout de : avant l’étape « Modifier les dés »</i>"""
         "Gideon Hask (Xi Shuttle)":
            display_name: """Gideon Hask"""
            text: """Tant que vous ou un petit vaisseau allié à portée 0–2 effectuez une attaque principale contre un défenseur endommagé, si l’attaquant a lancé 2 dés d’attaque ou moins, il peut gagner 1 marqueur de contrainte pour lancer 1 dé d’attaque supplémentaire."""
