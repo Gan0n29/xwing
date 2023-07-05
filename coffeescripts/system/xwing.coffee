@@ -993,6 +993,21 @@ class exportObj.SquadBuilder
                         <option class="pomdebris1-select translated" value="pomdebris1" defaultText="Pride of Mandalore Debris 1"></option>
                         <option class="pomdebris2-select translated" value="pomdebris2" defaultText="Pride of Mandalore Debris 2"></option>
                         <option class="pomdebris3-select translated" value="pomdebris3" defaultText="Pride of Mandalore Debris 3"></option>
+                        <option class="scenario-emplacements-select translated" value="scenario-emplacements" defaultText="Scenario - Emplacements"></option>
+                        <option class="scenario-probingproblem-select translated" value="scenario-probingproblem" defaultText="Scenario - Probing Problem"></option>
+                        <option class="scenario-blackbox-select translated" value="scenario-blackbox" defaultText="Scenario - Black Box"></option>
+                        <option class="scenario-vip-select translated" value="scenario-vip" defaultText="Scenario - VIP"></option>
+                        <option class="scenario-gatherintel-select translated" value="scenario-gatherintel" defaultText="Scenario - Gather Intel"></option>
+                        <option class="environmentcard-asteroidfield-select translated" value="environmentcard-asteroidfield" defaultText="Env - Asteroid Field"></option>
+                        <option class="environmentcard-conjoined-select translated" value="environmentcard-conjoined" defaultText="Env - Conjoined"></option>
+                        <option class="environmentcard-oldwreckage-select translated" value="environmentcard-oldwreckage" defaultText="Env - Old Wreckage"></option>
+                        <option class="environmentcard-planetaryring-select translated" value="environmentcard-planetaryring" defaultText="Env - Planetary Ring"></option>
+                        <option class="environmentcard-nebula-select translated" value="environmentcard-nebula" defaultText="Env - Nebula"></option>
+                        <option class="wildcard-scatteredsensors-select translated" value="wildcard-scatteredsensors" defaultText="Wild - Scattered Sensors"></option>
+                        <option class="wildcard-tritaniumdeposits-select translated" value="wildcard-tritaniumdeposits" defaultText="Wild - Tritanium Deposits"></option>
+                        <option class="wildcard-unstablefuel-select translated" value="wildcard-unstablefuel" defaultText="Wild - Unstable Fuel"></option>
+                        <option class="wildcard-emergencyreinforcements-select translated" value="wildcard-emergencyreinforcements" defaultText="Wild - Emergency Reinforcements"></option>
+                        <option class="wildcard-outpost-select translated" value="wildcard-outpost" defaultText="Wild - Outpost"></option>
                     </select>
                 </div>
                 <div>
@@ -1084,7 +1099,7 @@ class exportObj.SquadBuilder
                         <input type="search" class="squad-tag"></input>
                     </label>
                     <div class="unsortable obstacles-container">
-                            <button class="btn btn-info choose-obstacles"><i class="fa fa-cloud"></i>&nbsp;<span class="translated" defaultText="Choose Obstacles"</span></button>
+                            <button class="btn btn-info choose-obstacles"><i class="fa fa-cloud"></i>&nbsp;<span class="translated" defaultText="Choose Obstacles / Wild Space Cards"</span></button>
                     </div>
                 </div>
                 <div class="col-md-3 info-container" id="info-container">
@@ -1335,7 +1350,7 @@ class exportObj.SquadBuilder
             @updateShipOrder(@oldIndex, ui.item.index())
 
         @obstacles_select.change (e) =>
-            if @obstacles_select.val().length > 3
+            if @obstacles_select.val().length > 3 and not @isWildSpace
                 @obstacles_select.val(@current_squad.additional_data.obstacles)
             else
                 previous_obstacles = @current_squad.additional_data.obstacles
@@ -1533,6 +1548,10 @@ class exportObj.SquadBuilder
                 @isQuickbuild = true
                 @desired_points_input.val 8
         if oldQuickbuild != @isQuickbuild
+            old_id = @current_squad.id
+            @newSquadFromScratch($.trim(@current_squad.name))
+            @current_squad.id = old_id # we want to keep the ID, so we allow people to use the save button
+        if oldWildSpace and @current_obstacles.length > 0
             old_id = @current_squad.id
             @newSquadFromScratch($.trim(@current_squad.name))
             @current_squad.id = old_id # we want to keep the ID, so we allow people to use the save button
