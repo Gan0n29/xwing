@@ -10792,7 +10792,6 @@ exportObj.basicCardData = ->
             ship: "Gauntlet Fighter"
             skill: 2
             points: 51
-            unique: true
             keyword: ["Mandalorian"]
             slots: [
                 "Talent"
