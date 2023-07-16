@@ -998,16 +998,16 @@ class exportObj.SquadBuilder
                         <option class="scenario-blackbox-select translated" value="scenario-blackbox" defaultText="Scenario - Black Box"></option>
                         <option class="scenario-vip-select translated" value="scenario-vip" defaultText="Scenario - VIP"></option>
                         <option class="scenario-gatherintel-select translated" value="scenario-gatherintel" defaultText="Scenario - Gather Intel"></option>
-                        <option class="environmentcard-asteroidfield-select translated" value="environmentcard-asteroidfield" defaultText="Environment - Asteroid Field"></option>
-                        <option class="environmentcard-conjoined-select translated" value="environmentcard-conjoined" defaultText="Environment - Conjoined"></option>
-                        <option class="environmentcard-oldwreckage-select translated" value="environmentcard-oldwreckage" defaultText="Environment - Old Wreckage"></option>
-                        <option class="environmentcard-planetaryring-select translated" value="environmentcard-planetaryring" defaultText="Environment - Planetary Ring"></option>
-                        <option class="environmentcard-nebula-select translated" value="environmentcard-nebula" defaultText="Environment - Nebula"></option>
-                        <option class="wildcard-scatteredsensors-select translated" value="wildcard-scatteredsensors" defaultText="Wild - Scattered Sensors"></option>
-                        <option class="wildcard-tritaniumdeposits-select translated" value="wildcard-tritaniumdeposits" defaultText="Wild - Tritanium Deposits"></option>
-                        <option class="wildcard-unstablefuel-select translated" value="wildcard-unstablefuel" defaultText="Wild - Unstable Fuel"></option>
-                        <option class="wildcard-emergencyreinforcements-select translated" value="wildcard-emergencyreinforcements" defaultText="Wild - Emergency Reinforcements"></option>
-                        <option class="wildcard-outpost-select translated" value="wildcard-outpost" defaultText="Wild - Outpost"></option>
+                        <option class="environment-asteroidfield-select translated" value="environment-asteroidfield" defaultText="Environment - Asteroid Field"></option>
+                        <option class="environment-conjoined-select translated" value="environment-conjoined" defaultText="Environment - Conjoined"></option>
+                        <option class="environment-oldwreckage-select translated" value="environment-oldwreckage" defaultText="Environment - Old Wreckage"></option>
+                        <option class="environment-planetaryring-select translated" value="environment-planetaryring" defaultText="Environment - Planetary Ring"></option>
+                        <option class="environment-nebula-select translated" value="environment-nebula" defaultText="Environment - Nebula"></option>
+                        <option class="wild-scatteredsensors-select translated" value="wild-scatteredsensors" defaultText="Wild - Scattered Sensors"></option>
+                        <option class="wild-tritaniumdeposits-select translated" value="wild-tritaniumdeposits" defaultText="Wild - Tritanium Deposits"></option>
+                        <option class="wild-unstablefuel-select translated" value="wild-unstablefuel" defaultText="Wild - Unstable Fuel"></option>
+                        <option class="wild-emergencyreinforcements-select translated" value="wild-emergencyreinforcements" defaultText="Wild - Emergency Reinforcements"></option>
+                        <option class="wild-outpost-select translated" value="wild-outpost" defaultText="Wild - Outpost"></option>
                     </select>
                 </div>
                 <div>
