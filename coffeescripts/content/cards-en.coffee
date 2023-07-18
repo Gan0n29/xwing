@@ -1448,7 +1448,7 @@ exportObj.cardLoaders.English = () ->
            text: """<i class="descriptive-text">As the Clone Wars takes its toll on the ranks of the Jedi Order, those that remain must assume even greater responsibilities in the Grand Army of the Republic.</i>"""
         "Yoda":
            text: """After another friendly ship at range 0-3 spends 1 or more %FORCE%, you may spend 1 %FORCE%. If you do, that ship recovers 1 %FORCE%."""
-        " Ti":
+        "Shaak Ti":
            text: """At the start of the End Phase, you may spend any number of %FORCE% to choose that many friendly ships at range 0-2. Each chosen ship does not remove 1 focus or evade token during this End Phase."""
         "Aayla Secura":
            text: """While an enemy ship in your %FRONTARC% at range 0-1 performs an attack, the defender may change 1 blank result to a %FOCUS% result."""
