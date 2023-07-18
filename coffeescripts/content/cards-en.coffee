@@ -1980,10 +1980,10 @@ exportObj.cardLoaders.English = () ->
            text: """While you perform an attack at range 1, you <b>must</b> roll 1 additional die. After the attack hits, suffer 1 %CRIT% damage."""
         "Baktoid Prototype (SoC)":
            display_name: """Baktoid Prototype (SoC)"""
-           text: """While you perform a special attack, if a friendly ship with the <strong>Networked Calculations</strong> ship ability has a lock on the defender, you may ingore the %FOCUS%, %CALCULATE% or %LOCK% requirement of the attack."""
+           text: """While you perform a special attack, if a friendly ship with the <strong>Networked Calculations</strong> ship ability has a lock on the defender, you may ignore the %FOCUS%, %CALCULATE% or %LOCK% requirement of the attack."""
         "Baktoid Prototype (SoC SL)":
            display_name: """Baktoid Prototype (SoC SL)"""
-           text: """While you perform a special attack, if a friendly ship with the <strong>Networked Calculations</strong> ship ability has a lock on the defender, you may ingore the %FOCUS%, %CALCULATE% or %LOCK% requirement of the attack."""
+           text: """While you perform a special attack, if a friendly ship with the <strong>Networked Calculations</strong> ship ability has a lock on the defender, you may ignore the %FOCUS%, %CALCULATE% or %LOCK% requirement of the attack."""
         "DIS-347 (SoC)":
            display_name: """DIS-347 (SoC)"""
            text: """At the start of the Engagement Phase, you may acquire a lock on an object at range 1-3 that has a friendly lock."""
