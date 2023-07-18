@@ -12214,7 +12214,7 @@ exportObj.basicCardData = ->
             ship: "Hyena-Class Droid Bomber"
             skill: 1
             max_per_squad: 2
-            points: 28
+            points: 26
             slots: [
                 "Sensor"
                 "Missile"
