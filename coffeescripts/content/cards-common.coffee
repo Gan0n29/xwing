@@ -18223,7 +18223,7 @@ exportObj.basicCardData = ->
             ship: "Trident-class Assault Ship"
             faction: "Separatist Alliance"
             modifier_func: (stats) ->
-                stats.shields -= 2
+                stats.hull -= 2
         }
         {
             name: "Trident"
