@@ -16963,7 +16963,6 @@ exportObj.basicCardData = ->
             modifier_func: (stats) ->
                 stats.actions.push 'Calculate' if 'Calculate' not in stats.actions
         }
-        }
         {
             name: "Impetuous"
             id: 299
