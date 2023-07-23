@@ -16960,6 +16960,9 @@ exportObj.basicCardData = ->
             ship: "Raider-class Corvette"
             faction: "Galactic Empire"
             points: 3
+            modifier_func: (stats) ->
+                stats.actions.push 'Calculate' if 'Calculate' not in stats.actions
+        }
         }
         {
             name: "Impetuous"
