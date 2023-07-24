@@ -1256,10 +1256,6 @@ class exportObj.SquadBuilder
                                     <td class="info-header translated" defaultText="Points"></td>
                                     <td class="info-data info-points"></td>
                                 </tr>
-                                <tr class="info-loadout">
-                                    <td class="info-header translated" defaultText="Loadout"></td>
-                                    <td class="info-data info-loadout"></td>
-                                </tr>
                             </tbody>
                         </table>
                     </div>
