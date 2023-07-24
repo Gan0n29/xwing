@@ -17800,9 +17800,9 @@ exportObj.basicCardData = ->
             id: 371
             points: 0
             slot: "Configuration"
-            faction: "Rebel Alliance"
             standardized: true
             chassis: "Vectored Cannons"
+            ship: ["A-Wing"]
             restrictions: [
                 ["Keyword", "Vectored Thrusters"]
             ]
