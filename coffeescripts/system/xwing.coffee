@@ -1003,7 +1003,7 @@ class exportObj.SquadBuilder
                         <option class="environment-oldwreckage-select translated" value="environment-oldwreckage" defaultText="Environment - Old Wreckage"></option>
                         <option class="environment-planetaryring-select translated" value="environment-planetaryring" defaultText="Environment - Planetary Ring"></option>
                         <option class="environment-nebula-select translated" value="environment-nebula" defaultText="Environment - Nebula"></option>
-                        <option class="wild-scatteredsensors-select translated" value="wild-scatteredsensors" defaultText="Wild - Scattered Sensors"></option>
+                        <option class="wild-fracturedsensors-select translated" value="wild-fracturedsensors" defaultText="Wild - Fractured Sensors"></option>
                         <option class="wild-tritaniumdeposits-select translated" value="wild-tritaniumdeposits" defaultText="Wild - Tritanium Deposits"></option>
                         <option class="wild-unstablefuel-select translated" value="wild-unstablefuel" defaultText="Wild - Unstable Fuel"></option>
                         <option class="wild-emergencyreinforcements-select translated" value="wild-emergencyreinforcements" defaultText="Wild - Emergency Reinforcements"></option>
