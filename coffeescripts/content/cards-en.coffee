@@ -121,7 +121,7 @@ exportObj.translations.English =
         "Copy below HTML": "<p>Copy the below and paste it elsewhere.</p>"
         "Copy below XWS":"<p>Copy and paste this into an XWS-compliant application.</p>"
         "Use INI prefix": "Put INI as prefix in front of names."
-        "Choose obstacles dialog": "Choose up to three obstacles.<br />In Wildspace mode, choose 1 Scenario card, 1 Environnement card, 1 Wild card, and as many obstacles you need."
+        "Choose obstacles dialog": "When playing Standard: Choose up to three obstacles<br />When playing Wild Space: Choose 1 Scenario card, 1 Environment card, 1 Wild card, and as many obstacles you need according to the chosen Environment card."
         "Mark obstacles": "Mark the three obstacles you are using."
         "Scan QR-Code": "Scan to open this list in the builder"
         "View in YASB": "View in Yet Another Squad Builder 2.0"
