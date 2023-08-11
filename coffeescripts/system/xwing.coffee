@@ -997,7 +997,7 @@ class exportObj.SquadBuilder
                         <option class="scenario-probingproblem-select translated" value="scenario-probingproblem" defaultText="Scenario - Probing Problem"></option>
                         <option class="scenario-blackbox-select translated" value="scenario-blackbox" defaultText="Scenario - Black Box"></option>
                         <option class="scenario-vip-select translated" value="scenario-vip" defaultText="Scenario - VIP"></option>
-                        # <option class="scenario-gatherintel-select translated" value="scenario-gatherintel" defaultText="Scenario - Gather Intel"></option>
+                        <!-- <option class="scenario-gatherintel-select translated" value="scenario-gatherintel" defaultText="Scenario - Gather Intel"></option> -->
                         <option class="environment-asteroidfield-select translated" value="environment-asteroidfield" defaultText="Environment - Asteroid Field"></option>
                         <option class="environment-conjoined-select translated" value="environment-conjoined" defaultText="Environment - Conjoined"></option>
                         <option class="environment-oldwreckage-select translated" value="environment-oldwreckage" defaultText="Environment - Old Wreckage"></option>
