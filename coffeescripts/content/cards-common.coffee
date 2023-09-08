@@ -19659,12 +19659,14 @@ exportObj.basicCardData = ->
         {
             name: "Swift Approach (TBE)"
             id: 494
+            no_image: true
             standard_loadout: true
             slot: "Talent"
         }
         {
             name: "Automated Loaders (TBE)"
             id: 495
+            no_image: true
             standard_loadout: true
             charge: 1
             slot: "Modification"
@@ -19672,30 +19674,35 @@ exportObj.basicCardData = ->
         {
             name: "Top Cover (TBE)"
             id: 496
+            no_image: true
             standard_loadout: true
             slot: "Talent"
         }
         {
             name: "True Grit (TBE)"
             id: 497
+            no_image: true
             standard_loadout: true
             slot: "Talent"
         }
         {
             name: "Mercenary (YLF)"
             id: 498
+            no_image: true
             standard_loadout: true
             slot: "Talent"
         }
         {
             name: "Efficient Processing (YLF)"
             id: 499
+            no_image: true
             standard_loadout: true
             slot: "Talent"
         }
         {
             name: "Seeker Missiles (YLF)"
             id: 500
+            no_image: true
             standard_loadout: true
             slot: "Missile"
             attack: 3
@@ -19707,6 +19714,7 @@ exportObj.basicCardData = ->
         {
             name: '"Leebo" (YLF)'
             id: 501
+            no_image: true
             standard_loadout: true
             slot: "Crew"
         }
@@ -19714,6 +19722,7 @@ exportObj.basicCardData = ->
             name: "Outrider (2023)"
             canonical_name: 'Outrider'.canonicalize()
             id: 502
+            image_id: 157
             slot: "Title"
             points: 6
             unique: true
