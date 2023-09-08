@@ -2513,49 +2513,106 @@ exportObj.cardLoaders['Français'] = () ->
 
 
         # Starter Packs
-        "Darth Vader (SSP)":
-           display_name: """Dark Vador (SSP)"""
+        "Darth Vader (SSP SL)":
+           display_name: """Dark Vador (SSP SL)"""
            text: """Après avoir effectué une action, vous pouvez dépenser 1 %FORCE% pour effectuer une action."""
-        "Maarek Stele (SSP)":
-           display_name: """Maarek Stele (SSP)"""
+        "Maarek Stele (SSP SL)":
+           display_name: """Maarek Stele (SSP SL)"""
            text: """Tant que vous effectuez une attaque, si une carte de dégât devrait être attribuée face visible au défenseur, piochez 3 cartes de dégât à la place, choisissez-en 1, et défaussez les autres."""
-        "Captain Jonus (SSP)":
-           display_name: """Capitaine Jonus (SSP)"""
+        "Captain Jonus (SSP SL)":
+           display_name: """Capitaine Jonus (SSP SL)"""
            text: """Tant qu’un vaisseau allié à portée 0-1 effectue une attaque %TORPEDO% ou %MISSILE%, il peut relancer jusqu’à 2 dés d’attaque."""
-        "Tomax Bren (SSP)":
-           display_name: """Tomax Bren (SSP)"""
+        "Tomax Bren (SSP SL)":
+           display_name: """Tomax Bren (SSP SL)"""
            text: """Après avoir effectué une action %RELOAD%, vous pouvez récupérer 1 marqueur %CHARGE% sur 1 de vos cartes d’amélioration %TALENT% équipée."""
-        '"Night Beast" (SSP)':
-           display_name: """“Night Beast” (SSP)"""
+        '"Night Beast" (SSP SL)':
+           display_name: """“Night Beast” (SSP SL)"""
            text: """Après avoir entièrement exécuté une manœuvre bleue, vous pouvez effectuer une action %FOCUS%."""
-        "Valen Rudor (SSP)":
-           display_name: """Valen Rudor (SSP)"""
+        "Valen Rudor (SSP SL)":
+           display_name: """Valen Rudor (SSP SL)"""
            text: """Après qu’un vaisseau allié à portée 0-1 a défendu (après la résolution des dégâts, s’il y en a), vous pouvez effectuer une action."""
-        "Iden Versio (SSP)":
-           display_name: """Iden Versio (SSP)"""
+        "Iden Versio (SSP SL)":
+           display_name: """Iden Versio (SSP SL)"""
            text: """Avant qu’un chasseur TIE/ln allié à portée 0-1 ne subisse 1 ou plusieurs dégâts, vous pouvez dépenser 1 %CHARGE%. Dans ce cas, prévenez ce(s) dégât(s)."""
-        "Luke Skywalker (SSP)":
-           display_name: """Luke Skywalker (SSP)"""
+        "Luke Skywalker (SSP SL)":
+           display_name: """Luke Skywalker (SSP SL)"""
            text: """Après être devenu le défenseur (avant que les dés ne soient lancés), vous pouvez récupérer 1 %FORCE%."""
-        "Jek Porkins (SSP)":
-           display_name: """Jek Porkins (SSP)"""
+        "Jek Porkins (SSP SL)":
+           display_name: """Jek Porkins (SSP SL)"""
            text: """Après avoir reçu un marqueur de stress, vous pouvez lancer 1 dé d’attaque pour le retirer.%LINEBREAK%Sur un résultat %HIT%, subissez 1 dégât %HIT%."""
-        '"Dutch" Vander (SSP)':
-           display_name: """“Dutch” Vander (SSP)"""
+        '"Dutch" Vander (SSP SL)':
+           display_name: """“Dutch” Vander (SSP SL)"""
            text: """Après avoir effectué l’action %LOCK%, vous pouvez choisir 1 vaisseau allié à portée 1-3. Ce vaisseau allié peut verrouiller l’objet que vous avez verrouillé, en ignorant les restrictions de portée."""
-        "Horton Salm (SSP)":
-           display_name: """Horton Salm (SSP)"""
+        "Horton Salm (SSP SL)":
+           display_name: """Horton Salm (SSP SL)"""
            text: """Tant que vous effectuez une attaque, vous pouvez relancer 1 dé d’attaque pour chaque autre vaisseau allié à portée 0-1 du défenseur."""
-        "Arvel Crynyd (SSP)":
-           display_name: """Arvel Crynyd (SSP)"""
+        "Arvel Crynyd (SSP SL)":
+           display_name: """Arvel Crynyd (SSP SL)"""
            text: """Si vous deviez échouer à une action %BOOST% qui vous amènerait à chevaucher un autre vaisseau, résolvez-la comme si vous exécutiez partiellement une manœuvre à la place.%LINEBREAK%Tant que vous effectuez une attaque à portée d’attaque 0, considérez-la comme une attaque à portée d’attaque 1."""
-        "Jake Farrell (SSP)":
-           display_name: """Jake Farrell (SSP)"""
+        "Jake Farrell (SSP SL)":
+           display_name: """Jake Farrell (SSP SL)"""
            text: """Après avoir effectué une action %BARRELROLL% ou %BOOST%, vous pouvez choisir un vaisseau allié à portée 0-1. Ce vaisseau peut effectuer une action %FOCUS%.%LINEBREAK%Propulseurs Vectoriels : après avoir effectué une action, vous pouvez effectuer une action %BOOST% rouge."""
-        "Shara Bey (SSP)":
-           display_name: """Shara Bey (SSP)"""
+        "Shara Bey (SSP SL)":
+           display_name: """Shara Bey (SSP SL)"""
            text: """Tant que vous défendez ou effectuez une attaque principale, vous pouvez dépenser 1 verrouillage que vous avez sur le vaisseau ennemi pour ajouter 1 résultat %FOCUS% aux résultats de vos dés."""
 
+        # TIE Bomber (TBE)
+        '"Deathfire" (TBE)':
+           display_name: """“Deathfire” (TBE)"""
+           text: """After you fully execute a speed 3-5 maneuver, if you have not dropped or launched a device this round, you may spend 2 %CHARGE% to drop or launch a bomb using the [3 %STRAIGHT%] template."""
+        '"Deathfire" (TBE SL)':
+           display_name: """“Deathfire” (TBE SL)"""
+           text: """After you fully execute a speed 3-5 maneuver, if you have not dropped or launched a device this round, you may spend 2 %CHARGE% to drop or launch a bomb using the [3 %STRAIGHT%] template."""
+        "Major Rhymer (TBE)":
+           display_name: """Major Rhymer (TBE)"""
+           text: """While you perform a %TORPEDO% attack, if the defender is in your %BULLSEYEARC%, change 1 %FOCUS% result to a %CRIT% result."""
+        "Major Rhymer (TBE SL)":
+           display_name: """Major Rhymer (TBE SL)"""
+           text: """While you perform a %TORPEDO% attack, if the defender is in your %BULLSEYEARC%, change 1 %FOCUS% result to a %CRIT% result."""
+        "Captain Jonus (TBE)":
+           display_name: """Captain Jonus (TBE)"""
+           text: """After you drop or launch a device, gain an evade token."""
+        "Captain Jonus (TBE SL)":
+           display_name: """Captain Jonus (TBE SL)"""
+           text: """After you drop or launch a device, gain an evade token."""
+        "Tomax Bren (TBE)":
+           display_name: """Tomax Bren (TBE)"""
+           text: """After you perform a %BARRELROLL% action, you may spend 2 %CHARGE%. If you do, gain a focus token."""
+        "Tomax Bren (TBE SL)":
+           display_name: """Tomax Bren (TBE SL)"""
+           text: """After you perform a %BARRELROLL% action, you may spend 2 %CHARGE%. If you do, gain a focus token."""
+
+        # YT-2400 (2023)
+        "Dash Rendar (2023)":
+           display_name: """Dash Rendar"""
+           text: """During the Engagement Phase, you ignore the effects of obstacles that you are overlapping."""
+        "Dash Rendar (YLF)":
+           display_name: """Dash Rendar (YLF)"""
+           text: """After you gain a red token as a result of moving through or overlapping an obstacle, you may transfer that red token to a friendly ship at range 0-1."""
+        "Dash Rendar (YLF SL)":
+           display_name: """Dash Rendar (YLF SL)"""
+           text: """After you gain a red token as a result of moving through or overlapping an obstacle, you may transfer that red token to a friendly ship at range 0-1."""
+        "Dash Rendar (Scum)":
+           display_name: """Dash Rendar"""
+           text: """After you gain a red token as a result of moving through or overlapping an obstacle, you may transfer that red token to a friendly ship at range 0-1."""
+        "Dash Rendar (Scum SL)":
+           display_name: """Dash Rendar (SL)"""
+           text: """After you gain a red token as a result of moving through or overlapping an obstacle, you may transfer that red token to a friendly ship at range 0-1."""
+        '"Leebo" (2023)':
+           display_name: """“Leebo”"""
+           text: """After you defend or perform an attack, if you spent a calculate token, gain 1 calculate token."""
+        '"Leebo" (YLF)':
+           display_name: """“Leebo” (YLF)"""
+           text: """At the end of the Engagement Phase, you may spend a calculate token to acquire a lock on an enemy ship at range 2-3."""
+        '"Leebo" (YLF SL)':
+           display_name: """“Leebo” (YLF SL)"""
+           text: """At the end of the Engagement Phase, you may spend a calculate token to acquire a lock on an enemy ship at range 2-3."""
+        '"Leebo" (Scum)':
+           display_name: """“Leebo”"""
+           text: """At the end of the Engagement Phase, you may spend a calculate token to acquire a lock on an enemy ship at range 2-3."""
+        '"Leebo" (Scum SL)':
+           display_name: """“Leebo” (SL)"""
+           text: """At the end of the Engagement Phase, you may spend a calculate token to acquire a lock on an enemy ship at range 2-3."""
 
 
         # Epic Ships
@@ -3777,6 +3834,10 @@ exportObj.cardLoaders['Français'] = () ->
         "Xanadu Blood":
            display_name: """Xanadu Blood"""
            text: "AJouter un emplacement %CREW% et un emplacement %DEVICE%."
+        "Outrider (2023)":
+           display_name: """Outrider"""
+           text: """While you perform a primary attack at range 3, roll 1 additional attack die. %LINEBREAK% While you perform an attack that is obstructed by an obstacle, you may change one of the defender's %EVADE% results to a %FOCUS% result."""
+        
             
             
         # Standardized upgrades
@@ -3849,6 +3910,31 @@ exportObj.cardLoaders['Français'] = () ->
         "Evasion Sequence 7 (SoC)":
            display_name: """Séquence d’Évasion 7"""
            text: """Tant que vous effectuez une action %EVADE% rouge, s’il y a un obstacle ou un élément de scénario à portée 1, considérez cette action comme blanche à la place."""
+        "Swift Approach (TBE)":
+           display_name: """Swift Approach"""
+           text: """During the System Phase, after you drop or launch a device, you may perform a white %BARRELROLL% or %BOOST% action, even while stressed."""
+        "Automated Loaders (TBE)":
+           display_name: """Automated Loaders"""
+           text: """After you perform a primary attack, you may spend 1 %CHARGE% to perform a %RELOAD% action."""
+        "Top Cover (TBE)":
+           display_name: """Top Cover"""
+           text: """After a friendly ship at range 0-1 defends, if you have not dropped or launched a device this round, you may launch a device using the [3 %BANKLEFT%], [3 %STRAIGHT%], or [3 %BANKRIGHT%] template. %LINEBREAK% You ignore the effects of friendly devices."""
+        "True Grit (TBE)":
+           display_name: """True Grit"""
+           text: """At the end of the Activation Phase, if you are not strained, you may gain 1 strain token to remove 1 non-lock red or orange token."""
+        "Mercenary (YLF)":
+           display_name: """Mercenary"""
+           text: """After another friendly ship at range 0-2 is destroyed, before it is removed from the play area, transfer one of its green tokens to yourself."""
+        "Seeker Missiles (YLF)":
+           display_name: """Seeker Missiles"""
+           text: """<strong>Attack (%LOCK%):</strong> Spend 1 %CHARGE%. During the Modify Attack Dice step, you may spend up to 2 additional %CHARGE%. Change one %FOCUS% result to a %HIT% result for each %CHARGE% spent in this way."""
+        '"Leebo" (YLF)':
+           display_name: """“Leebo”"""
+           text: """After you repair a damage card, you may perform an action from your action bar."""
+        "Efficient Processing (YLF)":
+           display_name: """Efficient Processing"""
+           text: """After you perform a %CALCULATE% action, gain 1 calculate token."""
+            
 
 
         # Epic upgrades
@@ -4346,6 +4432,9 @@ exportObj.cardLoaders['Français'] = () ->
         "Modified for Organics":
            display_name: "Modifié pour les Organiques"
            text: """Ce vaisseau n'est pas affecté par la restriction <b>Standardisé</b>. Diminuez la difficulté de vos manœuvres de virage sur l'aile [%BANKLEFT% ou %BANKRIGHT%] à vitesse 2-3. Augmentez la difficulté de vos manœuvres de virage [%TURNLEFT% ou %TURNRIGHT%] à vitesse 3."""
+        "Sensor Blackout":
+           display_name: "Sensor Blackout"
+           text: """While you perform a primary attack at range 0-1, you roll 1 fewer attack die. %LINEBREAK% While you defend at range 1, you roll 1 fewer defense die."""
 
 
     exportObj.setupTranslationCardData pilot_translations, upgrade_translations, condition_translations, chassis_translations
