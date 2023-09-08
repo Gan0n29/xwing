@@ -11713,7 +11713,7 @@ exportObj.manifestByExpansion =
     ]
     "YT-2400 Light Freighter Expansion Pack": [
         {
-            name: 'YT-2400 Light Freighter'
+            name: 'YT-2400 Light Freighter (2023)'
             type: 'ship'
             count: 1
         }
@@ -11810,7 +11810,7 @@ exportObj.manifestByExpansion =
     ]
     "TIE/sa TIE Bomber Expansion Pack": [
         {
-            name: 'TIE/sa Bomber'
+            name: 'TIE Bomber'
             type: 'ship'
             count: 2
         }
