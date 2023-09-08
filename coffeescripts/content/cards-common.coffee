@@ -28386,3 +28386,107 @@ exportObj.wildspaceExclusions = (data) ->
         return false
     else
         return true
+
+String::serialtoxws = ->
+    xws =
+        description: ""
+        faction: this.ParseParameter('f').canonicalize()
+        name: this.ParseParameter('sn')
+        pilots: []
+        points: 200
+        vendor:
+            yasb:
+                builder: 'YASB 2.0'
+                builder_url: "https://xwing-legacy.com"
+                link: "https://xwing-legacy.com/#{this}" 
+        version: '09/08/2023'
+
+    serialized = this.ParseParameter('d')
+    re = if "Z" in serialized then /^v(\d+)Z(.*)/ else /^v(\d+)!(.*)/
+    matches = re.exec serialized
+    if matches?
+        # Parsing extra data in case we need it later
+        version = parseInt matches[1]
+        ship_splitter = 'Y'
+        [g, p, s] = matches[2].split('Z')
+        [ game_type_abbrev, desired_points, serialized_ships ] = [g, parseInt(p), s]
+
+        switch game_type_abbrev
+            when 's'
+                gamemode = 'standard'
+            when 'h'
+                gamemode = 'wildspace'
+            when 'e'
+                gamemode = 'epic'
+            when 'q'
+                gamemode = 'quickbuild'
+
+        if !serialized_ships? # something went wrong, we can't load that serialization
+            return "error: serialization read failed"
+
+        #independantly setting up basic card data for xws output
+        card_data = exportObj.basicCardData()
+
+        card_pilots = {}
+        for pilot_data in card_data.pilotsById
+            unless pilot_data.skip?
+                name_parse = pilot_data.name.split("(")
+                pilot_data.canonical_name = name_parse[0].canonicalize() unless pilot_data.canonical_name?
+
+                pilot_data.xws = if pilot_data.xws? then pilot_data.xws else (if pilot_data.xwsaddon? then (pilot_data.canonical_name + "-" + pilot_data.xwsaddon) else (pilot_data.canonical_name + (if name_parse[1]? then ("-" + pilot_data.ship.canonicalize()) else "")))
+                card_pilots[pilot_data.id] = pilot_data
+
+        cards_upgrades = {}
+        for upgrade_data in card_data.upgradesById
+            unless upgrade_data.skip?
+                name_parse = upgrade_data.name.split("(")
+                upgrade_data.canonical_name = name_parse[0].canonicalize() unless upgrade_data.canonical_name?
+
+                upgrade_data.xws = if upgrade_data.xws? then upgrade_data.xws else (if upgrade_data.xwsaddon? then (upgrade_data.canonical_name + "-" + upgrade_data.xwsaddon) else (upgrade_data.canonical_name + (if name_parse[1]? then ("-" + upgrade_data.slot.canonicalize()) else "")))
+                cards_upgrades[upgrade_data.id] = upgrade_data
+
+        if serialized_ships.length?
+            # Ship loop
+            for serialized_ship in serialized_ships.split(ship_splitter)
+                pilot_splitter = 'X'
+                upgrade_splitter = 'W'
+                
+                [ pilot_id, upgrade_ids ] = serialized_ship.split pilot_splitter
+                # pilot_data is the pilot info
+                pilot_data = card_pilots[parseInt(pilot_id)]
+                if pilot_data
+                    pilot_xws =
+                        id: (pilot_data.xws ? pilot_data.canonical_name)
+                        name: (pilot_data.xws ? pilot_data.canonical_name)
+                        points: pilot_data.points
+                        ship: pilot_data.ship.canonicalize()
+                        upgrades: []
+
+                    if not pilot_data.upgrades?
+                        upgrade_ids = upgrade_ids.split upgrade_splitter
+
+                        upgrade_obj = {}
+
+                        for i in [upgrade_ids.length - 1 ... -1]
+                            upgrade_id = upgrade_ids[i]
+                            # upgrade_data is the pilot info
+                            upgrade_data = cards_upgrades[parseInt(upgrade_id)]
+                            if upgrade_data
+                                switch upgrade_data.slot
+                                    when 'Force'
+                                        slot = 'force-power'
+                                    when 'Tactical Relay'
+                                        slot = 'tactical-relay'
+                                    else
+                                        slot = upgrade_data.slot.canonicalize()
+                                
+                                (upgrade_obj[slot] ?= []).push (upgrade_data.xws ? upgrade_data.canonical_name)
+
+                        pilot_xws.upgrades = upgrade_obj
+                
+                    xws.pilots.push pilot_xws
+
+    else
+        return "error: could not read URL"
+
+    return JSON.stringify(xws)
