@@ -11364,37 +11364,37 @@ exportObj.manifestByExpansion =
             count: 1
         }
         {
-            name: 'Darth Vader (SSP)'
+            name: 'Darth Vader (SSP SL)'
             type: 'pilot'
             count: 1
         }
         {
-            name: 'Maarek Stele (SSP)'
+            name: 'Maarek Stele (SSP SL)'
             type: 'pilot'
             count: 1
         }
         {
-            name: 'Captain Jonus (SSP)'
+            name: 'Captain Jonus (SSP SL)'
             type: 'pilot'
             count: 1
         }
         {
-            name: 'Tomax Bren (SSP)'
+            name: 'Tomax Bren (SSP SL)'
             type: 'pilot'
             count: 1
         }
         {
-            name: '"Night Beast" (SSP)'
+            name: '"Night Beast" (SSP SL)'
             type: 'pilot'
             count: 1
         }
         {
-            name: 'Valen Rudor (SSP)'
+            name: 'Valen Rudor (SSP SL)'
             type: 'pilot'
             count: 1
         }
         {
-            name: 'Iden Versio (SSP)'
+            name: 'Iden Versio (SSP SL)'
             type: 'pilot'
             count: 1
         }
@@ -11546,37 +11546,37 @@ exportObj.manifestByExpansion =
             count: 1
         }
         {
-            name: 'Luke Skywalker (SSP)'
+            name: 'Luke Skywalker (SSP SL)'
             type: 'pilot'
             count: 1
         }
         {
-            name: 'Jek Porkins (SSP)'
+            name: 'Jek Porkins (SSP SL)'
             type: 'pilot'
             count: 1
         }
         {
-            name: '"Dutch" Vander (SSP)'
+            name: '"Dutch" Vander (SSP SL)'
             type: 'pilot'
             count: 1
         }
         {
-            name: 'Horton Salm (SSP)'
+            name: 'Horton Salm (SSP SL)'
             type: 'pilot'
             count: 1
         }
         {
-            name: 'Arvel Crynyd (SSP)'
+            name: 'Arvel Crynyd (SSP SL)'
             type: 'pilot'
             count: 1
         }
         {
-            name: 'Jake Farrell (SSP)'
+            name: 'Jake Farrell (SSP SL)'
             type: 'pilot'
             count: 1
         }
         {
-            name: 'Shara Bey (SSP)'
+            name: 'Shara Bey (SSP SL)'
             type: 'pilot'
             count: 1
         }
