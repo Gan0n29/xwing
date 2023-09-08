@@ -2130,49 +2130,106 @@ exportObj.cardLoaders.English = () ->
 
             
         # Starter Packs
-        "Darth Vader (SSP)":
-           display_name: """Darth Vader (SSP)"""
+        "Darth Vader (SSP SL)":
+           display_name: """Darth Vader (SSP SL)"""
            text: """After you perform an action, you may spend 1 %FORCE% to perform an action."""
-        "Maarek Stele (SSP)":
-           display_name: """Maarek Stele (SSP)"""
+        "Maarek Stele (SSP SL)":
+           display_name: """Maarek Stele (SSP SL)"""
            text: """While you perform an attack, if the defender would be dealt a faceup damage card, instead draw 3 damage cards, choose 1, and discard the rest. """
-        "Captain Jonus (SSP)":
-           display_name: """Captain Jonus (SSP)"""
+        "Captain Jonus (SSP SL)":
+           display_name: """Captain Jonus (SSP SL)"""
            text: """While a friendly ship at range 0-1 performs a %TORPEDO% or %MISSILE% attack, that ship may reroll up to 2 attack dice. """
-        "Tomax Bren (SSP)":
-           display_name: """Tomax Bren (SSP)"""
+        "Tomax Bren (SSP SL)":
+           display_name: """Tomax Bren (SSP SL)"""
            text: """After you perform a %RELOAD% action, you may recover 1 %CHARGE% token on 1 of your equipped %TALENT% upgrade cards. """
-        '"Night Beast" (SSP)':
-           display_name: """“Night Beast” (SSP)"""
+        '"Night Beast" (SSP SL)':
+           display_name: """“Night Beast” (SSP SL)"""
            text: """After you fully execute a blue maneuver, you may perform a %FOCUS% action."""
-        "Valen Rudor (SSP)":
-           display_name: """Valen Rudor (SSP)"""
+        "Valen Rudor (SSP SL)":
+           display_name: """Valen Rudor (SSP SL)"""
            text: """After a friendly ship at range 0-1 defends (after damage is resolved, if any), you may perform an action."""
-        "Iden Versio (SSP)":
-           display_name: """Iden Versio (SSP)"""
+        "Iden Versio (SSP SL)":
+           display_name: """Iden Versio (SSP SL)"""
            text: """Before a friendly TIE/ln fighter at range 0-1 would suffer 1 or more damage, you may spend 1 %CHARGE%. If you do, prevent that damage."""
-        "Luke Skywalker (SSP)":
-           display_name: """Luke Skywalker (SSP)"""
+        "Luke Skywalker (SSP SL)":
+           display_name: """Luke Skywalker (SSP SL)"""
            text: """After you become the defender (before dice are rolled), you may recover 1 %FORCE%."""
-        "Jek Porkins (SSP)":
-           display_name: """Jek Porkins (SSP)"""
+        "Jek Porkins (SSP SL)":
+           display_name: """Jek Porkins (SSP SL)"""
            text: """After you receive a stress token, you may roll 1 attack die to remove it. On a %HIT% result, suffer 1 %HIT% damage."""
-        '"Dutch" Vander (SSP)':
-           display_name: """“Dutch” Vander (SSP)"""
+        '"Dutch" Vander (SSP SL)':
+           display_name: """“Dutch” Vander (SSP SL)"""
            text: """After you perform the %LOCK% action, you may choose 1 friendly ship at range 1-3. That ship may acquire a lock on the object you locked, ignoring range restrictions."""
-        "Horton Salm (SSP)":
-           display_name: """Horton Salm (SSP)"""
+        "Horton Salm (SSP SL)":
+           display_name: """Horton Salm (SSP SL)"""
            text: """While you perform an attack, you may reroll 1 attack die for each other friendly ship at range 0-1 of the defender."""
-        "Arvel Crynyd (SSP)":
-           display_name: """Arvel Crynyd (SSP)"""
+        "Arvel Crynyd (SSP SL)":
+           display_name: """Arvel Crynyd (SSP SL)"""
            text: """If you would fail a %BOOST% action by overlapping another ship, you may resolve it as though you were partially executing a maneuver instead. While you perform an attack at attack range 0, treat it as an attack at attack range 1."""
-        "Jake Farrell (SSP)":
-           display_name: """Jake Farrell (SSP)"""
+        "Jake Farrell (SSP SL)":
+           display_name: """Jake Farrell (SSP SL)"""
            text: """After you perform a %BARRELROLL% or %BOOST% action, you may choose a friendly ship at range 0-1. That ship may perform a %FOCUS% action."""
-        "Shara Bey (SSP)":
-           display_name: """Shara Bey (SSP)"""
+        "Shara Bey (SSP SL)":
+           display_name: """Shara Bey (SSP SL)"""
            text: """While you defend or perform a primary attack, you may spend 1 lock you have on the enemy ship to add 1 %FOCUS% result to your dice results. """
 
+        # TIE Bomber (TBE)
+        '"Deathfire" (TBE)':
+           display_name: """“Deathfire” (TBE)"""
+           text: """After you fully execute a speed 3-5 maneuver, if you have not dropped or launched a device this round, you may spend 2 %CHARGE% to drop or launch a bomb using the [3 %STRAIGHT%] template."""
+        '"Deathfire" (TBE SL)':
+           display_name: """“Deathfire” (TBE SL)"""
+           text: """After you fully execute a speed 3-5 maneuver, if you have not dropped or launched a device this round, you may spend 2 %CHARGE% to drop or launch a bomb using the [3 %STRAIGHT%] template."""
+        "Major Rhymer (TBE)":
+           display_name: """Major Rhymer (TBE)"""
+           text: """While you perform a %TORPEDO% attack, if the defender is in your %BULLSEYEARC%, change 1 %FOCUS% result to a %CRIT% result."""
+        "Major Rhymer (TBE SL)":
+           display_name: """Major Rhymer (TBE SL)"""
+           text: """While you perform a %TORPEDO% attack, if the defender is in your %BULLSEYEARC%, change 1 %FOCUS% result to a %CRIT% result."""
+        "Captain Jonus (TBE)":
+           display_name: """Captain Jonus (TBE)"""
+           text: """After you drop or launch a device, gain an evade token."""
+        "Captain Jonus (TBE SL)":
+           display_name: """Captain Jonus (TBE SL)"""
+           text: """After you drop or launch a device, gain an evade token."""
+        "Tomax Bren (TBE)":
+           display_name: """Tomax Bren (TBE)"""
+           text: """After you perform a %BARRELROLL% action, you may spend 2 %CHARGE%. If you do, gain a focus token."""
+        "Tomax Bren (TBE SL)":
+           display_name: """Tomax Bren (TBE SL)"""
+           text: """After you perform a %BARRELROLL% action, you may spend 2 %CHARGE%. If you do, gain a focus token."""
+
+        # YT-2400 (2023)
+        "Dash Rendar (2023)":
+           display_name: """Dash Rendar"""
+           text: """During the Engagement Phase, you ignore the effects of obstacles that you are overlapping."""
+        "Dash Rendar (YLF)":
+           display_name: """Dash Rendar (YLF)"""
+           text: """After you gain a red token as a result of moving through or overlapping an obstacle, you may transfer that red token to a friendly ship at range 0-1."""
+        "Dash Rendar (YLF SL)":
+           display_name: """Dash Rendar (YLF SL)"""
+           text: """After you gain a red token as a result of moving through or overlapping an obstacle, you may transfer that red token to a friendly ship at range 0-1."""
+        "Dash Rendar (Scum)":
+           display_name: """Dash Rendar"""
+           text: """After you gain a red token as a result of moving through or overlapping an obstacle, you may transfer that red token to a friendly ship at range 0-1."""
+        "Dash Rendar (Scum SL)":
+           display_name: """Dash Rendar (SL)"""
+           text: """After you gain a red token as a result of moving through or overlapping an obstacle, you may transfer that red token to a friendly ship at range 0-1."""
+        '"Leebo" (2023)':
+           display_name: """“Leebo”"""
+           text: """After you defend or perform an attack, if you spent a calculate token, gain 1 calculate token."""
+        '"Leebo" (YLF)':
+           display_name: """“Leebo” (YLF)"""
+           text: """At the end of the Engagement Phase, you may spend a calculate token to acquire a lock on an enemy ship at range 2-3."""
+        '"Leebo" (YLF SL)':
+           display_name: """“Leebo” (YLF SL)"""
+           text: """At the end of the Engagement Phase, you may spend a calculate token to acquire a lock on an enemy ship at range 2-3."""
+        '"Leebo" (Scum)':
+           display_name: """“Leebo”"""
+           text: """At the end of the Engagement Phase, you may spend a calculate token to acquire a lock on an enemy ship at range 2-3."""
+        '"Leebo" (Scum SL)':
+           display_name: """“Leebo” (SL)"""
+           text: """At the end of the Engagement Phase, you may spend a calculate token to acquire a lock on an enemy ship at range 2-3."""
 
             
         # Epic Ships
@@ -3285,6 +3342,11 @@ exportObj.cardLoaders.English = () ->
            text: """<strong>Attack (%LOCK%):</strong> Spend 1 %CHARGE%. After you declare the defender, the defender may choose to suffer 1 %CRIT% damage. If it does, skip the Attack and Defense Dice steps and the attack is treated as hitting."""
         "Xanadu Blood":
            text: """Add %CREW% and %DEVICE% slots."""
+        "Outrider (2023)":
+           display_name: """Outrider"""
+           text: """While you perform a primary attack at range 3, roll 1 additional attack die. %LINEBREAK% While you perform an attack that is obstructed by an obstacle, you may change one of the defender's %EVADE% results to a %FOCUS% result."""
+        
+
 
         # Standardized upgrades
         "Fanatic (BoY)":
@@ -3353,7 +3415,30 @@ exportObj.cardLoaders.English = () ->
         "Wolfpack (SoC)":
            display_name: """Wolfpack"""
            text: """While you perform an attack, you may spend a lock belonging to a friendly <b>Plo Koon</b> ship or ship with the <b>Born for This</b> ability that is on the defender to reroll any number of attack dice."""
-
+        "Swift Approach (TBE)":
+           display_name: """Swift Approach"""
+           text: """During the System Phase, after you drop or launch a device, you may perform a white %BARRELROLL% or %BOOST% action, even while stressed."""
+        "Automated Loaders (TBE)":
+           display_name: """Automated Loaders"""
+           text: """After you perform a primary attack, you may spend 1 %CHARGE% to perform a %RELOAD% action."""
+        "Top Cover (TBE)":
+           display_name: """Top Cover"""
+           text: """After a friendly ship at range 0-1 defends, if you have not dropped or launched a device this round, you may launch a device using the [3 %BANKLEFT%], [3 %STRAIGHT%], or [3 %BANKRIGHT%] template. %LINEBREAK% You ignore the effects of friendly devices."""
+        "True Grit (TBE)":
+           display_name: """True Grit"""
+           text: """At the end of the Activation Phase, if you are not strained, you may gain 1 strain token to remove 1 non-lock red or orange token."""
+        "Mercenary (YLF)":
+           display_name: """Mercenary"""
+           text: """After another friendly ship at range 0-2 is destroyed, before it is removed from the play area, transfer one of its green tokens to yourself."""
+        "Seeker Missiles (YLF)":
+           display_name: """Seeker Missiles"""
+           text: """<strong>Attack (%LOCK%):</strong> Spend 1 %CHARGE%. During the Modify Attack Dice step, you may spend up to 2 additional %CHARGE%. Change one %FOCUS% result to a %HIT% result for each %CHARGE% spent in this way."""
+        '"Leebo" (YLF)':
+           display_name: """“Leebo”"""
+           text: """After you repair a damage card, you may perform an action from your action bar."""
+        "Efficient Processing (YLF)":
+           display_name: """Efficient Processing"""
+           text: """After you perform a %CALCULATE% action, gain 1 calculate token."""
             
         # Epic upgrades
         "Admiral Ozzel":
@@ -3810,6 +3895,9 @@ exportObj.cardLoaders.English = () ->
         "Modified for Organics":
            display_name: "Modified for Organics"
            text: """This ship is not affected by the <strong>Standardized</strong> restriction. Reduce the difficulty of your speed 2 and 3 bank [%BANKLEFT% or %BANKRIGHT%] maneuvers. Increase the difficulty of your speed 3 turn [%TURNLEFT% or %TURNRIGHT%] maneuvers."""
+        "Sensor Blackout":
+           display_name: "Sensor Blackout"
+           text: """While you perform a primary attack at range 0-1, you roll 1 fewer attack die. %LINEBREAK% While you defend at range 1, you roll 1 fewer defense die."""
 
             
     # in this file the display_name is often omitted, if it is identical to the name. I am too lazy to add those manually (though running the translation script would automatically do so). As this will pop up with every new card, I add those tags here
