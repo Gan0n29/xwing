@@ -1880,7 +1880,7 @@ exportObj.basicCardData = ->
         "Clone Z-95 Headhunter":
             name: "Clone Z-95 Headhunter"
             xws: "Clone Z-95 Headhunter".canonicalize()
-            factions: [ "Galactic Republic" ]
+            factions: ["Galactic Republic"]
             attack: 2
             agility: 2
             hull: 2
@@ -1901,7 +1901,7 @@ exportObj.basicCardData = ->
         "Rogue-class Starfighter":
             name: "Rogue-class Starfighter"
             xws: "Rogue-class Starfighter".canonicalize()
-            factions: [ "Separatist Alliance", "Scum and Villainy" ]
+            factions: ["Separatist Alliance", "Scum and Villainy"]
             attack: 2
             agility: 2
             hull: 5
@@ -1924,6 +1924,30 @@ exportObj.basicCardData = ->
                 [ 3, 2, 1, 2, 3, 0, 0, 0, 0, 0 ]
                 [ 0, 0, 1, 0, 0, 0, 0, 0, 0, 0 ]
                 [ 0, 0, 2, 0, 0, 3, 0, 0, 0, 0 ]
+            ]
+        "YT-2400 Light Freighter (2023)":
+            name: "YT-2400 Light Freighter (2023)"
+            xws: "YT-2400 Light Freighter (2023)".canonicalize()
+            factions: ["Rebel Alliance", "Scum and Villainy"]
+            attackdt: 3
+            agility: 2
+            hull: 6
+            shields: 4
+            chassis: "Sensor Blackout"
+            keyword: ["Freighter"]
+            actions: [
+                "Focus"
+                "Lock"
+                "R-Barrel Roll"
+                "Rotate Arc"
+            ]
+            large: true
+            maneuvers: [
+                [ 0, 0, 0, 0, 0, 0]
+                [ 2, 1, 1, 1, 2, 0]
+                [ 2, 2, 1, 2, 2, 0]
+                [ 2, 2, 2, 2, 2, 0]
+                [ 0, 0, 2, 0, 0, 3]
             ]
 
         # Epic Section
@@ -13795,7 +13819,7 @@ exportObj.basicCardData = ->
             ]
         }
         {
-            name: "Darth Vader (SSP)"
+            name: "Darth Vader (SSP SL)"
             canonical_name: 'Darth Vader'.canonicalize()
             xws: "darthvader-swz105"
             unique: true
@@ -13817,7 +13841,7 @@ exportObj.basicCardData = ->
             ]
         }
         {
-            name: "Maarek Stele (SSP)"
+            name: "Maarek Stele (SSP SL)"
             canonical_name: 'Maarek Stele'.canonicalize()
             xws: "maarekstele-swz105"
             unique: true
@@ -13834,7 +13858,7 @@ exportObj.basicCardData = ->
                 "Afterburners"            ]
         }
         {
-            name: "Captain Jonus (SSP)"
+            name: "Captain Jonus (SSP SL)"
             canonical_name: 'Captain Jonus'.canonicalize()
             xws: "captainjonus-swz105"
             unique: true
@@ -13852,7 +13876,7 @@ exportObj.basicCardData = ->
             ]
         }
         {
-            name: "Tomax Bren (SSP)"
+            name: "Tomax Bren (SSP SL)"
             canonical_name: 'Tomax Bren'.canonicalize()
             xws: "tomaxbren-swz105"
             unique: true
@@ -13870,7 +13894,7 @@ exportObj.basicCardData = ->
             ]
         }
         {
-            name: "Iden Versio (SSP)"
+            name: "Iden Versio (SSP SL)"
             canonical_name: 'Iden Versio'.canonicalize()
             xws: "idenversio-swz105"
             unique: true
@@ -13888,7 +13912,7 @@ exportObj.basicCardData = ->
             ]
         }
         {
-            name: '"Night Beast" (SSP)'
+            name: '"Night Beast" (SSP SL)'
             canonical_name: '"Night Beast"'.canonicalize()
             xws: "nightbeast-swz105"
             unique: true
@@ -13905,7 +13929,7 @@ exportObj.basicCardData = ->
             ]
         }
         {
-            name: "Valen Rudor (SSP)"
+            name: "Valen Rudor (SSP SL)"
             canonical_name: 'Valen Rudor'.canonicalize()
             xws: "valenrudor-swz105"
             unique: true
@@ -13922,7 +13946,7 @@ exportObj.basicCardData = ->
             ]
         }
         {
-            name: '"Dutch" Vander (SSP)'
+            name: '"Dutch" Vander (SSP SL)'
             canonical_name: '"Dutch" Vander'.canonicalize()
             xws: "dutchvander-swz106"
             unique: true
@@ -13939,7 +13963,7 @@ exportObj.basicCardData = ->
             ]
         }
         {
-            name: "Horton Salm (SSP)"
+            name: "Horton Salm (SSP SL)"
             canonical_name: 'Horton Salm'.canonicalize()
             xws: "hortonsalm-swz106"
             unique: true
@@ -13956,7 +13980,7 @@ exportObj.basicCardData = ->
             ]
         }
         {
-            name: "Arvel Crynyd (SSP)"
+            name: "Arvel Crynyd (SSP SL)"
             canonical_name: 'Arvel Crynyd'.canonicalize()
             xws: "arvelcrynyd-swz106"
             unique: true
@@ -13973,7 +13997,7 @@ exportObj.basicCardData = ->
             ]
         }
         {
-            name: "Jake Farrell (SSP)"
+            name: "Jake Farrell (SSP SL)"
             canonical_name: 'Jake Farrell'.canonicalize()
             xws: "jakefarrell-swz106"
             unique: true
@@ -13991,7 +14015,7 @@ exportObj.basicCardData = ->
             ]
         }
         {
-            name: "Jek Porkins (SSP)"
+            name: "Jek Porkins (SSP SL)"
             canonical_name: 'Jek Porkins'.canonicalize()
             xws: "jekporkins-swz106"
             unique: true
@@ -14009,7 +14033,7 @@ exportObj.basicCardData = ->
             ]
         }
         {
-            name: "Luke Skywalker (SSP)"
+            name: "Luke Skywalker (SSP SL)"
             canonical_name: 'Luke Skywalker'.canonicalize()
             xws: "lukeskywalker-swz106"
             unique: true
@@ -14028,7 +14052,7 @@ exportObj.basicCardData = ->
             ]
         }
         {
-            name: "Shara Bey (SSP)"
+            name: "Shara Bey (SSP SL)"
             canonical_name: 'Shara Bey'.canonicalize()
             xws: "sharabey-swz106"
             unique: true
@@ -14043,6 +14067,421 @@ exportObj.basicCardData = ->
                 "Hopeful"
                 "Concussion Missiles"
             ]
+        }
+        {
+            name: '"Deathfire" (TBE)'
+            canonical_name: '"Deathfire"'.canonicalize()
+            xws: "deathfire-swz98"
+            unique: true
+            id: 684
+            standard_loadout: true
+            faction: "Galactic Empire"
+            ship: "TIE Bomber"
+            skill: 2
+            points: 33
+            charge: 2
+            recurring: 1
+            slots: [
+                "Torpedo"
+                "Missile"
+                "Missile"
+                "Gunner"
+                "Device"
+                "Device"
+                "Modification"
+            ]
+        }
+        {
+            name: '"Deathfire" (TBE SL)'
+            canonical_name: '"Deathfire"'.canonicalize()
+            xws: "deathfire-swz98"
+            unique: true
+            id: 685
+            image_id: 684
+            standard_loadout: true
+            faction: "Galactic Empire"
+            ship: "TIE Bomber"
+            skill: 2
+            points: 44
+            charge: 2
+            recurring: 1
+            upgrades: [
+                "Swift Approach (TBE)"
+                "Conner Nets"
+                "Proton Bombs"
+            ]
+        }
+        {
+            name: "Major Rhymer (TBE)"
+            xws: "majorrhymer-swz98"
+            canonical_name: 'Major Rhymer'.canonicalize()
+            unique: true
+            id: 686
+            standard_loadout: true
+            faction: "Galactic Empire"
+            ship: "TIE Bomber"
+            skill: 4
+            points: 32
+            slots: [
+                "Talent"
+                "Torpedo"
+                "Missile"
+                "Missile"
+                "Gunner"
+                "Device"
+                "Device"
+                "Modification"
+            ]
+        }
+        {
+            name: "Major Rhymer (TBE SL)"
+            xws: "majorrhymer-swz98"
+            canonical_name: 'Major Rhymer'.canonicalize()
+            unique: true
+            id: 687
+            image_id: 686
+            standard_loadout: true
+            faction: "Galactic Empire"
+            ship: "TIE Bomber"
+            skill: 4
+            points: 41
+            upgrades: [
+                "Adv. Proton Torpedoes"
+                "Automated Loaders (TBE)"
+                "Afterburners"
+            ]
+        }
+        {
+            name: "Captain Jonus (TBE)"
+            xws: "captainjonus-swz98"
+            canonical_name: 'Captain Jonus'.canonicalize()
+            unique: true
+            id: 688
+            standard_loadout: true
+            faction: "Galactic Empire"
+            ship: "TIE Bomber"
+            skill: 4
+            points: 34
+            slots: [
+                "Talent"
+                "Torpedo"
+                "Missile"
+                "Missile"
+                "Gunner"
+                "Device"
+                "Device"
+                "Modification"
+            ]
+            ship_override:
+                actions: [
+                    "Focus"
+                    "Lock"
+                    "Barrel Roll"
+                    "R-> Lock"
+                    "Reload"
+                ]
+        }
+        {
+            name: "Captain Jonus (TBE SL)"
+            xws: "captainjonus-swz98"
+            canonical_name: 'Captain Jonus'.canonicalize()
+            unique: true
+            id: 689
+            image_id: 688
+            standard_loadout: true
+            faction: "Galactic Empire"
+            ship: "TIE Bomber"
+            skill: 4
+            points: 51
+            upgrades: [
+                "Top Cover (TBE)"
+                "Barrage Rockets"
+                "Proton Bombs"
+            ]
+            ship_override:
+                actions: [
+                    "Focus"
+                    "Lock"
+                    "Barrel Roll"
+                    "R-> Lock"
+                    "Reload"
+                ]
+        }
+        {
+            name: "Tomax Bren (TBE)"
+            xws: "tomaxbren-swz98"
+            canonical_name: 'Tomax Bren'.canonicalize()
+            unique: true
+            id: 690
+            standard_loadout: true
+            faction: "Galactic Empire"
+            ship: "TIE Bomber"
+            skill: 5
+            points: 35
+            charge: 2
+            recurring: 1
+            slots: [
+                "Talent"
+                "Torpedo"
+                "Missile"
+                "Missile"
+                "Gunner"
+                "Device"
+                "Device"
+                "Modification"
+            ]
+        }
+        {
+            name: "Tomax Bren (TBE SL)"
+            xws: "tomaxbren-swz98"
+            canonical_name: 'Tomax Bren'.canonicalize()
+            unique: true
+            id: 691
+            image_id: 690
+            standard_loadout: true
+            faction: "Galactic Empire"
+            ship: "TIE Bomber"
+            skill: 5
+            points: 53
+            charge: 2
+            recurring: 1
+            upgrades: [
+                "True Grit (TBE)"
+                "Plasma Torpedoes"
+                "Ion Bombs"
+            ]
+        }
+        {
+            name: "Dash Rendar (2023)"
+            xws: "dashrendar-swz103"
+            canonical_name: 'Dash Rendar'.canonicalize()
+            unique: true
+            id: 692
+            faction: "Rebel Alliance"
+            ship: "YT-2400 Light Freighter (2023)"
+            skill: 5
+            points: 99
+            slots: [
+                "Talent"
+                "Missile"
+                "Crew"
+                "Illicit"
+                "Illicit"
+                "Modification"
+                "Title"
+            ]
+        }
+        {
+            name: "Dash Rendar (YLF)"
+            xws: "dashrendar-swz103-sl-rebelalliance"
+            canonical_name: 'Dash Rendar'.canonicalize()
+            unique: true
+            id: 693
+            image_id: 39
+            standard_loadout: true
+            faction: "Rebel Alliance"
+            ship: "YT-2400 Light Freighter (2023)"
+            skill: 5
+            points: 72
+            slots: [
+                "Talent"
+                "Missile"
+                "Crew"
+                "Illicit"
+                "Illicit"
+                "Modification"
+                "Title"
+            ]
+        }
+        {
+            name: "Dash Rendar (YLF SL)"
+            xws: "dashrendar-swz103-sl-rebelalliance"
+            canonical_name: 'Dash Rendar'.canonicalize()
+            unique: true
+            id: 694
+            image_id: 39
+            standard_loadout: true
+            faction: "Rebel Alliance"
+            ship: "YT-2400 Light Freighter (2023)"
+            skill: 5
+            points: 88
+            upgrades: [
+                "Mercenary (YLF)"
+                "Seeker Missiles (YLF)"
+                '"Leebo" (YLF)'
+                "Outrider (2023)"
+            ]
+        }
+        {
+            name: "Dash Rendar (Scum)"
+            xws: "dashrendarswz103-sl-scumandvillainy"
+            canonical_name: 'Dash Rendar'.canonicalize()
+            unique: true
+            id: 695
+            image_id: 39
+            standard_loadout: true
+            faction: "Scum and Villainy"
+            ship: "YT-2400 Light Freighter (2023)"
+            skill: 5
+            points: 70
+            slots: [
+                "Talent"
+                "Missile"
+                "Crew"
+                "Illicit"
+                "Illicit"
+                "Modification"
+                "Title"
+            ]
+        }
+        {
+            name: "Dash Rendar (Scum SL)"
+            xws: "dashrendarswz103-sl-scumandvillainy"
+            canonical_name: 'Dash Rendar'.canonicalize()
+            unique: true
+            id: 696
+            image_id: 39
+            standard_loadout: true
+            faction: "Scum and Villainy"
+            ship: "YT-2400 Light Freighter (2023)"
+            skill: 5
+            points: 86
+            upgrades: [
+                "Mercenary (YLF)"
+                "Seeker Missiles (YLF)"
+                '"Leebo" (YLF)'
+                "Outrider (2023)"
+            ]
+        }
+        {
+            name: '"Leebo" (2023)'
+            xws: "leebo-swz103"
+            canonical_name: '"Leebo"'.canonicalize()
+            unique: true
+            id: 697
+            faction: "Rebel Alliance"
+            ship: "YT-2400 Light Freighter (2023)"
+            skill: 3
+            points: 99
+            keyword: ["Droid"]
+            slots: [
+                "Talent"
+                "Missile"
+                "Illicit"
+                "Illicit"
+                "Modification"
+                "Title"
+            ]
+        }
+        {
+            name: '"Leebo" (YLF)'
+            xws: "leebo-swz103-sl-rebelalliance"
+            canonical_name: '"Leebo"'.canonicalize()
+            unique: true
+            id: 698
+            image_id: 40
+            standard_loadout: true
+            faction: "Rebel Alliance"
+            ship: "YT-2400 Light Freighter (2023)"
+            skill: 3
+            points: 69
+            slots: [
+                "Talent"
+                "Missile"
+                "Illicit"
+                "Illicit"
+                "Modification"
+                "Title"
+            ]
+            ship_override:
+                actions: [
+                    "Calculate"
+                    "Lock"
+                    "R-> Rotate Arc"
+                    "R-Barrel Roll"
+                    "Rotate Arc"
+                ]
+        }
+        {
+            name: '"Leebo" (YLF SL)'
+            xws: "leebo-swz103-sl-rebelalliance"
+            canonical_name: '"Leebo"'.canonicalize()
+            unique: true
+            id: 699
+            image_id: 40
+            standard_loadout: true
+            faction: "Rebel Alliance"
+            ship: "YT-2400 Light Freighter (2023)"
+            skill: 3
+            points: 83
+            upgrades: [
+                "Efficient Processing (YLF)"
+                "Seeker Missiles (YLF)"
+                "Outrider (2023)"
+            ]
+            ship_override:
+                actions: [
+                    "Calculate"
+                    "Lock"
+                    "R-> Rotate Arc"
+                    "R-Barrel Roll"
+                    "Rotate Arc"
+                ]
+        }
+        {
+            name: '"Leebo" (Scum)'
+            xws: "leebo-swz103-sl-scumandvillainy"
+            canonical_name: '"Leebo"'.canonicalize()
+            unique: true
+            id: 700
+            image_id: 40
+            standard_loadout: true
+            faction: "Scum and Villainy"
+            ship: "YT-2400 Light Freighter (2023)"
+            skill: 3
+            points: 68
+            slots: [
+                "Talent"
+                "Missile"
+                "Illicit"
+                "Illicit"
+                "Modification"
+                "Title"
+            ]
+            ship_override:
+                actions: [
+                    "Calculate"
+                    "Lock"
+                    "R-> Rotate Arc"
+                    "R-Barrel Roll"
+                    "Rotate Arc"
+                ]
+        }
+        {
+            name: '"Leebo" (Scum SL)'
+            xws: "leebo-swz103-sl-scumandvillainy"
+            canonical_name: '"Leebo"'.canonicalize()
+            unique: true
+            id: 701
+            image_id: 40
+            standard_loadout: true
+            faction: "Scum and Villainy"
+            ship: "YT-2400 Light Freighter (2023)"
+            skill: 3
+            points: 83
+            upgrades: [
+                "Efficient Processing (YLF)"
+                "Seeker Missiles (YLF)"
+                "Outrider (2023)"
+            ]
+            ship_override:
+                actions: [
+                    "Calculate"
+                    "Lock"
+                    "R-> Rotate Arc"
+                    "R-Barrel Roll"
+                    "Rotate Arc"
+                ]
         }
     ]
 
@@ -15073,7 +15512,7 @@ exportObj.basicCardData = ->
             name: "Advanced Sensors"
             id: 111
             slot: "Sensor"
-            pointsarray: [13,11,9]
+            pointsarray: [13,11,9,0]
             variablebase: true
         }
         {
@@ -15093,7 +15532,7 @@ exportObj.basicCardData = ->
             name: "Trajectory Simulator"
             id: 114
             slot: "Sensor"
-            pointsarray: [7,6,5]
+            pointsarray: [7,6,5,4]
             variablebase: true
         }
         {
@@ -16308,7 +16747,7 @@ exportObj.basicCardData = ->
             slot: "Sensor"
             charge: 1
             recurring: 1
-            pointsarray: [4,4,4,4,5,6,7]
+            pointsarray: [4,4,4,4,5,6,7,4,4]
             variableinit: true
         }
         {
@@ -19217,6 +19656,70 @@ exportObj.basicCardData = ->
             standard_loadout: true
             slot: "Modification"
         }
+        {
+            name: "Swift Approach (TBE)"
+            id: 494
+            standard_loadout: true
+            slot: "Talent"
+        }
+        {
+            name: "Automated Loaders (TBE)"
+            id: 495
+            standard_loadout: true
+            charge: 1
+            slot: "Modification"
+        }
+        {
+            name: "Top Cover (TBE)"
+            id: 496
+            standard_loadout: true
+            slot: "Talent"
+        }
+        {
+            name: "True Grit (TBE)"
+            id: 497
+            standard_loadout: true
+            slot: "Talent"
+        }
+        {
+            name: "Mercenary (YLF)"
+            id: 498
+            standard_loadout: true
+            slot: "Talent"
+        }
+        {
+            name: "Efficient Processing (YLF)"
+            id: 499
+            standard_loadout: true
+            slot: "Talent"
+        }
+        {
+            name: "Seeker Missiles (YLF)"
+            id: 500
+            standard_loadout: true
+            slot: "Missile"
+            attack: 3
+            range: """2-3"""
+            rangebonus: true
+            charge: 4
+            
+        }
+        {
+            name: '"Leebo" (YLF)'
+            id: 501
+            standard_loadout: true
+            slot: "Crew"
+        }
+        {
+            name: "Outrider (2023)"
+            canonical_name: 'Outrider'.canonicalize()
+            id: 502
+            slot: "Title"
+            points: 6
+            unique: true
+            faction: ["Scum and Villainy", "Rebel Alliance"]
+            ship: "YT-2400 Light Freighter (2023)"
+        }
     ]
 
 
@@ -19615,6 +20118,10 @@ exportObj.basicCardData = ->
         {
             name: "Solo"
             id: 48
+        }
+        {
+            name: "Sensor Blackout"
+            id: 49
         }
     ]
 
