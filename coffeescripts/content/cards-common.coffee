@@ -13951,7 +13951,6 @@ exportObj.basicCardData = ->
             xws: "dutchvander-swz106"
             unique: true
             id: 677
-            image_id: 27
             standard_loadout: true
             faction: "Rebel Alliance"
             ship: "Y-Wing"
