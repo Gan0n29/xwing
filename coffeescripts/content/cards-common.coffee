@@ -14077,7 +14077,7 @@ exportObj.basicCardData = ->
             faction: "Galactic Empire"
             ship: "TIE Bomber"
             skill: 2
-            points: 33
+            points: 200
             charge: 2
             recurring: 1
             slots: [
@@ -14101,7 +14101,7 @@ exportObj.basicCardData = ->
             faction: "Galactic Empire"
             ship: "TIE Bomber"
             skill: 2
-            points: 44
+            points: 45
             charge: 2
             recurring: 1
             upgrades: [
@@ -14120,7 +14120,7 @@ exportObj.basicCardData = ->
             faction: "Galactic Empire"
             ship: "TIE Bomber"
             skill: 4
-            points: 32
+            points: 200
             slots: [
                 "Talent"
                 "Torpedo"
@@ -14160,7 +14160,7 @@ exportObj.basicCardData = ->
             faction: "Galactic Empire"
             ship: "TIE Bomber"
             skill: 4
-            points: 34
+            points: 200
             slots: [
                 "Talent"
                 "Torpedo"
@@ -14216,7 +14216,7 @@ exportObj.basicCardData = ->
             faction: "Galactic Empire"
             ship: "TIE Bomber"
             skill: 5
-            points: 35
+            points: 200
             charge: 2
             recurring: 1
             slots: [
@@ -14259,7 +14259,7 @@ exportObj.basicCardData = ->
             faction: "Rebel Alliance"
             ship: "YT-2400 Light Freighter (2023)"
             skill: 5
-            points: 99
+            points: 200
             slots: [
                 "Talent"
                 "Missile"
@@ -14281,7 +14281,7 @@ exportObj.basicCardData = ->
             faction: "Rebel Alliance"
             ship: "YT-2400 Light Freighter (2023)"
             skill: 5
-            points: 72
+            points: 200
             slots: [
                 "Talent"
                 "Missile"
@@ -14303,7 +14303,7 @@ exportObj.basicCardData = ->
             faction: "Rebel Alliance"
             ship: "YT-2400 Light Freighter (2023)"
             skill: 5
-            points: 88
+            points: 90
             upgrades: [
                 "Mercenary (YLF)"
                 "Seeker Missiles (YLF)"
@@ -14322,7 +14322,7 @@ exportObj.basicCardData = ->
             faction: "Scum and Villainy"
             ship: "YT-2400 Light Freighter (2023)"
             skill: 5
-            points: 70
+            points: 200
             slots: [
                 "Talent"
                 "Missile"
@@ -14344,7 +14344,7 @@ exportObj.basicCardData = ->
             faction: "Scum and Villainy"
             ship: "YT-2400 Light Freighter (2023)"
             skill: 5
-            points: 86
+            points: 88
             upgrades: [
                 "Mercenary (YLF)"
                 "Seeker Missiles (YLF)"
@@ -14361,7 +14361,7 @@ exportObj.basicCardData = ->
             faction: "Rebel Alliance"
             ship: "YT-2400 Light Freighter (2023)"
             skill: 3
-            points: 99
+            points: 200
             keyword: ["Droid"]
             slots: [
                 "Talent"
@@ -14383,7 +14383,7 @@ exportObj.basicCardData = ->
             faction: "Rebel Alliance"
             ship: "YT-2400 Light Freighter (2023)"
             skill: 3
-            points: 69
+            points: 200
             slots: [
                 "Talent"
                 "Missile"
@@ -14438,7 +14438,7 @@ exportObj.basicCardData = ->
             faction: "Scum and Villainy"
             ship: "YT-2400 Light Freighter (2023)"
             skill: 3
-            points: 68
+            points: 200
             slots: [
                 "Talent"
                 "Missile"
