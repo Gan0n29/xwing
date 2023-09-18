@@ -2201,34 +2201,34 @@ exportObj.cardLoaders.English = () ->
 
         # YT-2400 (2023)
         "Dash Rendar (2023)":
-           display_name: """Dash Rendar"""
+           display_name: """Dash Rendar <i class="descriptive-text">Freighter For Hire<i>"""
            text: """During the Engagement Phase, you ignore the effects of obstacles that you are overlapping."""
         "Dash Rendar (YLF)":
-           display_name: """Dash Rendar (YLF)"""
+           display_name: """Dash Rendar <i class="descriptive-text">In it for Himself - Left Side Legal<i>"""
            text: """After you gain a red token as a result of moving through or overlapping an obstacle, you may transfer that red token to a friendly ship at range 0-1."""
         "Dash Rendar (YLF SL)":
-           display_name: """Dash Rendar (YLF SL)"""
+           display_name: """Dash Rendar <i class="descriptive-text">In it for Himself - Standard Loadout<i>"""
            text: """After you gain a red token as a result of moving through or overlapping an obstacle, you may transfer that red token to a friendly ship at range 0-1."""
         "Dash Rendar (Scum)":
-           display_name: """Dash Rendar"""
+           display_name: """Dash Rendar <i class="descriptive-text">Left Side Legal<i>"""
            text: """After you gain a red token as a result of moving through or overlapping an obstacle, you may transfer that red token to a friendly ship at range 0-1."""
         "Dash Rendar (Scum SL)":
-           display_name: """Dash Rendar (SL)"""
+           display_name: """Dash Rendar <i class="descriptive-text">Standard Loadout<i>"""
            text: """After you gain a red token as a result of moving through or overlapping an obstacle, you may transfer that red token to a friendly ship at range 0-1."""
         '"Leebo" (2023)':
-           display_name: """“Leebo”"""
+           display_name: """“Leebo <i class="descriptive-text">Widsom of Ages<i>”"""
            text: """After you defend or perform an attack, if you spent a calculate token, gain 1 calculate token."""
         '"Leebo" (YLF)':
-           display_name: """“Leebo” (YLF)"""
+           display_name: """“Leebo” <i class="descriptive-text">He Thinks He's Funny - Left Side Legal<i>"""
            text: """At the end of the Engagement Phase, you may spend a calculate token to acquire a lock on an enemy ship at range 2-3."""
         '"Leebo" (YLF SL)':
-           display_name: """“Leebo” (YLF SL)"""
+           display_name: """“Leebo” <i class="descriptive-text">He Thinks He's Funny - Standard Loadout<i>"""
            text: """At the end of the Engagement Phase, you may spend a calculate token to acquire a lock on an enemy ship at range 2-3."""
         '"Leebo" (Scum)':
-           display_name: """“Leebo”"""
+           display_name: """“Leebo” <i class="descriptive-text">Left Side Legal<i>"""
            text: """At the end of the Engagement Phase, you may spend a calculate token to acquire a lock on an enemy ship at range 2-3."""
         '"Leebo" (Scum SL)':
-           display_name: """“Leebo” (SL)"""
+           display_name: """“Leebo” <i class="descriptive-text">Standard Loadout<i>"""
            text: """At the end of the Engagement Phase, you may spend a calculate token to acquire a lock on an enemy ship at range 2-3."""
 
             
