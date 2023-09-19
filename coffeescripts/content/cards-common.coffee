@@ -14375,7 +14375,7 @@ exportObj.basicCardData = ->
         {
             name: '"Leebo" (YLF)'
             xws: "leebo-swz103-sl-rebelalliance"
-            
+            canonical_name: '"Leebo"'.canonicalize()            
             unique: true
             id: 698
             image_id: 40
@@ -14404,7 +14404,7 @@ exportObj.basicCardData = ->
         {
             name: '"Leebo" (YLF SL)'
             xws: "leebo-swz103-sl-rebelalliance"
-            
+            canonical_name: '"Leebo"'.canonicalize()            
             unique: true
             id: 699
             image_id: 40
@@ -14430,7 +14430,7 @@ exportObj.basicCardData = ->
         {
             name: '"Leebo" (Scum)'
             xws: "leebo-swz103-sl-scumandvillainy"
-            
+            canonical_name: '"Leebo"'.canonicalize()
             unique: true
             id: 700
             image_id: 40
@@ -14459,7 +14459,7 @@ exportObj.basicCardData = ->
         {
             name: '"Leebo" (Scum SL)'
             xws: "leebo-swz103-sl-scumandvillainy"
-            
+            canonical_name: '"Leebo"'.canonicalize()
             unique: true
             id: 701
             image_id: 40
