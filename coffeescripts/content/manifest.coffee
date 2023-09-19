@@ -11803,7 +11803,7 @@ exportObj.manifestByExpansion =
             count: 1
         }
         {
-            name: 'Outrider'
+            name: 'Outrider (2023)'
             type: 'upgrade'
             count: 1
         }
