@@ -4241,6 +4241,8 @@ class Ship
             
         @ship_selector.select2
             width: '100%'
+            escapeMarkup: (m) =>
+                m
             placeholder: exportObj.translate 'ui', 'shipSelectorPlaceholder'
             query: (query) =>
                 data = {results: []}
