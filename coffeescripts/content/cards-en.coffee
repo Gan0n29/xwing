@@ -949,7 +949,7 @@ exportObj.cardLoaders.English = () ->
            display_name: """Plo Koon"""
            text: """At the start of the Engagement Phase, you may spend 1 %FORCE% and choose another friendly ship at range 0-2. If you do, you may transfer 1 green token to it or transfer one orange token from it to yourself."""
         "Poe Dameron":
-           display_name: """Poe Dameron"""
+           display_name: """Poe Dameron <i class="descriptive-text">Trigger-Happy Flyboy</i>"""
            text: """After you perform an action, you may spend 1&nbsp;%CHARGE% to perform a white action, treating it as red."""
         "Prince Xizor":
            display_name: """Prince Xizor"""
@@ -1095,7 +1095,7 @@ exportObj.cardLoaders.English = () ->
            display_name: """Tel Trevura"""
            text: """If you would be destroyed, you may spend 1&nbsp;%CHARGE%. If you do, discard all of your damage cards, suffer 5&nbsp;%HIT% damage, and place yourself in reserves instead. At the start of the next Planning Phase, place yourself within range 1 of your player edge."""
         "Temmin Wexley":
-           display_name: """Temmin Wexley"""
+           display_name: """Temmin Wexley <i class="descriptive-text">Snap</i>"""
            text: """After you fully execute a speed 2-4 maneuver, you may perform a %BOOST% action."""
         "Tempest Squadron Pilot":
            display_name: """Tempest Squadron Pilot"""
@@ -1483,8 +1483,10 @@ exportObj.cardLoaders.English = () ->
         "Carida Academy Cadet":
            text: """<i class="descriptive-text">At Carida Academy, Imperial Navy cadets are taught to be ruthless and loyal, prioritizing victory over the lives of their comrades.</i>"""
         "Poe Dameron (HoH)":
+           display_name: """Poe Dameron <i class="descriptive-text">Resistance Commander</i>"""
            text: """After a friendly ship at range 0-2 performs an action during its activation, you may spend 2 %CHARGE%. If you do, that ship may perform a white action, treating it as red. """
         "Temmin Wexley (HoH)":
+           display_name: """Temmin Wexley <i class="descriptive-text">Black Two</i>"""
            text: """At the start of the Engagement Phase, each friendly T-70 X-wing at range 0-3 may gain 1 strain token to flip its equipped %CONFIGURATION% upgrade. If it does, that ship gains 1 calculate token. """
         "C'ai Threnalli":
            text: """After you fully execute a maneuver, if you moved through a friendly ship, you may perform an %EVADE% action. """
@@ -1779,246 +1781,246 @@ exportObj.cardLoaders.English = () ->
 
         # Battle of Yavin Pilots
         "Garven Dreis (BoY)":
-           display_name: """Garven Dreis (BoY)"""
+           display_name: """Garven Dreis <i class="descriptive-text">Battle of Yavin - Left Side Legal</i>"""
            text: """After you spend a focus token, you may choose 1 friendly ship at range 1-3. That ship gains 1 focus token."""
         "Garven Dreis (BoY SL)":
-           display_name: """Garven Dreis (BoY SL)"""
+           display_name: """Garven Dreis <i class="descriptive-text">Battle of Yavin - Standard Loadout</i>"""
            text: """After you spend a focus token, you may choose 1 friendly ship at range 1-3. That ship gains 1 focus token."""
         "Luke Skywalker (BoY)":
-           display_name: """Luke Skywalker (BoY)"""
+           display_name: """Luke Skywalker <i class="descriptive-text">Battle of Yavin - Left Side Legal</i>"""
            text: """After you become the defender (before dice are rolled), you may recover 1 %FORCE%."""
         "Luke Skywalker (BoY SL)":
-           display_name: """Luke Skywalker (BoY SL)"""
+           display_name: """Luke Skywalker <i class="descriptive-text">Battle of Yavin - Standard Loadout</i>"""
            text: """After you become the defender (before dice are rolled), you may recover 1 %FORCE%."""
         "Wedge Antilles (BoY)":
-           display_name: """Wedge Antilles (BoY)"""
+           display_name: """Wedge Antilles <i class="descriptive-text">Battle of Yavin - Left Side Legal</i>"""
            text: """While you perform a primary attack, if there is another friendly ship in the defender's firing arc, the defender rolls 1 less defense dice."""
         "Wedge Antilles (BoY SL)":
-           display_name: """Wedge Antilles (BoY SL)"""
+           display_name: """Wedge Antilles <i class="descriptive-text">Battle of Yavin - Standard Loadout</i>"""
            text: """While you perform a primary attack, if there is another friendly ship in the defender's firing arc, the defender rolls 1 less defense dice."""
         "Biggs Darklighter (BoY)":
-           display_name: """Biggs Darklighter (BoY)"""
+           display_name: """Biggs Darklighter <i class="descriptive-text">Battle of Yavin - Left Side Legal</i>"""
            text: """During the System Phase, you may choose 1 friendly ship at range 1. If you do, treat your initiative as equal to the chosen ship's initiative until the end of the Activation Phase."""
         "Biggs Darklighter (BoY SL)":
-           display_name: """Biggs Darklighter (BoY SL)"""
+           display_name: """Biggs Darklighter <i class="descriptive-text">Battle of Yavin - Standard Loadout</i>"""
            text: """During the System Phase, you may choose 1 friendly ship at range 1. If you do, treat your initiative as equal to the chosen ship's initiative until the end of the Activation Phase."""
         "Jek Porkins (BoY)":
-           display_name: """Jek Porkins (BoY)"""
+           display_name: """Jek Porkins <i class="descriptive-text">Battle of Yavin - Left Side Legal</i>"""
            text: """After you receive a stress token, you may roll 1 attack die to remove it. On a %HIT% result, suffer 1 %HIT% damage."""
         "Jek Porkins (BoY SL)":
-           display_name: """Jek Porkins (BoY SL)"""
+           display_name: """Jek Porkins <i class="descriptive-text">Battle of Yavin - Standard Loadout</i>"""
            text: """After you receive a stress token, you may roll 1 attack die to remove it. On a %HIT% result, suffer 1 %HIT% damage."""
         "Hol Okand (BoY)":
-           display_name: """Hol Okand (BoY)"""
+           display_name: """Hol Okand <i class="descriptive-text">Battle of Yavin - Left Side Legal</i>"""
            text: """During the System Phasse, if there are no enemy ships at range 1-2, you may recover 1 %CHARGE% on any upgrade."""
         "Hol Okand (BoY SL)":
-           display_name: """Hol Okand (BoY SL)"""
+           display_name: """Hol Okand <i class="descriptive-text">Battle of Yavin - Standard Loadout</i>"""
            text: """During the System Phasse, if there are no enemy ships at range 1-2, you may recover 1 %CHARGE% on any upgrade."""
         '"Pops" Krail (BoY)':
-           display_name: """“Pops” Krail (BoY)"""
+           display_name: """“Pops” Krail <i class="descriptive-text">Battle of Yavin - Left Side Legal</i>"""
            text: """While you perform a %SINGLETURRETARC% attack, you may reroll up to 2 attack dice."""
         '"Pops" Krail (BoY SL)':
-           display_name: """“Pops” Krail (BoY SL)"""
+           display_name: """“Pops” Krail <i class="descriptive-text">Battle of Yavin - Standard Loadout</i>"""
            text: """While you perform a %SINGLETURRETARC% attack, you may reroll up to 2 attack dice."""
         '"Dutch" Vander (BoY)':
-           display_name: """“Dutch” Vander (BoY)"""
+           display_name: """“Dutch” Vander <i class="descriptive-text">Battle of Yavin - Left Side Legal</i>"""
            text: """After you spend a lock during an attack, choose a friendly ship at range 1-3. The chosen ship may acquire a lock on the defender.%LINEBREAK%<i>Errata (since rules reference 1.4.4): Corrected pilot ability and adjusted initiative value</i>"""
         '"Dutch" Vander (BoY SL)':
-           display_name: """“Dutch” Vander (BoY SL)"""
+           display_name: """“Dutch” Vander <i class="descriptive-text">Battle of Yavin - Standard Loadout</i>"""
            text: """After you spend a lock during an attack, choose a friendly ship at range 1-3. The chosen ship may acquire a lock on the defender.%LINEBREAK%<i>Errata (since rules reference 1.4.4): Corrected pilot ability and adjusted initiative value</i>"""
         "Dex Tiree (BoY)":
-           display_name: """Dex Tiree (BoY)"""
+           display_name: """Dex Tiree <i class="descriptive-text">Battle of Yavin - Left Side Legal</i>"""
            text: """While you defend, if there is at least 1 other friendly ship at range 0-1, you may roll 1 additional defense die."""
         "Dex Tiree (BoY SL)":
-           display_name: """Dex Tiree (BoY SL)"""
+           display_name: """Dex Tiree <i class="descriptive-text">Battle of Yavin - Standard Loadout</i>"""
            text: """While you defend, if there is at least 1 other friendly ship at range 0-1, you may roll 1 additional defense die."""
         "Han Solo (BoY)":
-           display_name: """Han Solo (BoY)"""
+           display_name: """Han Solo <i class="descriptive-text">Battle of Yavin - Left Side Legal</i>"""
            text: """After performing an attack that hits, you may spend 1 %CHARGE% to perform a %COORDINATE% action."""
         "Han Solo (BoY SL)":
-           display_name: """Han Solo (BoY SL)"""
+           display_name: """Han Solo <i class="descriptive-text">Battle of Yavin - Standard Loadout</i>"""
            text: """After performing an attack that hits, you may spend 1 %CHARGE% to perform a %COORDINATE% action."""
         '"Wampa" (BoY)':
-           display_name: """“Wampa” (BoY)"""
+           display_name: """“Wampa” <i class="descriptive-text">Battle of Yavin - Left Side Legal</i>"""
            text: """While you perform an attack, you may spend 1 %CHARGE% to roll 1 additional attack die.%LINEBREAK%After defending, lose 1 %CHARGE%."""
         '"Wampa" (BoY SL)':
-           display_name: """“Wampa” (BoY SL)"""
+           display_name: """“Wampa” <i class="descriptive-text">Battle of Yavin - Standard Loadout</i>"""
            text: """While you perform an attack, you may spend 1 %CHARGE% to roll 1 additional attack die.%LINEBREAK%After defending, lose 1 %CHARGE%."""
         '"Dark Curse" (BoY)':
-           display_name: """“Dark Curse (BoY)”"""
+           display_name: """“Dark Curse” <i class="descriptive-text">Battle of Yavin - Left Side Legal</i>"""
            text: """While you defend, the attacker's dice cannot be modified."""
         '"Dark Curse" (BoY SL)':
-           display_name: """“Dark Curse (BoY SL)”"""
+           display_name: """“Dark Curse” <i class="descriptive-text">Battle of Yavin - Standard Loadout</i>"""
            text: """While you defend, the attacker's dice cannot be modified."""
         "Darth Vader (BoY)":
-           display_name: """Darth Vader (BoY)"""
+           display_name: """Darth Vader <i class="descriptive-text">Battle of Yavin - Left Side Legal</i>"""
            text: """While you perform an attack, you may spend 1 %FORCE% to change 1 blank result to a %HIT% result."""
         "Darth Vader (BoY SL)":
-           display_name: """Darth Vader (BoY SL)"""
+           display_name: """Darth Vader <i class="descriptive-text">Battle of Yavin - Standard Loadout</i>"""
            text: """While you perform an attack, you may spend 1 %FORCE% to change 1 blank result to a %HIT% result."""
         "Iden Versio (BoY)": 
-           display_name: """Iden Versio (BoY)"""
+           display_name: """Iden Versio <i class="descriptive-text">Battle of Yavin - Left Side Legal</i>"""
            text: """Before a friendly TIE at range 0-1 would suffer damage, you may spend 2 %CHARGE%. If you do, prevent 1 damage. %LINEBREAK%<i>Errata (since rules reference 1.4.4): Corrected pilot ability</i>"""
         "Iden Versio (BoY SL)": 
-           display_name: """Iden Versio (BoY SL)"""
+           display_name: """Iden Versio <i class="descriptive-text">Battle of Yavin - Standard Loadout</i>"""
            text: """Before a friendly TIE at range 0-1 would suffer damage, you may spend 2 %CHARGE%. If you do, prevent 1 damage. %LINEBREAK%<i>Errata (since rules reference 1.4.4): Corrected pilot ability</i>"""
         '"Backstabber" (BoY)': 
-           display_name: """“Backstabber” (BoY)"""
+           display_name: """“Backstabber” <i class="descriptive-text">Battle of Yavin - Left Side Legal</i>"""
            text: """While you perform a primary attack, if a friendly Darth Vader or "Mauler" Mithel is in your %LEFTARC% or %RIGHTARC% at range 0-1, roll 1 additional attack die."""
         '"Backstabber" (BoY SL)': 
-           display_name: """“Backstabber” (BoY SL)"""
+           display_name: """“Backstabber” <i class="descriptive-text">Battle of Yavin - Standard Loadout</i>"""
            text: """While you perform a primary attack, if a friendly Darth Vader or "Mauler" Mithel is in your %LEFTARC% or %RIGHTARC% at range 0-1, roll 1 additional attack die."""
         "Sigma 4 (BoY)":
-           display_name: """Sigma 4 (BoY)"""
+           display_name: """Sigma 4 <i class="descriptive-text">Battle of Yavin - Left Side Legal</i>"""
            text: """After you perform a %BARRELROLL% action, you may spend 1 %CHARGE% to perform a %BOOST% action."""
         "Sigma 4 (BoY SL)":
-           display_name: """Sigma 4 (BoY SL)"""
+           display_name: """Sigma 4 <i class="descriptive-text">Battle of Yavin - Standard Loadout</i>"""
            text: """After you perform a %BARRELROLL% action, you may spend 1 %CHARGE% to perform a %BOOST% action."""
         "Sigma 5 (BoY)":
-           display_name: """Sigma 5 (BoY)"""
+           display_name: """Sigma 5 <i class="descriptive-text">Battle of Yavin - Left Side Legal</i>"""
            text: """After you perform an attack that hits, you may spend 1 %CHARGE% to perform an %EVADE% action."""
         "Sigma 5 (BoY SL)":
-           display_name: """Sigma 5 (BoY SL)"""
+           display_name: """Sigma 5 <i class="descriptive-text">Battle of Yavin - Standard Loadout</i>"""
            text: """After you perform an attack that hits, you may spend 1 %CHARGE% to perform an %EVADE% action."""
         "Sigma 6 (BoY)":
-           display_name: """Sigma 6 (BoY)"""
+           display_name: """Sigma 6 <i class="descriptive-text">Battle of Yavin - Left Side Legal</i>"""
            text: """After you fully execute a speed 3-5 maneuver, you may spend 1 %CHARGE% to perform a %SLAM% action."""
         "Sigma 6 (BoY SL)":
-           display_name: """Sigma 6 (BoY SL)"""
+           display_name: """Sigma 6 <i class="descriptive-text">Battle of Yavin - Standard Loadout</i>"""
            text: """After you fully execute a speed 3-5 maneuver, you may spend 1 %CHARGE% to perform a %SLAM% action."""
         "Sigma 7 (BoY)":
-           display_name: """Sigma 7 (BoY)"""
+           display_name: """Sigma 7 <i class="descriptive-text">Battle of Yavin - Left Side Legal</i>"""
            text: """During the System Phase, you may spend 1 %CHARGE% to acquire a lock on an enemy ship at range 0-1."""
         "Sigma 7 (BoY SL)":
-           display_name: """Sigma 7 (BoY SL)"""
+           display_name: """Sigma 7 <i class="descriptive-text">Battle of Yavin - Standard Loadout</i>"""
            text: """During the System Phase, you may spend 1 %CHARGE% to acquire a lock on an enemy ship at range 0-1."""
         '"Mauler" Mithel (BoY)':
-           display_name: """“Mauler” Mithel (BoY)"""
+           display_name: """“Mauler” Mithel <i class="descriptive-text">Battle of Yavin - Left Side Legal</i>"""
            text: """While you perform a primary attack, if a friendly Darth Vader or "Backstabber" is in your %LEFTARC% or %RIGHTARC% at range 0-1, roll 1 additional attack die."""
         '"Mauler" Mithel (BoY SL)':
-           display_name: """“Mauler” Mithel (BoY SL)"""
+           display_name: """“Mauler” Mithel <i class="descriptive-text">Battle of Yavin - Standard Loadout</i>"""
            text: """While you perform a primary attack, if a friendly Darth Vader or "Backstabber" is in your %LEFTARC% or %RIGHTARC% at range 0-1, roll 1 additional attack die."""
 
         # Siege of Coruscant Pilots
         "Anakin Skywalker (SoC)":
-           display_name: """Anakin Skywalker (SoC)"""
+           display_name: """Anakin Skywalker <i class="descriptive-text">Siege of Coruscant - Left Side Legal</i>"""
            text: """After you or a friendly <b>Obi-Wan Kenobi</b> ship at range 0-3 fully executes a maneuver, if there are more enemy ships than other friendly ships at range 0-1 of that ship, you may spend 1 %FORCE%. If you do, that ship may perform a %BARRELROLL% action."""
         "Anakin Skywalker (SoC SL)":
-           display_name: """Anakin Skywalker (SoC SL)"""
+           display_name: """Anakin Skywalker <i class="descriptive-text">Siege of Coruscant - Standard Loadout</i>"""
            text: """After you or a friendly <b>Obi-Wan Kenobi</b> ship at range 0-3 fully executes a maneuver, if there are more enemy ships than other friendly ships at range 0-1 of that ship, you may spend 1 %FORCE%. If you do, that ship may perform a %BARRELROLL% action."""
         "Obi-Wan Kenobi (SoC)":
-           display_name: """Obi-Wan Kenobi (SoC)"""
+           display_name: """Obi-Wan Kenobi <i class="descriptive-text">Siege of Coruscant - Left Side Legal</i>"""
            text: """After you or a friendly <b>Anakin Skywalker</b> at range 0-3 fully executes a maneuver, if there are more enemy ships than other friendly ships at range 0-1 of that ship, you may spend 1 %FORCE%. If you do, that ship may perform a %BOOST% action."""
         "Obi-Wan Kenobi (SoC SL)":
-           display_name: """Obi-Wan Kenobi (SoC SL)"""
+           display_name: """Obi-Wan Kenobi <i class="descriptive-text">Siege of Coruscant - Standard Loadout</i>"""
            text: """After you or a friendly <b>Anakin Skywalker</b> at range 0-3 fully executes a maneuver, if there are more enemy ships than other friendly ships at range 0-1 of that ship, you may spend 1 %FORCE%. If you do, that ship may perform a %BOOST% action."""
         "Shaak Ti (SoC)":
-           display_name: """Shaak Ti (SoC)"""
+           display_name: """Shaak Ti <i class="descriptive-text">Siege of Coruscant - Left Side Legal</i>"""
            text: """At the start of the End Phase, you may perform a purple %COORDINATE% action, even while stressed %LINEBREAK% After you perform a %COORDINATE% action, if the chosen ship has the <b>Born for This</b> ship ability, you may coordinate 1 additional ship."""
         "Shaak Ti (SoC SL)":
-           display_name: """Shaak Ti (SoC SL)"""
+           display_name: """Shaak Ti <i class="descriptive-text">Siege of Coruscant - Standard Loadout</i>"""
            text: """At the start of the End Phase, you may perfrom a purple %COORDINATE% action, even while stressed %LINEBREAK% After you perform a %COORDINATE% action, if the chosen ship has the <b>Born for This</b> ship ability, you may coordinate 1 additional ship."""
         '"Odd Ball" (SoC)':
-           display_name: """“Odd Ball” (SoC)"""
+           display_name: """“Odd Ball” <i class="descriptive-text">Siege of Coruscant - Left Side Legal</i>"""
            text: """After you fully execute a red maneuver or perform a red action, you camy choose a friendly ship at range 0-3 and an enemy at range 0-1. The chosen frendly ship gains a lock on the enemy ship."""
         '"Odd Ball" (SoC SL)':
-           display_name: """“Odd Ball” (SoC SL)"""
+           display_name: """“Odd Ball” <i class="descriptive-text">Siege of Coruscant - Standard Loadout</i>"""
            text: """After you fully execute a red maneuver or perform a red action, you camy choose a friendly ship at range 0-3 and an enemy at range 0-1. The chosen frendly ship gains a lock on the enemy ship."""
         '"Wolffe" (SoC)':
-           display_name: """“Wolffe” (SoC)"""
+           display_name: """“Wolffe” <i class="descriptive-text">Siege of Coruscant - Left Side Legal</i>"""
            text: """While you perform a primary %FRONTARC% attack, you may spend 1 %CHARGE% to reroll 1 attack die. While you perform a primary %REARARC% attack, you may recover 1 %CHARGE% to roll 1 additional die."""
         '"Wolffe" (SoC SL)':
-           display_name: """“Wolffe” (SoC SL)"""
+           display_name: """“Wolffe” <i class="descriptive-text">Siege of Coruscant - Standard Loadout</i>"""
            text: """While you perform a primary %FRONTARC% attack, you may spend 1 %CHARGE% to reroll 1 attack die. While you perform a primary %REARARC% attack, you may recover 1 %CHARGE% to roll 1 additional die."""
         '"Jag" (SoC)':
-           display_name: """“Jag” (SoC)"""
+           display_name: """“Jag” <i class="descriptive-text">Siege of Coruscant - Left Side Legal</i>"""
            text: """After a friendly ship at range 0-2 in your %LEFTARC% or %RIGHTARC% performs an attack, if you are not strained, you may acquire a lock on the defender."""
         '"Jag" (SoC SL)':
-           display_name: """“Jag” (SoC SL)"""
+           display_name: """“Jag” <i class="descriptive-text">Siege of Coruscant - Standard Loadout</i>"""
            text: """After a friendly ship at range 0-2 in your %LEFTARC% or %RIGHTARC% performs an attack, if you are not strained, you may acquire a lock on the defender."""
         '"Contrail" (SoC)':
-           display_name: """“Contrail” (SoC)"""
+           display_name: """“Contrail” <i class="descriptive-text">Siege of Coruscant - Left Side Legal</i>"""
            text: """While you defend or perform an attack, if the bearing of your revealed maneuver is the same as the enemy ship's, you may change 1 of the enemy ship's %FOCUS% results to a blank result. """
         '"Contrail" (SoC SL)':
-           display_name: """“Contrail” (SoC SL)"""
+           display_name: """“Contrail” <i class="descriptive-text">Siege of Coruscant - Standard Loadout</i>"""
            text: """While you defend or perform an attack, if the bearing of your revealed maneuver is the same as the enemy ship's, you may change 1 of the enemy ship's %FOCUS% results to a blank result. """
         '"Klick" (SoC)':
-           display_name: """“Klick” (SoC)"""
+           display_name: """“Klick” <i class="descriptive-text">Siege of Coruscant - Left Side Legal</i>"""
            text: """While a ship that you have locked at range 1-3 defends or performs an attack, you may spend 1 %CHARGE% to prevent range bonuses from being applied. """
         '"Klick" (SoC SL)':
-           display_name: """“Klick” (SoC SL)"""
+           display_name: """“Klick” <i class="descriptive-text">Siege of Coruscant - Standard Loadout</i>"""
            text: """While a ship that you have locked at range 1-3 defends or performs an attack, you may spend 1 %CHARGE% to prevent range bonuses from being applied. """
         '"Kickback" (SoC)':
-           display_name: """“Kickback” (SoC)"""
+           display_name: """“Kickback” <i class="descriptive-text">Siege of Coruscant - Left Side Legal</i>"""
            text: """After you perform a %BARRELROLL% action, you may perform a red %LOCK% action. If you do, before you perform the %LOCK% action, you may gain 1 strain to treat it as white."""
         '"Kickback" (SoC SL)':
-           display_name: """“Kickback” (SoC SL)"""
+           display_name: """“Kickback” <i class="descriptive-text">Siege of Coruscant - Standard Loadout</i>"""
            text: """After you perform a %BARRELROLL% action, you may perform a red %LOCK% action. If you do, before you perform the %LOCK% action, you may gain 1 strain to treat it as white."""
         '"Axe" (SoC)':
-           display_name: """“Axe” (SoC)"""
+           display_name: """“Axe” <i class="descriptive-text">Siege of Coruscant - Left Side Legal</i>"""
            text: """After you perform an attack, you may choose another friendly ship with the <b>Born for This</b> ability at range 0-2 in your %LEFTARC% or %RIGHTARC%. The chosen ship gains a lock on the defender."""
         '"Axe" (SoC SL)':
-           display_name: """“Axe” (SoC SL)"""
+           display_name: """“Axe” <i class="descriptive-text">Siege of Coruscant - Standard Loadout</i>"""
            text: """After you perform an attack, you may choose another friendly ship with the <b>Born for This</b> ability at range 0-2 in your %LEFTARC% or %RIGHTARC%. The chosen ship gains a lock on the defender."""
         "Count Dooku (SoC)":
-           display_name: """Count Dooku (SoC)"""
+           display_name: """Count Dooku <i class="descriptive-text">Siege of Coruscant - Left Side Legal</i>"""
            text: """During an attack, before a ship at range 0-2 rolls attack or defense dice, if all of your %FORCE% are active, you may spend 1 %FORCE% and name a result. If the roll does not contain the named result, the ship must change 1 die to that result."""
         "Count Dooku (SoC SL)":
-           display_name: """Count Dooku (SoC SL)"""
+           display_name: """Count Dooku <i class="descriptive-text">Siege of Coruscant - Standard Loadout</i>"""
            text: """During an attack, before a ship at range 0-2 rolls attack or defense dice, if all of your %FORCE% are active, you may spend 1 %FORCE% and name a result. If the roll does not contain the named result, the ship must change 1 die to that result."""
         "DBS-32C (SoC)":
-           display_name: """DBS-32C (SoC)"""
+           display_name: """DBS-32C <i class="descriptive-text">Siege of Coruscant - Left Side Legal</i>"""
            text: """After you perform a %CALCULATE% action, you may spend 1 %CHARGE% to perform a %JAM% action."""
         "DBS-32C (SoC SL)":
-           display_name: """DBS-32C (SoC SL)"""
+           display_name: """DBS-32C <i class="descriptive-text">Siege of Coruscant - Standard Loadout</i>"""
            text: """After you perform a %CALCULATE% action, you may spend 1 %CHARGE% to perform a %JAM% action."""
         "DBS-404 (SoC)":
-           display_name: """DBS-404 (SoC)"""
+           display_name: """DBS-404 <i class="descriptive-text">Siege of Coruscant - Left Side Legal</i>"""
            text: """While you perform an attack at range 1, you <b>must</b> roll 1 additional die. After the attack hits, suffer 1 %CRIT% damage."""
         "DBS-404 (SoC SL)":
-           display_name: """DBS-404 (SoC SL)"""
+           display_name: """DBS-404 <i class="descriptive-text">Siege of Coruscant - Standard Loadout</i>"""
            text: """While you perform an attack at range 1, you <b>must</b> roll 1 additional die. After the attack hits, suffer 1 %CRIT% damage."""
         "Baktoid Prototype (SoC)":
-           display_name: """Baktoid Prototype (SoC)"""
+           display_name: """Baktoid Prototype <i class="descriptive-text">Siege of Coruscant - Left Side Legal</i>"""
            text: """While you perform a special attack, if a friendly ship with the <strong>Networked Calculations</strong> ship ability has a lock on the defender, you may ignore the %FOCUS%, %CALCULATE% or %LOCK% requirement of the attack."""
         "Baktoid Prototype (SoC SL)":
-           display_name: """Baktoid Prototype (SoC SL)"""
+           display_name: """Baktoid Prototype <i class="descriptive-text">Siege of Coruscant - Standard Loadout</i>"""
            text: """While you perform a special attack, if a friendly ship with the <strong>Networked Calculations</strong> ship ability has a lock on the defender, you may ignore the %FOCUS%, %CALCULATE% or %LOCK% requirement of the attack."""
         "DIS-347 (SoC)":
-           display_name: """DIS-347 (SoC)"""
+           display_name: """DIS-347 <i class="descriptive-text">Siege of Coruscant - Left Side Legal</i>"""
            text: """At the start of the Engagement Phase, you may acquire a lock on an object at range 1-3 that has a friendly lock."""
         "DIS-347 (SoC SL)":
-           display_name: """DIS-347 (SoC SL)"""
+           display_name: """DIS-347 <i class="descriptive-text">Siege of Coruscant - Standard Loadout</i>"""
            text: """At the start of the Engagement Phase, you may acquire a lock on an object at range 1-3 that has a friendly lock."""
         "DIS-T81 (SoC)":
-           display_name: """DIS-T81 (SoC)"""
+           display_name: """DIS-T81 <i class="descriptive-text">Siege of Coruscant - Left Side Legal</i>"""
            text: """While you defend or perform an attack, you may reroll any number of your dice. Then if you were defending, gain 1 strain token for each die that was rerolled. If you were attacking, gain 1 deplete token for each die that was rerolled instead."""
         "DIS-T81 (SoC SL)":
-           display_name: """DIS-T81 (SoC SL)"""
+           display_name: """DIS-T81 <i class="descriptive-text">Siege of Coruscant - Standard Loadout</i>"""
            text: """While you defend or perform an attack, you may reroll any number of your dice. Then if you were defending, gain 1 strain token for each die that was rerolled. If you were attacking, gain 1 deplete token for each die that was rerolled instead."""
         "Phlac-Arphocc Prototype (SoC)":
-           display_name: """Phlac-Arphocc Prototype (SoC)"""
+           display_name: """Phlac-Arphocc Prototype <i class="descriptive-text">Siege of Coruscant - Left Side Legal</i>"""
            text: """At the start of the Engagement Phase, if there is an enemy ship in your %BULLSEYEARC%, gain a calculate token."""
         "Phlac-Arphocc Prototype (SoC SL)":
-           display_name: """Phlac-Arphocc Prototype (SoC SL)"""
+           display_name: """Phlac-Arphocc Prototype <i class="descriptive-text">Siege of Coruscant - Standard Loadout</i>"""
            text: """At the start of the Engagement Phase, if there is an enemy ship in your %BULLSEYEARC%, gain a calculate token."""
         "DFS-081 (SoC)":
-           display_name: """DFS-081 (SoC)"""
+           display_name: """DFS-081 <i class="descriptive-text">Siege of Coruscant - Left Side Legal</i>"""
            text: """While defending, you may spend 1 %CHARGE% and 1 calculate token to cancel 1 %CRIT% result."""
         "DFS-081 (SoC SL)":
-           display_name: """DFS-081 (SoC SL)"""
+           display_name: """DFS-081 <i class="descriptive-text">Siege of Coruscant - Standard Loadout</i>"""
            text: """While defending, you may spend 1 %CHARGE% and 1 calculate token to cancel 1 %CRIT% result."""
         "DFS-311 (SoC)":
-           display_name: """DFS-311 (SoC)"""
+           display_name: """DFS-311 <i class="descriptive-text">Siege of Coruscant - Left Side Legal</i>"""
            text: """At the start of the Engagement Phase, you may transfer 1 of your calculate tokens to another friendly ship at range 0-3."""
         "DFS-311 (SoC SL)":
-           display_name: """DFS-311 (SoC SL)"""
+           display_name: """DFS-311 <i class="descriptive-text">Siege of Coruscant - Standard Loadout</i>"""
            text: """At the start of the Engagement Phase, you may transfer 1 of your calculate tokens to another friendly ship at range 0-3."""
         "Haor Chall Prototype (SoC)":
-           display_name: """Haor Chall Prototype (SoC)"""
+           display_name: """Haor Chall Prototype <i class="descriptive-text">Siege of Coruscant - Left Side Legal</i>"""
            text: """After an enemy ship in your %BULLSEYEARC% declares a scenario feature or another friendly ship as the defender, you may perform a %CALCULATE% or %LOCK% action."""
         "Haor Chall Prototype (SoC SL)":
-           display_name: """Haor Chall Prototype (SoC SL)"""
+           display_name: """Haor Chall Prototype <i class="descriptive-text">Siege of Coruscant - Standard Loadout</i>"""
            text: """After an enemy ship in your %BULLSEYEARC% declares a scenario feature or another friendly ship as the defender, you may perform a %CALCULATE% or %LOCK% action."""
 
         # Hotshots and Aces 2
@@ -2131,104 +2133,104 @@ exportObj.cardLoaders.English = () ->
             
         # Starter Packs
         "Darth Vader (SSP SL)":
-           display_name: """Darth Vader (SSP SL)"""
+           display_name: """Darth Vader <i class="descriptive-text">Black Leader - Standard Loadout</i>"""
            text: """After you perform an action, you may spend 1 %FORCE% to perform an action."""
         "Maarek Stele (SSP SL)":
-           display_name: """Maarek Stele (SSP SL)"""
+           display_name: """Maarek Stele <i class="descriptive-text">Servant of the Empire - Standard Loadout</i>"""
            text: """While you perform an attack, if the defender would be dealt a faceup damage card, instead draw 3 damage cards, choose 1, and discard the rest. """
         "Captain Jonus (SSP SL)":
-           display_name: """Captain Jonus (SSP SL)"""
+           display_name: """Captain Jonus <i class="descriptive-text">Disciplined Instructor - Standard Loadout</i>"""
            text: """While a friendly ship at range 0-1 performs a %TORPEDO% or %MISSILE% attack, that ship may reroll up to 2 attack dice. """
         "Tomax Bren (SSP SL)":
-           display_name: """Tomax Bren (SSP SL)"""
+           display_name: """Tomax Bren <i class="descriptive-text">Brash Maverick - Standard Loadout</i>"""
            text: """After you perform a %RELOAD% action, you may recover 1 %CHARGE% token on 1 of your equipped %TALENT% upgrade cards. """
         '"Night Beast" (SSP SL)':
-           display_name: """“Night Beast” (SSP SL)"""
+           display_name: """“Night Beast” <i class="descriptive-text">Obsidian Two - Standard Loadout</i>"""
            text: """After you fully execute a blue maneuver, you may perform a %FOCUS% action."""
         "Valen Rudor (SSP SL)":
-           display_name: """Valen Rudor (SSP SL)"""
+           display_name: """Valen Rudor <i class="descriptive-text">Braggadocious Baron - Standard Loadout</i>"""
            text: """After a friendly ship at range 0-1 defends (after damage is resolved, if any), you may perform an action."""
         "Iden Versio (SSP SL)":
-           display_name: """Iden Versio (SSP SL)"""
+           display_name: """Iden Versio <i class="descriptive-text">Inferno Leader - Standard Loadout</i>"""
            text: """Before a friendly TIE/ln fighter at range 0-1 would suffer 1 or more damage, you may spend 1 %CHARGE%. If you do, prevent that damage."""
         "Luke Skywalker (SSP SL)":
-           display_name: """Luke Skywalker (SSP SL)"""
+           display_name: """Luke Skywalker <i class="descriptive-text">Red Five - Standard Loadout</i>"""
            text: """After you become the defender (before dice are rolled), you may recover 1 %FORCE%."""
         "Jek Porkins (SSP SL)":
-           display_name: """Jek Porkins (SSP SL)"""
+           display_name: """Jek Porkins <i class="descriptive-text">Red Six - Standard Loadout</i>"""
            text: """After you receive a stress token, you may roll 1 attack die to remove it. On a %HIT% result, suffer 1 %HIT% damage."""
         '"Dutch" Vander (SSP SL)':
-           display_name: """“Dutch” Vander (SSP SL)"""
+           display_name: """“Dutch” Vander <i class="descriptive-text">Gold Leader - Standard Loadout</i>"""
            text: """After you perform the %LOCK% action, you may choose 1 friendly ship at range 1-3. That ship may acquire a lock on the object you locked, ignoring range restrictions."""
         "Horton Salm (SSP SL)":
-           display_name: """Horton Salm (SSP SL)"""
+           display_name: """Horton Salm <i class="descriptive-text">Gray Leader - Standard Loadout</i>"""
            text: """While you perform an attack, you may reroll 1 attack die for each other friendly ship at range 0-1 of the defender."""
         "Arvel Crynyd (SSP SL)":
-           display_name: """Arvel Crynyd (SSP SL)"""
+           display_name: """Arvel Crynyd <i class="descriptive-text">Green Leader - Standard Loadout</i>"""
            text: """If you would fail a %BOOST% action by overlapping another ship, you may resolve it as though you were partially executing a maneuver instead. While you perform an attack at attack range 0, treat it as an attack at attack range 1."""
         "Jake Farrell (SSP SL)":
-           display_name: """Jake Farrell (SSP SL)"""
+           display_name: """Jake Farrell <i class="descriptive-text">Sage Instructor - Standard Loadout</i>"""
            text: """After you perform a %BARRELROLL% or %BOOST% action, you may choose a friendly ship at range 0-1. That ship may perform a %FOCUS% action."""
         "Shara Bey (SSP SL)":
-           display_name: """Shara Bey (SSP SL)"""
+           display_name: """Shara Bey <i class="descriptive-text">Green Four - Standard Loadout</i>"""
            text: """While you defend or perform a primary attack, you may spend 1 lock you have on the enemy ship to add 1 %FOCUS% result to your dice results. """
 
         # TIE Bomber (TBE)
         '"Deathfire" (TBE)':
-           display_name: """“Deathfire” (TBE)"""
+           display_name: """“Deathfire” <i class="descriptive-text">Obstinate Bombardier - Left Side Legal</i>"""
            text: """After you fully execute a speed 3-5 maneuver, if you have not dropped or launched a device this round, you may spend 2 %CHARGE% to drop or launch a bomb using the [3 %STRAIGHT%] template."""
         '"Deathfire" (TBE SL)':
-           display_name: """“Deathfire” (TBE SL)"""
+           display_name: """“Deathfire” <i class="descriptive-text">Obstinate Bombardier - Standard Loadout</i>"""
            text: """After you fully execute a speed 3-5 maneuver, if you have not dropped or launched a device this round, you may spend 2 %CHARGE% to drop or launch a bomb using the [3 %STRAIGHT%] template."""
         "Major Rhymer (TBE)":
-           display_name: """Major Rhymer (TBE)"""
+           display_name: """Major Rhymer <i class="descriptive-text">Precision Destruction - Left Side Legal</i>"""
            text: """While you perform a %TORPEDO% attack, if the defender is in your %BULLSEYEARC%, change 1 %FOCUS% result to a %CRIT% result."""
         "Major Rhymer (TBE SL)":
-           display_name: """Major Rhymer (TBE SL)"""
+           display_name: """Major Rhymer <i class="descriptive-text">Precision Destruction - Standard Loadout</i>"""
            text: """While you perform a %TORPEDO% attack, if the defender is in your %BULLSEYEARC%, change 1 %FOCUS% result to a %CRIT% result."""
         "Captain Jonus (TBE)":
-           display_name: """Captain Jonus (TBE)"""
+           display_name: """Captain Jonus <i class="descriptive-text">Top Cover - Left Side Legal</i>"""
            text: """After you drop or launch a device, gain an evade token."""
         "Captain Jonus (TBE SL)":
-           display_name: """Captain Jonus (TBE SL)"""
+           display_name: """Captain Jonus <i class="descriptive-text">Top Cover - Standard Loadout</i>"""
            text: """After you drop or launch a device, gain an evade token."""
         "Tomax Bren (TBE)":
-           display_name: """Tomax Bren (TBE)"""
+           display_name: """Tomax Bren <i class="descriptive-text">Scimitar Veteran - Left Side Legal</i>"""
            text: """After you perform a %BARRELROLL% action, you may spend 2 %CHARGE%. If you do, gain a focus token."""
         "Tomax Bren (TBE SL)":
-           display_name: """Tomax Bren (TBE SL)"""
+           display_name: """Tomax Bren <i class="descriptive-text">Scimitar Veteran - Standard Loadout</i>"""
            text: """After you perform a %BARRELROLL% action, you may spend 2 %CHARGE%. If you do, gain a focus token."""
 
         # YT-2400 (2023)
         "Dash Rendar (2023)":
-           display_name: """Dash Rendar <i class="descriptive-text">Freighter For Hire<i>"""
+           display_name: """Dash Rendar <i class="descriptive-text">Freighter For Hire</i>"""
            text: """During the Engagement Phase, you ignore the effects of obstacles that you are overlapping."""
         "Dash Rendar (YLF)":
-           display_name: """Dash Rendar <i class="descriptive-text">In it for Himself - Left Side Legal<i>"""
+           display_name: """Dash Rendar <i class="descriptive-text">In it for Himself - Left Side Legal</i>"""
            text: """After you gain a red token as a result of moving through or overlapping an obstacle, you may transfer that red token to a friendly ship at range 0-1."""
         "Dash Rendar (YLF SL)":
-           display_name: """Dash Rendar <i class="descriptive-text">In it for Himself - Standard Loadout<i>"""
+           display_name: """Dash Rendar <i class="descriptive-text">In it for Himself - Standard Loadout</i>"""
            text: """After you gain a red token as a result of moving through or overlapping an obstacle, you may transfer that red token to a friendly ship at range 0-1."""
         "Dash Rendar (Scum)":
-           display_name: """Dash Rendar <i class="descriptive-text">Left Side Legal<i>"""
+           display_name: """Dash Rendar <i class="descriptive-text">Left Side Legal</i>"""
            text: """After you gain a red token as a result of moving through or overlapping an obstacle, you may transfer that red token to a friendly ship at range 0-1."""
         "Dash Rendar (Scum SL)":
-           display_name: """Dash Rendar <i class="descriptive-text">Standard Loadout<i>"""
+           display_name: """Dash Rendar <i class="descriptive-text">Standard Loadout</i>"""
            text: """After you gain a red token as a result of moving through or overlapping an obstacle, you may transfer that red token to a friendly ship at range 0-1."""
         '"Leebo" (2023)':
-           display_name: """“Leebo <i class="descriptive-text">Widsom of Ages<i>”"""
+           display_name: """“Leebo” <i class="descriptive-text">Widsom of Ages</i>"""
            text: """After you defend or perform an attack, if you spent a calculate token, gain 1 calculate token."""
         '"Leebo" (YLF)':
-           display_name: """“Leebo” <i class="descriptive-text">He Thinks He's Funny - Left Side Legal<i>"""
+           display_name: """“Leebo” <i class="descriptive-text">He Thinks He's Funny - Left Side Legal</i>"""
            text: """At the end of the Engagement Phase, you may spend a calculate token to acquire a lock on an enemy ship at range 2-3."""
         '"Leebo" (YLF SL)':
-           display_name: """“Leebo” <i class="descriptive-text">He Thinks He's Funny - Standard Loadout<i>"""
+           display_name: """“Leebo” <i class="descriptive-text">He Thinks He's Funny - Standard Loadout</i>"""
            text: """At the end of the Engagement Phase, you may spend a calculate token to acquire a lock on an enemy ship at range 2-3."""
         '"Leebo" (Scum)':
-           display_name: """“Leebo” <i class="descriptive-text">Left Side Legal<i>"""
+           display_name: """“Leebo” <i class="descriptive-text">Left Side Legal</i>"""
            text: """At the end of the Engagement Phase, you may spend a calculate token to acquire a lock on an enemy ship at range 2-3."""
         '"Leebo" (Scum SL)':
-           display_name: """“Leebo” <i class="descriptive-text">Standard Loadout<i>"""
+           display_name: """“Leebo” <i class="descriptive-text">Standard Loadout</i>"""
            text: """At the end of the Engagement Phase, you may spend a calculate token to acquire a lock on an enemy ship at range 2-3."""
 
             
