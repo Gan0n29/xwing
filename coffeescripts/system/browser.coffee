@@ -641,7 +641,7 @@ class exportObj.CardBrowser
 
     addCardTo: (container, card) ->
         option = $ document.createElement('OPTION')
-        option.text "#{if card.display_name then card.display_name else card.name} (#{if card.data.points? then card.data.points else '*'})"
+        option.text "#{if card.display_name then card.display_name.replace( /(<([^>]+)>)/ig, '') else card.name} (#{if card.data.points? then card.data.points else '*'})"
         option.data 'name', card.name
         option.data 'display_name', card.display_name
         option.data 'type', card.type
