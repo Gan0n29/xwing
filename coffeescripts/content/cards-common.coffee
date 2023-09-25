@@ -28389,6 +28389,17 @@ exportObj.wildspaceExclusions = (data) ->
     else
         return true
 
+String::ParseParameter = (name) ->
+    name = name.replace(/[\[]/, "\\\[").replace(/[\]]/, "\\\]")
+    regexS = "[\\?&]" + name + "=([^&#]*)"
+    regex = new RegExp(regexS)
+    results = regex.exec(this)
+    if results == null
+        return ""
+    else
+        return decodeURIComponent(results[1].replace(/\+/g, " "))
+
+
 String::serialtoxws = ->
     xws =
         description: ""
