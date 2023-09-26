@@ -14259,7 +14259,7 @@ exportObj.basicCardData = ->
             faction: "Rebel Alliance"
             ship: "YT-2400 Light Freighter (2023)"
             skill: 5
-            points: 200
+            points: 76
             slots: [
                 "Talent"
                 "Missile"
@@ -14281,7 +14281,7 @@ exportObj.basicCardData = ->
             faction: "Rebel Alliance"
             ship: "YT-2400 Light Freighter (2023)"
             skill: 5
-            points: 200
+            points: 73
             slots: [
                 "Talent"
                 "Missile"
@@ -14322,7 +14322,7 @@ exportObj.basicCardData = ->
             faction: "Scum and Villainy"
             ship: "YT-2400 Light Freighter (2023)"
             skill: 5
-            points: 200
+            points: 73
             slots: [
                 "Talent"
                 "Missile"
@@ -14361,7 +14361,7 @@ exportObj.basicCardData = ->
             faction: "Rebel Alliance"
             ship: "YT-2400 Light Freighter (2023)"
             skill: 3
-            points: 200
+            points: 71
             keyword: ["Droid"]
             slots: [
                 "Talent"
@@ -14383,7 +14383,7 @@ exportObj.basicCardData = ->
             faction: "Rebel Alliance"
             ship: "YT-2400 Light Freighter (2023)"
             skill: 3
-            points: 200
+            points: 69
             slots: [
                 "Talent"
                 "Missile"
@@ -14438,7 +14438,7 @@ exportObj.basicCardData = ->
             faction: "Scum and Villainy"
             ship: "YT-2400 Light Freighter (2023)"
             skill: 3
-            points: 200
+            points: 69
             slots: [
                 "Talent"
                 "Missile"
@@ -19728,7 +19728,7 @@ exportObj.basicCardData = ->
             id: 502
             image_id: 157
             slot: "Title"
-            points: 6
+            points: 7
             unique: true
             faction: ["Scum and Villainy", "Rebel Alliance"]
             ship: "YT-2400 Light Freighter (2023)"
