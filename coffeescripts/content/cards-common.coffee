@@ -6585,7 +6585,7 @@ exportObj.basicCardData = ->
             skill: 5
             force: 3
             keyword: ["Dark Side","Sith"]
-            points: 64
+            points: 62
             slots: [
                 "Force"
                 "Cannon"
@@ -7597,7 +7597,7 @@ exportObj.basicCardData = ->
             skill: 3
             force: 3
             keyword: ["Dark Side","Sith"]
-            points: 62
+            points: 60
             slots: [
                 "Force"
                 "Cannon"
@@ -10732,7 +10732,7 @@ exportObj.basicCardData = ->
             ]
         }
         {
-            name: "Maul"
+            name: ""
             id: 512
             xws: "maul"
             faction: "Scum and Villainy"
@@ -12157,7 +12157,7 @@ exportObj.basicCardData = ->
             faction: "Separatist Alliance"
             ship: "Sith Infiltrator"
             skill: 5
-            points: 60
+            points: 64
             force: 3
             keyword: ["Dark Side"]
             ship_override:
