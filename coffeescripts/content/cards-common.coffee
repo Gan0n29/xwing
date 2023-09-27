@@ -10732,7 +10732,7 @@ exportObj.basicCardData = ->
             ]
         }
         {
-            name: ""
+            name: "Maul"
             id: 512
             xws: "maul"
             faction: "Scum and Villainy"
