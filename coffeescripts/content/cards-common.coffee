@@ -14077,7 +14077,7 @@ exportObj.basicCardData = ->
             faction: "Galactic Empire"
             ship: "TIE Bomber"
             skill: 2
-            points: 31
+            points: 33
             charge: 2
             recurring: 1
             slots: [
@@ -14120,7 +14120,7 @@ exportObj.basicCardData = ->
             faction: "Galactic Empire"
             ship: "TIE Bomber"
             skill: 4
-            points: 36
+            points: 33
             slots: [
                 "Talent"
                 "Torpedo"
@@ -14160,7 +14160,7 @@ exportObj.basicCardData = ->
             faction: "Galactic Empire"
             ship: "TIE Bomber"
             skill: 4
-            points: 44
+            points: 36
             slots: [
                 "Talent"
                 "Torpedo"
@@ -14216,7 +14216,7 @@ exportObj.basicCardData = ->
             faction: "Galactic Empire"
             ship: "TIE Bomber"
             skill: 5
-            points: 34
+            points: 37
             charge: 2
             recurring: 1
             slots: [
