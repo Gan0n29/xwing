@@ -14515,7 +14515,7 @@ exportObj.basicCardData = ->
             id: 3
             unique: true
             slot: "Astromech"
-            pointsarray: [4,6,7,11]
+            pointsarray: [3,4,7,11]
             variableagility: true
             charge: 3
             faction: "Rebel Alliance"
@@ -14557,7 +14557,8 @@ exportObj.basicCardData = ->
             id: 7
             unique: true
             slot: "Astromech"
-            points: 6
+            pointsarray: [2,3,4,6]
+            variableagility: true
             charge: 3
             faction: "Rebel Alliance"
         }
@@ -28365,9 +28366,9 @@ exportObj.epicExclusionsList = [
 
 
 exportObj.epicExclusions = (data) ->
-    if data.upgrades?
-        return false
-    else
+    #if data.upgrades?
+    #    return false
+    #else
         return true
 
 exportObj.standardExclusions = (data) ->
