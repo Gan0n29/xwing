@@ -9278,7 +9278,7 @@ exportObj.manifestByExpansion =
             count: 1
         }
         {
-            name: '"Scorch" (TIE/se Bomber)'
+            name: '"Scorch" (TIE/Se Bomber)'
             type: 'pilot'
             count: 1
         }
