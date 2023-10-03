@@ -10419,7 +10419,7 @@ exportObj.basicCardData = ->
             ]
         }
         {
-            name: '"Scorch" (TIE/se Bomber)'
+            name: '"Scorch" (TIE/Se Bomber)'
             canonical_name: '"Scorch"'.canonicalize()
             xws: "scorch-tiesebomber"
             id: 494
@@ -16915,7 +16915,7 @@ exportObj.basicCardData = ->
             faction: "Galactic Empire"
             slot: "Command"
             points: 4
-            ship: ["TIE Advanced","TIE Advanced Prototype"]
+            ship: ["TIE Advanced x1","TIE Advanced v1"]
             restrictions: [
                 ["Base", "Small"]
             ]
@@ -18242,7 +18242,7 @@ exportObj.basicCardData = ->
             slot: "Configuration"
             standardized: true
             chassis: "Vectored Cannons"
-            ship: ["A-Wing"]
+            ship: "RZ-1 A-wing"
             restrictions: [
                 ["Keyword", "Vectored Thrusters"]
             ]
@@ -18290,7 +18290,7 @@ exportObj.basicCardData = ->
             id: 374
             points: 0
             slot: "Configuration"
-            ship: ["TIE Interceptor", "TIE/vn Silencer"]
+            ship: ["TIE/in Interceptor", "TIE/vn Silencer"]
             standardized: true
             chassis: "Sensitive Controls"
             restrictions: [
@@ -18375,7 +18375,7 @@ exportObj.basicCardData = ->
             max_per_squad: 2
             slot: "Command"
             faction: "Galactic Empire"
-            ship: ["TIE Fighter", "TIE Interceptor"]
+            ship: ["TIE/ln Fighter", "TIE/in Interceptor"]
         }
         {
             name: "Shadow Wing"
@@ -18384,7 +18384,7 @@ exportObj.basicCardData = ->
             unique: true
             slot: "Command"
             faction: "Galactic Empire"
-            ship: ["TIE Fighter", "TIE Interceptor", "TIE Bomber"]
+            ship: ["TIE/ln Fighter", "TIE/in Interceptor", "TIE/sa Bomber"]
         }
         {
             name: "In It For The Money"
@@ -19466,7 +19466,7 @@ exportObj.basicCardData = ->
             slot: "Title"
             unique: true
             points: 2
-            ship: ["Rogue-class Starfighter"]
+            ship: "Rogue-class Starfighter"
             modifier_func: (stats) ->
                 stats.actions.push 'R-Cloak' if 'R-Cloak' not in stats.actions
             confersAddons: [
