@@ -9026,7 +9026,7 @@ exportObj.manifestByExpansion =
             count: 2
         }
         {
-            name: 'HWK-290 Light Freighter
+            name: 'HWK-290 Light Freighter'
             type: 'ship'
             count: 1
         }
@@ -11953,11 +11953,6 @@ exportObj.manifestByExpansion =
             count: 2
         }
         {
-            name: 'HWK-290 Light Freighter
-            type: 'ship'
-            count: 2
-        }
-        {
             name: 'BTL-S8 K-wing'
             type: 'ship'
             count: 2
@@ -11999,11 +11994,6 @@ exportObj.manifestByExpansion =
         }
         {
             name: 'Aggressor Assault Fighter'
-            type: 'ship'
-            count: 2
-        }
-        {
-            name: 'HWK-290 Light Freighter
             type: 'ship'
             count: 2
         }
