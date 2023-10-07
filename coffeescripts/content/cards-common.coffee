@@ -339,7 +339,7 @@ exportObj.basicCardData = ->
             ]
         "TIE/d Defender":
             name: "TIE/d Defender"
-            xws: "TIE/D Defender".canonicalize()
+            xws: "TIE/d Defender".canonicalize()
             factions: [ "Galactic Empire" ]
             attack: 3
             agility: 3
@@ -1031,8 +1031,8 @@ exportObj.basicCardData = ->
                 [ 3, 2, 1, 2, 3, 0, 0, 0 ]
                 [ 0, 2, 2, 2, 0, 3, 0, 0 ]
             ]
-        "T-70 X-Wing":
-            name: "T-70 X-Wing"
+        "T-70 X-wing":
+            name: "T-70 X-wing"
             xws: "T-70 X-wing".canonicalize()
             factions: [ "Resistance"]
             attack: 3
@@ -1055,8 +1055,8 @@ exportObj.basicCardData = ->
             autoequip: [
                 "Integrated S-Foils"
             ]
-        "RZ-2 A-Wing":
-            name: "RZ-2 A-Wing"
+        "RZ-2 A-wing":
+            name: "RZ-2 A-wing"
             xws: "RZ-2 A-wing".canonicalize()
             factions: ["Resistance"]
             attackt: 2
@@ -1203,7 +1203,6 @@ exportObj.basicCardData = ->
             large: true
         "Scavenged YT-1300":
             name: "Scavenged YT-1300"
-            canonical_name: 'Scavenged YT-1300'.canonicalize()
             xws: "Scavenged YT-1300".canonicalize()
             factions: [ "Resistance" ]
             attackdt: 3
@@ -1389,9 +1388,9 @@ exportObj.basicCardData = ->
                 [ 0, 0, 2, 0, 0, 0, 0, 0, 0, 0]
                 [ 0, 0, 2, 0, 0, 0, 0, 0, 0, 0]
             ]
-        "Hyena-Class Droid Bomber":
-            name: "Hyena-Class Droid Bomber"
-            xws: "Hyena-Class Droid Bomber".canonicalize()
+        "Hyena-class Droid Bomber":
+            name: "Hyena-class Droid Bomber"
+            xws: "Hyena-class Droid Bomber".canonicalize()
             factions: ["Separatist Alliance"]
             attack: 2
             agility: 2
@@ -5942,7 +5941,7 @@ exportObj.basicCardData = ->
             id: 231
             unique: true
             faction: "Resistance"
-            ship: "T-70 X-Wing"
+            ship: "T-70 X-wing"
             skill: 6
             points: 63
             charge: 1
@@ -6063,7 +6062,7 @@ exportObj.basicCardData = ->
             id: 239
             unique: true
             faction: "Resistance"
-            ship: "RZ-2 A-Wing"
+            ship: "RZ-2 A-wing"
             skill: 5
             points: 40
             slots: [
@@ -6078,7 +6077,7 @@ exportObj.basicCardData = ->
             id: 240
             unique: true
             faction: "Resistance"
-            ship: "RZ-2 A-Wing"
+            ship: "RZ-2 A-wing"
             skill: 5
             charge: 1
             recurring: 1
@@ -6275,7 +6274,7 @@ exportObj.basicCardData = ->
             id: 252
             unique: true
             faction: "Resistance"
-            ship: "T-70 X-Wing"
+            ship: "T-70 X-wing"
             skill: 4
             points: 47
             slots: [
@@ -6293,7 +6292,7 @@ exportObj.basicCardData = ->
             id: 253
             unique: true
             faction: "Resistance"
-            ship: "T-70 X-Wing"
+            ship: "T-70 X-wing"
             skill: 3
             points: 46
             slots: [
@@ -6311,7 +6310,7 @@ exportObj.basicCardData = ->
             id: 254
             unique: true
             faction: "Resistance"
-            ship: "T-70 X-Wing"
+            ship: "T-70 X-wing"
             skill: 2
             points: 48
             slots: [
@@ -6328,7 +6327,7 @@ exportObj.basicCardData = ->
             id: 255
             unique: true
             faction: "Resistance"
-            ship: "T-70 X-Wing"
+            ship: "T-70 X-wing"
             skill: 1
             points: 45
             slots: [
@@ -6345,7 +6344,7 @@ exportObj.basicCardData = ->
             id: 256
             faction: "Resistance"
             xws: "blacksquadronace-t70xwing"
-            ship: "T-70 X-Wing"
+            ship: "T-70 X-wing"
             skill: 4
             points: 46
             slots: [
@@ -6362,7 +6361,7 @@ exportObj.basicCardData = ->
             name: "Red Squadron Expert"
             id: 257
             faction: "Resistance"
-            ship: "T-70 X-Wing"
+            ship: "T-70 X-wing"
             skill: 3
             points: 45
             slots: [
@@ -6379,7 +6378,7 @@ exportObj.basicCardData = ->
             name: "Blue Squadron Rookie"
             id: 258
             faction: "Resistance"
-            ship: "T-70 X-Wing"
+            ship: "T-70 X-wing"
             skill: 1
             points: 42
             slots: [
@@ -6549,7 +6548,7 @@ exportObj.basicCardData = ->
             id: 270
             unique: true
             faction: "Resistance"
-            ship: "RZ-2 A-Wing"
+            ship: "RZ-2 A-wing"
             skill: 4
             points: 36
             slots: [
@@ -6564,7 +6563,7 @@ exportObj.basicCardData = ->
             id: 271
             unique: true
             faction: "Resistance"
-            ship: "RZ-2 A-Wing"
+            ship: "RZ-2 A-wing"
             skill: 3
             points: 34
             slots: [
@@ -6997,7 +6996,7 @@ exportObj.basicCardData = ->
             id: 296
             unique: true
             faction: "Resistance"
-            ship: "T-70 X-Wing"
+            ship: "T-70 X-wing"
             skill: 3
             points: 51
             charge: 1
@@ -7016,7 +7015,7 @@ exportObj.basicCardData = ->
             id: 297
             unique: true
             faction: "Resistance"
-            ship: "T-70 X-Wing"
+            ship: "T-70 X-wing"
             skill: 4
             points: 47
             slots: [
@@ -7034,7 +7033,7 @@ exportObj.basicCardData = ->
             id: 298
             unique: true
             faction: "Resistance"
-            ship: "T-70 X-Wing"
+            ship: "T-70 X-wing"
             skill: 5
             points: 55
             slots: [
@@ -7052,7 +7051,7 @@ exportObj.basicCardData = ->
             id: 299
             unique: true
             faction: "Resistance"
-            ship: "T-70 X-Wing"
+            ship: "T-70 X-wing"
             skill: 5
             points: 52
             slots: [
@@ -7069,7 +7068,7 @@ exportObj.basicCardData = ->
             name: "Green Squadron Expert"
             id: 300
             faction: "Resistance"
-            ship: "RZ-2 A-Wing"
+            ship: "RZ-2 A-wing"
             skill: 3
             points: 33
             slots: [
@@ -7083,7 +7082,7 @@ exportObj.basicCardData = ->
             name: "Blue Squadron Recruit"
             id: 301
             faction: "Resistance"
-            ship: "RZ-2 A-Wing"
+            ship: "RZ-2 A-wing"
             skill: 1
             points: 32
             slots: [
@@ -7420,7 +7419,7 @@ exportObj.basicCardData = ->
             name: "Techno Union Bomber"
             id: 324
             faction: "Separatist Alliance"
-            ship: "Hyena-Class Droid Bomber"
+            ship: "Hyena-class Droid Bomber"
             skill: 1
             points: 26
             keyword: ["Droid"]
@@ -7436,7 +7435,7 @@ exportObj.basicCardData = ->
             name: "Bombardment Drone"
             id: 325
             faction: "Separatist Alliance"
-            ship: "Hyena-Class Droid Bomber"
+            ship: "Hyena-class Droid Bomber"
             skill: 3
             max_per_squad: 3
             keyword: ["Droid"]
@@ -7454,7 +7453,7 @@ exportObj.basicCardData = ->
             id: 326
             unique: true
             faction: "Separatist Alliance"
-            ship: "Hyena-Class Droid Bomber"
+            ship: "Hyena-class Droid Bomber"
             skill: 4
             points: 31
             keyword: ["Droid"]
@@ -7470,7 +7469,7 @@ exportObj.basicCardData = ->
             name: "Separatist Bomber"
             id: 327
             faction: "Separatist Alliance"
-            ship: "Hyena-Class Droid Bomber"
+            ship: "Hyena-class Droid Bomber"
             skill: 3
             points: 28
             keyword: ["Droid"]
@@ -7487,7 +7486,7 @@ exportObj.basicCardData = ->
             id: 328
             unique: true
             faction: "Separatist Alliance"
-            ship: "Hyena-Class Droid Bomber"
+            ship: "Hyena-class Droid Bomber"
             skill: 3
             points: 37
             keyword: ["Droid"]
@@ -7511,7 +7510,7 @@ exportObj.basicCardData = ->
             id: 329
             max_per_squad: 2
             faction: "Separatist Alliance"
-            ship: "Hyena-Class Droid Bomber"
+            ship: "Hyena-class Droid Bomber"
             skill: 1
             points: 26
             keyword: ["Droid"]
@@ -8516,7 +8515,7 @@ exportObj.basicCardData = ->
             skill: 5
             charge: 1
             recurring: 1
-            ship: "RZ-2 A-Wing"
+            ship: "RZ-2 A-wing"
             points: 43
             slots: [
                 "Talent"
@@ -8531,7 +8530,7 @@ exportObj.basicCardData = ->
             faction: "Resistance"
             unique: true
             skill: 2
-            ship: "RZ-2 A-Wing"
+            ship: "RZ-2 A-wing"
             points: 33
             slots: [
                 "Talent"
@@ -9491,7 +9490,7 @@ exportObj.basicCardData = ->
             id: 442
             unique: true
             faction: "Resistance"
-            ship: "T-70 X-Wing"
+            ship: "T-70 X-wing"
             skill: 6
             points: 57
             charge: 2
@@ -9513,7 +9512,7 @@ exportObj.basicCardData = ->
             id: 443
             unique: true
             faction: "Resistance"
-            ship: "T-70 X-Wing"
+            ship: "T-70 X-wing"
             skill: 4
             points: 53
             slots: [
@@ -9532,7 +9531,7 @@ exportObj.basicCardData = ->
             faction: "Resistance"
             unique: true
             skill: 1
-            ship: "RZ-2 A-Wing"
+            ship: "RZ-2 A-wing"
             points: 34
             slots: [
                 "Talent"
@@ -9546,7 +9545,7 @@ exportObj.basicCardData = ->
             faction: "Resistance"
             unique: true
             skill: 3
-            ship: "RZ-2 A-Wing"
+            ship: "RZ-2 A-wing"
             points: 34
             slots: [
                 "Talent"
@@ -9561,7 +9560,7 @@ exportObj.basicCardData = ->
             faction: "Resistance"
             unique: true
             skill: 4
-            ship: "RZ-2 A-Wing"
+            ship: "RZ-2 A-wing"
             points: 35
             slots: [
                 "Talent"
@@ -9576,7 +9575,7 @@ exportObj.basicCardData = ->
             faction: "Resistance"
             unique: true
             skill: 5
-            ship: "RZ-2 A-Wing"
+            ship: "RZ-2 A-wing"
             points: 37
             slots: [
                 "Talent"
@@ -9590,7 +9589,7 @@ exportObj.basicCardData = ->
             id: 448
             unique: true
             faction: "Resistance"
-            ship: "T-70 X-Wing"
+            ship: "T-70 X-wing"
             skill: 2
             points: 48
             slots: [
@@ -9607,7 +9606,7 @@ exportObj.basicCardData = ->
             id: 449
             unique: true
             faction: "Resistance"
-            ship: "T-70 X-Wing"
+            ship: "T-70 X-wing"
             skill: 4
             points: 47
             slots: [
@@ -12186,7 +12185,7 @@ exportObj.basicCardData = ->
             id: 585
             image_id: 328
             faction: "Separatist Alliance"
-            ship: "Hyena-Class Droid Bomber"
+            ship: "Hyena-class Droid Bomber"
             skill: 3
             points: 30
             charge: 2
@@ -12214,7 +12213,7 @@ exportObj.basicCardData = ->
             id: 586
             image_id: 326
             faction: "Separatist Alliance"
-            ship: "Hyena-Class Droid Bomber"
+            ship: "Hyena-class Droid Bomber"
             skill: 4
             points: 30
             slots: [
@@ -12233,7 +12232,7 @@ exportObj.basicCardData = ->
             id: 587
             image_id: 329
             faction: "Separatist Alliance"
-            ship: "Hyena-Class Droid Bomber"
+            ship: "Hyena-class Droid Bomber"
             skill: 1
             max_per_squad: 2
             points: 26
@@ -12570,7 +12569,7 @@ exportObj.basicCardData = ->
             id: 606
             unique: true
             faction: "Resistance"
-            ship: "T-70 X-Wing"
+            ship: "T-70 X-wing"
             skill: 4
             points: 46
             slots: [
@@ -12588,7 +12587,7 @@ exportObj.basicCardData = ->
             id: 607
             unique: true
             faction: "Resistance"
-            ship: "T-70 X-Wing"
+            ship: "T-70 X-wing"
             skill: 3
             points: 47
             slots: [
@@ -13653,7 +13652,7 @@ exportObj.basicCardData = ->
             id: 661
             image_id: 328
             faction: "Separatist Alliance"
-            ship: "Hyena-Class Droid Bomber"
+            ship: "Hyena-class Droid Bomber"
             skill: 3
             points: 38
             charge: 2
@@ -13680,7 +13679,7 @@ exportObj.basicCardData = ->
             id: 662
             image_id: 326
             faction: "Separatist Alliance"
-            ship: "Hyena-Class Droid Bomber"
+            ship: "Hyena-class Droid Bomber"
             skill: 4
             points: 36
             upgrades: [
@@ -13697,7 +13696,7 @@ exportObj.basicCardData = ->
             id: 663
             image_id: 329
             faction: "Separatist Alliance"
-            ship: "Hyena-Class Droid Bomber"
+            ship: "Hyena-class Droid Bomber"
             skill: 1
             max_per_squad: 2
             points: 34
@@ -16089,7 +16088,7 @@ exportObj.basicCardData = ->
             charge: 1
             points: 4
             faction: "Resistance"
-            ship: "T-70 X-Wing"
+            ship: "T-70 X-wing"
             modifier_func: (stats) ->
                 stats.actions.push 'Slam' if 'Slam' not in stats.actions
         }
@@ -16121,7 +16120,7 @@ exportObj.basicCardData = ->
             id: 175
             slot: "Configuration"
             points: 0
-            ship: "T-70 X-Wing"
+            ship: "T-70 X-wing"
             modifier_func: (stats) ->
                 stats.actions.push 'Barrel Roll'
                 stats.actions.push '*Focus'
@@ -16710,7 +16709,7 @@ exportObj.basicCardData = ->
         {
             name: "Landing Struts"
             id: 237
-            ship: "Hyena-Class Droid Bomber"
+            ship: "Hyena-class Droid Bomber"
             slot: "Configuration"
             points: 0
         }
@@ -17968,7 +17967,7 @@ exportObj.basicCardData = ->
         {
             name: "Overdrive Thruster"
             id: 345
-            ship: "T-70 X-Wing"
+            ship: "T-70 X-wing"
             unique: true
             slot: "Modification"
             pointsarray: [2,3,4,5,6,7,8]
@@ -23332,7 +23331,7 @@ exportObj.basicCardData = ->
             id: 267
             faction: "Resistance"
             pilot: "L'ulo L'ampar"
-            ship: "RZ-2 A-Wing"
+            ship: "RZ-2 A-wing"
             threat: 2
             upgrades: [
                 "Primed Thrusters"
@@ -23343,7 +23342,7 @@ exportObj.basicCardData = ->
             id: 268
             faction: "Resistance"
             pilot: "Greer Sonnel"
-            ship: "RZ-2 A-Wing"
+            ship: "RZ-2 A-wing"
             threat: 2
             upgrades: [
                 "Elusive"
@@ -23354,7 +23353,7 @@ exportObj.basicCardData = ->
             id: 269
             faction: "Resistance"
             pilot: "Green Squadron Expert"
-            ship: "RZ-2 A-Wing"
+            ship: "RZ-2 A-wing"
             threat: 2
             upgrades: [
                 "Heroic"
@@ -23366,7 +23365,7 @@ exportObj.basicCardData = ->
             id: 270
             faction: "Resistance"
             pilot: "Tallissan Lintra"
-            ship: "RZ-2 A-Wing"
+            ship: "RZ-2 A-wing"
             threat: 2
             upgrades: [
                 "Predator"
@@ -23377,7 +23376,7 @@ exportObj.basicCardData = ->
             id: 271
             faction: "Resistance"
             pilot: "Zari Bangel"
-            ship: "RZ-2 A-Wing"
+            ship: "RZ-2 A-wing"
             threat: 2
             upgrades: [
                 "Outmaneuver"
@@ -23388,7 +23387,7 @@ exportObj.basicCardData = ->
             id: 272
             faction: "Resistance"
             pilot: "Blue Squadron Recruit"
-            ship: "RZ-2 A-Wing"
+            ship: "RZ-2 A-wing"
             threat: 2
             upgrades: [
                 "Primed Thrusters"
@@ -23400,7 +23399,7 @@ exportObj.basicCardData = ->
             id: 273
             faction: "Resistance"
             pilot: "Poe Dameron"
-            ship: "T-70 X-Wing"
+            ship: "T-70 X-wing"
             threat: 4
             upgrades: [
                 "Proton Torpedoes"
@@ -23414,7 +23413,7 @@ exportObj.basicCardData = ->
             id: 274
             faction: "Resistance"
             pilot: "Jessika Pava"
-            ship: "T-70 X-Wing"
+            ship: "T-70 X-wing"
             threat: 3
             upgrades: [
                 "R5 Astromech"
@@ -23426,7 +23425,7 @@ exportObj.basicCardData = ->
             id: 275
             faction: "Resistance"
             pilot: "Black Squadron Ace (T-70)"
-            ship: "T-70 X-Wing"
+            ship: "T-70 X-wing"
             threat: 3
             upgrades: [
                 "Proton Torpedoes"
@@ -23438,7 +23437,7 @@ exportObj.basicCardData = ->
             id: 276
             faction: "Resistance"
             pilot: "Ello Asty"
-            ship: "T-70 X-Wing"
+            ship: "T-70 X-wing"
             threat: 3
             upgrades: [
                 "Elusive"
@@ -23450,7 +23449,7 @@ exportObj.basicCardData = ->
             id: 277
             faction: "Resistance"
             pilot: "Joph Seastriker"
-            ship: "T-70 X-Wing"
+            ship: "T-70 X-wing"
             threat: 3
             upgrades: [
                 "R2 Astromech"
@@ -23462,14 +23461,14 @@ exportObj.basicCardData = ->
             id: 278
             faction: "Resistance"
             pilot: "Jaycris Tubbs"
-            ship: "T-70 X-Wing"
+            ship: "T-70 X-wing"
             threat: 2
         }
         {
             id: 279
             faction: "Resistance"
             pilot: "Nien Nunb"
-            ship: "T-70 X-Wing"
+            ship: "T-70 X-wing"
             threat: 3
             upgrades: [
                 "Elusive"
@@ -23481,7 +23480,7 @@ exportObj.basicCardData = ->
             id: 280
             faction: "Resistance"
             pilot: "Lieutenant Bastian"
-            ship: "T-70 X-Wing"
+            ship: "T-70 X-wing"
             threat: 3
             upgrades: [
                 "Targeting Synchronizer"
@@ -23494,14 +23493,14 @@ exportObj.basicCardData = ->
             id: 281
             faction: "Resistance"
             pilot: "Red Squadron Expert"
-            ship: "T-70 X-Wing"
+            ship: "T-70 X-wing"
             threat: 2
         }
         {
             id: 282
             faction: "Resistance"
             pilot: "Temmin Wexley"
-            ship: "T-70 X-Wing"
+            ship: "T-70 X-wing"
             threat: 3
             upgrades: [
                 "Outmaneuver"
@@ -23513,7 +23512,7 @@ exportObj.basicCardData = ->
             id: 283
             faction: "Resistance"
             pilot: "Kare Kun"
-            ship: "T-70 X-Wing"
+            ship: "T-70 X-wing"
             threat: 3
             upgrades: [
                 "Predator"
@@ -23525,7 +23524,7 @@ exportObj.basicCardData = ->
             id: 284
             faction: "Resistance"
             pilot: "Blue Squadron Rookie"
-            ship: "T-70 X-Wing"
+            ship: "T-70 X-wing"
             threat: 2
             upgrades: [
                 "BB Astromech"
@@ -23716,7 +23715,7 @@ exportObj.basicCardData = ->
             id: 300
             faction: "Resistance"
             pilot: "Greer Sonnel"
-            ship: "RZ-2 A-Wing"
+            ship: "RZ-2 A-wing"
             threat: 2
             upgrades: [
                 "Marksmanship"
@@ -24530,7 +24529,7 @@ exportObj.basicCardData = ->
             id: 367
             faction: "Separatist Alliance"
             pilot: "Baktoid Prototype"
-            ship: "Hyena-Class Droid Bomber"
+            ship: "Hyena-class Droid Bomber"
             threat: 2
             upgrades: [
                 "Passive Sensors"
@@ -24542,7 +24541,7 @@ exportObj.basicCardData = ->
             id: 368
             faction: "Separatist Alliance"
             pilot: "Bombardment Drone"
-            ship: "Hyena-Class Droid Bomber"
+            ship: "Hyena-class Droid Bomber"
             threat: 2
             upgrades: [
                 "Trajectory Simulator"
@@ -24554,7 +24553,7 @@ exportObj.basicCardData = ->
             id: 369
             faction: "Separatist Alliance"
             pilot: "DBS-32C"
-            ship: "Hyena-Class Droid Bomber"
+            ship: "Hyena-class Droid Bomber"
             threat: 2
             upgrades: [
                 "TA-175"
@@ -24566,7 +24565,7 @@ exportObj.basicCardData = ->
             id: 370
             faction: "Separatist Alliance"
             pilot: "DBS-404"
-            ship: "Hyena-Class Droid Bomber"
+            ship: "Hyena-class Droid Bomber"
             threat: 2
             upgrades: [
                 "Predator"
@@ -24579,7 +24578,7 @@ exportObj.basicCardData = ->
             id: 371
             faction: "Separatist Alliance"
             pilot: "Separatist Bomber"
-            ship: "Hyena-Class Droid Bomber"
+            ship: "Hyena-class Droid Bomber"
             threat: 2
             upgrades: [
                 "Passive Sensors"
@@ -24590,7 +24589,7 @@ exportObj.basicCardData = ->
             id: 372
             faction: "Separatist Alliance"
             pilot: "Techno Union Bomber"
-            ship: "Hyena-Class Droid Bomber"
+            ship: "Hyena-class Droid Bomber"
             threat: 2
             upgrades: [
                 "Proton Torpedoes"
@@ -25095,7 +25094,7 @@ exportObj.basicCardData = ->
             id: 408
             faction: "Resistance"
             pilot: "Poe Dameron"
-            ship: "T-70 X-Wing"
+            ship: "T-70 X-wing"
             threat: [9,11,13,15]
             wingmates: [2,3,4,5]
             suffix: " and his wing"
@@ -25112,7 +25111,7 @@ exportObj.basicCardData = ->
             id: 409
             faction: "Resistance"
             pilot: "Black Squadron Ace (T-70)"
-            ship: "T-70 X-Wing"
+            ship: "T-70 X-wing"
             suffix: ", Poe Damerons wing"
             threat: '*'
             upgrades: [
@@ -25350,7 +25349,7 @@ exportObj.basicCardData = ->
             id: 426
             faction: "Resistance"
             pilot: "Blue Squadron Recruit"
-            ship: "RZ-2 A-Wing"
+            ship: "RZ-2 A-wing"
             threat: 2
             upgrades: [
                 "Primed Thrusters"
@@ -25362,7 +25361,7 @@ exportObj.basicCardData = ->
             id: 427
             faction: "Resistance"
             pilot: "Ronith Blario"
-            ship: "RZ-2 A-Wing"
+            ship: "RZ-2 A-wing"
             threat: 2
             upgrades: [
                 "Mag-Pulse Warheads"
@@ -25374,7 +25373,7 @@ exportObj.basicCardData = ->
             id: 428
             faction: "Resistance"
             pilot: "Zizi Tlo"
-            ship: "RZ-2 A-Wing"
+            ship: "RZ-2 A-wing"
             threat: 2
             upgrades: [
                 "Elusive"
@@ -26736,7 +26735,7 @@ exportObj.basicCardData = ->
             id: 540 
             faction: "Resistance"
             pilot: "Blue Squadron Rookie"
-            ship: "T-70 X-Wing"
+            ship: "T-70 X-wing"
             threat: 2
             upgrades: [
                 "Automated Target Priority"
@@ -26748,7 +26747,7 @@ exportObj.basicCardData = ->
             id: 541 
             faction: "Resistance"
             pilot: "Nimi Chireen"
-            ship: "T-70 X-Wing"
+            ship: "T-70 X-wing"
             threat: 2
             upgrades: [
                 "Automated Target Priority"
@@ -26760,7 +26759,7 @@ exportObj.basicCardData = ->
             id: 542 
             faction: "Resistance"
             pilot: "Red Squadron Expert"
-            ship: "T-70 X-Wing"
+            ship: "T-70 X-wing"
             threat: 2
             upgrades: [
                 "Predator"
@@ -26772,7 +26771,7 @@ exportObj.basicCardData = ->
             id: 543 
             faction: "Resistance"
             pilot: "Black Squadron Ace (T-70)"
-            ship: "T-70 X-Wing"
+            ship: "T-70 X-wing"
             threat: 3
             upgrades: [
                 "Deadeye Shot"
@@ -26787,7 +26786,7 @@ exportObj.basicCardData = ->
             id: 544 
             faction: "Resistance"
             pilot: "C'ai Threnalli"
-            ship: "T-70 X-Wing"
+            ship: "T-70 X-wing"
             threat: 3
             upgrades: [
                 "Backwards Tailslide"
@@ -26801,7 +26800,7 @@ exportObj.basicCardData = ->
             id: 545 
             faction: "Resistance"
             pilot: "Poe Dameron (HoH)"
-            ship: "T-70 X-Wing"
+            ship: "T-70 X-wing"
             threat: 3
             upgrades: [
                 "Backwards Tailslide"
@@ -26816,7 +26815,7 @@ exportObj.basicCardData = ->
             id: 546 
             faction: "Resistance"
             pilot: "Temmin Wexley (HoH)"
-            ship: "T-70 X-Wing"
+            ship: "T-70 X-wing"
             threat: 3
             upgrades: [
                 "Snap Shot"
@@ -26830,7 +26829,7 @@ exportObj.basicCardData = ->
             id: 547 
             faction: "Resistance"
             pilot: "Blue Squadron Recruit"
-            ship: "RZ-2 A-Wing"
+            ship: "RZ-2 A-wing"
             threat: 2
             upgrades: [
                 "Snap Shot"
@@ -26842,7 +26841,7 @@ exportObj.basicCardData = ->
             id: 548 
             faction: "Resistance"
             pilot: "Green Squadron Expert"
-            ship: "RZ-2 A-Wing"
+            ship: "RZ-2 A-wing"
             threat: 2
             upgrades: [
                 "Snap Shot"
@@ -26854,7 +26853,7 @@ exportObj.basicCardData = ->
             id: 549 
             faction: "Resistance"
             pilot: "Merl Cobben"
-            ship: "RZ-2 A-Wing"
+            ship: "RZ-2 A-wing"
             threat: 2
             upgrades: [
                 "Deadeye Shot"
@@ -26867,7 +26866,7 @@ exportObj.basicCardData = ->
             id: 550 
             faction: "Resistance"
             pilot: "Seftin Vanik"
-            ship: "RZ-2 A-Wing"
+            ship: "RZ-2 A-wing"
             threat: 2
             upgrades: [
                 "Daredevil"
@@ -26879,7 +26878,7 @@ exportObj.basicCardData = ->
             id: 551 
             faction: "Resistance"
             pilot: "Suralinda Javos"
-            ship: "RZ-2 A-Wing"
+            ship: "RZ-2 A-wing"
             threat: 2
             upgrades: [
                 "Starbird Slash"
@@ -26892,7 +26891,7 @@ exportObj.basicCardData = ->
             id: 552 
             faction: "Resistance"
             pilot: "Wrobie Tyce"
-            ship: "RZ-2 A-Wing"
+            ship: "RZ-2 A-wing"
             threat: 2
             upgrades: [
                 "Starbird Slash"
@@ -26904,7 +26903,7 @@ exportObj.basicCardData = ->
             id: 553 
             faction: "Resistance"
             pilot: "Wrobie Tyce"
-            ship: "RZ-2 A-Wing"
+            ship: "RZ-2 A-wing"
             threat: 2
             upgrades: [
                 "Starbird Slash"
