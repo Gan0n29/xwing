@@ -82,7 +82,7 @@ exportObj.manifestByExpansion =
             count: 2
         }
         {
-            name: 'T-70 X-Wing'
+            name: 'T-70 X-wing'
             type: 'ship'
             count: 1
         }
@@ -3929,9 +3929,9 @@ exportObj.manifestByExpansion =
             count: 2
         }
     ]
-    'T-70 X-Wing Expansion Pack': [
+    'T-70 X-wing Expansion Pack': [
         {
-            name: 'T-70 X-Wing'
+            name: 'T-70 X-wing'
             type: 'ship'
             count: 1
         }
@@ -4026,9 +4026,9 @@ exportObj.manifestByExpansion =
             count: 1
         }
     ]
-    'RZ-2 A-Wing Expansion Pack': [
+    'RZ-2 A-wing Expansion Pack': [
         {
-            name: 'RZ-2 A-Wing'
+            name: 'RZ-2 A-wing'
             type: 'ship'
             count: 1
         }
@@ -5658,9 +5658,9 @@ exportObj.manifestByExpansion =
         }
     ]
 
-    'Hyena-Class Droid Bomber Expansion Pack': [
+    'Hyena-class Droid Bomber Expansion Pack': [
         {
-            name: 'Hyena-Class Droid Bomber'
+            name: 'Hyena-class Droid Bomber'
             type: 'ship'
             count: 1
         }
@@ -8100,12 +8100,12 @@ exportObj.manifestByExpansion =
     ]
     "Heralds of Hope Expansion Pack": [
         {
-            name: 'T-70 X-Wing'
+            name: 'T-70 X-wing'
             type: 'ship'
             count: 2
         }
         {
-            name: 'RZ-2 A-Wing'
+            name: 'RZ-2 A-wing'
             type: 'ship'
             count: 1
         }
