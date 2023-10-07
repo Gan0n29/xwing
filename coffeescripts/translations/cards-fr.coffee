@@ -534,7 +534,6 @@ exportObj.cardLoaders['Français'] = () ->
     exportObj.renameShip """Modified TIE/ln Fighter""", """Chasseur TIE/ln modifié"""
     exportObj.renameShip """V-19 Torrent Starfighter""", """Chasseur Torrent V-19"""
     exportObj.renameShip """Delta-7 Aethersprite""", """Aethersprite Delta-7"""
-    exportObj.renameShip """Delta-7b Aethersprite""", """Aethersprite Delta-7b"""
     exportObj.renameShip """Sith Infiltrator""", """Infiltrateur Sith"""
     exportObj.renameShip """Vulture-class Droid Fighter""", """Chasseur Droïde de Classe Vulture"""
     exportObj.renameShip """Belbullab-22 Starfighter""", """Chasseur Belbullab-22"""
