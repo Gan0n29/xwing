@@ -1391,7 +1391,7 @@ exportObj.cardLoaders['Français'] = () ->
            display_name: """Pilote de la Base de Scarif"""
            text: """<i class="descriptive-text">Le TIE Reaper fut conçu pour déposer des troupes d’élite sur les points chauds des champs de bataille, comme les terrifiants Death Troopers du Directeur Krennic lors de la Bataille de Scarif.</i>"""
         "Scimitar Squadron Pilot":
-           display_name: """Scimitar Squadron Pilot"""
+           display_name: """Pilote de l’Escadron Cimeterre"""
            text: """<i class="descriptive-text">Le TIE/sa est particulièrement précis pour un bombardier, lui permettant des frappes ciblées tout en évitant d’infliger des dommages collatéraux excessifs à la zone environnante.</i>"""
         "Separatist Bomber":
            display_name: """Bombardier Séparatiste"""
