@@ -4660,7 +4660,7 @@ class Ship
         discord = """**#{@pilot.name} (#{if @quickbuildId != -1 then (if @primary then exportObj.quickbuildsById[@quickbuildId].threat else 0) else @pilot.points})**    \n"""
         slotted_upgrades = (upgrade for upgrade in @upgrades when upgrade.data?)
         if slotted_upgrades.length > 0
-            discord +="\n"
+#            discord +="\n"
             discord_upgrades= []
             for upgrade in slotted_upgrades
                 points = upgrade.getPoints()
