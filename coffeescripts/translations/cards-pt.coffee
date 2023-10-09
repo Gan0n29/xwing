@@ -825,20 +825,20 @@ exportObj.cardLoaders.Português = () ->
            text: """Quando você se move, você ignora obstáculos."""
 
         #Expansão YT-2400
-        "Dash Rendar (YLF)":
+        "Dash Rendar (2023)":
            display_name: """Dash Rendar (YLF)"""
            text: """Durante a Fase de Engajamento, você ignora os efeitos dos obstáculos que você estiver sobrepondo."""
-        "Dash Rendar (YLF-SL)":
-           display_name: """Dash Rendar (YLF-SL)"""
+        "Dash Rendar (YLF SL)":
+           display_name: """Dash Rendar (YLF SL)"""
            text: """Depois que você receber uma ficha vermelha como resultado de se mover através ou sobrepor um obstáculo, você pode transferir esta ficha vermelha para uma nave amiga em alcance 0-1."""
         "Dash Rendar (Scum)":
            display_name: """Dash Rendar"""
            text: """Depois que você receber uma ficha vermelha como resultado de se mover através ou sobrepor um obstáculo, você pode transferir esta ficha vermelha para uma nave amiga em alcance 0-1."""            
-        '"Leebo" (YLF)':
+        '"Leebo" (2023)':
            display_name: """“Leebo” (YLF)"""
            text: """Depois que você se defender ou realizar um ataque, se você gastou uma ficha de cálculo, receba 1 ficha de cálculo."""
-        '"Leebo" (YLF-SL)':
-           display_name: """“Leebo” (YLF-SL)"""
+        '"Leebo" (YLF SL)':
+           display_name: """“Leebo” (YLF SL)"""
            text: """No começo da Fase de Engajamento, você pode gastar uma ficha de cálculo para adquirir uma mira em uma nave inimiga em alcance 2-3."""
         '"Leebo" (Scum)':
            display_name: """“Leebo”"""
@@ -1896,38 +1896,6 @@ exportObj.cardLoaders.Português = () ->
            display_name: """Anakin Skywalker"""
            text: """Após você executar completamente uma manobra, se houver uma nave inimiga em seu %FRONTARC% em alcance 0-1 ou em seu %BULLSEYEARC%, você pode gastar 1 %FORCE% para remover 1 ficha de estresse."""
         "Adi Gallia":
-           display_name: """Adi Gallia"""
-           text: """Quando você se defender de um ataque em alcance 1, você pode gastar 1 %FORCE%. Se o fizer, o atacante não pode aplicar o bônus de alcance.%LINEBREAK%Quando você realizar um ataque contra um defensor em alcance 3, você pode gastar 1 %FORCE%. Se o fizer, o defensor não pode aplicar o bônus de alcance."""
-
-       #Delta-7b
-        "Jedi Knight (Delta-7b)":
-           display_name: """Cavaleiro Jedi"""
-           text: """<i class = flavor_text>Quando as Guerras Clônicas começaram, os Cavaleiros Jedi se uniram em prol da preservação da República, assumindo o comando de legiões de soldados clones e os liderando em batalha.</i>"""
-        "Barriss Offee (Delta-7b)":
-           display_name: """Barriss Offee"""
-           text: """Quando uma nave amiga em alcance 0-2 realizar um ataque, se o defensor estiver no %BULLSEYEARC% do atacante, você pode gastar 1 %FORCE% para mudar 1 resultado %FOCUS% para um resultado %HIT% ou 1 resultado %HIT% para um resultado %CRIT%."""
-        "Luminara Unduli (Delta-7b)":
-           display_name: """Luminara Unduli"""
-           text: """Quando uma nave amiga em alcance 0-2 defender, se ela não estiver no %BULLSEYEARC% do atacante, você pode gastar 1 %FORCE%. Se o fizer, mude 1 resultado %CRIT% para um resultado %HIT% ou 1 resultado %HIT% para um resultado %FOCUS%."""
-        "Saesee Tiin (Delta-7b)":
-           display_name: """Saesee Tiin"""
-           text: """Após uma nave amiga em alcance 0-2 revelar o disco dela, você pode gastar 1 %FORCE%. Se o fizer, coloque o disco dela em outra manobra de mesma velocidade e dificuldade."""
-        "Ahsoka Tano (Delta-7b)":
-           display_name: """Ahsoka Tano"""
-           text: """Após você executar completamente uma manobra, você pode escolher uma nave amiga em alcance 0-1 e gastar 1 %FORCE%. A nave escolhida pode fazer uma ação, mesmo estressada."""
-        "Plo Koon (Delta-7b)":
-           display_name: """Plo Koon"""
-           text: """No início da Fase de Engajamento, você pode gastar 1 %FORCE% e escolher outra nave amiga em alcance 0-2. Se o fizer, você pode transferir 1 ficha verde para a nave escolhida ou transferir 1 ficha laranja da nave escolhida para você."""
-        "Mace Windu (Delta-7b)":
-           display_name: """Mace Windu"""
-           text: """Após você executar completamente uma manobra vermelha, recupere 1 %FORCE%."""
-        "Obi-Wan Kenobi (Delta-7b)":
-           display_name: """Obi-Wan Kenobi"""
-           text: """Após uma nave amiga em alcance 0-2 gastar uma ficha de foco, você pode gastar 1 %FORCE%. Se o fizer, a nave amiga recebe 1 ficha de foco."""
-        "Anakin Skywalker (Delta-7b)":
-           display_name: """Anakin Skywalker"""
-           text: """Após você executar completamente uma manobra, se houver uma nave inimiga em seu %FRONTARC% em alcance 0-1 ou em seu %BULLSEYEARC%, você pode gastar 1 %FORCE% para remover 1 ficha de estresse."""
-        "Adi Gallia (Delta-7B)":
            display_name: """Adi Gallia"""
            text: """Quando você se defender de um ataque em alcance 1, você pode gastar 1 %FORCE%. Se o fizer, o atacante não pode aplicar o bônus de alcance.%LINEBREAK%Quando você realizar um ataque contra um defensor em alcance 3, você pode gastar 1 %FORCE%. Se o fizer, o defensor não pode aplicar o bônus de alcance."""
 
@@ -3424,9 +3392,9 @@ exportObj.cardLoaders.Português = () ->
         "Moldy Crow":
            display_name: """Moldy Crow"""
            text: """Ganhe uma arma primária %FRONTARC% com valor "3".%LINEBREAK%Durante a Fase Final, não remova até 2 fichas de foco."""
-        "Outrider":
+        "Outrider (2023)":
            display_name: """Outrider"""
-           text: """Quando você realizar um ataque primário em alcance 3, role 1 dado de ataque adicional.%LINEBREAK%Quando você realizar um ataque obstruído, você pode mudar um dos resultados %EVADE% do defensor para um resultado %FOCUS%.%LINEBREAK% Errata (desde a errata 1.8): novo texto"</i>"""
+           text: """Quando você realizar um ataque primário em alcance 3, role 1 dado de ataque adicional.%LINEBREAK%Quando você realizar um ataque obstruído, você pode mudar um dos resultados %EVADE% do defensor para um resultado %FOCUS%."""
         "Phantom":
            display_name: """Phantom"""
            text: """Você pode acoplar em alcance 1."""
