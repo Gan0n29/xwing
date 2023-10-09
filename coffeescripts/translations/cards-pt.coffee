@@ -1848,8 +1848,8 @@ exportObj.cardLoaders.Português = () ->
         '"Jag"':
            display_name: """“Jag”"""
            text: """Após uma nave amiga em alcance 1-2 em seu %LEFTARC% ou %RIGHTARC% defender, você pode adquirir uma mira no atacante."""
-        '"" (ARC-170)':
-           display_name: """“”"""
+        '"Odd Ball" (ARC-170)':
+           display_name: """“Odd Ball”"""
            text: """Após você executar completamente uma manobra vermelha ou realizar uma ação vermelha, se houver uma nave inimiga em seu %BULLSEYEARC%, você pode adquirir uma mira nessa nave."""
         '"Wolffe"':
            display_name: """“Wolffe”"""
