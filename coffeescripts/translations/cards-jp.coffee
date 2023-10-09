@@ -1648,7 +1648,7 @@ exportObj.cardLoaders.日本語 = () ->
         "Ezra Bridger (Gauntlet Fighter)":
            display_name: """Ezra Bridger"""
            text: """君が防御するか攻撃を実行する際、もし君がストレス状態なら、君は%FORCE%を1つ消費して%FOCUS%の結果を2つまで%EVADE%あるいは%HIT%の結果に変更しても良い。"""
-        "Chopper (Gauntlet Fighter)":
+        '"Chopper" (Gauntlet Fighter)':
            display_name: """Chopper"""
            text: """エンゲージメント・フェイズの開始時、レンジ0の各敵宇宙船は、ジャム・トークンを2つ得る。"""
         "The Mandalorian":
