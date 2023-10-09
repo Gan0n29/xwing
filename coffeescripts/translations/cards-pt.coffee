@@ -2530,46 +2530,46 @@ exportObj.cardLoaders.Português = () ->
 
 
         # Starter Packs
-        "Darth Vader (SSP)":
+        "Darth Vader (SSP SL)":
            display_name: """Darth Vader (SSP)"""
            text: """Depois que você realizar uma ação, você pode gastar 1 %FORCE% para realizar uma ação."""
-        "Maarek Stele (SSP)":
+        "Maarek Stele (SSP SL)":
            display_name: """Maarek Stele (SSP)"""
            text: """Quando você realizar um ataque, se o defensor for receber uma carta de dano virada para cima, ao invés disso compre 3 cartas de dano, escolha 1 e descarte o resto. """
-        "Captain Jonus (SSP)":
+        "Captain Jonus (SSP SL)":
            display_name: """Capitão Jonus (SSP)"""
            text: """Quando uma nave amiga em alcance 0-1 realiza um ataque %TORPEDO% ou %MISSILE%, essa nave pode rerolar até 2 dados de ataque. """
-        "Tomax Bren (SSP)":
+        "Tomax Bren (SSP SL)":
            display_name: """Tomax Bren (SSP)"""
            text: """Depois que você realizar uma ação %RELOAD%, você pode recuperar 1 ficha %CHARGE% em 1 de suas cartas de melhoria %TALENT% equipadas. """
-        '"Night Beast" (SSP)':
+        '"Night Beast" (SSP SL)':
            display_name: """“Night Beast” (SSP)"""
            text: """Depois que você realizar completamente uma manobra azul, você pode realizar uma ação %FOCUS%."""
-        "Valen Rudor (SSP)":
+        "Valen Rudor (SSP SL)":
            display_name: """Valen Rudor (SSP)"""
            text: """Depois que uma nave amiga em alcance 0-1 defender (depois que o dano for resolvido, se houver), você pode realizar uma ação."""
-        "Iden Versio (SSP)":
+        "Iden Versio (SSP SL)":
            display_name: """Iden Versio (SSP)"""
            text: """Antes de um caça TIE/ln amigo em alcance 0-1 sofrer 1 ou mais danos, você pode gastar 1 %CHARGE%. Se o fizer, evite esse dano."""
-        "Luke Skywalker (SSP)":
+        "Luke Skywalker (SSP SL)":
            display_name: """Luke Skywalker (SSP)"""
            text: """Depois que você se tornar o defensor (antes dos dados serem rolados), você pode recuperar 1 %FORCE%."""
-        "Jek Porkins (SSP)":
+        "Jek Porkins (SSP SL)":
            display_name: """Jek Porkins (SSP)"""
            text: """Depois que você receber uma ficha de estresse, você pode rolar 1 dado de ataque para removê-la. Em um resultado %HIT%, sofra 1 dano %HIT%."""
-        '"Dutch" Vander (SSP)':
+        '"Dutch" Vander (SSP SL)':
            display_name: """“Dutch” Vander (SSP)"""
            text: """Depois que você realizar uma ação %LOCK%, você pode escolher 1 nave amiga em alcance 1-3. Essa nave pode adquirir uma mira no objeto que você mirou, ignorando restrições de alcance."""
-        "Horton Salm (SSP)":
+        "Horton Salm (SSP SL)":
            display_name: """Horton Salm (SSP)"""
            text: """Quando você realizar um ataque, você pode rerolar 1 dado de ataque para cada outra nave amiga em alcance 0-1 do defensor."""
-        "Arvel Crynyd (SSP)":
+        "Arvel Crynyd (SSP SL)":
            display_name: """Arvel Crynyd (SSP)"""
            text: """Se você falharia uma ação %BOOST% por sobrepor outra nave, ao invés disso, resolva-a como se estivesse executando parcialmente uma manobra.%LINEBREAK% Quando Você realizar um ataque em alcance 0, trate-o como um ataque em alcance 1."""
-        "Jake Farrell (SSP)":
+        "Jake Farrell (SSP SL)":
            display_name: """Jake Farrell (SSP)"""
            text: """Depois que você realizar uma ação %BARRELROLL% ou %BOOST%, você pode escolher uma nave amiga em alcance 0-1. Essa nave pode realizar uma ação %FOCUS%."""
-        "Shara Bey (SSP)":
+        "Shara Bey (SSP SL)":
            display_name: """Shara Bey (SSP)"""
            text: """Quando você defender ou realizar um ataque primário, você pode gastar 1 mira que você possua na nave inimiga e adicionar 1 resultado %FOCUS% ao resultado dos seus dados. """
 
