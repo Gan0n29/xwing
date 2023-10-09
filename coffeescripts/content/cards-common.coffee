@@ -17961,7 +17961,7 @@ exportObj.basicCardData = ->
             slot: "Talent"
             points: 1
             restrictions: [
-                ["Keyword", "A-Wing"]
+                ["Keyword", "A-wing"]
             ]
         }
         {
