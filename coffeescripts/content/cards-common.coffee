@@ -28478,14 +28478,15 @@ String::serialtoxws = ->
 
                     if not pilot_data.upgrades?
                         upgrade_ids = upgrade_ids.split upgrade_splitter
-
+                        upgrade_total_points = 0
                         upgrade_obj = {}
-
+                        
                         for i in [upgrade_ids.length - 1 ... -1]
                             upgrade_id = upgrade_ids[i]
                             # upgrade_data is the pilot info
                             upgrade_data = cards_upgrades[parseInt(upgrade_id)]
                             if upgrade_data
+                                upgrade_total_points = upgrade_total_points + upgrade_data.points
                                 switch upgrade_data.slot
                                     when 'Force'
                                         slot = 'force-power'
@@ -28497,6 +28498,8 @@ String::serialtoxws = ->
                                 (upgrade_obj[slot] ?= []).push (upgrade_data.xws ? upgrade_data.canonical_name)
 
                         pilot_xws.upgrades = upgrade_obj
+
+                        pilot_xws.points = pilot_xws.points + upgrade_total_points
                 
                     xws.pilots.push pilot_xws
 
