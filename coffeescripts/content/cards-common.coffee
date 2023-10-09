@@ -28400,6 +28400,23 @@ String::ParseParameter = (name) ->
     else
         return decodeURIComponent(results[1].replace(/\+/g, " "))
 
+getUpgradePoints = (upgrade, pilot) ->
+        if upgrade?.variableagility?
+            upgrade?.pointsarray[pilot?.agility]
+        else if upgrade?.variablebase?
+            if pilot?.medium?
+                upgrade?.pointsarray[1]
+            else if pilot?.large?
+                upgrade?.pointsarray[2]
+            else if pilot?.huge?
+                upgrade?.pointsarray[3]
+            else
+                upgrade?.pointsarray[0]
+        else if upgrade?.variableinit?
+            upgrade?.pointsarray[pilot?.skill]
+        else
+            upgrade?.points ? 0
+            
 
 String::serialtoxws = ->
     xws =
@@ -28413,7 +28430,7 @@ String::serialtoxws = ->
                 builder: 'YASB 2.0'
                 builder_url: "https://xwing-legacy.com"
                 link: "https://xwing-legacy.com/#{this}" 
-        version: '09/08/2023'
+        version: '2023/10/09'
 
     serialized = this.ParseParameter('d')
     re = if "Z" in serialized then /^v(\d+)Z(.*)/ else /^v(\d+)!(.*)/
@@ -28486,7 +28503,7 @@ String::serialtoxws = ->
                             # upgrade_data is the pilot info
                             upgrade_data = cards_upgrades[parseInt(upgrade_id)]
                             if upgrade_data
-                                upgrade_total_points = upgrade_total_points + upgrade_data.points
+                                upgrade_total_points += getUpgradePoints(upgrade_data,pilot_data)
                                 switch upgrade_data.slot
                                     when 'Force'
                                         slot = 'force-power'
@@ -28499,7 +28516,7 @@ String::serialtoxws = ->
 
                         pilot_xws.upgrades = upgrade_obj
 
-                        pilot_xws.points = pilot_xws.points + upgrade_total_points
+                        pilot_xws.points += upgrade_total_points
                 
                     xws.pilots.push pilot_xws
 
