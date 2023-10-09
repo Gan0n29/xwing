@@ -10714,7 +10714,7 @@ exportObj.basicCardData = ->
             faction: "Galactic Republic"
             ship: "Gauntlet Fighter"
             skill: 2
-            points: 52
+            points: 54
             unique: true
             keyword: ["Mandalorian"]
             slots: [
