@@ -1848,8 +1848,8 @@ exportObj.cardLoaders.Português = () ->
         '"Jag"':
            display_name: """“Jag”"""
            text: """Após uma nave amiga em alcance 1-2 em seu %LEFTARC% ou %RIGHTARC% defender, você pode adquirir uma mira no atacante."""
-        '"Odd Ball" (ARC-170)':
-           display_name: """“Odd Ball”"""
+        '"" (ARC-170)':
+           display_name: """“”"""
            text: """Após você executar completamente uma manobra vermelha ou realizar uma ação vermelha, se houver uma nave inimiga em seu %BULLSEYEARC%, você pode adquirir uma mira nessa nave."""
         '"Wolffe"':
            display_name: """“Wolffe”"""
@@ -2015,7 +2015,7 @@ exportObj.cardLoaders.Português = () ->
            text: """Quando uma nave na qual você possui uma mira em alcance 1-3 defender ou realizar um ataque, você pode gastar 1 %CHARGE% para previnir que o bônus de alcance seja aplicado."""
         '"Contrail"':
            text: """Quando você defender ou realizar um ataque, se a direção da sua manobra revelada for a mesma da nave inimiga, você pode mudar 1 dos resultados %FOCUS% da nave inimiga para um resultado em branco."""
-        '"Odd Ball" (V-wing)':
+        '"Odd Ball" (V-Wing)':
            display_name: """“Odd Ball”"""
            text: """Após você executar completamente uma manobra vermelha ou realizar uma ação vermelha, se houver uma nave inimiga em seu %BULLSEYEARC%, você pode adquirir uma mira nessa nave."""
         '"Contrail" (SoC)':
