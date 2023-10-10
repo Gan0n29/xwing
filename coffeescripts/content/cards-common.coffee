@@ -28430,7 +28430,7 @@ String::serialtoxws = ->
                 builder: 'YASB 2.0'
                 builder_url: "https://xwing-legacy.com"
                 link: "https://xwing-legacy.com/#{this}" 
-        version: '2023/10/09'
+        version: '2023/10/10'
     
     squadron_total_points = 0
     
@@ -28490,7 +28490,7 @@ String::serialtoxws = ->
                 if pilot_data
                     pilot_xws =
                         id: (pilot_data.xws ? pilot_data.canonical_name)
-                        name: (pilot_data.xws ? pilot_data.canonical_name)
+                        name: (pilot_data.name)
                         points: pilot_data.points
                         ship: pilot_data.ship.canonicalize()
                         upgrades: []
