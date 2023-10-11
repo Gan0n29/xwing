@@ -161,6 +161,8 @@ exportObj.translations['Français'] =
         "Hotshots and Aces II Reinforcements Pack": "Paquet de Renforts Pilotes Hors Pair II"
         "Galactic Empire Squadron Starter Pack": "Boite de Base D'Escadron Empire"
         "Rebel Alliance Squadron Starter Pack": "Boite de Base D'Escadron Alliance Rebelle"
+        "YT-2400 Light Freighter Expansion Pack": "Paquet d'extension Cargo léger YT-2400"
+        "TIE/sa TIE Bomber Expansion Pack": "Paquet d'extension Bombardier TIE/sa"
         "Loose Ships": "Vaisseaux en vrac"
 
     ui:
@@ -565,6 +567,7 @@ exportObj.cardLoaders['Français'] = () ->
     exportObj.renameShip """Gozanti-class Cruiser""", """Croiseur de Classe Gozanti"""
     exportObj.renameShip """C-ROC Cruiser""", """Croiseur C-ROC"""
     exportObj.renameShip """Trident-class Assault Ship""", """Vaisseau d'Assaut de Classe Trident"""
+    exportObj.renameShip """YT-2400 Light Freighter (2023)""", """Cargo léger YT-2400 (2023)"""
 
 
     pilot_translations =
