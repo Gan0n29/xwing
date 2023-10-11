@@ -2191,7 +2191,7 @@ exportObj.cardLoaders['Français'] = () ->
            display_name: """“Dark Curse” <i class="pilot-title">Bataille de Yavin - Left Side Legal</i>"""
            text: """Tant que vous défendez, les dés de l’attaquant ne peuvent pas être modifiés. """
         "Darth Vader (BoY)":
-           display_name: """Darth Vader <i class="pilot-title">Bataille de Yavin - Left Side Legal</i>"""
+           display_name: """Dark Vador <i class="pilot-title">Bataille de Yavin - Left Side Legal</i>"""
            text: """Tant que vous effectuez une attaque, vous pouvez dépenser 1 %FORCE% pour changer 1 résultat vierge en un résultat %HIT%."""
         "Iden Versio (BoY)": 
            display_name: """Iden Versio <i class="pilot-title">Bataille de Yavin - Left Side Legal</i>"""
@@ -2247,7 +2247,7 @@ exportObj.cardLoaders['Français'] = () ->
            display_name: """“Axe” <i class="pilot-title">Siège de Coruscant - Left Side Legal</i>"""
            text: """Après avoir effectué une attaque, vous pouvez choisir un autre vaisseau allié doté de la capacité <b>Né pour Ça</b> situé à portée 0–2 et dans votre %LEFTARC% ou %RIGHTARC%. Le vaisseau choisi gagne un verrouillage sur le défenseur."""
         "Count Dooku (SoC)":
-           display_name: """Count Dooku <i class="pilot-title">Siège de Coruscant - Left Side Legal</i>"""
+           display_name: """Comte Dooku <i class="pilot-title">Siège de Coruscant - Left Side Legal</i>"""
            text: """Lors d'une attaque, avant qu’un vaisseau à portée 0–2 ne lance les dés d’attaque ou de défense, si toutes vos %FORCE% sont actives, vous pouvez dépenser 1 %FORCE% et nommer un résultat. Si le lancer ne contient pas le résultat nommé, le vaisseau doit changer 1 dé pour ce résultat."""
         "DBS-32C (SoC)":
            display_name: """DBS-32C <i class="pilot-title">Siège de Coruscant - Left Side Legal</i>"""
@@ -2256,7 +2256,7 @@ exportObj.cardLoaders['Français'] = () ->
            display_name: """DBS-404 <i class="pilot-title">Siège de Coruscant - Left Side Legal</i>"""
            text: """Tant que vous effectuez une attaque à portée d’attaque 1, vous <b>devez</b> lancer 1 dé supplémentaire. Après que l’attaque a touché, subissez 1 dégât %CRIT%."""
         "Baktoid Prototype (SoC)":
-           display_name: """Baktoid Prototype <i class="pilot-title">Siège de Coruscant - Left Side Legal</i>"""
+           display_name: """Prototype Baktoid <i class="pilot-title">Siège de Coruscant - Left Side Legal</i>"""
            text: """Tant que vous effectuez une attaque spéciale, si un vaisseau allié doté de la capacité de vaisseau <b>Calculs En Réseau</b> a un verrouillage sur le défenseur, vous pouvez ignorer les prérequis %FOCUS%, %CALCULATE% ou %LOCK% de cette attaque. """
         "DIS-347 (SoC)":
            display_name: """DIS-347 <i class="pilot-title">Siège de Coruscant - Left Side Legal</i>"""
@@ -2265,7 +2265,7 @@ exportObj.cardLoaders['Français'] = () ->
            display_name: """DIS-T81 <i class="pilot-title">Siège de Coruscant - Left Side Legal</i>"""
            text: """Tant que vous défendez ou effectuez une attaque, vous pouvez relancer n’importe quel nombre de vos dés. Puis, si vous défendez, gagnez 1 marqueur de contrainte pour chaque dé ainsi relancé. Si vous avez attaqué, gagnez 1 marqueur d’épuisement pour chaque dé qui a été relancé à la place."""
         "Phlac-Arphocc Prototype (SoC)":
-           display_name: """Phlac-Arphocc Prototype <i class="pilot-title">Siège de Coruscant - Left Side Legal</i>"""
+           display_name: """Prototype Phlac-Arphocc <i class="pilot-title">Siège de Coruscant - Left Side Legal</i>"""
            text: """Au début de la phase d’engagement, s’il y a un vaisseau ennemi dans votre %BULLSEYEARC%, gagnez un marqueurs de calcul."""
         "DFS-081 (SoC)":
            display_name: """DFS-081 <i class="pilot-title">Siège de Coruscant - Left Side Legal</i>"""
@@ -2274,7 +2274,7 @@ exportObj.cardLoaders['Français'] = () ->
            display_name: """DFS-311 <i class="pilot-title">Siège de Coruscant - Left Side Legal</i>"""
            text: """Au début de la phase d’engagement, vous pouvez transférer 1 de vos marqueurs de calcul à un autre vaisseau allié à portée 0–3."""
         "Haor Chall Prototype (SoC)":
-           display_name: """Haor Chall Prototype <i class="pilot-title">Siège de Coruscant - Left Side Legal</i>"""
+           display_name: """Prototype Haor Chall <i class="pilot-title">Siège de Coruscant - Left Side Legal</i>"""
            text: """Après qu’un vaisseau ennemi dans votre %BULLSEYEARC% a déclaré un élément de scénario ou un autre vaisseau allié comme défenseur, vous pouvez effectuer une action %CALCULATE% ou %LOCK%."""
 
         # Battle of Yavin Pilots Standard Loadout
@@ -2315,7 +2315,7 @@ exportObj.cardLoaders['Français'] = () ->
            display_name: """“Dark Curse” <i class="pilot-title">Bataille de Yavin - Arsenal Standard</i>"""
            text: """Tant que vous défendez, les dés de l’attaquant ne peuvent pas être modifiés. """
         "Darth Vader (BoY SL)":
-           display_name: """Darth Vader <i class="pilot-title">Bataille de Yavin - Arsenal Standard</i>"""
+           display_name: """Dark Vador <i class="pilot-title">Bataille de Yavin - Arsenal Standard</i>"""
            text: """Tant que vous effectuez une attaque, vous pouvez dépenser 1 %FORCE% pour changer 1 résultat vierge en un résultat %HIT%."""
         "Iden Versio (BoY SL)": 
            display_name: """Iden Versio <i class="pilot-title">Bataille de Yavin - Arsenal Standard</i>"""
@@ -2371,7 +2371,7 @@ exportObj.cardLoaders['Français'] = () ->
            display_name: """“Axe” <i class="pilot-title">Siège de Coruscant - Arsenal Standard</i>"""
            text: """Après avoir effectué une attaque, vous pouvez choisir un autre vaisseau allié doté de la capacité <b>Né pour Ça</b> situé à portée 0–2 et dans votre %LEFTARC% ou %RIGHTARC%. Le vaisseau choisi gagne un verrouillage sur le défenseur."""
         "Count Dooku (SoC SL)":
-           display_name: """Count Dooku <i class="pilot-title">Siège de Coruscant - Arsenal Standard</i>"""
+           display_name: """Comte Dooku <i class="pilot-title">Siège de Coruscant - Arsenal Standard</i>"""
            text: """Lors d'une attaque, avant qu’un vaisseau à portée 0–2 ne lance les dés d’attaque ou de défense, si toutes vos %FORCE% sont actives, vous pouvez dépenser 1 %FORCE% et nommer un résultat. Si le lancer ne contient pas le résultat nommé, le vaisseau doit changer 1 dé pour ce résultat."""
         "DBS-32C (SoC SL)":
            display_name: """DBS-32C <i class="pilot-title">Siège de Coruscant - Arsenal Standard</i>"""
@@ -2380,7 +2380,7 @@ exportObj.cardLoaders['Français'] = () ->
            display_name: """DBS-404 <i class="pilot-title">Siège de Coruscant - Arsenal Standard</i>"""
            text: """Tant que vous effectuez une attaque à portée d’attaque 1, vous <b>devez</b> lancer 1 dé supplémentaire. Après que l’attaque a touché, subissez 1 dégât %CRIT%."""
         "Baktoid Prototype (SoC SL)":
-           display_name: """Baktoid Prototype <i class="pilot-title">Siège de Coruscant - Arsenal Standard</i>"""
+           display_name: """Prototype Baktoid <i class="pilot-title">Siège de Coruscant - Arsenal Standard</i>"""
            text: """Tant que vous effectuez une attaque spéciale, si un vaisseau allié doté de la capacité de vaisseau <b>Calculs En Réseau</b> a un verrouillage sur le défenseur, vous pouvez ignorer les prérequis %FOCUS%, %CALCULATE% ou %LOCK% de cette attaque. """
         "DIS-347 (SoC SL)":
            display_name: """DIS-347 <i class="pilot-title">Siège de Coruscant - Arsenal Standard</i>"""
@@ -2389,7 +2389,7 @@ exportObj.cardLoaders['Français'] = () ->
            display_name: """DIS-T81 <i class="pilot-title">Siège de Coruscant - Arsenal Standard</i>"""
            text: """Tant que vous défendez ou effectuez une attaque, vous pouvez relancer n’importe quel nombre de vos dés. Puis, si vous défendez, gagnez 1 marqueur de contrainte pour chaque dé ainsi relancé. Si vous avez attaqué, gagnez 1 marqueur d’épuisement pour chaque dé qui a été relancé à la place."""
         "Phlac-Arphocc Prototype (SoC SL)":
-           display_name: """Phlac-Arphocc Prototype <i class="pilot-title">Siège de Coruscant - Arsenal Standard</i>"""
+           display_name: """Prototype Phlac-Arphocc <i class="pilot-title">Siège de Coruscant - Arsenal Standard</i>"""
            text: """Au début de la phase d’engagement, s’il y a un vaisseau ennemi dans votre %BULLSEYEARC%, gagnez un marqueurs de calcul."""
         "DFS-081 (SoC SL)":
            display_name: """DFS-081 <i class="pilot-title">Siège de Coruscant - Arsenal Standard</i>"""
@@ -2398,7 +2398,7 @@ exportObj.cardLoaders['Français'] = () ->
            display_name: """DFS-311 <i class="pilot-title">Siège de Coruscant - Arsenal Standard</i>"""
            text: """Au début de la phase d’engagement, vous pouvez transférer 1 de vos marqueurs de calcul à un autre vaisseau allié à portée 0–3."""
         "Haor Chall Prototype (SoC SL)":
-           display_name: """Haor Chall Prototype <i class="pilot-title">Siège de Coruscant - Arsenal Standard</i>"""
+           display_name: """Prototype Haor Chall <i class="pilot-title">Siège de Coruscant - Arsenal Standard</i>"""
            text: """Après qu’un vaisseau ennemi dans votre %BULLSEYEARC% a déclaré un élément de scénario ou un autre vaisseau allié comme défenseur, vous pouvez effectuer une action %CALCULATE% ou %LOCK%."""
 
             
@@ -2568,10 +2568,10 @@ exportObj.cardLoaders['Français'] = () ->
            display_name: """Major Rhymer <i class="pilot-title">Destruction Millimétrée - Arsenal Standard</i>"""
            text: """Tant que vous effectuez une attaque %TORPEDO%, si le défenseur est dans votre %BULLSEYEARC%, changez un résultat %FOCUS% en résultat %CRIT%."""
         "Captain Jonus (TBE)":
-           display_name: """Captain Jonus <i class="pilot-title">Protection Maximale - Left Side Legal</i>"""
+           display_name: """Capitaine Jonus <i class="pilot-title">Protection Maximale - Left Side Legal</i>"""
            text: """Après avoir largué ou lancé un engin, gagnez un marqueur d'évasion."""
         "Captain Jonus (TBE SL)":
-           display_name: """Captain Jonus <i class="pilot-title">Protection Maximale - Arsenal Standard</i>"""
+           display_name: """Capitaine Jonus <i class="pilot-title">Protection Maximale - Arsenal Standard</i>"""
            text: """Après avoir largué ou lancé un engin, gagnez un marqueur d'évasion."""
         "Tomax Bren (TBE)":
            display_name: """Tomax Bren <i class="pilot-title">Vétéran Cimeterre - Left Side Legal</i>"""
