@@ -14310,7 +14310,7 @@ exportObj.basicCardData = ->
         }
         {
             name: "Dash Rendar (Scum)"
-            xws: "dashrendarswz103-sl-scumandvillainy"
+            xws: "dashrendar-swz103-sl-scumandvillainy"
             canonical_name: 'Dash Rendar'.canonicalize()
             unique: true
             id: 695
@@ -14332,7 +14332,7 @@ exportObj.basicCardData = ->
         }
         {
             name: "Dash Rendar (Scum SL)"
-            xws: "dashrendarswz103-sl-scumandvillainy"
+            xws: "dashrendar-swz103-sl-scumandvillainy"
             canonical_name: 'Dash Rendar'.canonicalize()
             unique: true
             id: 696
@@ -14487,6 +14487,7 @@ exportObj.basicCardData = ->
             id: 0
             slot: "Astromech"
             canonical_name: '"Chopper"'.canonicalize()
+            xws: "chopper"
             points: 2
             unique: true
             faction: "Rebel Alliance"
@@ -14690,7 +14691,6 @@ exportObj.basicCardData = ->
             name: '"Chopper" (Crew)'
             id: 23
             canonical_name: '"Chopper"'.canonicalize()
-            xws: "chopper-crew"
             slot: "Crew"
             points: 1
             unique: true
