@@ -2427,7 +2427,7 @@ class exportObj.SquadBuilder
                     possible_inis.sort()
         
                     container.find('.info-image-container').hide()
-                    container.find('.info-type').text type
+                    container.find('.info-type').text exportObj.translate("types", type)
                     container.find('.info-name').html """#{if data.display_name then data.display_name else data.name}#{if exportObj.isReleased(data) then "" else " (#{@uitranslation('unreleased')})"}"""
                     if @collection?.counts?
                         ship_count = @collection.counts?.ship?[data.name] ? 0
@@ -2484,6 +2484,10 @@ class exportObj.SquadBuilder
                     else
                         container.find('tr.info-base td.info-data').text exportObj.translate("gameterms", "Small")
                     container.find('tr.info-base').show()
+                    container.find('tr.info-faction td.info-data').text [exportObj.translate("faction", faction) for faction in data.factions]
+                    container.find('tr.info-faction').hide() # this information is clear from the context, unless we are in card browser
+
+                    container.find('p.info-restrictions').hide()
 
                 
                 
@@ -2555,7 +2559,7 @@ class exportObj.SquadBuilder
                         container.find('.info-image').attr 'src', pilot_img
                         container.find('.info-image-container').show()
                     #
-                    container.find('.info-type').text type
+                    container.find('.info-type').text exportObj.translate("types", type)
                     container.find('.info-sources.info-data').text (exportObj.translate('sources', source) for source in data.sources).sort().join(', ')
                     container.find('.info-sources').show()
                     if @collection?.counts?
@@ -2614,7 +2618,7 @@ class exportObj.SquadBuilder
 
                     container.find('tr.info-ship td.info-data').text data.ship
                     container.find('tr.info-ship').show()
-                    container.find('tr.info-faction td.info-data').text data.faction 
+                    container.find('tr.info-faction td.info-data').text exportObj.translate("faction", data.faction)
                     container.find('tr.info-faction').hide() # this information is clear from the context, unless we are in card browser
                     if ship.large?
                         container.find('tr.info-base td.info-data').text exportObj.translate("gameterms", "Large")
@@ -2629,12 +2633,14 @@ class exportObj.SquadBuilder
                     
                     container.find('tr.info-skill td.info-data').text data.skill
                     container.find('tr.info-skill').show()
+
+                    container.find('tr.info-points td.info-data').text data.points
+                    container.find('tr.info-points').show()
                     if data.engagement?
                         container.find('tr.info-engagement td.info-data').text data.engagement
                         container.find('tr.info-engagement').show()
                     else
                         container.find('tr.info-engagement').hide()
-                    container.find('tr.info-points').hide()
                     
                     
 #                    for cls in container.find('tr.info-attack td.info-header i.xwing-miniatures-font')[0].classList
@@ -2798,7 +2804,7 @@ class exportObj.SquadBuilder
 
                     container.find('tr.info-ship td.info-data').text data.ship
                     container.find('tr.info-ship').show()
-                    container.find('tr.info-faction td.info-data').text data.faction 
+                    container.find('tr.info-faction td.info-data').text exportObj.translate("faction", data.faction)
                     container.find('tr.info-faction').hide() # this information is clear from the context, unless we are in card browser
 
                     if ship.large?
@@ -2905,7 +2911,7 @@ class exportObj.SquadBuilder
                         container.find('.info-image').attr 'src', upgrade_img
                         container.find('.info-image-container').show()
                     
-                    container.find('.info-type').text additional_opts.addon_type
+                    container.find('.info-type').text exportObj.translate("slot", additional_opts.addon_type)
                     container.find('.info-sources.info-data').text (exportObj.translate('sources', source) for source in data.sources).sort().join(', ')
                     container.find('.info-sources').show()
                     
