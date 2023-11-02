@@ -1313,7 +1313,7 @@ exportObj.cardLoaders['Français'] = () ->
            display_name: """Plo Koon"""
            text: """Au début de la phase d’engagement, vous pouvez dépenser 1 %FORCE% et choisir un autre vaisseau allié à portée 0-2. Dans ce cas, vous pouvez transférer 1 marqueur vert à ce vaisseau ou transférer 1 marqueur orange de ce vaisseau au vôtre."""
         "Poe Dameron":
-           display_name: """Poe Dameron <i class="descriptive-text">Tête Brûlée à la Gâchette Facile</i>"""
+           display_name: """Poe Dameron <i class="pilot-title">Tête Brûlée à la Gâchette Facile</i>"""
            text: """Après avoir effectué une action, vous pouvez dépenser 1 %CHARGE% pour effectuer une action blanche, en la considérant comme rouge."""
         "Prince Xizor":
            display_name: """Prince Xizor"""
@@ -1484,7 +1484,7 @@ exportObj.cardLoaders['Français'] = () ->
            display_name: """Tel Trevura"""
            text: """Si vous devez être détruit, vous pouvez dépenser 1 %CHARGE%. Dans ce cas, défaussez toutes vos cartes de dégât, subissez 5 dégâts %HIT%, et placez-vous en réserve à la place. Au début de la prochaine phase de préparation, placez-vous intégralement à portée 1 de votre bord Joueur."""
         "Temmin Wexley":
-           display_name: """Temmin Wexley <i class="descriptive-text">Snap</i>"""
+           display_name: """Temmin Wexley <i class="pilot-title">Snap</i>"""
            text: """Après avoir entièrement exécuté une manœuvre à vitesse 2-4, vous pouvez effectuer une action %BOOST%"""
         "Tempest Squadron Pilot":
            display_name: """Pilote de l’Escadron Tempest"""
@@ -1814,10 +1814,10 @@ exportObj.cardLoaders['Français'] = () ->
            display_name: """Cadet de l’Académie Carida"""
            text: """<i class="descriptive-text">À l’académie militaire de Carida, les cadets de la Marine Impériale sont entraînés à être impitoyables et loyaux, privilégiant la victoire à la survie de leurs propres camarades.</i>"""
         "Poe Dameron (HoH)":
-           display_name: """Poe Dameron <i class="descriptive-text">Commandant de la Résistance</i>"""
+           display_name: """Poe Dameron <i class="pilot-title">Commandant de la Résistance</i>"""
            text: """Après qu’un vaisseau allié à portée 0–2 a effectué une action lors de son activation, vous pouvez dépenser 2 %CHARGE%. Dans ce cas, ce vaisseau allié peut effectuer une action blanche, en la considérant comme rouge."""
         "Temmin Wexley (HoH)":
-           display_name: """Temmin Wexley <i class="descriptive-text">Black Deux</i>"""
+           display_name: """Temmin Wexley <i class="pilot-title">Black Deux</i>"""
            text: """Au début de la phase d’engagement, chaque vaisseau allié X-wing T-70 à portée 0–3 peut gagner 1 marqueur de contrainte pour retourner son amélioration %CONFIGURATION% équipée. S’il la retourne, il gagne 1 marqueur de calcul."""
         "C'ai Threnalli":
            display_name: """C'ai Threnalli"""
@@ -2684,10 +2684,10 @@ exportObj.cardLoaders['Français'] = () ->
            text: """Tant que vous effectuez une attaque principale %REARARC%, vous pouvez relancer 1 dé d’attaque."""
         "Millennium Falcon":
            display_name: """Faucon Millenium"""
-           text: """<i class="descriptive-text">Ajoute %EVADE%</i>%LINEBREAK%<i>Alliance Rebelle uniquement</i>%LINEBREAK%Tant que vous défendez, si vous avez un marqueur d’évasion, vous pouvez relancer 1 dé de défense."""
+           text: """Tant que vous défendez, si vous avez un marqueur d’évasion, vous pouvez relancer 1 dé de défense."""
         "Mist Hunter":
            display_name: """Mist Hunter"""
-           text: """<i class="descriptive-text">Ajoute %BARRELROLL%</i>%LINEBREAK%<i>Racailles et Scélérats uniquement</i>%LINEBREAK%Ajoutez un emplacement %CANNON%."""
+           text: """Ajoutez un emplacement %CANNON%."""
         "Moldy Crow":
            display_name: """Moldy Crow"""
            text: """Pendant la phase de dénouement, ne retirez pas jusqu’à 2 marqueurs de concentration."""
