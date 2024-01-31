@@ -216,7 +216,7 @@ exportObj.cardLoaders.English = () ->
            text: """After you fully execute a red maneuver, gain 1 calculate token.%LINEBREAK%At the start of the End Phase, you may choose 1 ship at range 0-1. If you do, transfer 1 of your stress tokens to that ship."""
         "Nashtah Pup":
            display_name: """Nashtah Pup"""
-           text: """You can deploy only via emergency deployment, and you have the name, initiative, pilot ability, and ship %CHARGE% of the friendly, destroyed <strong>Hound’s Tooth</strong>.."""
+           text: """You can deploy only via emergency deployment, and you have the name, initiative, pilot ability, and ship %CHARGE% of the friendly, destroyed <strong>Hound’s Tooth</strong>.%LINEBREAK%<strong>Escape Craft:</strong> <strong>Setup:</strong>Requires the <strong>Hound's Tooth</strong>. You <b>must</b> begin the game docked with the <strong>Hound's Tooth</strong>."""
         "AP-5":
            display_name: """AP-5"""
            text: """While you coordinate, if you chose a ship with exactly 1 stress token, it can perform actions."""
@@ -1352,13 +1352,13 @@ exportObj.cardLoaders.English = () ->
         "Separatist Predator":
            text: """<i class="descriptive-text">Armed with ordnance and protected by ray shields, a droid gunship can devastate Republic infantry formations and starfighters with equal proficiency.</i>"""
         "DGS-286":
-           text: """Before you engage, you may choose another friendly ship at range 0-1. That ship transfers 1 calculate token to you. """
+           text: """Before you engage, you may choose another friendly ship at range 0-1. That ship transfers 1 calculate token to you."""
         "DGS-047":
-           text: """After you perform an attack, if the defender is in your %FRONTARC%, you may acquire a lock on it. Then, if the defender is in your %BULLSEYEARC%, it gains 1 strain token. """
+           text: """After you perform an attack, if the defender is in your %FRONTARC%, you may acquire a lock on it. Then, if the defender is in your %BULLSEYEARC%, it gains 1 strain token."""
         "Geonosian Prototype":
-           text: """While you perform a %MISSILE% or %CANNON% attack, you may remove 1 tractor token from the defender to reroll up to 2 attack dice. """
+           text: """While you perform a %MISSILE% or %CANNON% attack, you may remove 1 tractor token from the defender to reroll up to 2 attack dice."""
         "Onderon Oppressor":
-           text: """After you barrel roll or sideslip, if you are stressed. Gain 1 calculate token. """
+           text: """After you barrel roll or sideslip, if you are stressed, gain 1 calculate token."""
         "Jedi General":
            text: """<i class="descriptive-text">As the Clone Wars takes its toll on the ranks of the Jedi Order, those that remain must assume even greater responsibilities in the Grand Army of the Republic.</i>"""
         "Yoda":
@@ -1382,13 +1382,13 @@ exportObj.cardLoaders.English = () ->
         "Colicoid Interceptor":
            text: """<i class="descriptive-text">Designed by the Colicoid Creation Nest and manufactured by Phlac-Arphocc Automata Industries, the heuristic processors of Droid Tri-Fighters allow these deadly ships to analyze and adapt to enemy tactics in-flight.</i>"""
         "Phlac-Arphocc Prototype":
-           text: """During the System Phase, you may spend your lock on a ship to look at that ship's dial. """
+           text: """During the System Phase, you may spend your lock on a ship to look at that ship's dial."""
         "Fearsome Predator":
-           text: """<strong>Setup:</strong> After placing forces, assign the <b>Fearful Prey</b> condition to 1 enemy ship. """
+           text: """<strong>Setup:</strong> After placing forces, assign the <b>Fearful Prey</b> condition to 1 enemy ship."""
         "DIS-347":
-           text: """At the start of the Engagement Phase, you may acquire a lock on an object at range 1-3 that has a friendly lock. """
+           text: """At the start of the Engagement Phase, you may acquire a lock on an object at range 1-3 that has a friendly lock."""
         "DIS-T81":
-           text: """While you defend or perform an attack, you may spend 1 calculate token from a friendly ship in the enemy ship's firing arc to change 1 %FOCUS% result to an %EVADE% or %HIT% result. """
+           text: """While you defend or perform an attack, you may spend 1 calculate token from a friendly ship in the enemy ship's firing arc to change 1 %FOCUS% result to an %EVADE% or %HIT% result."""
         "Lyttan Dree":
            text: """While a friendly ship at range 0-2 performs an attack, if you are in the defender's %LEFTARC% or %RIGHTARC%, the attacker may reroll 1 attack die."""
         '"Rampage"':
@@ -2988,7 +2988,7 @@ exportObj.cardLoaders.English = () ->
         "Plo Koon":
            text: """At the start of the End Phase, if you are reinforced, you may choose 1 friendly ship at range 0 or in your %LEFTARC% or %RIGHTARC% at range 1. That ship removes 1 deplete or strain token, or repairs 1 faceup damage card."""
         "Repulsorlift Stabilizers":
-           text: """<strong>Inactive: Setup:</strong> Equip this side faceup. Reduce the difficulty of your straight (%STRAIGHT%) maneuvers. %LINEBREAK% After you fully execute a maneuver, you may flip this card. %LINEBREAK%<strong>Active: </strong> After you reveal a bank (%BANKLEFT% or %BANKRIGHT%) or turn (%TURNLEFT% or %TURNRIGHT%), you <b>must</b> perform that maneuver as a slideslip, then flip this card. %LINEBREAK% After you fully execute a non-sideslip maneuver, you may flip this card."""
+           text: """<strong>Inactive: Setup:</strong> Equip this side faceup. Reduce the difficulty of your straight (%STRAIGHT%) maneuvers. %LINEBREAK% After you fully execute a maneuver, you may flip this card. %LINEBREAK%<strong>Active: </strong> After you reveal a bank (%BANKLEFT% or %BANKRIGHT%) or turn (%TURNLEFT% or %TURNRIGHT%), you <b>must</b> perform that maneuver as a sideslip, then flip this card. %LINEBREAK% After you fully execute a non-sideslip maneuver, you may flip this card."""
         "Multi-Missile Pods":
            text: """<strong>Attack (%CALCULATE% or %LOCK%):</strong> Spend 1 %CHARGE%. If the defender is in your %FRONTARC%, you may spend 1 %CHARGE% to roll 1 additional attack die. If the defender is in your %BULLSEYEARC%, you may spend up to 2 %CHARGE% to roll that many additional attack dice instead."""
         "Synced Laser Cannons":
