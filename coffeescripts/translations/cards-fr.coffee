@@ -582,7 +582,7 @@ exportObj.cardLoaders['Français'] = () ->
            text: """Après avoir entièrement exécuté une manœuvre rouge, gagnez 1 marqueur de calcul.%LINEBREAK%Au début de la phase de dénouement, vous pouvez choisir un vaisseau à portée 0-1. Dans ce cas, transférez 1 de vos marqueurs de stress à ce vaisseau."""
         "Nashtah Pup":
            display_name: """Nashtah Pup"""
-           text: """Vous ne pouvez être déployé que par un déploiement d’urgence, et vous avez le nom, l’initiative, la capacité de pilote, et les %CHARGE% du vaisseau allié Hound’s Tooth qui a été détruit."""
+           text: """Vous ne pouvez être déployé que par un déploiement d’urgence, et vous avez le nom, l’initiative, la capacité de pilote, et les %CHARGE% du vaisseau allié Hound’s Tooth qui a été détruit.%LINEBREAK%<strong>Vaisseau de Secours : Mise en Place :</strong> nécessite le <strong>Hound’s Tooth</strong>. Vous <b>devez</b> commencer la partie arrimé au <strong>Hound’s Tooth</strong>."""
         "AP-5":
            display_name: """AP-5"""
            text: """Tant que vous coordonnez, si vous choisissez un vaisseau qui a exactement 1 marqueur de stress, il peut effectuer des actions."""
