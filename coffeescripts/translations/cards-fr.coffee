@@ -4283,154 +4283,151 @@ exportObj.cardLoaders['Français'] = () ->
 
     chassis_translations =
         "Vectored Thrusters":
-           display_name: "Propulseurs Vectoriels"
+           display_name: "Propulseurs Vectoriels "
            text: """Après avoir effectué une action, vous pouvez effectuer une action %BOOST% rouge."""
         "Advanced Targeting Computer":
-           display_name: "Ordinateur de Visée Avancé"
+           display_name: "Ordinateur de Visée Avancé "
            text: """Tant que vous effectuez une attaque principale contre un défenseur que vous avez verrouillé, lancez 1 dé d’attaque supplémentaire et changez 1 résultat %HIT% en un résultat %CRIT%."""
         "Autothrusters":
-           display_name: "Autopropulseurs"
+           display_name: "Autopropulseurs "
            text: """Après avoir effectué une action, vous pouvez effectuer une action %BARRELROLL% rouge ou %BOOST% rouge."""
         "Nimble Bomber":
-           display_name: "Bombardier Agile"
+           display_name: "Bombardier Agile "
            text: """Si vous devez utiliser un gabarit %STRAIGHT% pour larguer un engin, vous pouvez utiliser un gabarit %BANKLEFT% ou %BANKRIGHT% de même vitesse à la place."""
         "Full Throttle":
-           display_name: "Plein Gaz"
+           display_name: "Plein Gaz "
            text: """Après avoir entièrement exécuté une manœuvre à vitesse 3-5, vous pouvez effectuer une action %EVADE%."""
         "Experimental Scanners":
-           display_name: "Scanners Expérimentaux"
+           display_name: "Scanners Expérimentaux "
            text: """Vous pouvez verrouiller une cible au-delà de la portée 3. Vous ne pouvez pas verrouiller de cible à portée 1."""
         "Stygium Array":
-           display_name: "Réseau de Stygium"
+           display_name: "Réseau de Stygium "
            text: """Après vous être désocculté, vous pouvez effectuer une action %EVADE%. Au début de la phase de dénouement, vous pouvez dépenser 1 marqueur d’évasion pour gagner 1 marqueur d’occultation."""
         "Sensor Blindspot":
-           display_name: "Angle Mort des Senseurs"
+           display_name: "Angle Mort des Senseurs "
            text: """Tant que vous effectuez une attaque principale à portée d’attaque 0-1, n’appliquez pas le bonus de portée 0-1 et lancez 1 dé d’attaque en moins."""
         "Microthrusters":
-           display_name: "Micropropulseurs"
+           display_name: "Micropropulseurs "
            text: """Tant que vous effectuez un tonneau, vous devez utiliser le gabarit %BANKLEFT% ou %BANKRIGHT% à la place du gabarit %STRAIGHT%."""
         "Weapon Hardpoint":
-           display_name: "Emplacement d’Arme"
+           display_name: "Emplacement d’Arme "
            text: """Vous pouvez vous équiper de 1 amélioration %CANNON%, %TORPEDO% ou %MISSILE%."""
         "Advanced Droid Brain":
-           display_name: "Cerveau Droïde Avancé"
+           display_name: "Cerveau Droïde Avancé "
            text: """Après avoir effectué une action %CALCULATE%, gagnez 1 marqueur de calcul."""
         "Tail Gun":
-           display_name: "Artillerie de Poupe"
+           display_name: "Artillerie de Poupe "
            text: """Tant que vous avez un vaisseau arrimé, vous bénéficiez d’une arme principale %REARARC% avec une valeur d’attaque égale à celle de l’attaque principale %FRONTARC% du vaisseau arrimé."""
         "Locked and Loaded":
-           display_name: "Chargé et Prêt à Tirer"
+           display_name: "Chargé et Prêt à Tirer "
            text: """Tant que vous êtes arrimé, après que votre vaisseau porteur a effectué une attaque principale %FRONTARC% ou %TURRET%, il peut effectuer une attaque principale %REARARC% bonus."""
         "Concordia Faceoff":
-           display_name: "Opposition Concordia"
+           display_name: "Opposition Concordia "
            text: """Tant que vous défendez, si la portée d’attaque est 1 et que vous êtes dans l’%FRONTARC% de l’attaquant, changez 1 résultat en un résultat %EVADE%."""
         "Spacetug Tractor Array":
-           display_name: "Dispositif Tracteur de Remorqueur Spatial"
+           display_name: "Dispositif Tracteur de Remorqueur Spatial "
            text: """ <strong>Action:</strong> Choisissez un vaisseau dans votre %FRONTARC% à portée 1. Il gagne 1 marqueur de rayon tracteur, ou 2 marqueurs de rayon tracteur s’il est dans votre %BULLSEYEARC% à portée 1."""
         "Hope":
-           display_name: "Espoir"
+           display_name: "Espoir "
            text: """Après qu’un autre vaisseau allié à portée 0–3 a été détruit, vous pouvez effectuer une action %FOCUS% ou %BOOST%."""
         "Solo":
-           display_name: "Solo"
+           display_name: "Solo "
            text: """Tant que vous défendez ou effectuez une attaque, s'il n'y a aucun autre vaisseau allié à portée O-1, vous pouvez dépenser 1 %CHARGE% pour relancer 1 de vos dés."""
         "Sensitive Controls":
-           display_name: "Contrôles Sensibles"
+           display_name: "Contrôles Sensibles "
            text: """Pendant la phase de système, vous pouvez effectuer une action %BARRELROLL% rouge ou %BOOST% rouge."""
         "Vectored Cannons":
-           display_name: "Canons Vectoriels"
+           display_name: "Canons Vectoriels "
            text: """Pendant la phase de système, vous pouvez effectuer une action %BOOST% rouge ou %ROTATEARC% rouge. Vous pouvez pivoter votre indicateur %SINGLETURRETARC% uniquement vers votre %FRONTARC% ou %REARARC%."""
         "Advanced Fire Control":
-           display_name: "Commande De Tir Avancée"
+           display_name: "Commande De Tir Avancée "
            text: """Après avoir effectué une attaque %CANNON% ou %MISSILE%, si vous avez un verrouillage sur le défenseur, vous pouvez effectuer une attaque principale bonus contre le défenseur."""
         "Networked Calculations":
-           display_name: "Calculs en Réseau"
+           display_name: "Calculs en Réseau "
            text: """Tant que vous défendez ou effectuez une attaque, vous pouvez dépenser 1 marqueur de calcul d’un vaisseau allié à portée 0-1 pour changer 1 résultat %FOCUS% en un résultat %EVADE% ou %HIT%."""
         "Independent Calculations":
-           display_name: "Calculs Indépendants"
+           display_name: "Calculs Indépendants "
            text: """Tant que vous effectuez une action blanche %CALCULATE%, vous pouvez la considérer comme rouge pour gagner 1 marqueur de calcul supplémentaire. Les autres vaisseaux ne peuvent pas dépenser vos marqueurs de calcul en utilisant la capacité de vaisseau <strong>Calculs en Réseau</strong>."""
         "Adaptive Ailerons":
-           display_name: "Ailerons Adaptables :"
+           display_name: "Ailerons Adaptables "
            text: """Avant de révéler votre cadran, si vous n’êtes pas stressé, vous devez exécuter une manœuvre blanche [1 %BANKLEFT%], [1 %STRAIGHT%] ou [1 %BANKRIGHT%]."""
         "Pursuit Craft":
-           display_name: "Appareil de Poursuite"
+           display_name: "Appareil de Poursuite "
            text: """Après avoir été déployé, vous pouvez verrouiller un vaisseau que le <strong>Hound’s Tooth</strong> allié a verrouillé."""
         "Dead to Rights":
-           display_name: "Dans le Mille"
+           display_name: "Dans le Mille "
            text: """Tant que vous effectuez une attaque, si le défenseur est dans votre %BULLSEYEARC%, les dés de défense ne peuvent pas être modifiés en utilisant des marqueurs verts."""
         "Comms Shuttle":
-           display_name: "Navette de Communication"
+           display_name: "Navette de Communication "
            text: """Tant que vous êtes arrimé, votre vaisseau porteur gagne %COORDINATE%. Avant que votre vaisseau porteur ne s’active, il peut effectuer une action %COORDINATE%."""
-        "Controlled Ailerons":
-           display_name: "Controlled Ailerons"
-           text: """Avant de révéler votre cadran, si vous n’êtes pas stressé, vous pouvez faire un boost.</i>"""
         "Co-Pilot":
-           display_name: "Copilote"
+           display_name: "Copilote "
            text: """Tant que vous êtes arrimé, votre vaisseau porteur bénéficie de votre capacité de pilote en plus de la sienne."""
         "Rigged Energy Cells":
-           display_name: "Cellules Énergétiques Bidouillées"
+           display_name: "Cellules Énergétiques Bidouillées "
            text: """Pendant la phase de système, si vous n’êtes pas arrimé, perdez 1  %CHARGE%. À la fin de la phase d’activation, vous êtes détruit si vous avez 0 %CHARGE%. Avant de retirer votre figurine, chaque vaisseau à porté 0-1 subit 1 dégât %CRIT%."""
         "Refined Gyrostabilizers":
-           display_name: "Gyrostabilisateurs Perfectionnés"
+           display_name: "Gyrostabilisateurs Perfectionnés "
            text: """Vous pouvez pivoter votre indicateur %SINGLETURRETARC% uniquement vers votre %FRONTARC% ou %REARARC%.Après avoir effectué une action, vous pouvez effectuer une action %BOOST% rouge ou %ROTATEARC% rouge."""
         "Heavy Weapon Turret":
-           display_name: "Tourelle d’Arme Lourde"
+           display_name: "Tourelle d’Arme Lourde "
            text: """Vous pouvez pivoter votre indicateur %SINGLETURRETARC% uniquement vers votre %FRONTARC% ou %REARARC%. Vous <b>devez</b> considérer le prérequis %FRONTARC% de vos améliorations %MISSILE% équipées comme étant %SINGLETURRETARC%."""
         "Linked Battery":
-           display_name: "Batteries Jumelées"
+           display_name: "Batteries Jumelées "
            text: """Tant que vous effectuez une attaque %CANNON%, lancez 1 dé supplémentaire."""
         "Notched Stabilizers":
-           display_name: "Stabilisateurs Crantés"
+           display_name: "Stabilisateurs Crantés "
            text: """Tant que vous vous déplacez, ignorez les astéroïdes."""
         "Fine-Tuned Controls":
-           display_name: "Commandes Réactives"
+           display_name: "Commandes Réactives "
            text: """Après avoir entièrement exécuté une manœuvre, vous pouvez dépenser 1 %FORCE% pour effectuer une action %BOOST% ou %BARRELROLL%."""
         "Pinpoint Tractor Array":
-           display_name: "Dispositif Tracteur de Précision"
+           display_name: "Dispositif Tracteur de Précision "
            text: """Vous ne pouvez pas faire pivoter votre %SINGLETURRETARC% vers votre %REARARC%. Après avoir entièrement exécuté une manœuvre, vous pouvez gagner 1 marqueur de rayon tracteur pour effectuer une action %ROTATEARC%.%LINEBREAK%<i>Errata [09/26/2022]: Ajout de "entièrement"</i>"""
         "Plated Hull":
-           display_name: "Coque Blindée"
+           display_name: "Coque Blindée "
            text: """Tant que vous défendez, si vous n’êtes pas critiquement endommagé, changez 1 résultat %CRIT% en un résultat %HIT%."""
         "Explosion with Wings":
-           display_name: "Explosion en Vol"
+           display_name: "Explosion en Vol "
            text: """<strong>Mise en Place :</strong> 1 carte de dégât face cachée vous est attribuée. Après avoir effectué une action %SLAM%, vous pouvez exposer 1 carte de dégât pour retirer 1 marqueur de désarmement."""
         "Fine-Tuned Thrusters":
-           display_name: "Propulseurs Réactifs"
+           display_name: "Propulseurs Réactifs "
            text: """Après avoir entièrement exécuté une manœuvre, si vous n’êtes pas épuisé ou contraint, vous pouvez gagner 1 marqueur d’épuisement ou de contrainte pour effectuer une action %LOCK% ou %BARRELROLL%."""
         "Networked Aim":
-           display_name: "Visée Interconnectée"
+           display_name: "Visée Interconnectée "
            text: """Vous ne pouvez pas dépenser vos verrouillages pour relancer des dés d’attaque. Tant que vous effectuez une attaque, vous pouvez relancer un nombre de dés d’attaque inférieur ou égal au nombre de verrouillages alliés sur le défenseur."""
         "Fire Convergence":
-           display_name: "Convergence des Tirs"
+           display_name: "Convergence des Tirs "
            text: """Tant qu’un vaisseau allié effectue une attaque non-%SINGLETURRETARC%, si le défenseur est dans votre %SINGLETURRETARC%, vous pouvez dépenser 1 %CHARGE%. Dans ce cas, l’attaquant relance jusqu’à 2 dés d’attaque."""
         "Rotating Cannons":
-           display_name: "Canons Rotatifs"
+           display_name: "Canons Rotatifs "
            text: """Vous pouvez pivoter votre indicateur %SINGLETURRETARC% uniquement vers votre %FRONTARC% ou %REARARC%. Vous <b>devez</b> considérer le prérequis %FRONTARC% de vos améliorations %CANNON% équipées comme étant %SINGLETURRETARC%."""
         "Twin Ion Engines":
-           display_name: "Moteurs Ioniques Jumelés"
+           display_name: "Moteurs Ioniques Jumelés "
            text: """Ignorez la restriction de vaisseau « TIE » sur les cartes d’amélioration."""
         "Intuitive Controls":
-           display_name: "Contrôles Intuitifs"
+           display_name: "Contrôles Intuitifs "
            text: """Pendant la phase de système, vous pouvez effectuer une action %BARRELROLL% violette ou %BOOST% violette."""
         "Intuitive Interface":
-           display_name: "Interface Intuitive"
+           display_name: "Interface Intuitive "
            text: """Après avoir effectué une action ajoutée à votre barre d'action par une amélioration %TALENT%, %ILLICIT%, ou %MODIFICATION%, vous pouvez effectuer une action %CALCULATE%."""
         "Devastating Barrage":
-           display_name: "Tir de Barrage Dévastateur"
+           display_name: "Tir de Barrage Dévastateur "
            text: """Tant que vous effectuez une attaque %TORPEDO% ou %MISSILE% si le défenseur est dans votre %BULLSEYEARC%, vos résultats %CRIT% ne peuvent pas être annulés par des résultats %EVADE%."""
         "Pursuit Thrusters":
-           display_name: "Propulseurs de Poursuite"
+           display_name: "Propulseurs de Poursuite "
            text: """Pendant la Phase de Système, vous pouvez effectuer une action %BOOST%."""
         "Versatile Frame":
-           display_name: "Châssis Polyvalent"
+           display_name: "Châssis Polyvalent "
            text: """Vous pouvez vous équiper de 1 amélioration %TORPEDO% ou %MISSILE%. Tant que votre manœuvre révélée est bleue, ajoutez l'action blanche %BOOST% à votre barre d'action."""
         "Born for This":
-           display_name: "Né pour Ça"
+           display_name: "Né pour Ça "
            text: """Tant qu’un autre vaisseau allié à portée 0–2 défend, si vous n’êtes pas contraint, il peut dépenser vos marqueurs de concentration et d'évasion comme s'ils étaient à lui. Dans ce cas, vous gagnez 1 marqueur de contrainte."""
         "Modified for Organics":
-           display_name: "Modifié pour les Organiques"
+           display_name: "Modifié pour les Organiques "
            text: """Ce vaisseau n'est pas affecté par la restriction <b>Standardisé</b>. Diminuez la difficulté de vos manœuvres de virage sur l'aile [%BANKLEFT% ou %BANKRIGHT%] à vitesse 2-3. Augmentez la difficulté de vos manœuvres de virage [%TURNLEFT% ou %TURNRIGHT%] à vitesse 3."""
         "Sensor Blackout":
-           display_name: "Panne des Senseurs"
+           display_name: "Panne des Senseurs "
            text: """Tant que vous effectuez une attaque principale à portée 0–1, lancez 1 dé d’attaque en moins. %LINEBREAK%Tant que vous défendez à portée 1, lancez 1 dé de défense en moins."""
 
 
