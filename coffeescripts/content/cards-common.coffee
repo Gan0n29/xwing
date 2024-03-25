@@ -16161,7 +16161,7 @@ exportObj.basicCardData = ->
             name: "Kylo Ren"
             id: 179
             slot: "Crew"
-            points: 7
+            points: 8
             force: 1
             faction: "First Order"
             unique: true
