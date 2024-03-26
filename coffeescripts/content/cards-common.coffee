@@ -15396,7 +15396,7 @@ exportObj.basicCardData = ->
             name: "Cluster Missiles"
             id: 98
             slot: "Missile"
-            pointsarray: [3,3,3,4,4,4,4]
+            pointsarray: [3,3,3,4,4,4,4,4,4]
             variableinit: true
             attack: 3
             range: """1-2"""
@@ -16685,7 +16685,7 @@ exportObj.basicCardData = ->
             name: "Plasma Torpedoes"
             id: 234
             slot: "Torpedo"
-            pointsarray: [6,6,6,7,7,7,7]
+            pointsarray: [6,6,6,7,7,7,7,7,7]
             variableinit: true
             attack: 3
             range: """2-3"""
@@ -17626,7 +17626,7 @@ exportObj.basicCardData = ->
             name: "Mag-Pulse Warheads"
             id: 311
             slot: "Missile"
-            pointsarray: [4,4,4,5,5,5,5]
+            pointsarray: [4,4,4,5,5,5,5,5,5]
             variableinit: true
             attack: 3
             range: """1-3"""
