@@ -5560,7 +5560,7 @@ exportObj.basicCardData = ->
             faction: "Galactic Empire"
             ship: "TIE/sa Bomber"
             skill: 5
-            points: 33
+            points: 34
             slots: [
                 "Talent"
                 "Torpedo"
@@ -5789,7 +5789,7 @@ exportObj.basicCardData = ->
             faction: "Galactic Empire"
             ship: "TIE/ln Fighter"
             skill: 5
-            points: 28
+            points: 29
             slots: [
                 "Talent"
                 "Modification"
@@ -9054,7 +9054,7 @@ exportObj.basicCardData = ->
             faction: "Galactic Empire"
             skill: 1
             ship: "TIE/rb Heavy"
-            points: 34
+            points: 32
             slots: [
                 "Cannon"
                 "Cannon"
