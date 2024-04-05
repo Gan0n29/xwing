@@ -19309,7 +19309,7 @@ exportObj.basicCardData = ->
             name: "Migs Mayfeld"
             id: 461
             pointsarray: [2,3,4,7]
-            variableagility: true
+            variablebase: true
             slot: "Gunner"
             unique: true
             faction: ["Scum and Villainy","Galactic Empire"]
