@@ -2148,6 +2148,128 @@ exportObj.cardLoaders.English = () ->
            display_name: """“Leebo” <i class="pilot-title">Standard Loadout</i>"""
            text: """At the end of the Engagement Phase, you may spend a calculate token to acquire a lock on an enemy ship at range 2-3."""
 
+        # Battle Over Endor Pilots
+        "Wedge Antilles (BoE)":
+           display_name: """Wedge Antilles <i class="pilot-title">Battle over Endor - Left Side Legal</i>"""
+           text: """After you perform an attack that hits, gain 1 focus token."""
+        "Wedge Antilles (BoE SL)":
+           display_name: """Wedge Antilles <i class="pilot-title">Battle over Endor - Standard Loadout</i>"""
+           text: """After you perform an attack that hits, gain 1 focus token."""
+        "Yendor (BoE)":
+           display_name: """Yendor <i class="pilot-title">Battle over Endor - Left Side Legal</i>"""
+           text: """While you perform a primary attack, you may gain a strain token to reroll one of your blank results."""
+        "Yendor (BoE SL)":
+           display_name: """Yendor <i class="pilot-title">Battle over Endor - Standard Loadout</i>"""
+           text: """While you perform a primary attack, you may gain a strain token to reroll one of your blank results."""
+        "Kendy Idele (BoE)":
+           display_name: """Kendy Idele <i class="pilot-title">Battle over Endor - Left Side Legal</i>"""
+           text: """After you spend a green token, you may choose a friendly ship at range 1-3 and gain a strain token. If you do, that ship may perform a red %FOCUS% or red %EVADE% action."""
+        "Kendy Idele (BoE SL)":
+           display_name: """Kendy Idele <i class="pilot-title">Battle over Endor - Standard Loadout</i>"""
+           text: """After you spend a green token, you may choose a friendly ship at range 1-3 and gain a strain token. If you do, that ship may perform a red %FOCUS% or red %EVADE% action."""
+        "Lando Calrissian (BoE)":
+           display_name: """Lando Calrissian <i class="pilot-title">Battle over Endor - Left Side Legal</i>"""
+           text: """At the start of the Activation Phase, you may spend 1 %CHARGE%. If you do, choose an initiative from 1 to 6. You activate at that initiative this phase."""
+        "Lando Calrissian (BoE SL)":
+           display_name: """Lando Calrissian <i class="pilot-title">Battle over Endor - Standard Loadout</i>"""
+           text: """At the start of the Activation Phase, you may spend 1 %CHARGE%. If you do, choose an initiative from 1 to 6. You activate at that initiative this phase."""
+        "Tycho Celchu (BoE)":
+           display_name: """Tycho Celchu <i class="pilot-title">Battle over Endor - Left Side Legal</i>"""
+           text: """While you are disarmed, you can still perform %MISSILE% attacks. When you perform a %MISSILE% attack while disarmed, roll a maximum of 4 dice."""
+        "Tycho Celchu (BoE SL)":
+           display_name: """Tycho Celchu <i class="pilot-title">Battle over Endor - Standard Loadout</i>"""
+           text: """While you are disarmed, you can still perform %MISSILE% attacks. When you perform a %MISSILE% attack while disarmed, roll a maximum of 4 dice."""
+        "Arvel Crynyd (BoE)":
+           display_name: """Arvel Crynyd <i class="pilot-title">Battle over Endor - Left Side Legal</i>"""
+           text: """While defending, you may gain 1 strain token to change 1 %FOCUS% result to a %EVADE% result."""
+        "Arvel Crynyd (BoE SL)":
+           display_name: """Arvel Crynyd <i class="pilot-title">Battle over Endor - Standard Loadout</i>"""
+           text: """While defending, you may gain 1 strain token to change 1 %FOCUS% result to a %EVADE% result."""
+        "Adon Fox (BoE)":
+           display_name: """Adon Fox <i class="pilot-title">Battle over Endor - Left Side Legal</i>"""
+           text: """While you defend, if you are stressed, roll 1 additional die."""
+        "Adon Fox (BoE SL)":
+           display_name: """Adon Fox <i class="pilot-title">Battle over Endor - Standard Loadout</i>"""
+           text: """While you defend, if you are stressed, roll 1 additional die."""
+        "Gina Moonsong (BoE)":
+           display_name: """Gina Moonsong <i class="pilot-title">Battle over Endor - Left Side Legal</i>"""
+           text: """At the start of the Engagement Phase, if a friendly <strong>Braylen Stramm</strong> ship at range 0-2 is stressed, you may acquire a lock."""
+        "Gina Moonsong (BoE SL)":
+           display_name: """Gina Moonsong <i class="pilot-title">Battle over Endor - Standard Loadout</i>"""
+           text: """At the start of the Engagement Phase, if a friendly <strong>Braylen Stramm</strong> ship at range 0-2 is stressed, you may acquire a lock."""
+        "Braylen Stramm (BoE)":
+           display_name: """Braylen Stramm <i class="pilot-title">Battle over Endor - Left Side Legal</i>"""
+           text: """At the start of the Engagement Phase, if a friendly <strong>Gina Moonsong</strong> ship at range 0-2 is stressed, you may gain a focus token."""
+        "Braylen Stramm (BoE SL)":
+           display_name: """Braylen Stramm <i class="pilot-title">Battle over Endor - Standard Loadout</i>"""
+           text: """At the start of the Engagement Phase, if a friendly <strong>Gina Moonsong</strong> ship at range 0-2 is stressed, you may gain a focus token."""
+        "Gemmer Sojan (BoE)":
+           display_name: """Gemmer Sojan <i class="pilot-title">Battle over Endor - Left Side Legal</i>"""
+           text: """While defending, you may gain 1 strain token to change up to 2 of your blank results to %FOCUS% results."""
+        "Gemmer Sojan (BoE SL)":
+           display_name: """Gemmer Sojan <i class="pilot-title">Battle over Endor - Standard Loadout</i>"""
+           text: """While defending, you may gain 1 strain token to change up to 2 of your blank results to %FOCUS% results."""
+        "Captain Yorr (BoE)":
+           display_name: """Captain Yorr <i class="pilot-title">Battle over Endor - Left Side Legal</i>"""
+           text: """After you perform a primary attack that hits, you may spend 1 %CHARGE% to perform a bonus %CANNON% attack."""
+        "Captain Yorr (BoE SL)":
+           display_name: """Captain Yorr <i class="pilot-title">Battle over Endor - Standard Loadout</i>"""
+           text: """After you perform a primary attack that hits, you may spend 1 %CHARGE% to perform a bonus %CANNON% attack."""
+        "Colonel Jendon (BoE)":
+           display_name: """Colonel Jendon <i class="pilot-title">Battle over Endor - Left Side Legal</i>"""
+           text: """While you defend, if you are not shielded, you may change 1 of your blank results to a %FOCUS% result."""
+        "Colonel Jendon (BoE SL)":
+           display_name: """Colonel Jendon <i class="pilot-title">Battle over Endor - Standard Loadout</i>"""
+           text: """While you defend, if you are not shielded, you may change 1 of your blank results to a %FOCUS% result."""
+        "Soontir Fel (BoE)":
+           display_name: """Soontir Fel <i class="pilot-title">Battle over Endor - Left Side Legal</i>"""
+           text: """After you perform an attack, you may spend 1 %CHARGE% and gain 1 deplete token to boost or barrel roll."""
+        "Soontir Fel (BoE SL)":
+           display_name: """Soontir Fel <i class="pilot-title">Battle over Endor - Standard Loadout</i>"""
+           text: """After you perform an attack, you may spend 1 %CHARGE% and gain 1 deplete token to boost or barrel roll."""
+        "Sapphire 2 (BoE)":
+           display_name: """Sapphire 2 <i class="pilot-title">Battle over Endor - Left Side Legal</i>"""
+           text: """While you defend, if you are focused, roll 1 additional defense die."""
+        "Sapphire 2 (BoE SL)":
+           display_name: """Sapphire 2 <i class="pilot-title">Battle over Endor - Standard Loadout</i>"""
+           text: """While you defend, if you are focused, roll 1 additional defense die."""
+        "Maus Monare (BoE)":
+           display_name: """Maus Monare <i class="pilot-title">Battle over Endor - Left Side Legal</i>"""
+           text: """After you perform an %EVADE% action, gain a calculate token."""
+        "Maus Monare (BoE SL)":
+           display_name: """Maus Monare <i class="pilot-title">Battle over Endor - Standard Loadout</i>"""
+           text: """After you perform an %EVADE% action, gain a calculate token."""
+        "Major Mianda (BoE)":
+           display_name: """Major Mianda <i class="pilot-title">Battle over Endor - Left Side Legal</i>"""
+           text: """During the End Phase, you may choose up to 2 friendly small ships at range 0-2, You and the chosen ships may perform a red %BARRELROLL% or red %BOOST% action."""
+        "Major Mianda (BoE SL)":
+           display_name: """Major Mianda <i class="pilot-title">Battle over Endor - Standard Loadout</i>"""
+           text: """During the End Phase, you may choose up to 2 friendly small ships at range 0-2, You and the chosen ships may perform a red %BARRELROLL% or red %BOOST% action."""
+        "Lieutenant Hebsly (BoE)":
+           display_name: """Lieutenant Hebsly <i class="pilot-title">Battle over Endor - Left Side Legal</i>"""
+           text: """After you defend, you may perform a red %BOOST% action, even while stressed."""
+        "Lieutenant Hebsly (BoE SL)":
+           display_name: """Lieutenant Hebsly <i class="pilot-title">Battle over Endor - Standard Loadout</i>"""
+           text: """After you defend, you may perform a red %BOOST% action, even while stressed."""
+        "Scythe 6 (BoE)":
+           display_name: """Scythe 6 <i class="pilot-title">Battle over Endor - Left Side Legal</i>"""
+           text: """While you perform an attack at range 1-2, roll 1 additional attack die."""
+        "Scythe 6 (BoE SL)":
+           display_name: """Scythe 6 <i class="pilot-title">Battle over Endor - Standard Loadout</i>"""
+           text: """While you perform an attack at range 1-2, roll 1 additional attack die."""
+        "Scimitar 1 (BoE)":
+           display_name: """Scimitar 1 <i class="pilot-title">Battle over Endor - Left Side Legal</i>"""
+           text: """After a friendly ship at range 0-3 performs an attack, you may spend 1 %CHARGE% to acquire a lock on the defender."""
+        "Scimitar 1 (BoE SL)":
+           display_name: """Scimitar 1 <i class="pilot-title">Battle over Endor - Standard Loadout</i>"""
+           text: """After a friendly ship at range 0-3 performs an attack, you may spend 1 %CHARGE% to acquire a lock on the defender."""
+        "Scimitar 3 (BoE)":
+           display_name: """Scimitar 3 <i class="pilot-title">Battle over Endor - Left Side Legal</i>"""
+           text: """After you drop a bomb, you may spend 1 %CHARGE% to perform a %BOOST% action."""
+        "Scimitar 3 (BoE SL)":
+           display_name: """Scimitar 3 <i class="pilot-title">Battle over Endor - Standard Loadout</i>"""
+           text: """After you drop a bomb, you may spend 1 %CHARGE% to perform a %BOOST% action."""
+
             
         # Epic Ships
         "Republic Judiciary":
@@ -3356,6 +3478,77 @@ exportObj.cardLoaders.English = () ->
         "Efficient Processing (YLF)":
            display_name: """Efficient Processing"""
            text: """After you perform a %CALCULATE% action, gain 1 calculate token."""
+        "It's A Trap! (BoE)":
+           display_name: """It's A Trap!"""
+           text: """While defending, if there are more other friendly ships then enemy ships at range 0-1, you may reroll 1 of your blank results."""
+        "R2-A3 (BoE)":
+           display_name: """R2-A3"""
+           text: """After you perform an action, you may spend 1 %CHARGE% to acquire a lock."""
+        "Ace In The Hole (BoE)":
+           display_name: """Ace In The Hole"""
+           text: """At the start of the Engagement Phase, you may spend 1 %CHARGE% and gain 1 jam token to perform a %BARRELROLL% action."""
+        "Airen Cracken (BoE)":
+           display_name: """Airen Cracken"""
+           text: """After defending, if the attack hit, you may gain 1 deplete token to perform a bonus primary attack targeting the attacker."""
+        "Millennium Falcon (BoE)":
+           display_name: """Millennium Falcon"""
+           text: """While attacking or defending, if you have a non-lock red or orange token, you may reroll 1 die."""
+        "No Escape (BoE)":
+           display_name: """No Escape"""
+           text: """While you perform a primary attack, if there are more friendly ships then other enemy ships at range 0-1 of the defender, you may reroll 1 of your blank results."""
+        "Apex Predator (BoE)":
+           display_name: """Apex Predator"""
+           text: """While you perform a primary attack, if the defender's initative is lower than yours, you may reroll 1 attack die."""
+        "Push The Limit (BoE)":
+           display_name: """Push The Limit"""
+           text: """After you fully execute a red maneuver or perform a red action, if you are not strained, you may gain 1 strain token to remove 1 stress token."""
+        "Reckless (BoE)":
+           display_name: """Reckless"""
+           text: """While you perform a red %BOOST% or red %BARRELROLL% action, you may use the [1 %TURNLEFT%] or [1 %TURNRIGHT%] template instead. If you do, roll an attack die. On a %HIT%/%CRIT% result, gain a stress token."""
+        "Targeting Matrix (BoE)":
+           display_name: """Targeting Matrix"""
+           text: """While attacking, you may spend 1 %FOCUS% result at the end of the Neutralize Results step. If you do, after the attack is resolved, the defender gains a strain token."""
+        "Chaff Particles (BoE)":
+           display_name: """Chaff Particles"""
+           text: """While defending, you may spend 1 %FOCUS% result at the end of the Neutralize Results step to remove 1 red or orange token."""
+        "Computer-Assisted Handling (BoE)":
+           display_name: """Computer-Assisted Handling"""
+           text: """After you fully execute a maneuver, you may spend 1 %CHARGE% to perform a %BOOST% or %BARRELROLL% action."""
+        "Blank Signature (BoE)":
+           display_name: """Blank Signature"""
+           text: """While defending, if you are not locked by the attacker, you may spend 1 %CHARGE% to change 1 %FOCUS% result to an %EVADE% result."""
+        "Feedback Emitter (BoE)":
+           display_name: """Feedback Emitter"""
+           text: """After an object acquires a lock on you, you may spend 1 %CHARGE% to jam that object, ignoring range restrictions. This upgrade's %CHARGE% may not be recovered."""
+        "Fuel Injection Override (BoE)":
+           display_name: """Fuel Injection Override"""
+           text: """While you perform a %BOOST% or %BARRELROLL% action, you may spend 1 %CHARGE% to use a template of 1 speed higher."""
+        "Precision-Tuned Cannons (BoE)":
+           display_name: """Precision-Tuned Cannons"""
+           text: """<strong>Attack:</strong> If the defender is in your %BULLSEYEARC%, add 1 %FOCUS% result."""
+        "Target-Assist Algorithm (BoE)":
+           display_name: """Target-Assist Algorithm"""
+           text: """Before you engage, if you have no green tokens and there are 1 or more enemy objects in your %FRONTARC%, gain a calculate token."""
+        "Heroic Sacrifice (BoE)":
+           display_name: """Heroic Sacrifice"""
+           text: """After you perform a %SLAM% action, roll 5 attack dice. Each large ship, huge ship, and scenario feature at range 0 suffers 1 %HIT% damage for each %HIT%/%CRIT% result, bypassing shields. Then this ship is destroyed. %LINEBREAK% You can perform %SLAM% actions, even while stressed."""
+        "Parting Gift (BoE)":
+           display_name: """Parting Gift"""
+           text: """When you are destroyed, before you are removed, you may spend 1 %CHARGE% on an equipped %DEVICE% upgrade to drop or launch a bomb using the speed 1 straight or bank [%BANKLEFT%, %STRAIGHT%, %BANKRIGHT%] template."""
+        "Stabilizing Astromech (BoE)":
+           display_name: """Stabilizing Astromech"""
+           text: """After you fully execute a maneuver, you may spend 1 %CHARGE% to perform a white action, even while stressed."""
+        "Modified R4-P unit (BoE)":
+           display_name: """Modified R4-P unit"""
+           text: """Before you execute a red maneuver, you may spend 1 %CHARGE%. If you do, while you execute that maneuver, reduce its difficulty."""
+        "Collected (BoE)":
+           display_name: """Collected"""
+           text: """After you perform a primary attack, you may spend 1 focus token to gain 2 evade tokens."""
+        "Ion Maneuvering Jet (BoE)":
+           display_name: """Ion Maneuvering Jet"""
+           text: """After you fully execute a Koiogran Turn [%KTURN%], you may spend 1 %CHARGE% to perform an action, even while stressed."""
+
+
             
         # Epic upgrades
         "Admiral Ozzel":
@@ -3815,6 +4008,22 @@ exportObj.cardLoaders.English = () ->
         "Sensor Blackout":
            display_name: "Sensor Blackout"
            text: """While you perform a primary attack at range 0-1, you roll 1 fewer attack die. %LINEBREAK% While you defend at range 1, you roll 1 fewer defense die."""
+        "Locked S-Foils":
+           display_name: "Locked S-Foils"
+           text: """After you perform a %BOOST% action, gain a deplete token."""
+        "Gyro-Cockpit":
+           display_name: "Gyro-Cockpit"
+           text: """After you gain a stress token, you may spend 2 %CHARGE% to gain an evade token. When you drop a device, you may spend 1 %CHARGE% to set the template with its middle line aligned with the hashmark on the base in your %LEFTARC% or %RIGHTARC%."""
+        "High Stakes":
+           display_name: "High Stakes"
+           text: """After you perform a red action, you may roll an attack die. On a %HIT%/%CRIT% result, remove 1 stress."""
+        "Chiss Engineering":
+           display_name: "Chiss Engineering"
+           text: """After you fully execute a speed 3-5 maneuver, you may perform a %LOCK% action. While attacking, if you are not stressed, you may spend 1 %SHIELD% to apply the range 1 bonus."""
+        "Formed Up":
+           display_name: "Formed Up"
+           text: """At the end of the End Phase, if there is another friendly <strong>TIE/ln Fighter</strong> ship at range 0-1, you may remove 1 stress token."""
+
 
             
     # in this file the display_name is often omitted, if it is identical to the name. I am too lazy to add those manually (though running the translation script would automatically do so). As this will pop up with every new card, I add those tags here
