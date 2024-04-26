@@ -2648,7 +2648,7 @@ class exportObj.SquadBuilder
                     container.find('tr.info-attack td.info-header i.xwing-miniatures-font').addClass(ship.attack_icon ? 'xwing-miniatures-font-attack')
 
                     container.find('tr.info-attack td.info-data').text statAndEffectiveStat((data.ship_override?.attack ? ship.attack), effective_stats, 'attack')
-                    container.find('tr.info-attack').toggle(ship.attack? or effective_stats?.attack?)
+                    container.find('tr.info-attack').toggle(((data.ship_override?.attack ? ship.attack) > 0) or (effective_stats?.attack? and effective_stats?.attack > 0))
 
                     container.find('tr.info-attack-fullfront td.info-data').text statAndEffectiveStat((data.ship_override?.attackf ? ship.attackf), effective_stats, 'attackf')
                     container.find('tr.info-attack-fullfront').toggle(ship.attackf? or effective_stats?.attackf?)
@@ -2666,7 +2666,7 @@ class exportObj.SquadBuilder
                     container.find('tr.info-attack-back').toggle(ship.attackb? or effective_stats?.attackb?)
 
                     container.find('tr.info-attack-turret td.info-data').text statAndEffectiveStat((data.ship_override?.attackt ? ship.attackt), effective_stats, 'attackt')
-                    container.find('tr.info-attack-turret').toggle(ship.attackt? or effective_stats?.attackt?)
+                    container.find('tr.info-attack-turret').toggle(data.ship_override?.attackt? or ship.attackt? or effective_stats?.attackt?)
 
                     container.find('tr.info-attack-doubleturret td.info-data').text statAndEffectiveStat((data.ship_override?.attackdt ? ship.attackdt), effective_stats, 'attackdt')
                     container.find('tr.info-attack-doubleturret').toggle(ship.attackdt? or effective_stats?.attackdt?)
@@ -2822,7 +2822,7 @@ class exportObj.SquadBuilder
                     container.find('tr.info-engagement').show()
 
                     container.find('tr.info-attack td.info-data').text(pilot.ship_override?.attack ? ship.attack)
-                    container.find('tr.info-attack').toggle(pilot.ship_override?.attack? or ship.attack?)
+                    container.find('tr.info-attack').toggle((pilot.data.ship_override?.attack ? ship.attack) > 0)
 
                     container.find('tr.info-attack-fullfront td.info-data').text(ship.attackf)
                     container.find('tr.info-attack-fullfront').toggle(ship.attackf?)
