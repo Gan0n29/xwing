@@ -14484,6 +14484,1109 @@ exportObj.basicCardData = ->
                     "Rotate Arc"
                 ]
         }
+        {
+            name: "Arvel Crynyd (BoE)"
+            xws: "arvelcrynyd-battleoverendor"
+            canonical_name: 'Arvel Crynyd'.canonicalize()
+            unique: true
+            id: 702
+            standard_loadout: true
+            faction: "Rebel Alliance"
+            ship: "RZ-1 A-wing"
+            skill: 3
+            points: 38
+            chassis: "Vectored Cannons"
+            slots: [
+                "Talent"
+                "Talent"
+                "Missile"
+                "Configuration"
+            ]
+            ship_override:
+                attackt: 2
+                attack: 0
+                shields: 3
+                actions: [
+                    "Focus"
+                    "Evade"
+                    "Lock"
+                    "Barrel Roll"
+                    "R-> Focus"
+                    "Boost"
+                    "Slam"
+                ]
+        }
+        {
+            name: "Arvel Crynyd (BoE SL)"
+            xws: "arvelcrynyd-battleoverendor"
+            canonical_name: 'Arvel Crynyd'.canonicalize()
+            unique: true
+            id: 703
+            image_id: 702
+            standard_loadout: true
+            faction: "Rebel Alliance"
+            ship: "RZ-1 A-wing"
+            skill: 3
+            points: 51
+            chassis: "Vectored Cannons"
+            upgrades: [
+                "It's A Trap! (BoE)"
+                "Heroic Sacrifice (BoE)"
+                "Proton Rockets"
+            ]
+            ship_override:
+                attackt: 2
+                attack: 0
+                shields: 3
+                actions: [
+                    "Focus"
+                    "Evade"
+                    "Lock"
+                    "Barrel Roll"
+                    "R-> Focus"
+                    "Boost"
+                    "Slam"
+                ]
+        }
+        {
+            name: "Gemmer Sojan (BoE)"
+            xws: "gemmersojan-battleoverendor"
+            canonical_name: 'Gemmer Sojan'.canonicalize()
+            unique: true
+            id: 704
+            standard_loadout: true
+            faction: "Rebel Alliance"
+            ship: "RZ-1 A-wing"
+            skill: 2
+            points: 33
+            chassis: "Vectored Cannons"
+            slots: [
+                "Talent"
+                "Missile"
+                "Configuration"
+            ]
+            ship_override:
+                attackt: 2
+                attack: 0
+        }
+        {
+            name: "Gemmer Sojan (BoE SL)"
+            xws: "gemmersojan-battleoverendor"
+            canonical_name: 'Gemmer Sojan'.canonicalize()
+            unique: true
+            id: 705
+            image_id: 704
+            standard_loadout: true
+            faction: "Rebel Alliance"
+            ship: "RZ-1 A-wing"
+            skill: 2
+            points: 46
+            chassis: "Vectored Cannons"
+            upgrades: [
+                "It's A Trap! (BoE)"
+                "Precision-Tuned Cannons (BoE)"
+                "Chaff Particles (BoE)"
+                "Target-Assist Algorithm (BoE)"
+            ]
+            ship_override:
+                attackt: 2
+                attack: 0
+        }
+        {
+            name: "Tycho Celchu (BoE)"
+            xws: "tychocelchu-battleoverendor"
+            canonical_name: 'Tycho Celchu'.canonicalize()
+            unique: true
+            id: 706
+            standard_loadout: true
+            faction: "Rebel Alliance"
+            ship: "RZ-1 A-wing"
+            skill: 5
+            points: 41
+            chassis: "Vectored Cannons"
+            slots: [
+                "Talent"
+                "Talent"
+                "Missile"
+                "Configuration"
+            ]
+            ship_override:
+                attackt: 2
+                attack: 0
+                shields: 3
+                actions: [
+                    "Focus"
+                    "R-> Reload"
+                    "Evade"
+                    "Lock"
+                    "Barrel Roll"
+                    "Boost"
+                    "R-> Evade"
+                ]
+        }
+        {
+            name: "Tycho Celchu (BoE SL)"
+            xws: "tychocelchu-battleoverendor"
+            canonical_name: 'Tycho Celchu'.canonicalize()
+            unique: true
+            id: 707
+            image_id: 706
+            standard_loadout: true
+            faction: "Rebel Alliance"
+            ship: "RZ-1 A-wing"
+            skill: 5
+            points: 57
+            chassis: "Vectored Cannons"
+            ship_override:
+                attackt: 2
+                attack: 0
+                shields: 3
+                actions: [
+                    "Focus"
+                    "R-> Reload"
+                    "Evade"
+                    "Lock"
+                    "Barrel Roll"
+                    "Boost"
+                    "R-> Evade"
+                ]
+            upgrades: [
+                "It's A Trap! (BoE)"
+                "Juke"
+                "Proton Rockets"
+                "Chaff Particles (BoE)"
+            ]
+        }
+        {
+            name: "Adon Fox (BoE)"
+            xws: "adonfox-battleoverendor"
+            canonical_name: 'Adon Fox'.canonicalize()
+            unique: true
+            id: 708
+            standard_loadout: true
+            faction: "Rebel Alliance"
+            ship: "A/SF-01 B-wing"
+            skill: 1
+            points: 46
+            charge: 2
+            recurring: 1
+            chassis: "Gyro-Cockpit"
+            ship_override:
+                actions: [
+                    "Focus"
+                    "R-> Barrel Roll"
+                    "Lock"
+                    "Barrel Roll"
+                    "R-> Lock"
+                    "R-Reload"
+                ]
+            slots: [
+                "Sensor"
+                "Cannon"
+                "Cannon"
+                "Torpedo"
+                "Modification"
+                "Configuration"
+                "Title"
+            ]
+        }
+        {
+            name: "Adon Fox (BoE SL)"
+            xws: "adonfox-battleoverendor"
+            canonical_name: 'Adon Fox'.canonicalize()
+            unique: true
+            id: 709
+            image_id: 708
+            standard_loadout: true
+            faction: "Rebel Alliance"
+            ship: "A/SF-01 B-wing"
+            skill: 1
+            points: 65
+            charge: 2
+            recurring: 1
+            chassis: "Gyro-Cockpit"
+            ship_override:
+                actions: [
+                    "Focus"
+                    "R-> Barrel Roll"
+                    "Lock"
+                    "Barrel Roll"
+                    "R-> Lock"
+                    "R-Reload"
+                ]
+            upgrades: [
+                "It's A Trap! (BoE)"
+                "Parting Gift (BoE)"
+                "Proton Rockets"
+                "Proton Bombs"
+            ]
+        }
+        {
+            name: "Braylen Stramm (BoE)"
+            xws: "braylenstramm-battleoverendor"
+            canonical_name: 'Braylen Stramm'.canonicalize()
+            unique: true
+            id: 710
+            image_id: 73
+            standard_loadout: true
+            faction: "Rebel Alliance"
+            ship: "A/SF-01 B-wing"
+            skill: 4
+            points: 53
+            charge: 2
+            recurring: 1
+            chassis: "Gyro-Cockpit"
+            ship_override:
+                shields: 5
+                actions: [
+                    "Focus"
+                    "R-> Barrel Roll"
+                    "Lock"
+                    "Barrel Roll"            
+                    "R-> Lock"
+                    "R-Reload"
+                ]
+            slots: [
+                "Talent"
+                "Sensor"
+                "Cannon"
+                "Cannon"
+                "Torpedo"
+                "Modification"
+                "Configuration"
+                "Title"
+            ]
+        }
+        {
+            name: "Braylen Stramm (BoE SL)"
+            xws: "braylenstramm-battleoverendor"
+            canonical_name: 'Braylen Stramm'.canonicalize()
+            unique: true
+            id: 711
+            image_id: 73
+            standard_loadout: true
+            faction: "Rebel Alliance"
+            ship: "A/SF-01 B-wing"
+            skill: 4
+            points: 68
+            charge: 2
+            recurring: 1
+            chassis: "Gyro-Cockpit"
+            ship_override:
+                shields: 5
+                actions: [
+                    "Focus"
+                    "R-> Barrel Roll"
+                    "Lock"
+                    "Barrel Roll"            
+                    "R-> Lock"
+                    "R-Reload"
+                ]
+            upgrades: [
+                "It's A Trap! (BoE)"
+                "Homing Missiles"
+                "Proton Bombs"
+                "Delayed Fuses"
+            ]
+        }
+        {
+            name: "Gina Moonsong (BoE)"
+            xws: "ginamoonsong-battleoverendor"
+            canonical_name: 'Gina Moonsong'.canonicalize()
+            unique: true
+            id: 712
+            image_id: 391
+            standard_loadout: true
+            faction: "Rebel Alliance"
+            ship: "A/SF-01 B-wing"
+            skill: 5
+            points: 55
+            charge: 2
+            recurring: 1
+            chassis: "Gyro-Cockpit"
+            ship_override:
+                shields: 5
+                actions: [
+                    "Focus"
+                    "R-> Barrel Roll"
+                    "Lock"
+                    "Barrel Roll"            
+                    "R-> Lock"
+                    "R-Reload"
+                ]
+            slots: [
+                "Talent"
+                "Sensor"
+                "Cannon"
+                "Cannon"
+                "Torpedo"
+                "Modification"
+                "Configuration"
+                "Title"
+            ]
+        }
+        {
+            name: "Gina Moonsong (BoE SL)"
+            xws: "ginamoonsong-battleoverendor"
+            canonical_name: 'Gina Moonsong'.canonicalize()
+            unique: true
+            id: 713
+            image_id: 391
+            standard_loadout: true
+            faction: "Rebel Alliance"
+            ship: "A/SF-01 B-wing"
+            skill: 5
+            points: 80
+            charge: 2
+            recurring: 1
+            chassis: "Gyro-Cockpit"
+            ship_override:
+                shields: 5
+                actions: [
+                    "Focus"
+                    "R-> Barrel Roll"
+                    "Lock"
+                    "Barrel Roll"            
+                    "R-> Lock"
+                    "R-Reload"
+                ]
+            upgrades: [
+                "It's A Trap! (BoE)"
+                "Juke"
+                "Proton Torpedoes"
+                "Ion Bombs"
+            ]
+        }
+        {
+            name: "Kendy Idele (BoE)"
+            xws: "kendyidele-battleoverendor"
+            canonical_name: 'Kendy Idele'.canonicalize()
+            unique: true
+            id: 714
+            standard_loadout: true
+            faction: "Rebel Alliance"
+            ship: "T-65 X-wing"
+            skill: 4
+            points: 48
+            chassis: "Locked S-Foils"
+            ship_override:
+                actions: [
+                    "Focus"
+                    "R-> Boost"
+                    "Lock"
+                    "Barrel Roll"
+                    "R-> Focus"
+                    "Boost"
+                ]
+            slots: [
+                "Talent"
+                "Torpedo"
+                "Astromech"
+                "Modification"
+                "Configuration"
+            ]
+        }
+        {
+            name: "Kendy Idele (BoE SL)"
+            xws: "kendyidele-battleoverendor"
+            canonical_name: 'Kendy Idele'.canonicalize()
+            unique: true
+            id: 715
+            image_id: 714
+            standard_loadout: true
+            faction: "Rebel Alliance"
+            ship: "T-65 X-wing"
+            skill: 4
+            points: 57
+            chassis: "Locked S-Foils"
+            ship_override:
+                actions: [
+                    "Focus"
+                    "R-> Boost"
+                    "Lock"
+                    "Barrel Roll"
+                    "R-> Focus"
+                    "Boost"
+                ]
+            upgrades: [
+                "It's A Trap! (BoE)"
+                "Ion Missiles"
+                "Modified R4-P unit (BoE)"
+                "Chaff Particles (BoE)"
+            ]
+        }
+        {
+            name: "Wedge Antilles (BoE)"
+            xws: "wedgeantilles-battleoverendor"
+            canonical_name: 'Wedge Antilles'.canonicalize()
+            unique: true
+            id: 716
+            standard_loadout: true
+            faction: "Rebel Alliance"
+            ship: "T-65 X-wing"
+            skill: 6
+            points: 55
+            chassis: "Locked S-Foils"
+            ship_override:
+                shields: 3
+                actions: [
+                    "Focus"
+                    "R-> Boost"
+                    "Lock"
+                    "Barrel Roll"
+                    "R-> Focus"
+                    "Boost"
+                ]
+            slots: [
+                "Talent"
+                "Torpedo"
+                "Astromech"
+                "Modification"
+                "Configuration"
+            ]
+        }
+        {
+            name: "Wedge Antilles (BoE SL)"
+            xws: "wedgeantilles-battleoverendor"
+            canonical_name: 'Wedge Antilles'.canonicalize()
+            unique: true
+            id: 717
+            image_id: 716
+            standard_loadout: true
+            faction: "Rebel Alliance"
+            ship: "T-65 X-wing"
+            skill: 6
+            points: 70
+            chassis: "Locked S-Foils"
+            ship_override:
+                shields: 3
+                actions: [
+                    "Focus"
+                    "R-> Boost"
+                    "Lock"
+                    "Barrel Roll"
+                    "R-> Focus"
+                    "Boost"
+                ]
+            upgrades: [
+                "It's A Trap! (BoE)"
+                "Predator"
+                "Adv. Proton Torpedoes"
+                "R2-A3 (BoE)"
+            ]
+        }
+        {
+            name: "Yendor (BoE)"
+            xws: "yendor-battleoverendor"
+            canonical_name: 'Yendor'.canonicalize()
+            unique: true
+            id: 718
+            standard_loadout: true
+            faction: "Rebel Alliance"
+            ship: "T-65 X-wing"
+            skill: 5
+            points: 50
+            chassis: "Locked S-Foils"
+            ship_override:
+                actions: [
+                    "Focus"
+                    "R-> Boost"
+                    "Lock"
+                    "Barrel Roll"
+                    "R-> Focus"
+                    "Boost"
+                ]
+            slots: [
+                "Talent"
+                "Torpedo"
+                "Astromech"
+                "Modification"
+                "Configuration"
+            ]
+        }
+        {
+            name: "Yendor (BoE SL)"
+            xws: "yendor-battleoverendor"
+            canonical_name: 'Yendor'.canonicalize()
+            unique: true
+            id: 719
+            image_id: 718
+            standard_loadout: true
+            faction: "Rebel Alliance"
+            ship: "T-65 X-wing"
+            skill: 5
+            points: 61
+            chassis: "Locked S-Foils"
+            ship_override:
+                actions: [
+                    "Focus"
+                    "R-> Boost"
+                    "Lock"
+                    "Barrel Roll"
+                    "R-> Focus"
+                    "Boost"
+                ]
+            upgrades: [
+                "It's A Trap! (BoE)"
+                "Plasma Torpedoes"
+                "Stabilizing Astromech (BoE)"
+            ]
+        }
+        {
+            name: "Lando Calrissian (BoE)"
+            xws: "landocalrissian-battleoverendor"
+            canonical_name: 'Lando Calrissian'.canonicalize()
+            unique: true
+            id: 720
+            standard_loadout: true
+            faction: "Rebel Alliance"
+            ship: "Modified YT-1300 Light Freighter"
+            skill: 5
+            points: 75
+            charge: 2
+            chassis: "High Stakes"
+            ship_override:
+                actions: [
+                    "Focus"
+                    "Lock"
+                    "Evade"
+                    "R-Boost"
+                    "Rotate Arc"
+                    "R-Coordinate"
+                    "R-> Focus"
+                ]
+            slots: [
+                "Talent"
+                "Missile"
+                "Gunner"
+                "Crew"
+                "Crew"
+                "Modification"
+                "Modification"
+                "Title"
+            ]
+        }
+        {
+            name: "Lando Calrissian (BoE SL)"
+            xws: "landocalrissian-battleoverendor"
+            canonical_name: 'Lando Calrissian'.canonicalize()
+            unique: true
+            id: 721
+            image_id: 720
+            standard_loadout: true
+            faction: "Rebel Alliance"
+            ship: "Modified YT-1300 Light Freighter"
+            skill: 5
+            points: 101
+            charge: 2
+            chassis: "High Stakes"
+            ship_override:
+                actions: [
+                    "Focus"
+                    "Lock"
+                    "Evade"
+                    "R-Boost"
+                    "Rotate Arc"
+                    "R-Coordinate"
+                    "R-> Focus"
+                ]
+            upgrades: [
+                "Ace In The Hole (BoE)"
+                "It's A Trap! (BoE)"
+                "Nien Nunb"
+                "Airen Cracken (BoE)"
+                "Millennium Falcon (BoE)"
+            ]
+        }
+        {
+            name: "Captain Yorr (BoE)"
+            xws: "captainyorr-battleoverendor"
+            canonical_name: 'Captain Yorr'.canonicalize()
+            id: 722
+            standard_loadout: true
+            unique: true
+            faction: "Galactic Empire"
+            ship: "TIE/d Defender"
+            skill: 4
+            charge: 2
+            points: 72
+            chassis: "Chiss Engineering"
+            ship_override:
+                actions: [
+                    "Focus"
+                    "Evade"
+                    "R-> Barrel Roll"
+                    "Lock"
+                    "Barrel Roll"
+                    "Boost"
+                ]
+            slots: [
+                "Talent"
+                "Sensor"
+                "Cannon"
+                "Missile"
+            ]
+        }
+        {
+            name: "Captain Yorr (BoE SL)"
+            xws: "captainyorr-battleoverendor"
+            canonical_name: 'Captain Yorr'.canonicalize()
+            id: 723
+            image_id: 722
+            standard_loadout: true
+            unique: true
+            faction: "Galactic Empire"
+            ship: "TIE/d Defender"
+            skill: 4
+            charge: 2
+            points: 85
+            chassis: "Chiss Engineering"
+            ship_override:
+                actions: [
+                    "Focus"
+                    "Evade"
+                    "R-> Barrel Roll"
+                    "Lock"
+                    "Barrel Roll"
+                    "Boost"
+                ]
+            upgrades: [
+                "No Escape (BoE)"
+                "Predator"
+                "Ion Cannon"
+                "Computer-Assisted Handling (BoE)"
+            ]
+        }
+        {
+            name: "Colonel Jendon (BoE)"
+            xws: "coloneljendon-battleoverendor"
+            canonical_name: 'Colonel Jendon'.canonicalize()
+            id: 724
+            standard_loadout: true
+            unique: true
+            faction: "Galactic Empire"
+            ship: "TIE/d Defender"
+            skill: 6
+            points: 80
+            chassis: "Chiss Engineering"
+            ship_override:
+                actions: [
+                    "Focus"
+                    "Evade"
+                    "R-> Barrel Roll"
+                    "Lock"
+                    "Barrel Roll"
+                    "Boost"
+                ]
+            slots: [
+                "Talent"
+                "Sensor"
+                "Cannon"
+                "Missile"
+            ]
+        }
+        {
+            name: "Colonel Jendon (BoE SL)"
+            xws: "coloneljendon-battleoverendor"
+            canonical_name: 'Colonel Jendon'.canonicalize()
+            id: 725
+            image_id: 724
+            standard_loadout: true
+            unique: true
+            faction: "Galactic Empire"
+            ship: "TIE/d Defender"
+            skill: 6
+            points: 87
+            chassis: "Chiss Engineering"
+            ship_override:
+                actions: [
+                    "Focus"
+                    "Evade"
+                    "R-> Barrel Roll"
+                    "Lock"
+                    "Barrel Roll"
+                    "Boost"
+                ]
+            upgrades: [
+                "No Escape (BoE)"
+                "Push The Limit (BoE)"
+                "Proton Cannons"
+                "Computer-Assisted Handling (BoE)"
+            ]
+        }
+        {
+            name: "Maus Monare (BoE)"
+            xws: "mausmonare-battleoverendor"
+            canonical_name: 'Maus Monare'.canonicalize()
+            unique: true
+            id: 726
+            standard_loadout: true
+            faction: "Galactic Empire"
+            ship: "TIE/in Interceptor"
+            skill: 3
+            points: 42
+            chassis: "Sensitive Controls"
+            slots: [
+                "Talent"
+                "Modification"
+                "Modification"
+                "Configuration"
+            ]
+            ship_override:
+                shields: 1
+        }
+        {
+            name: "Maus Monare (BoE SL)"
+            xws: "mausmonare-battleoverendor"
+            canonical_name: 'Maus Monare'.canonicalize()
+            unique: true
+            id: 727
+            image_id: 726
+            standard_loadout: true
+            faction: "Galactic Empire"
+            ship: "TIE/in Interceptor"
+            skill: 3
+            points: 56
+            chassis: "Sensitive Controls"
+            upgrades: [
+                "No Escape (BoE)"
+                "Outmaneuver"
+                "Fuel Injection Override (BoE)"
+            ]
+            ship_override:
+                shields: 1
+        }
+        {
+            name: "Sapphire 2 (BoE)"
+            xws: "sapphire2-battleoverendor"
+            canonical_name: 'Sapphire 2'.canonicalize()
+            unique: true
+            id: 728
+            standard_loadout: true
+            faction: "Galactic Empire"
+            ship: "TIE/in Interceptor"
+            skill: 1
+            points: 38
+            chassis: "Sensitive Controls"
+            slots: [
+                "Modification"
+                "Modification"
+                "Configuration"
+            ]
+        }
+        {
+            name: "Sapphire 2 (BoE SL)"
+            xws: "sapphire2-battleoverendor"
+            canonical_name: 'Sapphire 2'.canonicalize()
+            unique: true
+            id: 729
+            image_id: 728
+            standard_loadout: true
+            faction: "Galactic Empire"
+            ship: "TIE/in Interceptor"
+            skill: 1
+            points: 53
+            chassis: "Sensitive Controls"
+            upgrades: [
+                "No Escape (BoE)"
+                "Reckless (BoE)"
+                "Targeting Matrix (BoE)"
+                "Primed Thrusters"
+            ]
+        }
+        {
+            name: "Soontir Fel (BoE)"
+            xws: "soontirfel-battleoverendor"
+            canonical_name: 'Soontir Fel'.canonicalize()
+            unique: true
+            id: 730
+            standard_loadout: true
+            faction: "Galactic Empire"
+            ship: "TIE/in Interceptor"
+            skill: 6
+            charge: 2
+            points: 48
+            chassis: "Sensitive Controls"
+            slots: [
+                "Talent"
+                "Modification"
+                "Modification"
+                "Configuration"
+            ]
+        }
+        {
+            name: "Soontir Fel (BoE SL)"
+            xws: "soontirfel-battleoverendor"
+            canonical_name: 'Soontir Fel'.canonicalize()
+            unique: true
+            id: 731
+            image_id: 730
+            standard_loadout: true
+            faction: "Galactic Empire"
+            ship: "TIE/in Interceptor"
+            skill: 6
+            charge: 2
+            points: 68
+            chassis: "Sensitive Controls"
+            upgrades: [
+                "Apex Predator (BoE)"
+                "No Escape (BoE)"
+                "Blank Signature (BoE)"
+                "Feedback Emitter (BoE)"
+            ]
+        }
+        {
+            name: "Lieutenant Hebsly (BoE)"
+            xws: "lieutenanthebsly-battleoverendor"
+            canonical_name: 'Lieutenant Hebsly'.canonicalize()
+            unique: true
+            id: 732
+            standard_loadout: true
+            faction: "Galactic Empire"
+            ship: "TIE/ln Fighter"
+            skill: 3
+            points: 38
+            chassis: "Formed Up"
+            ship_override:
+                hull: 4
+                actions: [
+                    "Focus"
+                    "Evade"
+                    "Lock"
+                    "Barrel Roll"
+                    "R-> Evade"
+                    "R-Boost"
+                ]
+            slots: [
+                "Talent"
+                "Modification"
+            ]
+        }
+        {
+            name: "Lieutenant Hebsly (BoE SL)"
+            xws: "lieutenanthebsly-battleoverendor"
+            canonical_name: 'Lieutenant Hebsly'.canonicalize()
+            unique: true
+            id: 733
+            image_id: 732
+            standard_loadout: true
+            faction: "Galactic Empire"
+            ship: "TIE/ln Fighter"
+            skill: 3
+            points: 51
+            chassis: "Formed Up"
+            ship_override:
+                hull: 4
+                actions: [
+                    "Focus"
+                    "Evade"
+                    "Lock"
+                    "Barrel Roll"
+                    "R-> Evade"
+                    "R-Boost"
+                ]
+            upgrades: [
+                "Collected (BoE)"
+                "Elusive"
+                "No Escape (BoE)"
+            ]
+        }
+        {
+            name: "Major Mianda (BoE)"
+            xws: "majormianda-battleoverendor"
+            canonical_name: 'Major Mianda'.canonicalize()
+            unique: true
+            id: 734
+            standard_loadout: true
+            faction: "Galactic Empire"
+            ship: "TIE/ln Fighter"
+            skill: 5
+            points: 41
+            chassis: "Formed Up"
+            ship_override:
+                shields: 1
+                actions: [
+                    "Focus"
+                    "Evade"
+                    "Lock"
+                    "Barrel Roll"
+                    "R-> Evade"
+                    "R-Coordinate"
+                ]
+            slots: [
+                "Talent"
+                "Modification"
+            ]
+        }
+        {
+            name: "Major Mianda (BoE SL)"
+            xws: "majormianda-battleoverendor"
+            canonical_name: 'Major Mianda'.canonicalize()
+            unique: true
+            id: 735
+            image_id: 734
+            standard_loadout: true
+            faction: "Galactic Empire"
+            ship: "TIE/ln Fighter"
+            skill: 5
+            points: 48
+            chassis: "Formed Up"
+            ship_override:
+                shields: 1
+                actions: [
+                    "Focus"
+                    "Evade"
+                    "Lock"
+                    "Barrel Roll"
+                    "R-> Evade"
+                    "R-Coordinate"
+                ]
+            upgrades: [
+                "Ruthless"
+                "Swarm Tactics"
+                "No Escape (BoE)"
+            ]
+        }
+        {
+            name: "Scythe 6 (BoE)"
+            xws: "scythe6-battleoverendor"
+            canonical_name: 'Scythe 6'.canonicalize()
+            unique: true
+            id: 736
+            standard_loadout: true
+            faction: "Galactic Empire"
+            ship: "TIE/ln Fighter"
+            skill: 2
+            points: 42
+            chassis: "Formed Up"
+            ship_override:
+                hull: 4
+                actions: [
+                    "Focus"
+                    "Evade"
+                    "Lock"
+                    "Barrel Roll"
+                    "R-> Evade"
+                ]
+            slots: [
+                "Modification"
+            ]
+        }
+        {
+            name: "Scythe 6 (BoE SL)"
+            xws: "scythe6-battleoverendor"
+            canonical_name: 'Scythe 6'.canonicalize()
+            unique: true
+            id: 737
+            image_id: 736
+            standard_loadout: true
+            faction: "Galactic Empire"
+            ship: "TIE/ln Fighter"
+            skill: 2
+            points: 53
+            chassis: "Formed Up"
+            ship_override:
+                hull: 4
+                actions: [
+                    "Focus"
+                    "Evade"
+                    "Lock"
+                    "Barrel Roll"
+                    "R-> Evade"
+                ]
+            upgrades: [
+                "No Escape (BoE)"
+                "Predator"
+                "Ion Maneuvering Jet (BoE)"
+                "Targeting Matrix (BoE)"
+            ]
+        }
+        {
+            name: "Scimitar 1 (BoE)"
+            xws: "scimitar1-battleoverendor"
+            canonical_name: 'Scimitar 1'.canonicalize()
+            unique: true
+            id: 738
+            standard_loadout: true
+            faction: "Galactic Empire"
+            ship: "TIE/sa Bomber"
+            skill: 3
+            points: 36
+            charge: 2
+            slots: [
+                "Talent"
+                "Torpedo"
+                "Missile"
+                "Missile"
+                "Gunner"
+                "Device"
+                "Device"
+                "Modification"
+            ]
+        }
+        {
+            name: "Scimitar 1 (BoE SL)"
+            xws: "scimitar1-battleoverendor"
+            canonical_name: 'Scimitar 1'.canonicalize()
+            unique: true
+            id: 739
+            image_id: 738
+            standard_loadout: true
+            faction: "Galactic Empire"
+            ship: "TIE/sa Bomber"
+            skill: 3
+            points: 56
+            charge: 2
+            upgrades: [
+                "Marksmanship"
+                "No Escape (BoE)"
+                "Proton Torpedoes"
+                "Ion Bombs"
+            ]
+        }
+        {
+            name: "Scimitar 3 (BoE)"
+            xws: "scimitar3-battleoverendor"
+            canonical_name: 'Scimitar 3'.canonicalize()
+            unique: true
+            id: 740
+            standard_loadout: true
+            faction: "Galactic Empire"
+            ship: "TIE/sa Bomber"
+            skill: 4
+            points: 34
+            charge: 2
+            slots: [
+                "Talent"
+                "Torpedo"
+                "Missile"
+                "Missile"
+                "Gunner"
+                "Device"
+                "Device"
+                "Modification"
+            ]
+        }
+        {
+            name: "Scimitar 3 (BoE SL)"
+            xws: "scimitar3-battleoverendor"
+            canonical_name: 'Scimitar 3'.canonicalize()
+            unique: true
+            id: 741
+            image_id: 740
+            standard_loadout: true
+            faction: "Galactic Empire"
+            ship: "TIE/sa Bomber"
+            skill: 4
+            points: 57
+            charge: 2
+            upgrades: [
+                "No Escape (BoE)"
+                "Parting Gift (BoE)"
+                "Proton Torpedoes"
+                "Proton Bombs"
+            ]
+        }
     ]
 
     upgradesById: [
@@ -19743,6 +20846,183 @@ exportObj.basicCardData = ->
             faction: ["Scum and Villainy", "Rebel Alliance"]
             ship: "YT-2400 Light Freighter (2023)"
         }
+        {
+            name: "R2-A3 (BoE)"
+            unique: true
+            id: 503
+            no_image: true
+            standard_loadout: true
+            charge: 1
+            slot: "Talent"
+        }
+        {
+            name: "Ace In The Hole (BoE)"
+            id: 504
+            no_image: true
+            standard_loadout: true
+            charge: 2
+            slot: "Talent"
+        }
+        {
+            name: "Airen Cracken (BoE)"
+            id: 505
+            canonical_name: 'Airen Cracken'.canonicalize()
+            unique: true
+            no_image: true
+            standard_loadout: true
+            slot: "Gunner"
+        }
+        {
+            name: "Millennium Falcon (BoE)"
+            id: 506
+            unique: true
+            no_image: true
+            standard_loadout: true
+            slot: "Title"
+        }
+        {
+            name: "Chaff Particles (BoE)"
+            id: 507
+            no_image: true
+            standard_loadout: true
+            slot: "Modification"
+        }
+        {
+            name: "No Escape (BoE)"
+            id: 508
+            no_image: true
+            standard_loadout: true
+            slot: "Talent"
+        }
+        {
+            name: "Reckless (BoE)"
+            id: 509
+            no_image: true
+            standard_loadout: true
+            slot: "Talent"
+        }
+        {
+            name: "Push The Limit (BoE)"
+            id: 510
+            no_image: true
+            standard_loadout: true
+            slot: "Talent"
+        }
+        {
+            name: "Computer-Assisted Handling (BoE)"
+            id: 511
+            no_image: true
+            standard_loadout: true
+            charge: 1
+            slot: "Modification"
+        }
+        {
+            name: "Blank Signature (BoE)"
+            id: 512
+            no_image: true
+            standard_loadout: true
+            charge: 1
+            recurring: 1
+            slot: "Sensor"
+        }
+        {
+            name: "Feedback Emitter (BoE)"
+            id: 513
+            no_image: true
+            standard_loadout: true
+            charge: 1
+            slot: "Illicit"
+        }
+        {
+            name: "Targeting Matrix (BoE)"
+            id: 514
+            no_image: true
+            standard_loadout: true
+            slot: "Modification"
+        }
+        {
+            name: "Apex Predator (BoE)"
+            id: 515
+            no_image: true
+            standard_loadout: true
+            slot: "Talent"
+        }
+        {
+            name: "Fuel Injection Override (BoE)"
+            id: 516
+            no_image: true
+            standard_loadout: true
+            charge: 2
+            slot: "Modification"
+        }
+        {
+            name: "Target-Assist Algorithm (BoE)"
+            id: 517
+            no_image: true
+            standard_loadout: true
+            slot: "Modification"
+        }
+        {
+            name: "Precision-Tuned Cannons (BoE)"
+            id: 518
+            no_image: true
+            standard_loadout: true
+            attack: 2
+            range: """2-3"""
+            slot: "Cannon"
+        }
+        {
+            name: "Heroic Sacrifice (BoE)"
+            id: 519
+            no_image: true
+            standard_loadout: true
+            slot: "Talent"
+        }
+        {
+            name: "Parting Gift (BoE)"
+            id: 520
+            no_image: true
+            standard_loadout: true
+            slot: "Talent"
+        }
+        {
+            name: "Stabilizing Astromech (BoE)"
+            id: 521
+            no_image: true
+            standard_loadout: true
+            slot: "Astromech"
+            charge: 1
+        }
+        {
+            name: "Modified R4-P unit (BoE)"
+            id: 522
+            no_image: true
+            standard_loadout: true
+            slot: "Astromech"
+            charge: 1
+        }
+        {
+            name: "Ion Maneuvering Jet (BoE)"
+            id: 523
+            no_image: true
+            standard_loadout: true
+            slot: "Modification"
+            charge: 2
+        }
+        {
+            name: "Collected (BoE)"
+            id: 524
+            no_image: true
+            standard_loadout: true
+            slot: "Talent"
+        }
+        {
+            name: "It's A Trap! (BoE)"
+            id: 525
+            no_image: true
+            standard_loadout: true
+            slot: "Talent"
+        }
     ]
 
 
@@ -20145,6 +21425,26 @@ exportObj.basicCardData = ->
         {
             name: "Sensor Blackout"
             id: 49
+        }
+        {
+            name: "Locked S-Foils"
+            id: 50
+        }
+        {
+            name: "High Stakes"
+            id: 51
+        }
+        {
+            name: "Chiss Engineering"
+            id: 52
+        }
+        {
+            name: "Gyro-Cockpit"
+            id: 53
+        }
+        {
+            name: "Formed Up"
+            id: 54
         }
     ]
 
