@@ -14752,7 +14752,6 @@ exportObj.basicCardData = ->
                 "Cannon"
                 "Cannon"
                 "Torpedo"
-                "Modification"
                 "Configuration"
                 "Title"
             ]
@@ -14820,7 +14819,6 @@ exportObj.basicCardData = ->
                 "Cannon"
                 "Cannon"
                 "Torpedo"
-                "Modification"
                 "Configuration"
                 "Title"
             ]
@@ -14941,7 +14939,6 @@ exportObj.basicCardData = ->
                 "Talent"
                 "Torpedo"
                 "Astromech"
-                "Modification"
                 "Configuration"
             ]
         }
@@ -15229,7 +15226,6 @@ exportObj.basicCardData = ->
             slots: [
                 "Talent"
                 "Modification"
-                "Modification"
                 "Configuration"
             ]
             ship_override:
@@ -15359,7 +15355,6 @@ exportObj.basicCardData = ->
                 ]
             slots: [
                 "Talent"
-                "Modification"
             ]
         }
         {
@@ -15415,7 +15410,6 @@ exportObj.basicCardData = ->
                 ]
             slots: [
                 "Talent"
-                "Modification"
             ]
         }
         {
@@ -15468,9 +15462,6 @@ exportObj.basicCardData = ->
                     "Barrel Roll"
                     "R-> Evade"
                 ]
-            slots: [
-                "Modification"
-            ]
         }
         {
             name: "Scythe 6 (BoE SL)"
