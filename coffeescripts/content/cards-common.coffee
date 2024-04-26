@@ -14496,6 +14496,7 @@ exportObj.basicCardData = ->
             skill: 3
             points: 38
             chassis: "Vectored Cannons"
+            keyword: ["AlreadyHasShieldUpgrade"]
             slots: [
                 "Talent"
                 "Talent"
@@ -14604,6 +14605,7 @@ exportObj.basicCardData = ->
             skill: 5
             points: 41
             chassis: "Vectored Cannons"
+            keyword: ["AlreadyHasShieldUpgrade"]
             slots: [
                 "Talent"
                 "Talent"
@@ -14736,6 +14738,7 @@ exportObj.basicCardData = ->
             charge: 2
             recurring: 1
             chassis: "Gyro-Cockpit"
+            keyword: ["AlreadyHasShieldUpgrade"]
             ship_override:
                 shields: 5
                 actions: [
@@ -14803,6 +14806,7 @@ exportObj.basicCardData = ->
             charge: 2
             recurring: 1
             chassis: "Gyro-Cockpit"
+            keyword: ["AlreadyHasShieldUpgrade"]
             ship_override:
                 shields: 5
                 actions: [
@@ -14881,7 +14885,6 @@ exportObj.basicCardData = ->
                 "Torpedo"
                 "Astromech"
                 "Modification"
-                "Configuration"
             ]
         }
         {
@@ -14925,6 +14928,7 @@ exportObj.basicCardData = ->
             skill: 6
             points: 55
             chassis: "Locked S-Foils"
+            keyword: ["AlreadyHasShieldUpgrade"]
             ship_override:
                 shields: 3
                 actions: [
@@ -14939,7 +14943,6 @@ exportObj.basicCardData = ->
                 "Talent"
                 "Torpedo"
                 "Astromech"
-                "Configuration"
             ]
         }
         {
@@ -14998,7 +15001,6 @@ exportObj.basicCardData = ->
                 "Torpedo"
                 "Astromech"
                 "Modification"
-                "Configuration"
             ]
         }
         {
@@ -15223,6 +15225,7 @@ exportObj.basicCardData = ->
             skill: 3
             points: 42
             chassis: "Sensitive Controls"
+            keyword: ["AlreadyHasShieldUpgrade"]
             slots: [
                 "Talent"
                 "Modification"
@@ -15343,6 +15346,7 @@ exportObj.basicCardData = ->
             skill: 3
             points: 38
             chassis: "Formed Up"
+            keyword: ["AlreadyHasHullUpgrade"]
             ship_override:
                 hull: 4
                 actions: [
@@ -15398,6 +15402,7 @@ exportObj.basicCardData = ->
             skill: 5
             points: 41
             chassis: "Formed Up"
+            keyword: ["AlreadyHasShieldUpgrade"]
             ship_override:
                 shields: 1
                 actions: [
@@ -15453,6 +15458,7 @@ exportObj.basicCardData = ->
             skill: 2
             points: 42
             chassis: "Formed Up"
+            keyword: ["AlreadyHasHullUpgrade"]
             ship_override:
                 hull: 4
                 actions: [
