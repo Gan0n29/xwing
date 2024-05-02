@@ -210,60 +210,62 @@ exportObj.cardLoaders ?= {}
 exportObj.cardLoaders.日本語 = () ->
     exportObj.cardLanguage = '日本語'
 
-    exportObj.renameShip """YT-1300""", """Modified YT-1300 Light Freighter"""
-    exportObj.renameShip """StarViper""", """StarViper-class Attack Platform"""
+
+    exportObj.renameShip """Modified YT-1300 Light Freighter""", """Modified YT-1300 Light Freighter"""
+    exportObj.renameShip """StarViper-class Attack Platform""", """StarViper-class Attack Platform"""
     exportObj.renameShip """Scurrg H-6 Bomber""", """Scurrg H-6 Bomber"""
-    exportObj.renameShip """YT-2400""", """YT-2400 Light Freighter"""
+    exportObj.renameShip """YT-2400 Light Freighter""", """YT-2400 Light Freighter"""
     exportObj.renameShip """Auzituck Gunship""", """Auzituck Gunship"""
     exportObj.renameShip """Kihraxz Fighter""", """Kihraxz Fighter"""
     exportObj.renameShip """Sheathipede-Class Shuttle""", """Sheathipede-class Shuttle"""
-    exportObj.renameShip """Quadjumper""", """Quadrijet Transfer Spacetug"""
-    exportObj.renameShip """Firespray-31""", """Firespray-class Patrol Craft"""
-    exportObj.renameShip """TIE Fighter""", """TIE/ln Fighter"""
-    exportObj.renameShip """Y-Wing""", """BTL-A4 Y-Wing"""
-    exportObj.renameShip """TIE Advanced""", """TIE Advanced x1"""
+    exportObj.renameShip """Quadrijet Transfer Spacetug""", """Quadrijet Transfer Spacetug"""
+    exportObj.renameShip """Firespray-class Patrol Craft""", """Firespray-class Patrol Craft"""
+    exportObj.renameShip """TIE/ln Fighter""", """TIE/ln Fighter"""
+    exportObj.renameShip """BTL-A4 Y-wing""", """BTL-A4 Y-Wing"""
+    exportObj.renameShip """TIE Advanced x1""", """TIE Advanced x1"""
     exportObj.renameShip """Alpha-Class Star Wing""", """Alpha-class Star Wing"""
-    exportObj.renameShip """U-Wing""", """UT-60D U-Wing"""
-    exportObj.renameShip """TIE Striker""", """TIE/sk Striker"""
-    exportObj.renameShip """B-Wing""", """A/SF-01 B-Wing"""
-    exportObj.renameShip """TIE Defender""", """TIE/D Defender"""
-    exportObj.renameShip """TIE Bomber""", """TIE/sa Bomber"""
-    exportObj.renameShip """TIE Punisher""", """TIE/ca Punisher"""
-    exportObj.renameShip """Aggressor""", """Aggressor Assault Fighter"""
+    exportObj.renameShip """UT-60D U-wing""", """UT-60D U-Wing"""
+    exportObj.renameShip """TIE/sk Striker""", """TIE/sk Striker"""
+    exportObj.renameShip """A/SF-01 B-wing""", """A/SF-01 B-Wing"""
+    exportObj.renameShip """TIE/d Defender""", """TIE/D Defender"""
+    exportObj.renameShip """TIE/sa Bomber""", """TIE/sa Bomber"""
+    exportObj.renameShip """TIE/ca Punisher""", """TIE/ca Punisher"""
+    exportObj.renameShip """Aggressor Assault Fighter""", """Aggressor Assault Fighter"""
     exportObj.renameShip """G-1A Starfighter""", """G-1A Starfighter"""
-    exportObj.renameShip """VCX-100""", """VCX-100 Light Freighter"""
-    exportObj.renameShip """YV-666""", """YV-666 Light Freighter"""
-    exportObj.renameShip """TIE Advanced Prototype""", """TIE Advanced v1"""
-    exportObj.renameShip """Lambda-Class Shuttle""", """Lambda-class T-4a Shuttle"""
-    exportObj.renameShip """TIE Phantom""", """TIE/ph Phantom"""
+    exportObj.renameShip """VCX-100 Light Freighter""", """VCX-100 Light Freighter"""
+    exportObj.renameShip """YV-666 Light Freighter""", """YV-666 Light Freighter"""
+    exportObj.renameShip """TIE Advanced v1""", """TIE Advanced v1"""
+    exportObj.renameShip """Lambda-class T-4a Shuttle""", """Lambda-class T-4a Shuttle"""
+    exportObj.renameShip """TIE/ph Phantom""", """TIE/ph Phantom"""
     exportObj.renameShip """VT-49 Decimator""", """VT-49 Decimator"""
-    exportObj.renameShip """TIE Aggressor""", """TIE/ag Aggressor"""
-    exportObj.renameShip """K-Wing""", """BTL-S8 K-Wing"""
-    exportObj.renameShip """ARC-170""", """ARC-170 Starfighter"""
+    exportObj.renameShip """TIE/ag Aggressor""", """TIE/ag Aggressor"""
+    exportObj.renameShip """BTL-S8 K-wing""", """BTL-S8 K-Wing"""
+    exportObj.renameShip """ARC-170 Starfighter""", """ARC-170 Starfighter"""
     exportObj.renameShip """Attack Shuttle""", """Attack Shuttle"""
-    exportObj.renameShip """X-Wing""", """T-65 X-Wing"""
-    exportObj.renameShip """HWK-290""", """HWK-290 Light Freighter"""
-    exportObj.renameShip """A-Wing""", """RZ-1 A-Wing"""
+    exportObj.renameShip """T-65 X-wing""", """T-65 X-Wing"""
+    exportObj.renameShip """HWK-290 Light Freighter""", """HWK-290 Light Freighter"""
+    exportObj.renameShip """RZ-1 A-wing""", """RZ-1 A-Wing"""
     exportObj.renameShip """Fang Fighter""", """Fang Fighter"""
-    exportObj.renameShip """Z-95 Headhunter""", """Z-95-AF4 Headhunter"""
+    exportObj.renameShip """Z-95-AF4 Headhunter""", """Z-95-AF4 Headhunter"""
     exportObj.renameShip """M12-L Kimogila Fighter""", """M12-L Kimogila Fighter"""
-    exportObj.renameShip """E-Wing""", """E-Wing"""
-    exportObj.renameShip """TIE Interceptor""", """TIE Interceptor"""
+    exportObj.renameShip """E-wing""", """E-Wing"""
+    exportObj.renameShip """TIE/in Interceptor""", """TIE Interceptor"""
     exportObj.renameShip """Lancer-Class Pursuit Craft""", """Lancer-class Pursuit Craft"""
     exportObj.renameShip """TIE Reaper""", """TIE Reaper"""
     exportObj.renameShip """M3-A Interceptor""", """M3-A Interceptor"""
     exportObj.renameShip """JumpMaster 5000""", """JumpMaster 5000"""
-    exportObj.renameShip """Customized YT-1300""", """Customized YT-1300 Light Freighter"""
+    exportObj.renameShip """Customized YT-1300 Light Freighter""", """Customized YT-1300 Light Freighter"""
     exportObj.renameShip """Escape Craft""", """Escape Craft"""
-    exportObj.renameShip """TIE/FO Fighter""", """TIE/FO Fighter"""
-    exportObj.renameShip """TIE/SF Fighter""", """TIE/SF Fighter"""
+    exportObj.renameShip """TIE/fo Fighter""", """TIE/FO Fighter"""
+    exportObj.renameShip """TIE/sf Fighter""", """TIE/SF Fighter"""
     exportObj.renameShip """Upsilon-Class Command Shuttle""", """Upsilon-Class Command Shuttle"""
-    exportObj.renameShip """TIE/VN Silencer""", """TIE/vn Silencer"""
-    exportObj.renameShip """T-70 X-Wing""", """T-70 X-Wing"""
-    exportObj.renameShip """RZ-2 A-Wing""", """RZ-2 A-Wing"""
+    exportObj.renameShip """TIE/vn Silencer""", """TIE/vn Silencer"""
+    exportObj.renameShip """T-70 X-wing""", """T-70 X-Wing"""
+    exportObj.renameShip """RZ-2 A-wing""", """RZ-2 A-Wing"""
     exportObj.renameShip """MG-100 StarFortress""", """MG-100 StarFortress"""
-    exportObj.renameShip """Mining Guild TIE Fighter""", """Mining Guild TIE Fighter"""
+    exportObj.renameShip """Modified TIE/ln Fighter""", """Mining Guild TIE Fighter"""
     exportObj.renameShip """Scavenged YT-1300""", """Scavenged YT-1300"""
+
 
 
     pilot_translations =
@@ -1646,7 +1648,7 @@ exportObj.cardLoaders.日本語 = () ->
         "Ezra Bridger (Gauntlet Fighter)":
            display_name: """Ezra Bridger"""
            text: """君が防御するか攻撃を実行する際、もし君がストレス状態なら、君は%FORCE%を1つ消費して%FOCUS%の結果を2つまで%EVADE%あるいは%HIT%の結果に変更しても良い。"""
-        "Chopper (Gauntlet Fighter)":
+        '"Chopper" (Gauntlet Fighter)':
            display_name: """Chopper"""
            text: """エンゲージメント・フェイズの開始時、レンジ0の各敵宇宙船は、ジャム・トークンを2つ得る。"""
         "The Mandalorian":
@@ -3032,7 +3034,7 @@ exportObj.cardLoaders.日本語 = () ->
            text: '''システム・フェイズの間、もし<b>Tal Merrik</b>アップグレードのついた敵宇宙船がレンジ0-2にいるか、敵リモートがレンジ0-2にいるなら、君のダイヤルを表にする。 %LINEBREAK% <b>アクション:</b> このカードを捨て札にするために、デプリート・トークン1つとストレス・トークン1つを得る。'''
         '''Trials of the Darksaber''':
            text: '''君が攻撃レンジ0-2で攻撃を実行する際、君は%CRIT%の結果を1つ消費しても良い。もし君がそうするなら、もし防御宇宙船のプレイヤーが君よりも%POINT%を獲得しているなら、そのプレイヤーは獲得した%POINT%を1つ失う。その%POINT%をこのカードの上に置く。 %LINEBREAK% 君が防御した後、もし君が敵宇宙船の攻撃レンジ0-2の攻撃で破壊されたなら、攻撃者に<b>Trials of the Darksaber</b>コンディションをつける(このカードの上の全ての%POINT%は残して)。 %LINEBREAK% ゲームの終了時、この宇宙船はこのカードの上の%POINT%を全て獲得する。'''
-        '''Blaze Bomb''':
+        '''Blazer Bomb''':
            text: '''<b>タイプ:</b> デバイス, 爆弾 %LINEBREAK% アクティベーション・フェイズの終了時、このデバイスは爆発する。 %LINEBREAK% このデバイスが爆発する時、レンジ0-1の各宇宙船とリモートは攻撃ダイスを1つ振る。各宇宙船とリモートは%HIT%/%CRIT%の結果につき%HIT%ダメージを1つ受ける。 %LINEBREAK% このデバイスが爆発した後、BlaczをBlazeのガイドとデバイスの出っ張りを合わせて置く。 %LINEBREAK% Blazeは障害物である。この障害物が置かれた後、ヒューズ・マーカーをその上に置く。 %LINEBREAK% 終了フェイズの間、ヒューズ・マーカーのないBlazeを取り除き、その後各Blazeからヒューズ・マーカーを1つ取り除く。'''
  
     chassis_translations =

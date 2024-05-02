@@ -993,6 +993,21 @@ class exportObj.SquadBuilder
                         <option class="pomdebris1-select translated" value="pomdebris1" defaultText="Pride of Mandalore Debris 1"></option>
                         <option class="pomdebris2-select translated" value="pomdebris2" defaultText="Pride of Mandalore Debris 2"></option>
                         <option class="pomdebris3-select translated" value="pomdebris3" defaultText="Pride of Mandalore Debris 3"></option>
+                        <option class="scenario-emplacements-select translated" value="scenario-emplacements" defaultText="Scenario - Emplacements"></option>
+                        <option class="scenario-probingproblem-select translated" value="scenario-probingproblem" defaultText="Scenario - Probing Problem"></option>
+                        <option class="scenario-blackbox-select translated" value="scenario-blackbox" defaultText="Scenario - Black Box"></option>
+                        <option class="scenario-vip-select translated" value="scenario-vip" defaultText="Scenario - VIP"></option>
+                        <!-- <option class="scenario-gatherintel-select translated" value="scenario-gatherintel" defaultText="Scenario - Gather Intel"></option> -->
+                        <option class="environment-asteroidfield-select translated" value="environment-asteroidfield" defaultText="Environment - Asteroid Field"></option>
+                        <option class="environment-conjoined-select translated" value="environment-conjoined" defaultText="Environment - Conjoined"></option>
+                        <option class="environment-oldwreckage-select translated" value="environment-oldwreckage" defaultText="Environment - Old Wreckage"></option>
+                        <option class="environment-planetaryring-select translated" value="environment-planetaryring" defaultText="Environment - Planetary Ring"></option>
+                        <option class="environment-nebula-select translated" value="environment-nebula" defaultText="Environment - Nebula"></option>
+                        <option class="wild-fracturedsensors-select translated" value="wild-fracturedsensors" defaultText="Wild - Fractured Sensors"></option>
+                        <option class="wild-tritaniumdeposits-select translated" value="wild-tritaniumdeposits" defaultText="Wild - Tritanium Deposits"></option>
+                        <option class="wild-unstablefuel-select translated" value="wild-unstablefuel" defaultText="Wild - Unstable Fuel"></option>
+                        <option class="wild-emergencyreinforcements-select translated" value="wild-emergencyreinforcements" defaultText="Wild - Emergency Reinforcements"></option>
+                        <option class="wild-outpost-select translated" value="wild-outpost" defaultText="Wild - Outpost"></option>
                     </select>
                 </div>
                 <div>
@@ -1084,7 +1099,7 @@ class exportObj.SquadBuilder
                         <input type="search" class="squad-tag"></input>
                     </label>
                     <div class="unsortable obstacles-container">
-                            <button class="btn btn-info choose-obstacles"><i class="fa fa-cloud"></i>&nbsp;<span class="translated" defaultText="Choose Obstacles"</span></button>
+                            <button class="btn btn-info choose-obstacles"><i class="fa fa-cloud"></i>&nbsp;<span class="translated" defaultText="Choose Obstacles / Wild Space Cards"</span></button>
                     </div>
                 </div>
                 <div class="col-md-3 info-container" id="info-container">
@@ -1151,91 +1166,105 @@ class exportObj.SquadBuilder
                 <div class="info-name"></div>
                 <div class="info-type"></div>
                 <span class="info-collection"></span>
+                <div class="row">
+                    <div class="col-sm-5">
+                        <table class="table-sm">
+                            <tbody>
+                                <tr class="info-attack-bullseye">
+                                    <td class="info-header"><i class="xwing-miniatures-font header-attack xwing-miniatures-font-bullseyearc"></i></td>
+                                    <td class="info-data info-attack"></td>
+                                </tr>
+                                <tr class="info-attack">
+                                    <td class="info-header"><i class="xwing-miniatures-font header-attack xwing-miniatures-font-frontarc"></i></td>
+                                    <td class="info-data info-attack"></td>
+                                </tr>
+                                <tr class="info-attack-fullfront">
+                                    <td class="info-header"><i class="xwing-miniatures-font header-attack xwing-miniatures-font-fullfrontarc"></i></td>
+                                    <td class="info-data info-attack"></td>
+                                </tr>
+                                <tr class="info-attack-left">
+                                    <td class="info-header"><i class="xwing-miniatures-font header-attack xwing-miniatures-font-leftarc"></i></td>
+                                    <td class="info-data info-attack"></td>
+                                </tr>
+                                <tr class="info-attack-right">
+                                    <td class="info-header"><i class="xwing-miniatures-font header-attack xwing-miniatures-font-rightarc"></i></td>
+                                    <td class="info-data info-attack"></td>
+                                </tr>
+                                <tr class="info-attack-back">
+                                    <td class="info-header"><i class="xwing-miniatures-font header-attack xwing-miniatures-font-reararc"></i></td>
+                                    <td class="info-data info-attack"></td>
+                                </tr>
+                                <tr class="info-attack-turret">
+                                    <td class="info-header"><i class="xwing-miniatures-font header-attack xwing-miniatures-font-singleturretarc"></i></td>
+                                    <td class="info-data info-attack"></td>
+                                </tr>
+                                <tr class="info-attack-doubleturret">
+                                    <td class="info-header"><i class="xwing-miniatures-font header-attack xwing-miniatures-font-doubleturretarc"></i></td>
+                                    <td class="info-data info-attack"></td>
+                                </tr>
+                                <tr class="info-agility">
+                                    <td class="info-header"><i class="xwing-miniatures-font header-agility xwing-miniatures-font-agility"></i></td>
+                                    <td class="info-data info-agility"></td>
+                                </tr>
+                                <tr class="info-hull">
+                                    <td class="info-header"><i class="xwing-miniatures-font header-hull xwing-miniatures-font-hull"></i></td>
+                                    <td class="info-data info-hull"></td>
+                                </tr>
+                                <tr class="info-shields">
+                                    <td class="info-header"><i class="xwing-miniatures-font header-shield xwing-miniatures-font-shield"></i></td>
+                                    <td class="info-data info-shields"></td>
+                                </tr>
+                                <tr class="info-force">
+                                    <td class="info-header"><i class="xwing-miniatures-font header-force xwing-miniatures-font-forcecharge"></i></td>
+                                    <td class="info-data info-force"></td>
+                                </tr>
+                                <tr class="info-charge">
+                                    <td class="info-header"><i class="xwing-miniatures-font header-charge xwing-miniatures-font-charge"></i></td>
+                                    <td class="info-data info-charge"></td>
+                                </tr>
+                                <tr class="info-energy">
+                                    <td class="info-header"><i class="xwing-miniatures-font header-energy xwing-miniatures-font-energy"></i></td>
+                                    <td class="info-data info-energy"></td>
+                                </tr>
+                                <tr class="info-range">
+                                    <td class="info-header translated" defaultText="Range"></td>
+                                    <td class="info-data info-range"></td><td class="info-rangebonus"><i class="xwing-miniatures-font red header-range xwing-miniatures-font-rangebonusindicator"></i></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="col-sm-7">
+                        <table class="table-sm">
+                            <tbody>
+                                <tr class="info-skill">
+                                    <td class="info-header translated" defaultText="Initiative"></td>
+                                    <td class="info-data info-skill"></td>
+                                </tr>
+                                <tr class="info-engagement">
+                                    <td class="info-header translated" defaultText="Engagement"></td>
+                                    <td class="info-data info-engagement"></td>
+                                </tr>
+                                <tr class="info-faction">
+                                    <td class="info-header translated" defaultText="Faction"></td>
+                                    <td class="info-data"></td>
+                                </tr>
+                                <tr class="info-base">
+                                    <td class="info-header translated" defaultText="Base"></td>
+                                    <td class="info-data"></td> 
+                                </tr>
+                                <tr class="info-points">
+                                    <td class="info-header translated" defaultText="Points"></td>
+                                    <td class="info-data info-points"></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
                 <table class="table-sm">
                     <tbody>
-                        <tr class="info-faction">
-                            <td class="info-header translated" defaultText="Faction"></td>
-                            <td class="info-data"></td>
-                        </tr>
                         <tr class="info-ship">
                             <td class="info-header translated" defaultText="Ship"></td>
                             <td class="info-data"></td>
-                        </tr>
-                        <tr class="info-base">
-                            <td class="info-header translated" defaultText="Base"></td>
-                            <td class="info-data"></td> 
-                        </tr>
-                        <tr class="info-skill">
-                            <td class="info-header translated" defaultText="Initiative"></td>
-                            <td class="info-data info-skill"></td>
-                        </tr>
-                        <tr class="info-points">
-                            <td class="info-header translated" defaultText="Points"></td>
-                            <td class="info-data info-points"></td>
-                        </tr>
-                        <tr class="info-engagement">
-                            <td class="info-header translated" defaultText="Engagement"></td>
-                            <td class="info-data info-engagement"></td>
-                        </tr>
-                        <tr class="info-attack-bullseye">
-                            <td class="info-header"><i class="xwing-miniatures-font header-attack xwing-miniatures-font-bullseyearc"></i></td>
-                            <td class="info-data info-attack"></td>
-                        </tr>
-                        <tr class="info-attack">
-                            <td class="info-header"><i class="xwing-miniatures-font header-attack xwing-miniatures-font-frontarc"></i></td>
-                            <td class="info-data info-attack"></td>
-                        </tr>
-                        <tr class="info-attack-fullfront">
-                            <td class="info-header"><i class="xwing-miniatures-font header-attack xwing-miniatures-font-fullfrontarc"></i></td>
-                            <td class="info-data info-attack"></td>
-                        </tr>
-                        <tr class="info-attack-left">
-                            <td class="info-header"><i class="xwing-miniatures-font header-attack xwing-miniatures-font-leftarc"></i></td>
-                            <td class="info-data info-attack"></td>
-                        </tr>
-                        <tr class="info-attack-right">
-                            <td class="info-header"><i class="xwing-miniatures-font header-attack xwing-miniatures-font-rightarc"></i></td>
-                            <td class="info-data info-attack"></td>
-                        </tr>
-                        <tr class="info-attack-back">
-                            <td class="info-header"><i class="xwing-miniatures-font header-attack xwing-miniatures-font-reararc"></i></td>
-                            <td class="info-data info-attack"></td>
-                        </tr>
-                        <tr class="info-attack-turret">
-                            <td class="info-header"><i class="xwing-miniatures-font header-attack xwing-miniatures-font-singleturretarc"></i></td>
-                            <td class="info-data info-attack"></td>
-                        </tr>
-                        <tr class="info-attack-doubleturret">
-                            <td class="info-header"><i class="xwing-miniatures-font header-attack xwing-miniatures-font-doubleturretarc"></i></td>
-                            <td class="info-data info-attack"></td>
-                        </tr>
-                        <tr class="info-agility">
-                            <td class="info-header"><i class="xwing-miniatures-font header-agility xwing-miniatures-font-agility"></i></td>
-                            <td class="info-data info-agility"></td>
-                        </tr>
-                        <tr class="info-hull">
-                            <td class="info-header"><i class="xwing-miniatures-font header-hull xwing-miniatures-font-hull"></i></td>
-                            <td class="info-data info-hull"></td>
-                        </tr>
-                        <tr class="info-shields">
-                            <td class="info-header"><i class="xwing-miniatures-font header-shield xwing-miniatures-font-shield"></i></td>
-                            <td class="info-data info-shields"></td>
-                        </tr>
-                        <tr class="info-force">
-                            <td class="info-header"><i class="xwing-miniatures-font header-force xwing-miniatures-font-forcecharge"></i></td>
-                            <td class="info-data info-force"></td>
-                        </tr>
-                        <tr class="info-charge">
-                            <td class="info-header"><i class="xwing-miniatures-font header-charge xwing-miniatures-font-charge"></i></td>
-                            <td class="info-data info-charge"></td>
-                        </tr>
-                        <tr class="info-energy">
-                            <td class="info-header"><i class="xwing-miniatures-font header-energy xwing-miniatures-font-energy"></i></td>
-                            <td class="info-data info-energy"></td>
-                        </tr>
-                        <tr class="info-range">
-                            <td class="info-header translated" defaultText="Range"></td>
-                            <td class="info-data info-range"></td><td class="info-rangebonus"><i class="xwing-miniatures-font red header-range xwing-miniatures-font-rangebonusindicator"></i></td>
                         </tr>
                         <tr class="info-actions">
                             <td class="info-header translated" defaultText="Actions"></td>
@@ -1335,7 +1364,7 @@ class exportObj.SquadBuilder
             @updateShipOrder(@oldIndex, ui.item.index())
 
         @obstacles_select.change (e) =>
-            if @obstacles_select.val().length > 3
+            if @obstacles_select.val().length > 3 and not @isWildSpace
                 @obstacles_select.val(@current_squad.additional_data.obstacles)
             else
                 previous_obstacles = @current_squad.additional_data.obstacles
@@ -1533,6 +1562,10 @@ class exportObj.SquadBuilder
                 @isQuickbuild = true
                 @desired_points_input.val 8
         if oldQuickbuild != @isQuickbuild
+            old_id = @current_squad.id
+            @newSquadFromScratch($.trim(@current_squad.name))
+            @current_squad.id = old_id # we want to keep the ID, so we allow people to use the save button
+        if oldWildSpace and @current_obstacles.length > 0
             old_id = @current_squad.id
             @newSquadFromScratch($.trim(@current_squad.name))
             @current_squad.id = old_id # we want to keep the ID, so we allow people to use the save button
@@ -2005,7 +2038,7 @@ class exportObj.SquadBuilder
             # select available pilots according to ususal pilot selection
             available_faction_pilots = (pilot for pilot_name, pilot of exportObj.pilots when (not ship? or pilot.ship == ship) and @isOurFaction(pilot.faction) and (@matcher(pilot_name, term) or (pilot.display_name and @matcher(pilot.display_name, term)) ) and (@isItemAvailable(pilot, true)))
 
-            eligible_faction_pilots = (pilot for pilot_name, pilot of available_faction_pilots when (not pilot.unique? or pilot not in @uniques_in_use['Pilot'] or pilot.canonical_name.getXWSBaseName() == include_pilot?.canonical_name.getXWSBaseName()) and (not pilot.max_per_squad? or @countPilots(pilot.canonical_name) < pilot.max_per_squad or pilot.canonical_name.getXWSBaseName() == include_pilot?.canonical_name.getXWSBaseName()) and (not pilot.upgrades? or @standard_restriction_check(pilot)) and (not pilot.restriction_func? or pilot.restriction_func((builder: @) , pilot)))
+            eligible_faction_pilots = (pilot for pilot_name, pilot of available_faction_pilots when (not pilot.unique? or pilot not in @uniques_in_use['Pilot'] or pilot.canonical_name.getXWSBaseName() == include_pilot?.canonical_name.getXWSBaseName()) and (not pilot.max_per_squad? or @countPilots(pilot.canonical_name) < pilot.max_per_squad or pilot.canonical_name.getXWSBaseName() == include_pilot?.canonical_name.getXWSBaseName()) and (not pilot.upgrades? or @standard_restriction_check(pilot, include_pilot)) and (not pilot.restriction_func? or pilot.restriction_func((builder: @) , pilot)))
 
             # Re-add selected pilot
             if include_pilot? and include_pilot.unique? and (@matcher(include_pilot.name, term) or (include_pilot.display_name and @matcher(include_pilot.display_name, term)) )
@@ -2071,15 +2104,16 @@ class exportObj.SquadBuilder
         retval
         
         
-    standard_restriction_check: (pilot) ->
+    standard_restriction_check: (pilot, set_pilot) ->
         if pilot.upgrades?
             for upgrade in pilot.upgrades
                 upgrade_data = exportObj.upgrades[upgrade]
                 if upgrade_data.unique == true
                     for ship in @ships
-                        for shipupgrade in ship.upgrades
-                            if shipupgrade?.data?.canonical_name == upgrade_data.canonical_name
-                                return false
+                        if not (ship.pilot?.name? and set_pilot?.name? and ship.pilot.name == set_pilot.name)
+                            for shipupgrade in ship.upgrades
+                                if shipupgrade?.data?.canonical_name == upgrade_data.canonical_name
+                                    return false
         return true
 
     dfl_filter_func = ->
@@ -2393,7 +2427,7 @@ class exportObj.SquadBuilder
                     possible_inis.sort()
         
                     container.find('.info-image-container').hide()
-                    container.find('.info-type').text type
+                    container.find('.info-type').text exportObj.translate("types", type)
                     container.find('.info-name').html """#{if data.display_name then data.display_name else data.name}#{if exportObj.isReleased(data) then "" else " (#{@uitranslation('unreleased')})"}"""
                     if @collection?.counts?
                         ship_count = @collection.counts?.ship?[data.name] ? 0
@@ -2450,6 +2484,10 @@ class exportObj.SquadBuilder
                     else
                         container.find('tr.info-base td.info-data').text exportObj.translate("gameterms", "Small")
                     container.find('tr.info-base').show()
+                    container.find('tr.info-faction td.info-data').text [exportObj.translate("faction", faction) for faction in data.factions]
+                    container.find('tr.info-faction').hide() # this information is clear from the context, unless we are in card browser
+
+                    container.find('p.info-restrictions').hide()
 
                 
                 
@@ -2521,7 +2559,7 @@ class exportObj.SquadBuilder
                         container.find('.info-image').attr 'src', pilot_img
                         container.find('.info-image-container').show()
                     #
-                    container.find('.info-type').text type
+                    container.find('.info-type').text exportObj.translate("types", type)
                     container.find('.info-sources.info-data').text (exportObj.translate('sources', source) for source in data.sources).sort().join(', ')
                     container.find('.info-sources').show()
                     if @collection?.counts?
@@ -2580,7 +2618,7 @@ class exportObj.SquadBuilder
 
                     container.find('tr.info-ship td.info-data').text data.ship
                     container.find('tr.info-ship').show()
-                    container.find('tr.info-faction td.info-data').text data.faction 
+                    container.find('tr.info-faction td.info-data').text exportObj.translate("faction", data.faction)
                     container.find('tr.info-faction').hide() # this information is clear from the context, unless we are in card browser
                     if ship.large?
                         container.find('tr.info-base td.info-data').text exportObj.translate("gameterms", "Large")
@@ -2595,12 +2633,14 @@ class exportObj.SquadBuilder
                     
                     container.find('tr.info-skill td.info-data').text data.skill
                     container.find('tr.info-skill').show()
+
+                    container.find('tr.info-points td.info-data').text data.points
+                    container.find('tr.info-points').show()
                     if data.engagement?
                         container.find('tr.info-engagement td.info-data').text data.engagement
                         container.find('tr.info-engagement').show()
                     else
                         container.find('tr.info-engagement').hide()
-                    container.find('tr.info-points').hide()
                     
                     
 #                    for cls in container.find('tr.info-attack td.info-header i.xwing-miniatures-font')[0].classList
@@ -2608,7 +2648,7 @@ class exportObj.SquadBuilder
                     container.find('tr.info-attack td.info-header i.xwing-miniatures-font').addClass(ship.attack_icon ? 'xwing-miniatures-font-attack')
 
                     container.find('tr.info-attack td.info-data').text statAndEffectiveStat((data.ship_override?.attack ? ship.attack), effective_stats, 'attack')
-                    container.find('tr.info-attack').toggle(ship.attack? or effective_stats?.attack?)
+                    container.find('tr.info-attack').toggle(((data.ship_override?.attack ? ship.attack) > 0) or (effective_stats?.attack? and effective_stats?.attack > 0))
 
                     container.find('tr.info-attack-fullfront td.info-data').text statAndEffectiveStat((data.ship_override?.attackf ? ship.attackf), effective_stats, 'attackf')
                     container.find('tr.info-attack-fullfront').toggle(ship.attackf? or effective_stats?.attackf?)
@@ -2626,7 +2666,7 @@ class exportObj.SquadBuilder
                     container.find('tr.info-attack-back').toggle(ship.attackb? or effective_stats?.attackb?)
 
                     container.find('tr.info-attack-turret td.info-data').text statAndEffectiveStat((data.ship_override?.attackt ? ship.attackt), effective_stats, 'attackt')
-                    container.find('tr.info-attack-turret').toggle(ship.attackt? or effective_stats?.attackt?)
+                    container.find('tr.info-attack-turret').toggle(data.ship_override?.attackt? or ship.attackt? or effective_stats?.attackt?)
 
                     container.find('tr.info-attack-doubleturret td.info-data').text statAndEffectiveStat((data.ship_override?.attackdt ? ship.attackdt), effective_stats, 'attackdt')
                     container.find('tr.info-attack-doubleturret').toggle(ship.attackdt? or effective_stats?.attackdt?)
@@ -2764,7 +2804,7 @@ class exportObj.SquadBuilder
 
                     container.find('tr.info-ship td.info-data').text data.ship
                     container.find('tr.info-ship').show()
-                    container.find('tr.info-faction td.info-data').text data.faction 
+                    container.find('tr.info-faction td.info-data').text exportObj.translate("faction", data.faction)
                     container.find('tr.info-faction').hide() # this information is clear from the context, unless we are in card browser
 
                     if ship.large?
@@ -2782,7 +2822,7 @@ class exportObj.SquadBuilder
                     container.find('tr.info-engagement').show()
 
                     container.find('tr.info-attack td.info-data').text(pilot.ship_override?.attack ? ship.attack)
-                    container.find('tr.info-attack').toggle(pilot.ship_override?.attack? or ship.attack?)
+                    container.find('tr.info-attack').toggle((pilot.data.ship_override?.attack ? ship.attack) > 0)
 
                     container.find('tr.info-attack-fullfront td.info-data').text(ship.attackf)
                     container.find('tr.info-attack-fullfront').toggle(ship.attackf?)
@@ -2871,7 +2911,7 @@ class exportObj.SquadBuilder
                         container.find('.info-image').attr 'src', upgrade_img
                         container.find('.info-image-container').show()
                     
-                    container.find('.info-type').text additional_opts.addon_type
+                    container.find('.info-type').text exportObj.translate("slot", additional_opts.addon_type)
                     container.find('.info-sources.info-data').text (exportObj.translate('sources', source) for source in data.sources).sort().join(', ')
                     container.find('.info-sources').show()
                     
@@ -4245,6 +4285,8 @@ class Ship
 
         @pilot_selector.select2
             width: '100%'
+            escapeMarkup: (m) =>
+                m
             placeholder: exportObj.translate  'ui', 'pilotSelectorPlaceholder'
             query: (query) =>
                 data = {results: []}
@@ -4624,7 +4666,7 @@ class Ship
         discord = """**#{@pilot.name} (#{if @quickbuildId != -1 then (if @primary then exportObj.quickbuildsById[@quickbuildId].threat else 0) else @pilot.points})**    \n"""
         slotted_upgrades = (upgrade for upgrade in @upgrades when upgrade.data?)
         if slotted_upgrades.length > 0
-            discord +="\n"
+#            discord +="\n"
             discord_upgrades= []
             for upgrade in slotted_upgrades
                 points = upgrade.getPoints()
@@ -4966,7 +5008,7 @@ class Ship
                     when "Equipped"
                         if not ((@doesSlotExist(r[1]) and @hasFilledSlotLike(upgrade_obj, r[1]))) then return false
                     when "Slot"
-                        if (not @hasAnotherUnoccupiedSlotLike(upgrade_obj, r[1]) and not upgrade_obj.occupiesAnUpgradeSlot(r[1])) or  upgrade_obj.slot == "HardpointShip" or  upgrade_obj.slot == "VersatileShip"  then return false
+                        if (not @hasAnotherUnoccupiedSlotLike(upgrade_obj, r[1]) and not upgrade_obj?.occupiesAnUpgradeSlot?(r[1])) or  upgrade_obj.slot == "HardpointShip" or  upgrade_obj.slot == "VersatileShip"  then return false
                     when "AttackArc"
                         if not @data.attackb? then return false
                     when "ShieldsGreaterThan"
@@ -5212,7 +5254,7 @@ class GenericAddon
         if new_data?.id != @data?.id
             if @data?.unique? or @data?.solitary?
                 await @ship.builder.container.trigger 'xwing:releaseUnique', [ @unadjusted_data, @type, defer() ]
-            if @data?.standardized? and not @ship.hasFixedUpgrades and (@data?.restrictions? and @ship.restriction_check(@data.restrictions,@data))
+            if @data?.standardized? and not @ship.hasFixedUpgrades 
                 @ship.removeStandardizedList(@data)
             @rescindAddons()
             @deoccupyOtherUpgrades()
