@@ -15229,7 +15229,6 @@ exportObj.basicCardData = ->
             slots: [
                 "Talent"
                 "Modification"
-                "Configuration"
             ]
             ship_override:
                 shields: 1
@@ -15270,7 +15269,6 @@ exportObj.basicCardData = ->
             slots: [
                 "Modification"
                 "Modification"
-                "Configuration"
             ]
         }
         {
@@ -15310,7 +15308,6 @@ exportObj.basicCardData = ->
                 "Talent"
                 "Modification"
                 "Modification"
-                "Configuration"
             ]
         }
         {
