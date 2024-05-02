@@ -9226,7 +9226,7 @@ exportObj.basicCardData = ->
         {
             name: "Boba Fett (Separatist)"
             canonical_name: 'Boba Fett'.canonicalize()
-            xws: "bobafett-separatistalliance"
+            xws: "bobafett-firesprayclasspatrolcraft"
             id: 427
             faction: "Separatist Alliance"
             unique: true
