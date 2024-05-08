@@ -9226,7 +9226,7 @@ exportObj.basicCardData = ->
         {
             name: "Boba Fett (Separatist)"
             canonical_name: 'Boba Fett'.canonicalize()
-            xws: "bobafett-separatistalliance"
+            xws: "bobafett-firesprayclasspatrolcraft"
             id: 427
             faction: "Separatist Alliance"
             unique: true
@@ -15229,7 +15229,6 @@ exportObj.basicCardData = ->
             slots: [
                 "Talent"
                 "Modification"
-                "Configuration"
             ]
             ship_override:
                 shields: 1
@@ -15270,7 +15269,6 @@ exportObj.basicCardData = ->
             slots: [
                 "Modification"
                 "Modification"
-                "Configuration"
             ]
         }
         {
@@ -15310,7 +15308,6 @@ exportObj.basicCardData = ->
                 "Talent"
                 "Modification"
                 "Modification"
-                "Configuration"
             ]
         }
         {
