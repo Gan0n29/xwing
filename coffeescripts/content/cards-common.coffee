@@ -12766,7 +12766,7 @@ exportObj.basicCardData = ->
             ship: "Rogue-class Starfighter"
             skill: 5
             charge: 1
-            points: 43
+            points: 45
             keyword: ["Bounty Hunter"]
             slots: [
                 "Talent"
@@ -17573,7 +17573,7 @@ exportObj.basicCardData = ->
             id: 212
             faction: "Galactic Republic"
             slot: "Force"
-            pointsarray: [1,1,1,1,2,4,6]
+            pointsarray: [2,2,2,2,3,4,6]
             variableinit: true
             modifier_func: (stats) ->
                 stats.actions.push 'F-Coordinate' if 'F-Coordinate' not in stats.actions
