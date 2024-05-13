@@ -29342,6 +29342,994 @@ exportObj.basicCardData = ->
                 "Angled Deflectors"
             ]
         }
+        {
+            id: 641
+            threat: 2
+            pilot: "Garven Dreis (BoY SL)"
+            faction: "Rebel Alliance"
+            ship: "T-65 X-wing"
+            upgrades: [
+                "Adv. Proton Torpedoes"
+                "R5-K6 (BoY)"
+            ]
+        }
+        {
+            id: 642
+            threat: 3
+            pilot: "Luke Skywalker (BoY SL)"
+            faction: "Rebel Alliance"
+            ship: "T-65 X-wing"
+            upgrades: [
+                "Instinctive Aim"
+                "Attack Speed (BoY)"
+                "Proton Torpedoes"
+                "R2-D2 (BoY)"
+            ]
+        }
+        {
+            id: 643
+            threat: 2
+            pilot: "Jek Porkins (BoY SL)"
+            faction: "Rebel Alliance"
+            ship: "T-65 X-wing"
+            upgrades: [
+                "Adv. Proton Torpedoes"
+                "R5-D8 (BoY)"
+                "Unstable Sublight Engines (BoY)"
+            ]
+        }
+        {
+            id: 644
+            threat: 2
+            pilot: "Biggs Darklighter (BoY SL)"
+            faction: "Rebel Alliance"
+            ship: "T-65 X-wing"
+            upgrades: [
+                "Attack Speed (BoY)"
+                "Selfless (BoY)"
+                "Proton Torpedoes"
+                "R2-F2 (BoY)"
+            ]
+        }
+        {
+            id: 645
+            threat: 3
+            pilot: "Wedge Antilles (BoY SL)"
+            faction: "Rebel Alliance"
+            ship: "T-65 X-wing"
+            upgrades: [
+                "Attack Speed (BoY)"
+                "Marksmanship"
+                "Proton Torpedoes"
+                "R2-A3 (BoY)"
+            ]
+        }
+        {
+            id: 646
+            threat: 4
+            pilot: "Han Solo (BoY SL)"
+            faction: "Rebel Alliance"
+            ship: "Modified YT-1300 Light Freighter"
+            upgrades: [
+                "Chewbacca (BoY)"
+                "Rigged Cargo Chute"
+                "Millennium Falcon"
+                "L3-37's Programming (BoY)"
+            ]
+        }
+        {
+            id: 647
+            threat: 3
+            pilot: '"Dutch" Vander (BoY SL)'
+            faction: "Rebel Alliance"
+            ship: "BTL-A4 Y-wing"
+            upgrades: [
+                "Ion Cannon Turret"
+                "Adv. Proton Torpedoes"
+                "Targeting Astromech (BoY)"
+            ]
+        }
+        {
+            id: 648
+            threat: 2
+            pilot: "Dex Tiree (BoY SL)"
+            faction: "Rebel Alliance"
+            ship: "BTL-A4 Y-wing"
+            upgrades: [
+                "Dorsal Turret"
+                "Adv. Proton Torpedoes"
+                "R4 Astromech"
+            ]
+        }
+        {
+            id: 649
+            threat: 2
+            pilot: '"Pops" Krail (BoY SL)'
+            faction: "Rebel Alliance"
+            ship: "BTL-A4 Y-wing"
+            upgrades: [
+                "Ion Cannon Turret"
+                "Adv. Proton Torpedoes"
+                "R4 Astromech"
+            ]
+        }
+        {
+            id: 650
+            threat: 2
+            pilot: "Hol Okand (BoY SL)"
+            faction: "Rebel Alliance"
+            ship: "BTL-A4 Y-wing"
+            upgrades: [
+                "Dorsal Turret"
+                "Adv. Proton Torpedoes"
+                "Precise Astromech (BoY)"
+            ]
+        }
+        {
+            id: 651
+            threat: 3
+            pilot: "Darth Vader (BoY SL)"
+            faction: "Galactic Empire"
+            ship: "TIE Advanced x1"
+            upgrades: [
+                "Marksmanship"
+                "Hate"
+                "Afterburners"
+            ]
+        }
+        {
+            id: 652
+            threat: 2
+            pilot: '"Backstabber" (BoY SL)'
+            faction: "Galactic Empire"
+            ship: "TIE/ln Fighter"
+            upgrades: [
+                "Crack Shot"
+                "Disciplined"
+                "Afterburners"
+            ]
+        }
+        {
+            id: 653
+            threat: 2
+            pilot: '"Mauler" Mithel (BoY SL)'
+            faction: "Galactic Empire"
+            ship: "TIE/ln Fighter"
+            upgrades: [
+                "Predator"
+                "Afterburners"
+            ]
+        }
+        {
+            id: 654
+            threat: 2
+            pilot: '"Dark Curse" (BoY SL)'
+            faction: "Galactic Empire"
+            ship: "TIE/ln Fighter"
+            upgrades: [
+                "Ruthless"
+                "Precision Ion Engines"
+            ]
+        }
+        {
+            id: 655
+            threat: 2
+            pilot: '"Wampa" (BoY SL)'
+            faction: "Galactic Empire"
+            ship: "TIE/ln Fighter"
+            upgrades: [
+                "Elusive"
+                "Vengeful (BoY)"
+            ]
+        }
+        {
+            id: 656
+            threat: 3
+            pilot: "Iden Versio (BoY SL)"
+            faction: "Galactic Empire"
+            ship: "TIE/in Interceptor"
+            upgrades: [
+                "Predator"
+                "Fanatic (BoY)"
+            ]
+        }
+        {
+            id: 657
+            threat: 2
+            pilot: "Sigma 4 (BoY SL)"
+            faction: "Galactic Empire"
+            ship: "TIE/in Interceptor"
+            upgrades: [
+                "Disciplined"
+                "Primed Thrusters"
+            ]
+        }
+        {
+            id: 658
+            threat: 2
+            pilot: "Sigma 5 (BoY SL)"
+            faction: "Galactic Empire"
+            ship: "TIE/in Interceptor"
+            upgrades: [
+                "Sensor Jammer (BoY)"
+                "Elusive"
+            ]
+        }
+        {
+            id: 659
+            threat: 2
+            pilot: "Sigma 6 (BoY SL)"
+            faction: "Galactic Empire"
+            ship: "TIE/in Interceptor"
+            upgrades: [
+                "Daredevil"
+                "Afterburners"
+            ]
+        }
+        {
+            id: 660
+            threat: 2
+            pilot: "Sigma 7 (BoY SL)"
+            faction: "Galactic Empire"
+            ship: "TIE/in Interceptor"
+            upgrades: [
+                "Marksmanship"
+                "Fire-Control System"
+            ]
+        }
+        {
+            id: 661
+            threat: 3
+            pilot: "Anakin Skywalker (SoC SL)"
+            faction: "Galactic Republic"
+            ship: "Eta-2 Actis"
+            upgrades: [
+                "Malice"
+                "Ancillary Ion Weapons (SoC)"
+                "R2-D2 (Republic)"
+            ]
+        }
+        {
+            id: 662
+            threat: 2
+            pilot: "Obi-Wan Kenobi (SoC SL)"
+            faction: "Galactic Republic"
+            ship: "Eta-2 Actis"
+            upgrades: [
+                "Patience"
+                "Ancillary Ion Weapons (SoC)"
+                "R4-P17 (SoC)"
+            ]
+        }
+        {
+            id: 663
+            threat: 2
+            pilot: "Shaak Ti (SoC SL)"
+            faction: "Galactic Republic"
+            ship: "Eta-2 Actis"
+            upgrades: [
+                "Marksmanship"
+                "Brilliant Evasion"
+                "Ancillary Ion Weapons (SoC)"
+                "R4-P Astromech"
+            ]
+        }
+        {
+            id: 664
+            threat: 2
+            pilot: '"Odd Ball" (SoC SL)'
+            faction: "Galactic Republic"
+            ship: "ARC-170 Starfighter"
+            upgrades: [
+                "Selfless"
+                "Veteran Tail Gunner"
+                "R4-P Astromech"
+            ]
+        }
+        {
+            id: 665
+            threat: 2
+            pilot: '"Wolffe" (SoC SL)'
+            faction: "Galactic Republic"
+            ship: "ARC-170 Starfighter"
+            upgrades: [
+                "Wolfpack (SoC)"
+                "Veteran Tail Gunner"
+                "Q7 Astromech"
+            ]
+        }
+        {
+            id: 666
+            threat: 2
+            pilot: '"Jag" (SoC SL)'
+            faction: "Galactic Republic"
+            ship: "ARC-170 Starfighter"
+            upgrades: [
+                "Veteran Tail Gunner"
+                "R4-P Astromech"
+                "Synchronized Console"
+            ]
+        }
+        {
+            id: 667
+            threat: 2
+            pilot: '"Contrail" (SoC SL)'
+            faction: "Galactic Republic"
+            ship: "Nimbus-class V-wing"
+            upgrades: [
+                "Ion Limiter Override"
+                "Precise Astromech (BoY)"
+                "Ion Bombs"
+                'Alpha-3B "Besh"'
+            ]
+        }
+        {
+            id: 668
+            threat: 2
+            pilot: '"Klick" (SoC SL)'
+            faction: "Galactic Republic"
+            ship: "Nimbus-class V-wing"
+            upgrades: [
+                "R3 Astromech"
+                "Precision Ion Engines"
+                'Alpha-3E "Esk"'
+            ]
+        }
+        {
+            id: 669
+            threat: 2
+            pilot: '"Kickback" (SoC SL)'
+            faction: "Galactic Republic"
+            ship: "V-19 Torrent Starfighter"
+            upgrades: [
+                "Diamond-Boron Missiles"
+                "Munitions Failsafe"
+            ]
+        }
+        {
+            id: 670
+            threat: 2
+            pilot: '"Axe" (SoC SL)'
+            faction: "Galactic Republic"
+            ship: "V-19 Torrent Starfighter"
+            upgrades: [
+                "Deadeye Shot"
+                "Barrage Rockets"
+            ]
+        }
+        {
+            id: 671
+            threat: 3
+            pilot: "Count Dooku (SoC SL)"
+            faction: "Separatist Alliance"
+            ship: "Sith Infiltrator"
+            upgrades: [
+                "Malice"
+                "Roiling Anger (SoC)"
+                "Scimitar"
+            ]
+        }
+        {
+            id: 672
+            threat: 2
+            pilot: "DBS-32C (SoC SL)"
+            faction: "Separatist Alliance"
+            ship: "Hyena-class Droid Bomber"
+            upgrades: [
+                "Plasma Torpedoes"
+                "Contingency Protocol (SoC)"
+                "Strut-Lock Override (SoC)"
+            ]
+        }
+        {
+            id: 673
+            threat: 2
+            pilot: "DBS-404 (SoC SL)"
+            faction: "Separatist Alliance"
+            ship: "Hyena-class Droid Bomber"
+            upgrades: [
+                "Adv. Proton Torpedoes"
+                "Contingency Protocol (SoC)"
+                "Strut-Lock Override (SoC)"
+            ]
+        }
+        {
+            id: 674
+            threat: 2
+            pilot: "Baktoid Prototype (SoC SL)"
+            faction: "Separatist Alliance"
+            ship: "Hyena-class Droid Bomber"
+            upgrades: [
+                "Homing Missiles"
+                "Contingency Protocol (SoC)"
+                "Strut-Lock Override (SoC)"
+            ]
+        }
+        {
+            id: 675
+            threat: 2
+            pilot: "DIS-347 (SoC SL)"
+            faction: "Separatist Alliance"
+            ship: "Droid Tri-fighter"
+            upgrades: [
+                "Marksmanship"
+                "Afterburners"
+                "Contingency Protocol (SoC)"
+            ]
+        }
+        {
+            id: 676
+            threat: 2
+            pilot: "DIS-T81 (SoC SL)"
+            faction: "Separatist Alliance"
+            ship: "Droid Tri-fighter"
+            upgrades: [
+                "Outmaneuver"
+                "Afterburners"
+                "Contingency Protocol (SoC)"
+            ]
+        }
+        {
+            id: 677
+            threat: 2
+            pilot: "Phlac-Arphocc Prototype (SoC SL)"
+            faction: "Separatist Alliance"
+            ship: "Droid Tri-fighter"
+            upgrades: [
+                "Afterburners"
+                "Contingency Protocol (SoC)"
+                "Evasion Sequence 7 (SoC)"
+            ]
+        }
+        {
+            id: 678
+            threat: 1
+            pilot: "DFS-081 (SoC SL)"
+            faction: "Separatist Alliance"
+            ship: "Vulture-class Droid Fighter"
+            upgrades: [
+                "Discord Missiles"
+                "Contingency Protocol (SoC)"
+                "Strut-Lock Override (SoC)"
+            ]
+        }
+        {
+            id: 679
+            threat: 1
+            pilot: "DFS-311 (SoC SL)"
+            faction: "Separatist Alliance"
+            ship: "Vulture-class Droid Fighter"
+            upgrades: [
+                "Discord Missiles"
+                "Contingency Protocol (SoC)"
+                "Strut-Lock Override (SoC)"
+            ]
+        }
+        {
+            id: 680
+            threat: 1
+            pilot: "Haor Chall Prototype (SoC SL)"
+            faction: "Separatist Alliance"
+            ship: "Vulture-class Droid Fighter"
+            upgrades: [
+                "Ion Missiles"
+                "Contingency Protocol (SoC)"
+                "Strut-Lock Override (SoC)"
+            ]
+        }
+        {
+            id: 681
+            threat: 3
+            pilot: "Darth Vader (SSP SL)"
+            faction: "Galactic Empire"
+            ship: "TIE Advanced x1"
+            upgrades: [
+                "Hate"
+                "Ion Missiles"
+                "Afterburners"
+            ]
+        }
+        {
+            id: 682
+            threat: 2
+            pilot: "Maarek Stele (SSP SL)"
+            faction: "Galactic Empire"
+            upgrades: [
+                "Elusive"
+                "Outmaneuver"
+                "Afterburners"            ]
+        }
+        {
+            id: 683
+            threat: 2
+            pilot: "Captain Jonus (SSP SL)"
+            faction: "Galactic Empire"
+            ship: "TIE/sa Bomber"
+            upgrades: [
+                "Feedback Ping"
+                "Plasma Torpedoes"
+                "Proton Bombs"
+            ]
+        }
+        {
+            id: 684
+            threat: 2
+            pilot: "Tomax Bren (SSP SL)"
+            faction: "Galactic Empire"
+            ship: "TIE/sa Bomber"
+            upgrades: [
+                "Elusive"
+                "Barrage Rockets"
+                "Proximity Mines"
+            ]
+        }
+        {
+            id: 685
+            threat: 2
+            pilot: "Iden Versio (SSP SL)"
+            faction: "Galactic Empire"
+            ship: "TIE/ln Fighter"
+            upgrades: [
+                "Disciplined"
+                "Elusive"
+            ]
+        }
+        {
+            id: 686
+            threat: 1
+            pilot: '"Night Beast" (SSP SL)'
+            standard_loadout: true
+            faction: "Galactic Empire"
+            upgrades: [
+                "Disciplined"
+                "Predator"
+            ]
+        }
+        {
+            id: 687
+            threat: 1
+            pilot: "Valen Rudor (SSP SL)"
+            faction: "Galactic Empire"
+            ship: "TIE/ln Fighter"
+            upgrades: [
+                "Disciplined"
+                "Precision Ion Engines"
+            ]
+        }
+        {
+            id: 688
+            threat: 2
+            pilot: '"Dutch" Vander (SSP SL)'
+            faction: "Rebel Alliance"
+            ship: "BTL-A4 Y-wing"
+            upgrades: [
+                "Ion Cannon Turret"
+                "Proton Bombs"
+            ]
+        }
+        {
+            id: 689
+            threat: 2
+            pilot: "Horton Salm (SSP SL)"
+            faction: "Rebel Alliance"
+            ship: "BTL-A4 Y-wing"
+            upgrades: [
+                "Ion Cannon Turret"
+                "Proximity Mines"
+            ]
+        }
+        {
+            id: 690
+            threat: 2
+            pilot: "Arvel Crynyd (SSP SL)"
+            faction: "Rebel Alliance"
+            ship: "RZ-1 A-wing"
+            upgrades: [
+                "Predator"
+                "Afterburners"
+            ]
+        }
+        {
+            id: 691
+            threat: 2
+            pilot: "Jake Farrell (SSP SL)"
+            faction: "Rebel Alliance"
+            ship: "RZ-1 A-wing"
+            upgrades: [
+                "Elusive"
+                "Outmaneuver"
+                "Ion Missiles"
+            ]
+        }
+        {
+            id: 692
+            threat: 2
+            pilot: "Jek Porkins (SSP SL)"
+            faction: "Rebel Alliance"
+            ship: "T-65 X-wing"
+            upgrades: [
+                "Predator"
+                "Proton Torpedoes"
+                "R5-D8"
+            ]
+        }
+        {
+            id: 693
+            threat: 3
+            pilot: "Luke Skywalker (SSP SL)"
+            faction: "Rebel Alliance"
+            ship: "T-65 X-wing"
+            upgrades: [
+                "Instinctive Aim"
+                "Proton Torpedoes"
+                "R2-D2"
+            ]
+        }
+        {
+            id: 694
+            threat: 2
+            pilot: "Shara Bey (SSP SL)"
+            faction: "Rebel Alliance"
+            ship: "RZ-1 A-wing"
+            upgrades: [
+                "Hopeful"
+                "Concussion Missiles"
+            ]
+        }
+        {
+            id: 695
+            threat: 2
+            pilot: '"Deathfire" (TBE SL)'
+            faction: "Galactic Empire"
+            ship: "TIE/sa Bomber"
+            upgrades: [
+                "Swift Approach (TBE)"
+                "Conner Nets"
+                "Proton Bombs"
+            ]
+        }
+        {
+            id: 696
+            threat: 2
+            pilot: "Major Rhymer (TBE SL)"
+            faction: "Galactic Empire"
+            ship: "TIE/sa Bomber"
+            upgrades: [
+                "Adv. Proton Torpedoes"
+                "Automated Loaders (TBE)"
+                "Afterburners"
+            ]
+        }
+        {
+            id: 697
+            threat: 2
+            pilot: "Captain Jonus (TBE SL)"
+            faction: "Galactic Empire"
+            ship: "TIE/sa Bomber"
+            upgrades: [
+                "Top Cover (TBE)"
+                "Barrage Rockets"
+                "Proton Bombs"
+            ]
+        }
+        {
+            id: 698
+            threat: 2
+            pilot: "Tomax Bren (TBE SL)"
+            faction: "Galactic Empire"
+            ship: "TIE/sa Bomber"
+            upgrades: [
+                "True Grit (TBE)"
+                "Plasma Torpedoes"
+                "Ion Bombs"
+            ]
+        }
+        {
+            id: 699
+            threat: 4
+            pilot: "Dash Rendar (YLF SL)"
+            faction: "Rebel Alliance"
+            ship: "YT-2400 Light Freighter (2023)"
+            upgrades: [
+                "Mercenary (YLF)"
+                "Seeker Missiles (YLF)"
+                '"Leebo" (YLF)'
+                "Outrider (2023)"
+            ]
+        }
+        {
+            id: 700
+            threat: 4
+            pilot: "Dash Rendar (Scum SL)"
+            faction: "Scum and Villainy"
+            ship: "YT-2400 Light Freighter (2023)"
+            upgrades: [
+                "Mercenary (YLF)"
+                "Seeker Missiles (YLF)"
+                '"Leebo" (YLF)'
+                "Outrider (2023)"
+            ]
+        }
+        {
+            id: 701
+            threat: 4
+            pilot: '"Leebo" (YLF SL)'
+            faction: "Rebel Alliance"
+            ship: "YT-2400 Light Freighter (2023)"
+            upgrades: [
+                "Efficient Processing (YLF)"
+                "Seeker Missiles (YLF)"
+                "Outrider (2023)"
+            ]
+        }
+        {
+            id: 702
+            threat: 4
+            pilot: '"Leebo" (Scum SL)'
+            faction: "Scum and Villainy"
+            ship: "YT-2400 Light Freighter (2023)"
+            upgrades: [
+                "Efficient Processing (YLF)"
+                "Seeker Missiles (YLF)"
+                "Outrider (2023)"
+            ]
+        }
+        {
+            id: 703
+            threat: 2
+            pilot: "Arvel Crynyd (BoE SL)"
+            faction: "Rebel Alliance"
+            ship: "RZ-1 A-wing"
+            upgrades: [
+                "It's A Trap! (BoE)"
+                "Heroic Sacrifice (BoE)"
+                "Proton Rockets"
+            ]
+        }
+        {
+            id: 704
+            threat: 2
+            pilot: "Gemmer Sojan (BoE SL)"
+            faction: "Rebel Alliance"
+            ship: "RZ-1 A-wing"
+            upgrades: [
+                "It's A Trap! (BoE)"
+                "Precision-Tuned Cannons (BoE)"
+                "Chaff Particles (BoE)"
+                "Target-Assist Algorithm (BoE)"
+            ]
+        }
+        {
+            id: 705
+            threat: 3
+            pilot: "Tycho Celchu (BoE SL)"
+            faction: "Rebel Alliance"
+            ship: "RZ-1 A-wing"
+            upgrades: [
+                "It's A Trap! (BoE)"
+                "Juke"
+                "Proton Rockets"
+                "Chaff Particles (BoE)"
+            ]
+        }
+        {
+            id: 706
+            threat: 3
+            pilot: "Adon Fox (BoE SL)"
+            faction: "Rebel Alliance"
+            ship: "A/SF-01 B-wing"
+            upgrades: [
+                "It's A Trap! (BoE)"
+                "Parting Gift (BoE)"
+                "Proton Rockets"
+                "Proton Bombs"
+            ]
+        }
+        {
+            id: 707
+            threat: 3
+            pilot: "Braylen Stramm (BoE SL)"
+            faction: "Rebel Alliance"
+            ship: "A/SF-01 B-wing"
+            upgrades: [
+                "It's A Trap! (BoE)"
+                "Homing Missiles"
+                "Proton Bombs"
+                "Delayed Fuses"
+            ]
+        }
+        {
+            id: 708
+            threat: 4
+            pilot: "Gina Moonsong (BoE SL)"
+            faction: "Rebel Alliance"
+            ship: "A/SF-01 B-wing"
+            upgrades: [
+                "It's A Trap! (BoE)"
+                "Juke"
+                "Proton Torpedoes"
+                "Ion Bombs"
+            ]
+        }
+        {
+            id: 709
+            threat: 3
+            pilot: "Kendy Idele (BoE SL)"
+            faction: "Rebel Alliance"
+            ship: "T-65 X-wing"
+            upgrades: [
+                "It's A Trap! (BoE)"
+                "Ion Missiles"
+                "Modified R4-P unit (BoE)"
+                "Chaff Particles (BoE)"
+            ]
+        }
+        {
+            id: 710
+            threat: 3
+            pilot: "Wedge Antilles (BoE SL)"
+            faction: "Rebel Alliance"
+            ship: "T-65 X-wing"
+            upgrades: [
+                "It's A Trap! (BoE)"
+                "Predator"
+                "Adv. Proton Torpedoes"
+                "R2-A3 (BoE)"
+            ]
+        }
+        {
+            id: 711
+            threat: 3
+            pilot: "Yendor (BoE SL)"
+            faction: "Rebel Alliance"
+            ship: "T-65 X-wing"
+            upgrades: [
+                "It's A Trap! (BoE)"
+                "Plasma Torpedoes"
+                "Stabilizing Astromech (BoE)"
+            ]
+        }
+        {
+            id: 712
+            threat: 4
+            pilot: "Lando Calrissian (BoE SL)"
+            faction: "Rebel Alliance"
+            ship: "Modified YT-1300 Light Freighter"
+            upgrades: [
+                "Ace In The Hole (BoE)"
+                "It's A Trap! (BoE)"
+                "Nien Nunb"
+                "Airen Cracken (BoE)"
+                "Millennium Falcon (BoE)"
+            ]
+        }
+        {
+            id: 713
+            threat: 4
+            pilot: "Captain Yorr (BoE SL)"
+            faction: "Galactic Empire"
+            ship: "TIE/d Defender"
+            upgrades: [
+                "No Escape (BoE)"
+                "Predator"
+                "Ion Cannon"
+                "Computer-Assisted Handling (BoE)"
+            ]
+        }
+        {
+            id: 714
+            threat: 4
+            pilot: "Colonel Jendon (BoE SL)"
+            faction: "Galactic Empire"
+            ship: "TIE/d Defender"
+            upgrades: [
+                "No Escape (BoE)"
+                "Push The Limit (BoE)"
+                "Proton Cannons"
+                "Computer-Assisted Handling (BoE)"
+            ]
+        }
+        {
+            id: 715
+            threat: 2
+            pilot: "Maus Monare (BoE SL)"
+            faction: "Galactic Empire"
+            ship: "TIE/in Interceptor"
+            upgrades: [
+                "No Escape (BoE)"
+                "Outmaneuver"
+                "Fuel Injection Override (BoE)"
+            ]
+        }
+        {
+            id: 716
+            threat: 2
+            pilot: "Sapphire 2 (BoE SL)"
+            faction: "Galactic Empire"
+            ship: "TIE/in Interceptor"
+            upgrades: [
+                "No Escape (BoE)"
+                "Reckless (BoE)"
+                "Targeting Matrix (BoE)"
+                "Primed Thrusters"
+            ]
+        }
+        {
+            id: 717
+            threat: 3
+            pilot: "Soontir Fel (BoE SL)"
+            faction: "Galactic Empire"
+            ship: "TIE/in Interceptor"
+            upgrades: [
+                "Apex Predator (BoE)"
+                "No Escape (BoE)"
+                "Blank Signature (BoE)"
+                "Feedback Emitter (BoE)"
+            ]
+        }
+        {
+            id: 718
+            threat: 2
+            pilot: "Lieutenant Hebsly (BoE SL)"
+            faction: "Galactic Empire"
+            ship: "TIE/ln Fighter"
+            upgrades: [
+                "Collected (BoE)"
+                "Elusive"
+                "No Escape (BoE)"
+            ]
+        }
+        {
+            id: 719
+            threat: 2
+            pilot: "Major Mianda (BoE SL)"
+            faction: "Galactic Empire"
+            ship: "TIE/ln Fighter"
+            upgrades: [
+                "Ruthless"
+                "Swarm Tactics"
+                "No Escape (BoE)"
+            ]
+        }
+        {
+            id: 720
+            threat: 2
+            pilot: "Scythe 6 (BoE SL)"
+            faction: "Galactic Empire"
+            ship: "TIE/ln Fighter"
+            upgrades: [
+                "No Escape (BoE)"
+                "Predator"
+                "Ion Maneuvering Jet (BoE)"
+                "Targeting Matrix (BoE)"
+            ]
+        }
+        {
+            id: 721
+            threat: 2
+            pilot: "Scimitar 1 (BoE SL)"
+            faction: "Galactic Empire"
+            ship: "TIE/sa Bomber"
+            upgrades: [
+                "Marksmanship"
+                "No Escape (BoE)"
+                "Proton Torpedoes"
+                "Ion Bombs"
+            ]
+        }
+        {
+            id: 722
+            threat: 2
+            pilot: "Scimitar 3 (BoE SL)"
+            faction: "Galactic Empire"
+            ship: "TIE/sa Bomber"
+            upgrades: [
+                "No Escape (BoE)"
+                "Parting Gift (BoE)"
+                "Proton Torpedoes"
+                "Proton Bombs"
+            ]
+        }
     ]
 
 exportObj.setupCommonCardData = (basic_cards) ->
