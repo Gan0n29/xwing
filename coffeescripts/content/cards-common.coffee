@@ -27159,7 +27159,7 @@ exportObj.basicCardData = ->
             faction: "Galactic Republic"
             pilot: '"Contrail"'
             ship: "Nimbus-class V-wing"
-            threat: 4
+            threat: 2
             upgrades: [
                 "Ion Limiter Override"
                 "R7-A7"
@@ -27171,7 +27171,7 @@ exportObj.basicCardData = ->
             faction: "Galactic Republic"
             pilot: '"Klick"'
             ship: "Nimbus-class V-wing"
-            threat: 4
+            threat: 2
             upgrades: [
                 "R3 Astromech" 
                 "Thermal Detonators"
