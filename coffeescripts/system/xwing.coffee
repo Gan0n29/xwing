@@ -3445,10 +3445,10 @@ class exportObj.SquadBuilder
                     othertext += comma + card.ship
                 comma = ', '
             if card.solitary
-                othertext += comma + exportObj.translate('faction', "Solitary")
+                othertext += comma + exportObj.translate('gameterms', "Solitary")
                 comma = ', '
             if card.standardized
-                othertext += comma + exportObj.translate('faction', "Standardized")
+                othertext += comma + exportObj.translate('gameterms', "Standardized")
                 comma = ', '
         text += othertext + uniquetext
         if text != ''
