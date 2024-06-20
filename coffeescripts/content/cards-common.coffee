@@ -19378,7 +19378,7 @@ exportObj.basicCardData = ->
             standardized: true
             chassis: "Advanced Fire Control"
             restrictions: [
-                ["Keyword", "Advanced Fire Control"]
+                ["Keyword", "Full Throttle"]
             ]
             modifier_func: (stats) ->
                 if stats.maneuvers[1]?
