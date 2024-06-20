@@ -19377,7 +19377,9 @@ exportObj.basicCardData = ->
             ship: "TIE/d Defender"
             standardized: true
             chassis: "Advanced Fire Control"
-            restrictions: []
+            restrictions: [
+                ["Keyword", "Advanced Fire Control"]
+            ]
             modifier_func: (stats) ->
                 if stats.maneuvers[1]?
                     for s in (stats.maneuvers)
