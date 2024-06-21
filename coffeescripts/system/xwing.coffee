@@ -1611,7 +1611,7 @@ class exportObj.SquadBuilder
         points_destroyed = parseInt(@total_points)
         @points_remaining_span.text points_left
         @points_destroyed_span.html if points_dest != 0 then """<i class="xwing-miniatures-font xwing-miniatures-font-hit"></i>#{points_dest}""" else ""
-        @points_remaining_container.toggleClass 'red', (points_left < 0)
+        @points_remaining_container.toggleClass 'red', (points_left < 0 or (first_blood == true and points_left > 0 ))
         @unreleased_content_used_container.toggleClass 'd-none', not unreleased_content_used
 
         @fancy_total_points_container.text @total_points
