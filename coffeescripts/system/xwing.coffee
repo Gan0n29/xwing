@@ -1606,7 +1606,7 @@ class exportObj.SquadBuilder
         @total_points = tot_points
         @total_points_span.text @total_points
         points_left = parseInt(@desired_points_input.val()) - @total_points
-        if first_blood = true and points_left > 0 then points_dest += points_left
+        if first_blood == true and points_left > 0 then points_dest += points_left
         @points_destroyed = points_dest
         points_destroyed = parseInt(@total_points)
         @points_remaining_span.text points_left
