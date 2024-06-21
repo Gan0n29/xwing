@@ -1581,6 +1581,7 @@ class exportObj.SquadBuilder
     onPointsUpdated: (cb=$.noop) =>
         tot_points = 0
         points_dest = 0
+        first_blood = false
         unreleased_content_used = false
         # validating may remove the ship, if not only some upgrade, but the pilot himself is not valid. Thus iterate backwards over the array, so that is probably fine?
         
@@ -1594,16 +1595,19 @@ class exportObj.SquadBuilder
             tot_points += ship.getPoints()
             if ship.destroystate == 1
                 points_dest += Math.ceil ship.getPoints() / 2
+                first_blood = true
             else if ship.destroystate == 2
                 points_dest += ship.getPoints()
+                first_blood = true
             ship_uses_unreleased_content = ship.checkUnreleasedContent()
             unreleased_content_used = ship_uses_unreleased_content if ship_uses_unreleased_content
         
 
         @total_points = tot_points
-        @points_destroyed = points_dest
         @total_points_span.text @total_points
         points_left = parseInt(@desired_points_input.val()) - @total_points
+        if first_blood = true and points_left > 0 then points_dest += points_left
+        @points_destroyed = points_dest
         points_destroyed = parseInt(@total_points)
         @points_remaining_span.text points_left
         @points_destroyed_span.html if points_dest != 0 then """<i class="xwing-miniatures-font xwing-miniatures-font-hit"></i>#{points_dest}""" else ""
