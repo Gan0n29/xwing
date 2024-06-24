@@ -19340,6 +19340,7 @@ exportObj.basicCardData = ->
         }
         {
             name: "Vectored Cannons (RZ-1)"
+            xws: "vectoredcannonsrz1"
             id: 371
             points: 0
             slot: "Configuration"
