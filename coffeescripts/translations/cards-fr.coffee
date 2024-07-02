@@ -5,7 +5,7 @@
 
     French translation by
     - Clément Bourgoin <c@iwzr.fr> https://github.com/iwazaru
-    - Cyril Derrien https://github.com/Gan0n29
+    - Ganon https://github.com/Gan0n29
 ###
 
 exportObj = exports ? this
@@ -2612,6 +2612,128 @@ exportObj.cardLoaders['Français'] = () ->
            display_name: """“Leebo” <i class="pilot-title">Arsenal Standard</i>"""
            text: """A la fin de la phase d’engagement, vous pouvez dépenser un marqueur de calcul pour verrouiller un vaisseau ennemi à portée 2–3."""
 
+        # Battle Over Endor Pilots
+        "Wedge Antilles (BoE)":
+           display_name: """Wedge Antilles <i class="pilot-title">Bataille d'Endor - Left Side Legal</i>"""
+           text: """Après avoir effectué une attaque qui a touché, gagnez un marqueur de concentration."""
+        "Wedge Antilles (BoE SL)":
+           display_name: """Wedge Antilles <i class="pilot-title">Bataille d'Endor - Arsenal Standard</i>"""
+           text: """Après avoir effectué une attaque qui a touché, gagnez un marqueur de concentration."""
+        "Yendor (BoE)":
+           display_name: """Yendor <i class="pilot-title">Bataille d'Endor - Left Side Legal</i>"""
+           text: """Tant que vous effectuez une attaque principale, vous pouvez gagner un marqueur de contrainte pour relancer 1 de vos résultats Vierges."""
+        "Yendor (BoE SL)":
+           display_name: """Yendor <i class="pilot-title">Bataille d'Endor - Arsenal Standard</i>"""
+           text: """Tant que vous effectuez une attaque principale, vous pouvez gagner un marqueur de contrainte pour relancer 1 de vos résultats Vierges."""
+        "Kendy Idele (BoE)":
+           display_name: """Kendy Idele <i class="pilot-title">Bataille d'Endor - Left Side Legal</i>"""
+           text: """Après avoir dépensé un marqueur vert, vous pouvez choisir un vaisseau allié à portée 1–3 et gagner un marqueur de contrainte. Dans ce cas, ce vaisseau peut effectuer une action %FOCUS% rouge ou %EVADE% rouge."""
+        "Kendy Idele (BoE SL)":
+           display_name: """Kendy Idele <i class="pilot-title">Bataille d'Endor - Arsenal Standard</i>"""
+           text: """Après avoir dépensé un marqueur vert, vous pouvez choisir un vaisseau allié à portée 1–3 et gagner un marqueur de contrainte. Dans ce cas, ce vaisseau peut effectuer une action %FOCUS% rouge ou %EVADE% rouge."""
+        "Lando Calrissian (BoE)":
+           display_name: """Lando Calrissian <i class="pilot-title">Bataille d'Endor - Left Side Legal</i>"""
+           text: """Au début de la phase d’activation, vous pouvez dépenser 1 %CHARGE%. Dans ce cas, choisissez une valeur d’initiative entre 1 et 6. Vous vous activez à cette initiative pendant cette phase."""
+        "Lando Calrissian (BoE SL)":
+           display_name: """Lando Calrissian <i class="pilot-title">Bataille d'Endor - Arsenal Standard</i>"""
+           text: """Au début de la phase d’activation, vous pouvez dépenser 1 %CHARGE%. Dans ce cas, choisissez une valeur d’initiative entre 1 et 6. Vous vous activez à cette initiative pendant cette phase."""
+        "Tycho Celchu (BoE)":
+           display_name: """Tycho Celchu <i class="pilot-title">Bataille d'Endor - Left Side Legal</i>"""
+           text: """Tant que vous êtes désarmé, vous pouvez quand même effectuer des attaques %MISSILE%. Quand vous effectuez une attaque %MISSILE% en étant désarmé, lancez un maximum de 4 dés."""
+        "Tycho Celchu (BoE SL)":
+           display_name: """Tycho Celchu <i class="pilot-title">Bataille d'Endor - Arsenal Standard</i>"""
+           text: """Tant que vous êtes désarmé, vous pouvez quand même effectuer des attaques %MISSILE%. Quand vous effectuez une attaque %MISSILE% en étant désarmé, lancez un maximum de 4 dés."""
+        "Arvel Crynyd (BoE)":
+           display_name: """Arvel Crynyd <i class="pilot-title">Bataille d'Endor - Left Side Legal</i>"""
+           text: """Tant que vous défendez, vous pouvez gagner un marqueur de contrainte pour changer 1 résultat %FOCUS% en un résultat %EVADE%."""
+        "Arvel Crynyd (BoE SL)":
+           display_name: """Arvel Crynyd <i class="pilot-title">Bataille d'Endor - Arsenal Standard</i>"""
+           text: """Tant que vous défendez, vous pouvez gagner un marqueur de contrainte pour changer 1 résultat %FOCUS% en un résultat %EVADE%."""
+        "Adon Fox (BoE)":
+           display_name: """Adon Fox <i class="pilot-title">Bataille d'Endor - Left Side Legal</i>"""
+           text: """Tant que vous défendez, si vous êtes stressé, lancez un dé de défense supplémentaire. """
+        "Adon Fox (BoE SL)":
+           display_name: """Adon Fox <i class="pilot-title">Bataille d'Endor - Arsenal Standard</i>"""
+           text: """Tant que vous défendez, si vous êtes stressé, lancez un dé de défense supplémentaire. """
+        "Gina Moonsong (BoE)":
+           display_name: """Gina Moonsong <i class="pilot-title">Bataille d'Endor - Left Side Legal</i>"""
+           text: """Au début de la phase d’engagement, si un vaisseau allié <strong>Braylen Stramm</strong> à portée 0–2 est stressé, vous pouvez effectuer un verrouillage."""
+        "Gina Moonsong (BoE SL)":
+           display_name: """Gina Moonsong <i class="pilot-title">Bataille d'Endor - Arsenal Standard</i>"""
+           text: """Au début de la phase d’engagement, si un vaisseau allié <strong>Braylen Stramm</strong> à portée 0–2 est stressé, vous pouvez effectuer un verrouillage."""
+        "Braylen Stramm (BoE)":
+           display_name: """Braylen Stramm <i class="pilot-title">Bataille d'Endor - Left Side Legal</i>"""
+           text: """Au début de la phase d’engagement, si un vaisseau allié <strong>Gina Moonsong</strong> à portée 0–2 est stressé, vous pouvez gagner un marqueur de concentration."""
+        "Braylen Stramm (BoE SL)":
+           display_name: """Braylen Stramm <i class="pilot-title">Bataille d'Endor - Arsenal Standard</i>"""
+           text: """Au début de la phase d’engagement, si un vaisseau allié <strong>Gina Moonsong</strong> à portée 0–2 est stressé, vous pouvez gagner un marqueur de concentration."""
+        "Gemmer Sojan (BoE)":
+           display_name: """Gemmer Sojan <i class="pilot-title">Bataille d'Endor - Left Side Legal</i>"""
+           text: """Tant que vous défendez, vous pouvez gagner 1 marqueur de contrainte pour changer jusqu’à 2 de vos résultats Vierges en résultats %FOCUS%."""
+        "Gemmer Sojan (BoE SL)":
+           display_name: """Gemmer Sojan <i class="pilot-title">Bataille d'Endor - Arsenal Standard</i>"""
+           text: """Tant que vous défendez, vous pouvez gagner 1 marqueur de contrainte pour changer jusqu’à 2 de vos résultats Vierges en résultats %FOCUS%."""
+        "Captain Yorr (BoE)":
+           display_name: """Capitaine Yorr <i class="pilot-title">Bataille d'Endor - Left Side Legal</i>"""
+           text: """Après avoir effectué une attaque principale qui a touché, vous pouvez dépenser 1 %CHARGE% pour effectuer une attaque bonus %CANNON%."""
+        "Captain Yorr (BoE SL)":
+           display_name: """Capitaine Yorr <i class="pilot-title">Bataille d'Endor - Arsenal Standard</i>"""
+           text: """Après avoir effectué une attaque principale qui a touché, vous pouvez dépenser 1 %CHARGE% pour effectuer une attaque bonus %CANNON%."""
+        "Colonel Jendon (BoE)":
+           display_name: """Colonel Jendon <i class="pilot-title">Bataille d'Endor - Left Side Legal</i>"""
+           text: """Tant que vous défendez, si vous n’êtes pas protégé, vous pouvez changer 1 de vos résultats Vierges en un résultat %FOCUS%."""
+        "Colonel Jendon (BoE SL)":
+           display_name: """Colonel Jendon <i class="pilot-title">Bataille d'Endor - Arsenal Standard</i>"""
+           text: """Tant que vous défendez, si vous n’êtes pas protégé, vous pouvez changer 1 de vos résultats Vierges en un résultat %FOCUS%."""
+        "Soontir Fel (BoE)":
+           display_name: """Soontir Fel <i class="pilot-title">Bataille d'Endor - Left Side Legal</i>"""
+           text: """Après avoir effectué une attaque, vous pouvez dépenser 1 %CHARGE% et gagner un marqueur d’épuisement pour accélérer ou effectuer un tonneau."""
+        "Soontir Fel (BoE SL)":
+           display_name: """Soontir Fel <i class="pilot-title">Bataille d'Endor - Arsenal Standard</i>"""
+           text: """Après avoir effectué une attaque, vous pouvez dépenser 1 %CHARGE% et gagner un marqueur d’épuisement pour accélérer ou effectuer un tonneau."""
+        "Sapphire 2 (BoE)":
+           display_name: """Sapphire 2 <i class="pilot-title">Bataille d'Endor - Left Side Legal</i>"""
+           text: """Tant que vous défendez, si vous êtes concentré, lancez 1 dé de défense supplémentaire."""
+        "Sapphire 2 (BoE SL)":
+           display_name: """Sapphire 2 <i class="pilot-title">Bataille d'Endor - Arsenal Standard</i>"""
+           text: """Tant que vous défendez, si vous êtes concentré, lancez 1 dé de défense supplémentaire."""
+        "Maus Monare (BoE)":
+           display_name: """Maus Monare <i class="pilot-title">Bataille d'Endor - Left Side Legal</i>"""
+           text: """Après avoir effectué une action %EVADE%, gagnez un marqueur de calcul."""
+        "Maus Monare (BoE SL)":
+           display_name: """Maus Monare <i class="pilot-title">Bataille d'Endor - Arsenal Standard</i>"""
+           text: """Après avoir effectué une action %EVADE%, gagnez un marqueur de calcul."""
+        "Major Mianda (BoE)":
+           display_name: """Major Mianda <i class="pilot-title">Bataille d'Endor - Left Side Legal</i>"""
+           text: """Pendant la phase de dénouement, vous pouvez choisir jusqu’à 2 petits vaisseaux alliés à portée 0–2. Vous et les vaisseaux choisis peuvent effectuer une action %BARRELROLL% rouge ou %BOOST% rouge."""
+        "Major Mianda (BoE SL)":
+           display_name: """Major Mianda <i class="pilot-title">Bataille d'Endor - Arsenal Standard</i>"""
+           text: """Pendant la phase de dénouement, vous pouvez choisir jusqu’à 2 petits vaisseaux alliés à portée 0–2. Vous et les vaisseaux choisis peuvent effectuer une action %BARRELROLL% rouge ou %BOOST% rouge."""
+        "Lieutenant Hebsly (BoE)":
+           display_name: """Lieutenant Hebsly <i class="pilot-title">Bataille d'Endor - Left Side Legal</i>"""
+           text: """Après avoir défendu, vous pouvez effectuer une action %BOOST% rouge, même si vous êtes stressé."""
+        "Lieutenant Hebsly (BoE SL)":
+           display_name: """Lieutenant Hebsly <i class="pilot-title">Bataille d'Endor - Arsenal Standard</i>"""
+           text: """Après avoir défendu, vous pouvez effectuer une action %BOOST% rouge, même si vous êtes stressé."""
+        "Scythe 6 (BoE)":
+           display_name: """Scythe 6 <i class="pilot-title">Bataille d'Endor - Left Side Legal</i>"""
+           text: """Tant que vous effectuez une attaque à portée 1–2, lancez 1 dé d’attaque supplémentaire."""
+        "Scythe 6 (BoE SL)":
+           display_name: """Scythe 6 <i class="pilot-title">Bataille d'Endor - Arsenal Standard</i>"""
+           text: """Tant que vous effectuez une attaque à portée 1–2, lancez 1 dé d’attaque supplémentaire."""
+        "Scimitar 1 (BoE)":
+           display_name: """Scimitar 1 <i class="pilot-title">Bataille d'Endor - Left Side Legal</i>"""
+           text: """Après qu’un vaisseau allié à portée 0–3 a effectué une attaque, vous pouvez dépenser 1 %CHARGE% pour verrouiller le défenseur."""
+        "Scimitar 1 (BoE SL)":
+           display_name: """Scimitar 1 <i class="pilot-title">Bataille d'Endor - Arsenal Standard</i>"""
+           text: """Après qu’un vaisseau allié à portée 0–3 a effectué une attaque, vous pouvez dépenser 1 %CHARGE% pour verrouiller le défenseur."""
+        "Scimitar 3 (BoE)":
+           display_name: """Scimitar 3 <i class="pilot-title">Bataille d'Endor - Left Side Legal</i>"""
+           text: """Après avoir largué une bombe, vous pouvez dépenser 1 %CHARGE% pour effectuer une action %BOOST%."""
+        "Scimitar 3 (BoE SL)":
+           display_name: """Scimitar 3 <i class="pilot-title">Bataille d'Endor - Arsenal Standard</i>"""
+           text: """Après avoir largué une bombe, vous pouvez dépenser 1 %CHARGE% pour effectuer une action %BOOST%."""
+
         # Epic Ships
         "Republic Judiciary":
            display_name: """République Judiciaire"""
@@ -3931,7 +4053,75 @@ exportObj.cardLoaders['Français'] = () ->
         "Efficient Processing (YLF)":
            display_name: """Traitement Efficace"""
            text: """Après avoir effectué une action %CALCULATE%, gagnez 1 marqueur de calcul."""
-            
+        "It's A Trap! (BoE)":
+           display_name: """C’est un piège !"""
+           text: """Tant que vous défendez, s’il y a plus d’autres vaisseaux alliés que de vaisseaux ennemis à portée 0–1, vous pouvez relancer 1 de vos résultats Vierges."""
+        "R2-A3 (BoE)":
+           display_name: """R2-A3"""
+           text: """Après avoir effectué une action, vous pouvez dépenser 1 %CHARGE% pour effectuer un verrouillage."""
+        "Ace In The Hole (BoE)":
+           display_name: """Carte Maîtresse"""
+           text: """Au début de la phase d’engagement, vous pouvez dépenser 1 %CHARGE% et gagner 1 marqueur de brouillage pour effectuer une action %BARRELROLL%."""
+        "Airen Cracken (BoE)":
+           display_name: """Airen Cracken"""
+           text: """Après avoir défendu, si l’attaque a touché, vous pouvez recevoir 1 marqueur d’épuisement pour effectuer une attaque principale bonus contre l’attaquant."""
+        "Millennium Falcon (BoE)":
+           display_name: """Faucon Millenium"""
+           text: """Tant que vous attaquez ou défendez, si vous avez un marqueur rouge ou orange non-verrouillage, vous pouvez relancer 1 dé."""
+        "No Escape (BoE)":
+           display_name: """Pas d’échappatoire"""
+           text: """Tant que vous effectuez une attaque principale, s’il y a plus de vaisseaux alliés que d’autres vaisseaux ennemis à portée 0–1 du défenseur, vous pouvez relancer 1 de vos résultats Vierges."""
+        "Apex Predator (BoE)":
+           display_name: """Prédateur Ultime"""
+           text: """Tant que vous effectuez une attaque principale, si l’initiative du défenseur est inférieure à la vôtre, vous pouvez relancer 1 dé d’attaque."""
+        "Push The Limit (BoE)":
+           display_name: """Repousser les Limites"""
+           text: """Après avoir entièrement exécuté une manœuvre rouge ou effectué une action rouge, si vous n’êtes pas contraint, vous pouvez gagner un marqueur de contrainte pour retirer un marqueur de stress."""
+        "Reckless (BoE)":
+           display_name: """ Téméraire"""
+           text: """Tant que vous effectuez une action %BOOST% rouge ou %BARRELROLL% rouge, vous pouvez utiliser le gabarit [1 %TURNLEFT%] ou [1 %TURNRIGHT%] à la place. Dans ce cas, lancez un dé d’attaque. Sur un résultat %HIT%/%CRIT%, gagnez un marqueur de stress."""
+        "Targeting Matrix (BoE)":
+           display_name: """Matrice de ciblage"""
+           text: """Tant que vous effectuez une attaque, vous pouvez dépenser 1 résultat %FOCUS% à la fin de l’étape « Neutraliser les résultats ». Dans ce cas, après que l’attaque a été résolue, le défenseur gagne un marqueur de contrainte."""
+        "Chaff Particles (BoE)":
+           display_name: """Particules de brouillage"""
+           text: """Tant que vous défendez, vous pouvez dépenser 1 résultat %FOCUS% à la fin de l’étape « Neutraliser les résultats » pour retirer 1 marqueur rouge ou orange."""
+        "Computer-Assisted Handling (BoE)":
+           display_name: """Maniabilité Assistée"""
+           text: """Après avoir entièrement exécuté une manœuvre, vous pouvez dépenser 1 %CHARGE% pour effectuer une action %BOOST% ou %BARRELROLL%."""
+        "Blank Signature (BoE)":
+           display_name: """Signature Vierge"""
+           text: """Tant que vous défendez, si vous n’êtes pas verrouillé par l’attaquant, vous pouvez dépenser 1 %CHARGE% pour changer 1 résultat %FOCUS% en un résultat %EVADE%."""
+        "Feedback Emitter (BoE)":
+           display_name: """Émetteur de Retour"""
+           text: """Après qu’un objet vous a verrouillé, vous pouvez dépenser 1 %CHARGE% pour brouiller cet objet, en ignorant les restrictions de portée. La %CHARGE% de cette amélioration ne peut pas être récupérée."""
+        "Fuel Injection Override (BoE)":
+           display_name: """Injection de Carburant Surchargée"""
+           text: """Tant que vous effectuez une action %BOOST% ou %BARRELROLL%, vous pouvez dépenser 1 %CHARGE% pour utiliser un gabarit de 1 vitesse supérieure à la place."""
+        "Precision-Tuned Cannons (BoE)":
+           display_name: """Canons de haute précision"""
+           text: """<strong>Attaque :</strong> Si le défenseur est dans votre %BULLSEYEARC%, ajoutez 1 résultat %FOCUS%."""
+        "Target-Assist Algorithm (BoE)":
+           display_name: """Algorithme de ciblage"""
+           text: """Avant de vous engager, si vous n’avez aucun marqueur vert et qu’il y a 1 ou plusieurs objets ennemis dans votre %FRONTARC%, gagnez un marqueur de calcul."""
+        "Heroic Sacrifice (BoE)":
+           display_name: """ Sacrifice Héroïque"""
+           text: """Après avoir effectué une action %SLAM%, lancez 5 dé d’attaque. Chaque vaisseau grand, vaisseau immense, et élément de scénario à portée 0 subit 1 dégât %HIT% pour chaque résultat %HIT%/%CRIT%, en ignorant les boucliers. Ensuite, ce vaisseau est détruit.%LINEBREAK%Vous pouvez effectuer des actions %SLAM%, même si vous êtes stressé."""
+        "Parting Gift (BoE)":
+           display_name: """Cadeau d’Adieu"""
+           text: """Après avoir été détruit et avant de retirer votre figurine, vous pouvez dépenser une %CHARGE% sur une amélioration %DEVICE% équipée pour larguer ou lancer une bombe, en utilisant 1 gabarit [%STRAIGHT%], [%BANKLEFT%] ou [%BANKRIGHT%]."""
+        "Stabilizing Astromech (BoE)":
+           display_name: """Astromech de Stabilisation"""
+           text: """Après avoir entièrement exécuté une manœuvre, vous pouvez dépenser 1 %CHARGE% pour effectuer une action blanche, même si vous êtes stressé."""
+        "Modified R4-P unit (BoE)":
+           display_name: """Unité R4-P Modifiée"""
+           text: """Avant d’exécuter une manœuvre rouge, vous pouvez dépenser 1 %CHARGE%. Dans ce cas, tant que vous exécutez cette manœuvre, diminuez sa difficulté"""
+        "Collected (BoE)":
+           display_name: """Sang Froid"""
+           text: """Après avoir effectué une attaque principale, vous pouvez dépenser 1 marqueur de concentration pour gagner 2 marqueurs d’évasion."""
+        "Ion Maneuvering Jet (BoE)":
+           display_name: """Jet de Manœuvre Ionique"""
+           text: """Après avoir entièrement exécuté un Virage Koiogran [%KTURN%], vous pouvez dépenser 1 %CHARGE% pour effectuer une action, même si vous êtes stressé."""
 
 
         # Epic upgrades
@@ -4429,6 +4619,22 @@ exportObj.cardLoaders['Français'] = () ->
         "Sensor Blackout":
            display_name: "Panne des Senseurs "
            text: """Tant que vous effectuez une attaque principale à portée 0–1, lancez 1 dé d’attaque en moins. %LINEBREAK%Tant que vous défendez à portée 1, lancez 1 dé de défense en moins."""
+        "Locked S-Foils":
+           display_name: "S-Foils Verrouillés"
+           text: """Après avoir effectué une action %BOOST%, gagnez un marqueur d’épuisement."""
+        "Gyro-Cockpit":
+           display_name: "Gyro-Cockpit"
+           text: """Après avoir gagné un marqueur de stress, vous pouvez dépenser 2 %CHARGE% pour gagner un marqueur d’évasion.%LINEBREAK%Quand vous larguez un engin, vous pouvez dépenser 1 %CHARGE% pour positionner le gabarit en alignant sa ligne centrale avec la ligne pointillée du coté gauche ou droit du marqueur de vaisseau, à la place des glissières arrière."""
+        "High Stakes":
+           display_name: "Enjeux Élevés"
+           text: """Après avoir effectué une action rouge, vous pouvez lancer un dé d’attaque. Sur un résultat %HIT%/%CRIT%, retirez 1 marqueur de stress."""
+        "Chiss Engineering":
+           display_name: "Ingénierie Chiss"
+           text: """Après avoir entièrement exécuté une manœuvre à vitesse 3–5, vous pouvez effectuer une actio %LOCK%. Tant que vous effectuez une attaque, si vous n’êtes pas stressé, vous pouvez dépenser 1 %SHIELD% pour appliquer le bonus de portée 1."""
+        "Formed Up":
+           display_name: "Formé en Rangs"
+           text: """À la fin de la phase de dénouement, s’il y a un autre <strong>chasseur TIE/ln</strong> allié à portée 0–1, vous pouvez retirer 1 marqueur de stress."""
+
 
 
     exportObj.setupTranslationCardData pilot_translations, upgrade_translations, condition_translations, chassis_translations
