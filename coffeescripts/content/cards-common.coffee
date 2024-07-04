@@ -15789,6 +15789,7 @@ exportObj.basicCardData = ->
         }
         {
             name: '"Chopper" (Crew)'
+            xws: "chopper-crew"
             id: 23
             canonical_name: '"Chopper"'.canonicalize()
             slot: "Crew"
