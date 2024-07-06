@@ -9274,7 +9274,7 @@ exportObj.basicCardData = ->
             unique: true
             ship: "Firespray-class Patrol Craft"
             points: 79
-            keyword: ["Bounty Hunter", "Mandalorian"]
+            keyword: ["Bounty Hunter"]
             slots: [
                 "Talent"
                 "Cannon"
