@@ -12365,6 +12365,7 @@ exportObj.basicCardData = ->
         }
         {
             name: "Corran Horn (X-Wing)"
+            canonical_name: 'Corran Horn'.canonicalize()
             id: 594
             unique: true
             xws: "corranhorn-t65xwing"
@@ -12759,6 +12760,7 @@ exportObj.basicCardData = ->
         }
         {
             name: "Durge (Separatist)"
+            canonical_name: 'Durge'.canonicalize()
             xws: "durge-separatistalliance"
             id: 616
             unique: true
