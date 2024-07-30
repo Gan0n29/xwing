@@ -11508,7 +11508,7 @@ exportObj.basicCardData = ->
         {
             name: "Garven Dreis (BoY)"
             canonical_name: 'Garven Dreis'.canonicalize()
-            xws: "garvendreis-battleofyavin"
+            xws: "garvendreis-battleofyavin-lsl"
             unique: true
             standard_loadout: true
             id: 554
@@ -11528,7 +11528,7 @@ exportObj.basicCardData = ->
         {
             name: "Luke Skywalker (BoY)"
             canonical_name: 'Luke Skywalker'.canonicalize()
-            xws: "lukeskywalker-battleofyavin"
+            xws: "lukeskywalker-battleofyavin-lsl"
             unique: true
             standard_loadout: true
             id: 555
@@ -11550,7 +11550,7 @@ exportObj.basicCardData = ->
         {
             name: "Jek Porkins (BoY)"
             canonical_name: 'Jek Porkins'.canonicalize()
-            xws: "jekporkins-battleofyavin"
+            xws: "jekporkins-battleofyavin-lsl"
             unique: true
             standard_loadout: true
             id: 556
@@ -11570,7 +11570,7 @@ exportObj.basicCardData = ->
         {
             name: "Biggs Darklighter (BoY)"
             canonical_name: 'Biggs Darklighter'.canonicalize()
-            xws: "biggsdarklighter-battleofyavin"
+            xws: "biggsdarklighter-battleofyavin-lsl"
             unique: true
             standard_loadout: true
             id: 557
@@ -11590,7 +11590,7 @@ exportObj.basicCardData = ->
         {
             name: "Wedge Antilles (BoY)"
             canonical_name: 'Wedge Antilles'.canonicalize()
-            xws: "wedgeantilles-battleofyavin"
+            xws: "wedgeantilles-battleofyavin-lsl"
             unique: true
             standard_loadout: true
             id: 558
@@ -11610,7 +11610,7 @@ exportObj.basicCardData = ->
         {
             name: "Han Solo (BoY)"
             canonical_name: 'Han Solo'.canonicalize()
-            xws: "hansolo-battleofyavin"
+            xws: "hansolo-battleofyavin-lsl"
             unique: true
             standard_loadout: true
             id: 559
@@ -11634,7 +11634,7 @@ exportObj.basicCardData = ->
         {
             name: '"Dutch" Vander (BoY)'
             canonical_name: '"Dutch" Vander'.canonicalize()
-            xws: "jondutchvader-battleofyavin"
+            xws: "jondutchvader-battleofyavin-lsl"
             unique: true
             standard_loadout: true
             id: 560
@@ -11656,7 +11656,7 @@ exportObj.basicCardData = ->
         {
             name: "Dex Tiree (BoY)"
             canonical_name: 'Dex Tiree'.canonicalize()
-            xws: "dextiree-battleofyavin"
+            xws: "dextiree-battleofyavin-lsl"
             unique: true
             standard_loadout: true
             id: 561
@@ -11677,7 +11677,7 @@ exportObj.basicCardData = ->
         {
             name: '"Pops" Krail (BoY)'
             canonical_name: '"Pops" Krail'.canonicalize()
-            xws: "popskrail-battleofyavin"
+            xws: "popskrail-battleofyavin-lsl"
             unique: true
             standard_loadout: true
             id: 562
@@ -11698,7 +11698,7 @@ exportObj.basicCardData = ->
         {
             name: "Hol Okand (BoY)"
             canonical_name: 'Hol Okand'.canonicalize()
-            xws: "holokand-battleofyavin"
+            xws: "holokand-battleofyavin-lsl"
             unique: true
             standard_loadout: true
             id: 563
@@ -11719,7 +11719,7 @@ exportObj.basicCardData = ->
         {
             name: "Darth Vader (BoY)"
             canonical_name: 'Darth Vader'.canonicalize()
-            xws: "darthvader-battleofyavin"
+            xws: "darthvader-battleofyavin-lsl"
             unique: true
             standard_loadout: true
             id: 564
@@ -11741,7 +11741,7 @@ exportObj.basicCardData = ->
         {
             name: '"Backstabber" (BoY)'
             canonical_name: '"Backstabber"'.canonicalize()
-            xws: "backstabber-battleofyavin"
+            xws: "backstabber-battleofyavin-lsl"
             unique: true
             standard_loadout: true
             id: 565
@@ -11758,7 +11758,7 @@ exportObj.basicCardData = ->
         {
             name: '"Mauler" Mithel (BoY)'
             canonical_name: '"Mauler" Mithel'.canonicalize()
-            xws: "maulermithel-battleofyavin"
+            xws: "maulermithel-battleofyavin-lsl"
             unique: true
             standard_loadout: true
             id: 566
@@ -11776,7 +11776,7 @@ exportObj.basicCardData = ->
         {
             name: '"Dark Curse" (BoY)'
             canonical_name: '"Dark Curse"'.canonicalize()
-            xws: "darkcurse-battleofyavin"
+            xws: "darkcurse-battleofyavin-lsl"
             unique: true
             standard_loadout: true
             id: 567
@@ -11793,7 +11793,7 @@ exportObj.basicCardData = ->
         {
             name: '"Wampa" (BoY)'
             canonical_name: '"Wampa"'.canonicalize()
-            xws: "wampa-battleofyavin"
+            xws: "wampa-battleofyavin-lsl"
             unique: true
             standard_loadout: true
             id: 568
@@ -11818,7 +11818,7 @@ exportObj.basicCardData = ->
         {
             name: "Iden Versio (BoY)"
             canonical_name: 'Iden Versio'.canonicalize()
-            xws: "idenversio-battleofyavin"
+            xws: "idenversio-battleofyavin-lsl"
             unique: true
             standard_loadout: true
             id: 569
@@ -11840,7 +11840,7 @@ exportObj.basicCardData = ->
         {
             name: "Sigma 4 (BoY)"
             canonical_name: 'Sigma 4'.canonicalize()
-            xws: "sigma4-battleofyavin"
+            xws: "sigma4-battleofyavin-lsl"
             unique: true
             standard_loadout: true
             id: 570
@@ -11861,7 +11861,7 @@ exportObj.basicCardData = ->
         {
             name: "Sigma 5 (BoY)"
             canonical_name: 'Sigma 5'.canonicalize()
-            xws: "sigma5-battleofyavin"
+            xws: "sigma5-battleofyavin-lsl"
             unique: true
             standard_loadout: true
             id: 571
@@ -11882,7 +11882,7 @@ exportObj.basicCardData = ->
         {
             name: "Sigma 6 (BoY)"
             canonical_name: 'Sigma 6'.canonicalize()
-            xws: "sigma6-battleofyavin"
+            xws: "sigma6-battleofyavin-lsl"
             unique: true
             standard_loadout: true
             id: 572
@@ -11903,7 +11903,7 @@ exportObj.basicCardData = ->
         {
             name: "Sigma 7 (BoY)"
             canonical_name: 'Sigma 7'.canonicalize()
-            xws: "sigma7-battleofyavin"
+            xws: "sigma7-battleofyavin-lsl"
             unique: true
             standard_loadout: true
             id: 573
@@ -11930,7 +11930,7 @@ exportObj.basicCardData = ->
         {
             name: "Anakin Skywalker (SoC)"
             canonical_name: 'Anakin Skywalker'.canonicalize()
-            xws: "anakinskywalker-siegeofcoruscant"
+            xws: "anakinskywalker-siegeofcoruscant-lsl"
             unique: true
             standard_loadout: true
             id: 574
@@ -11951,7 +11951,7 @@ exportObj.basicCardData = ->
         {
             name: "Obi-Wan Kenobi (SoC)"
             canonical_name: 'Obi-Wan Kenobi'.canonicalize()
-            xws: "obiwankenobi-siegeofcoruscant"
+            xws: "obiwankenobi-siegeofcoruscant-lsl"
             unique: true
             standard_loadout: true
             id: 575
@@ -11972,7 +11972,7 @@ exportObj.basicCardData = ->
         {
             name: "Shaak Ti (SoC)"
             canonical_name: 'Shaak Ti'.canonicalize()
-            xws: "shaakti-siegeofcoruscant"
+            xws: "shaakti-siegeofcoruscant-lsl"
             unique: true
             standard_loadout: true
             id: 576
@@ -11993,7 +11993,7 @@ exportObj.basicCardData = ->
         {
             name: '"Odd Ball" (SoC)'
             canonical_name: 'Odd Ball'.canonicalize()
-            xws: "oddball-siegeofcoruscant"
+            xws: "oddball-siegeofcoruscant-lsl"
             unique: true
             standard_loadout: true
             id: 577
@@ -12017,7 +12017,7 @@ exportObj.basicCardData = ->
         {
             name: '"Wolffe" (SoC)'
             canonical_name: 'Wolffe'.canonicalize()
-            xws: "wolffe-siegeofcoruscant"
+            xws: "wolffe-siegeofcoruscant-lsl"
             unique: true
             standard_loadout: true
             id: 578
@@ -12041,7 +12041,7 @@ exportObj.basicCardData = ->
         {
             name: '"Jag" (SoC)'
             canonical_name: 'Jag'.canonicalize()
-            xws: "jag-siegeofcoruscant"
+            xws: "jag-siegeofcoruscant-lsl"
             unique: true
             standard_loadout: true
             id: 579
@@ -12063,7 +12063,7 @@ exportObj.basicCardData = ->
         {
             name: '"Contrail" (SoC)'
             canonical_name: 'Contrail'.canonicalize()
-            xws: "contrail-siegeofcoruscant"
+            xws: "contrail-siegeofcoruscant-lsl"
             unique: true
             standard_loadout: true
             id: 580
@@ -12084,7 +12084,7 @@ exportObj.basicCardData = ->
         {
             name: '"Klick" (SoC)'
             canonical_name: 'Klick'.canonicalize()
-            xws: "klick-siegeofcoruscant"
+            xws: "klick-siegeofcoruscant-lsl"
             unique: true
             standard_loadout: true
             id: 581
@@ -12108,7 +12108,7 @@ exportObj.basicCardData = ->
         {
             name: '"Kickback" (SoC)'
             canonical_name: 'Kickback'.canonicalize()
-            xws: "kickback-siegeofcoruscant"
+            xws: "kickback-siegeofcoruscant-lsl"
             unique: true
             standard_loadout: true
             id: 582
@@ -12129,7 +12129,7 @@ exportObj.basicCardData = ->
         {
             name: '"Axe" (SoC)'
             canonical_name: 'Axe'.canonicalize()
-            xws: "axe-siegeofcoruscant"
+            xws: "axe-siegeofcoruscant-lsl"
             unique: true
             standard_loadout: true
             id: 583
@@ -12150,7 +12150,7 @@ exportObj.basicCardData = ->
         {
             name: "Count Dooku (SoC)"
             canonical_name: 'Count Dooku'.canonicalize()
-            xws: "countdooku-siegeofcoruscant"
+            xws: "countdooku-siegeofcoruscant-lsl"
             unique: true
             standard_loadout: true
             id: 584
@@ -12183,7 +12183,7 @@ exportObj.basicCardData = ->
         {
             name: "DBS-32C (SoC)"
             canonical_name: 'DBS-32C'.canonicalize()
-            xws: "dbs32c-siegeofcoruscant"
+            xws: "dbs32c-siegeofcoruscant-lsl"
             unique: true
             standard_loadout: true
             id: 585
@@ -12211,7 +12211,7 @@ exportObj.basicCardData = ->
         {
             name: "DBS-404 (SoC)"
             canonical_name: 'DBS-404'.canonicalize()
-            xws: "dbs404-siegeofcoruscant"
+            xws: "dbs404-siegeofcoruscant-lsl"
             unique: true
             standard_loadout: true
             id: 586
@@ -12231,7 +12231,7 @@ exportObj.basicCardData = ->
         {
             name: "Baktoid Prototype (SoC)"
             canonical_name: 'Baktoid Prototype'.canonicalize()
-            xws: "baktoidprototype-siegeofcoruscant"
+            xws: "baktoidprototype-siegeofcoruscant-lsl"
             standard_loadout: true
             id: 587
             image_id: 329
@@ -12251,7 +12251,7 @@ exportObj.basicCardData = ->
         {
             name: "DIS-347 (SoC)"
             canonical_name: 'DIS-347'.canonicalize()
-            xws: "dis347-siegeofcoruscant"
+            xws: "dis347-siegeofcoruscant-lsl"
             unique: true
             standard_loadout: true
             id: 588
@@ -12271,7 +12271,7 @@ exportObj.basicCardData = ->
         {
             name: "DIS-T81 (SoC)"
             canonical_name: 'DIS-T81'.canonicalize()
-            xws: "dist81-siegeofcoruscant"
+            xws: "dist81-siegeofcoruscant-lsl"
             unique: true
             standard_loadout: true
             id: 589
@@ -12291,7 +12291,7 @@ exportObj.basicCardData = ->
         {
             name: "Phlac-Arphocc Prototype (SoC)"
             canonical_name: 'Phlac-Arphocc Prototype'.canonicalize()
-            xws: "phlacarphoccprototype-siegeofcoruscant"
+            xws: "phlacarphoccprototype-siegeofcoruscant-lsl"
             standard_loadout: true
             id: 590
             image_id: 423
@@ -12311,7 +12311,7 @@ exportObj.basicCardData = ->
         {
             name: "DFS-081 (SoC)"
             canonical_name: 'DFS-081'.canonicalize()
-            xws: "dfs081-siegeofcoruscant"
+            xws: "dfs081-siegeofcoruscant-lsl"
             unique: true
             standard_loadout: true
             id: 591
@@ -12330,7 +12330,7 @@ exportObj.basicCardData = ->
         {
             name: "DFS-311 (SoC)"
             canonical_name: 'DFS-311'.canonicalize()
-            xws: "dfs311-siegeofcoruscant"
+            xws: "dfs311-siegeofcoruscant-lsl"
             unique: true
             standard_loadout: true
             id: 592
@@ -12348,7 +12348,7 @@ exportObj.basicCardData = ->
         {
             name: "Haor Chall Prototype (SoC)"
             canonical_name: 'Haor Chall Prototype'.canonicalize()
-            xws: "haorchallprototype-siegeofcoruscant"
+            xws: "haorchallprototype-siegeofcoruscant-lsl"
             standard_loadout: true
             id: 593
             image_id: 310
@@ -14074,7 +14074,7 @@ exportObj.basicCardData = ->
         {
             name: '"Deathfire" (TBE)'
             canonical_name: '"Deathfire"'.canonicalize()
-            xws: "deathfire-swz98"
+            xws: "deathfire-swz98-lsl"
             unique: true
             id: 684
             standard_loadout: true
@@ -14116,7 +14116,7 @@ exportObj.basicCardData = ->
         }
         {
             name: "Major Rhymer (TBE)"
-            xws: "majorrhymer-swz98"
+            xws: "majorrhymer-swz98-lsl"
             canonical_name: 'Major Rhymer'.canonicalize()
             unique: true
             id: 686
@@ -14156,7 +14156,7 @@ exportObj.basicCardData = ->
         }
         {
             name: "Captain Jonus (TBE)"
-            xws: "captainjonus-swz98"
+            xws: "captainjonus-swz98-lsl"
             canonical_name: 'Captain Jonus'.canonicalize()
             unique: true
             id: 688
@@ -14212,7 +14212,7 @@ exportObj.basicCardData = ->
         }
         {
             name: "Tomax Bren (TBE)"
-            xws: "tomaxbren-swz98"
+            xws: "tomaxbren-swz98-lsl"
             canonical_name: 'Tomax Bren'.canonicalize()
             unique: true
             id: 690
@@ -14256,7 +14256,7 @@ exportObj.basicCardData = ->
         }
         {
             name: "Dash Rendar (2023)"
-            xws: "dashrendar-swz103"
+            xws: "dashrendar-swz103-rebelalliance"
             canonical_name: 'Dash Rendar'.canonicalize()
             unique: true
             id: 692
@@ -14276,7 +14276,7 @@ exportObj.basicCardData = ->
         }
         {
             name: "Dash Rendar (YLF)"
-            xws: "dashrendar-swz103-sl-rebelalliance"
+            xws: "dashrendar-swz103-lsl-rebelalliance"
             canonical_name: 'Dash Rendar'.canonicalize()
             unique: true
             id: 693
@@ -14317,7 +14317,7 @@ exportObj.basicCardData = ->
         }
         {
             name: "Dash Rendar (Scum)"
-            xws: "dashrendar-swz103-sl-scumandvillainy"
+            xws: "dashrendar-swz103-lsl-scumandvillainy"
             canonical_name: 'Dash Rendar'.canonicalize()
             unique: true
             id: 695
@@ -14358,7 +14358,7 @@ exportObj.basicCardData = ->
         }
         {
             name: '"Leebo" (2023)'
-            xws: "leebo-swz103"
+            xws: "leebo-swz103-rebelalliance"
             canonical_name: '"Leebo"'.canonicalize()
             unique: true
             id: 697
@@ -14378,7 +14378,7 @@ exportObj.basicCardData = ->
         }
         {
             name: '"Leebo" (YLF)'
-            xws: "leebo-swz103-sl-rebelalliance"
+            xws: "leebo-swz103-lsl-rebelalliance"
             canonical_name: '"Leebo"'.canonicalize()            
             unique: true
             id: 698
@@ -14433,7 +14433,7 @@ exportObj.basicCardData = ->
         }
         {
             name: '"Leebo" (Scum)'
-            xws: "leebo-swz103-sl-scumandvillainy"
+            xws: "leebo-swz103-lsl-scumandvillainy"
             canonical_name: '"Leebo"'.canonicalize()
             unique: true
             id: 700
@@ -14488,7 +14488,7 @@ exportObj.basicCardData = ->
         }
         {
             name: "Arvel Crynyd (BoE)"
-            xws: "arvelcrynyd-battleoverendor"
+            xws: "arvelcrynyd-battleoverendor-lsl"
             canonical_name: 'Arvel Crynyd'.canonicalize()
             unique: true
             id: 702
@@ -14553,7 +14553,7 @@ exportObj.basicCardData = ->
         }
         {
             name: "Gemmer Sojan (BoE)"
-            xws: "gemmersojan-battleoverendor"
+            xws: "gemmersojan-battleoverendor-lsl"
             canonical_name: 'Gemmer Sojan'.canonicalize()
             unique: true
             id: 704
@@ -14597,7 +14597,7 @@ exportObj.basicCardData = ->
         }
         {
             name: "Tycho Celchu (BoE)"
-            xws: "tychocelchu-battleoverendor"
+            xws: "tychocelchu-battleoverendor-lsl"
             canonical_name: 'Tycho Celchu'.canonicalize()
             unique: true
             id: 706
@@ -14663,7 +14663,7 @@ exportObj.basicCardData = ->
         }
         {
             name: "Adon Fox (BoE)"
-            xws: "adonfox-battleoverendor"
+            xws: "adonfox-battleoverendor-lsl"
             canonical_name: 'Adon Fox'.canonicalize()
             unique: true
             id: 708
@@ -14727,7 +14727,7 @@ exportObj.basicCardData = ->
         }
         {
             name: "Braylen Stramm (BoE)"
-            xws: "braylenstramm-battleoverendor"
+            xws: "braylenstramm-battleoverendor-lsl"
             canonical_name: 'Braylen Stramm'.canonicalize()
             unique: true
             id: 710
@@ -14795,7 +14795,7 @@ exportObj.basicCardData = ->
         }
         {
             name: "Gina Moonsong (BoE)"
-            xws: "ginamoonsong-battleoverendor"
+            xws: "ginamoonsong-battleoverendor-lsl"
             canonical_name: 'Gina Moonsong'.canonicalize()
             unique: true
             id: 712
@@ -14863,7 +14863,7 @@ exportObj.basicCardData = ->
         }
         {
             name: "Kendy Idele (BoE)"
-            xws: "kendyidele-battleoverendor"
+            xws: "kendyidele-battleoverendor-lsl"
             canonical_name: 'Kendy Idele'.canonicalize()
             unique: true
             id: 714
@@ -14920,7 +14920,7 @@ exportObj.basicCardData = ->
         }
         {
             name: "Wedge Antilles (BoE)"
-            xws: "wedgeantilles-battleoverendor"
+            xws: "wedgeantilles-battleoverendor-lsl"
             canonical_name: 'Wedge Antilles'.canonicalize()
             unique: true
             id: 716
@@ -14979,7 +14979,7 @@ exportObj.basicCardData = ->
         }
         {
             name: "Yendor (BoE)"
-            xws: "yendor-battleoverendor"
+            xws: "yendor-battleoverendor-lsl"
             canonical_name: 'Yendor'.canonicalize()
             unique: true
             id: 718
@@ -15035,7 +15035,7 @@ exportObj.basicCardData = ->
         }
         {
             name: "Lando Calrissian (BoE)"
-            xws: "landocalrissian-battleoverendor"
+            xws: "landocalrissian-battleoverendor-lsl"
             canonical_name: 'Lando Calrissian'.canonicalize()
             unique: true
             id: 720
@@ -15101,7 +15101,7 @@ exportObj.basicCardData = ->
         }
         {
             name: "Captain Yorr (BoE)"
-            xws: "captainyorr-battleoverendor"
+            xws: "captainyorr-battleoverendor-lsl"
             canonical_name: 'Captain Yorr'.canonicalize()
             id: 722
             standard_loadout: true
@@ -15160,7 +15160,7 @@ exportObj.basicCardData = ->
         }
         {
             name: "Colonel Jendon (BoE)"
-            xws: "coloneljendon-battleoverendor"
+            xws: "coloneljendon-battleoverendor-lsl"
             canonical_name: 'Colonel Jendon'.canonicalize()
             id: 724
             standard_loadout: true
@@ -15217,7 +15217,7 @@ exportObj.basicCardData = ->
         }
         {
             name: "Maus Monare (BoE)"
-            xws: "mausmonare-battleoverendor"
+            xws: "mausmonare-battleoverendor-lsl"
             canonical_name: 'Maus Monare'.canonicalize()
             unique: true
             id: 726
@@ -15258,7 +15258,7 @@ exportObj.basicCardData = ->
         }
         {
             name: "Sapphire 2 (BoE)"
-            xws: "sapphire2-battleoverendor"
+            xws: "sapphire2-battleoverendor-lsl"
             canonical_name: 'Sapphire 2'.canonicalize()
             unique: true
             id: 728
@@ -15295,7 +15295,7 @@ exportObj.basicCardData = ->
         }
         {
             name: "Soontir Fel (BoE)"
-            xws: "soontirfel-battleoverendor"
+            xws: "soontirfel-battleoverendor-lsl"
             canonical_name: 'Soontir Fel'.canonicalize()
             unique: true
             id: 730
@@ -15335,7 +15335,7 @@ exportObj.basicCardData = ->
         }
         {
             name: "Lieutenant Hebsly (BoE)"
-            xws: "lieutenanthebsly-battleoverendor"
+            xws: "lieutenanthebsly-battleoverendor-lsl"
             canonical_name: 'Lieutenant Hebsly'.canonicalize()
             unique: true
             id: 732
@@ -15391,7 +15391,7 @@ exportObj.basicCardData = ->
         }
         {
             name: "Major Mianda (BoE)"
-            xws: "majormianda-battleoverendor"
+            xws: "majormianda-battleoverendor-lsl"
             canonical_name: 'Major Mianda'.canonicalize()
             unique: true
             id: 734
@@ -15447,7 +15447,7 @@ exportObj.basicCardData = ->
         }
         {
             name: "Scythe 6 (BoE)"
-            xws: "scythe6-battleoverendor"
+            xws: "scythe6-battleoverendor-lsl"
             canonical_name: 'Scythe 6'.canonicalize()
             unique: true
             id: 736
@@ -15497,7 +15497,7 @@ exportObj.basicCardData = ->
         }
         {
             name: "Scimitar 1 (BoE)"
-            xws: "scimitar1-battleoverendor"
+            xws: "scimitar1-battleoverendor-lsl"
             canonical_name: 'Scimitar 1'.canonicalize()
             unique: true
             id: 738
@@ -15540,7 +15540,7 @@ exportObj.basicCardData = ->
         }
         {
             name: "Scimitar 3 (BoE)"
-            xws: "scimitar3-battleoverendor"
+            xws: "scimitar3-battleoverendor-lsl"
             canonical_name: 'Scimitar 3'.canonicalize()
             unique: true
             id: 740
@@ -20836,6 +20836,7 @@ exportObj.basicCardData = ->
         {
             name: "Outrider (2023)"
             canonical_name: 'Outrider'.canonicalize()
+            xws: "outrider2023"
             id: 502
             image_id: 157
             slot: "Title"
