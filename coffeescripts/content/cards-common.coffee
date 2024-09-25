@@ -6358,7 +6358,7 @@ exportObj.basicCardData = ->
             ]
         }
         {
-            name: "Red Squadron "
+            name: "Red Squadron Expert"
             id: 257
             faction: "Resistance"
             ship: "T-70 X-wing"
@@ -6801,7 +6801,7 @@ exportObj.basicCardData = ->
             ]
         }
         {
-            name: "Omega Squadron "
+            name: "Omega Squadron Expert"
             id: 285
             faction: "First Order"
             ship: "TIE/sf Fighter"
@@ -7065,7 +7065,7 @@ exportObj.basicCardData = ->
             ]
         }
         {
-            name: "Green Squadron "
+            name: "Green Squadron Expert"
             id: 300
             faction: "Resistance"
             ship: "RZ-2 A-wing"
