@@ -18915,7 +18915,7 @@ exportObj.basicCardData = ->
             slot: "Configuration"
             ship: "TIE/rb Heavy"
             faction: "Galactic Empire"
-            points: 3
+            points: 0
             modifier_func: (stats) ->
                 stats.actions.push 'Calculate'
                 stats.actions.push '*Barrel Roll'
@@ -19196,7 +19196,7 @@ exportObj.basicCardData = ->
             slot: "Configuration"
             ship: "TIE/rb Heavy"
             faction: "Galactic Empire"
-            points: 2
+            points: 3
             modifier_func: (stats) ->
                 stats.actions.push 'Calculate'
                 stats.actions.push '*Rotate Arc'
