@@ -20717,16 +20717,23 @@ exportObj.basicCardData = ->
         {
             name: "Roiling Anger (SoC)"
             id: 487
+            points: 3
             no_image: true
-            standard_loadout: true
             slot: "Force"
+            restrictions: [
+                ["Keyword", "Dark Side"]
+            ]
         }
         {
             name: "Contingency Protocol (SoC)"
             id: 488
+            points: 2
             no_image: true
-            standard_loadout: true
             slot: "Modification"
+            faction: "Separatist Alliance"
+            restrictions: [
+                ["Keyword", "Droid"]
+            ]
         }
         {
             name: "Strut-Lock Override (SoC)"
@@ -20815,8 +20822,8 @@ exportObj.basicCardData = ->
         {
             name: "Seeker Missiles (YLF)"
             id: 500
+            points: 7
             no_image: true
-            standard_loadout: true
             slot: "Missile"
             attack: 3
             range: """2-3"""
@@ -20828,10 +20835,11 @@ exportObj.basicCardData = ->
             name: '"Leebo" (YLF)'
             canonical_name: '"Leebo"'.canonicalize()
             id: 501
+            points: 3
             no_image: true
-            standard_loadout: true
             unique: true
             slot: "Crew"
+            faction: ["Scum and Villainy", "Rebel Alliance"]
         }
         {
             name: "Outrider (2023)"
@@ -20882,16 +20890,23 @@ exportObj.basicCardData = ->
         {
             name: "Chaff Particles (BoE)"
             id: 507
+            points: 3
             no_image: true
-            standard_loadout: true
             slot: "Modification"
+            restrictions: [
+                ["Base", "Small"]
+            ]
         }
         {
             name: "No Escape (BoE)"
             id: 508
+            points: 3
             no_image: true
-            standard_loadout: true
             slot: "Talent"
+            faction: "Galactic Empire"
+            restrictions: [
+                ["isUnique", false]
+            ]
         }
         {
             name: "Reckless (BoE)"
@@ -20980,8 +20995,8 @@ exportObj.basicCardData = ->
         {
             name: "Parting Gift (BoE)"
             id: 520
+            points: 3
             no_image: true
-            standard_loadout: true
             slot: "Talent"
         }
         {
