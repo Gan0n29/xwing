@@ -20829,6 +20829,13 @@ exportObj.basicCardData = ->
             range: """2-3"""
             rangebonus: true
             charge: 4
+            restrictions: [
+                ["Slot", "Missile"]
+            ]
+            validation_func: (ship, upgrade_obj) ->
+                upgrade_obj.occupiesAnUpgradeSlot upgrade_obj.slot
+            also_occupies_upgrades: [ 'Missile' ]
+        }
             
         }
         {
@@ -20890,12 +20897,9 @@ exportObj.basicCardData = ->
         {
             name: "Chaff Particles (BoE)"
             id: 507
-            points: 3
             no_image: true
+            standard_loadout: true
             slot: "Modification"
-            restrictions: [
-                ["Base", "Small"]
-            ]
         }
         {
             name: "No Escape (BoE)"
@@ -21036,6 +21040,46 @@ exportObj.basicCardData = ->
             no_image: true
             standard_loadout: true
             slot: "Talent"
+        }
+        {
+            name: "Fuel Injection Override (Legacy)"
+            id: 526
+            points: 3
+            no_image: true
+            charge: 1
+            slot: "Illicit"
+        }
+
+
+        {
+            name: "Chaff Particles (Legacy)"
+            id: 527
+            points: 3
+            no_image: true
+            charge: 1
+            slot: "Illicit"
+            restrictions: [
+                ["Base", "Small"]
+            ]
+        }
+        {
+            name: "Silent Hunter"
+            id: 528
+            points: 3
+            no_image: true
+            unique: true
+            slot: "Talent"
+        }
+        {
+            name: "Formed Up"
+            id: 529
+            points: 3
+            no_image: true
+            max_per_squad: 2
+            slot: "Talent"
+            faction: "Galactic Empire"
+            ship: "TIE/ln Fighter"
+        }
         }
     ]
 
