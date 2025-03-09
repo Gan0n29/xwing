@@ -3511,6 +3511,9 @@ exportObj.cardLoaders.English = () ->
         "Chaff Particles (BoE)":
            display_name: """Chaff Particles"""
            text: """While defending, you may spend 1 %FOCUS% result at the end of the Neutralize Results step to remove 1 red or orange token."""
+        "Chaff Particles (Legacy)":
+           display_name: """Chaff Particles (Legacy)"""
+           text: """While defending, at the end of the Neutralize Results step, you may spend 1 %CHARGE% and 1 %FOCUS% or %EVADE% result to remove 1 red or orange token."""
         "Computer-Assisted Handling (BoE)":
            display_name: """Computer-Assisted Handling"""
            text: """After you fully execute a maneuver, you may spend 1 %CHARGE% to perform a %BOOST% or %BARRELROLL% action."""
@@ -3523,6 +3526,9 @@ exportObj.cardLoaders.English = () ->
         "Fuel Injection Override (BoE)":
            display_name: """Fuel Injection Override"""
            text: """While you perform a %BOOST% or %BARRELROLL% action, you may spend 1 %CHARGE% to use a template of 1 speed higher."""
+        "Fuel Injection Override (Legacy)":
+           display_name: """Fuel Injection Override (Legacy)"""
+           text: """While you perform a %BOOST% or %BARRELROLL% action, you may spend 1 %CHARGE% to use a template of 1 speed higher instead."""
         "Precision-Tuned Cannons (BoE)":
            display_name: """Precision-Tuned Cannons"""
            text: """<strong>Attack:</strong> If the defender is in your %BULLSEYEARC%, add 1 %FOCUS% result."""
@@ -3547,6 +3553,13 @@ exportObj.cardLoaders.English = () ->
         "Ion Maneuvering Jet (BoE)":
            display_name: """Ion Maneuvering Jet"""
            text: """After you fully execute a Koiogran Turn [%KTURN%], you may spend 1 %CHARGE% to perform an action, even while stressed."""
+        "Silent Hunter":
+           display_name: """Silent Hunter"""
+           text: """After you decloak, you may acquire a lock on an enemy ship in your %BULLSEYEARC%."""
+        "Formed Up":
+           display_name: "Formed Up"
+           text: """At the end of the End Phase, if there are at least 2 other friendly <strong>TIE/ln Fighters</strong> or 1 other ship with <strong>Formed Up</strong> at range 0-1, you may remove 1 non-lock red token."""
+
 
 
             
