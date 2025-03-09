@@ -20836,8 +20836,6 @@ exportObj.basicCardData = ->
                 upgrade_obj.occupiesAnUpgradeSlot upgrade_obj.slot
             also_occupies_upgrades: [ 'Missile' ]
         }
-            
-        }
         {
             name: '"Leebo" (YLF)'
             canonical_name: '"Leebo"'.canonicalize()
@@ -21049,8 +21047,6 @@ exportObj.basicCardData = ->
             charge: 1
             slot: "Illicit"
         }
-
-
         {
             name: "Chaff Particles (Legacy)"
             id: 527
@@ -21079,7 +21075,6 @@ exportObj.basicCardData = ->
             slot: "Talent"
             faction: "Galactic Empire"
             ship: "TIE/ln Fighter"
-        }
         }
     ]
 
