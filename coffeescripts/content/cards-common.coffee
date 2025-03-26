@@ -20907,12 +20907,8 @@ exportObj.basicCardData = ->
         {
             name: "No Escape (BoE)"
             id: 508
-            points: 3
+            standard_loadout: true
             slot: "Talent"
-            faction: "Galactic Empire"
-            restrictions: [
-                ["isUnique", false]
-            ]
         }
         {
             name: "Reckless (BoE)"
@@ -21074,6 +21070,17 @@ exportObj.basicCardData = ->
             slot: "Talent"
             faction: "Galactic Empire"
             ship: "TIE/ln Fighter"
+        }
+        {
+            name: "No Escape (Legacy)"
+            id: 530
+            image_id: 508
+            points: 3
+            slot: "Talent"
+            faction: "Galactic Empire"
+            restrictions: [
+                ["isUnique", false]
+            ]
         }
     ]
 
