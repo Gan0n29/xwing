@@ -3497,7 +3497,7 @@ exportObj.cardLoaders.English = () ->
            display_name: """No Escape"""
            text: """While you perform a primary attack, if there are more friendly ships than other enemy ships at range 0-1 of the defender, you may reroll 1 of your blank results."""
         "No Escape (Legacy)":
-           display_name: """No Escape"""
+           display_name: """No Escape (Legacy)"""
            text: """While you perform a primary attack, if there are more friendly ships than enemy ships at range 0-1 of the defender, you may reroll 1 of your blank results."""
         "Apex Predator (BoE)":
            display_name: """Apex Predator"""
