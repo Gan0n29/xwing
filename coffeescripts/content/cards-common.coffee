@@ -20899,8 +20899,8 @@ exportObj.basicCardData = ->
         }
         {
             name: "Chaff Particles (BoE)"
-            id: 527
-            image_id: 4
+            id: 507
+            image_id: 527
             standard_loadout: true
             slot: "Modification"
         }
