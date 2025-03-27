@@ -20740,6 +20740,7 @@ exportObj.basicCardData = ->
             faction: "Separatist Alliance"
             restrictions: [
                 ["Keyword", "Droid"]
+                ["orEquipped", "Tactical Relay"]
             ]
         }
         {
