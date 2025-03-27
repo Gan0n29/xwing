@@ -12143,6 +12143,59 @@ exportObj.manifestByExpansion =
         }
     ]
 
+    "RSL Salvage Pack": [
+        {
+            name: 'No Escape (Legacy)'
+            type: 'upgrade'
+            count: 99
+        }
+        {
+            name: 'Formed Up'
+            type: 'upgrade'
+            count: 99
+        }
+        {
+            name: 'Silent Hunter'
+            type: 'upgrade'
+            count: 99
+        }
+        {
+            name: 'Chaff Particles (Legacy)'
+            type: 'upgrade'
+            count: 99
+        }
+        {
+            name: 'Fuel Injection Override (Legacy)'
+            type: 'upgrade'
+            count: 99
+        }
+        {
+            name: 'Parting Gift (BoE)'
+            type: 'upgrade'
+            count: 99
+        }
+        {
+            name: '"Leebo" (YLF)'
+            type: 'upgrade'
+            count: 99
+        }
+        {
+            name: 'Seeker Missiles (YLF)'
+            type: 'upgrade'
+            count: 99
+        }
+        {
+            name: 'Contingency Protocol (SoC)'
+            type: 'upgrade'
+            count: 99
+        }
+        {
+            name: 'Roiling Anger (SoC)'
+            type: 'upgrade'
+            count: 99
+        }
+    ]
+
     'Loose Ships': [
         {
             name: 'Auzituck Gunship'
