@@ -3393,6 +3393,8 @@ class exportObj.SquadBuilder
             for r in card.restrictions
                 if r[0] == "orUnique"
                     uniquetext = exportObj.translate('restrictions', " or Squad Including") + " #{r[1]}"
+                else if r[0] == "orEquipped"
+                    uniquetext = exportObj.translate('restrictions', " or Equipped with") + " #{r[1]}"
                     continue
                 switch r[0]
                     when "Base"
@@ -4973,6 +4975,9 @@ class Ship
             for r in restrictions
                 if r[0] == "orUnique"
                     if @checkListForUnique(r[1].toLowerCase().replace(/[^0-9a-z]/gi, '').replace(/\s+/g, '-'))
+                        return true
+                else if r[0] == "orEquipped"
+                    if (@doesSlotExist(r[1]) and @hasFilledSlotLike(upgrade_obj, r[1]))
                         return true
                 switch r[0]
                     when "Base"  
