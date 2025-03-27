@@ -20739,8 +20739,8 @@ exportObj.basicCardData = ->
             slot: "Modification"
             faction: "Separatist Alliance"
             restrictions: [
-                ["Keyword", "Droid"]
                 ["orEquipped", "Tactical Relay"]
+                ["Keyword", "Droid"]
             ]
         }
         {
