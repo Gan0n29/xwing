@@ -1834,7 +1834,7 @@ exportObj.cardLoaders.English = () ->
            text: """At the start of the End Phase, you may perform a purple %COORDINATE% action, even while stressed %LINEBREAK% After you perform a %COORDINATE% action, if the chosen ship has the <b>Born for This</b> ship ability, you may coordinate 1 additional ship."""
         "Shaak Ti (SoC SL)":
            display_name: """Shaak Ti <i class="pilot-title">Siege of Coruscant - Standard Loadout</i>"""
-           text: """At the start of the End Phase, you may perfrom a purple %COORDINATE% action, even while stressed %LINEBREAK% After you perform a %COORDINATE% action, if the chosen ship has the <b>Born for This</b> ship ability, you may coordinate 1 additional ship."""
+           text: """At the start of the End Phase, you may perform a purple %COORDINATE% action, even while stressed %LINEBREAK% After you perform a %COORDINATE% action, if the chosen ship has the <b>Born for This</b> ship ability, you may coordinate 1 additional ship."""
         '"Odd Ball" (SoC)':
            display_name: """“Odd Ball” <i class="pilot-title">Siege of Coruscant - Left Side Legal</i>"""
            text: """After you fully execute a red maneuver or perform a red action, you camy choose a friendly ship at range 0-3 and an enemy at range 0-1. The chosen frendly ship gains a lock on the enemy ship."""
@@ -2043,7 +2043,7 @@ exportObj.cardLoaders.English = () ->
            text: """After you fully execute a maneuver, you may spend 2 %CHARGE% to peform a %SLAM% action, even while stressed."""
         "Gavyn Sykes":
            display_name: """Gavyn Sykes"""
-           text: """While you defend or perfrom an attack, if the speed of your revealed maneuver is greater than the enemy ship's, you may reroll your blank results."""
+           text: """While you defend or perform an attack, if the speed of your revealed maneuver is greater than the enemy ship's, you may reroll your blank results."""
 
             
         # Starter Packs
@@ -3728,7 +3728,7 @@ exportObj.cardLoaders.English = () ->
            text: """<strong>Setup:</strong> Equip this side faceup.%LINEBREAK% At the start of the End Phase, you may spend 2 %ENERGY% to execute a white [2 %STRAIGHT%], [1 %BANKLEFT%], or [1 %BANKRIGHT%] maneuver. %LINEBREAK% """
         "Drill Beak":
            display_name: """Drill Beak"""
-           text: """<strong>Setup:</strong> Equip this side faceup.%LINEBREAK% You can preform this attack at range 0.
+           text: """<strong>Setup:</strong> Equip this side faceup.%LINEBREAK% You can perform this attack at range 0.
            %LINEBREAK% <strong>Bonus Attack:</strong> Spend 1 %ENERGY%. If the attack range is 0, change all %HIT% results to %CRIT% results."""
         "Tractor Tentacles":
            display_name: """Tractor Tentacles"""
