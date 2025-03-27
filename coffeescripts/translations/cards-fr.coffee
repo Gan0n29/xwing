@@ -47,6 +47,7 @@ exportObj.translations['Français'] =
         "Agility": "Agilité"
         "Non-Limited": "Non-Limité"
         " or Squad Including": " ou Escadron incluant"
+        " or Equipped with": " ou Équippé avec"
         "Ship": "Vaisseau"
         "Extra": "Extra"
         "Vectored Thrusters": "Propulseurs Vectoriels"
