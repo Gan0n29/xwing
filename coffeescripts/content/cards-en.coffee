@@ -3439,7 +3439,13 @@ exportObj.cardLoaders.English = () ->
         "Roiling Anger (SoC)":
            display_name: """Roiling Anger"""
            text: """At the start of the Engagement Phase, if you are in an enemy ship's %FRONTARC%, you may gain 1 strain to recover 1 %FORCE%."""
+        "Roiling Anger (Legacy)":
+           display_name: """Roiling Anger"""
+           text: """At the start of the Engagement Phase, if you are in an enemy ship's %FRONTARC%, you may gain 1 strain to recover 1 %FORCE%."""
         "Contingency Protocol (SoC)":
+           display_name: """Contingency Protocol"""
+           text: """After this ship is destroyed another friendly ship at range 0-3 with <b>Contingency Protocol</b> may perform an action, even while stressed."""
+        "Contingency Protocol (Legacy)":
            display_name: """Contingency Protocol"""
            text: """After this ship is destroyed another friendly ship at range 0-3 with <b>Contingency Protocol</b> may perform an action, even while stressed."""
         "Evasion Sequence 7 (SoC)":
@@ -3472,8 +3478,14 @@ exportObj.cardLoaders.English = () ->
         "Seeker Missiles (YLF)":
            display_name: """Seeker Missiles"""
            text: """<strong>Attack (%LOCK%):</strong> Spend 1 %CHARGE%. During the Modify Attack Dice step, you may spend up to 2 additional %CHARGE%. Change one %FOCUS% result to a %HIT% result for each %CHARGE% spent in this way."""
+        "Seeker Missiles (Legacy)":
+           display_name: """Seeker Missiles (Legacy)"""
+           text: """<strong>Attack (%LOCK%):</strong> Spend 1 %CHARGE%. During the Modify Attack Dice step, you may spend up to 2 additional %CHARGE%. Change one %FOCUS% result to a %HIT% result for each %CHARGE% spent in this way."""
         '"Leebo" (YLF)':
            display_name: """“Leebo”"""
+           text: """After you repair a damage card, you may perform an action from your action bar."""
+        '"Leebo" (Legacy)':
+           display_name: """“Leebo” (Legacy)"""
            text: """After you repair a damage card, you may perform an action from your action bar."""
         "Efficient Processing (YLF)":
            display_name: """Efficient Processing"""
@@ -3544,6 +3556,9 @@ exportObj.cardLoaders.English = () ->
         "Parting Gift (BoE)":
            display_name: """Parting Gift"""
            text: """When you are destroyed, before you are removed, you may spend 1 %CHARGE% on an equipped %DEVICE% upgrade to drop or launch a bomb using the speed 1 straight or bank [%BANKLEFT%, %STRAIGHT%, %BANKRIGHT%] template."""
+        "Parting Gift (Legacy)":
+           display_name: """Parting Gift (Legacy)"""
+           text: """When you are destroyed, before you are removed, you may spend 1 %CHARGE% on an equipped %DEVICE% upgrade to drop or launch a bomb using the speed 1 straight or bank [%BANKLEFT%, %STRAIGHT%, %BANKRIGHT%] template."""
         "Stabilizing Astromech (BoE)":
            display_name: """Stabilizing Astromech"""
            text: """After you fully execute a maneuver, you may spend 1 %CHARGE% to perform a white action, even while stressed."""
@@ -3556,11 +3571,11 @@ exportObj.cardLoaders.English = () ->
         "Ion Maneuvering Jet (BoE)":
            display_name: """Ion Maneuvering Jet"""
            text: """After you fully execute a Koiogran Turn [%KTURN%], you may spend 1 %CHARGE% to perform an action, even while stressed."""
-        "Silent Hunter":
-           display_name: """Silent Hunter"""
+        "Silent Hunter (Legacy)":
+           display_name: """Silent Hunter (Legacy)"""
            text: """After you decloak, you may acquire a lock on an enemy ship in your %BULLSEYEARC%."""
-        "Formed Up":
-           display_name: "Formed Up"
+        "Formed Up (Legacy)":
+           display_name: "Formed Up (Legacy)"
            text: """At the end of the End Phase, if there are at least 2 other friendly <strong>TIE/ln Fighters</strong> or 1 other ship with <strong>Formed Up</strong> at range 0-1, you may remove 1 non-lock red token."""
 
 
