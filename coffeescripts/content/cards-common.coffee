@@ -20726,22 +20726,16 @@ exportObj.basicCardData = ->
         {
             name: "Roiling Anger (SoC)"
             id: 487
-            points: 3
+            no_image: true
+            standard_loadout: true
             slot: "Force"
-            restrictions: [
-                ["Keyword", "Dark Side"]
-            ]
         }
         {
             name: "Contingency Protocol (SoC)"
             id: 488
-            points: 2
+            no_image: true
+            standard_loadout: true
             slot: "Modification"
-            faction: "Separatist Alliance"
-            restrictions: [
-                ["orEquipped", "Tactical Relay"]
-                ["Keyword", "Droid"]
-            ]
         }
         {
             name: "Strut-Lock Override (SoC)"
@@ -20830,27 +20824,22 @@ exportObj.basicCardData = ->
         {
             name: "Seeker Missiles (YLF)"
             id: 500
-            points: 7
+            no_image: true
+            standard_loadout: true
             slot: "Missile"
             attack: 3
             range: """2-3"""
             rangebonus: true
             charge: 4
-            restrictions: [
-                ["Slot", "Missile"]
-            ]
-            validation_func: (ship, upgrade_obj) ->
-                upgrade_obj.occupiesAnUpgradeSlot upgrade_obj.slot
-            also_occupies_upgrades: [ 'Missile' ]
         }
         {
             name: '"Leebo" (YLF)'
             canonical_name: '"Leebo"'.canonicalize()
             id: 501
-            points: 3
+            no_image: true
+            standard_loadout: true
             unique: true
             slot: "Crew"
-            faction: ["Scum and Villainy", "Rebel Alliance"]
         }
         {
             name: "Outrider (2023)"
@@ -20998,7 +20987,8 @@ exportObj.basicCardData = ->
         {
             name: "Parting Gift (BoE)"
             id: 520
-            points: 3
+            no_image: true
+            standard_loadout: true
             slot: "Talent"
         }
         {
@@ -21041,6 +21031,7 @@ exportObj.basicCardData = ->
         }
         {
             name: "Fuel Injection Override (Legacy)"
+            xws: "fuelinjectionoverride-rsl"
             id: 526
             points: 3
             charge: 1
@@ -21051,6 +21042,7 @@ exportObj.basicCardData = ->
         }
         {
             name: "Chaff Particles (Legacy)"
+            xws: "chaffparticles-rsl"
             id: 527
             points: 3
             charge: 1
@@ -21060,14 +21052,16 @@ exportObj.basicCardData = ->
             ]
         }
         {
-            name: "Silent Hunter"
+            name: "Silent Hunter (Legacy)"
+            xws: "silenthunter-rsl"
             id: 528
             points: 3
             unique: true
             slot: "Talent"
         }
         {
-            name: "Formed Up"
+            name: "Formed Up (Legacy)"
+            xws: "formedup-rsl"
             id: 529
             points: 3
             max_per_squad: 2
@@ -21077,6 +21071,7 @@ exportObj.basicCardData = ->
         }
         {
             name: "No Escape (Legacy)"
+            xws: "noescape-rsl"
             id: 530
             image_id: 508
             points: 3
@@ -21084,6 +21079,62 @@ exportObj.basicCardData = ->
             faction: "Galactic Empire"
             restrictions: [
                 ["isUnique", false]
+            ]
+        }
+        {
+            name: "Parting Gift (Legacy)"
+            xws: "partinggift-rsl"
+            id: 531
+            points: 3
+            slot: "Talent"
+        }
+        {
+            name: '"Leebo" (Legacy)'
+            canonical_name: '"Leebo"'.canonicalize()
+            xws: "leebo-rsl"
+            id: 532
+            points: 3
+            unique: true
+            slot: "Crew"
+            faction: ["Scum and Villainy", "Rebel Alliance"]
+        }
+        {
+            name: "Seeker Missiles (Legacy)"
+            xws: "seekermissiles-rsl"
+            id: 533
+            points: 7
+            slot: "Missile"
+            attack: 3
+            range: """2-3"""
+            rangebonus: true
+            charge: 4
+            restrictions: [
+                ["Slot", "Missile"]
+            ]
+            validation_func: (ship, upgrade_obj) ->
+                upgrade_obj.occupiesAnUpgradeSlot upgrade_obj.slot
+            also_occupies_upgrades: [ 'Missile' ]
+        }
+        {
+            name: "Roiling Anger (Legacy)"
+            xws: "roilinganger-rsl"
+            id: 534
+            points: 3
+            slot: "Force"
+            restrictions: [
+                ["Keyword", "Dark Side"]
+            ]
+        }
+        {
+            name: "Contingency Protocol (Legacy)"
+            xws: "contingencyprotocol-rsl"
+            id: 535
+            points: 2
+            slot: "Modification"
+            faction: "Separatist Alliance"
+            restrictions: [
+                ["orEquipped", "Tactical Relay"]
+                ["Keyword", "Droid"]
             ]
         }
     ]
