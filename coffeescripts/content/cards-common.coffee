@@ -20897,6 +20897,7 @@ exportObj.basicCardData = ->
         {
             name: "No Escape (BoE)"
             id: 508
+            no_image: true
             standard_loadout: true
             slot: "Talent"
         }
@@ -21073,7 +21074,6 @@ exportObj.basicCardData = ->
             name: "No Escape (Legacy)"
             xws: "noescape-rsl"
             id: 530
-            image_id: 508
             points: 3
             slot: "Talent"
             faction: "Galactic Empire"
