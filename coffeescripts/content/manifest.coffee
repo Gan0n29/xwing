@@ -12150,12 +12150,12 @@ exportObj.manifestByExpansion =
             count: 99
         }
         {
-            name: 'Formed Up'
+            name: 'Formed Up (Legacy)'
             type: 'upgrade'
             count: 99
         }
         {
-            name: 'Silent Hunter'
+            name: 'Silent Hunter (Legacy)'
             type: 'upgrade'
             count: 99
         }
@@ -12170,27 +12170,27 @@ exportObj.manifestByExpansion =
             count: 99
         }
         {
-            name: 'Parting Gift (BoE)'
+            name: 'Parting Gift (Legacy)'
             type: 'upgrade'
             count: 99
         }
         {
-            name: '"Leebo" (YLF)'
+            name: '"Leebo" (Legacy)'
             type: 'upgrade'
             count: 99
         }
         {
-            name: 'Seeker Missiles (YLF)'
+            name: 'Seeker Missiles (Legacy)'
             type: 'upgrade'
             count: 99
         }
         {
-            name: 'Contingency Protocol (SoC)'
+            name: 'Contingency Protocol (Legacy)'
             type: 'upgrade'
             count: 99
         }
         {
-            name: 'Roiling Anger (SoC)'
+            name: 'Roiling Anger (Legacy)'
             type: 'upgrade'
             count: 99
         }
