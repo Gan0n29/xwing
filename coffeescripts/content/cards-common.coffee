@@ -30776,16 +30776,16 @@ exportObj.epicExclusionsList = [
 ]
 
 exportObj.wildSpaceExclusionsList = [
-    'Formed Up'
-    'Silent Hunter'
+    'Formed Up (Legacy)'
+    'Silent Hunter (Legacy)'
     'Chaff Particles (Legacy)'
     'Fuel Injection Override (Legacy)'
-    'No Escape (BoE)'
-    'Parting Gift (BoE)'
-    'Roiling Anger (SoC)'
-    'Seeker Missiles (YLF)'
-    '"Leebo" (YLF)'
-    'Contingency Protocol (SoC)'
+    'No Escape (Legacy)'
+    'Parting Gift (Legacy)'
+    'Roiling Anger (Legacy)'
+    'Seeker Missiles (Legacy)'
+    '"Leebo" (Legacy)'
+    'Contingency Protocol (Legacy)'
 ]
 
 exportObj.epicExclusions = (data) ->
