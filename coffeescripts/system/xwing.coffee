@@ -993,21 +993,37 @@ class exportObj.SquadBuilder
                         <option class="pomdebris1-select translated" value="pomdebris1" defaultText="Pride of Mandalore Debris 1"></option>
                         <option class="pomdebris2-select translated" value="pomdebris2" defaultText="Pride of Mandalore Debris 2"></option>
                         <option class="pomdebris3-select translated" value="pomdebris3" defaultText="Pride of Mandalore Debris 3"></option>
-                        <option class="scenario-emplacements-select translated" value="scenario-emplacements" defaultText="Scenario - Emplacements"></option>
-                        <option class="scenario-probingproblem-select translated" value="scenario-probingproblem" defaultText="Scenario - Probing Problem"></option>
                         <option class="scenario-blackbox-select translated" value="scenario-blackbox" defaultText="Scenario - Black Box"></option>
+                        <option class="scenario-contraband-select translated" value="scenario-contraband" defaultText="Scenario - Contraband"></option>
+                        <option class="scenario-dantooine-select translated" value="scenario-dantooine" defaultText="Scenario - Dantooine"></option>
+                        <option class="scenario-emplacements-select translated" value="scenario-emplacements" defaultText="Scenario - Emplacements"></option>
+                        <option class="scenario-escort-select translated" value="scenario-escort" defaultText="Scenario - Escort"></option>
+                        <option class="scenario-holocron-select translated" value="scenario-holocron" defaultText="Scenario - Holocron"></option>
+                        <option class="scenario-probingproblem-select translated" value="scenario-probingproblem" defaultText="Scenario - Probing Problem"></option>
+                        <option class="scenario-sabotage-select translated" value="scenario-sabotage" defaultText="Scenario - Sabotage"></option>
+                        <option class="scenario-telemetry-select translated" value="scenario-telemetry" defaultText="Scenario - Telemetry"></option>
                         <option class="scenario-vip-select translated" value="scenario-vip" defaultText="Scenario - VIP"></option>
-                        <!-- <option class="scenario-gatherintel-select translated" value="scenario-gatherintel" defaultText="Scenario - Gather Intel"></option> -->
                         <option class="environment-asteroidfield-select translated" value="environment-asteroidfield" defaultText="Environment - Asteroid Field"></option>
+                        <option class="environment-binarysuns-select translated" value="environment-binarysuns" defaultText="Environment - Binary Suns"></option>
+                        <option class="environment-comet-select translated" value="environment-comet" defaultText="Environment - Comet"></option>
                         <option class="environment-conjoined-select translated" value="environment-conjoined" defaultText="Environment - Conjoined"></option>
+                        <option class="environment-intergalacticvoid-select translated" value="environment-intergalacticvoid" defaultText="Environment - Intergalactic Void"></option>
+                        <option class="environment-junkyard-select translated" value="environment-junkyard" defaultText="Environment - Junkyard"></option>
+                        <option class="environment-nebula-select translated" value="environment-nebula" defaultText="Environment - Nebula"></option>
                         <option class="environment-oldwreckage-select translated" value="environment-oldwreckage" defaultText="Environment - Old Wreckage"></option>
                         <option class="environment-planetaryring-select translated" value="environment-planetaryring" defaultText="Environment - Planetary Ring"></option>
-                        <option class="environment-nebula-select translated" value="environment-nebula" defaultText="Environment - Nebula"></option>
+                        <option class="environment-themaw-select translated" value="environment-themaw" defaultText="Environment - The Maw"></option>
+                        <option class="wild-agamar-select translated" value="wild-agamar" defaultText="Wild - Agamar"></option>
+                        <option class="wild-emergencyreinforcements-select translated" value="wild-emergencyreinforcements" defaultText="Wild - Emergency Reinforcements"></option>
                         <option class="wild-fracturedsensors-select translated" value="wild-fracturedsensors" defaultText="Wild - Fractured Sensors"></option>
+                        <option class="wild-ionstorm-select translated" value="wild-ionstorm" defaultText="Wild - Ion Storm"></option>
+                        <option class="wild-outpost-select translated" value="wild-outpost" defaultText="Wild - Outpost"></option>
+                        <option class="wild-thereisanother-select translated" value="wild-thereisanother" defaultText="Wild - There Is Another"></option>
+                        <option class="wild-theyexplodenow-select translated" value="wild-theyexplodenow" defaultText="Wild - They Explode Now"></option>
                         <option class="wild-tritaniumdeposits-select translated" value="wild-tritaniumdeposits" defaultText="Wild - Tritanium Deposits"></option>
                         <option class="wild-unstablefuel-select translated" value="wild-unstablefuel" defaultText="Wild - Unstable Fuel"></option>
-                        <option class="wild-emergencyreinforcements-select translated" value="wild-emergencyreinforcements" defaultText="Wild - Emergency Reinforcements"></option>
-                        <option class="wild-outpost-select translated" value="wild-outpost" defaultText="Wild - Outpost"></option>
+                        <option class="wild-vornskrs-select translated" value="wild-vornskrs" defaultText="Wild - Vornskrs"></option>
+                        <option class="wild-ysalamiri-select translated" value="wild-ysalamiri" defaultText="Wild - Ysalamiri"></option>
                     </select>
                 </div>
                 <div>
