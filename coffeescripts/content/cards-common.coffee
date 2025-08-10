@@ -21034,7 +21034,7 @@ exportObj.basicCardData = ->
             name: "Fuel Injection Override (Legacy)"
             xws: "fuelinjectionoverride-rsl"
             id: 526
-            points: 3
+            points: 2
             charge: 1
             slot: "Illicit"
             restrictions: [
@@ -21056,27 +21056,26 @@ exportObj.basicCardData = ->
             name: "Silent Hunter (Legacy)"
             xws: "silenthunter-rsl"
             id: 528
-            points: 3
-            unique: true
+            points: 2
             slot: "Talent"
         }
         {
             name: "Formed Up (Legacy)"
             xws: "formedup-rsl"
             id: 529
-            points: 3
-            max_per_squad: 2
+            points: 1
+            max_per_squad: 3
             slot: "Talent"
-            faction: "Galactic Empire"
             ship: "TIE/ln Fighter"
         }
         {
             name: "No Escape (Legacy)"
             xws: "noescape-rsl"
             id: 530
-            points: 3
+            points: 1
             slot: "Talent"
             faction: "Galactic Empire"
+            ship: "TIE/ln Fighter"
             restrictions: [
                 ["isUnique", false]
             ]
@@ -21085,7 +21084,7 @@ exportObj.basicCardData = ->
             name: "Parting Gift (Legacy)"
             xws: "partinggift-rsl"
             id: 531
-            points: 3
+            points: 1
             slot: "Talent"
         }
         {
@@ -21093,7 +21092,7 @@ exportObj.basicCardData = ->
             canonical_name: '"Leebo"'.canonicalize()
             xws: "leebo-rsl"
             id: 532
-            points: 3
+            points: 1
             unique: true
             slot: "Crew"
             faction: ["Scum and Villainy", "Rebel Alliance"]
@@ -21103,11 +21102,12 @@ exportObj.basicCardData = ->
             xws: "seekermissiles-rsl"
             id: 533
             points: 7
+            max_per_squad: 2
             slot: "Missile"
             attack: 3
             range: """2-3"""
             rangebonus: true
-            charge: 4
+            charge: 2
             restrictions: [
                 ["Slot", "Missile"]
             ]
@@ -21129,7 +21129,8 @@ exportObj.basicCardData = ->
             name: "Contingency Protocol (Legacy)"
             xws: "contingencyprotocol-rsl"
             id: 535
-            points: 2
+            pointsarray: [1,2,2,2]
+            variablebase: true
             slot: "Modification"
             faction: "Separatist Alliance"
             restrictions: [
