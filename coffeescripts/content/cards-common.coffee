@@ -21063,6 +21063,7 @@ exportObj.basicCardData = ->
             points: 1
             max_per_squad: 3
             slot: "Talent"
+            faction: "Galactic Empire"
             ship: "TIE/ln Fighter"
         }
         {
@@ -21072,7 +21073,6 @@ exportObj.basicCardData = ->
             points: 1
             slot: "Talent"
             faction: "Galactic Empire"
-            ship: "TIE/ln Fighter"
             restrictions: [
                 ["isUnique", false]
             ]
