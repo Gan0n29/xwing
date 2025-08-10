@@ -3441,13 +3441,13 @@ exportObj.cardLoaders.English = () ->
            text: """At the start of the Engagement Phase, if you are in an enemy ship's %FRONTARC%, you may gain 1 strain to recover 1 %FORCE%."""
         "Roiling Anger (Legacy)":
            display_name: """Roiling Anger"""
-           text: """At the start of the Engagement Phase, if you are in an enemy ship's %FRONTARC%, you may gain 1 strain to recover 1 %FORCE%."""
+           text: """At the start of the Engagement Phase, if you are in the %FRONTARC% of an enemy ship, you may gain 1 strain token to recover 1 %FORCE%."""
         "Contingency Protocol (SoC)":
            display_name: """Contingency Protocol"""
            text: """After this ship is destroyed another friendly ship at range 0-3 with <b>Contingency Protocol</b> may perform an action, even while stressed."""
         "Contingency Protocol (Legacy)":
            display_name: """Contingency Protocol"""
-           text: """After this ship is destroyed another friendly ship at range 0-3 with <b>Contingency Protocol</b> may perform an action, even while stressed."""
+           text: """After you are destroyed, you may choose a friendly ship with the <b>Contingency Protocol</b> upgrade at range 0-3. If you do, it may perform an action, even while stressed"""
         "Evasion Sequence 7 (SoC)":
            display_name: """Evasion Sequence 7"""
            text: """While you perform a red %EVADE% action, if there is an obstacle or scenario feature at range 1, treat the action as white, instead."""
@@ -3480,13 +3480,13 @@ exportObj.cardLoaders.English = () ->
            text: """<strong>Attack (%LOCK%):</strong> Spend 1 %CHARGE%. During the Modify Attack Dice step, you may spend up to 2 additional %CHARGE%. Change one %FOCUS% result to a %HIT% result for each %CHARGE% spent in this way."""
         "Seeker Missiles (Legacy)":
            display_name: """Seeker Missiles (Legacy)"""
-           text: """<strong>Attack (%LOCK%):</strong> Spend 1 %CHARGE%. During the Modify Attack Dice step, you may spend up to 2 additional %CHARGE%. Change one %FOCUS% result to a %HIT% result for each %CHARGE% spent in this way."""
+           text: """<strong>Attack (%LOCK%):</strong> Spend 1 %CHARGE%. After this attack misses, if 1 or more %HIT%/%CRIT% results were neutralized, the defender gains 1 strain token."""
         '"Leebo" (YLF)':
            display_name: """“Leebo”"""
            text: """After you repair a damage card, you may perform an action from your action bar."""
         '"Leebo" (Legacy)':
            display_name: """“Leebo” (Legacy)"""
-           text: """After you repair a damage card, you may perform an action from your action bar."""
+           text: """After you repair a damage card, you may perform an action on your action bar."""
         "Efficient Processing (YLF)":
            display_name: """Efficient Processing"""
            text: """After you perform a %CALCULATE% action, gain 1 calculate token."""
@@ -3528,7 +3528,7 @@ exportObj.cardLoaders.English = () ->
            text: """While defending, you may spend 1 %FOCUS% result at the end of the Neutralize Results step to remove 1 red or orange token."""
         "Chaff Particles (Legacy)":
            display_name: """Chaff Particles (Legacy)"""
-           text: """While defending, at the end of the Neutralize Results step, you may spend 1 %CHARGE% and 1 %FOCUS% or %EVADE% result to remove 1 red or orange token."""
+           text: """While you defend, at the end of the Neutralize Results step, you may spend 1 %CHARGE% and 1 %FOCUS% or %EVADE% result to remove 1 red or orange token."""
         "Computer-Assisted Handling (BoE)":
            display_name: """Computer-Assisted Handling"""
            text: """After you fully execute a maneuver, you may spend 1 %CHARGE% to perform a %BOOST% or %BARRELROLL% action."""
@@ -3543,7 +3543,7 @@ exportObj.cardLoaders.English = () ->
            text: """While you perform a %BOOST% or %BARRELROLL% action, you may spend 1 %CHARGE% to use a template of 1 speed higher."""
         "Fuel Injection Override (Legacy)":
            display_name: """Fuel Injection Override (Legacy)"""
-           text: """While you perform a %BOOST% or %BARRELROLL% action, you may spend 1 %CHARGE% to use a template of 1 speed higher instead."""
+           text: """Before you activate, you may spend 1 %CHARGE% and gain 1 strain token. If you do, until the end of the round, while you move, you must use a template of 1 speed higher if able."""
         "Precision-Tuned Cannons (BoE)":
            display_name: """Precision-Tuned Cannons"""
            text: """<strong>Attack:</strong> If the defender is in your %BULLSEYEARC%, add 1 %FOCUS% result."""
@@ -3558,7 +3558,7 @@ exportObj.cardLoaders.English = () ->
            text: """When you are destroyed, before you are removed, you may spend 1 %CHARGE% on an equipped %DEVICE% upgrade to drop or launch a bomb using the speed 1 straight or bank [%BANKLEFT%, %STRAIGHT%, %BANKRIGHT%] template."""
         "Parting Gift (Legacy)":
            display_name: """Parting Gift (Legacy)"""
-           text: """When you are destroyed, before you are removed, you may spend 1 %CHARGE% on an equipped %DEVICE% upgrade to drop or launch a bomb using the speed 1 straight or bank [%BANKLEFT%, %STRAIGHT%, %BANKRIGHT%] template."""
+           text: """After you are destroyed, you may drop 1 bomb. If you do, you must place it in the play area touching you instead."""
         "Stabilizing Astromech (BoE)":
            display_name: """Stabilizing Astromech"""
            text: """After you fully execute a maneuver, you may spend 1 %CHARGE% to perform a white action, even while stressed."""
@@ -3576,7 +3576,7 @@ exportObj.cardLoaders.English = () ->
            text: """After you decloak, you may acquire a lock on an enemy ship in your %BULLSEYEARC%."""
         "Formed Up (Legacy)":
            display_name: "Formed Up (Legacy)"
-           text: """At the end of the End Phase, if there are at least 2 other friendly <strong>TIE/ln Fighters</strong> or 1 other ship with <strong>Formed Up</strong> at range 0-1, you may remove 1 non-lock red token."""
+           text: """At the end of the End Phase, if there are at least 2 other friendly <strong>TIE/ln Fighters</strong> at range 0-1 or another friendly ship with the <strong>Formed Up</strong> upgrade at range 0-1, you may remove 1 non-lock red token."""
 
 
 
