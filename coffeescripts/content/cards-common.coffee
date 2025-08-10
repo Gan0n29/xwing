@@ -21098,16 +21098,13 @@ exportObj.basicCardData = ->
             name: "Seeker Missiles (Legacy)"
             xws: "seekermissiles-rsl"
             id: 533
-            points: 7
+            points: 5
             max_per_squad: 2
             slot: "Missile"
             attack: 3
             range: """2-3"""
             rangebonus: true
             charge: 2
-            restrictions: [
-                ["Slot", "Missile"]
-            ]
             validation_func: (ship, upgrade_obj) ->
                 upgrade_obj.occupiesAnUpgradeSlot upgrade_obj.slot
             also_occupies_upgrades: [ 'Missile' ]
