@@ -21037,9 +21037,6 @@ exportObj.basicCardData = ->
             points: 2
             charge: 1
             slot: "Illicit"
-            restrictions: [
-                ["Base", "Small"]
-            ]
         }
         {
             name: "Chaff Particles (Legacy)"
