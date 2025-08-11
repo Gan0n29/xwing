@@ -21105,9 +21105,6 @@ exportObj.basicCardData = ->
             range: """2-3"""
             rangebonus: true
             charge: 2
-            validation_func: (ship, upgrade_obj) ->
-                upgrade_obj.occupiesAnUpgradeSlot upgrade_obj.slot
-            also_occupies_upgrades: [ 'Missile' ]
         }
         {
             name: "Roiling Anger (Legacy)"
