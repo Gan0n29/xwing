@@ -2451,7 +2451,7 @@ class exportObj.SquadBuilder
                     possible_inis.sort()
         
                     container.find('.info-image-container').hide()
-                    container.find('.info-type').text exportObj.translate("types", type) + (if data.keyword? then " (" + @formatList(data.keyword) + ")")
+                    container.find('.info-type').text exportObj.translate("types", type) + (if data.keyword? then " (" + @formatList(data.keyword) + ")" else "")
                     container.find('.info-name').html """#{if data.display_name then data.display_name else data.name}#{if exportObj.isReleased(data) then "" else " (#{@uitranslation('unreleased')})"}"""
                     if @collection?.counts?
                         ship_count = @collection.counts?.ship?[data.name] ? 0
@@ -2583,7 +2583,7 @@ class exportObj.SquadBuilder
                         container.find('.info-image').attr 'src', pilot_img
                         container.find('.info-image-container').show()
                     #
-                    container.find('.info-type').text exportObj.translate("types", type) + (if data.keyword? then " (" + @formatList(data.keyword) + ")")
+                    container.find('.info-type').text exportObj.translate("types", type) + (if data.keyword? then " (" + @formatList(data.keyword) + ")" else "")
                     container.find('.info-sources.info-data').text (exportObj.translate('sources', source) for source in data.sources).sort().join(', ')
                     container.find('.info-sources').show()
                     if @collection?.counts?
