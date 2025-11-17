@@ -9125,6 +9125,7 @@ exportObj.basicCardData = ->
             skill: 3
             ship: "Droid Tri-fighter"
             points: 35
+            keyword: ["Droid"]
             slots: [
                 "Talent"
                 "Sensor"
@@ -9142,6 +9143,7 @@ exportObj.basicCardData = ->
             unique: true
             ship: "Droid Tri-fighter"
             points: 36
+            keyword: ["Droid"]
             slots: [
                 "Talent"
                 "Sensor"
@@ -9158,6 +9160,7 @@ exportObj.basicCardData = ->
             unique: true
             ship: "Droid Tri-fighter"
             points: 36
+            keyword: ["Droid"]
             slots: [
                 "Talent"
                 "Sensor"
@@ -9174,6 +9177,7 @@ exportObj.basicCardData = ->
             max_per_squad: 2
             ship: "Droid Tri-fighter"
             points: 38
+            keyword: ["Droid"]
             slots: [
                 "Talent"
                 "Sensor"
@@ -9189,6 +9193,7 @@ exportObj.basicCardData = ->
             skill: 1
             ship: "Droid Tri-fighter"
             points: 34
+            keyword: ["Droid"]
             slots: [
                 "Sensor"
                 "Missile"
@@ -9203,6 +9208,7 @@ exportObj.basicCardData = ->
             skill: 3
             ship: "Droid Tri-fighter"
             points: 35
+            keyword: ["Droid"]
             slots: [
                 "Talent"
                 "Sensor"
@@ -12199,6 +12205,7 @@ exportObj.basicCardData = ->
             skill: 3
             points: 30
             charge: 2
+            keyword: ["Droid"]
             ship_override:
                 actions: [
                     "Calculate"
@@ -12226,6 +12233,7 @@ exportObj.basicCardData = ->
             ship: "Hyena-class Droid Bomber"
             skill: 4
             points: 30
+            keyword: ["Droid"]
             slots: [
                 "Torpedo"
                 "Missile"
@@ -12246,6 +12254,7 @@ exportObj.basicCardData = ->
             skill: 1
             max_per_squad: 2
             points: 25
+            keyword: ["Droid"]
             slots: [
                 "Sensor"
                 "Missile"
@@ -12266,6 +12275,7 @@ exportObj.basicCardData = ->
             ship: "Droid Tri-fighter"
             skill: 3
             points: 36
+            keyword: ["Droid"]
             slots: [
                 "Talent"
                 "Sensor"
@@ -12286,6 +12296,7 @@ exportObj.basicCardData = ->
             ship: "Droid Tri-fighter"
             skill: 4
             points: 38
+            keyword: ["Droid"]
             slots: [
                 "Talent"
                 "Sensor"
@@ -12306,6 +12317,7 @@ exportObj.basicCardData = ->
             skill: 5
             points: 41
             max_per_squad: 2
+            keyword: ["Droid"]
             slots: [
                 "Talent"
                 "Sensor"
@@ -12327,6 +12339,7 @@ exportObj.basicCardData = ->
             skill: 3
             charge: 2
             points: 23
+            keyword: ["Droid"]
             slots: [
                 "Missile"
                 "Configuration"
@@ -12345,6 +12358,7 @@ exportObj.basicCardData = ->
             ship: "Vulture-class Droid Fighter"
             skill: 1
             points: 23
+            keyword: ["Droid"]
             slots: [
                 "Missile"
                 "Configuration"
@@ -12363,6 +12377,7 @@ exportObj.basicCardData = ->
             skill: 1
             max_per_squad: 2
             points: 22
+            keyword: ["Droid"]
             slots: [
                 "Missile"
                 "Configuration"
@@ -12794,6 +12809,7 @@ exportObj.basicCardData = ->
             skill: 1
             charge: 3
             points: 22
+            keyword: ["Droid"]
             slots: [
                 "Missile"
                 "Configuration"
@@ -13670,6 +13686,7 @@ exportObj.basicCardData = ->
             skill: 3
             points: 38
             charge: 2
+            keyword: ["Droid"]
             ship_override:
                 actions: [
                     "Calculate"
@@ -13696,6 +13713,7 @@ exportObj.basicCardData = ->
             ship: "Hyena-class Droid Bomber"
             skill: 4
             points: 36
+            keyword: ["Droid"]
             upgrades: [
                 "Adv. Proton Torpedoes"
                 "Contingency Protocol (SoC)"
@@ -13714,6 +13732,7 @@ exportObj.basicCardData = ->
             skill: 1
             max_per_squad: 2
             points: 34
+            keyword: ["Droid"]
             upgrades: [
                 "Homing Missiles"
                 "Contingency Protocol (SoC)"
@@ -13732,6 +13751,7 @@ exportObj.basicCardData = ->
             ship: "Droid Tri-fighter"
             skill: 3
             points: 40
+            keyword: ["Droid"]
             upgrades: [
                 "Marksmanship"
                 "Afterburners"
@@ -13750,6 +13770,7 @@ exportObj.basicCardData = ->
             ship: "Droid Tri-fighter"
             skill: 4
             points: 48
+            keyword: ["Droid"]
             upgrades: [
                 "Outmaneuver"
                 "Afterburners"
@@ -13768,6 +13789,7 @@ exportObj.basicCardData = ->
             skill: 5
             points: 50
             max_per_squad: 2
+            keyword: ["Droid"]
             upgrades: [
                 "Afterburners"
                 "Contingency Protocol (SoC)"
@@ -13787,6 +13809,7 @@ exportObj.basicCardData = ->
             skill: 3
             charge: 2
             points: 28
+            keyword: ["Droid"]
             upgrades: [
                 "Discord Missiles"
                 "Contingency Protocol (SoC)"
@@ -13805,6 +13828,7 @@ exportObj.basicCardData = ->
             ship: "Vulture-class Droid Fighter"
             skill: 1
             points: 28
+            keyword: ["Droid"]
             upgrades: [
                 "Discord Missiles"
                 "Contingency Protocol (SoC)"
@@ -13823,6 +13847,7 @@ exportObj.basicCardData = ->
             skill: 1
             max_per_squad: 2
             points: 25
+            keyword: ["Droid"]
             upgrades: [
                 "Ion Missiles"
                 "Contingency Protocol (SoC)"
@@ -14395,6 +14420,7 @@ exportObj.basicCardData = ->
             ship: "YT-2400 Light Freighter (2023)"
             skill: 3
             points: 69
+            keyword: ["Droid"]
             slots: [
                 "Talent"
                 "Missile"
@@ -14424,6 +14450,7 @@ exportObj.basicCardData = ->
             ship: "YT-2400 Light Freighter (2023)"
             skill: 3
             points: 83
+            keyword: ["Droid"]
             upgrades: [
                 "Efficient Processing (YLF)"
                 "Seeker Missiles (YLF)"
@@ -14450,6 +14477,7 @@ exportObj.basicCardData = ->
             ship: "YT-2400 Light Freighter (2023)"
             skill: 3
             points: 69
+            keyword: ["Droid"]
             slots: [
                 "Talent"
                 "Missile"
@@ -14479,6 +14507,7 @@ exportObj.basicCardData = ->
             ship: "YT-2400 Light Freighter (2023)"
             skill: 3
             points: 83
+            keyword: ["Droid"]
             upgrades: [
                 "Efficient Processing (YLF)"
                 "Seeker Missiles (YLF)"
