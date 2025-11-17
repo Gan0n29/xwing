@@ -5089,8 +5089,8 @@ class Ship
         false
 
     checkKeyword: (keyword) ->
-        if @data.name?.includes(keyword)
-            return true
+        #if @data.name?.includes(keyword)
+        #    return true
         if @pilot.chassis?
             if @pilot.chassis == keyword
                 return true
