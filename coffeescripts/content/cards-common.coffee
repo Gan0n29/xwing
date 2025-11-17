@@ -140,6 +140,7 @@ exportObj.basicCardData = ->
             agility: 3
             hull: 3
             shields: 0
+            keyword: ["TIE"]
             actions: [
                 "Focus"
                 "Barrel Roll"
@@ -162,6 +163,7 @@ exportObj.basicCardData = ->
             hull: 3
             shields: 2
             chassis: "Advanced Targeting Computer"
+            keyword: ["TIE"]
             actions: [
                 "Focus"
                 "R-> Barrel Roll"
@@ -185,6 +187,7 @@ exportObj.basicCardData = ->
             hull: 3
             shields: 0
             chassis: "Autothrusters"
+            keyword: ["TIE"]
             actions: [
                 "Focus"
                 "Barrel Roll"
@@ -302,6 +305,7 @@ exportObj.basicCardData = ->
             hull: 6
             shields: 0
             chassis: "Nimble Bomber"
+            keyword: ["TIE"]
             actions: [
                 "Focus"
                 "Lock"
@@ -346,6 +350,7 @@ exportObj.basicCardData = ->
             hull: 3
             shields: 4
             chassis: "Full Throttle"
+            keyword: ["TIE"]
             actions: [
                 "Focus"
                 "Evade"
@@ -396,6 +401,7 @@ exportObj.basicCardData = ->
             hull: 3
             shields: 2
             chassis: "Stygium Array"
+            keyword: ["TIE"]
             actions: [
                 "Focus"
                 "Evade"
@@ -598,6 +604,7 @@ exportObj.basicCardData = ->
             hull: 6
             shields: 3
             medium: true
+            keyword: ["TIE"]
             actions: [
                 "Focus"
                 "Lock"
@@ -666,6 +673,7 @@ exportObj.basicCardData = ->
             agility: 3
             hull: 2
             shields: 2
+            keyword: ["TIE"]
             actions: [
                 "Focus"
                 "Evade"
@@ -851,6 +859,7 @@ exportObj.basicCardData = ->
             hull: 4
             shields: 0
             chassis: "Adaptive Ailerons"
+            keyword: ["TIE"]
             actions: [
                 "Focus"
                 "Evade"
@@ -911,6 +920,7 @@ exportObj.basicCardData = ->
             agility: 2
             hull: 4
             shields: 1
+            keyword: ["TIE"]
             actions: [
                 "Focus"
                 "Lock"
@@ -999,6 +1009,7 @@ exportObj.basicCardData = ->
             shields: 2
             medium: true
             chassis: "Adaptive Ailerons"
+            keyword: ["TIE"]
             actions: [
                 "Focus"
                 "Evade"
@@ -1087,6 +1098,7 @@ exportObj.basicCardData = ->
             agility: 3
             hull: 3
             shields: 1
+            keyword: ["TIE"]
             actions: [
                 "Focus"
                 "Evade"
@@ -1110,6 +1122,7 @@ exportObj.basicCardData = ->
             hull: 4
             shields: 2
             chassis: "Autothrusters"
+            keyword: ["TIE"]
             actions: [
                 "Focus"
                 "Boost"
@@ -1134,6 +1147,7 @@ exportObj.basicCardData = ->
             hull: 3
             shields: 3
             chassis: "Heavy Weapon Turret"
+            keyword: ["TIE"]
             actions: [
                 "Focus"
                 "> Rotate Arc"
@@ -1233,6 +1247,7 @@ exportObj.basicCardData = ->
             hull: 3
             shields: 0
             chassis: "Notched Stabilizers"
+            keyword: ["TIE"]
             actions: [
                 "Focus"
                 "Barrel Roll"
@@ -1534,6 +1549,7 @@ exportObj.basicCardData = ->
             hull: 2
             shields: 2
             chassis: "Fine-Tuned Thrusters"
+            keyword: ["TIE"]
             actions: [
                 "Focus"
                 "Evade"
@@ -1634,6 +1650,7 @@ exportObj.basicCardData = ->
             shields: 0
             medium: true
             chassis: "Rotating Cannons"
+            keyword: ["TIE"]
             actions: [
                 "Focus"
                 "Reinforce"
@@ -1777,6 +1794,7 @@ exportObj.basicCardData = ->
             hull: 3
             shields: 2
             chassis: "Heavy Weapon Turret"
+            keyword: ["TIE"]
             actions: [
                 "Focus"
                 "> Rotate Arc"
@@ -1807,6 +1825,7 @@ exportObj.basicCardData = ->
             hull: 4
             shields: 2
             chassis: "Pursuit Thrusters"
+            keyword: ["TIE"]
             actions: [
                 "Focus"
                 "Lock"
