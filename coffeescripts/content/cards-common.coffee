@@ -26,6 +26,7 @@ exportObj.basicCardData = ->
             agility: 2
             hull: 4
             shields: 2
+            keyword: ["X-wing"]
             actions: [
                 "Focus"
                 "Lock"
@@ -49,6 +50,7 @@ exportObj.basicCardData = ->
             agility: 1
             hull: 6
             shields: 2
+            keyword: ["Y-wing"]
             actions: [
                 "Focus"
                 "Lock"
@@ -71,6 +73,7 @@ exportObj.basicCardData = ->
             hull: 2
             shields: 2
             chassis: "Vectored Thrusters"
+            keyword: ["A-wing"]
             actions: [
                 "Focus"
                 "Evade"
@@ -1051,6 +1054,7 @@ exportObj.basicCardData = ->
             hull: 4
             shields: 3
             chassis: "Weapon Hardpoint"
+            keyword: ["X-wing"]
             actions: [
                 "Focus"
                 "Lock"
@@ -1075,6 +1079,7 @@ exportObj.basicCardData = ->
             hull: 2
             shields: 2
             chassis: "Refined Gyrostabilizers"
+            keyword: ["A-wing"]
             actions: [
                 "Focus"
                 "Evade"
@@ -1503,6 +1508,7 @@ exportObj.basicCardData = ->
             hull: 5
             shields: 3
             chassis: "Plated Hull"
+            keyword: ["Y-wing"]
             actions: [
                 "Focus"
                 "Lock"
@@ -1770,6 +1776,7 @@ exportObj.basicCardData = ->
             hull: 4
             shields: 3
             chassis: "Intuitive Interface"
+            keyword: ["Y-wing"]
             actions: [
                 "Focus"
                 "R-Lock"
