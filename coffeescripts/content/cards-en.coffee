@@ -2280,7 +2280,7 @@ exportObj.cardLoaders.English = () ->
         "FN-2187":
            display_name: """FN-2187"""
            text: """At the start of the Engagement Phase, you may gain 1 strain token to choose an enemy ship in your %FRONTARC%. If you do, that ship gains 1 deplete token."""
-        "Strife":
+        '"Strife"':
            display_name: """“Strife”"""
            text: """After an enemy ship in your %SINGLETURRETARC% defends, if you are not strained, you may gain 1 strain token to acquire a lock on that ship."""
         "Enric Pryde":
