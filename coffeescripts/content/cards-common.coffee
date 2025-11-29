@@ -2881,6 +2881,7 @@ exportObj.basicCardData = ->
             charge: 1
             recurring: 1
             points: 68
+            keyword: ["Wookiee"]
             slots: [
                 "Talent"
                 "Missile"
@@ -3093,6 +3094,7 @@ exportObj.basicCardData = ->
             ship: "Auzituck Gunship"
             skill: 4
             points: 54
+            keyword: ["Wookiee"]
             slots: [
                 "Talent"
                 "Crew"
@@ -3108,6 +3110,7 @@ exportObj.basicCardData = ->
             ship: "Auzituck Gunship"
             skill: 3
             points: 49
+            keyword: ["Wookiee"]
             slots: [
                 "Talent"
                 "Crew"
@@ -3122,6 +3125,7 @@ exportObj.basicCardData = ->
             ship: "Auzituck Gunship"
             skill: 1
             points: 44
+            keyword: ["Wookiee"]
             slots: [
                 "Crew"
                 "Crew"
@@ -6207,6 +6211,7 @@ exportObj.basicCardData = ->
             ship: "Scavenged YT-1300"
             skill: 4
             points: 59
+            keyword: ["Wookiee"]
             slots: [
                 "Talent"
                 "Missile"
@@ -6635,8 +6640,8 @@ exportObj.basicCardData = ->
             slots: [
                 "Force"
                 "Astromech"
-                "Configuration"
                 "Modification"
+                "Configuration"
             ]
         }
         {
@@ -6652,8 +6657,8 @@ exportObj.basicCardData = ->
             slots: [
                 "Force"
                 "Astromech"
-                "Configuration"
                 "Modification"
+                "Configuration"
             ]
         }
         {
@@ -6669,8 +6674,8 @@ exportObj.basicCardData = ->
             slots: [
                 "Force"
                 "Astromech"
-                "Configuration"
                 "Modification"
+                "Configuration"
             ]
         }
         {
@@ -6686,8 +6691,8 @@ exportObj.basicCardData = ->
             slots: [
                 "Force"
                 "Astromech"
-                "Configuration"
                 "Modification"
+                "Configuration"
             ]
         }
         {
@@ -6702,8 +6707,8 @@ exportObj.basicCardData = ->
             slots: [
                 "Force"
                 "Astromech"
-                "Configuration"
                 "Modification"
+                "Configuration"
             ]
         }
         {
@@ -6719,8 +6724,8 @@ exportObj.basicCardData = ->
             slots: [
                 "Force"
                 "Astromech"
-                "Configuration"
                 "Modification"
+                "Configuration"
             ]
         }
         {
@@ -6733,8 +6738,8 @@ exportObj.basicCardData = ->
             keyword: ["Droid"]
             slots: [
                 "Missile"
-                "Configuration"
                 "Modification"
+                "Configuration"
             ]
         }
         {
@@ -7225,8 +7230,8 @@ exportObj.basicCardData = ->
             keyword: ["Droid"]
             slots: [
                 "Missile"
-                "Configuration"
                 "Modification"
+                "Configuration"
             ]
         }
         {
@@ -7240,8 +7245,8 @@ exportObj.basicCardData = ->
             keyword: ["Droid"]
             slots: [
                 "Missile"
-                "Configuration"
                 "Modification"
+                "Configuration"
             ]
         }
         {
@@ -7255,8 +7260,8 @@ exportObj.basicCardData = ->
             keyword: ["Droid"]
             slots: [
                 "Missile"
-                "Configuration"
                 "Modification"
+                "Configuration"
             ]
         }
         {
@@ -7272,8 +7277,8 @@ exportObj.basicCardData = ->
             slots: [
                 "Force"
                 "Astromech"
-                "Configuration"
                 "Modification"
+                "Configuration"
             ]
         }
         {
@@ -7289,8 +7294,8 @@ exportObj.basicCardData = ->
             slots: [
                 "Force"
                 "Astromech"
-                "Configuration"
                 "Modification"
+                "Configuration"
             ]
         }
         {
@@ -7306,8 +7311,8 @@ exportObj.basicCardData = ->
             slots: [
                 "Force"
                 "Astromech"
-                "Configuration"
                 "Modification"
+                "Configuration"
             ]
         }
         {
@@ -7688,8 +7693,8 @@ exportObj.basicCardData = ->
             keyword: ["Droid"]
             slots: [
                 "Missile"
-                "Configuration"
                 "Modification"
+                "Configuration"
             ]
         }
         {
@@ -7791,8 +7796,8 @@ exportObj.basicCardData = ->
             keyword: ["Droid"]
             slots: [
                 "Missile"
-                "Configuration"
                 "Modification"
+                "Configuration"
             ]
         }
         {
@@ -12368,8 +12373,8 @@ exportObj.basicCardData = ->
             keyword: ["Droid"]
             slots: [
                 "Missile"
-                "Configuration"
                 "Modification"
+                "Configuration"
             ]
         }
         {
@@ -12387,8 +12392,8 @@ exportObj.basicCardData = ->
             keyword: ["Droid"]
             slots: [
                 "Missile"
-                "Configuration"
                 "Modification"
+                "Configuration"
             ]
         }
         {
@@ -12406,8 +12411,8 @@ exportObj.basicCardData = ->
             keyword: ["Droid"]
             slots: [
                 "Missile"
-                "Configuration"
                 "Modification"
+                "Configuration"
             ]
         }
         {
@@ -12838,8 +12843,8 @@ exportObj.basicCardData = ->
             keyword: ["Droid"]
             slots: [
                 "Missile"
-                "Configuration"
                 "Modification"
+                "Configuration"
             ]
         }
         {
@@ -12877,8 +12882,8 @@ exportObj.basicCardData = ->
             slots: [
                 "Force"
                 "Astromech"
-                "Configuration"
                 "Modification"
+                "Configuration"
             ]
         }
         {
@@ -15641,6 +15646,383 @@ exportObj.basicCardData = ->
                 "Parting Gift (BoE)"
                 "Proton Torpedoes"
                 "Proton Bombs"
+            ]
+        }
+        {
+            name: "FN-2187"
+            xws: "fn2187-wat1"
+            id: 742
+            unique: true
+            faction: "First Order"
+            ship: "TIE/fo Fighter"
+            skill: 1742
+            points: 30
+            slots: [
+                "Tech"
+                "Modification"
+            ]
+        }
+        {
+            name: '"Strife"'
+            xws: "strife-wat1"
+            id: 743
+            unique: true
+            faction: "First Order"
+            ship: "TIE/sf Fighter"
+            skill: 3
+            points: 34
+            slots: [
+                "Talent"
+                "Tech"
+                "Missile"
+                "Gunner"
+                "Sensor"
+                "Modification"
+            ]
+        }
+        {
+            name: "Enric Pryde"
+            xws: "enricpryde-wat1"
+            id: 744
+            unique: true
+            faction: "First Order"
+            ship: "Upsilon-Class Command Shuttle"
+            skill: 2
+            points: 62
+            slots: [
+                "Tech"
+                "Tech"
+                "Crew"
+                "Crew"
+                "Crew"
+                "Cannon"
+                "Sensor"
+                "Modification"
+            ]
+        }
+        {
+            name: "Captain Yorr"
+            xws: "captainyorr-wat1"
+            id: 745
+            unique: true
+            faction: "Galactic Empire"
+            ship: "Lambda-class T-4a Shuttle"
+            skill: 2
+            points: 47
+            charge: 2
+            recurring: 1
+            slots: [
+                "Sensor"
+                "Cannon"
+                "Crew"
+                "Crew"
+                "Modification"
+                "Title"
+            ]
+        }
+        {
+            name: "Carnor Jax"
+            xws: "carnorjax-wat1"
+            id: 746
+            unique: true
+            faction: "Galactic Empire"
+            ship: "TIE/in Interceptor"
+            skill: 5
+            points: 49
+            slots: [
+                "Talent"
+                "Modification"
+                "Modification"
+                "Configuration"
+            ]
+        }
+        {
+            name: "Captain Saxton"
+            xws: "captainsaxton-wat1"
+            id: 747
+            unique: true
+            faction: "Galactic Empire"
+            ship: "TIE/ph Phantom"
+            skill: 4
+            points: 43
+            charge: 2
+            recurring: 1
+            slots: [
+                "Talent"
+                "Sensor"
+                "Gunner"
+                "Modification"
+            ]
+        }
+        {
+            name: "Depa Billaba"
+            xws: "depabillaba-wat1"
+            id: 748
+            unique: true
+            faction: "Galactic Republic"
+            ship: "Delta-7 Aethersprite"
+            skill: 3
+            points: 38
+            force: 2
+            slots: [
+                "Force"
+                "Astromech"
+                "Modification"
+                "Configuration"
+            ]
+        }
+        {
+            name: "Rhys Dallows"
+            xws: "rhysdallows-wat1"
+            id: 749
+            unique: true
+            faction: "Galactic Republic"
+            ship: "Naboo Royal N-1 Starfighter"
+            skill: 6
+            points: 45
+            slots: [
+                "Talent"
+                "Illicit"
+                "Sensor"
+                "Astromech"
+                "Torpedo"
+            ]
+        }
+        {
+            name: "Essara Till"
+            xws: "essaratill-wat1"
+            id: 750
+            unique: true
+            faction: "Galactic Republic"
+            ship: "Naboo Royal N-1 Starfighter"
+            skill: 4
+            points: 37
+            slots: [
+                "Talent"
+                "Talent"
+                "Sensor"
+                "Astromech"
+                "Torpedo"
+            ]
+        }
+        {
+            name: "Nera Dantels"
+            xws: "neradantels-wat1"
+            id: 751
+            unique: true
+            faction: "Rebel Alliance"
+            ship: "A/SF-01 B-wing"
+            skill: 3
+            points: 44
+            slots: [
+                "Talent"
+                "Sensor"
+                "Cannon"
+                "Cannon"
+                "Torpedo"
+                "Modification"
+                "Configuration"
+                "Title"
+            ]
+        }
+        {
+            name: "Tarfful"
+            xws: "tarfful-wat1"
+            id: 752
+            unique: true
+            faction: "Rebel Alliance"
+            ship: "Auzituck Gunship"
+            skill: 5
+            points: 59
+            keyword: ["Wookiee"]
+            applies_condition: '''Liberated'''.canonicalize()
+            slots: [
+                "Talent"
+                "Crew"
+                "Crew"
+                "Modification"
+            ]
+        }
+        {
+            name: "Antoc Merrick"
+            xws: "antocmerrick-wat1"
+            id: 753
+            unique: true
+            faction: "Rebel Alliance"
+            ship: "T-65 X-wing"
+            skill: 4
+            points: 47
+            slots: [
+                "Talent"
+                "Torpedo"
+                "Astromech"
+                "Modification"
+                "Configuration"
+            ]
+        }
+        {
+            name: "Torra Doza"
+            xws: "torradoza-wat1"
+            id: 754
+            unique: true
+            faction: "Resistance"
+            ship: "Fireball"
+            skill: 3
+            points: 27
+            slots: [
+                "Talent"
+                "Missile"
+                "Astromech"
+                "Illicit"
+                "Modification"
+                "Modification"
+                "Title"
+            ]
+        }
+        {
+            name: "DJ"
+            xws: "dj-wat1"
+            id: 755
+            unique: true
+            faction: "Resistance"
+            ship: "Resistance Transport Pod"
+            skill: 2
+            points: 26
+            slots: [
+                "Illicit"
+                "Tech"
+                "Crew"
+                "Modification"
+            ]
+        }
+        {
+            name: "Jannah"
+            xws: "jannah-wat1"
+            id: 756
+            unique: true
+            faction: "Resistance"
+            ship: "Resistance Transport"
+            skill: 5
+            points: 42
+            slots: [
+                "Talent"
+                "Tech"
+                "Cannon"
+                "Cannon"
+                "Torpedo"
+                "Crew"
+                "Crew"
+                "Astromech"
+                "Modification"
+            ]
+        }
+        {
+            name: "Rio Durant"
+            xws: "riodurant-wat1"
+            id: 757
+            unique: true
+            faction: "Scum and Villainy"
+            ship: "Customized YT-1300 Light Freighter"
+            skill: 3
+            points: 42
+            slots: [
+                "Talent"
+                "Missile"
+                "Crew"
+                "Crew"
+                "Gunner"
+                "Illicit"
+                "Modification"
+                "Title"
+            ]
+        }
+        {
+            name: "Janus Kasmir"
+            xws: "januskasmir-wat1"
+            id: 758
+            unique: true
+            faction: "Scum and Villainy"
+            ship: "HWK-290 Light Freighter"
+            skill: 4
+            points: 34
+            slots: [
+                "Talent"
+                "Crew"
+                "Device"
+                "Illicit"
+                "Modification"
+                "Modification"
+                "Title"
+            ]
+        }
+        {
+            name: "Black Sun Bodyguard"
+            xws: "blacksunbodyguard-wat1"
+            id: 759
+            faction: "Scum and Villainy"
+            ship: "Kihraxz Fighter"
+            skill: 4
+            points: 42
+            charge: 2
+            max_per_squad: 2
+            slots: [
+                "Talent"
+                "Missile"
+                "Illicit"
+                "Illicit"
+                "Modification"
+                "Modification"
+            ]
+        }
+        {
+            name: "Hallio Bas"
+            xws: "halliobas-wat1"
+            id: 760
+            unique: true
+            faction: "Separatist Alliance"
+            ship: "Belbullab-22 Starfighter"
+            skill: 5
+            points: 39
+            charge: 2
+            recurring: 1
+            slots: [
+                "Talent"
+                "Modification"
+                "Tactical Relay"
+                "Title"
+            ]
+        }
+        {
+            name: "00M Uplink Prototype"
+            xws: "00muplinkprototype-wat1"
+            id: 761
+            unique: true
+            faction: "Separatist Alliance"
+            ship: "Vulture-class Droid Fighter"
+            skill: 1
+            points: 23
+            keyword: ["Droid"]
+            slots: [
+                "Missile"
+                "Modification"
+                "Configuration"
+            ]
+        }
+        {
+            name: "DFS-420"
+            xws: "dfs420-wat1"
+            id: 762
+            unique: true
+            faction: "Separatist Alliance"
+            ship: "Vulture-class Droid Fighter"
+            skill: 4
+            points: 25
+            keyword: ["Droid"]
+            slots: [
+                "Talent"
+                "Missile"
+                "Modification"
+                "Configuration"
             ]
         }
     ]
@@ -21373,6 +21755,10 @@ exportObj.basicCardData = ->
         {
             name: '''Broken Trust'''
             id: 43
+        }
+        {
+            name: '''Liberated'''
+            id: 44
         }
     ]
 
@@ -30833,6 +31219,27 @@ exportObj.wildSpaceExclusionsList = [
     'Seeker Missiles (Legacy)'
     '"Leebo" (Legacy)'
     'Contingency Protocol (Legacy)'
+    'FN-2187'
+    '"Strife"'
+    'Enric Pryde'
+    'Captain Yorr'
+    'Carnor Jax'
+    'Captain Saxton'
+    'Depa Billaba'
+    'Rhys Dallows'
+    'Essara Till'
+    'Nera Dantels'
+    'Tarfful'
+    'Antoc Merrick'
+    'Torra Doza'
+    'DJ'
+    'Jannah'
+    'Rio Durant'
+    'Janus Kasmir'
+    'Black Sun Bodyguard'
+    'Hallio Bas'
+    '00M Uplink Prototype'
+    'DFS-420'
 ]
 
 exportObj.epicExclusions = (data) ->
