@@ -15655,7 +15655,7 @@ exportObj.basicCardData = ->
             unique: true
             faction: "First Order"
             ship: "TIE/fo Fighter"
-            skill: 1742
+            skill: 1
             points: 30
             slots: [
                 "Tech"
