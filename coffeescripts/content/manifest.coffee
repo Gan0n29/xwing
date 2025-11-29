@@ -12196,6 +12196,124 @@ exportObj.manifestByExpansion =
         }
     ]
 
+    "Warriors and Turncoats Reinforcements Pack": [
+        {
+            name: 'FN-2187'
+            type: 'pilot'
+            count: 1
+        }
+        {
+            name: '"Strife"'
+            type: 'pilot'
+            count: 1
+        }
+        {
+            name: 'Enric Pryde'
+            type: 'pilot'
+            count: 1
+        }
+        {
+            name: 'Captain Yorr'
+            type: 'pilot'
+            count: 1
+        }
+        {
+            name: 'Carnor Jax'
+            type: 'pilot'
+            count: 1
+        }
+        {
+            name: 'Captain Saxton'
+            type: 'pilot'
+            count: 1
+        }
+        {
+            name: 'Depa Billaba'
+            type: 'pilot'
+            count: 1
+        }
+        {
+            name: 'Rhys Dallows'
+            type: 'pilot'
+            count: 1
+        }
+        {
+            name: 'Essara Till'
+            type: 'pilot'
+            count: 1
+        }
+        {
+            name: 'Nera Dantels'
+            type: 'pilot'
+            count: 1
+        }
+        {
+            name: 'Captain Yorr (BoE)'
+            type: 'pilot'
+            count: 1
+        }
+        {
+            name: 'Colonel Jendon (BoE)'
+            type: 'pilot'
+            count: 1
+        }
+        {
+            name: 'Tarfful'
+            type: 'pilot'
+            count: 1
+        }
+        {
+            name: 'Antoc Merrick'
+            type: 'pilot'
+            count: 1
+        }
+        {
+            name: 'Torra Doza'
+            type: 'pilot'
+            count: 1
+        }
+        {
+            name: 'DJ'
+            type: 'pilot'
+            count: 1
+        }
+        {
+            name: 'Jannah'
+            type: 'pilot'
+            count: 1
+        }
+        {
+            name: 'Rio Durant'
+            type: 'pilot'
+            count: 1
+        }
+        {
+            name: 'Janus Kasmir'
+            type: 'pilot'
+            count: 1
+        }
+        {
+            name: 'Black Sun Bodyguard'
+            type: 'pilot'
+            count: 1
+        }
+        {
+            name: 'Hallio Bas'
+            type: 'pilot'
+            count: 1
+        }
+        {
+            name: '00M Uplink Prototype'
+            type: 'pilot'
+            count: 1
+        }
+        {
+            name: 'DFS-420'
+            type: 'pilot'
+            count: 1
+        }
+    ]
+
     'Loose Ships': [
         {
             name: 'Auzituck Gunship'
