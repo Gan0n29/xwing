@@ -1937,6 +1937,10 @@ exportObj.cardLoaders.English = () ->
         "Haor Chall Prototype (SoC SL)":
            display_name: """Haor Chall Prototype <i class="pilot-title">Siege of Coruscant - Standard Loadout</i>"""
            text: """After an enemy ship in your %BULLSEYEARC% declares a scenario feature or another friendly ship as the defender, you may perform a %CALCULATE% or %LOCK% action."""
+        "FN-2187":
+           display_name: """FN-2187"""
+           text: """At the start of the Engagement Phase, you may gain 1 strain token to choose an enemy ship in your %FRONTARC%. If you do, that ship gains 1 deplete token."""
+
 
         # Hotshots and Aces 2
         "Corran Horn (X-Wing)":
@@ -2269,6 +2273,74 @@ exportObj.cardLoaders.English = () ->
         "Scimitar 3 (BoE SL)":
            display_name: """Scimitar 3 <i class="pilot-title">Battle over Endor - Standard Loadout</i>"""
            text: """After you drop a bomb, you may spend 1 %CHARGE% to perform a %BOOST% action."""
+            
+            
+        # Warriors and Turncoats
+        
+        "FN-2187":
+           display_name: """FN-2187"""
+           text: """At the start of the Engagement Phase, you may gain 1 strain token to choose an enemy ship in your %FRONTARC%. If you do, that ship gains 1 deplete token."""
+        "Strife":
+           display_name: """“Strife”"""
+           text: """After an enemy ship in your %SINGLETURRETARC% defends, if you are not strained, you may gain 1 strain token to acquire a lock on that ship."""
+        "Enric Pryde":
+           display_name: """Enric Pryde"""
+           text: """After you perform an attack, you may choose a friendly ship at range 0-3. If you do, you and the chosen ship may perform a bonus attack. Then, the chosen ship is destroyed."""
+        "Captain Yorr":
+           display_name: """Captain Yorr"""
+           text: """Before a friendly ship at range 0-3 would gain a non-lock red or orange token, if you have no tokens of that type, you may spend 2 %CHARGE% to gain that token instead."""
+        "Carnor Jax":
+           display_name: """Carnor Jax"""
+           text: """At the start of the Engagement Phase, you may choose 1 ship in your %FRONTARC% at range 0-1 . If you do so, that ship gains 1 jam token."""
+        "Captain Saxton":
+           display_name: """Captain Saxton"""
+           text: """While a friendly ship at range 0-2 decloaks, you may spend 2 %CHARGE%. If you do, that ship may use a template of speed 1 higher or lower."""
+        "Depa Billaba":
+           display_name: """Depa Billaba"""
+           text: """While a friendly ship in your %FULLFRONTARC% defends or performs an attack, if that ship has more inactive %FORCE% than active %FORCE%, it may spend your %FORCE% as if that ship has them."""
+        "Rhys Dallows":
+           display_name: """Rhys Dallows"""
+           text: """Before you or a friendly <strong>Essara Till</strong> at range 0-3 would gain a green token, that ship may perform a %BARRELROLL% action instead."""
+        "Essara Till":
+           display_name: """Essara Till"""
+           text: """Before you or a friendly <strong>Rhys Dallows</strong> at range 0-3 would gain a green token, that ship may perform a %LOCK% action instead."""
+        "Nera Dantels":
+           display_name: """Nera Dantels"""
+           text: """Gain a %SINGLETURRETARC% indicator. You [b]must[/b] treat the %FRONTARC% requirement of your equipped %TORPEDO% upgrades as %SINGLETURRETARC%. %LINEBREAK%After you gain a stress token, you may rotate your %SINGLETURRETARC% indicator."""
+        "Tarfful":
+           display_name: """Tarfful"""
+           text: """<strong>Setup:</strong> After placing forces, assign the <strong>Liberated</strong> condition to another friendly Wookiee or non-limited ship. %LINEBREAK%After a friendly ship with the <strong>Liberated</strong> condition defends, you may acquire a lock on the attacker, ignoring range restrictions."""
+        "Antoc Merrick":
+           display_name: """Antoc Merrick"""
+           text: """After you perform a %BOOST% or %BARRELROLL% action, you may choose another friendly ship at range 0-3. If you do, that ship may perform the same action on their action bar."""
+        "Torra Doza":
+           display_name: """Torra Doza"""
+           text: """While a friendly ship at range 0-3 exposes a damage card, you may gain 1 deplete or stress token. If you do, that card is flipped facedown instead of resolving its effects. %LINEBREAK%While you remove 1 or more red tokens, remove 1 additional token of the same type."""
+        "DJ":
+           display_name: """DJ"""
+           text: """At the start of the Engagement Phase, you may spend 1 green token to perform a %JAM% action, even while stressed."""
+        "Jannah":
+           display_name: """Jannah"""
+           text: """After you perform an action added to your action bar by a %CREW% upgrade, you may perform a %REINFORCE% action."""
+        "Rio Durant":
+           display_name: """Rio Durant"""
+           text: """After you perform an attack, you may rotate your %SINGLETURRETARC% indicator."""
+        "Janus Kasmir":
+           display_name: """Janus Kasmir"""
+           text: """At the start of the Engagement Phase, you may spend 1 green token to perform a %JAM% action, even while stressed."""
+        "Black Sun Bodyguard":
+           display_name: """Black Sun Bodyguard"""
+           text: """<strong>Setup:</strong> Lose 2 %CHARGE%. %LINEBREAK%After you suffer damage, recover 1 %CHARGE%. %LINEBREAK%Before you engage, you may spend 2 %CHARGE% to recover 1 %CHARGE% on 1 of your equipped upgrades."""
+        "Hallio Bas":
+           display_name: """Hallio Bas"""
+           text: """While you defend or perform an attack, before attack dice are rolled, if there are no other friendly ships at range 0-1, you may spend 1 %CHARGE% to remove 1 red or orange token."""
+        "00M Uplink Prototype":
+           display_name: """00M Uplink Prototype"""
+           text: """While a friendly ship at range 0-1 resolves <strong>Networked Calculations</strong>, it may treat friendly ships at range 0-1 of you as being at range 1."""
+        "DFS-420":
+           display_name: """DFS-420"""
+           text: """You can perform primary attacks at range 0. %LINEBREAK%After you execute a red maneuver or perform a red action, if there is an enemy ship at range 0-1, you may remove 1 stress token."""
+
 
             
         # Epic Ships
@@ -3887,6 +3959,9 @@ exportObj.cardLoaders.English = () ->
            text: '''Add a white %SLAM% action to your action bar. %LINEBREAK% After you perform a %SLAM%, you must suffer 1 %HIT% damage to remove 1 disarm token.'''
         '''Broken Trust''':
            text: '''Treat friendly ships as allied.%LINEBREAK% Non-enemy ships treat you as allied.%LINEBREAK% While performing an attack, before declaring the defender, each allied ship in the attack arc that is not stressed gains 1 stress token. After you defend or perform an attack, if the defender was dealt at least 1 faceup damage card, or was destroyed, remove this condition.'''
+        '''Liberated''':
+           text: '''While a friendly <strong>Tarfful</strong> at range 0-2 defends, after the Neutralize Results step, if there are 2 or more %HIT%/%CRIT% results, you may suffer 1 %HIT%/%CRIT% damage to cancel 1 matching result. %LINEBREAK%After you are destroyed, you must choose another friendly Wookiee or non-limited ship and assign this condition to it, if able. %LINEBREAK%<strong>Tarfful</strong> cannot be assigned this condition.'''
+
 
     chassis_translations =
         "Vectored Thrusters":
