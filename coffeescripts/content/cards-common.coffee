@@ -15656,7 +15656,7 @@ exportObj.basicCardData = ->
             faction: "First Order"
             ship: "TIE/fo Fighter"
             skill: 1
-            points: 30
+            points: 28
             slots: [
                 "Tech"
                 "Modification"
@@ -15743,8 +15743,8 @@ exportObj.basicCardData = ->
             unique: true
             faction: "Galactic Empire"
             ship: "TIE/ph Phantom"
-            skill: 4
-            points: 43
+            skill: 3
+            points: 45
             charge: 2
             recurring: 1
             slots: [
@@ -15779,7 +15779,7 @@ exportObj.basicCardData = ->
             faction: "Galactic Republic"
             ship: "Naboo Royal N-1 Starfighter"
             skill: 6
-            points: 45
+            points: 46
             slots: [
                 "Talent"
                 "Illicit"
@@ -15796,7 +15796,7 @@ exportObj.basicCardData = ->
             faction: "Galactic Republic"
             ship: "Naboo Royal N-1 Starfighter"
             skill: 4
-            points: 37
+            points: 38
             slots: [
                 "Talent"
                 "Talent"
@@ -15813,7 +15813,7 @@ exportObj.basicCardData = ->
             faction: "Rebel Alliance"
             ship: "A/SF-01 B-wing"
             skill: 3
-            points: 44
+            points: 45
             slots: [
                 "Talent"
                 "Sensor"
@@ -15851,7 +15851,7 @@ exportObj.basicCardData = ->
             faction: "Rebel Alliance"
             ship: "T-65 X-wing"
             skill: 4
-            points: 47
+            points: 45
             slots: [
                 "Talent"
                 "Torpedo"
@@ -15887,7 +15887,7 @@ exportObj.basicCardData = ->
             faction: "Resistance"
             ship: "Resistance Transport Pod"
             skill: 2
-            points: 26
+            points: 25
             slots: [
                 "Illicit"
                 "Tech"
@@ -15962,7 +15962,7 @@ exportObj.basicCardData = ->
             faction: "Scum and Villainy"
             ship: "Kihraxz Fighter"
             skill: 4
-            points: 42
+            points: 40
             charge: 2
             max_per_squad: 2
             slots: [
@@ -15982,8 +15982,8 @@ exportObj.basicCardData = ->
             faction: "Separatist Alliance"
             ship: "Belbullab-22 Starfighter"
             skill: 5
-            points: 39
-            charge: 2
+            points: 43
+            charge: 1
             recurring: 1
             slots: [
                 "Talent"
@@ -16016,7 +16016,7 @@ exportObj.basicCardData = ->
             faction: "Separatist Alliance"
             ship: "Vulture-class Droid Fighter"
             skill: 4
-            points: 25
+            points: 24
             keyword: ["Droid"]
             slots: [
                 "Talent"
