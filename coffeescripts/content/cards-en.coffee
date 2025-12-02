@@ -2291,7 +2291,7 @@ exportObj.cardLoaders.English = () ->
            text: """Before a friendly ship at range 0-3 would gain a non-lock red or orange token, if you have no tokens of that type, you may spend 2 %CHARGE% to gain that token instead."""
         "Carnor Jax":
            display_name: """Carnor Jax"""
-           text: """At the start of the Engagement Phase, you may choose 1 ship in your %FRONTARC% at range 0-1 . If you do so, that ship gains 1 jam token."""
+           text: """At the start of the Engagement Phase, you may choose 1 ship in your %FRONTARC% at range 0-1. If you do so, that ship gains 1 jam token."""
         "Captain Saxton":
            display_name: """Captain Saxton"""
            text: """While a friendly ship at range 0-2 decloaks, you may spend 2 %CHARGE%. If you do, that ship may use a template of speed 1 higher or lower."""
