@@ -2306,7 +2306,7 @@ exportObj.cardLoaders.English = () ->
            text: """Before you or a friendly <strong>Rhys Dallows</strong> at range 0-3 would gain a green token, that ship may perform a %LOCK% action instead."""
         "Nera Dantels":
            display_name: """Nera Dantels"""
-           text: """Gain a %SINGLETURRETARC% indicator. You [b]must[/b] treat the %FRONTARC% requirement of your equipped %TORPEDO% upgrades as %SINGLETURRETARC%. %LINEBREAK%After you gain a stress token, you may rotate your %SINGLETURRETARC% indicator."""
+           text: """Gain a %SINGLETURRETARC% indicator. You <b>must</b> treat the %FRONTARC% requirement of your equipped %TORPEDO% upgrades as %SINGLETURRETARC%. %LINEBREAK%After you gain a stress token, you may rotate your %SINGLETURRETARC% indicator."""
         "Tarfful":
            display_name: """Tarfful"""
            text: """<strong>Setup:</strong> After placing forces, assign the <strong>Liberated</strong> condition to another friendly Wookiee or non-limited ship. %LINEBREAK%After a friendly ship with the <strong>Liberated</strong> condition defends, you may acquire a lock on the attacker, ignoring range restrictions."""
