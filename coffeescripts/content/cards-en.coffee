@@ -2318,7 +2318,7 @@ exportObj.cardLoaders.English = () ->
            text: """While a friendly ship at range 0-3 exposes a damage card, you may gain 1 deplete or stress token. If you do, that card is flipped facedown instead of resolving its effects. %LINEBREAK%While you remove 1 or more red tokens, remove 1 additional token of the same type."""
         "DJ":
            display_name: """DJ"""
-           text: """At the start of the Engagement Phase, you may spend 1 green token to perform a %JAM% action, even while stressed."""
+           text: """After you perform a %JAM% action, you may gain 1 cloak token."""
         "Jannah":
            display_name: """Jannah"""
            text: """After you perform an action added to your action bar by a %CREW% upgrade, you may perform a %REINFORCE% action."""
