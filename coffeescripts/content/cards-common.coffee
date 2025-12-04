@@ -15764,6 +15764,7 @@ exportObj.basicCardData = ->
             skill: 3
             points: 38
             force: 2
+            keyword: ["Jedi","Light Side"]
             slots: [
                 "Force"
                 "Astromech"
