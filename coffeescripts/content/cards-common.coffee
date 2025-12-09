@@ -16028,11 +16028,13 @@ exportObj.basicCardData = ->
         }
         {
             name: "Lieutenant Karsabi (SSL)"
+            xws: "lieutenantkarsabi-pnp-lsl"
             unique: true
             id: 763
             image_id: 162
             faction: "Galactic Empire"
             ship: "Alpha-Class Star Wing"
+            standard_loadout: true
             chassis: "Prioritized Weapons Systems"
             skill: 3
             points: 38
@@ -16057,12 +16059,14 @@ exportObj.basicCardData = ->
         }
         {
             name: "Lieutenant Karsabi (SSL SL)"
+            xws: "lieutenantkarsabi-pnp"
             skip: true
             unique: true
             id: 764
             image_id: 162
             faction: "Galactic Empire"
             ship: "Alpha-Class Star Wing"
+            standard_loadout: true
             chassis: "Prioritized Weapons Systems"
             skill: 3
             points: 13
@@ -16084,11 +16088,13 @@ exportObj.basicCardData = ->
         }
         {
             name: "Major Vynder (SSL)"
+            xws: "majorvynder-pnp-lsl"
             unique: true
             id: 765
             image_id: 161
             faction: "Galactic Empire"
             ship: "Alpha-Class Star Wing"
+            standard_loadout: true
             chassis: "Prioritized Weapons Systems"
             skill: 4
             points: 46
@@ -16113,12 +16119,14 @@ exportObj.basicCardData = ->
         }
         {
             name: "Major Vynder (SSL SL)"
+            xws: "majorvynder-pnp"
             skip: true
             unique: true
             id: 766
             image_id: 161
             faction: "Galactic Empire"
             ship: "Alpha-Class Star Wing"
+            standard_loadout: true
             chassis: "Prioritized Weapons Systems"
             skill: 4
             points: 14
@@ -16140,11 +16148,13 @@ exportObj.basicCardData = ->
         }
         {
             name: '"Echo" (SSL)'
+            xws: "echo-pnp-lsl"
             unique: true
             id: 767
             image_id: 200
             faction: "Galactic Empire"
             ship: "TIE/ph Phantom"
+            standard_loadout: true
             skill: 4
             points: 48
             charge: 1
@@ -16158,12 +16168,14 @@ exportObj.basicCardData = ->
         }
         {
             name: '"Echo" (SSL SL)'
+            xws: "echo-pnp"
             skip: true
             unique: true
             id: 768
             image_id: 200
             faction: "Galactic Empire"
             ship: "TIE/ph Phantom"
+            standard_loadout: true
             skill: 4
             points: 14
             charge: 1
@@ -16176,11 +16188,13 @@ exportObj.basicCardData = ->
         }
         {
             name: '"Whisper" (SSL)'
+            xws: "whisper-pnp-lsl"
             unique: true
             id: 769
             image_id: 199
             faction: "Galactic Empire"
             ship: "TIE/ph Phantom"
+            standard_loadout: true
             skill: 5
             points: 57
             charge: 2
@@ -16193,12 +16207,14 @@ exportObj.basicCardData = ->
         }
         {
             name: '"Whisper" (SSL SL)'
+            xws: "whisper-pnp"
             skip: true
             unique: true
             id: 770
             image_id: 199
             faction: "Galactic Empire"
             ship: "TIE/ph Phantom"
+            standard_loadout: true
             skill: 5
             points: 15
             charge: 2
