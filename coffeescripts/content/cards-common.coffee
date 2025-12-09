@@ -16026,6 +16026,188 @@ exportObj.basicCardData = ->
                 "Configuration"
             ]
         }
+        {
+            name: "Lieutenant Karsabi (SSL)"
+            unique: true
+            id: 763
+            image_id: 162
+            faction: "Galactic Empire"
+            ship: "Alpha-Class Star Wing"
+            chassis: "Prioritized Weapons Systems"
+            skill: 3
+            points: 38
+            ship_override:
+                actions: [
+                    "Focus"
+                    "Lock"
+                    "Slam"
+                    "R-> Lock"
+                    "Slam"
+                    "R-> Reload"
+                    "Reload"
+                ]
+            slots: [
+                "Talent"
+                "Sensor"
+                "Torpedo"
+                "Missile"
+                "Modification"
+                "Configuration"
+            ]
+        }
+        {
+            name: "Lieutenant Karsabi (SSL SL)"
+            skip: true
+            unique: true
+            id: 764
+            image_id: 162
+            faction: "Galactic Empire"
+            ship: "Alpha-Class Star Wing"
+            chassis: "Prioritized Weapons Systems"
+            skill: 3
+            points: 13
+            ship_override:
+                actions: [
+                    "Focus"
+                    "Lock"
+                    "Slam"
+                    "R-> Lock"
+                    "Slam"
+                    "R-> Reload"
+                    "Reload"
+                ]
+            upgrades: [
+                "Proton Torpedoes"
+                "Saturation Rockets (SL)"
+                "Electronic Baffle"
+            ]
+        }
+        {
+            name: "Major Vynder (SSL)"
+            unique: true
+            id: 765
+            image_id: 161
+            faction: "Galactic Empire"
+            ship: "Alpha-Class Star Wing"
+            chassis: "Prioritized Weapons Systems"
+            skill: 4
+            points: 46
+            ship_override:
+                actions: [
+                    "Focus"
+                    "Lock"
+                    "Slam"
+                    "R-> Lock"
+                    "Slam"
+                    "R-> Reload"
+                    "Reload"
+                ]
+            slots: [
+                "Talent"
+                "Sensor"
+                "Torpedo"
+                "Missile"
+                "Modification"
+                "Configuration"
+            ]
+        }
+        {
+            name: "Major Vynder (SSL SL)"
+            skip: true
+            unique: true
+            id: 766
+            image_id: 161
+            faction: "Galactic Empire"
+            ship: "Alpha-Class Star Wing"
+            chassis: "Prioritized Weapons Systems"
+            skill: 4
+            points: 14
+            ship_override:
+                actions: [
+                    "Focus"
+                    "Lock"
+                    "Slam"
+                    "R-> Lock"
+                    "Slam"
+                    "R-> Reload"
+                    "Reload"
+                ]
+            upgrades: [
+                "Long-Range Scanners (SL)"
+                "Ion Cannon"
+                "Heavy Plasma Missiles (SL)"
+            ]
+        }
+        {
+            name: '"Echo" (SSL)'
+            unique: true
+            id: 767
+            image_id: 200
+            faction: "Galactic Empire"
+            ship: "TIE/ph Phantom"
+            skill: 4
+            points: 48
+            charge: 1
+            recurring: 1
+            slots: [
+                "Talent"
+                "Sensor"
+                "Gunner"
+                "Modification"
+            ]
+        }
+        {
+            name: '"Echo" (SSL SL)'
+            skip: true
+            unique: true
+            id: 768
+            image_id: 200
+            faction: "Galactic Empire"
+            ship: "TIE/ph Phantom"
+            skill: 4
+            points: 14
+            charge: 1
+            recurring: 1
+            upgrades: [
+                "Silent Hunter (SL)"
+                "Stealth Gambit (SL)"
+                "Manual Ailerons (SL)"
+            ]
+        }
+        {
+            name: '"Whisper" (SSL)'
+            unique: true
+            id: 769
+            image_id: 199
+            faction: "Galactic Empire"
+            ship: "TIE/ph Phantom"
+            skill: 5
+            points: 57
+            charge: 2
+            slots: [
+                "Talent"
+                "Sensor"
+                "Gunner"
+                "Modification"
+            ]
+        }
+        {
+            name: '"Whisper" (SSL SL)'
+            skip: true
+            unique: true
+            id: 770
+            image_id: 199
+            faction: "Galactic Empire"
+            ship: "TIE/ph Phantom"
+            skill: 5
+            points: 15
+            charge: 2
+            upgrades: [
+                "Without A Trace (SL)"
+                "Relay System (SL)"
+                "Stygium Reserve (SL)"
+            ]
+        }
     ]
 
     upgradesById: [
@@ -21993,6 +22175,10 @@ exportObj.basicCardData = ->
         {
             name: "Formed Up"
             id: 54
+        }
+        {
+            name: "Prioritized Weapons Systems"
+            id: 55
         }
     ]
 
