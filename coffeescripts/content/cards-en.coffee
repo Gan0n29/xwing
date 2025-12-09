@@ -1693,7 +1693,19 @@ exportObj.cardLoaders.English = () ->
         "7th Sky Corps Pilot":
            display_name: """7th Sky Corps Pilot"""
            text: """<i class="descriptive-text">The Z-95 starfighter has earned respect for adaptability and endurance, and the Republic's clone trooper model is designated to fit its pilots' unique capabilities.</i>"""
-
+        "Major Vynder (SSL)":
+           display_name: """Major Vynder <i class="pilot-title">Helping Hand - Left Side Legal</i>"""
+           text: """After you perform a %MISSILE% attack, you may perform a bonus %CANNON% attack. While you perform this bonus attack, you may change 1 %FOCUS% result to a %HIT% result."""
+        "Lieutenant Karsabi (SSL)":
+           display_name: """Lieutenant Karsabi <i class="pilot-title">Payload Courier - Left Side Legal</i>"""
+           text: """When you perform a %RELOAD% action, the chosen upgrade recovers 1 additional %CHARGE%."""
+        '"Whisper" (SSL)':
+           display_name: """“Whisper” <i class="pilot-title">Unseen Assailant - Left Side Legal</i>"""
+           text: """After you perform an attack, you may spend 1 %CHARGE% to perform a %CLOAK% action."""
+        '"Echo" (SSL)':
+           display_name: """“Echo” <i class="pilot-title">Copycat - Left Side Legal</i>"""
+           text: """After an enemy ship at range 0-1 performs an action on its action bar, you may spend 1 %CHARGE% to perform the same action, treating it as white."""
+        
         # Battle of Yavin Pilots
         "Garven Dreis (BoY)":
            display_name: """Garven Dreis <i class="pilot-title">Battle of Yavin - Left Side Legal</i>"""
@@ -4129,6 +4141,9 @@ exportObj.cardLoaders.English = () ->
         "Formed Up":
            display_name: "Formed Up"
            text: """At the end of the End Phase, if there is another friendly <strong>TIE/ln Fighter</strong> ship at range 0-1, you may remove 1 stress token."""
+        "Prioritized Weapons Systems":
+           display_name: "Prioritized Weapons Systems"
+           text: """Before you engage, you may gain a strain token to remove a disarm token."""
 
 
             
