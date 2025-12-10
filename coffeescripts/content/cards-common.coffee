@@ -4893,7 +4893,7 @@ exportObj.basicCardData = ->
 
         }
         {
-            name: "Major "
+            name: "Major Vynder"
             id: 161
             unique: true
             faction: "Galactic Empire"
