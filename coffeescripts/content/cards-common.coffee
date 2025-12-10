@@ -4893,7 +4893,7 @@ exportObj.basicCardData = ->
 
         }
         {
-            name: "Major Vynder"
+            name: "Major "
             id: 161
             unique: true
             faction: "Galactic Empire"
@@ -16051,10 +16051,10 @@ exportObj.basicCardData = ->
             slots: [
                 "Talent"
                 "Sensor"
+                "Cannon"
                 "Torpedo"
                 "Missile"
                 "Modification"
-                "Configuration"
             ]
         }
         {
@@ -16111,10 +16111,10 @@ exportObj.basicCardData = ->
             slots: [
                 "Talent"
                 "Sensor"
+                "Cannon"
                 "Torpedo"
                 "Missile"
                 "Modification"
-                "Configuration"
             ]
         }
         {
