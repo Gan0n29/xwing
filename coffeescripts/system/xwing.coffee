@@ -1183,73 +1183,103 @@ class exportObj.SquadBuilder
                 <div class="info-type"></div>
                 <span class="info-collection"></span>
                 <div class="row">
-                    <div class="col-sm-5">
-                        <table class="table-sm">
-                            <tbody>
+                    <table class="table-sm">
+                        <tbody>
+                            <td>
                                 <tr class="info-attack-bullseye">
                                     <td class="info-header"><i class="xwing-miniatures-font header-attack xwing-miniatures-font-bullseyearc"></i></td>
                                     <td class="info-data info-attack"></td>
                                 </tr>
+                            </td>
+                            <td>
                                 <tr class="info-attack">
                                     <td class="info-header"><i class="xwing-miniatures-font header-attack xwing-miniatures-font-frontarc"></i></td>
                                     <td class="info-data info-attack"></td>
                                 </tr>
+                            </td>
+                            <td>
                                 <tr class="info-attack-fullfront">
                                     <td class="info-header"><i class="xwing-miniatures-font header-attack xwing-miniatures-font-fullfrontarc"></i></td>
                                     <td class="info-data info-attack"></td>
                                 </tr>
+                            </td>
+                            <td>
                                 <tr class="info-attack-left">
                                     <td class="info-header"><i class="xwing-miniatures-font header-attack xwing-miniatures-font-leftarc"></i></td>
                                     <td class="info-data info-attack"></td>
                                 </tr>
+                            </td>
+                            <td>
                                 <tr class="info-attack-right">
                                     <td class="info-header"><i class="xwing-miniatures-font header-attack xwing-miniatures-font-rightarc"></i></td>
                                     <td class="info-data info-attack"></td>
                                 </tr>
+                            </td>
+                            <td>
                                 <tr class="info-attack-back">
                                     <td class="info-header"><i class="xwing-miniatures-font header-attack xwing-miniatures-font-reararc"></i></td>
                                     <td class="info-data info-attack"></td>
                                 </tr>
+                            </td>
+                            <td>
                                 <tr class="info-attack-turret">
                                     <td class="info-header"><i class="xwing-miniatures-font header-attack xwing-miniatures-font-singleturretarc"></i></td>
                                     <td class="info-data info-attack"></td>
                                 </tr>
+                            </td>
+                            <td>
                                 <tr class="info-attack-doubleturret">
                                     <td class="info-header"><i class="xwing-miniatures-font header-attack xwing-miniatures-font-doubleturretarc"></i></td>
                                     <td class="info-data info-attack"></td>
                                 </tr>
+                            </td>
+                            <td>
                                 <tr class="info-agility">
                                     <td class="info-header"><i class="xwing-miniatures-font header-agility xwing-miniatures-font-agility"></i></td>
                                     <td class="info-data info-agility"></td>
                                 </tr>
+                            </td>
+                            <td>
                                 <tr class="info-hull">
                                     <td class="info-header"><i class="xwing-miniatures-font header-hull xwing-miniatures-font-hull"></i></td>
                                     <td class="info-data info-hull"></td>
                                 </tr>
+                            </td>
+                            <td>
                                 <tr class="info-shields">
                                     <td class="info-header"><i class="xwing-miniatures-font header-shield xwing-miniatures-font-shield"></i></td>
                                     <td class="info-data info-shields"></td>
                                 </tr>
+                            </td>
+                            <td>
                                 <tr class="info-force">
                                     <td class="info-header"><i class="xwing-miniatures-font header-force xwing-miniatures-font-forcecharge"></i></td>
                                     <td class="info-data info-force"></td>
                                 </tr>
+                            </td>
+                            <td>
                                 <tr class="info-charge">
                                     <td class="info-header"><i class="xwing-miniatures-font header-charge xwing-miniatures-font-charge"></i></td>
                                     <td class="info-data info-charge"></td>
                                 </tr>
+                            </td>
+                            <td>
                                 <tr class="info-energy">
                                     <td class="info-header"><i class="xwing-miniatures-font header-energy xwing-miniatures-font-energy"></i></td>
                                     <td class="info-data info-energy"></td>
                                 </tr>
+                            </td>
+                            <td>
                                 <tr class="info-range">
                                     <td class="info-header translated" defaultText="Range"></td>
                                     <td class="info-data info-range"></td><td class="info-rangebonus"><i class="xwing-miniatures-font red header-range xwing-miniatures-font-rangebonusindicator"></i></td>
                                 </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                    <div class="col-sm-7">
+                            </td>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="row">
+                    <div class="col-sm-5">
                         <table class="table-sm">
                             <tbody>
                                 <tr class="info-skill">
@@ -1275,23 +1305,26 @@ class exportObj.SquadBuilder
                             </tbody>
                         </table>
                     </div>
+                    <div class="col-sm-7">
+                        <table class="table-sm">
+                            <tbody>
+                                <tr class="info-ship">
+                                    <td class="info-header translated" defaultText="Ship"></td>
+                                    <td class="info-data"></td>
+                                </tr>
+                                <tr class="info-actions">
+                                    <td class="info-header translated" defaultText="Actions"></td>
+                                    <td class="info-data"></td>
+                                </tr>
+                                <tr class="info-upgrades">
+                                    <td class="info-header translated" defaultText="Upgrades"></td>
+                                    <td class="info-data"></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
                 </div>
-                <table class="table-sm">
-                    <tbody>
-                        <tr class="info-ship">
-                            <td class="info-header translated" defaultText="Ship"></td>
-                            <td class="info-data"></td>
-                        </tr>
-                        <tr class="info-actions">
-                            <td class="info-header translated" defaultText="Actions"></td>
-                            <td class="info-data"></td>
-                        </tr>
-                        <tr class="info-upgrades">
-                            <td class="info-header translated" defaultText="Upgrades"></td>
-                            <td class="info-data"></td>
-                        </tr>
-                    </tbody>
-                </table>
+                
                 <p class="info-restrictions"></p>
                 <p class="info-text"></p>
                 <p class="info-chassis"></p>
