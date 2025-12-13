@@ -31449,9 +31449,9 @@ exportObj.epicExclusions = (data) ->
     #if data.upgrades?
     #    return false
     #else
-    if data.name? and (data.name in exportObj.wildSpaceExclusionsList)
-        return false
-    else
+    #if data.name? and (data.name in exportObj.wildSpaceExclusionsList)
+    #    return false
+    #else
         return true
 
 exportObj.standardExclusions = (data) ->
