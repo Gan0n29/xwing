@@ -354,6 +354,8 @@ class exportObj.SquadBuilderBackend
 
         $.ajax
             url: "#{@server}/ping"
+            xhrFields:
+                withCredentials: true  
             success: (data) =>
                 if data?.success
                     @authenticated = true
