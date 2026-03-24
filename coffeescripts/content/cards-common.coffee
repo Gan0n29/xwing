@@ -7994,7 +7994,7 @@ exportObj.basicCardData = ->
             faction: "Separatist Alliance"
             ship: "Nantex-Class Starfighter"
             skill: 4
-            points: 31
+            points: 37
             slots: [
                 "Talent"
                 "Talent"
@@ -15728,7 +15728,7 @@ exportObj.basicCardData = ->
             faction: "Galactic Empire"
             ship: "TIE/in Interceptor"
             skill: 5
-            points: 49
+            points: 50
             slots: [
                 "Talent"
                 "Modification"
@@ -15963,7 +15963,7 @@ exportObj.basicCardData = ->
             faction: "Scum and Villainy"
             ship: "Kihraxz Fighter"
             skill: 4
-            points: 40
+            points: 43
             charge: 2
             max_per_squad: 2
             slots: [
@@ -15983,7 +15983,7 @@ exportObj.basicCardData = ->
             faction: "Separatist Alliance"
             ship: "Belbullab-22 Starfighter"
             skill: 5
-            points: 43
+            points: 47
             charge: 1
             recurring: 1
             slots: [
@@ -16001,7 +16001,7 @@ exportObj.basicCardData = ->
             faction: "Separatist Alliance"
             ship: "Vulture-class Droid Fighter"
             skill: 1
-            points: 23
+            points: 22
             keyword: ["Droid"]
             slots: [
                 "Missile"
