@@ -1149,7 +1149,7 @@ class exportObj.SquadBuilder
         # conditions
         @condition_container = $ document.createElement('div')
         @condition_container.addClass 'conditions-container d-flex flex-wrap'
-        @container.append @condition_container
+        @obstacles_container.after @condition_container
 
         @mobile_tooltip_modal = $ document.createElement 'DIV'
         @mobile_tooltip_modal.addClass 'modal fade choose-obstacles-modal d-print-none'
