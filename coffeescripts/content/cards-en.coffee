@@ -1739,10 +1739,10 @@ exportObj.cardLoaders.English = () ->
            text: """After you receive a stress token, you may roll 1 attack die to remove it. On a %HIT% result, suffer 1 %HIT% damage."""
         "Hol Okand (BoY)":
            display_name: """Hol Okand <i class="pilot-title">Battle of Yavin - Left Side Legal</i>"""
-           text: """During the System Phasse, if there are no enemy ships at range 1-2, you may recover 1 %CHARGE% on any upgrade."""
+           text: """During the System Phase, if there are no enemy ships at range 1-2, you may recover 1 %CHARGE% on any upgrade."""
         "Hol Okand (BoY SL)":
            display_name: """Hol Okand <i class="pilot-title">Battle of Yavin - Standard Loadout</i>"""
-           text: """During the System Phasse, if there are no enemy ships at range 1-2, you may recover 1 %CHARGE% on any upgrade."""
+           text: """During the System Phase, if there are no enemy ships at range 1-2, you may recover 1 %CHARGE% on any upgrade."""
         '"Pops" Krail (BoY)':
            display_name: """“Pops” Krail <i class="pilot-title">Battle of Yavin - Left Side Legal</i>"""
            text: """While you perform a %SINGLETURRETARC% attack, you may reroll up to 2 attack dice."""
@@ -1849,10 +1849,10 @@ exportObj.cardLoaders.English = () ->
            text: """At the start of the End Phase, you may perform a purple %COORDINATE% action, even while stressed %LINEBREAK% After you perform a %COORDINATE% action, if the chosen ship has the <b>Born for This</b> ship ability, you may coordinate 1 additional ship."""
         '"Odd Ball" (SoC)':
            display_name: """“Odd Ball” <i class="pilot-title">Siege of Coruscant - Left Side Legal</i>"""
-           text: """After you fully execute a red maneuver or perform a red action, you camy choose a friendly ship at range 0-3 and an enemy at range 0-1. The chosen frendly ship gains a lock on the enemy ship."""
+           text: """After you fully execute a red maneuver or perform a red action, you may choose a friendly ship at range 0-3 and an enemy at range 0-1. The chosen frendly ship gains a lock on the enemy ship."""
         '"Odd Ball" (SoC SL)':
            display_name: """“Odd Ball” <i class="pilot-title">Siege of Coruscant - Standard Loadout</i>"""
-           text: """After you fully execute a red maneuver or perform a red action, you camy choose a friendly ship at range 0-3 and an enemy at range 0-1. The chosen frendly ship gains a lock on the enemy ship."""
+           text: """After you fully execute a red maneuver or perform a red action, you may choose a friendly ship at range 0-3 and an enemy at range 0-1. The chosen frendly ship gains a lock on the enemy ship."""
         '"Wolffe" (SoC)':
            display_name: """“Wolffe” <i class="pilot-title">Siege of Coruscant - Left Side Legal</i>"""
            text: """While you perform a primary %FRONTARC% attack, you may spend 1 %CHARGE% to reroll 1 attack die. While you perform a primary %REARARC% attack, you may recover 1 %CHARGE% to roll 1 additional die."""
