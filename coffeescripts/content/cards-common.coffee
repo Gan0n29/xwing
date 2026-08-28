@@ -16028,6 +16028,7 @@ exportObj.basicCardData = ->
         }
         {
             name: "Lieutenant Karsabi (SSL)"
+            canonical_name: 'Lieutenant Karsabi'.canonicalize()
             xws: "lieutenantkarsabi-pnp-lsl"
             unique: true
             id: 763
@@ -16059,6 +16060,7 @@ exportObj.basicCardData = ->
         }
         {
             name: "Lieutenant Karsabi (SSL SL)"
+            canonical_name: 'Lieutenant Karsabi'.canonicalize()
             xws: "lieutenantkarsabi-pnp"
             skip: true
             unique: true
@@ -16088,6 +16090,7 @@ exportObj.basicCardData = ->
         }
         {
             name: "Major Vynder (SSL)"
+            canonical_name: 'Major Vynder'.canonicalize()
             xws: "majorvynder-pnp-lsl"
             unique: true
             id: 765
@@ -16119,6 +16122,7 @@ exportObj.basicCardData = ->
         }
         {
             name: "Major Vynder (SSL SL)"
+            canonical_name: 'Major Vynder'.canonicalize()
             xws: "majorvynder-pnp"
             skip: true
             unique: true
@@ -16148,6 +16152,7 @@ exportObj.basicCardData = ->
         }
         {
             name: '"Echo" (SSL)'
+            canonical_name: '"Echo"'.canonicalize()
             xws: "echo-pnp-lsl"
             unique: true
             id: 767
@@ -16168,6 +16173,7 @@ exportObj.basicCardData = ->
         }
         {
             name: '"Echo" (SSL SL)'
+            canonical_name: '"Echo"'.canonicalize()
             xws: "echo-pnp"
             skip: true
             unique: true
@@ -16188,6 +16194,7 @@ exportObj.basicCardData = ->
         }
         {
             name: '"Whisper" (SSL)'
+            canonical_name: '"Whisper"'.canonicalize()
             xws: "whisper-pnp-lsl"
             unique: true
             id: 769
@@ -16207,6 +16214,7 @@ exportObj.basicCardData = ->
         }
         {
             name: '"Whisper" (SSL SL)'
+            canonical_name: '"Whisper"'.canonicalize()
             xws: "whisper-pnp"
             skip: true
             unique: true
