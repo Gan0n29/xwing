@@ -2413,7 +2413,7 @@ class exportObj.SquadBuilder
                         slot_types[slot] = -1
                     for name, pilot of exportObj.pilots
                         # skip all pilots with wrong ship or faction
-                        if pilot.ship != data.name or not @isOurFaction(pilot.faction) 
+                        if pilot.ship != data.name or not @isOurFaction(pilot.faction) or not @isItemAvailable(pilot, true)
                             continue
                         if not (pilot.skill in possible_inis)
                             possible_inis.push(pilot.skill)
