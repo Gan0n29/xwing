@@ -11868,7 +11868,7 @@ exportObj.basicCardData = ->
             faction: "Galactic Empire"
             ship: "TIE/in Interceptor"
             skill: 4
-            points: 64
+            points: 54
             charge: 2
             recurring: 1
             keyword: ["AlreadyHasShieldUpgrade"]
@@ -15522,7 +15522,7 @@ exportObj.basicCardData = ->
             faction: "Galactic Empire"
             ship: "TIE/ln Fighter"
             skill: 2
-            points: 42
+            points: 34
             chassis: "Formed Up"
             keyword: ["AlreadyHasHullUpgrade"]
             ship_override:
