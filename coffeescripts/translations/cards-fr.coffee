@@ -2612,8 +2612,10 @@ exportObj.cardLoaders['Français'] = () ->
         '"Leebo" (Scum SL)':
            display_name: """“Leebo” <i class="pilot-title">Arsenal Standard</i>"""
            text: """A la fin de la phase d’engagement, vous pouvez dépenser un marqueur de calcul pour verrouiller un vaisseau ennemi à portée 2–3."""
-
+            
+       
         # Battle Over Endor Pilots
+        
         "Wedge Antilles (BoE)":
            display_name: """Wedge Antilles <i class="pilot-title">Bataille d'Endor - Left Side Legal</i>"""
            text: """Après avoir effectué une attaque qui a touché, gagnez un marqueur de concentration."""
@@ -2734,6 +2736,72 @@ exportObj.cardLoaders['Français'] = () ->
         "Scimitar 3 (BoE SL)":
            display_name: """Scimitar 3 <i class="pilot-title">Bataille d'Endor - Arsenal Standard</i>"""
            text: """Après avoir largué une bombe, vous pouvez dépenser 1 %CHARGE% pour effectuer une action %BOOST%."""
+
+        # Warriors and Turncoats
+
+        "FN-2187":
+           display_name: """FN-2187"""
+           text: """Au début de la Phase d'Engagement, vous pouvez gagner 1 marqueur d'épuisement pour choisir un vaisseau ennemi dans votre %FRONTARC%. Dans ce cas ce vaisseau gagne 1 marqueur de contrainte."""
+        '"Strife"':
+           display_name: """“Strife”"""
+           text: """Après qu'un vaisseau ennemi dans votre %SINGLETURRETARC% défend, si vous n'êtes pas contraint, vous pouvez gagner 1 marqueur de contrainte pour acquérir un verrouillage sur ce vaisseau."""
+        "Enric Pryde":
+           display_name: """Enric Pryde"""
+           text: """Après avoir effectué une attaque, vous pouvez choisir un vaisseau allié à portée 0-3. Dans ce cas, vous et le vaisseau choisi pouvez effectuer une attaque bonus. Ensuite le vaisseau choisi est détruit."""
+        "Captain Yorr":
+           display_name: """Capitaine Yorr"""
+           text: """Avant qu'un vaisseau allié à portée 0-3 ne gagne 1 marqueur rouge non-verrouillage ou orange, si vous n'avez pas de marqueurs du même type, vous pouvez dépenser 2 %CHARGE% pour gagner ce marqueur à sa place."""
+        "Carnor Jax":
+           display_name: """Carnor Jax"""
+           text: """Pendant la Phase d'Engagement, vous pouvez choisir 1 vaisseau dans votre %FRONTARC% à portée 0-1. Dans ce cas ce vaisseau ennemi gagne 1 marqueur de brouillage."""
+        "Captain Saxton":
+           display_name: """Capitaine Saxton"""
+           text: """Tant qu'un vaisseau allié à portée 0-2 se désocculte, vous pouvez dépenser 2 %CHARGE% pour que ce vaisseau puisse utiliser un gabarit avec une vitesse supérieure ou inférieure de 1."""
+        "Depa Billaba":
+           display_name: """Depa Billaba"""
+           text: """Tant qu'un vaisseau allié dans votre %FULLFRONTARC% défend ou effectue une attaque, si ce vaisseau a plus de %FORCE% inactives que de %FORCE% actives, ce vaisseau peut dépenser vos %FORCE% comme si c'était les siennes."""
+        "Rhys Dallows":
+           display_name: """Rhys Dallows"""
+           text: """Avant que vous ou un vaisseau allié <strong>Essara Till</strong> à portée 0-3 gagne un marqueur vert, ce vaisseau peut effectuer une action %BARRELROLL% à la place."""
+        "Essara Till":
+           display_name: """Essara Till"""
+           text: """Avant que vous ou un vaisseau allié <strong>Rhys Dallows</strong> à portée 0-3 gagne un marqueur vert, ce vaisseau peut effectuer une action %LOCK% à la place."""
+        "Nera Dantels":
+           display_name: """Nera Dantels"""
+           text: """Gagnez un indicateur %SINGLETURRETARC%. Vous <b>devez</b> considérer le prérequis %FRONTARC% de vos améliorations %TORPEDO% équipées comme étant %SINGLETURRETARC%. %LINEBREAK%Après avoir gagné un marqueur de stress, vous pouvez pivoter votre %SINGLETURRETARC%."""
+        "Tarfful":
+           display_name: """Tarfful"""
+           text: """<strong>Mise en Place :</strong> Après avoir placé les forces, assignez l'état <strong>Libéré</strong> à un autre vaisseau allié Wookiee ou à un vaisseau non-limité. %LINEBREAK%Après qu'un vaisseau allié avec l'état <strong>Libéré</strong> défend, vous pouvez acquérir un verrouillage sur l'attaquant, en ignorant les restrictions de portée."""
+        "Antoc Merrick":
+           display_name: """Antoc Merrick"""
+           text: """Après avoir effectué une action %BOOST% ou %BARRELROLL%, vous pouvez choisir un autre vaisseau allié à portée 0-3. Dans ce cas, ce vaisseau peut effectuer la même action si elle est dans sa barre d'action."""
+        "Torra Doza":
+           display_name: """Torra Doza"""
+           text: """Quand un vaisseau allié à portée 0-3 expose une carte de dégâts, vous pouvez gagner 1 marqueur d'épuisement ou de stress. Dans ce cas, cette carte est placée face cachée au lieu de résoudre ses effets. %LINEBREAK%Après avoir retiré 1 marqueur rouge ou plus, retirez 1 marqueur supplémentaire du même type."""
+        "DJ":
+           display_name: """DJ"""
+           text: """Après avoir effectué une action %JAM%, vous pouvez gagner 1 marqueur d'occultation."""
+        "Jannah":
+           display_name: """Jannah"""
+           text: """Après avoir effectué une action ajoutée à votre barre d'action par une amélioration %CREW%, vous pouvez effectuer une action %REINFORCE%."""
+        "Rio Durant":
+           display_name: """Rio Durant"""
+           text: """Après avoir effectué une attaque, vous pouvez pivoter votre %SINGLETURRETARC%."""
+        "Janus Kasmir":
+           display_name: """Janus Kasmir"""
+           text: """Au début de la Phase d'Engagement, vous pouvez dépenser 1 marqueur vert pour effectuer une action %JAM% même si vous êtes stressé."""
+        "Black Sun Bodyguard":
+           display_name: """Gardes du Corps du Soleil Noir"""
+           text: """<strong>Mise en Place :</strong> Perdez 2 %CHARGE%. %LINEBREAK%Après avoir subi un dégât, récupérez 1 %CHARGE%. %LINEBREAK%Avant de vous engager, vous pouvez dépenser 2 %CHARGE% pour récupérer 1 %CHARGE% sur 1 de vos améliorations équipées."""
+        "Hallio Bas":
+           display_name: """Hallio Bas"""
+           text: """Tant que vous défendez ou effectuez une attaque, avant que les dés d'attaque ne soient lancés, s'il n'y a aucun autre vaisseau allié à portée 0-1, vous pouvez dépenser 1 %CHARGE% pour retirer 1 marqueur rouge ou orange."""
+        "00M Uplink Prototype":
+           display_name: """Prototype à Liaison Montante OOM"""
+           text: """Tant qu'un vaisseau allié à portée 0-1 utilise <strong>Calculs en Réseau</strong>, il peut considérer les vaisseaux alliés à portée 0-1 de vous comme étant à portée 1."""
+        "DFS-420":
+           display_name: """DFS-420"""
+           text: """Vous pouvez effectuer des attaques principales à portée 0. %LINEBREAK%Après avoir effectué une manœuvre rouge ou une action rouge, s'il y a un vaisseau ennemi à portée 0-1, vous pouvez retirer 1 marqueur de stress."""
 
         # Epic Ships
         "Republic Judiciary":
@@ -4470,8 +4538,11 @@ exportObj.cardLoaders['Français'] = () ->
         """Broken Trust""":
            display_name: """Confiance Brisée"""
            text: """Considérez les vaisseaux alliés comme étant amicaux.%LINEBREAK%Les vaisseaux non-ennemis vous considèrent comme étant amical.%LINEBREAK%Tant que vous effectuez une attaque, avant de déclarer le défenseur, chaque vaisseau amical situé dans l'arc d'attaque et qui n'est pas stressé, gagne 1 marqueur de stress.%LINEBREAK%Après que vous avez défendu ou effectué une attaque, si au moins 1 carte de dégât face visible a été attribuée au défenseur ou s'il a été détruit, retirez cet état."""
-
-
+        """Liberated""":
+           display_name: """Libéré"""
+           text: """Tant qu'un <strong>Tarfful</strong> allié à portée 0-2 défend, après l'étape de Neutralisation des résultats, s'il y a au moins 2 résultats %HIT%/%CRIT%, vous pouvez subir 1 dégât %HIT%/%CRIT% pour annuler 1 résultat correspondant.%LINEBREAK%Après que vous avez été détruit, vous devez choisir un autre vaisseau allié <b>Wookiee</b> ou un vaisseau allié non-limité et lui assigner la condition, si possible.%LINEBREAK%Cette condition ne peut pas être assignée à <strong>Tarfful</strong>."""
+    
+    
     chassis_translations =
         "Vectored Thrusters":
            display_name: "Propulseurs Vectoriels "
