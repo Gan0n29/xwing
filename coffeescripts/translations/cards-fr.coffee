@@ -4074,35 +4074,35 @@ exportObj.cardLoaders['Français'] = () ->
         # RSL SALVAGE PACK   
 		
         "Silent Hunter (Legacy)":
-           display_name: """Chasseur Silencieux (Legacy)"""
+           display_name: """Traqueur Silencieux (Legacy)"""
            text: """Après vous être désocculté, vous pouvez verrouiller un vaisseau ennemi dans votre %BULLSEYEARC%."""
         "Formed Up (Legacy)":
-           display_name: "Formation (Legacy)"
-           text: """À la fin de la phase de dénouement, s’il y a au moins 2 autres <strong>Chasseurs TIE/ln</strong> alliés à portée 0-1 ou un autre vaisseau allié équipé de l’amélioration <strong>Formation</strong> à portée 0-1, vous pouvez retirer 1 marqueur rouge autre qu’un verrouillage."""
+           display_name: "En Formation (Legacy)"
+           text: """À la fin de la phase de dénouement, s’il y a au moins 2 autres <strong>Chasseurs TIE/ln</strong> alliés à portée 0-1 ou un autre vaisseau allié équipé de l’amélioration <strong>En Formation</strong> à portée 0-1, vous pouvez retirer 1 marqueur rouge non verrouillage."""
         '"Leebo" (Legacy)':
            display_name: """“Leebo” (Legacy)"""
            text: """Après avoir réparé une carte Dégât, vous pouvez effectuer une action de votre barre d’actions."""
         "Parting Gift (Legacy)":
            display_name: """Cadeau d’Adieu (Legacy)"""
-           text: """Après avoir été détruit, vous pouvez larguer 1 bombe. Dans ce cas, vous devez la placer dans la zone de jeu de façon à ce qu’elle vous touche."""
+           text: """Après avoir été détruit, vous pouvez larguer 1 bombe. Dans ce cas, vous <b>devez</b> la placer dans la zone de jeu de façon à ce qu’elle vous touche."""
         "Seeker Missiles (Legacy)":
-           display_name: """Missiles Chercheurs (Legacy)"""
-           text: """<strong>Attaque (%LOCK%) :</strong> dépensez 1 %CHARGE%. Après que cette attaque a échoué, si au moins 1 résultat %HIT%/%CRIT% a été neutralisé, le défenseur gagne 1 marqueur de tension."""
+           display_name: """Missile à Guidage Autonome (Legacy)"""
+           text: """<strong>Attaque (%LOCK%) :</strong> dépensez 1 %CHARGE%. Après que cette attaque a échoué, si au moins 1 résultat %HIT%/%CRIT% a été neutralisé, le défenseur gagne 1 marqueur de contrainte."""
         "Contingency Protocol (Legacy)":
-           display_name: """Protocole de Contingence"""
-           text: """Après avoir été détruit, vous pouvez choisir un vaisseau allié équipé de l’amélioration <b>Protocole de Contingence</b> à portée 0-3. Dans ce cas, il peut effectuer une action, même s’il est stressé."""
+           display_name: """Protocole d’Urgence"""
+           text: """Après que ce vaisseau a été détruit, un autre vaisseau allié à portée 0–3 doté d’un <b>Protocole d’Urgence</b> peut effectuer une action, même s'il est stressé. """
         "Roiling Anger (Legacy)":
-           display_name: """Colère Tourbillonnante"""
-           text: """Au début de la phase d’engagement, si vous êtes dans l’arc %FRONTARC% d’un vaisseau ennemi, vous pouvez gagner 1 marqueur de tension pour récupérer 1 %FORCE%."""
+           display_name: """Colère Déchaînée"""
+           text: """Au début de la phase d’engagement, si vous êtes dans l’arc %FRONTARC% d’un vaisseau ennemi, vous pouvez gagner 1 marqueur de contrainte pour récupérer 1 %FORCE%."""
         "No Escape (Legacy)":
            display_name: """Pas d’Échappatoire (Legacy)"""
            text: """Tant que vous effectuez une attaque principale, s’il y a plus de vaisseaux alliés que de vaisseaux ennemis à portée 0-1 du défenseur, vous pouvez relancer 1 de vos résultats vierges."""
         "Chaff Particles (Legacy)":
-           display_name: """Particules de Paillettes (Legacy)"""
-           text: """Tant que vous défendez, à la fin de l’étape de Neutralisation des résultats, vous pouvez dépenser 1 %CHARGE% et 1 résultat %FOCUS% ou %EVADE% pour retirer 1 marqueur rouge ou orange."""
+           display_name: """Particules de Brouillage (Legacy)"""
+           text: """Tant que vous défendez, à la fin de l’étape de Neutralisation des Résultats, vous pouvez dépenser 1 %CHARGE% et 1 résultat %FOCUS% ou %EVADE% pour retirer 1 marqueur rouge ou orange."""
         "Fuel Injection Override (Legacy)":
-           display_name: """Surcharge d’Injection de Carburant (Legacy)"""
-           text: """Avant de vous activer, vous pouvez dépenser 1 %CHARGE% et gagner 1 marqueur de tension. Dans ce cas, jusqu’à la fin du round, lorsque vous vous déplacez, vous devez utiliser un gabarit de vitesse supérieure de 1 si possible."""            
+           display_name: """Injection de Carburant Surchargé (Legacy)"""
+           text: """Avant de vous activer, vous pouvez dépenser 1 %CHARGE% et gagner 1 marqueur de contrainte. Dans ce cas, jusqu’à la fin du round, lorsque vous vous déplacez, vous devez utiliser un gabarit de vitesse supérieure de 1 si possible."""            
             
         # Standardized upgrades
 
