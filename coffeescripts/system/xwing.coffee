@@ -5048,10 +5048,12 @@ class Ship
                         if not (@pilot.skill > r[1]) then return false
                     when "InitiativeLessThan"
                         if not (@pilot.skill < r[1]) then return false
+                    when "HasForce"
+                        if @pilot.force? != r[1] then false
                     when "AgilityEquals"
                         if not (effective_stats.agility == r[1]) then return false
                     when "isUnique"
-                        if r[1] != @pilot.unique? then return false
+                        if r[1] != (@pilot.unique? or @pilot.max_per_squad?) then return false
                     when "Format"
                         switch r[1]
                             when "Epic"
